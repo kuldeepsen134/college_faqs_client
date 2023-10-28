@@ -1,0 +1,59 @@
+
+ 
+ b{
+    font-size:14pt;
+ }
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{
+		color: black;
+		font-size: 14px; 
+	}
+p.MsoListParagraph, li.MsoListParagraph, div.MsoListParagraph
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:10.0pt;
+	margin-left:.5in;
+	line-height:115%;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+p.MsoListParagraphCxSpFirst, li.MsoListParagraphCxSpFirst, div.MsoListParagraphCxSpFirst
+	{color: rgba(7, 83, 234, 0.717);
+        font-size: 16px;
+	margin-left: 1in;
+	}
+p.MsoListParagraphCxSpMiddle, li.MsoListParagraphCxSpMiddle, div.MsoListParagraphCxSpMiddle
+	{margin-top:0.05in;
+		color: rgba(7, 83, 234, 0.717);
+        font-size: 16px;
+		margin-left: 1in;
+	}
+p.MsoListParagraphCxSpLast, li.MsoListParagraphCxSpLast, div.MsoListParagraphCxSpLast
+	{color: rgba(7, 83, 234, 0.717);
+        font-size: 16px;
+		margin-left: 1in;
+	}
+
+	.MsoListParagraphCxSpFirst:hover{
+		text-decoration: underline;
+	}
+	.MsoListParagraphCxSpLast:hover{
+		text-decoration: underline;
+	}
+	.MsoListParagraphCxSpMiddle:hover{
+		text-decoration: underline;
+	}	
+.MsoChpDefault
+	{font-family:"Calibri",sans-serif;}
+.MsoPapDefault
+	{margin-bottom:10.0pt;
+	line-height:115%;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+/* div.WordSection1
+	{page:WordSection1;} */
+ /* List Definitions */
+ ol
+	{margin-bottom:0in;}
+ul
+	{margin-bottom:0in;}

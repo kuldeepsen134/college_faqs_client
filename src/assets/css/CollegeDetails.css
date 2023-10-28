@@ -1,0 +1,156 @@
+.col:hover{
+    color: #ffffff;
+}
+.col{
+    margin-left: -10px;
+}
+.col1:hover{
+background-color: #140342;
+color: #ffffff;
+border-radius: 25px ;
+}
+
+.on-h:hover{
+background-color: #140342;
+border-radius: 25px;
+color: #ffffff;
+
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+
+  .tb, th,td{
+    border: none;
+  }
+
+  .td1{
+    background-color: #dddddd;
+  }
+  
+.back{
+    text-align: center;
+    background-color: #dddddd;
+}
+.para{
+    margin-top: -20px;
+}
+.shift{
+    display: flex;
+}
+.none{
+    border: none;
+}
+
+
+
+* {
+    box-sizing: border-box;
+  }
+  
+  .column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  cursor: pointer;
+}
+  
+  /* Clearfix (clear floats) */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .column:hover{
+    opacity: .7;
+  }
+
+.card-body{
+    position: relative;
+    background-color: #ffffff;
+}
+ 
+
+  .card {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+position: absolute;
+top: -180px;
+right: 10px;  
+}
+
+  
+ 
+  
+.price1:hover{
+    background-color: #4f398d;
+    border-radius: 30px;
+   
+}
+.price{
+    color: #ffffff;
+}
+  .price1 {
+    background-color: #53B97E;
+    border-radius: 30px;
+    margin-left: 0px;
+    margin-top: 5px;
+    color: white;
+    font-size: 16px;
+ display: block;
+
+}
+
+.price2 {
+    background-color: #53B97E;
+    border-radius: 30px;
+    margin-left: 0px;
+    margin-top: -5px;
+    color: white;
+    font-size: 16px;
+ display: block;
+
+}
+.price2:hover{
+    background-color: #4f398d;
+    border-radius: 30px;
+   
+}
+  
+.price3 {
+    background-color: #53B97E;
+    border-radius: 30px;
+    margin-left: 0px;
+    margin-top: -5px;
+    color: white;
+    font-size: 16px;
+ display: block;
+
+}
+
+.price3:hover{
+    background-color: #4f398d;
+    border-radius: 30px;
+   
+}
+  
+
+  .card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  

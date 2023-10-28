@@ -1,0 +1,36 @@
+.subnav {
+  background-color: #140342 !important;
+  box-shadow: #fff 0px 0px 5px !important;
+}
+.subnav::before{
+  background-color: #140342 !important;
+  box-shadow: #fff 0px 0px 5px !important;
+  
+}
+.subnav li {
+    color: #fff !important;
+}
+.signup{
+  top: 35px;
+  right: -500px;
+  position: relative;
+  display: flex;
+}
+
+@media screen and (max-width:580px) {
+  .signup{
+    position: absolute;
+    right: 10px;
+    top: -30px;
+  }
+}
+
+
+
+@media screen and (max-width:282px) {
+  .signup{
+    position: absolute;
+    right: -18px;
+    top: -30px;
+  }
+}
