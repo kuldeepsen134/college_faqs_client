@@ -1,7 +1,20 @@
 export const SplitData = (details: any) => {
-  const arr = details && JSON.parse(details);
-  let data = arr && arr.length > 0 && arr[0].split(",")
-  return data
+  // let arr = details &&  details.split(",") 
+  // //  arr = JSON.parse(details);
+
+  // let data = arr && arr.length > 0 && arr[0].split(",")
+  // return data
+
+  let arr: string[] = [];
+  try {
+    arr = JSON.parse(details);
+  } catch (error) {
+    // If parsing as JSON fails, try splitting the input string
+    arr = details.split(",");
+  }
+  // Split the first element of the array
+  let data = arr[0] && arr[0].split(",");
+  return data;
 }
 
 
