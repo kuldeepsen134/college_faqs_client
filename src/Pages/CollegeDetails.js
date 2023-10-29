@@ -895,19 +895,21 @@ const CollegeDetails = () => {
                         ) : null}
                       </div> */}
 
-                      {specializationData?.map((specialization, i) => {
+                      {/* {specializationData?.map((specialization, i) => {
+                        console.log('details?.de[i].name', details?.de && details?.de[i].name, specialization.name);
+
                         if (details?.de && details?.de[i].name === specialization.name) {
                           return (
 
-                            <div className="form-check " key={specialization}>
-                              {/* <input
+                            <div className="form-check " >
+                              <input
                                 type="checkbox"
                                 className="form-check-input"
                                 // name="marketing"
                                 disabled={true}
                                 checked={details?.de && details?.de[i]?.value === 1 ? true : false}
                               // onChange={(e) => setmba_marketing(!mba_marketing)}
-                              /> */}
+                              />
                               <label
                                 className="form-check-label"
                                 htmlFor="ac_classroom"
@@ -918,8 +920,33 @@ const CollegeDetails = () => {
                           )
 
                         }
-                      })
+                      })} */}
+
+                      {
+                        details?.de && details?.de?.map((item) => {
+                          if (item.value === 1) {
+                            return (
+                              <div className="form-check " >
+                                {/* <input
+                                  type="checkbox"
+                                  className="form-check-input"
+                                  // name="marketing"
+                                  disabled={true}
+                                  checked={details?.de && details?.de[i]?.value === 1 ? true : false}
+                                // onChange={(e) => setmba_marketing(!mba_marketing)}
+                                /> */}
+                                <label
+                                  className="form-check-label"
+                                  htmlFor="ac_classroom"
+                                >
+                                  &#8226; {item.name}
+                                </label>
+                              </div>
+                            )
+                          }
+                        })
                       }
+
 
 
                     </div>

@@ -45,7 +45,7 @@ const CollegeListItem = ({ item }) => {
                 <span className="btn-text ">Compare</span>{" "}
               </Link>{" "}
               <br />
-              <a
+              {/* <a
                 href={
                   item.brochure && auth.token
                     ? STATIC_URL + "/files/" + item.brochure
@@ -55,7 +55,16 @@ const CollegeListItem = ({ item }) => {
                 className="btn btn-sm btn-rmi d-flex align-items-center justify-content-center px-1 px-md-2 rmi_10000139"
               >
                 <span className="btn-text">Brochure</span>{" "}
-              </a>{" "}
+              </a>{" "} */}
+
+              <a href={item.brochure} download
+                className="btn btn-sm btn-rmi d-flex align-items-center justify-content-center px-1 px-md-2 rmi_10000139"
+              >
+                {/* <img src={`${STATIC_URL}/files/${item.brochure}`} alt="W3Schools" width="104" height="142" /> */}
+                Brochure
+              </a>
+
+
             </div>
           </div>
         </div>

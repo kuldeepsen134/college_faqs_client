@@ -4,6 +4,8 @@ import { useEffect, useRef, useState } from "react";
 import useAuth from "../../hooks/useAuth";
 import "./NavBar.css";
 import { instance } from "../../api/axios";
+import { useSelector, useDispatch } from "react-redux";
+import { headerSearch } from "../../redux/commonSlice/commonSlice";
 
 const PublicHeader = () => {
 
@@ -13,43 +15,15 @@ const PublicHeader = () => {
   const contentRef = useRef();
   const handleLogout = async () => { };
 
+  const dispatch = useDispatch()
 
-  // useEffect(() => {
-  //   let responeSearch = setTimeout(async () => {
-  //     return await instance.post('/college-list', { q: query })
-  //   }, 500)
-  //     (async () => {
-
-  //       // try {
-  //       //   responeSearch = setTimeout(async () => {
-  //       //     let responce = await instance.post('/college-list', { q: query })
-  //       //     console.log('respo', responce);
-
-  //       //   }, 500)
-
-  //       // } catch (error) {
-  //       //   console.error('error>>>>>>', error);
-  //       // }
-
-  //       return () => clearTimeout(responeSearch)
-
-
-
-
-  //     })()
-
-  // }, [query])
+  const { search, loading } = useSelector((state) => state.commonHeader)
 
   useEffect(() => {
     let timeoutId;
 
     const fetchData = async () => {
-      try {
-        const response = await instance.post('/college-list', { q: query });
-        console.log('Response:', response);
-      } catch (error) {
-        console.error('Error:', error);
-      }
+      query && dispatch(headerSearch({ q: query }))
     };
 
     if (timeoutId) {

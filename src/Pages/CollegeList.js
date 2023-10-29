@@ -4,6 +4,9 @@ import axios from "../api/axios";
 import CollegeListItem from "../Components/CollegeListItem";
 import ReactPaginate from "react-paginate";
 import "../assets/css/main.css";
+
+import { useSelector } from "react-redux";
+
 import {
   UncontrolledAccordion,
   AccordionBody,
@@ -20,9 +23,10 @@ const CollegeList = ({ itemsPerPage = 6 }) => {
   const page = urlSearchParams.get("q") || null;
   const m = urlSearchParams.get("m") || null;
 
+  const { search, loading } = useSelector((state) => state.commonHeader)
 
 
-  console.log('m', m);
+  console.log('m>>>', search);
   var url = "/college-list";
   var menu_page = urlSearchParams.get("state") || null;
 
@@ -38,7 +42,7 @@ const CollegeList = ({ itemsPerPage = 6 }) => {
     // console.log("ENTER")
     menu_page = urlSearchParams.get("city") || null;
 
-    url = m == "Top Government MBA Colleges" ? '/college-list/top-collages/governmen' : m == 'Top Private MBA Colleges' ? '/college-list/top-collages/private' :
+    url = m == "Top Government MBA Colleges" ? '/college-list/top-collages/government' : m == 'Top Private MBA Colleges' ? '/college-list/top-collages/private' :
       m == 'NIRF MBA College Ranking' &&
       "/college-list/top-collages/NIRF"
     // url = '/college-list/top-collages/NIRF'
@@ -46,7 +50,7 @@ const CollegeList = ({ itemsPerPage = 6 }) => {
   }
 
 
-  console.log('url>>>>', url);
+  console.log('url>>>>search', search);
 
   const [itemOffset, setItemOffset] = useState(0);
   const [locations, setLocations] = useState([
@@ -65,11 +69,35 @@ const CollegeList = ({ itemsPerPage = 6 }) => {
   ]);
   const [feesFilter, setFeesFilter] = useState("");
   const [data, setData] = useState([]);
+  const [currentItems, setCurrentItem] = useState([])
+
+
 
   const endOffset = itemOffset + itemsPerPage;
   // console.log(`Loading items from ${itemOffset} to ${endOffset}`);
-  const currentItems = data.slice(itemOffset, endOffset);
+  // const currentItems = search?.data?.length > 0 ? search?.data : data.slice(itemOffset, endOffset);
   const pageCount = Math.ceil(data.length / itemsPerPage);
+
+
+  useEffect(() => {
+    setCurrentItem(data.slice(itemOffset, endOffset))
+  }, [data, endOffset, itemOffset])
+
+
+  useEffect(() => {
+    if (search?.data?.length > 0) {
+      console.log('search>11111111111', search);
+      setCurrentItem(search.data)
+    } else {
+      setCurrentItem([])
+    }
+  }, [search])
+
+
+
+
+
+
   useEffect(() => {
     console.log("menu_page", menu_page);
     if (!page && !menu_page && !locationFilter && !feesFilter) {
@@ -122,7 +150,7 @@ const CollegeList = ({ itemsPerPage = 6 }) => {
     };
   }, [page, menu_page, locationFilter, url]);
 
-
+  console.log('currentItems>>>>>', currentItems);
 
 
 
@@ -284,7 +312,7 @@ const CollegeList = ({ itemsPerPage = 6 }) => {
                   </div>
                   <div className="row y-gap-60">
                     <div className="row">
-                      {currentItems.map((item) => {
+                      {currentItems.length <= 0 ? 'No Data Found' : currentItems.map((item) => {
                         return <CollegeListItem item={item} key={item.id} />;
                       })}
                     </div>
