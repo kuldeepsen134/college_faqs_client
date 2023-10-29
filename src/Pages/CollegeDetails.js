@@ -538,7 +538,7 @@ const CollegeDetails = () => {
                       {/* <p>{details.overview} </p> */}
                       <ul>
                         {
-                          SplitData(details?.overview)?.map((item) => {
+                          details?.overview && SplitData(details?.overview)?.map((item) => {
                             return (
                               <li>&#8226; {item}</li>
                             )
@@ -560,7 +560,7 @@ const CollegeDetails = () => {
                       {/* <p>{details.key_highlight}</p> */}
                       <ul>
                         {
-                          SplitData(details?.key_highlight)?.map((item) => {
+                          details.key_highlight && details && SplitData(details?.key_highlight)?.map((item) => {
                             return (
                               <li>&#8226; {item}</li>
                             )
@@ -581,7 +581,7 @@ const CollegeDetails = () => {
                     <div className="mb-5 read-more">
                       <ul>
                         {
-                          SplitData(details?.ranking_array)?.map((item) => {
+                          details.ranking_array && SplitData(details?.ranking_array)?.map((item) => {
                             return (
                               <li>&#8226; {item}</li>
                             )
@@ -662,7 +662,7 @@ const CollegeDetails = () => {
 
                             <ul>
                               {
-                                SplitData(details?.adm_elg)?.map((item) => {
+                                details?.adm_elg && SplitData(details?.adm_elg)?.map((item) => {
                                   return (
                                     <li>&#8226; {item}</li>
                                   )

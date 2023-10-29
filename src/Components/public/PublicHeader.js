@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import { useEffect, useRef, useState } from "react";
 import useAuth from "../../hooks/useAuth";
 import "./NavBar.css";
+import { instance } from "../../api/axios";
 
 const PublicHeader = () => {
 
@@ -10,7 +11,63 @@ const PublicHeader = () => {
   const [query, setQuery] = useState("");
   const [isDropdownActive, setIsDropdownActive] = useState(false);
   const contentRef = useRef();
-  const handleLogout = async () => {};
+  const handleLogout = async () => { };
+
+
+  // useEffect(() => {
+  //   let responeSearch = setTimeout(async () => {
+  //     return await instance.post('/college-list', { q: query })
+  //   }, 500)
+  //     (async () => {
+
+  //       // try {
+  //       //   responeSearch = setTimeout(async () => {
+  //       //     let responce = await instance.post('/college-list', { q: query })
+  //       //     console.log('respo', responce);
+
+  //       //   }, 500)
+
+  //       // } catch (error) {
+  //       //   console.error('error>>>>>>', error);
+  //       // }
+
+  //       return () => clearTimeout(responeSearch)
+
+
+
+
+  //     })()
+
+  // }, [query])
+
+  useEffect(() => {
+    let timeoutId;
+
+    const fetchData = async () => {
+      try {
+        const response = await instance.post('/college-list', { q: query });
+        console.log('Response:', response);
+      } catch (error) {
+        console.error('Error:', error);
+      }
+    };
+
+    if (timeoutId) {
+      clearTimeout(timeoutId);
+    }
+
+    timeoutId = setTimeout(fetchData, 500);
+
+    return () => {
+      if (timeoutId) {
+        clearTimeout(timeoutId);
+      }
+    };
+  }, [query]);
+
+
+
+
 
   // useEffect(() => {
   //   const handleClick = (event) => {
@@ -182,7 +239,7 @@ const PublicHeader = () => {
                           className="size-50"
                           src="img/misc/user-profile.png"
                           alt="image"
-                          style={{marginLeft:"130px"}}
+                          style={{ marginLeft: "130px" }}
                         />
                       </Link>
                     ) : (

@@ -8,3 +8,19 @@ export default axios.create(
     withCredentials: true,
   }
 );
+
+let token = localStorage.getItem('token')
+
+export let instance = axios.create({
+  baseURL: BASE_URL,
+}, {
+  withCredentials: true
+})
+
+instance.interceptors.request.use((request) => {
+  request.headers = `Bearer ${token}`
+  return request
+})
+instance.interceptors.response.use((responce) => {
+  return responce
+})

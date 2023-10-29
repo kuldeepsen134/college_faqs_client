@@ -3,13 +3,14 @@ import { Link } from "react-router-dom";
 import { useEffect, useRef, useState } from "react";
 import useAuth from "../../hooks/useAuth";
 import "./NavBar.css";
+import { instance } from "../../api/axios";
 
 const PublicHeader = () => {
   const { auth } = useAuth();
   const [query, setQuery] = useState("");
   const [isDropdownActive, setIsDropdownActive] = useState(false);
   const contentRef = useRef();
-  const handleLogout = async () => {};
+  const handleLogout = async () => { };
 
   // useEffect(() => {
   //   const handleClick = (event) => {
@@ -30,6 +31,22 @@ const PublicHeader = () => {
   //     handleClick(event);
   //   };
   // }, [contentRef, isDropdownActive]);
+
+  useEffect(() => {
+    (async () => {
+      try {
+        let responce = await instance.post('college-list', query)
+        console.log('respo', responce);
+
+      } catch (error) {
+        console.error('error>>>>>>', error);
+      }
+
+    })()
+
+  }, [query])
+
+
   return (
     <header className="header -type-1 js-header">
       <div className="" style={{}}>
@@ -338,7 +355,7 @@ const PublicHeader = () => {
                           className="size-50"
                           src="img/misc/user-profile.png"
                           alt="image"
-                          style={{marginLeft:"340px"}}
+                          style={{ marginLeft: "340px" }}
                         />
                       </Link>
                     ) : (
