@@ -243,7 +243,7 @@ const Signup = () => {
               <div className="col-xl-8 col-lg-9">
                 <div className="px-50 py-50 md:px-25 md:py-25 bg-white shadow-1 rounded-16 sign-up">
                   <h3 className="text-30 lh-13" style={{ marginTop: "60px" }}>
-                    Sign Up rtghjk
+                    Sign Up
                   </h3>
                   <p className="mt-10">
                     Already have an account?{" "}
