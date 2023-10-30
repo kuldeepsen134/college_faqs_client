@@ -6,6 +6,9 @@ import PublicFooter from "../../Components/public/PublicFooter";
 import PublicHeader from "../../Components/public/PublicHeader";
 import ScrollMagic from "scrollmagic";
 import gsap from "gsap";
+import { useSelector } from "react-redux";
+import CollegeList from "../../Pages/CollegeList";
+import { useLocation } from "react-router";
 
 const DashboardLayout = ({ children }: DashboardLayoutPropsType) => {
   // Controller();
@@ -581,36 +584,46 @@ const DashboardLayout = ({ children }: DashboardLayoutPropsType) => {
     }
   }, [preload]);
 
+  const { search, loading } = useSelector((state: any) => state.commonHeader)
+
+  const { pathname } = useLocation()
+
+  console.log('pathname', pathname);
+
+
   return (
     <>
       <PublicHeader />
-      <main className="main-content  " style={{ marginTop: "45px" }}>
-        {/* <div className="preloader js-preloader">
-        <div className="preloader__bg"></div>
-      </div> */}
-        {/* {window.location.pathname !== "/login" &&
-      window.location.pathname !== "/sign-up" ? (
-        <PublicHeader />
-      ) : (
-        ""
-      )} */}
-        <div className="content-wrapper  js-content-wrapper">
-          <div
-            style={{
-              marginTop: isCmsPage ? "90px" : 0,
-              backgroundColor: isCmsPage ? "#9d9d9d8c" : "#fff",
-            }}
-          >
-            {children}
-          </div>
-          {/* {window.location.pathname !== "/login" &&
-        window.location.pathname !== "/sign-up" ? ( */}
+      {
+        pathname !== '/' ? <main className="main-content  " style={{ marginTop: "45px" }}>
+          <div className="content-wrapper  js-content-wrapper">
+            <div
+              style={{
+                marginTop: isCmsPage ? "90px" : 0,
+                backgroundColor: isCmsPage ? "#9d9d9d8c" : "#fff",
+              }}
+            >
+              {children}
+            </div>
 
-          {/* ) : (
-          ""
-        )} */}
-        </div>
-      </main>
+          </div>
+        </main> :
+          search.data ?
+            <CollegeList />
+            : <main className="main-content  " style={{ marginTop: "45px" }}>
+              <div className="content-wrapper  js-content-wrapper">
+                <div
+                  style={{
+                    marginTop: isCmsPage ? "90px" : 0,
+                    backgroundColor: isCmsPage ? "#9d9d9d8c" : "#fff",
+                  }}
+                >
+                  {children}
+                </div>
+
+              </div>
+            </main>
+      }
       <PublicFooter />
     </>
   );

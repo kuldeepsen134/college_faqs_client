@@ -26,7 +26,6 @@ const CollegeList = ({ itemsPerPage = 6 }) => {
   const { search, loading } = useSelector((state) => state.commonHeader)
 
 
-  console.log('m>>>', search);
   var url = "/college-list";
   var menu_page = urlSearchParams.get("state") || null;
 
@@ -46,11 +45,7 @@ const CollegeList = ({ itemsPerPage = 6 }) => {
       m == 'NIRF MBA College Ranking' &&
       "/college-list/top-collages/NIRF"
     // url = '/college-list/top-collages/NIRF'
-    console.log(menu_page);
   }
-
-
-  console.log('url>>>>search', search);
 
   const [itemOffset, setItemOffset] = useState(0);
   const [locations, setLocations] = useState([
@@ -86,7 +81,7 @@ const CollegeList = ({ itemsPerPage = 6 }) => {
 
   useEffect(() => {
     if (search?.data?.length > 0) {
-      console.log('search>11111111111', search);
+      console.log('fvgbhnjmk', search);
       setCurrentItem(search.data)
     } else {
       setCurrentItem([])
@@ -94,6 +89,7 @@ const CollegeList = ({ itemsPerPage = 6 }) => {
   }, [search])
 
 
+  // console.log('cu', currentItems);
 
 
 
@@ -110,19 +106,25 @@ const CollegeList = ({ itemsPerPage = 6 }) => {
         // console.log(url)
 
         if (menu_page === null) {
-          const response = await axios.get(url, {
-            q: page?.toLowerCase(),
-            m: menu_page,
-            filter: { location: locationFilter, fees: feesFilter },
-          }, {
-            headers: headers, // Use the headers object here
-          });
-          // console.log(response.data);
-          setData(
-            response.data.success
-              ? response.data.data // ? [...response.data.data, ...response.data.data]
-              : []
-          );
+          if (search.data) {
+            console.log('dcfvgbhnj');
+          } else {
+
+            const response = await axios.get(url, {
+
+              q: page?.toLowerCase(),
+              m: menu_page,
+              filter: { location: locationFilter, fees: feesFilter },
+            }, {
+              headers: headers, // Use the headers object here
+            });
+            // console.log(response.data);
+            setData(
+              response.data.success
+                ? response.data.data // ? [...response.data.data, ...response.data.data]
+                : []
+            );
+          }
         } else {
           const response = await axios.post(url, {
             q: page?.toLowerCase(),
@@ -149,11 +151,6 @@ const CollegeList = ({ itemsPerPage = 6 }) => {
       controller.abort();
     };
   }, [page, menu_page, locationFilter, url]);
-
-  console.log('currentItems>>>>>', currentItems);
-
-
-
 
 
   const handlePageClick = (event) => {

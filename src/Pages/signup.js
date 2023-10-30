@@ -16,9 +16,14 @@ import StatusToast from "../Components/StatusToast";
 
 const Signup = () => {
   useEffect(() => {
-    window.scrollTo(0,0);
-  },[])
+    window.scrollTo(0, 0);
+  }, [])
+  const [files, setFiles] = useState([]);
+  const [image, setImage] = useState(null);
+
   const [email, setEmail] = useState("");
+
+
   const [name, setName] = useState("");
   const [number, setNumber] = useState("");
   const [password, setPassword] = useState("");
@@ -33,7 +38,40 @@ const Signup = () => {
   const location = useLocation();
   const from = location.state?.from?.pathname || "/";
   const navigate = useNavigate();
+
+  const onFileUpload = async (event) => {
+    const file = event.target.files
+    const image = event.target.files[0];
+    setFiles(file)
+    if (image instanceof Blob) {
+      const reader = new FileReader();
+      reader.onload = (e) => {
+        setImage(e.target.result);
+      };
+      reader.readAsDataURL(image);
+    } else {
+      setImage(null)
+    }
+  };
+
+
   const register = async () => {
+    const formData = new FormData();
+    if (files[0]) {
+      formData.append("profile_url", files[0]);
+      formData.append("name", name);
+      formData.append("email", email);
+      formData.append("mobile_number", number);
+      formData.append("password", password);
+    }
+
+
+
+
+
+
+
+
     if (isSubmit) return;
     setSubmit(true);
     if (!email || !name || !password || !confirmPassword) {
@@ -46,12 +84,7 @@ const Signup = () => {
     }
     try {
       const toastId = toast.loading("Registering...");
-      const response = await axios.post("/register", {
-        name: name,
-        email: email,
-        mobile_number: number,
-        password: password,
-      });
+      const response = await axios.post("/register", formData);
       console.log(response.data);
       if (!response.data.success) {
         toast.update(toastId, {
@@ -210,7 +243,7 @@ const Signup = () => {
               <div className="col-xl-8 col-lg-9">
                 <div className="px-50 py-50 md:px-25 md:py-25 bg-white shadow-1 rounded-16 sign-up">
                   <h3 className="text-30 lh-13" style={{ marginTop: "60px" }}>
-                    Sign Up
+                    Sign Up rtghjk
                   </h3>
                   <p className="mt-10">
                     Already have an account?{" "}
@@ -223,6 +256,116 @@ const Signup = () => {
                     className="contact-form respondForm__form row y-gap-20 pt-30 form1"
                     action="#"
                   >
+
+
+                    <div className="col-lg-12" style={{ marginTop: "-10px", display: "flex", justifyContent: 'center' }}>
+
+
+
+                      {
+                        image ?
+                          <>
+                            <input
+                              type="file"
+                              onChange={onFileUpload}
+                              name="image"
+                              hidden
+                              accept=".jpg,.jpeg,.png"
+                            />
+                            <div
+                              className="upload-container"
+                              style={{
+                                display: "flex",
+                                marginBottom: "10px",
+                              }}
+                              onClick={() => {
+                                const fileInput =
+                                  document.querySelector('input[type="file"]');
+                                if (fileInput) {
+                                  fileInput.click();
+                                }
+                              }}
+                            >
+                              <img
+                                src={image}
+                                alt="Preview"
+                                style={{
+                                  width: "129px",
+                                  height: "132px",
+                                  borderRadius: "18px",
+                                  marginTop: "11px",
+                                }}
+                              />
+                            </div>
+                          </>
+                          :
+
+                          <>
+                            <input
+                              type="file"
+                              onChange={onFileUpload}
+                              name="image"
+                              hidden
+                              accept=".jpg,.jpeg,.png"
+                            />
+                            <div
+                              className="upload-container"
+                              style={{
+                                display: "flex",
+                                // justifyContent: "center",
+                                // marginBottom: "10px",
+                                marginTop: "10px",
+                              }}
+                              onClick={() => {
+                                const fileInput =
+                                  document.querySelector('input[type="file"]');
+                                if (fileInput) {
+                                  fileInput.click();
+                                }
+                              }}
+                            >
+                              <div
+                                className="image-preview"
+                                id="image-preview"
+                                style={{
+                                  cursor: "pointer",
+                                  marginTop: "0px",
+                                  width: '102px',
+                                  height: '113px',
+                                  border: '2px dotted #5a5b5b',
+                                  borderRadius: '18px',
+                                  overflow: 'hidden',
+                                  background: '#fff',
+                                  textAlign: 'center'
+                                }}
+                              >
+                                <img
+                                  id="preview-image"
+                                  src={'/img/upload/gallery-add.png'}
+                                  alt="Preview"
+                                  style={{
+                                    width: "40px",
+                                    height: "40px",
+                                    marginTop: "15px",
+                                    // width: '102px',
+                                    // height: '113px',
+                                    // borderRadius: '18px',
+                                    overflow: 'hidden',
+                                    background: '#fff',
+                                  }}
+                                />
+                                <br />
+                                <span style={{
+                                  fontSize: '18px'
+                                }}>Upload your photo</span>
+                              </div>
+                            </div>
+                          </>
+                      }
+
+                    </div>
+
+
                     <div className="col-lg-6" style={{ marginTop: "-10px" }}>
                       <label className="text-16 lh-1 fw-500 text-dark-1 mb-10">
                         Full Name *
@@ -236,6 +379,7 @@ const Signup = () => {
                         required
                       />
                     </div>
+
                     <div className="col-lg-6" style={{ marginTop: "-10px" }}>
                       <label className="text-16 lh-1 fw-500 text-dark-1 mb-10">
                         Email Address *
@@ -249,6 +393,7 @@ const Signup = () => {
                         required
                       />
                     </div>
+
                     <div className="col-lg-12" style={{ marginTop: "-10px" }}>
                       <label className="text-16 lh-1 fw-500 text-dark-1 mb-10">
                         Mobile Number *

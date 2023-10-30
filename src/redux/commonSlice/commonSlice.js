@@ -31,7 +31,6 @@ const commonSlice = createSlice({
 
       })
       .addCase(headerSearch.fulfilled, (state, action) => {
-        console.log('action', action.payload.data);
         state.loading = false
         state.search = action.payload.data;
 
