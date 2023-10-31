@@ -921,7 +921,7 @@ const CollegeDetails = () => {
 
                         }
                       })} */}
-
+                  
                       {
                         details?.de && details?.de?.map((item) => {
                           if (item.value === 1) {
