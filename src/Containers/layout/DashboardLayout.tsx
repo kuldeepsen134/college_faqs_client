@@ -588,9 +588,6 @@ const DashboardLayout = ({ children }: DashboardLayoutPropsType) => {
 
   const { pathname } = useLocation()
 
-  console.log('pathname', pathname);
-
-
   return (
     <>
       <PublicHeader />

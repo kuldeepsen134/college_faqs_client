@@ -55,6 +55,7 @@ import SupplyChai_LogisticsManagement from "../Components/public/static/PATH 2/S
 import Telecom from "../Components/public/static/PATH 2/Telecom";
 import Textile from "../Components/public/static/PATH 2/Textile";
 import AskQuestion from "../Pages/AskQuestion";
+import CompairCollage from "../Pages/compairCollage";
 
 export const MainRoutes = [
   {
@@ -106,35 +107,41 @@ export const MainRoutes = [
     guard: null,
   },
   {
+    path: "/college-compair",
+    component: CompairCollage,
+    children: null,
+    guard: null,
+  },
+  {
     path: "/ask-question",
     component: AskQuestion,
     children: null,
     guard: null,
-  },  
+  },
 ]
 export const DefaultRoutes = [
-  
+
   {
     path: "/admission-Process",
     component: AdmissionProcess,
     children: null,
     guard: null,
   },
-  
+
   {
     path: "/distance-mba",
     component: DistanceMba,
     children: null,
     guard: null,
   },
-  
+
   {
     path: "/executive-mba",
     component: ExecutiveMBA,
     children: null,
     guard: null,
   },
-  
+
   {
     path: "/integrated-mba",
     component: IntergratedMba,
@@ -153,21 +160,21 @@ export const DefaultRoutes = [
     children: null,
     guard: null,
   },
-  
+
   {
     path: "/admission-process",
     component: AdmissionProcess,
     children: null,
     guard: null,
   },
-  
+
   {
     path: "/mba-more-specialisations",
     component: MBASpecialisation,
     children: null,
     guard: null,
   },
-  
+
   {
     path: "/mba-in-marketing",
     component: MarketingManagement,
@@ -182,7 +189,7 @@ export const DefaultRoutes = [
   },
   {
     path: "/mba-in-hr",
-    component:HRManagament,
+    component: HRManagament,
     children: null,
     guard: null,
   },
@@ -198,30 +205,30 @@ export const DefaultRoutes = [
     children: null,
     guard: null,
   },
-  
+
   {
     path: "/online-mba",
     component: OnlineMBA,
     children: null,
     guard: null,
   },
-  
+
   {
     path: "/part-time-mba",
     component: PartTimeMbaa,
     children: null,
     guard: null,
   },
-  
-  
-  
+
+
+
   {
     path: "/mba-in-rm",
     component: RuralManagements,
     children: null,
     guard: null,
   },
-  
+
   {
     path: "/mba-in-banking-finance",
     component: BankingFinance,
@@ -241,21 +248,21 @@ export const DefaultRoutes = [
     children: null,
     guard: null,
   },
-  
+
   {
     path: "/corporate-social-rs",
     component: CorporateSocialResponsibility,
     children: null,
     guard: null,
   },
-  
+
   {
     path: "/digital-marketing",
     component: DigitalMarketing,
     children: null,
     guard: null,
   },
-  
+
 
   {
     path: "/advertising-communication",
@@ -263,35 +270,35 @@ export const DefaultRoutes = [
     children: null,
     guard: null,
   },
-  
+
   {
     path: "/agri-business",
     component: AgriBusiness,
     children: null,
     guard: null,
   },
- 
+
   {
     path: "/entrepreneurship",
     component: Entrepreneurship,
     children: null,
     guard: null,
   },
- 
+
   {
     path: "/energy",
     component: Energy,
     children: null,
     guard: null,
   },
- 
+
   {
     path: "/aviation",
     component: Aviation,
     children: null,
     guard: null,
   },
- 
+
   {
     path: "/event",
     component: Event,
@@ -304,50 +311,50 @@ export const DefaultRoutes = [
     children: null,
     guard: null,
   },
- 
-  
+
+
   {
     path: "/fashion-design",
     component: FashionDesign,
     children: null,
     guard: null,
   },
- 
+
   {
     path: "/finance-management",
     component: FinanceManagemant,
     children: null,
     guard: null,
   },
- 
+
   {
     path: "/import-export",
     component: ImportExport,
     children: null,
     guard: null,
   },
- 
+
   {
     path: "/information-technology",
     component: InformationTechnology,
     children: null,
     guard: null,
   },
- 
+
   {
     path: "/infrastructure",
     component: Infrastructure,
     children: null,
     guard: null,
   },
- 
+
   {
     path: "/pharmaceutical-management",
     component: PharmaceuticalManagement,
     children: null,
     guard: null,
   },
-  
+
   {
     path: "/retail",
     component: Retail,
@@ -361,37 +368,37 @@ export const DefaultRoutes = [
     guard: null,
   },
 
- 
+
   {
     path: "/oil-gas",
     component: OilGas,
     children: null,
     guard: null,
   },
- 
- 
+
+
   {
     path: "/supply-chain-logistic-management",
     component: SupplyChai_LogisticsManagement,
     children: null,
     guard: null,
   },
- 
+
   {
     path: "/telecom",
     component: Telecom,
     children: null,
     guard: null,
   },
- 
+
   {
     path: "/textile",
     component: Textile,
     children: null,
     guard: null,
   },
- 
-  
+
+
   {
     path: "/cat-2022",
     component: CAT2022,
@@ -399,7 +406,7 @@ export const DefaultRoutes = [
     guard: null,
   },
 
-  
+
   {
     path: "/xat-2023",
     component: XAT2023,
@@ -426,7 +433,7 @@ export const DefaultRoutes = [
     component: ATMA,
     children: null,
     guard: null,
-  }, 
+  },
   {
     path: "//nmat-2022",
     component: NMAT2022,
@@ -451,11 +458,11 @@ export const DefaultRoutes = [
     children: null,
     guard: null,
   },
-  
 
 
-  
-  
+
+
+
 
 ];
 
@@ -482,6 +489,6 @@ export const ProtectedRoutes = [
     children: null,
     guard: null,
   },
-  
-  
+
+
 ]
