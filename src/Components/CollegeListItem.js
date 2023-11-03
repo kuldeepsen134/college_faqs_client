@@ -37,10 +37,10 @@ const CollegeListItem = ({ item }) => {
           <div className="school-actions ml-2 school-list-item__actions media-btn">
             <div className="position-relative ">
               <Link
+                to="/college-compair"
                 style={{ marginTop: "50px" }}
                 className="btn btn-sm btn-rmi d-flex align-items-center justify-content-center px-1 px-md-1 rmi_10000139"
-                to="#"
-                onClick={(e) => e.preventDefault()}
+              // onClick={(e) => e.preventDefault()}
               >
                 <span className="btn-text ">Compare</span>{" "}
               </Link>{" "}

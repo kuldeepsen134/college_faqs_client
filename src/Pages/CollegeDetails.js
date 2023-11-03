@@ -152,7 +152,7 @@ const CollegeDetails = () => {
                         Highlight Program
                       </div>
                       <small className="header-facts--label">
-                        {details.program ? details.program : "N/A"}
+                        {details.program ? details.program.slice(0, 20) + "..." : "N/A"}
                       </small>
                     </a>
                     <a
