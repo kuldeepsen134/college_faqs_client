@@ -43,9 +43,6 @@ const PublicHeader = () => {
   }, [dispatch, query]);
 
 
-  console.log('query', query);
-
-
   // useEffect(() => {
   //   console.log('search', search);
   //   if (query && search?.data?.length > 0) {

@@ -33,8 +33,6 @@ const CollegeList = ({ itemsPerPage = 6 }) => {
     Authorization: `Bearer ${token}`,
     // Add other headers as needed
   };
-
-
   // console.log('pathname', headers);
 
   if (menu_page == null) {
@@ -45,6 +43,8 @@ const CollegeList = ({ itemsPerPage = 6 }) => {
       m == 'NIRF MBA College Ranking' &&
       "/college-list/top-collages/NIRF"
     // url = '/college-list/top-collages/NIRF'
+  } else if (m) {
+    url = m
   }
 
   const [itemOffset, setItemOffset] = useState(0);
@@ -81,76 +81,97 @@ const CollegeList = ({ itemsPerPage = 6 }) => {
 
   useEffect(() => {
     if (search?.data?.length > 0) {
-      console.log('fvgbhnjmk', search);
       setCurrentItem(search.data)
     } else {
       setCurrentItem([])
     }
   }, [search])
 
+  // useEffect(() => {
+  //   if (!page && !menu_page && !locationFilter && !feesFilter) {
+  //     // console.log("returning");
+  //   }
+  //   let isMounted = true;
+  //   const controller = new AbortController();
+  //   const fetchData = async () => {
+  //     try {
+  //       // console.log(url)
 
-  // console.log('cu', currentItems);
+  //       if (menu_page === null) {
+  //         if (search.data) {
+  //           console.log('dcfvgbhnj');
+  //         } else {
+  //           console.log('yadav');
+  //           const response = await axios.get(url, {
 
-
+  //             q: page?.toLowerCase(),
+  //             m: menu_page,
+  //             filter: { location: locationFilter, fees: feesFilter },
+  //           }, {
+  //             headers: headers,
+  //           });
+  //           setData(
+  //             response.data.success
+  //               ? response.data.data
+  //               : []
+  //           );
+  //         }
+  //       } else {
+  //         console.log('rohit', m);
+  //         const response = await axios.post(url, {
+  //           q: page?.toLowerCase(),
+  //           m: menu_page || m,
+  //           filter: { location: locationFilter, fees: feesFilter },
+  //         }, {
+  //           headers: headers, // Use the headers object here
+  //         });
+  //         // console.log(response.data);
+  //         setData(
+  //           response.data.success
+  //             ? response.data.data // ? [...response.data.data, ...response.data.data]
+  //             : []
+  //         );
+  //       }
+  //     } catch (err) {
+  //       console.log(err);
+  //     }
+  //   };
+  //   fetchData();
+  //   window.scrollTo(0, 0);
+  //   return () => {
+  //     isMounted = false;
+  //     controller.abort();
+  //   };
+  // }, [page, menu_page, locationFilter, url, m]);
 
 
   useEffect(() => {
-    console.log("menu_page", menu_page);
-    if (!page && !menu_page && !locationFilter && !feesFilter) {
-      // console.log("returning");
-    }
-    let isMounted = true;
-    const controller = new AbortController();
-    const fetchData = async () => {
-      try {
-        // console.log(url)
 
-        if (menu_page === null) {
-          if (search.data) {
-            console.log('dcfvgbhnj');
-          } else {
 
-            const response = await axios.get(url, {
+    const fun = async () => {
+      if (menu_page) {
+        console.log('menu_page', menu_page);
 
-              q: page?.toLowerCase(),
-              m: menu_page,
-              filter: { location: locationFilter, fees: feesFilter },
-            }, {
-              headers: headers, // Use the headers object here
-            });
-            // console.log(response.data);
-            setData(
-              response.data.success
-                ? response.data.data // ? [...response.data.data, ...response.data.data]
-                : []
-            );
-          }
-        } else {
-          const response = await axios.post(url, {
-            q: page?.toLowerCase(),
-            m: menu_page,
-            filter: { location: locationFilter, fees: feesFilter },
-          }, {
-            headers: headers, // Use the headers object here
-          });
-          // console.log(response.data);
-          setData(
-            response.data.success
-              ? response.data.data // ? [...response.data.data, ...response.data.data]
-              : []
-          );
-        }
-      } catch (err) {
-        console.log(err);
+        const response = await axios.post(url, {
+          q: page?.toLowerCase(),
+          m: menu_page,
+          filter: { location: locationFilter, fees: feesFilter },
+        }, {
+          headers: headers, // Use the headers object here
+        });
+        // console.log(response.data);
+        setData(
+          response.data.success
+            ? response.data.data // ? [...response.data.data, ...response.data.data]
+            : []
+        );
       }
-    };
-    fetchData();
-    window.scrollTo(0, 0);
-    return () => {
-      isMounted = false;
-      controller.abort();
-    };
-  }, [page, menu_page, locationFilter, url]);
+
+    }
+    fun()
+  }, [menu_page])
+
+
 
 
   const handlePageClick = (event) => {

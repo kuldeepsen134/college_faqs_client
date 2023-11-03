@@ -5,6 +5,9 @@ import useAuth from "../hooks/useAuth";
 
 const CollegeListItem = ({ item }) => {
   const { auth } = useAuth();
+  let token = localStorage.getItem('token')
+
+
   return (
     <div className="col-lg-6 my-1 my-md-0 pt-2 pb-3 py-md-3 border-bottom our-rmi media-7">
       <div id="school_1" className="school d-flex">
@@ -57,12 +60,18 @@ const CollegeListItem = ({ item }) => {
                 <span className="btn-text">Brochure</span>{" "}
               </a>{" "} */}
 
-              <a href={item.brochure} download
+              {token ? <a href={item.brochure} download
                 className="btn btn-sm btn-rmi d-flex align-items-center justify-content-center px-1 px-md-2 rmi_10000139"
               >
-                {/* <img src={`${STATIC_URL}/files/${item.brochure}`} alt="W3Schools" width="104" height="142" /> */}
                 Brochure
-              </a>
+              </a> :
+                <a href='/login'
+                  className="btn btn-sm btn-rmi d-flex align-items-center justify-content-center px-1 px-md-2 rmi_10000139"
+                >
+                  Brochure
+                </a>
+
+              }
 
 
             </div>
