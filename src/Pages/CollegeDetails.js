@@ -137,7 +137,7 @@ const CollegeDetails = () => {
                     </a>
                     <a
                       href="#Ranking-and-Accreditations"
-                      className="smooth col-6 col-lg-auto mb-3 mb-md-0 mx-lg-2 text-left text-lg-center text-dark"
+                      className="smooth col-6 col-lg-auto mb-3 mb-md-0 mx-lg-2 text-left text-dark"
                     >
                       <div className="header-facts--value mb-0 h4">Ranking</div>
                       <small className="header-facts--label mt-md-2">
@@ -176,7 +176,7 @@ const CollegeDetails = () => {
                           : "/login"
                       }
                       target={"_blank"}
-                      className="smooth col-6 col-lg-auto mb-3 mb-md-0 mx-lg-2 text-left text-lg-center text-dark" rel="noreferrer"
+                      className="smooth col-6 col-lg-auto mb-3 mb-md-0 mx-lg-2 text-left text-dark" rel="noreferrer"
                     >
                       <div className="ml-md-2">
                         <div className="header-facts--value mb-0 h4">
@@ -373,7 +373,7 @@ const CollegeDetails = () => {
               </div>
             </div>
           </header>
-          <div className="container profile--main mt-3 mt-md-5 mt-lg-7 pb-lg-6">
+          <div className="container profile--main mt-3 mt-md-5 mt-lg-7 pb-lg-6" id="top-colleges">
             {/* start of our main content wrapper - closed in school.blade.php */}
 
             <div className="row no-gutters justify-content-end">
@@ -415,7 +415,7 @@ const CollegeDetails = () => {
                     </a>
                   </div>
 
-                  <div className="col1">
+                  <div className="col">
                     <a
                       className="nav-link smooth d-block on-h"
                       href="#Ranking-and-Accreditations"
@@ -649,7 +649,7 @@ const CollegeDetails = () => {
                       <b>Eligibility</b>
                       <section id="latest-updates" className="media-5 ">
                         <div
-                          className="position-relative mb-3 py-md-2 px-3 px-md-5 flakh rounded"
+                          className="position-relative mb-3 p-0 rounded"
                           style={{ overflow: "hidden" }}
                         >
                           {/* <h2 className="d-inline-block mb-3 py-3 py-md-4">
@@ -926,7 +926,7 @@ const CollegeDetails = () => {
                         details?.de && details?.de?.map((item) => {
                           if (item.value === 1) {
                             return (
-                              <div className="form-check " >
+                              <div className="form-check ps-0" >
                                 {/* <input
                                   type="checkbox"
                                   className="form-check-input"
