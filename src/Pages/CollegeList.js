@@ -306,12 +306,12 @@ const CollegeList = ({ itemsPerPage = 6 }) => {
           style={{ marginLeft: "75px" }}
         >
           <div
-            className="col-lg-11 pt-4 p-md-5 bg-white  rounded shad"
+            className="col-lg-11 pt-4 p-md-5 bg-white  rounded shad main-card"
             style={{ minHeight: "849px", maxWidth: "72%" }}
           >
             <div className="container">
               <div className="row y-gap-50">
-                <div className="col-16 col-sm-16">
+                <div className="col-16 col-sm-16 p-0">
                   <div className="accordion js-accordion">
                     <div className="accordion__item">
                       <div className="row y-gap-20 items-center justify-between pb-30">
