@@ -3,8 +3,8 @@ import { Link } from "react-router-dom";
 import { useEffect } from "react";
 const BankingFinance = () => {
   useEffect(() => {
-    window.scrollTo(0,0);
-  },[])
+    window.scrollTo(0, 0);
+  }, [])
 
   return (
     <div>
@@ -35,22 +35,64 @@ const BankingFinance = () => {
           major theory and practical’s related to financial accounting, working
           capital management, Mergers and acquisitions etc.
         </p>
+        <b className="table-details">Table of content</b>
+
         <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
+          className=" MsoListParagraphCxSpFirst"
+          style={{
+            textAlign: "justify",
+            textJustify: "inter-ideograph",
+          }}
+        ><a className="link" href="#1">MBA in Banking & Finance Management – Program Highlights</a>
         </p>
-        <b>Table of content</b>
-        <ol type={1} style={{fontSize:"17px"}}>
-          <li>MBA in Banking & Finance Management – Program Highlights</li>
-          <li>MBA in Banking & Finance Management – Syllabus</li>
-          <li>MBA in Banking & Finance Management: Skills Required</li>
-          <li>MBA in Banking & Finance Management: Job Profiles Offered</li>
-          <li>Top Colleges in India for MBA in Banking & Finance Management</li>
-          <li>MBA in Banking & Finance Management - Top Recruiters</li>
-          <li>FAQs – MBA In Banking & Finance Management</li>
-        </ol>
+        <p
+          className=" MsoListParagraphCxSpFirst"
+          style={{
+            textAlign: "justify",
+            textJustify: "inter-ideograph",
+          }}
+        ><a className="link" href="#2">MBA in Banking & Finance Management – Syllabus</a>
+        </p>
+        <p
+          className=" MsoListParagraphCxSpFirst"
+          style={{
+            textAlign: "justify",
+            textJustify: "inter-ideograph",
+          }}
+        ><a className="link" href="#3">MBA in Banking & Finance Management: Skills Required</a>
+        </p>
+        <p
+          className=" MsoListParagraphCxSpFirst"
+          style={{
+            textAlign: "justify",
+            textJustify: "inter-ideograph",
+          }}
+        ><a className="link" href="#4">MBA in Banking & Finance Management: Job Profiles Offered</a>
+        </p>
+        <p
+          className=" MsoListParagraphCxSpFirst"
+          style={{
+            textAlign: "justify",
+            textJustify: "inter-ideograph",
+          }}
+        ><a className="link" href="#5">Top Colleges in India for MBA in Banking & Finance Management</a>
+        </p>
+        <p
+          className=" MsoListParagraphCxSpFirst"
+          style={{
+            textAlign: "justify",
+            textJustify: "inter-ideograph",
+          }}
+        ><a className="link" href="#6">MBA in Banking & Finance Management - Top Recruiters</a>
+        </p>
+        <p
+          className=" MsoListParagraphCxSpFirst"
+          style={{
+            textAlign: "justify",
+            textJustify: "inter-ideograph",
+          }}
+        ><a className="link" href="#7">FAQs – MBA In Banking & Finance Management</a>
+        </p>
         <p
           className="MsoNormal"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
@@ -91,7 +133,7 @@ const BankingFinance = () => {
                   align="center"
                 >
                   <b>
-                    <u>Parameters</u>
+                    Parameters
                   </b>
                 </p>
               </td>
@@ -115,7 +157,7 @@ const BankingFinance = () => {
                   align="center"
                 >
                   <b>
-                    <u>Details</u>
+                    Details
                   </b>
                 </p>
               </td>
@@ -137,7 +179,7 @@ const BankingFinance = () => {
                     marginBottom: "0in",
                     textAlign: "justify",
                     textJustify: "inter-ideograph",
-                    lineHeight: "normal",fontWeight:"bold",
+                    lineHeight: "normal", fontWeight: "bold",
                   }}
                 >
                   Program Type
@@ -185,7 +227,7 @@ const BankingFinance = () => {
                     marginBottom: "0in",
                     textAlign: "justify",
                     textJustify: "inter-ideograph",
-                    lineHeight: "normal",fontWeight:"bold",
+                    lineHeight: "normal", fontWeight: "bold",
                   }}
                 >
                   Eligibility
@@ -234,7 +276,7 @@ const BankingFinance = () => {
                     marginBottom: "0in",
                     textAlign: "justify",
                     textJustify: "inter-ideograph",
-                    lineHeight: "normal",fontWeight:"bold",
+                    lineHeight: "normal", fontWeight: "bold",
                   }}
                 >
                   Admission Process
@@ -282,7 +324,7 @@ const BankingFinance = () => {
                     marginBottom: "0in",
                     textAlign: "justify",
                     textJustify: "inter-ideograph",
-                    lineHeight: "normal",fontWeight:"bold",
+                    lineHeight: "normal", fontWeight: "bold",
                   }}
                 >
                   Entrance Exams
@@ -330,7 +372,7 @@ const BankingFinance = () => {
                     marginBottom: "0in",
                     textAlign: "justify",
                     textJustify: "inter-ideograph",
-                    lineHeight: "normal",fontWeight:"bold",
+                    lineHeight: "normal", fontWeight: "bold",
                   }}
                 >
                   Program Options
@@ -378,7 +420,7 @@ const BankingFinance = () => {
                     marginBottom: "0in",
                     textAlign: "justify",
                     textJustify: "inter-ideograph",
-                    lineHeight: "normal",fontWeight:"bold",
+                    lineHeight: "normal", fontWeight: "bold",
                   }}
                 >
                   Syllabus
@@ -470,7 +512,7 @@ const BankingFinance = () => {
                     marginBottom: "0in",
                     textAlign: "justify",
                     textJustify: "inter-ideograph",
-                    lineHeight: "normal",fontWeight:"bold",
+                    lineHeight: "normal", fontWeight: "bold",
                   }}
                 >
                   Fees
@@ -518,7 +560,7 @@ const BankingFinance = () => {
                     marginBottom: "0in",
                     textAlign: "justify",
                     textJustify: "inter-ideograph",
-                    lineHeight: "normal",fontWeight:"bold",
+                    lineHeight: "normal", fontWeight: "bold",
                   }}
                 >
                   Average Salary
@@ -566,7 +608,7 @@ const BankingFinance = () => {
                     marginBottom: "0in",
                     textAlign: "justify",
                     textJustify: "inter-ideograph",
-                    lineHeight: "normal",fontWeight:"bold",
+                    lineHeight: "normal", fontWeight: "bold",
                   }}
                 >
                   Job Profiles
@@ -632,14 +674,14 @@ const BankingFinance = () => {
             </tr>
           </tbody>
         </table>
-        
+
         <p
           className="MsoNormal"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           &nbsp;
         </p>
-        
+
         <CustomTable />
 
         <p
@@ -963,234 +1005,241 @@ const BankingFinance = () => {
         >
           &nbsp;
         </p>
-        <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          <b>MBA in Banking &amp; Finance: Skills Required</b>
-        </p>
-        <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          Banking &amp; Finance is a dynamic sector and one needs to be
-          versatile for job opportunities in this sector. Some of the essential
-          skills are needed to excel in this sector are:
-        </p>
-        <p
-          className="MsoListParagraphCxSpFirst"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
-        >
-          1.
-          <span style={{ font: '7pt "Times New Roman"' }}>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
-          </span>
-          Accounting
-        </p>
-        <p
-          className="MsoListParagraphCxSpMiddle"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
-        >
-          2.
-          <span style={{ font: '7pt "Times New Roman"' }}>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
-          </span>
-          Financial reporting
-        </p>
-        <p
-          className="MsoListParagraphCxSpMiddle"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
-        >
-          3.
-          <span style={{ font: '7pt "Times New Roman"' }}>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
-          </span>
-          Problem-solving
-        </p>
-        <p
-          className="MsoListParagraphCxSpMiddle"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
-        >
-          4.
-          <span style={{ font: '7pt "Times New Roman"' }}>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
-          </span>
-          Reasoning skills
-        </p>
-        <p
-          className="MsoListParagraphCxSpMiddle"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
-        >
-          5.
-          <span style={{ font: '7pt "Times New Roman"' }}>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
-          </span>
-          Critical thinking
-        </p>
-        <p
-          className="MsoListParagraphCxSpMiddle"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
-        >
-          6.
-          <span style={{ font: '7pt "Times New Roman"' }}>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
-          </span>
-          Analytical ability
-        </p>
-        <p
-          className="MsoListParagraphCxSpMiddle"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
-        >
-          7.
-          <span style={{ font: '7pt "Times New Roman"' }}>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
-          </span>
-          Innovative
-        </p>
-        <p
-          className="MsoListParagraphCxSpLast"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
-        >
-          8.
-          <span style={{ font: '7pt "Times New Roman"' }}>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
-          </span>
-          Leadership qualities
-        </p>
+        <div className="required-skills">
+
+          <p
+            className="MsoNormal"
+            style={{ textAlign: "justify", textJustify: "inter-ideograph", marginLeft: "0" }}
+          >
+            <b>MBA in Banking &amp; Finance: Skills Required</b>
+          </p>
+          <p
+            className="MsoNormal"
+            style={{ textAlign: "justify", textJustify: "inter-ideograph", marginLeft: "0" }}
+          >
+            Banking &amp; Finance is a dynamic sector and one needs to be
+            versatile for job opportunities in this sector. Some of the essential
+            skills are needed to excel in this sector are:
+          </p>
+          <p
+            className="cont"
+            style={{
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            1.
+            <span style={{ font: '7pt "Times New Roman"' }}>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+            </span>
+            Accounting
+          </p>
+          <p
+            className="cont"
+            style={{
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            2.
+            <span style={{ font: '7pt "Times New Roman"' }}>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+            </span>
+            Financial reporting
+          </p>
+          <p
+            className="cont"
+            style={{
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            3.
+            <span style={{ font: '7pt "Times New Roman"' }}>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+            </span>
+            Problem-solving
+          </p>
+          <p
+            className="cont"
+            style={{
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            4.
+            <span style={{ font: '7pt "Times New Roman"' }}>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+            </span>
+            Reasoning skills
+          </p>
+          <p
+            className="cont"
+            style={{
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            5.
+            <span style={{ font: '7pt "Times New Roman"' }}>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+            </span>
+            Critical thinking
+          </p>
+          <p
+            className="cont"
+            style={{
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            6.
+            <span style={{ font: '7pt "Times New Roman"' }}>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+            </span>
+            Analytical ability
+          </p>
+          <p
+            className="cont"
+            style={{
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            7.
+            <span style={{ font: '7pt "Times New Roman"' }}>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+            </span>
+            Innovative
+          </p>
+          <p
+            className="cont"
+            style={{
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            8.
+            <span style={{ font: '7pt "Times New Roman"' }}>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+            </span>
+            Leadership qualities
+          </p>
+        </div>
         <p
           className="MsoNormal"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           <b>&nbsp;</b>
         </p>
-        <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          <b>MBA in Banking &amp; Finance: Job Profiles Offered</b>
-        </p>
-        <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          MBA / PGDM in Banking &amp; Finance provides comprehensive career
-          scope to a candidate with job options in various industries like
-          market research, banking, financial services, non-banking, teaching,
-          etc.&nbsp; Here is the list of few popular job profiles in this
-          domain:
-        </p>
-        <p
-          className="MsoListParagraphCxSpFirst"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
-        >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+
+        <div className="required-skills">
+
+          <p
+            className="MsoNormal"
+            style={{ textAlign: "justify", textJustify: "inter-ideograph", marginLeft: "0" }}
+          >
+            <b>MBA in Banking &amp; Finance: Job Profiles Offered</b>
+          </p>
+          <p
+            className="MsoNormal"
+            style={{ textAlign: "justify", textJustify: "inter-ideograph" , marginLeft: "0"}}
+          >
+            MBA / PGDM in Banking &amp; Finance provides comprehensive career
+            scope to a candidate with job options in various industries like
+            market research, banking, financial services, non-banking, teaching,
+            etc.&nbsp; Here is the list of few popular job profiles in this
+            domain:
+          </p>
+          <p
+            className="cont"
+            style={{
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
             </span>
-          </span>
-          Bank and Finance Managers
-        </p>
-        <p
-          className="MsoListParagraphCxSpMiddle"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
-        >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+            Bank and Finance Managers
+          </p>
+          <p
+            className="cont"
+            style={{
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
             </span>
-          </span>
-          Accountants
-        </p>
-        <p
-          className="MsoListParagraphCxSpMiddle"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
-        >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+            Accountants
+          </p>
+          <p
+            className="cont"
+            style={{
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
             </span>
-          </span>
-          Auditors
-        </p>
-        <p
-          className="MsoListParagraphCxSpMiddle"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
-        >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+            Auditors
+          </p>
+          <p
+            className="cont"
+            style={{
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
             </span>
-          </span>
-          Financial Advisor
-        </p>
-        <p
-          className="MsoListParagraphCxSpLast"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
-        >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+            Financial Advisor
+          </p>
+          <p
+            className="cont"
+            style={{
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
             </span>
-          </span>
-          Banking Loan Officers
-        </p>
+            Banking Loan Officers
+          </p>
+        </div>
         <p
           className="MsoNormal"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
@@ -1219,7 +1268,7 @@ const BankingFinance = () => {
             <Link to="/college-list?m=Top Private MBA Colleges">
               click here
             </Link>
-            </span>.
+          </span>.
         </p>
         <p
           className="MsoNormal"
@@ -1522,8 +1571,8 @@ const BankingFinance = () => {
           University – Chandigarh. To find out about the top colleges of India
           offering MBA / PGDM in Banking &amp; Finance,{" "}
           <span style={{ color: "red" }}> <Link to="/college-list?m=Top Private MBA Colleges">
-              click here
-            </Link></span>.
+            click here
+          </Link></span>.
         </p>
         <p
           className="MsoNormal"

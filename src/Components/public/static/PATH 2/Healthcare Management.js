@@ -4,8 +4,8 @@ import { useEffect } from "react";
 
 const HealthcareManagement = () => {
   useEffect(() => {
-    window.scrollTo(0,0);
-  },[])
+    window.scrollTo(0, 0);
+  }, [])
   return (
     <div>
       <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
@@ -38,9 +38,9 @@ const HealthcareManagement = () => {
           jobs and career opportunities has come up for non-medico
           professionals.
         </p>
-       
-       
-        <b>Table of content</b>
+
+
+        <b className="table-details">Table of content</b>
 
         <p
           className=" MsoListParagraphCxSpFirst"
@@ -49,11 +49,8 @@ const HealthcareManagement = () => {
             textJustify: "inter-ideograph",
           }}
         >
-          1.
-          <span >
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          </span><a className="link" href="#1">
-          MBA in Healthcare &amp; Hospital Management – Program Highlights</a>
+          <a className="link" href="#1">
+            MBA in Healthcare &amp; Hospital Management – Program Highlights</a>
         </p>
         <p
           className=" MsoListParagraphCxSpMiddle"
@@ -62,11 +59,8 @@ const HealthcareManagement = () => {
             textJustify: "inter-ideograph",
           }}
         >
-          2.
-          <span >
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          </span><a  className="link" href="#2">
-          MBA in Healthcare &amp; Hospital Management  – Syllabus</a>
+          <a className="link" href="#2">
+            MBA in Healthcare &amp; Hospital Management  – Syllabus</a>
         </p>
         <p
           className=" MsoListParagraphCxSpMiddle"
@@ -75,11 +69,8 @@ const HealthcareManagement = () => {
             textJustify: "inter-ideograph",
           }}
         >
-          3.
-          <span  >
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          </span><a  className="link" href="#3">
-          MBA in Healthcare &amp; Hospital Management : Skills Required</a>
+          <a className="link" href="#3">
+            MBA in Healthcare &amp; Hospital Management : Skills Required</a>
         </p>
         <p
           className=" MsoListParagraphCxSpMiddle"
@@ -88,11 +79,8 @@ const HealthcareManagement = () => {
             textJustify: "inter-ideograph",
           }}
         >
-          4.
-          <span >
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          </span><a  className="link" href="#4">
-          MBA in Healthcare &amp; Hospital Management : Job Profiles Offered</a>
+          <a className="link" href="#4">
+            MBA in Healthcare &amp; Hospital Management : Job Profiles Offered</a>
         </p>
         <p
           className=" MsoListParagraphCxSpMiddle"
@@ -101,11 +89,8 @@ const HealthcareManagement = () => {
             textJustify: "inter-ideograph",
           }}
         >
-          5.
-          <span >
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          </span>
-          Top Colleges in India for MBA in Healthcare &amp; Hospital Management 
+
+          Top Colleges in India for MBA in Healthcare &amp; Hospital Management
         </p>
         <p
           className=" MsoListParagraphCxSpMiddle"
@@ -114,11 +99,8 @@ const HealthcareManagement = () => {
             textJustify: "inter-ideograph",
           }}
         >
-          6.
-          <span >
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          </span><a  className="link" href="#6">
-          MBA in Healthcare &amp; Hospital Management  - Top Recruiters
+          <a className="link" href="#6">
+            MBA in Healthcare &amp; Hospital Management  - Top Recruiters
           </a>
         </p>
         <p
@@ -128,15 +110,12 @@ const HealthcareManagement = () => {
             textJustify: "inter-ideograph",
           }}
         >
-          7.
-          <span >
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          </span><a  className="link" href="#7">
-          FAQs – MBA in Healthcare &amp; Hospital Management 
+          <a className="link" href="#7">
+            FAQs – MBA in Healthcare &amp; Hospital Management
           </a>
         </p>
 
-        
+
         <p
           className=" cont"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
@@ -178,7 +157,10 @@ const HealthcareManagement = () => {
                     lineHeight: "normal",
                   }}
                 >
-                  Parameters
+
+                  <b>
+                    Parameters
+                  </b>
                 </p>
               </td>
               <td
@@ -200,7 +182,9 @@ const HealthcareManagement = () => {
                     lineHeight: "normal",
                   }}
                 >
-                  Details
+                  <b>
+                    Details
+                  </b>
                 </p>
               </td>
             </tr>
@@ -221,7 +205,7 @@ const HealthcareManagement = () => {
                     marginBottom: "0in",
                     textAlign: "justify",
                     textJustify: "inter-ideograph",
-                    lineHeight: "normal",fontWeight:"bold",
+                    lineHeight: "normal", fontWeight: "bold",
                   }}
                 >
                   Program Type
@@ -269,7 +253,7 @@ const HealthcareManagement = () => {
                     marginBottom: "0in",
                     textAlign: "justify",
                     textJustify: "inter-ideograph",
-                    lineHeight: "normal",fontWeight:"bold",
+                    lineHeight: "normal", fontWeight: "bold",
                   }}
                 >
                   Eligibility
@@ -318,7 +302,7 @@ const HealthcareManagement = () => {
                     marginBottom: "0in",
                     textAlign: "justify",
                     textJustify: "inter-ideograph",
-                    lineHeight: "normal",fontWeight:"bold",
+                    lineHeight: "normal", fontWeight: "bold",
                   }}
                 >
                   Admission Process
@@ -366,7 +350,7 @@ const HealthcareManagement = () => {
                     marginBottom: "0in",
                     textAlign: "justify",
                     textJustify: "inter-ideograph",
-                    lineHeight: "normal",fontWeight:"bold",
+                    lineHeight: "normal", fontWeight: "bold",
                   }}
                 >
                   Entrance Exams
@@ -414,7 +398,7 @@ const HealthcareManagement = () => {
                     marginBottom: "0in",
                     textAlign: "justify",
                     textJustify: "inter-ideograph",
-                    lineHeight: "normal",fontWeight:"bold",
+                    lineHeight: "normal", fontWeight: "bold",
                   }}
                 >
                   Program Options
@@ -462,7 +446,7 @@ const HealthcareManagement = () => {
                     marginBottom: "0in",
                     textAlign: "justify",
                     textJustify: "inter-ideograph",
-                    lineHeight: "normal",fontWeight:"bold",
+                    lineHeight: "normal", fontWeight: "bold",
                   }}
                 >
                   Syllabus
@@ -565,7 +549,7 @@ const HealthcareManagement = () => {
                     marginBottom: "0in",
                     textAlign: "justify",
                     textJustify: "inter-ideograph",
-                    lineHeight: "normal",fontWeight:"bold",
+                    lineHeight: "normal", fontWeight: "bold",
                   }}
                 >
                   Fees
@@ -613,7 +597,7 @@ const HealthcareManagement = () => {
                     marginBottom: "0in",
                     textAlign: "justify",
                     textJustify: "inter-ideograph",
-                    lineHeight: "normal",fontWeight:"bold",
+                    lineHeight: "normal", fontWeight: "bold",
                   }}
                 >
                   Average Salary
@@ -661,7 +645,7 @@ const HealthcareManagement = () => {
                     marginBottom: "0in",
                     textAlign: "justify",
                     textJustify: "inter-ideograph",
-                    lineHeight: "normal",fontWeight:"bold",
+                    lineHeight: "normal", fontWeight: "bold",
                   }}
                 >
                   Job Profiles
@@ -726,14 +710,8 @@ const HealthcareManagement = () => {
           className=" cont"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         />
-      <CustomTable />
+        <CustomTable />
 
-        <p
-          className=" cont"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
         <p
           className=" cont"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
@@ -998,35 +976,143 @@ const HealthcareManagement = () => {
         >
           &nbsp;
         </p>
-        <p
-          className=" cont"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className=" cont" id="3"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          <b>MBA in Healthcare &amp; Hospital Management: Skills Required</b>
-        </p>
-        <p
-          className=" cont"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          The following are some of the skills needed for an MBA / PGDM in
-          Healthcare &amp; Hospital Management:
-        </p>
-        <ul className="cont">
-          <li>Communication skills</li>
-          <li>Time Management</li>
-          <li>Problem Solving Ability</li>
-          <li>Listening skills</li>
-          <li>Critical thinking</li>
-          <li>Supervisory skill</li>
-          <li>Attention to Safety</li>
-          <li>Leadership</li>
-        </ul>
+        <div className="required-skills">
+
+          <p
+            className=" cont" id="3"
+            style={{ textAlign: "justify", textJustify: "inter-ideograph", marginLeft: "0" }}
+          >
+            <b>MBA in Healthcare &amp; Hospital Management: Skills Required</b>
+          </p>
+          <p
+            className=" cont"
+            style={{ textAlign: "justify", textJustify: "inter-ideograph", marginLeft: "0" }}
+          >
+            The following are some of the skills needed for an MBA / PGDM in
+            Healthcare &amp; Hospital Management:
+          </p>
+
+          <p
+            className="cont"
+            style={{
+              // marginLeft: "1in",
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
+            </span>Communication skills</p>
+          <p
+            className="cont"
+            style={{
+              // marginLeft: "1in",
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
+            </span>Time Management</p>
+          <p
+            className="cont"
+            style={{
+              // marginLeft: "1in",
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
+            </span>Problem Solving Ability</p>
+          <p
+            className="cont"
+            style={{
+              // marginLeft: "1in",
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
+            </span>Listening skills</p>
+          <p
+            className="cont"
+            style={{
+              // marginLeft: "1in",
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
+            </span>Critical thinking</p>
+          <p
+            className="cont"
+            style={{
+              // marginLeft: "1in",
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
+            </span>Supervisory skill</p>
+          <p
+            className="cont"
+            style={{
+              // marginLeft: "1in",
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
+            </span>Attention to Safety</p>
+          <p
+            className="cont"
+            style={{
+              // marginLeft: "1in",
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
+            </span>Leadership</p>
+        </div>
         <p
           className=" cont"
           style={{
@@ -1047,44 +1133,98 @@ const HealthcareManagement = () => {
         >
           <b>&nbsp;</b>
         </p>
-        <p
-          className=" cont" id="4"
-          style={{
-            marginBottom: "0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-          }}
-        >
-          <b>
-            MBA in Healthcare &amp; Hospital Management: Job Profiles Offered
-          </b>
-        </p>
-        <p
-          className=" cont"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className=" cont"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          With the rise in the concept of Medical Tourism, there has been a huge
-          inflow in the number of patients from across the world. Also with the
-          changing times, pandemic, health conscious, higher spending power, all
-          this has made customers’ ask for better and improved facilities.
-          Therefore, MBA / PGDM in Healthcare &amp; Hospital Management students
-          are placed in sectors like diagnostics, hospital, insurance, IT,
-          medical equipment, pharmaceuticals, NGOs and public health and
-          clinical research laboratories. Some of the job profiles being offered
-          are:
-        </p>
-        <ul className="cont">
-          <li>Hospital Manager</li>
-          <li>Medical Superintendent</li>
-          <li>Healthcare Finance Manager</li>
-          <li>Healthcare Administrator</li>
-        </ul>
+        <div className="required-skills">
+
+          <p
+            className=" cont" id="4"
+            style={{
+              marginBottom: "0in",
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              marginLeft: "0"
+            }}
+          >
+            <b>
+              MBA in Healthcare &amp; Hospital Management: Job Profiles Offered
+            </b>
+          </p>
+          <p
+            className=" cont"
+            style={{
+              textAlign: "justify", textJustify: "inter-ideograph", marginLeft: "0"
+            }}
+          >
+            With the rise in the concept of Medical Tourism, there has been a huge
+            inflow in the number of patients from across the world. Also with the
+            changing times, pandemic, health conscious, higher spending power, all
+            this has made customers’ ask for better and improved facilities.
+            Therefore, MBA / PGDM in Healthcare &amp; Hospital Management students
+            are placed in sectors like diagnostics, hospital, insurance, IT,
+            medical equipment, pharmaceuticals, NGOs and public health and
+            clinical research laboratories. Some of the job profiles being offered
+            are:
+          </p>
+          <p
+            className="cont"
+            style={{
+              // marginLeft: "1in",
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
+            </span>Hospital Manager</p>
+          <p
+            className="cont"
+            style={{
+              // marginLeft: "1in",
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
+            </span>Medical Superintendent</p>
+          <p
+            className="cont"
+            style={{
+              // marginLeft: "1in",
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
+            </span>Healthcare Finance Manager</p>
+          <p
+            className="cont"
+            style={{
+              // marginLeft: "1in",
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
+            </span>Healthcare Administrator</p>
+        </div>
         <p
           className=" cont"
           style={{
@@ -1120,60 +1260,238 @@ const HealthcareManagement = () => {
         </p>
         <p
           className=" cont"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
+          style={{ textAlign: "justify", textJustify: "inter-ideograph"}}
         >
           &nbsp;
         </p>
-        <p
-          className=" cont"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className=" cont" id="6"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          <b>MBA in Healthcare &amp; Hospital Management - Top Recruiters </b>
-        </p>
-        <p
-          className=" cont"
-          style={{
-            marginBottom: "0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-          }}
-        >
-          MBA / PGDM in Healthcare &amp; Hospital Management are hired by
-          pharmaceutical companies, hospital chains and healthcare organizations
-          for various administrative and management roles. Some of the top
-          recruiters for MBA in Healthcare &amp; Hospital Management are
-        </p>
-        <p
-          className=" cont"
-          style={{
-            marginBottom: "0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-          }}
-        >
-          &nbsp;
-        </p>
-        <ul className="cont">
-          <li>Cipla</li>
-          <li>Novartis</li>
-          <li>Fortis</li>
-          <li>Pfizer</li>
-          <li>ICICI Lombard</li>
-          <li>Apollo</li>
-          <li>Glenmark</li>
-          <li>Bajaj Allianz</li>
-          <li>Star Health</li>
-          <li>UNICEF</li>
-          <li>GE</li>
-          <li>Johnson &amp; Johnson</li>
-          <li>Bharat Biotech</li>
-        </ul>
+        <div className="required-skills">
+
+          <p
+            className=" cont" id="6"
+            style={{ textAlign: "justify", textJustify: "inter-ideograph", marginLeft: "0" }}
+          >
+            <b>MBA in Healthcare &amp; Hospital Management - Top Recruiters </b>
+          </p>
+          <p
+            className=" cont"
+            style={{
+              marginBottom: "0in",
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              marginLeft: "0" 
+            }}
+          >
+            MBA / PGDM in Healthcare &amp; Hospital Management are hired by
+            pharmaceutical companies, hospital chains and healthcare organizations
+            for various administrative and management roles. Some of the top
+            recruiters for MBA in Healthcare &amp; Hospital Management are
+          </p>
+          <p
+            className=" cont"
+            style={{
+              marginBottom: "0in",
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+            }}
+          >
+            &nbsp;
+          </p>
+          <p
+            className="cont"
+            style={{
+              // marginLeft: "1in",
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
+            </span>Cipla</p>
+          <p
+            className="cont"
+            style={{
+              // marginLeft: "1in",
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
+            </span>Novartis</p>
+          <p
+            className="cont"
+            style={{
+              // marginLeft: "1in",
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
+            </span>Fortis</p>
+          <p
+            className="cont"
+            style={{
+              // marginLeft: "1in",
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
+            </span>Pfizer</p>
+          <p
+            className="cont"
+            style={{
+              // marginLeft: "1in",
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
+            </span>ICICI Lombard</p>
+          <p
+            className="cont"
+            style={{
+              // marginLeft: "1in",
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
+            </span>Apollo</p>
+          <p
+            className="cont"
+            style={{
+              // marginLeft: "1in",
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
+            </span>Glenmark</p>
+          <p
+            className="cont"
+            style={{
+              // marginLeft: "1in",
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
+            </span>Bajaj Allianz</p>
+          <p
+            className="cont"
+            style={{
+              // marginLeft: "1in",
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
+            </span>Star Health</p>
+          <p
+            className="cont"
+            style={{
+              // marginLeft: "1in",
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
+            </span>UNICEF</p>
+          <p
+            className="cont"
+            style={{
+              // marginLeft: "1in",
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
+            </span>GE</p>
+          <p
+            className="cont"
+            style={{
+              // marginLeft: "1in",
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
+            </span>Johnson &amp; Johnson</p>
+          <p
+            className="cont"
+            style={{
+              // marginLeft: "1in",
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
+            </span>Bharat Biotech</p>
+        </div>
         <p
           className=" cont"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
@@ -1184,14 +1502,8 @@ const HealthcareManagement = () => {
           className=" cont"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         />
-      <CustomTable />
+        <CustomTable />
 
-        <p
-          className=" cont"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
         <p
           className=" cont"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
@@ -1205,13 +1517,7 @@ const HealthcareManagement = () => {
           <b>FAQs – MBA in Healthcare &amp; Hospital Management</b>
         </p>
         <p
-          className=" cont"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className=" cont"
+          className="headings cont"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           Q: Is a job in health administration a good choice?
@@ -1227,13 +1533,7 @@ const HealthcareManagement = () => {
           to advance their careers.
         </p>
         <p
-          className=" cont"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className=" cont"
+          className="headings cont"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           Q: What are the career prospects after MBA in Healthcare &amp;
@@ -1251,13 +1551,7 @@ const HealthcareManagement = () => {
           others.
         </p>
         <p
-          className=" cont"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className=" cont"
+          className="headings cont"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           Q: Which are the top companies that hire MBA in Healthcare &amp;
@@ -1273,13 +1567,7 @@ const HealthcareManagement = () => {
           Fortis and Apollo among others.
         </p>
         <p
-          className=" cont"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className=" cont"
+          className="headings cont"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           Q: Is MBA in Healthcare &amp; Hospital Management course offered in
@@ -1297,13 +1585,7 @@ const HealthcareManagement = () => {
           Management, Pune, Alliance School of Business, Bangalore.
         </p>
         <p
-          className=" cont"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className=" cont"
+          className="headings cont"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           Q: What is the difference between Healthcare Management and Healthcare
@@ -1321,13 +1603,7 @@ const HealthcareManagement = () => {
           hiring, patient treatment and functioning of all other departments.
         </p>
         <p
-          className=" cont"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className=" cont"
+          className="headings cont"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           Q: Is it mandatory to have MBBS degree to pursue MBA in Healthcare
@@ -1343,13 +1619,7 @@ const HealthcareManagement = () => {
           BDS, etc. is also widely accepted by colleges offering the course.
         </p>
         <p
-          className=" cont"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className=" cont"
+          className="headings cont"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           Q: What is the eligibility criteria for MBA in Healthcare Management?
@@ -1365,13 +1635,7 @@ const HealthcareManagement = () => {
           Sc, MBBS, BPT, B Pharm, BTech, BDS, etc.
         </p>
         <p
-          className=" cont"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className=" cont"
+          className="headings cont"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           Q: What is the fee range of MBA in Healthcare &amp; Hospital
@@ -1387,13 +1651,7 @@ const HealthcareManagement = () => {
           20 lac.
         </p>
         <p
-          className=" cont"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className=" cont"
+          className="headings cont"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           Q: Which are the top entrance exams for MBA in Healthcare &amp;
@@ -1405,12 +1663,6 @@ const HealthcareManagement = () => {
         >
           Ans: The top entrance exams for MBA / PGDM in Healthcare &amp;
           Hospital Management are CAT, XAT, SNAP, NMAT, MAT, CMAT, and GMAT.
-        </p>
-        <p
-          className=" cont"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
         </p>
       </div>
     </div>
