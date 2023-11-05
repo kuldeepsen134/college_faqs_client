@@ -1,7 +1,29 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
+
+// import { useRouter } from 'next/router';
+import { useLocation, useParams, useSearchParams } from "react-router-dom";
+import { instance } from "../api/axios";
+import { STATIC_URL } from "../config/config";
 
 const CompairCollage = () => {
+  const [urlSearchParams] = useSearchParams();
+  const { id } = useParams()
 
+  const [getCollage, setCollage] = useState({})
+
+
+  useEffect(() => {
+    (async () => {
+      try {
+
+        let responce = await instance.post(`/colleges/compare/${82}`, { ids: [81] })
+        setCollage(responce && responce?.data?.data)
+
+      } catch (error) {
+        console.error('error>>>>>>', error);
+      }
+    })()
+  }, [])
 
   return (
     <>
@@ -19,54 +41,52 @@ const CompairCollage = () => {
 
                 }}
               >
-                <div style={{
-                  display: 'flex',
-                  justifyContent: 'center'
-                }}>
+                {getCollage?.baseCollage?.map((item, i) => {
+                  return (<>
+                    <div style={{
+                      display: 'flex',
+                      justifyContent: 'center'
+                    }}>
+                      <img src={STATIC_URL + "/images/" + item.college_image} alt="image" />
 
-                  <img src="/img/upload/gallery-add.png" alt="image" />
-                </div>
-                <hr />
-                <h5>bdsjfhb</h5>
-                <p>Location</p>
-                <p>B.Tech. in Civil Engineering + M.Tech. in Transportation Engineering</p>
+                    </div>
+                    <hr />
+                    <h5 style={{ color: 'blue' }}>{item?.college_name}</h5>
+                    <p>{item?.location}</p>
+                    <p>{item?.program}</p>
 
-                <button>Modify Selection</button>
-                <hr />
+                    <button style={{ color: 'blue', border: 'solid' }}>Modify Selection</button>
+                    <hr />
+                    <p>Institute Information</p>
+                    <hr />
+                    <div style={{
+                      display: 'flex',
+                      justifyContent: 'space-between'
+                    }}>
+                      <p>Established Year <span>{item?.established_year}</span></p>
+                      <p>Ranking<span>{item?.ranking}</span> </p>
+                    </div>
+                    <hr />
+                    <p>Course Details</p>
+                    <hr />
+                    <div style={{
+                      display: 'flex',
+                      justifyContent: 'space-between'
+                    }}>
+                      <p>Total Courses (11)</p>
+                    </div>
 
-                <div style={{
-                  display: 'flex',
-                  justifyContent: 'space-between'
-                }}>
-                  <p>Established Year</p>
-                  <p>Established Year</p>
+                    <div style={{
+                      display: 'flex',
+                      justifyContent: 'space-between'
+                    }}>
+                      <p>B.Tech</p>
+                      <p>Public/Government, Autonomous</p>
 
-                </div>
-                <div style={{
-                  display: 'flex',
-                  justifyContent: 'space-between'
-                }}>
-                  <p>Ownership</p>
-                  <p>Public/Government, Autonomous</p>
-
-                </div>
-
-                <div style={{
-                  display: 'flex',
-                  justifyContent: 'space-between'
-                }}>
-                  <p>Total Courses (11)</p>
-                </div>
-
-                <div style={{
-                  display: 'flex',
-                  justifyContent: 'space-between'
-                }}>
-                  <p>B.Tech</p>
-                  <p>Public/Government, Autonomous</p>
-
-                </div>
-
+                    </div>
+                  </>
+                  )
+                })}
               </div>
             </section>
 

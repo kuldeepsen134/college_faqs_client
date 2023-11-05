@@ -107,7 +107,7 @@ export const MainRoutes = [
     guard: null,
   },
   {
-    path: "/college-compair",
+    path: "/college-compair/:id",
     component: CompairCollage,
     children: null,
     guard: null,
