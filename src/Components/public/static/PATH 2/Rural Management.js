@@ -4,8 +4,8 @@ import { useEffect } from "react";
 
 const RuralManagements = () => {
   useEffect(() => {
-    window.scrollTo(0,0);
-  },[])
+    window.scrollTo(0, 0);
+  }, [])
 
   return (
     <div>
@@ -43,13 +43,7 @@ const RuralManagements = () => {
           hence students must know that this programme is all about experiential
           learning.
         </p>
-        <p
-          className="cont"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <b>Table of content</b>
+        <b className="table-details">Table of content</b>
 
         <p
           className=" MsoListParagraphCxSpFirst"
@@ -58,11 +52,9 @@ const RuralManagements = () => {
             textJustify: "inter-ideograph",
           }}
         >
-          1.
-          <span >
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          </span><a className="link" href="#1">
-          MBA in Rural Management – Program Highlights</a>
+
+          <a className="link" href="#1">
+            MBA in Rural Management – Program Highlights</a>
         </p>
         <p
           className=" MsoListParagraphCxSpMiddle"
@@ -71,11 +63,18 @@ const RuralManagements = () => {
             textJustify: "inter-ideograph",
           }}
         >
-          2.
-          <span >
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          </span><a  className="link" href="#2">
-          MBA in Rural Management  – Syllabus</a>
+
+          <a className="link" href="#2">
+            MBA in Rural Management  – Syllabus</a>
+        </p>
+        <p
+          className=" MsoListParagraphCxSpMiddle"
+          style={{
+            textAlign: "justify",
+            textJustify: "inter-ideograph",
+          }}
+        ><a className="link" href="#3">
+            MBA in Rural Management : Skills Required</a>
         </p>
         <p
           className=" MsoListParagraphCxSpMiddle"
@@ -84,11 +83,9 @@ const RuralManagements = () => {
             textJustify: "inter-ideograph",
           }}
         >
-          3.
-          <span  >
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          </span><a  className="link" href="#3">
-          MBA in Rural Management : Skills Required</a>
+
+          <a className="link" href="#4">
+            MBA in Rural Management: Job Profiles Offered</a>
         </p>
         <p
           className=" MsoListParagraphCxSpMiddle"
@@ -97,23 +94,8 @@ const RuralManagements = () => {
             textJustify: "inter-ideograph",
           }}
         >
-          4.
-          <span >
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          </span><a  className="link" href="#4">
-          MBA in Rural Management: Job Profiles Offered</a>
-        </p>
-        <p
-          className=" MsoListParagraphCxSpMiddle"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-          }}
-        >
-          5.
-          <span >
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          </span>
+
+
           Top Colleges in India for MBA in Rural Management
         </p>
         <p
@@ -123,11 +105,9 @@ const RuralManagements = () => {
             textJustify: "inter-ideograph",
           }}
         >
-          6.
-          <span >
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          </span><a  className="link" href="#6">
-         MBA in Rural Management  - Top Recruiters
+
+          <a className="link" href="#6">
+            MBA in Rural Management  - Top Recruiters
           </a>
         </p>
         <p
@@ -137,15 +117,13 @@ const RuralManagements = () => {
             textJustify: "inter-ideograph",
           }}
         >
-          7.
-          <span >
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          </span><a  className="link" href="#7">
-          FAQs – MBA in Rural Management
+
+          <a className="link" href="#7">
+            FAQs – MBA in Rural Management
           </a>
         </p>
 
-    
+
         <p
           className="cont" id="1"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
@@ -186,7 +164,7 @@ const RuralManagements = () => {
                   align="center"
                 >
                   <b>
-                    <u>Parameters</u>
+                    Parameters
                   </b>
                 </p>
               </td>
@@ -210,7 +188,7 @@ const RuralManagements = () => {
                   align="center"
                 >
                   <b>
-                    <u>Details</u>
+                    Details
                   </b>
                 </p>
               </td>
@@ -232,7 +210,7 @@ const RuralManagements = () => {
                     marginBottom: "0in",
                     textAlign: "justify",
                     textJustify: "inter-ideograph",
-                    lineHeight: "normal",fontWeight:"bold",
+                    lineHeight: "normal", fontWeight: "bold",
                   }}
                 >
                   Program Type
@@ -280,7 +258,7 @@ const RuralManagements = () => {
                     marginBottom: "0in",
                     textAlign: "justify",
                     textJustify: "inter-ideograph",
-                    lineHeight: "normal",fontWeight:"bold",
+                    lineHeight: "normal", fontWeight: "bold",
                   }}
                 >
                   Eligibility
@@ -329,7 +307,7 @@ const RuralManagements = () => {
                     marginBottom: "0in",
                     textAlign: "justify",
                     textJustify: "inter-ideograph",
-                    lineHeight: "normal",fontWeight:"bold",
+                    lineHeight: "normal", fontWeight: "bold",
                   }}
                 >
                   Admission Process
@@ -377,7 +355,7 @@ const RuralManagements = () => {
                     marginBottom: "0in",
                     textAlign: "justify",
                     textJustify: "inter-ideograph",
-                    lineHeight: "normal",fontWeight:"bold",
+                    lineHeight: "normal", fontWeight: "bold",
                   }}
                 >
                   Entrance Exams
@@ -425,7 +403,7 @@ const RuralManagements = () => {
                     marginBottom: "0in",
                     textAlign: "justify",
                     textJustify: "inter-ideograph",
-                    lineHeight: "normal",fontWeight:"bold",
+                    lineHeight: "normal", fontWeight: "bold",
                   }}
                 >
                   Program Options
@@ -473,7 +451,7 @@ const RuralManagements = () => {
                     marginBottom: "0in",
                     textAlign: "justify",
                     textJustify: "inter-ideograph",
-                    lineHeight: "normal",fontWeight:"bold",
+                    lineHeight: "normal", fontWeight: "bold",
                   }}
                 >
                   Syllabus
@@ -540,7 +518,7 @@ const RuralManagements = () => {
                     marginBottom: "0in",
                     textAlign: "justify",
                     textJustify: "inter-ideograph",
-                    lineHeight: "normal",fontWeight:"bold",
+                    lineHeight: "normal", fontWeight: "bold",
                   }}
                 >
                   Fees
@@ -588,7 +566,7 @@ const RuralManagements = () => {
                     marginBottom: "0in",
                     textAlign: "justify",
                     textJustify: "inter-ideograph",
-                    lineHeight: "normal",fontWeight:"bold",
+                    lineHeight: "normal", fontWeight: "bold",
                   }}
                 >
                   Average Salary
@@ -636,7 +614,7 @@ const RuralManagements = () => {
                     marginBottom: "0in",
                     textAlign: "justify",
                     textJustify: "inter-ideograph",
-                    lineHeight: "normal",fontWeight:"bold", 
+                    lineHeight: "normal", fontWeight: "bold",
                   }}
                 >
                   Job Profiles
@@ -973,280 +951,304 @@ const RuralManagements = () => {
         >
           &nbsp;
         </p>
-        <p
-          className="cont"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          <b>MBA in Rural Management: Skills Required</b>
-        </p>
-        <p
-          className="cont"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          Functional-specific skills that one need to have to succeed in MBA /
-          PGDM in Rural Management are:
-        </p>
-        <p
-          className="cont"
-          style={{ marginLeft:"1in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
-        >
-          1.
-          <span style={{ font: '7pt "Times New Roman"' }}>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
-          </span>
-          Leadership skills
-        </p>
-        <p
-          className="cont"
-          style={{ marginLeft:"1in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
-        >
-          2.
-          <span style={{ font: '7pt "Times New Roman"' }}>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
-          </span>
-          Ability to work with clients with diverse interests
-        </p>
-        <p
-          className="cont"
-          style={{ marginLeft:"1in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
-        >
-          3.
-          <span style={{ font: '7pt "Times New Roman"' }}>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
-          </span>
-          Problem-solving skills
-        </p>
-        <p
-          className="cont"
-          style={{ marginLeft:"1in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
-        >
-          4.
-          <span style={{ font: '7pt "Times New Roman"' }}>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
-          </span>
-          Interest in farming, planning, etc
-        </p>
-        <p
-          className="cont"
-          style={{ marginLeft:"1in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
-        >
-          5.
-          <span style={{ font: '7pt "Times New Roman"' }}>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
-          </span>
-          Good communication skills
-        </p>
-        <p
-          className="cont"
-          style={{ marginLeft:"1in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
-        >
-          6.
-          <span style={{ font: '7pt "Times New Roman"' }}>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
-          </span>
-          Willingness to work in rural areas
-        </p>
-        <p
-          className="cont"
-          style={{ marginLeft:"1in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
-        >
-          7.
-          <span style={{ font: '7pt "Times New Roman"' }}>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
-          </span>
-          Knowledge of local languages
-        </p>
-        <p
-          className="cont"
-          style={{ marginLeft:"1in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
-        >
-          8.
-          <span style={{ font: '7pt "Times New Roman"' }}>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
-          </span>
-          Analytical reasoning
-        </p>
-        <p
-          className="cont"
-          style={{ marginLeft:"1in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
-        >
-          9.
-          <span style={{ font: '7pt "Times New Roman"' }}>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
-          </span>
-          Ability to handle masses
-        </p>
+
+        <div className="required-skills">
+
+          <p
+            className="cont"
+            style={{ textAlign: "justify", textJustify: "inter-ideograph", marginLeft: "0" }}
+          >
+            <b>MBA in Rural Management: Skills Required</b>
+          </p>
+          <p
+            className="cont"
+            style={{ textAlign: "justify", textJustify: "inter-ideograph", marginLeft: "0" }}
+          >
+            Functional-specific skills that one need to have to succeed in MBA /
+            PGDM in Rural Management are:
+          </p>
+          <p
+            className="cont"
+            style={{
+              // marginLeft: "1in",
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            1.
+            <span style={{ font: '7pt "Times New Roman"' }}>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+            </span>
+            Leadership skills
+          </p>
+          <p
+            className="cont"
+            style={{
+              // marginLeft: "1in",
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            2.
+            <span style={{ font: '7pt "Times New Roman"' }}>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+            </span>
+            Ability to work with clients with diverse interests
+          </p>
+          <p
+            className="cont"
+            style={{
+              // marginLeft: "1in",
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            3.
+            <span style={{ font: '7pt "Times New Roman"' }}>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+            </span>
+            Problem-solving skills
+          </p>
+          <p
+            className="cont"
+            style={{
+              // marginLeft: "1in",
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            4.
+            <span style={{ font: '7pt "Times New Roman"' }}>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+            </span>
+            Interest in farming, planning, etc
+          </p>
+          <p
+            className="cont"
+            style={{
+              // marginLeft: "1in",
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            5.
+            <span style={{ font: '7pt "Times New Roman"' }}>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+            </span>
+            Good communication skills
+          </p>
+          <p
+            className="cont"
+            style={{
+              // marginLeft: "1in",
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            6.
+            <span style={{ font: '7pt "Times New Roman"' }}>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+            </span>
+            Willingness to work in rural areas
+          </p>
+          <p
+            className="cont"
+            style={{
+              // marginLeft: "1in",
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            7.
+            <span style={{ font: '7pt "Times New Roman"' }}>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+            </span>
+            Knowledge of local languages
+          </p>
+          <p
+            className="cont"
+            style={{
+              // marginLeft: "1in",
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            8.
+            <span style={{ font: '7pt "Times New Roman"' }}>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+            </span>
+            Analytical reasoning
+          </p>
+          <p
+            className="cont"
+            style={{
+              // marginLeft: "1in",
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            9.
+            <span style={{ font: '7pt "Times New Roman"' }}>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+            </span>
+            Ability to handle masses
+          </p>
+        </div>
+
         <p
           className="cont" id="4"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           <b>&nbsp;</b>
         </p>
-        <p
-          className="cont"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          <b>MBA in Rural Management: Job Profiles Offered</b>
-        </p>
-        <p
-          className="cont"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          A rural management degree holder is eligible for every managerial role
-          in business domains that deal with agricultural products or rural
-          manufacturing. The degree is also useful for those looking for jobs in
-          rural banks, rural cooperatives as well as government and
-          non-government organisations. Some of the job profiles are listed
-          below:
-        </p>
-        <p
-          className="cont"
-          style={{ marginLeft:"1in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
-        >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+
+        <div className="required-skills">
+          <p
+            className="cont"
+            style={{ textAlign: "justify", textJustify: "inter-ideograph", marginLeft: "0" }}
+          >
+            <b>MBA in Rural Management: Job Profiles Offered</b>
+          </p>
+          <p
+            className="cont"
+            style={{ textAlign: "justify", textJustify: "inter-ideograph", marginLeft: "0" }}
+          >
+            A rural management degree holder is eligible for every managerial role
+            in business domains that deal with agricultural products or rural
+            manufacturing. The degree is also useful for those looking for jobs in
+            rural banks, rural cooperatives as well as government and
+            non-government organisations. Some of the job profiles are listed
+            below:
+          </p>
+          <p
+            className="cont"
+            style={{
+              // marginLeft: "1in",
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
             </span>
-          </span>
-          Business Development Manager
-        </p>
-        <p
-          className="cont"
-          style={{ marginLeft:"1in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
-        >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+            Business Development Manager
+          </p>
+          <p
+            className="cont"
+            style={{
+              // marginLeft: "1in",
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
             </span>
-          </span>
-          Vendor Development Officer
-        </p>
-        <p
-          className="cont"
-          style={{ marginLeft:"1in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
-        >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+            Vendor Development Officer
+          </p>
+          <p
+            className="cont"
+            style={{
+              // marginLeft: "1in",
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
             </span>
-          </span>
-          Rural Development Officer
-        </p>
-        <p
-          className="cont"
-          style={{ marginLeft:"1in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
-        >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+            Rural Development Officer
+          </p>
+          <p
+            className="cont"
+            style={{
+              // marginLeft: "1in",
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
             </span>
-          </span>
-          Sales Officer
-        </p>
-        <p
-          className="cont"
-          style={{ marginLeft:"1in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
-        >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+            Sales Officer
+          </p>
+          <p
+            className="cont"
+            style={{
+              // marginLeft: "1in",
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
             </span>
-          </span>
-          Research Officer
-        </p>
-        <p
-          className="cont"
-          style={{ marginLeft:"1in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
-        >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+            Research Officer
+          </p>
+          <p
+            className="cont"
+            style={{
+              // marginLeft: "1in",
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
             </span>
-          </span>
-          Sales Manager
-        </p>
-        <p
-          className="cont"
-          style={{ marginLeft:"1in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
-        >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+            Sales Manager
+          </p>
+          <p
+            className="cont"
+            style={{
+              // marginLeft: "1in",
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
             </span>
-          </span>
-          National Sales Development officer
-        </p>
+            National Sales Development officer
+          </p>
+        </div>
         <p
           className="cont" id="5"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
@@ -1268,181 +1270,188 @@ const RuralManagements = () => {
           the years. Admission is based on prior academic performance and
           entrance test scores. To find out about the top colleges of India
           offering MBA / PGDM in Rural Management,{" "}
-          <span style={{ color: "red" }}>        <Link to="/college-list?m=Top Private MBA Colleges">
+          <span style={{ color: "red" }}>
+            <Link to="/college-list?m=Top Private MBA Colleges">
               click here
             </Link></span>.
         </p>
-    
+
         <p
           className="cont" id="6"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           &nbsp;
         </p>
-        <p
-          className="cont"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          <b>MBA in Rural Management - Top Recruiters </b>
-        </p>
-        <p
-          className="cont"
-          style={{
-            marginBottom: "0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-          }}
-        >
-          After completing MBA / PGDM in Rural Management, students have various
-          job opportunities in the rural development projects, government
-          sector, NGOs, funding agencies, voluntary groups and organizations,
-          etc. The top recruiting companies are:
-        </p>
-        <p
-          className="cont"
-          style={{
-            marginBottom: "0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-          }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="connt"
-          style={{
-            marginLeft:"1in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
-        >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+        <div className="required-skills">
+
+          <p
+            className="cont"
+            style={{ textAlign: "justify", textJustify: "inter-ideograph", marginLeft: "0" }}
+          >
+            <b>MBA in Rural Management - Top Recruiters </b>
+          </p>
+          <p
+            className="cont"
+            style={{
+              marginBottom: "0in",
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              marginLeft: "0"
+            }}
+          >
+            After completing MBA / PGDM in Rural Management, students have various
+            job opportunities in the rural development projects, government
+            sector, NGOs, funding agencies, voluntary groups and organizations,
+            etc. The top recruiting companies are:
+          </p>
+          <p
+            className="cont"
+            style={{
+              marginBottom: "0in",
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              marginLeft: "0"
+            }}
+          >
+            &nbsp;
+          </p>
+          <p
+            className="cont"
+            style={{
+              // marginLeft: "1in",
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
             </span>
-          </span>
-          Nandi Foundation
-        </p>
-        <p
-          className="cont"
-          style={{ marginLeft:"1in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
-        >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+            Nandi Foundation
+          </p>
+          <p
+            className="cont"
+            style={{
+              // marginLeft: "1in",
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
             </span>
-          </span>
-          Amul
-        </p>
-        <p
-          className="cont"
-          style={{ marginLeft:"1in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
-        >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+            Amul
+          </p>
+          <p
+            className="cont"
+            style={{
+              // marginLeft: "1in",
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
             </span>
-          </span>
-          PRADHAN
-        </p>
-        <p
-          className="cont"
-          style={{ marginLeft:"1in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
-        >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+            PRADHAN
+          </p>
+          <p
+            className="cont"
+            style={{
+              // marginLeft: "1in",
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
             </span>
-          </span>
-          ICICI Bank
-        </p>
-        <p
-          className="cont"
-          style={{ marginLeft:"1in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
-        >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+            ICICI Bank
+          </p>
+          <p
+            className="cont"
+            style={{
+              // marginLeft: "1in",
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
             </span>
-          </span>
-          Parle Products
-        </p>
-        <p
-          className="cont"
-          style={{ marginLeft:"1in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
-        >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+            Parle Products
+          </p>
+          <p
+            className="cont"
+            style={{
+              // marginLeft: "1in",
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
             </span>
-          </span>
-          CARE
-        </p>
-        <p
-          className="cont"
-          style={{ marginLeft:"1in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
-        >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+            CARE
+          </p>
+          <p
+            className="cont"
+            style={{
+              // marginLeft: "1in",
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
             </span>
-          </span>
-          Agro Tech Foods
-        </p>
-        <p
-          className="cont"
-          style={{ marginLeft:"1in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
-        >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+            Agro Tech Foods
+          </p>
+          <p
+            className="cont"
+            style={{
+              // marginLeft: "1in",
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
             </span>
-          </span>
-          Seva Mandir
-        </p>
-        <p
-          className="cont"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
+            Seva Mandir
+          </p>
+        </div>
         <p
           className="cont" id="7"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
@@ -1456,13 +1465,7 @@ const RuralManagements = () => {
           <b>FAQs – MBA in Rural Management</b>
         </p>
         <p
-          className="cont"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="cont"
+          className="cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           Q: What is Rural Management?
@@ -1476,14 +1479,9 @@ const RuralManagements = () => {
           sector. MBA / PGDM program offered with this specialisation is called
           MBA / PGDM in Rural Management.
         </p>
+        
         <p
-          className="cont"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="cont"
+          className="cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           Q. What is the difference between MBA Rural Management &amp; MBA
@@ -1504,14 +1502,9 @@ const RuralManagements = () => {
           including planning development on&nbsp; rural lands, habitat
           protection, environmental protection.
         </p>
+        
         <p
-          className="cont"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="cont"
+          className="cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           Q: What is the scope of Rural Management?
@@ -1526,14 +1519,9 @@ const RuralManagements = () => {
           banking, cooperative, NGO, infrastructure, technology, human resource,
           etc related to rural and agriculture market.
         </p>
+        
         <p
-          className="cont"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="cont"
+          className="con headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           Q: What are the courses available in Rural Management?
@@ -1546,14 +1534,9 @@ const RuralManagements = () => {
           to study rural management. One can pursue BA / BSC / BBA, MBA / PGDM
           and Ph D.
         </p>
+        
         <p
-          className="cont"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="cont"
+          className="cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           Q: What is the eligibility criterion for MBA in Rural Management?
@@ -1566,14 +1549,9 @@ const RuralManagements = () => {
           a candidate must be having minimum 50 per cent marks in aggregate in
           graduation (45 per cent for reserved category student).
         </p>
+        
         <p
-          className="cont"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="cont"
+          className="cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           Q: What is the admission procedure for MBA / PGDM in Rural Management
@@ -1588,14 +1566,9 @@ const RuralManagements = () => {
           IRMASAT, CAT, XAT, MAT, CMAT, ATMA, etc. Upon clearing the cut-off,
           candidate has to appear for personal interview and group discussion.
         </p>
+        
         <p
-          className="cont"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="cont"
+          className="cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           Q: What is the average fees of an MBA in Rural Management course?
@@ -1607,14 +1580,9 @@ const RuralManagements = () => {
           Ans: The fees ranges between Rs. 1 Lac for government colleges to Rs.
           15 Lac for private colleges.
         </p>
+        
         <p
-          className="cont"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="cont"
+          className="cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           Q: Which are the top colleges for MBA in Rural Management?
@@ -1630,35 +1598,25 @@ const RuralManagements = () => {
             (more names of our&nbsp; tie up colleges to be written)
           </span>
         </p>
+        
         <p
-          className="cont"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="cont"
+          className="cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           Q: Is it mandatory to have a degree in agriculture or rural in
           graduation for pursuing MBA / PGDM in Rural Management?
         </p>
         <p
-          className="cont"
+          className="cont "
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           Ans: No, it is not compulsory to have a degree in rural or agriculture
           in graduation for MBA / PGDM in Rural Management. However, it is an
           added advantage for the students from similar background.
         </p>
+        
         <p
-          className="cont"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="cont"
+          className="cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           Q: Which are the top recruiters for MBA in Rural Management?

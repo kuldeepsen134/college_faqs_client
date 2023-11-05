@@ -43,7 +43,7 @@ const HRManagament = () => {
           className=" cont"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         />
-        <b>Table of Content:-</b>
+        <b className="table-details">Table of content</b>
         <p
           className=" MsoListParagraphCxSpFirst"
           style={{
@@ -51,8 +51,6 @@ const HRManagament = () => {
             textJustify: "inter-ideograph",
           }}
         >
-          1.
-          <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
           <a className="link" href="#1">
             MBA in Human Resource – Program Highlights
           </a>
@@ -64,8 +62,6 @@ const HRManagament = () => {
             textJustify: "inter-ideograph",
           }}
         >
-          2.
-          <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
           <a className="link" href="#2">
             MBA in Human Resource – Syllabus
           </a>
@@ -77,8 +73,6 @@ const HRManagament = () => {
             textJustify: "inter-ideograph",
           }}
         >
-          3.
-          <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
           <a className="link" href="#3">
             MBA in Human Resource : Skills Required
           </a>
@@ -90,8 +84,6 @@ const HRManagament = () => {
             textJustify: "inter-ideograph",
           }}
         >
-          4.
-          <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
           <a className="link" href="#4">
             MBA in Human Resource : Job Profiles Offered
           </a>
@@ -103,8 +95,6 @@ const HRManagament = () => {
             textJustify: "inter-ideograph",
           }}
         >
-          5.
-          <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
           Top Colleges in India forMBA in Human Resource
         </p>
         <p
@@ -114,8 +104,6 @@ const HRManagament = () => {
             textJustify: "inter-ideograph",
           }}
         >
-          6.
-          <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
           <a className="link" href="#6">
             MBA in Human Resource - Top Recruiters
           </a>
@@ -127,8 +115,6 @@ const HRManagament = () => {
             textJustify: "inter-ideograph",
           }}
         >
-          7.
-          <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
           <a className="link" href="#7">
             FAQs – MBA in Human Resource
           </a>
@@ -175,7 +161,7 @@ const HRManagament = () => {
                   align="center"
                 >
                   <b>
-                    <u>Parameters</u>
+                    Parameters
                   </b>
                 </p>
               </td>
@@ -199,7 +185,7 @@ const HRManagament = () => {
                   align="center"
                 >
                   <b>
-                    <u>Details</u>
+                    Details
                   </b>
                 </p>
               </td>
@@ -1037,168 +1023,174 @@ const HRManagament = () => {
         >
           &nbsp;
         </p>
-        <p
-          className=" cont"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          <b>MBA in Human Resource (HR): Skills Required</b>
-        </p>
-        <p
-          className=" cont"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          An HR professional is supposed to be objective, sympathetic and a good
-          listener. Given below are some of the key skills required to be a
-          successful HR professional:
-        </p>
-        <p
-          className="cont"
-          style={{
-            marginLeft: "1in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
-        >
-          1.
-          <span style={{ font: '7pt "Times New Roman"' }}>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
-          </span>
-          Organisational skills
-        </p>
-        <p
-          className="cont"
-          style={{
-            marginLeft: "1in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
-        >
-          2.
-          <span style={{ font: '7pt "Times New Roman"' }}>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
-          </span>
-          Discrete and ethical
-        </p>
-        <p
-          className="cont"
-          style={{
-            marginLeft: "1in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
-        >
-          3.
-          <span style={{ font: '7pt "Times New Roman"' }}>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
-          </span>
-          Multi-tasking skills
-        </p>
-        <p
-          className="cont"
-          style={{
-            marginLeft: "1in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
-        >
-          4.
-          <span style={{ font: '7pt "Times New Roman"' }}>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
-          </span>
-          People's person
-        </p>
-        <p
-          className="cont"
-          style={{
-            marginLeft: "1in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
-        >
-          5.
-          <span style={{ font: '7pt "Times New Roman"' }}>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
-          </span>
-          Communication skills
-        </p>
-        <p
-          className="cont"
-          style={{
-            marginLeft: "1in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
-        >
-          6.
-          <span style={{ font: '7pt "Times New Roman"' }}>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
-          </span>
-          Conflict management skills
-        </p>
-        <p
-          className="cont"
-          style={{
-            marginLeft: "1in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
-        >
-          7.
-          <span style={{ font: '7pt "Times New Roman"' }}>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
-          </span>
-          Objective
-        </p>
-        <p
-          className="cont"
-          style={{
-            marginLeft: "1in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
-        >
-          8.
-          <span style={{ font: '7pt "Times New Roman"' }}>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
-          </span>
-          Empathetic
-        </p>
-        <p
-          className="cont"
-          style={{
-            marginLeft: "1in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
-        >
-          9.
-          <span style={{ font: '7pt "Times New Roman"' }}>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
-          </span>
-          Convincing skills
-        </p>
-        <p
-          className="cont"
-          style={{
-            marginLeft: "1in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
-        >
-          10.
-          <span style={{ font: '7pt "Times New Roman"' }}>&nbsp;&nbsp; </span>
-          Problem solving skills
-        </p>
+
+        <div className="required-skills">
+          <p
+            className=" cont"
+            style={{ textAlign: "justify", textJustify: "inter-ideograph", marginLeft: "0" }}
+          >
+            <b>MBA in Human Resource (HR): Skills Required</b>
+          </p>
+          <p
+            className=" cont"
+            style={{ textAlign: "justify", textJustify: "inter-ideograph", marginLeft: "0" }}
+          >
+            An HR professional is supposed to be objective, sympathetic and a good
+            listener. Given below are some of the key skills required to be a
+            successful HR professional:
+          </p>
+          <p
+            className="cont"
+            style={{
+              // marginLeft: "1in",
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            1.
+            <span style={{ font: '7pt "Times New Roman"' }}>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+            </span>
+            Organisational skills
+          </p>
+          <p
+            className="cont"
+            style={{
+              // marginLeft: "1in",
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            2.
+            <span style={{ font: '7pt "Times New Roman"' }}>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+            </span>
+            Discrete and ethical
+          </p>
+          <p
+            className="cont"
+            style={{
+              // marginLeft: "1in",
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            3.
+            <span style={{ font: '7pt "Times New Roman"' }}>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+            </span>
+            Multi-tasking skills
+          </p>
+          <p
+            className="cont"
+            style={{
+              // marginLeft: "1in",
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            4.
+            <span style={{ font: '7pt "Times New Roman"' }}>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+            </span>
+            People's person
+          </p>
+          <p
+            className="cont"
+            style={{
+              // marginLeft: "1in",
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            5.
+            <span style={{ font: '7pt "Times New Roman"' }}>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+            </span>
+            Communication skills
+          </p>
+          <p
+            className="cont"
+            style={{
+              // marginLeft: "1in",
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            6.
+            <span style={{ font: '7pt "Times New Roman"' }}>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+            </span>
+            Conflict management skills
+          </p>
+          <p
+            className="cont"
+            style={{
+              // marginLeft: "1in",
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            7.
+            <span style={{ font: '7pt "Times New Roman"' }}>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+            </span>
+            Objective
+          </p>
+          <p
+            className="cont"
+            style={{
+              // marginLeft: "1in",
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            8.
+            <span style={{ font: '7pt "Times New Roman"' }}>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+            </span>
+            Empathetic
+          </p>
+          <p
+            className="cont"
+            style={{
+              // marginLeft: "1in",
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            9.
+            <span style={{ font: '7pt "Times New Roman"' }}>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+            </span>
+            Convincing skills
+          </p>
+          <p
+            className="cont"
+            style={{
+              // marginLeft: "1in",
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            10.
+            <span style={{ font: '7pt "Times New Roman"' }}>&nbsp;&nbsp; </span>
+            Problem solving skills
+          </p>
+
+        </div>
+
+
         <p
           className=" cont"
           id="4"
@@ -1206,91 +1198,94 @@ const HRManagament = () => {
         >
           <b>&nbsp;</b>
         </p>
-        <p
-          className=" cont"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          <b>MBA in Human Resource (HR): Job Profiles Offered</b>
-        </p>
-        <p
-          className=" cont"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          The demand for Human Resources MBA has been increasing at a steady
-          pace. This is due to the increasing number of companies hiring MBA /
-          PGDM in HR graduates. After completing MBA / PGDM in Human Resource
-          management, one can look for various job opportunities in the
-          corporate sector and salaries for this field are very attractive. Here
-          is the list of few popular job profiles in this domain:
-        </p>
-        <p
-          className="cont"
-          style={{
-            marginLeft: "1in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
-        >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+
+        <div className="required-skills">
+          <p
+            className=" cont"
+            style={{ textAlign: "justify", textJustify: "inter-ideograph", marginLeft: "0" }}
+          >
+            <b>MBA in Human Resource (HR): Job Profiles Offered</b>
+          </p>
+          <p
+            className=" cont"
+            style={{ textAlign: "justify", textJustify: "inter-ideograph", marginLeft: "0" }}
+          >
+            The demand for Human Resources MBA has been increasing at a steady
+            pace. This is due to the increasing number of companies hiring MBA /
+            PGDM in HR graduates. After completing MBA / PGDM in Human Resource
+            management, one can look for various job opportunities in the
+            corporate sector and salaries for this field are very attractive. Here
+            is the list of few popular job profiles in this domain:
+          </p>
+          <p
+            className="cont"
+            style={{
+              // marginLeft: "1in",
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
             </span>
-          </span>
-          HR Manager- Training
-        </p>
-        <p
-          className="cont"
-          style={{
-            marginLeft: "1in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
-        >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+            HR Manager- Training
+          </p>
+          <p
+            className="cont"
+            style={{
+              // marginLeft: "1in",
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
             </span>
-          </span>
-          HR Professor
-        </p>
-        <p
-          className="cont"
-          style={{
-            marginLeft: "1in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
-        >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+            HR Professor
+          </p>
+          <p
+            className="cont"
+            style={{
+              // marginLeft: "1in",
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
             </span>
-          </span>
-          HR Manager- Compliance
-        </p>
-        <p
-          className="cont"
-          style={{
-            marginLeft: "1in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
-        >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+            HR Manager- Compliance
+          </p>
+          <p
+            className="cont"
+            style={{
+              // marginLeft: "1in",
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
             </span>
-          </span>
-          HR Manager- Talent Acquisition
-        </p>
+            HR Manager- Talent Acquisition
+          </p>
+        </div>
         <p
           className=" cont"
           id="5"
@@ -1329,141 +1324,134 @@ const HRManagament = () => {
         >
           &nbsp;
         </p>
-        <p
-          className=" cont"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          <b>MBA in Human Resource (HR) - Top Recruiters </b>
-        </p>
-        <p
-          className=" cont"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          MBA trainees, executives and managers are hired by all the companies
-          across all sectors. Here is the list of some of the top companies
-          recruiting MBA / PGDM in HR:
-        </p>
-        <p
-          className=" cont"
-          style={{
-            marginLeft: "1in",
-            marginBottom: "0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-          }}
-        >
-          Reliance
-        </p>
-        <p
-          className=" cont"
-          style={{
-            marginLeft: "1in",
-            marginBottom: "0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-          }}
-        >
-          Larsen &amp; Turbo
-        </p>
-        <p
-          className=" cont"
-          style={{
-            marginLeft: "1in",
-            marginBottom: "0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-          }}
-        >
-          KPMG
-        </p>
-        <p
-          className=" cont"
-          style={{
-            marginLeft: "1in",
-            marginBottom: "0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-          }}
-        >
-          Infosys
-        </p>
-        <p
-          className=" cont"
-          style={{
-            marginLeft: "1in",
-            marginBottom: "0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-          }}
-        >
-          Wipro
-        </p>
-        <p
-          className=" cont"
-          style={{
-            marginLeft: "1in",
-            marginBottom: "0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-          }}
-        >
-          Aditya Birla Group
-        </p>
-        <p
-          className=" cont"
-          style={{
-            marginLeft: "1in",
-            marginBottom: "0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-          }}
-        >
-          Deutsche Bank
-        </p>
-        <p
-          className=" cont"
-          style={{
-            marginLeft: "1in",
-            marginBottom: "0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-          }}
-        >
-          Makemytrip
-        </p>
-        <p
-          className=" cont"
-          style={{
-            marginLeft: "1in",
-            marginBottom: "0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-          }}
-        >
-          L'Oreal
-        </p>
-        <p
-          className=" cont"
-          style={{
-            marginLeft: "1in",
-            marginBottom: "0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-          }}
-        >
-          Pepsico
-        </p>
-        <p
-          className=" cont"
-          style={{
-            marginLeft: "1in",
-            marginBottom: "0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-          }}
-        >
-          &nbsp;
-        </p>
+
+        <div className="required-skills">
+
+          <p
+            className=" cont"
+            style={{ textAlign: "justify", textJustify: "inter-ideograph", marginLeft: "0" }}
+          >
+            <b>MBA in Human Resource (HR) - Top Recruiters </b>
+          </p>
+          <p
+            className=" cont"
+            style={{ textAlign: "justify", textJustify: "inter-ideograph", marginLeft: "0" }}
+          >
+            MBA trainees, executives and managers are hired by all the companies
+            across all sectors. Here is the list of some of the top companies
+            recruiting MBA / PGDM in HR:
+          </p>
+          <p
+            className=" cont"
+            style={{
+              marginLeft: "0",
+              marginBottom: "0in",
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+            }}
+          >
+            Reliance
+          </p>
+          <p
+            className=" cont"
+            style={{
+              marginLeft: "0",
+              marginBottom: "0in",
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+            }}
+          >
+            Larsen &amp; Turbo
+          </p>
+          <p
+            className=" cont"
+            style={{
+              marginLeft: "0",
+              marginBottom: "0in",
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+            }}
+          >
+            KPMG
+          </p>
+          <p
+            className=" cont"
+            style={{
+              marginLeft: "0",
+              marginBottom: "0in",
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+            }}
+          >
+            Infosys
+          </p>
+          <p
+            className=" cont"
+            style={{
+              marginLeft: "0",
+              marginBottom: "0in",
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+            }}
+          >
+            Wipro
+          </p>
+          <p
+            className=" cont"
+            style={{
+              marginLeft: "0",
+              marginBottom: "0in",
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+            }}
+          >
+            Aditya Birla Group
+          </p>
+          <p
+            className=" cont"
+            style={{
+              marginLeft: "0",
+              marginBottom: "0in",
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+            }}
+          >
+            Deutsche Bank
+          </p>
+          <p
+            className=" cont"
+            style={{
+              marginLeft: "0",
+              marginBottom: "0in",
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+            }}
+          >
+            Makemytrip
+          </p>
+          <p
+            className=" cont"
+            style={{
+              marginLeft: "0",
+              marginBottom: "0in",
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+            }}
+          >
+            L'Oreal
+          </p>
+          <p
+            className=" cont"
+            style={{
+              marginLeft: "0",
+              marginBottom: "0in",
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+            }}
+          >
+            Pepsico
+          </p>
+        </div>
         <p
           className=" cont"
           style={{
@@ -1511,12 +1499,6 @@ const HRManagament = () => {
           Human Resources department of organisations in any sector of choice.
         </p>
         <p
-          className=" cont"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
           className=" cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
@@ -1530,12 +1512,6 @@ const HRManagament = () => {
           minimum 50 per cent marks is eiligible to pursue MBA / PGDM in Human
           Resource (HR). For reserved category students, the minimum mark is 45
           per cent.
-        </p>
-        <p
-          className=" cont"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
         </p>
         <p
           className=" cont headings"
@@ -1552,12 +1528,6 @@ const HRManagament = () => {
           employees, etc.
         </p>
         <p
-          className=" cont"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
           className=" cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
@@ -1570,12 +1540,6 @@ const HRManagament = () => {
           Ans: Yes, MBA / PGDM in HR can be pursued in part-time mode and there
           are options also for distance learning,&nbsp; online education mode
           and executive MBA
-        </p>
-        <p
-          className=" cont"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
         </p>
         <p
           className=" cont headings"
@@ -1592,12 +1556,6 @@ const HRManagament = () => {
           Communication Skills, Problem Solving Skills, Coaching Skills etc.
         </p>
         <p
-          className=" cont"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
           className=" cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
@@ -1612,12 +1570,6 @@ const HRManagament = () => {
           to Rs. 25 Lac.
         </p>
         <p
-          className=" cont"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
           className=" cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
@@ -1630,12 +1582,6 @@ const HRManagament = () => {
         >
           Ans: The average salary of MBA / PGDM in HR ranges between Rs. 4 Lac
           to Rs. 15 Lac per annum.
-        </p>
-        <p
-          className=" cont"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
         </p>
         <p
           className=" cont headings"
@@ -1653,12 +1599,6 @@ const HRManagament = () => {
           test followed up by group discussion and personal interview.
         </p>
         <p
-          className=" cont"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
           className=" cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
@@ -1671,12 +1611,6 @@ const HRManagament = () => {
           Ans. MBA / PGDM in HR as a course is offered in various B-schools
           across India. Xaviers Institute of Management (XLRI), Jamshedpur is
           the pioneer of Human Resource Management course in India.
-        </p>
-        <p
-          className=" cont"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
         </p>
         <p
           className=" cont headings"
@@ -1699,12 +1633,6 @@ const HRManagament = () => {
           </span>
         </p>
         <p
-          className=" cont"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
           className=" cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
@@ -1722,12 +1650,6 @@ const HRManagament = () => {
           etc.
         </p>
         <p
-          className=" cont"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
           className=" cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
@@ -1741,12 +1663,6 @@ const HRManagament = () => {
           Ans: Every company whether big or small require HR professionals. Some
           top companies that hire MBA / PGDM in HR are Reliance, Infosys, Tech
           Mahindra, Pepsico, Wipro, KPMG, Larsen &amp; Turbo, L’Oreal, etc.
-        </p>
-        <p
-          className=" cont"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
         </p>
         <p
           className=" cont headings"

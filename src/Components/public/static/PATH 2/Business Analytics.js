@@ -39,13 +39,7 @@ const BusinessAnalytics = () => {
           used in practically every industry particularly Banking &amp;
           Financial Services, E-commerce and Retailing.
         </p>
-        <p
-          className=" cont"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <b>Table of content</b>
+        <b className="table-details">Table of content</b>
 
         <p
           className="MsoListParagraphCxSpFirst"
@@ -54,8 +48,6 @@ const BusinessAnalytics = () => {
             textJustify: "inter-ideograph",
           }}
         >
-          1.
-          <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
           <a className="link" href="#1">
             MBA in Business Analytics – Program Highlights
           </a>
@@ -67,8 +59,6 @@ const BusinessAnalytics = () => {
             textJustify: "inter-ideograph",
           }}
         >
-          2.
-          <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
           <a className="link" href="#2">
             MBA in Business Analytics – Syllabus
           </a>
@@ -80,8 +70,6 @@ const BusinessAnalytics = () => {
             textJustify: "inter-ideograph",
           }}
         >
-          3.
-          <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
           <a className="link" href="#3">
             MBA in Business Analytics: Skills Required
           </a>
@@ -93,8 +81,6 @@ const BusinessAnalytics = () => {
             textJustify: "inter-ideograph",
           }}
         >
-          4.
-          <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
           <a className="link" href="#4">
             MBA in Business Analytics: Job Profiles Offered
           </a>
@@ -106,8 +92,6 @@ const BusinessAnalytics = () => {
             textJustify: "inter-ideograph",
           }}
         >
-          5.
-          <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
           Top Colleges in India for MBA in Business Analytics
         </p>
         <p
@@ -117,8 +101,6 @@ const BusinessAnalytics = () => {
             textJustify: "inter-ideograph",
           }}
         >
-          6.
-          <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
           <a className="link" href="#6">
             MBA in Business Analytics - Top Recruiters
           </a>
@@ -130,8 +112,6 @@ const BusinessAnalytics = () => {
             textJustify: "inter-ideograph",
           }}
         >
-          7.
-          <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
           <a className="link" href="#7">
             FAQs – MBA In Business Analytics
           </a>
@@ -147,9 +127,7 @@ const BusinessAnalytics = () => {
           className=" cont"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
-          <p className="headings" id="1">
-            MBA in Business Analytics – Program Highlights
-          </p>
+          <b> MBA in Business Analytics – Program Highlights</b>
         </p>
         <table
           className="MsoTableGrid"
@@ -178,7 +156,7 @@ const BusinessAnalytics = () => {
                     lineHeight: "normal",
                   }}
                 >
-                  Parameters
+                  <b>Parameters</b>
                 </p>
               </td>
               <td
@@ -200,7 +178,7 @@ const BusinessAnalytics = () => {
                     lineHeight: "normal",
                   }}
                 >
-                  Details
+                  <b>Details</b>
                 </p>
               </td>
             </tr>
@@ -758,6 +736,7 @@ const BusinessAnalytics = () => {
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         />
         <CustomTable />
+
         <p
           className=" cont"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
@@ -768,15 +747,9 @@ const BusinessAnalytics = () => {
           className=" cont"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
-          &nbsp;
-        </p>
-        <p
-          className=" cont"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          <p className="headings" id="2">
-            MBA in Business Analytics – Syllabus
-          </p>
+
+          <b> MBA in Business Analytics – Syllabus</b>
+
         </p>
         <p
           className=" cont"
@@ -1086,117 +1059,116 @@ const BusinessAnalytics = () => {
         >
           &nbsp;
         </p>
-        <p
-          className=" cont"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className=" cont"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          <p className="headings" id="3">
-            MBA in Business Analytics: Skills Required
+
+
+        <div className="required-skills">
+
+          <p
+            className=" cont"
+            style={{ textAlign: "justify", textJustify: "inter-ideograph", marginLeft: "0" }}
+          >
+            <b>
+              MBA in Business Analytics: Skills Required
+            </b>
           </p>
-        </p>
-        <p
-          className=" cont"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          Those who wish to pursue Business Analytics as a career must possess
-          or develop the following skill sets:
-        </p>
-        <p
-          className="cont"
-          style={{
-            marginLeft: "1in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
-        >
-          1.
-          <span style={{ font: '7pt "Times New Roman"' }}>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
-          </span>
-          Analytical Skills
-        </p>
-        <p
-          className="cont"
-          style={{
-            textAlign: "justify",
-            marginLeft: "1in",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
-        >
-          2.
-          <span style={{ font: '7pt "Times New Roman"' }}>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
-          </span>
-          Critical Thinking
-        </p>
-        <p
-          className="cont"
-          style={{
-            marginLeft: "1in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
-        >
-          3.
-          <span style={{ font: '7pt "Times New Roman"' }}>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
-          </span>
-          Strong in Mathematics
-        </p>
-        <p
-          className="cont"
-          style={{
-            marginLeft: "1in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
-        >
-          4.
-          <span style={{ font: '7pt "Times New Roman"' }}>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
-          </span>
-          Business Acumen
-        </p>
-        <p
-          className="cont"
-          style={{
-            marginLeft: "1in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
-        >
-          5.
-          <span style={{ font: '7pt "Times New Roman"' }}>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
-          </span>
-          Keen Observation
-        </p>
-        <p
-          className="cont"
-          style={{
-            marginLeft: "1in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
-        >
-          6.
-          <span style={{ font: '7pt "Times New Roman"' }}>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
-          </span>
-          Communication Skills
-        </p>
+          <p
+            className=" cont"
+            style={{ textAlign: "justify", textJustify: "inter-ideograph", marginLeft: "0" }}
+          >
+            Those who wish to pursue Business Analytics as a career must possess
+            or develop the following skill sets:
+          </p>
+          <p
+            className="cont"
+            style={{
+              // marginLeft: "1in",
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            1.
+            <span style={{ font: '7pt "Times New Roman"' }}>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+            </span>
+            Analytical Skills
+          </p>
+          <p
+            className="cont"
+            style={{
+              textAlign: "justify",
+              // marginLeft: "1in",
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            2.
+            <span style={{ font: '7pt "Times New Roman"' }}>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+            </span>
+            Critical Thinking
+          </p>
+          <p
+            className="cont"
+            style={{
+              // marginLeft: "1in",
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            3.
+            <span style={{ font: '7pt "Times New Roman"' }}>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+            </span>
+            Strong in Mathematics
+          </p>
+          <p
+            className="cont"
+            style={{
+              // marginLeft: "1in",
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            4.
+            <span style={{ font: '7pt "Times New Roman"' }}>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+            </span>
+            Business Acumen
+          </p>
+          <p
+            className="cont"
+            style={{
+              // marginLeft: "1in",
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            5.
+            <span style={{ font: '7pt "Times New Roman"' }}>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+            </span>
+            Keen Observation
+          </p>
+          <p
+            className="cont"
+            style={{
+              // marginLeft: "1in",
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            6.
+            <span style={{ font: '7pt "Times New Roman"' }}>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+            </span>
+            Communication Skills
+          </p>
+        </div>
         <p
           className=" cont"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
@@ -1207,9 +1179,9 @@ const BusinessAnalytics = () => {
           className=" cont"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
-          <p className="headings" id="4">
+          <b>
             MBA in Business Analytics: Job Profiles Offered
-          </p>
+          </b>
         </p>
         <p
           className=" cont"
@@ -1237,15 +1209,9 @@ const BusinessAnalytics = () => {
           className=" cont"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
-          &nbsp;
-        </p>
-        <p
-          className=" cont"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          <p className="headings" id="5">
+          <b>
             Top Colleges in India for MBA in Business Analytics
-          </p>
+          </b>
         </p>
         <p
           className=" cont"
@@ -1268,55 +1234,232 @@ const BusinessAnalytics = () => {
         </p>
         <p
           className=" cont"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
+          style={{ textAlign: "justify", textJustify: "inter-ideograph", marginBottom: "0" }}
         >
           &nbsp;
         </p>
-        <p
-          className=" cont"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          <p className="headings" id="6">
-            MBA in Business Analytics - Top Recruiters{" "}
+
+        <div className="required-skills">
+
+          <p
+            className=" cont"
+            style={{ textAlign: "justify", textJustify: "inter-ideograph", marginLeft: "0" }}
+          >
+            <b>
+              MBA in Business Analytics - Top Recruiters{" "}
+            </b>
           </p>
-        </p>
-        <p
-          className=" cont"
-          style={{
-            marginBottom: "0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-          }}
-        >
-          There are many Data Science organisations that offer services to other
-          companies through their qualified business analysts and data
-          scientists. Some of the top companies are mentioned below:
-        </p>
-        <p
-          className=" cont"
-          style={{
-            marginBottom: "0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-          }}
-        >
-          &nbsp;
-        </p>
-        <ul className="cont">
-          <li>Mu Sigma</li>
-          <li>Gramener</li>
-          <li>Accenture Analytics</li>
-          <li>Convergytics</li>
-          <li>Fractal Analytics</li>
-          <li>Cartesian Consulting</li>
-          <li>Crayon Data</li>
-          <li>LatentView</li>
-          <li>Bridgei2i</li>
-          <li>AbsoluteData</li>
-          <li>Global Analytics</li>
-          <li>Manthan</li>
-          <li>Brillio</li>
-        </ul>
+          <p
+            className=" cont"
+            style={{
+              marginLeft: "0",
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+            }}
+          >
+            There are many Data Science organisations that offer services to other
+            companies through their qualified business analysts and data
+            scientists. Some of the top companies are mentioned below:
+          </p>
+
+
+          <p
+            className="cont"
+            style={{
+              // marginLeft: "1in",
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
+            </span>Mu Sigma</p>
+          <p
+            className="cont"
+            style={{
+              // marginLeft: "1in",
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
+            </span>Gramener</p>
+          <p
+            className="cont"
+            style={{
+              // marginLeft: "1in",
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
+            </span>Accenture Analytics</p>
+          <p
+            className="cont"
+            style={{
+              // marginLeft: "1in",
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
+            </span>Convergytics</p>
+          <p
+            className="cont"
+            style={{
+              // marginLeft: "1in",
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
+            </span>Fractal Analytics</p>
+          <p
+            className="cont"
+            style={{
+              // marginLeft: "1in",
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
+            </span>Cartesian Consulting</p>
+          <p
+            className="cont"
+            style={{
+              // marginLeft: "1in",
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
+            </span>Crayon Data</p>
+          <p
+            className="cont"
+            style={{
+              // marginLeft: "1in",
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
+            </span>LatentView</p>
+          <p
+            className="cont"
+            style={{
+              // marginLeft: "1in",
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
+            </span>Bridgei2i</p>
+          <p
+            className="cont"
+            style={{
+              // marginLeft: "1in",
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
+            </span>AbsoluteData</p>
+          <p
+            className="cont"
+            style={{
+              // marginLeft: "1in",
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
+            </span>Global Analytics</p>
+          <p
+            className="cont"
+            style={{
+              // marginLeft: "1in",
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
+            </span>Manthan</p>
+          <p
+            className="cont"
+            style={{
+              // marginLeft: "1in",
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
+            </span>Brillio</p>
+
+        </div>
         <p
           className=" cont"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
@@ -1338,16 +1481,11 @@ const BusinessAnalytics = () => {
           className=" cont"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
-          <p className="headings" id="7">
+          <b>
             FAQs – MBA in Business Analytics
-          </p>
+          </b>
         </p>
-        <p
-          className=" cont"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
+       
         <p
           className=" cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
@@ -1363,12 +1501,7 @@ const BusinessAnalytics = () => {
           and make future business plans – why things happened, what will happen
           and what should be done.
         </p>
-        <p
-          className=" cont"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
+       
         <p
           className=" cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
@@ -1384,12 +1517,7 @@ const BusinessAnalytics = () => {
           with the help of tools and codes, those who have studied Maths will
           have to struggle less during the course and in career.
         </p>
-        <p
-          className=" cont"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
+       
         <p
           className=" cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
@@ -1407,12 +1535,7 @@ const BusinessAnalytics = () => {
           organizing the process in an efficient way possible, coping up with
           future-oriented goals and making analysis.
         </p>
-        <p
-          className=" cont"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
+       
         <p
           className=" cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
@@ -1429,12 +1552,7 @@ const BusinessAnalytics = () => {
           institutes have minimum score criteria of 50 per cent in graduation
           (45 per cent for reserved category).
         </p>
-        <p
-          className=" cont"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
+       
         <p
           className=" cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
@@ -1458,12 +1576,7 @@ const BusinessAnalytics = () => {
           </span>
           .
         </p>
-        <p
-          className=" cont"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
+       
         <p
           className=" cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
@@ -1479,12 +1592,7 @@ const BusinessAnalytics = () => {
           job of a Business Analyst, Data Scientist, Qualitative Analyst,
           Modeler, Financial Analytics Etc.
         </p>
-        <p
-          className=" cont"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
+       
         <p
           className=" cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
@@ -1502,12 +1610,7 @@ const BusinessAnalytics = () => {
           Modeling, Systems Analysis &amp; Design, Big Data Analytics,
           Operations &amp; Supply Chain Analytics, etc.
         </p>
-        <p
-          className=" cont"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
+       
         <p
           className=" cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
@@ -1521,12 +1624,7 @@ const BusinessAnalytics = () => {
           Ans: TCS, JP Morgan Chase and Co, WNS Global Services, Accenture are
           some of the top recruiters for business analytics graduates.
         </p>
-        <p
-          className=" cont"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
+       
         <p
           className=" cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
@@ -1542,12 +1640,7 @@ const BusinessAnalytics = () => {
           offered an average salary of Rs. 6 – 7 Lac as a Business Analysts. The
           remuneration definitely increases as one gains experience.
         </p>
-        <p
-          className=" cont"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
+       
         <p
           className=" cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}

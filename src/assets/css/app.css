@@ -19097,7 +19097,7 @@ html.user-modal-open body {
   font-size: 1rem;
 }
 
-#top-colleges.profile--main ul{
+#top-colleges.profile--main ul {
   padding: 0;
 }
 
@@ -19150,4 +19150,44 @@ html.user-modal-open body {
   .border-bottom.our-rmi.media-7 {
     padding-left: 20px;
   }
+}
+
+.WordSection1 {
+  padding: 20px 25px;
+  box-shadow: 0 0 4px rgba(16, 24, 64, .12);
+  border-radius: 12px;
+}
+
+.MsoListParagraphCxSpLast,
+.MsoListParagraphCxSpFirst,
+.MsoListParagraphCxSpMiddle {
+  margin-left: 0 !important;
+}
+
+.MsoTableGrid th,
+.MsoTableGrid td,
+#display-data th,
+#display-data td {
+  padding: 0.5rem !important;
+  border-bottom: 0;
+}
+
+
+b.table-details {
+  padding-bottom: 15px;
+  display: block;
+}
+
+.MsoTableGrid,
+#display-data {
+  box-shadow: none;
+}
+
+.required-skills .cont {
+  margin-left: 25px;
+}
+
+.required-skills .cont u {
+  font-weight: 600;
+  text-decoration: none;
 }

@@ -46,13 +46,7 @@ const InternationalBusiness = () => {
           international logistics &amp; supply chain, international laws on
           customs, tariffs, duties, documentation among others.
         </p>
-        <p
-          className="cont"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <b>Table of content</b>
+        <b className="table-details">Table of content</b>
 
         <p
           className=" MsoListParagraphCxSpFirst"
@@ -61,8 +55,6 @@ const InternationalBusiness = () => {
             textJustify: "inter-ideograph",
           }}
         >
-          1.
-          <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
           <a className="link" href="#1">
             MBA in International Business – Program Highlights
           </a>
@@ -74,8 +66,6 @@ const InternationalBusiness = () => {
             textJustify: "inter-ideograph",
           }}
         >
-          2.
-          <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
           <a className="link" href="#2">
             MBA in International Business – Syllabus
           </a>
@@ -87,8 +77,6 @@ const InternationalBusiness = () => {
             textJustify: "inter-ideograph",
           }}
         >
-          3.
-          <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
           <a className="link" href="#3">
             MBA in International Business : Skills Required
           </a>
@@ -100,8 +88,6 @@ const InternationalBusiness = () => {
             textJustify: "inter-ideograph",
           }}
         >
-          4.
-          <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
           <a className="link" href="#4">
             MBA in Human Resource : Job Profiles Offered
           </a>
@@ -113,8 +99,6 @@ const InternationalBusiness = () => {
             textJustify: "inter-ideograph",
           }}
         >
-          5.
-          <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
           Top Colleges in India for MBA in International Business
         </p>
         <p
@@ -124,8 +108,6 @@ const InternationalBusiness = () => {
             textJustify: "inter-ideograph",
           }}
         >
-          6.
-          <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
           <a className="link" href="#6">
             MBA in International Business - Top Recruiters
           </a>
@@ -137,8 +119,6 @@ const InternationalBusiness = () => {
             textJustify: "inter-ideograph",
           }}
         >
-          7.
-          <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
           <a className="link" href="#7">
             FAQs – MBA in International Business
           </a>
@@ -184,7 +164,7 @@ const InternationalBusiness = () => {
                     lineHeight: "normal",
                   }}
                 >
-                  Parameters
+                  <b>Parameters</b>
                 </p>
               </td>
               <td
@@ -206,7 +186,7 @@ const InternationalBusiness = () => {
                     lineHeight: "normal",
                   }}
                 >
-                  Details
+                  <b>Details</b>
                 </p>
               </td>
             </tr>
@@ -1091,87 +1071,83 @@ const InternationalBusiness = () => {
         >
           &nbsp;
         </p>
-        <p
-          className="cont"
-          id="3"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="cont"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          <b>MBA in International Business: Skills Required</b>
-        </p>
-        <p
-          className="cont"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          Specific set of skills are vital when it comes to hiring freshers with
-          degree in International Business. Some of the important skill sets
-          are:
-        </p>
-        <p
-          className="cont"
-          style={{
-            marginLeft: "1in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
-        >
-          1.
-          <span style={{ font: '7pt "Times New Roman"' }}>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
-          </span>
-          Networking
-        </p>
-        <p
-          className="cont"
-          style={{
-            marginLeft: "1in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
-        >
-          2.
-          <span style={{ font: '7pt "Times New Roman"' }}>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
-          </span>
-          Collaboration
-        </p>
-        <p
-          className="cont"
-          style={{
-            marginLeft: "1in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
-        >
-          3.
-          <span style={{ font: '7pt "Times New Roman"' }}>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
-          </span>
-          Emotional Intelligence
-        </p>
-        <p
-          className="cont"
-          style={{
-            marginLeft: "1in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
-        >
-          4.
-          <span style={{ font: '7pt "Times New Roman"' }}>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
-          </span>
-          Resilience and Adaptability
-        </p>
+        <div className="required-skills">
+
+          <p
+            className="cont"
+            style={{ textAlign: "justify", textJustify: "inter-ideograph", marginLeft: "0" }}
+          >
+            <b>MBA in International Business: Skills Required</b>
+          </p>
+          <p
+            className="cont"
+            style={{ textAlign: "justify", textJustify: "inter-ideograph", marginLeft: "0" }}
+          >
+            Specific set of skills are vital when it comes to hiring freshers with
+            degree in International Business. Some of the important skill sets
+            are:
+          </p>
+          <p
+            className="cont"
+            style={{
+              // marginLeft: "1in",
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            1.
+            <span style={{ font: '7pt "Times New Roman"' }}>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+            </span>
+            Networking
+          </p>
+          <p
+            className="cont"
+            style={{
+              // marginLeft: "1in",
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            2.
+            <span style={{ font: '7pt "Times New Roman"' }}>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+            </span>
+            Collaboration
+          </p>
+          <p
+            className="cont"
+            style={{
+              // marginLeft: "1in",
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            3.
+            <span style={{ font: '7pt "Times New Roman"' }}>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+            </span>
+            Emotional Intelligence
+          </p>
+          <p
+            className="cont"
+            style={{
+              // marginLeft: "1in",
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            4.
+            <span style={{ font: '7pt "Times New Roman"' }}>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+            </span>
+            Resilience and Adaptability
+          </p>
+        </div>
         <p
           className="cont"
           id="4"
@@ -1179,56 +1155,139 @@ const InternationalBusiness = () => {
         >
           &nbsp;
         </p>
-        <p
-          className="cont"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          <b>MBA in International Business: Job Profiles Offered</b>
-        </p>
-        <p
-          className="cont"
-          style={{
-            marginBottom: "0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-          }}
-        >
-          International business degree holders are high in demand because of
-          globalization and the growing international market for domestic
-          players. MBA / PGDM in International Business graduates can get
-          managerial and advisory roles in any sector, as every industry is
-          striving to spread their reach to global platform. Some of the
-          important roles on offer are:
-        </p>
-        <p
-          className="cont"
-          style={{
-            marginBottom: "0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-          }}
-        >
-          &nbsp;
-        </p>
-        <ul className="cont">
-          <li>Export Manager</li>
-          <li>Business Development Manager</li>
-          <li>International Finance Manager</li>
-          <li>Global Business Manager</li>
-          <li>International Business Consultant</li>
-          <li>Investment Banker</li>
-          <li>International Marketing Manager</li>
-        </ul>
-        <p
-          className="cont"
-          style={{
-            marginBottom: "0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-          }}
-        >
-          &nbsp;
-        </p>
+        <div className="required-skills">
+
+          <p
+            className="cont"
+            style={{ textAlign: "justify", textJustify: "inter-ideograph", marginLeft: "0" }}
+          >
+            <b>MBA in International Business: Job Profiles Offered</b>
+          </p>
+          <p
+            className="cont"
+            style={{
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              marginLeft: "0"
+            }}
+          >
+            International business degree holders are high in demand because of
+            globalization and the growing international market for domestic
+            players. MBA / PGDM in International Business graduates can get
+            managerial and advisory roles in any sector, as every industry is
+            striving to spread their reach to global platform. Some of the
+            important roles on offer are:
+          </p>
+
+
+          <p
+            className="cont"
+            style={{
+              // marginLeft: "1in",
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
+            </span>Export Manager</p>
+          <p
+            className="cont"
+            style={{
+              // marginLeft: "1in",
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
+            </span>Business Development Manager</p>
+          <p
+            className="cont"
+            style={{
+              // marginLeft: "1in",
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
+            </span>International Finance Manager</p>
+          <p
+            className="cont"
+            style={{
+              // marginLeft: "1in",
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
+            </span>Global Business Manager</p>
+          <p
+            className="cont"
+            style={{
+              // marginLeft: "1in",
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
+            </span>International Business Consultant</p>
+          <p
+            className="cont"
+            style={{
+              // marginLeft: "1in",
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
+            </span>Investment Banker</p>
+          <p
+            className="cont"
+            style={{
+              // marginLeft: "1in",
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
+            </span>International Marketing Manager</p>
+
+        </div>
+
         <p
           className="cont"
           id="5"
@@ -1268,76 +1327,196 @@ const InternationalBusiness = () => {
         >
           &nbsp;
         </p>
-        <p
-          className="cont"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          <b>MBA in International Business - Top Recruiters </b>
-        </p>
-        <p
-          className="cont"
-          style={{
-            marginBottom: "0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-          }}
-        >
-          MBA in international business graduates can get managerial and
-          advisory roles in any industry and sector, as companies are always
-          striving to spread their reach to global platform. Some of the top
-          recruiting companies that hire MBA in international business
-          professionals include:
-        </p>
-        <p
-          className="cont"
-          style={{
-            marginBottom: "0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-          }}
-        >
-          &nbsp;
-        </p>
-        <ul className="cont">
-          <li>HDFC Bank</li>
-          <li>Citi Bank</li>
-          <li>Amazon</li>
-          <li>HSBC</li>
-          <li>Google</li>
-          <li>Accenture</li>
-          <li>Cognizant</li>
-          <li>JP Morgan Chase &amp; Co.</li>
-          <li>KPMG</li>
-          <li>McKinsey &amp; Company</li>
-        </ul>
-        <p
-          className="cont"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="cont"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        />
+
+        <div className="required-skills">
+          <p
+            className="cont"
+            style={{ textAlign: "justify", textJustify: "inter-ideograph", marginLeft: "0" }}
+          >
+            <b>MBA in International Business - Top Recruiters </b>
+          </p>
+          <p
+            className="cont"
+            style={{
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              marginLeft: "0"
+            }}
+          >
+            MBA in international business graduates can get managerial and
+            advisory roles in any industry and sector, as companies are always
+            striving to spread their reach to global platform. Some of the top
+            recruiting companies that hire MBA in international business
+            professionals include:
+          </p>
+          <p
+            className="cont"
+            style={{
+              // marginLeft: "1in",
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
+            </span>HDFC Bank</p>
+          <p
+            className="cont"
+            style={{
+              // marginLeft: "1in",
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
+            </span>Citi Bank</p>
+          <p
+            className="cont"
+            style={{
+              // marginLeft: "1in",
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
+            </span>Amazon</p>
+          <p
+            className="cont"
+            style={{
+              // marginLeft: "1in",
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
+            </span>HSBC</p>
+          <p
+            className="cont"
+            style={{
+              // marginLeft: "1in",
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
+            </span>Google</p>
+          <p
+            className="cont"
+            style={{
+              // marginLeft: "1in",
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
+            </span>Accenture</p>
+          <p
+            className="cont"
+            style={{
+              // marginLeft: "1in",
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
+            </span>Cognizant</p>
+          <p
+            className="cont"
+            style={{
+              // marginLeft: "1in",
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
+            </span>JP Morgan Chase &amp; Co.</p>
+          <p
+            className="cont"
+            style={{
+              // marginLeft: "1in",
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
+            </span>KPMG</p>
+          <p
+            className="cont"
+            style={{
+              // marginLeft: "1in",
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
+            </span>McKinsey &amp; Company</p>
+        </div>
+
         <CustomTable />
+
+
         <p
           className="cont"
-          id="7"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        />
+        >
+          &nbsp;
+        </p>
         <p
           className="cont"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           <b>FAQs – MBA in International Business</b>
         </p>
-        <p
-          className="cont"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
+
         <p
           className=" cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
@@ -1356,12 +1535,7 @@ const InternationalBusiness = () => {
           business ethics and trade policy of various countries along with
           techniques to enhance business.
         </p>
-        <p
-          className="cont"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
+
         <p
           className=" cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
@@ -1378,12 +1552,7 @@ const InternationalBusiness = () => {
           Most of the institutes have minimum score criteria of 50 per cent in
           graduation (45 per cent for reserved category).
         </p>
-        <p
-          className="cont"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
+
         <p
           className=" cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
@@ -1404,12 +1573,7 @@ const InternationalBusiness = () => {
             (other names to be put of our choice)
           </span>
         </p>
-        <p
-          className="cont"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
+
         <p
           className=" cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
@@ -1424,12 +1588,7 @@ const InternationalBusiness = () => {
           Student has to clear the cut-off of entrance exam and this is followed
           by personality assessment through GD/WAT and PI.
         </p>
-        <p
-          className="cont"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
+
         <p
           className=" cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
@@ -1445,18 +1604,8 @@ const InternationalBusiness = () => {
           and distance learning mode. It is best suited for student who are
           already in job.
         </p>
-        <p
-          className="cont"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="cont"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
+
+
         <p
           className=" cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
@@ -1471,12 +1620,7 @@ const InternationalBusiness = () => {
           being a government or a private college. The fee ranges from Rs. 1 Lac
           for in government colleges to to Rs. 20 lac in private colleges.
         </p>
-        <p
-          className="cont"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
+
         <p
           className=" cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
@@ -1494,12 +1638,7 @@ const InternationalBusiness = () => {
           Export &amp; Imports, Manager - International Logistics, Manager -
           International Trade.
         </p>
-        <p
-          className="cont"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
+
         <p
           className=" cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
@@ -1515,12 +1654,7 @@ const InternationalBusiness = () => {
           Rs. 7 lac per annum, however remuneration increases as one gains work
           experience.
         </p>
-        <p
-          className="cont"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
+
         <p
           className=" cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
@@ -1545,12 +1679,7 @@ const InternationalBusiness = () => {
           International Human Resource Management Practices, International
           Investment Treaties &amp; Business Decisions.
         </p>
-        <p
-          className="cont"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
+
         <p
           className=" cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
@@ -1568,12 +1697,7 @@ const InternationalBusiness = () => {
           Chase &amp; Co., Bain &amp; Company, KPMG, McKinsey &amp; Company,
           etc.
         </p>
-        <p
-          className="cont"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
+
         <p
           className=" cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}

@@ -268,7 +268,7 @@ export const menuJs = [
       },
       {
         name: "MBA in Banking Finance",
-        path: "/mba-in-baking-finance",
+        path: "/mba-in-banking-finance",
       },
       {
         name: "More Specialization",
