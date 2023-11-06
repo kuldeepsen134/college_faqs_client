@@ -4,8 +4,8 @@ import { Link } from "react-router-dom";
 
 const CorporateSocialResponsibility = () => {
   useEffect(() => {
-    window.scrollTo(0,0);
-  },[])
+    window.scrollTo(0, 0);
+  }, [])
   return (
     <div>
       <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
@@ -31,13 +31,8 @@ const CorporateSocialResponsibility = () => {
           public, and not-for-profit organizations, their management, and the
           dynamic environment in which they operate.
         </p>
-        <p
-          className="cont"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <b>Table of content</b>
+
+        <b className="table-details">Table of content</b>
 
         <p
           className=" MsoListParagraphCxSpFirst"
@@ -46,11 +41,8 @@ const CorporateSocialResponsibility = () => {
             textJustify: "inter-ideograph",
           }}
         >
-          1.
-          <span >
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          </span><a className="link" href="#1">
-          MBA In Corporate Social Responsibility  – Program Highlights</a>
+          <a className="link" href="#1">
+            MBA In Corporate Social Responsibility  – Program Highlights</a>
         </p>
         <p
           className=" MsoListParagraphCxSpMiddle"
@@ -59,11 +51,8 @@ const CorporateSocialResponsibility = () => {
             textJustify: "inter-ideograph",
           }}
         >
-          2.
-          <span >
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          </span><a  className="link" href="#2">
-          MBA In Corporate Social Responsibility   – Syllabus</a>
+          <a className="link" href="#2">
+            MBA In Corporate Social Responsibility   – Syllabus</a>
         </p>
         <p
           className=" MsoListParagraphCxSpMiddle"
@@ -72,11 +61,8 @@ const CorporateSocialResponsibility = () => {
             textJustify: "inter-ideograph",
           }}
         >
-          3.
-          <span  >
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          </span><a  className="link" href="#3">
-          MBA In Corporate Social Responsibility  : Skills Required</a>
+          <a className="link" href="#3">
+            MBA In Corporate Social Responsibility  : Skills Required</a>
         </p>
         <p
           className=" MsoListParagraphCxSpMiddle"
@@ -85,11 +71,8 @@ const CorporateSocialResponsibility = () => {
             textJustify: "inter-ideograph",
           }}
         >
-          4.
-          <span >
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          </span><a  className="link" href="#4">
-          MBA In Corporate Social Responsibility : Job Profiles Offered</a>
+          <a className="link" href="#4">
+            MBA In Corporate Social Responsibility : Job Profiles Offered</a>
         </p>
         <p
           className=" MsoListParagraphCxSpMiddle"
@@ -98,10 +81,7 @@ const CorporateSocialResponsibility = () => {
             textJustify: "inter-ideograph",
           }}
         >
-          5.
-          <span >
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          </span>
+
           Top Colleges in India for MBA In Corporate Social Responsibility
         </p>
         <p
@@ -111,11 +91,8 @@ const CorporateSocialResponsibility = () => {
             textJustify: "inter-ideograph",
           }}
         >
-          6.
-          <span >
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          </span><a  className="link" href="#6">
-          MBA In Corporate Social Responsibility  - Top Recruiters
+          <a className="link" href="#6">
+            MBA In Corporate Social Responsibility  - Top Recruiters
           </a>
         </p>
         <p
@@ -125,22 +102,11 @@ const CorporateSocialResponsibility = () => {
             textJustify: "inter-ideograph",
           }}
         >
-          7.
-          <span >
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          </span><a  className="link" href="#7">
-          FAQs – MBA In Corporate Social Responsibility
+          <a className="link" href="#7">
+            FAQs – MBA In Corporate Social Responsibility
           </a>
         </p>
 
-
-
-        <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
         <p
           className="MsoNormal" id="1"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
@@ -181,7 +147,7 @@ const CorporateSocialResponsibility = () => {
                   align="center"
                 >
                   <b>
-                    <u>Parameters</u>
+                    Parameters
                   </b>
                 </p>
               </td>
@@ -205,7 +171,7 @@ const CorporateSocialResponsibility = () => {
                   align="center"
                 >
                   <b>
-                    <u>Details</u>
+                    Details
                   </b>
                 </p>
               </td>
@@ -228,7 +194,7 @@ const CorporateSocialResponsibility = () => {
                     textAlign: "justify",
                     textJustify: "inter-ideograph",
                     lineHeight: "normal",
-                    fontWeight:"bold",
+                    fontWeight: "bold",
                   }}
                 >
                   Program Type
@@ -276,7 +242,7 @@ const CorporateSocialResponsibility = () => {
                     marginBottom: "0in",
                     textAlign: "justify",
                     textJustify: "inter-ideograph",
-                    fontWeight:"bold",
+                    fontWeight: "bold",
                     lineHeight: "normal",
                   }}
                 >
@@ -325,7 +291,7 @@ const CorporateSocialResponsibility = () => {
                   style={{
                     marginBottom: "0in",
                     textAlign: "justify",
-                    fontWeight:"bold",
+                    fontWeight: "bold",
                     textJustify: "inter-ideograph",
                     lineHeight: "normal",
                   }}
@@ -376,7 +342,7 @@ const CorporateSocialResponsibility = () => {
                     textAlign: "justify",
                     textJustify: "inter-ideograph",
                     lineHeight: "normal",
-                    fontWeight:"bold",
+                    fontWeight: "bold",
                   }}
                 >
                   Entrance Exams
@@ -423,7 +389,7 @@ const CorporateSocialResponsibility = () => {
                   style={{
                     marginBottom: "0in",
                     textAlign: "justify",
-                    fontWeight:"bold",
+                    fontWeight: "bold",
                     textJustify: "inter-ideograph",
                     lineHeight: "normal",
                   }}
@@ -462,7 +428,7 @@ const CorporateSocialResponsibility = () => {
                   width: "99pt",
                   border: "solid black 1pt",
                   borderTop: "none",
-                  fontWeight:"bold",
+                  fontWeight: "bold",
                   padding: "0in 5.4pt 0in 5.4pt",
                 }}
                 width={132}
@@ -542,7 +508,7 @@ const CorporateSocialResponsibility = () => {
                     textAlign: "justify",
                     textJustify: "inter-ideograph",
                     lineHeight: "normal",
-                    fontWeight:"bold",
+                    fontWeight: "bold",
                   }}
                 >
                   Fees
@@ -589,7 +555,7 @@ const CorporateSocialResponsibility = () => {
                   style={{
                     marginBottom: "0in",
                     textAlign: "justify",
-                    fontWeight:"bold",
+                    fontWeight: "bold",
                     textJustify: "inter-ideograph",
                     lineHeight: "normal",
                   }}
@@ -639,7 +605,7 @@ const CorporateSocialResponsibility = () => {
                     marginBottom: "0in",
                     textAlign: "justify",
                     textJustify: "inter-ideograph",
-                    fontWeight:"bold",
+                    fontWeight: "bold",
                     lineHeight: "normal",
                   }}
                 >
@@ -703,12 +669,6 @@ const CorporateSocialResponsibility = () => {
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         />
         <CustomTable />
-        <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
         <p
           className="MsoNormal" id="2"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
@@ -976,212 +936,261 @@ const CorporateSocialResponsibility = () => {
         >
           &nbsp;
         </p>
-        <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          <b>MBA in Corporate Social Responsibility: Skills Required</b>
-        </p>
-        <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          Functional-specific skills that one need to have to succeed in MBA /
-          PGDM in Corporate Social Responsibility are:
-        </p>
-        <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
-        >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+
+        <div className="required-skills">
+
+          <p
+            className="MsoNormal"
+            style={{ textAlign: "justify", textJustify: "inter-ideograph", marginLeft: "0" }}
+          >
+            <b>MBA in Corporate Social Responsibility: Skills Required</b>
+          </p>
+          <p
+            className="MsoNormal"
+            style={{ textAlign: "justify", textJustify: "inter-ideograph", marginLeft: "0" }}
+          >
+            Functional-specific skills that one need to have to succeed in MBA /
+            PGDM in Corporate Social Responsibility are:
+          </p>
+          <p
+            className="cont"
+            style={{
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
             </span>
-          </span>
-          Leadership skills
-        </p>
-        <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
-        >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+            Leadership skills
+          </p>
+          <p
+            className="cont"
+            style={{
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
             </span>
-          </span>
-          Ability to work with clients with diverse interests
-        </p>
-        <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
-        >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+            Ability to work with clients with diverse interests
+          </p>
+          <p
+            className="cont"
+            style={{
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
             </span>
-          </span>
-          Problem-solving skills
-        </p>
-        <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
-        >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+            Problem-solving skills
+          </p>
+          <p
+            className="cont"
+            style={{
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
             </span>
-          </span>
-          Good communication skills
-        </p>
-        <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
-        >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+            Good communication skills
+          </p>
+          <p
+            className="cont"
+            style={{
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
             </span>
-          </span>
-          Willingness to work in rural areas
-        </p>
-        <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
-        >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+            Willingness to work in rural areas
+          </p>
+          <p
+            className="cont"
+            style={{
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
             </span>
-          </span>
-          Analytical reasoning
-        </p>
-        <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
-        >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+            Analytical reasoning
+          </p>
+          <p
+            className="cont"
+            style={{
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
             </span>
-          </span>
-          Ability to handle masses
-        </p>
+            Ability to handle masses
+          </p>
+
+        </div>
         <p
           className="MsoNormal" id="4"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           &nbsp;
         </p>
-        <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          <b>MBA in Corporate Social Responsibility: Job Profiles Offered</b>
-        </p>
-        <p
-          className="MsoNormal"
-          style={{
-            marginBottom: "0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-          }}
-        >
-          An MBA / PGDM in CSR graduate gets mostly employed in Corporate Sector
-          Companies. They also work in close association with many NGOs. The
-          following job profiles are available to these candidates:
-        </p>
-        <p
-          className="MsoNormal"
-          style={{
-            marginBottom: "0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-          }}
-        >
-          &nbsp;
-        </p>
-        <ul className="cont1">
-        <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
-            </span>
-          </span>CSR Manager
-          <li></li>
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
-            </span>
-          </span>Field Manager
-          <li></li>
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
-            </span>
-          </span>Finance Executive
-          <li></li>
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
-            </span>
-          </span>NGO Manager
-          <li></li>
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
-            </span>
-          </span>Fund Manager
-          <li></li>
-        </ul>
-        <p
-          className="MsoNormal"
-          style={{
-            marginBottom: "0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-          }}
-        >
-          &nbsp;
-        </p>
+
+
+        <div className="required-skills">
+
+          <p
+            className="MsoNormal"
+            style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
+          >
+            <b>MBA in Corporate Social Responsibility: Job Profiles Offered</b>
+          </p>
+          <p
+            className="MsoNormal"
+            style={{
+              marginBottom: "0in",
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+            }}
+          >
+            An MBA / PGDM in CSR graduate gets mostly employed in Corporate Sector
+            Companies. They also work in close association with many NGOs. The
+            following job profiles are available to these candidates:
+          </p>
+          <p
+            className="MsoNormal"
+            style={{
+              marginBottom: "0in",
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+            }}
+          >
+            &nbsp;
+          </p>
+          <p
+            className="cont"
+            style={{
+              // marginLeft: "1in",
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
+            </span>CSR Manager
+          </p>
+
+          <p
+            className="cont"
+            style={{
+              // marginLeft: "1in",
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
+            </span>Field Manager
+          </p>
+
+          <p
+            className="cont"
+            style={{
+              // marginLeft: "1in",
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
+            </span>Finance Executive
+          </p>
+
+          <p
+            className="cont"
+            style={{
+              // marginLeft: "1in",
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
+            </span>NGO Manager
+          </p>
+
+          <p
+            className="cont"
+            style={{
+              // marginLeft: "1in",
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
+            </span>Fund Manager
+          </p>
+
+        </div>
+       
         <p
           className="MsoNormal"
           style={{
@@ -1203,12 +1212,12 @@ const CorporateSocialResponsibility = () => {
         <p
           className="MsoNormal"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >MBA / PGDM in Corporate Social Responsibility a very niche specialisation and is offered by limited colleges across India. 
+        >MBA / PGDM in Corporate Social Responsibility a very niche specialisation and is offered by limited colleges across India.
           To find out about the top colleges of India offering MBA / PGDM in
           Corporate Social Responsibility,{" "}
           <span style={{ color: "red" }}><Link to="/college-list?m=Top Private MBA Colleges">
-              click here
-            </Link></span>.
+            click here
+          </Link></span>.
         </p>
         <p
           className="MsoNormal" id="6"
@@ -1246,26 +1255,6 @@ const CorporateSocialResponsibility = () => {
         </p>
         <p
           className="MsoNormal"
-          style={{
-            marginBottom: "0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-          }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="MsoNormal"
-          style={{
-            marginBottom: "0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-          }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="MsoNormal"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         />
         <CustomTable />
@@ -1282,13 +1271,7 @@ const CorporateSocialResponsibility = () => {
           <b>FAQs – MBA in Corporate Social Responsibility</b>
         </p>
         <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="MsoNormal"
+          className="cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           Q. After the company act, is it compulsory for all the companies to
@@ -1303,14 +1286,9 @@ const CorporateSocialResponsibility = () => {
           135(1) of the Act states that every company having the specified net
           worth, turnover, or net profits must establish a CSR committee.
         </p>
+        
         <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="MsoNormal"
+          className="cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           Q. What is the fee for studying MBA in CSR in India?
@@ -1322,14 +1300,9 @@ const CorporateSocialResponsibility = () => {
           Ans: Fee of MBA / PGDM in Corporate Social Responsibility ranges from
           Rs. 2 Lac to Rs. Lac for entire course.
         </p>
+        
         <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="MsoNormal"
+          className="cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           Q. What is the average salary of a CSR executive in India?
@@ -1343,14 +1316,9 @@ const CorporateSocialResponsibility = () => {
           popular these days. Average salary from a top B-school can be up to
           Rs. 5 – 6 Lac per annum.
         </p>
+        
         <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="MsoNormal"
+          className="cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           Q. Can an MBA CSR guy work for an NGO?

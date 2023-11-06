@@ -3,8 +3,8 @@ import { Link } from "react-router-dom";
 import CustomTable from "../../../CustomTable";
 const Entrepreneurship = () => {
   useEffect(() => {
-    window.scrollTo(0,0);
-  },[])
+    window.scrollTo(0, 0);
+  }, [])
   return (
     <div>
       <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
@@ -39,13 +39,8 @@ const Entrepreneurship = () => {
           entrepreneurs, family-business entrepreneurs, or corporate
           entrepreneurs.
         </p>
-        <p
-          className="cont"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <b>Table of content</b>
+
+        <b className="table-details">Table of content</b>
 
         <p
           className=" MsoListParagraphCxSpFirst"
@@ -54,11 +49,8 @@ const Entrepreneurship = () => {
             textJustify: "inter-ideograph",
           }}
         >
-          1.
-          <span >
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          </span><a className="link" href="#1">
-          MBA In Entrepreneurship  – Program Highlights</a>
+          <a className="link" href="#1">
+            MBA In Entrepreneurship  – Program Highlights</a>
         </p>
         <p
           className=" MsoListParagraphCxSpMiddle"
@@ -67,11 +59,8 @@ const Entrepreneurship = () => {
             textJustify: "inter-ideograph",
           }}
         >
-          2.
-          <span >
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          </span><a  className="link" href="#2">
-          MBA In Entrepreneurship   – Syllabus</a>
+          <a className="link" href="#2">
+            MBA In Entrepreneurship   – Syllabus</a>
         </p>
         <p
           className=" MsoListParagraphCxSpMiddle"
@@ -80,11 +69,8 @@ const Entrepreneurship = () => {
             textJustify: "inter-ideograph",
           }}
         >
-          3.
-          <span  >
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          </span><a  className="link" href="#3">
-          MBA In Entrepreneurship  : Skills Required</a>
+          <a className="link" href="#3">
+            MBA In Entrepreneurship  : Skills Required</a>
         </p>
         <p
           className=" MsoListParagraphCxSpMiddle"
@@ -93,11 +79,8 @@ const Entrepreneurship = () => {
             textJustify: "inter-ideograph",
           }}
         >
-          4.
-          <span >
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          </span><a  className="link" href="#4">
-          MBA In Entrepreneurship : Job Profiles Offered</a>
+          <a className="link" href="#4">
+            MBA In Entrepreneurship : Job Profiles Offered</a>
         </p>
         <p
           className=" MsoListParagraphCxSpMiddle"
@@ -106,10 +89,7 @@ const Entrepreneurship = () => {
             textJustify: "inter-ideograph",
           }}
         >
-          5.
-          <span >
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          </span>
+
           Top Colleges in India for MBA In Entrepreneurship
         </p>
         <p
@@ -119,11 +99,8 @@ const Entrepreneurship = () => {
             textJustify: "inter-ideograph",
           }}
         >
-          6.
-          <span >
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          </span><a  className="link" href="#6">
-          MBA In Entrepreneurship  - Top Recruiters
+          <a className="link" href="#6">
+            MBA In Entrepreneurship  - Top Recruiters
           </a>
         </p>
         <p
@@ -133,11 +110,8 @@ const Entrepreneurship = () => {
             textJustify: "inter-ideograph",
           }}
         >
-          7.
-          <span >
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          </span><a  className="link" href="#7">
-          FAQs – MBA In Entrepreneurship
+          <a className="link" href="#7">
+            FAQs – MBA In Entrepreneurship
           </a>
         </p>
 
@@ -148,6 +122,7 @@ const Entrepreneurship = () => {
         >
           &nbsp;
         </p>
+
         <p
           className="MsoNormal"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
@@ -165,71 +140,70 @@ const Entrepreneurship = () => {
             <tr>
               <td
                 style={{
-                  width: "239.4pt",
+                  width: "99pt",
                   border: "solid black 1pt",
                   padding: "0in 5.4pt 0in 5.4pt",
                 }}
-                width={319}
+                width={132}
                 valign="top"
               >
                 <p
-                  className="MsoNormal"
+                  className="cont"
                   style={{
                     marginBottom: "0in",
-                    textAlign: "justify",
-                    fontWeight:"bold",
-                    textAlign:"center",
-                    textJustify: "inter-ideograph",
+                    textAlign: "center",
                     lineHeight: "normal",
                   }}
+                  align="center"
                 >
-                  Parameters
+                  <b>
+                    Parameters
+                  </b>
                 </p>
               </td>
               <td
                 style={{
-                  width: "239.4pt",
+                  width: "379.8pt",
                   border: "solid black 1pt",
                   borderLeft: "none",
                   padding: "0in 5.4pt 0in 5.4pt",
                 }}
-                width={319}
+                width={506}
                 valign="top"
               >
                 <p
-                  className="MsoNormal"
+                  className="cont"
                   style={{
                     marginBottom: "0in",
-                    textAlign: "justify",
-                    fontWeight:"bold",
-                    textAlign:"center",
-                    textJustify: "inter-ideograph",
+                    textAlign: "center",
                     lineHeight: "normal",
                   }}
+                  align="center"
                 >
-                  Details
+                  <b>
+                    Details
+                  </b>
                 </p>
               </td>
             </tr>
             <tr>
               <td
                 style={{
-                  width: "239.4pt",
+                  width: "99pt",
                   border: "solid black 1pt",
                   borderTop: "none",
                   padding: "0in 5.4pt 0in 5.4pt",
                 }}
-                width={319}
+                width={132}
                 valign="top"
               >
                 <p
-                  className="MsoNormal"
+                  className="cont"
                   style={{
                     marginBottom: "0in",
                     textAlign: "justify",
                     textJustify: "inter-ideograph",
-                    lineHeight: "normal",
-                    fontWeight:"bold",
+                    lineHeight: "normal", fontWeight: "bold",
                   }}
                 >
                   Program Type
@@ -237,18 +211,18 @@ const Entrepreneurship = () => {
               </td>
               <td
                 style={{
-                  width: "239.4pt",
+                  width: "379.8pt",
                   borderTop: "none",
                   borderLeft: "none",
                   borderBottom: "solid black 1pt",
                   borderRight: "solid black 1pt",
                   padding: "0in 5.4pt 0in 5.4pt",
                 }}
-                width={319}
+                width={506}
                 valign="top"
               >
                 <p
-                  className="MsoNormal"
+                  className="cont"
                   style={{
                     marginBottom: "0in",
                     textAlign: "justify",
@@ -263,22 +237,21 @@ const Entrepreneurship = () => {
             <tr>
               <td
                 style={{
-                  width: "239.4pt",
+                  width: "99pt",
                   border: "solid black 1pt",
                   borderTop: "none",
                   padding: "0in 5.4pt 0in 5.4pt",
                 }}
-                width={319}
+                width={132}
                 valign="top"
               >
                 <p
-                  className="MsoNormal"
+                  className="cont"
                   style={{
                     marginBottom: "0in",
                     textAlign: "justify",
-                    fontWeight:"bold",
                     textJustify: "inter-ideograph",
-                    lineHeight: "normal",
+                    lineHeight: "normal", fontWeight: "bold",
                   }}
                 >
                   Eligibility
@@ -286,18 +259,18 @@ const Entrepreneurship = () => {
               </td>
               <td
                 style={{
-                  width: "239.4pt",
+                  width: "379.8pt",
                   borderTop: "none",
                   borderLeft: "none",
                   borderBottom: "solid black 1pt",
                   borderRight: "solid black 1pt",
                   padding: "0in 5.4pt 0in 5.4pt",
                 }}
-                width={319}
+                width={506}
                 valign="top"
               >
                 <p
-                  className="MsoNormal"
+                  className="cont"
                   style={{
                     marginBottom: "0in",
                     textAlign: "justify",
@@ -313,22 +286,21 @@ const Entrepreneurship = () => {
             <tr>
               <td
                 style={{
-                  width: "239.4pt",
+                  width: "99pt",
                   border: "solid black 1pt",
                   borderTop: "none",
                   padding: "0in 5.4pt 0in 5.4pt",
                 }}
-                width={319}
+                width={132}
                 valign="top"
               >
                 <p
-                  className="MsoNormal"
+                  className="cont"
                   style={{
                     marginBottom: "0in",
                     textAlign: "justify",
-                    fontWeight:"bold",
                     textJustify: "inter-ideograph",
-                    lineHeight: "normal",
+                    lineHeight: "normal", fontWeight: "bold",
                   }}
                 >
                   Admission Process
@@ -336,18 +308,18 @@ const Entrepreneurship = () => {
               </td>
               <td
                 style={{
-                  width: "239.4pt",
+                  width: "379.8pt",
                   borderTop: "none",
                   borderLeft: "none",
                   borderBottom: "solid black 1pt",
                   borderRight: "solid black 1pt",
                   padding: "0in 5.4pt 0in 5.4pt",
                 }}
-                width={319}
+                width={506}
                 valign="top"
               >
                 <p
-                  className="MsoNormal"
+                  className="cont"
                   style={{
                     marginBottom: "0in",
                     textAlign: "justify",
@@ -362,22 +334,21 @@ const Entrepreneurship = () => {
             <tr>
               <td
                 style={{
-                  width: "239.4pt",
+                  width: "99pt",
                   border: "solid black 1pt",
                   borderTop: "none",
                   padding: "0in 5.4pt 0in 5.4pt",
                 }}
-                width={319}
+                width={132}
                 valign="top"
               >
                 <p
-                  className="MsoNormal"
+                  className="cont"
                   style={{
                     marginBottom: "0in",
-                    fontWeight:"bold",
                     textAlign: "justify",
                     textJustify: "inter-ideograph",
-                    lineHeight: "normal",
+                    lineHeight: "normal", fontWeight: "bold",
                   }}
                 >
                   Entrance Exams
@@ -385,18 +356,18 @@ const Entrepreneurship = () => {
               </td>
               <td
                 style={{
-                  width: "239.4pt",
+                  width: "379.8pt",
                   borderTop: "none",
                   borderLeft: "none",
                   borderBottom: "solid black 1pt",
                   borderRight: "solid black 1pt",
                   padding: "0in 5.4pt 0in 5.4pt",
                 }}
-                width={319}
+                width={506}
                 valign="top"
               >
                 <p
-                  className="MsoNormal"
+                  className="cont"
                   style={{
                     marginBottom: "0in",
                     textAlign: "justify",
@@ -411,22 +382,21 @@ const Entrepreneurship = () => {
             <tr>
               <td
                 style={{
-                  width: "239.4pt",
+                  width: "99pt",
                   border: "solid black 1pt",
                   borderTop: "none",
                   padding: "0in 5.4pt 0in 5.4pt",
                 }}
-                width={319}
+                width={132}
                 valign="top"
               >
                 <p
-                  className="MsoNormal"
+                  className="cont"
                   style={{
                     marginBottom: "0in",
-                    fontWeight:"bold",
                     textAlign: "justify",
                     textJustify: "inter-ideograph",
-                    lineHeight: "normal",
+                    lineHeight: "normal", fontWeight: "bold",
                   }}
                 >
                   Program Options
@@ -434,18 +404,18 @@ const Entrepreneurship = () => {
               </td>
               <td
                 style={{
-                  width: "239.4pt",
+                  width: "379.8pt",
                   borderTop: "none",
                   borderLeft: "none",
                   borderBottom: "solid black 1pt",
                   borderRight: "solid black 1pt",
                   padding: "0in 5.4pt 0in 5.4pt",
                 }}
-                width={319}
+                width={506}
                 valign="top"
               >
                 <p
-                  className="MsoNormal"
+                  className="cont"
                   style={{
                     marginBottom: "0in",
                     textAlign: "justify",
@@ -453,29 +423,28 @@ const Entrepreneurship = () => {
                     lineHeight: "normal",
                   }}
                 >
-                  Full Time, Distance, Online
+                  Full Time, Part Time, Distance, Online
                 </p>
               </td>
             </tr>
             <tr>
               <td
                 style={{
-                  width: "239.4pt",
+                  width: "99pt",
                   border: "solid black 1pt",
                   borderTop: "none",
                   padding: "0in 5.4pt 0in 5.4pt",
                 }}
-                width={319}
+                width={132}
                 valign="top"
               >
                 <p
-                  className="MsoNormal"
+                  className="cont"
                   style={{
-                    fontWeight:"bold",
                     marginBottom: "0in",
                     textAlign: "justify",
                     textJustify: "inter-ideograph",
-                    lineHeight: "normal",
+                    lineHeight: "normal", fontWeight: "bold",
                   }}
                 >
                   Syllabus
@@ -483,43 +452,68 @@ const Entrepreneurship = () => {
               </td>
               <td
                 style={{
-                  width: "239.4pt",
+                  width: "379.8pt",
                   borderTop: "none",
                   borderLeft: "none",
                   borderBottom: "solid black 1pt",
                   borderRight: "solid black 1pt",
                   padding: "0in 5.4pt 0in 5.4pt",
                 }}
-                width={319}
+                width={506}
                 valign="top"
               >
                 <p
-                  className="MsoNormal"
-                  style={{ marginBottom: "0in", lineHeight: "normal" }}
+                  className="cont"
+                  style={{
+                    marginBottom: "0in",
+                    textAlign: "justify",
+                    textJustify: "inter-ideograph",
+                    lineHeight: "normal",
+                  }}
                 >
                   Fundamentals of Entrepreneurship
                 </p>
                 <p
-                  className="MsoNormal"
-                  style={{ marginBottom: "0in", lineHeight: "normal" }}
+                  className="cont"
+                  style={{
+                    marginBottom: "0in",
+                    textAlign: "justify",
+                    textJustify: "inter-ideograph",
+                    lineHeight: "normal",
+                  }}
                 >
                   Social Entrepreneurship
                 </p>
                 <p
-                  className="MsoNormal"
-                  style={{ marginBottom: "0in", lineHeight: "normal" }}
+                  className="cont"
+                  style={{
+                    marginBottom: "0in",
+                    textAlign: "justify",
+                    textJustify: "inter-ideograph",
+                    lineHeight: "normal",
+                  }}
                 >
                   Principles of Marketing Management
                 </p>
                 <p
-                  className="MsoNormal"
-                  style={{ marginBottom: "0in", lineHeight: "normal" }}
+                  className="cont"
+                  style={{
+                    marginBottom: "0in",
+                    textAlign: "justify",
+                    textJustify: "inter-ideograph",
+                    lineHeight: "normal",
+                  }}
                 >
                   Operations Management
                 </p>
                 <p
-                  className="MsoNormal"
-                  style={{ marginBottom: "0in", lineHeight: "normal" }}
+                  className="cont"
+                  style={{
+                    marginBottom: "0in",
+                    textAlign: "justify",
+                    textJustify: "inter-ideograph",
+                    lineHeight: "normal",
+                  }}
                 >
                   Entrepreneurial Finance
                 </p>
@@ -528,22 +522,21 @@ const Entrepreneurship = () => {
             <tr>
               <td
                 style={{
-                  width: "239.4pt",
+                  width: "99pt",
                   border: "solid black 1pt",
                   borderTop: "none",
                   padding: "0in 5.4pt 0in 5.4pt",
                 }}
-                width={319}
+                width={132}
                 valign="top"
               >
                 <p
-                  className="MsoNormal"
+                  className="cont"
                   style={{
                     marginBottom: "0in",
                     textAlign: "justify",
-                    fontWeight:"bold",
                     textJustify: "inter-ideograph",
-                    lineHeight: "normal",
+                    lineHeight: "normal", fontWeight: "bold",
                   }}
                 >
                   Fees
@@ -551,18 +544,18 @@ const Entrepreneurship = () => {
               </td>
               <td
                 style={{
-                  width: "239.4pt",
+                  width: "379.8pt",
                   borderTop: "none",
                   borderLeft: "none",
                   borderBottom: "solid black 1pt",
                   borderRight: "solid black 1pt",
                   padding: "0in 5.4pt 0in 5.4pt",
                 }}
-                width={319}
+                width={506}
                 valign="top"
               >
                 <p
-                  className="MsoNormal"
+                  className="cont"
                   style={{
                     marginBottom: "0in",
                     textAlign: "justify",
@@ -577,22 +570,21 @@ const Entrepreneurship = () => {
             <tr>
               <td
                 style={{
-                  width: "239.4pt",
+                  width: "99pt",
                   border: "solid black 1pt",
                   borderTop: "none",
                   padding: "0in 5.4pt 0in 5.4pt",
                 }}
-                width={319}
+                width={132}
                 valign="top"
               >
                 <p
-                  className="MsoNormal"
+                  className="cont"
                   style={{
                     marginBottom: "0in",
                     textAlign: "justify",
-                    fontWeight:"bold",
                     textJustify: "inter-ideograph",
-                    lineHeight: "normal",
+                    lineHeight: "normal", fontWeight: "bold",
                   }}
                 >
                   Average Salary
@@ -600,18 +592,18 @@ const Entrepreneurship = () => {
               </td>
               <td
                 style={{
-                  width: "239.4pt",
+                  width: "379.8pt",
                   borderTop: "none",
                   borderLeft: "none",
                   borderBottom: "solid black 1pt",
                   borderRight: "solid black 1pt",
                   padding: "0in 5.4pt 0in 5.4pt",
                 }}
-                width={319}
+                width={506}
                 valign="top"
               >
                 <p
-                  className="MsoNormal"
+                  className="cont"
                   style={{
                     marginBottom: "0in",
                     textAlign: "justify",
@@ -626,22 +618,21 @@ const Entrepreneurship = () => {
             <tr>
               <td
                 style={{
-                  width: "239.4pt",
+                  width: "99pt",
                   border: "solid black 1pt",
                   borderTop: "none",
                   padding: "0in 5.4pt 0in 5.4pt",
                 }}
-                width={319}
+                width={132}
                 valign="top"
               >
                 <p
-                  className="MsoNormal"
+                  className="cont"
                   style={{
                     marginBottom: "0in",
                     textAlign: "justify",
-                    fontWeight:"bold",
                     textJustify: "inter-ideograph",
-                    lineHeight: "normal",
+                    lineHeight: "normal", fontWeight: "bold",
                   }}
                 >
                   Job Profiles
@@ -649,37 +640,57 @@ const Entrepreneurship = () => {
               </td>
               <td
                 style={{
-                  width: "239.4pt",
+                  width: "379.8pt",
                   borderTop: "none",
                   borderLeft: "none",
                   borderBottom: "solid black 1pt",
                   borderRight: "solid black 1pt",
                   padding: "0in 5.4pt 0in 5.4pt",
                 }}
-                width={319}
+                width={506}
                 valign="top"
               >
                 <p
-                  className="MsoNormal"
-                  style={{ marginBottom: "0in", lineHeight: "normal" }}
+                  className="cont"
+                  style={{
+                    marginBottom: "0in",
+                    textAlign: "justify",
+                    textJustify: "inter-ideograph",
+                    lineHeight: "normal",
+                  }}
                 >
                   Entrepreneur
                 </p>
                 <p
-                  className="MsoNormal"
-                  style={{ marginBottom: "0in", lineHeight: "normal" }}
+                  className="cont"
+                  style={{
+                    marginBottom: "0in",
+                    textAlign: "justify",
+                    textJustify: "inter-ideograph",
+                    lineHeight: "normal",
+                  }}
                 >
                   Manager
                 </p>
                 <p
-                  className="MsoNormal"
-                  style={{ marginBottom: "0in", lineHeight: "normal" }}
+                  className="cont"
+                  style={{
+                    marginBottom: "0in",
+                    textAlign: "justify",
+                    textJustify: "inter-ideograph",
+                    lineHeight: "normal",
+                  }}
                 >
                   Business Consultants
                 </p>
                 <p
-                  className="MsoNormal"
-                  style={{ marginBottom: "0in", lineHeight: "normal" }}
+                  className="cont"
+                  style={{
+                    marginBottom: "0in",
+                    textAlign: "justify",
+                    textJustify: "inter-ideograph",
+                    lineHeight: "normal",
+                  }}
                 >
                   Fundraisers and Development Officers
                 </p>
@@ -697,13 +708,7 @@ const Entrepreneurship = () => {
           className="MsoNormal"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         />
-       <CustomTable />
-        <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
+        <CustomTable />
         <p
           className="MsoNormal" id="2"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
@@ -965,101 +970,100 @@ const Entrepreneurship = () => {
           </tbody>
         </table>
         <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
           className="MsoNormal" id="3"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           &nbsp;
         </p>
-        <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          <b>MBA in Entrepreneurship: Skills Required</b>
-        </p>
-        <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          MBA / PGDM in Entrepreneurship wants a student to be self reliant and
-          understand how a business can create jobs. General skillsets required
-          for such candidates are:
-        </p>
-        <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
-        >
-          1.
-          <span style={{ font: '7pt "Times New Roman"' }}>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
-          </span>
-          Understanding Strategy and embracing opportunities
-        </p>
-        <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
-        >
-          2.
-          <span style={{ font: '7pt "Times New Roman"' }}>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
-          </span>
-          Ability to take the risk
-        </p>
-        <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
-        >
-          3.
-          <span style={{ font: '7pt "Times New Roman"' }}>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
-          </span>
-          Self-discipline and Integrity
-        </p>
-        <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
-        >
-          4.
-          <span style={{ font: '7pt "Times New Roman"' }}>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
-          </span>
-          Decisive and action-oriented
-        </p>
-        <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
-        >
-          5.
-          <span style={{ font: '7pt "Times New Roman"' }}>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
-          </span>
-          Innovation
-        </p>
+
+
+        <div className="required-skills">
+
+          <p
+            className="MsoNormal"
+            style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
+          >
+            <b>MBA in Entrepreneurship: Skills Required</b>
+          </p>
+          <p
+            className="MsoNormal"
+            style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
+          >
+            MBA / PGDM in Entrepreneurship wants a student to be self reliant and
+            understand how a business can create jobs. General skillsets required
+            for such candidates are:
+          </p>
+          <p
+            className="cont"
+            style={{
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            1.
+            <span style={{ font: '7pt "Times New Roman"' }}>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+            </span>
+            Understanding Strategy and embracing opportunities
+          </p>
+          <p
+            className="cont"
+            style={{
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            2.
+            <span style={{ font: '7pt "Times New Roman"' }}>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+            </span>
+            Ability to take the risk
+          </p>
+          <p
+            className="cont"
+            style={{
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            3.
+            <span style={{ font: '7pt "Times New Roman"' }}>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+            </span>
+            Self-discipline and Integrity
+          </p>
+          <p
+            className="cont"
+            style={{
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            4.
+            <span style={{ font: '7pt "Times New Roman"' }}>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+            </span>
+            Decisive and action-oriented
+          </p>
+          <p
+            className="cont"
+            style={{
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            5.
+            <span style={{ font: '7pt "Times New Roman"' }}>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+            </span>
+            Innovation
+          </p>
+        </div>
         <p
           className="MsoNormal" id="4"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
@@ -1084,16 +1088,7 @@ const Entrepreneurship = () => {
           opportunities as a business owner, family business, freelancer and
           even work with small business houses.
         </p>
-        <p
-          className="MsoNormal"
-          style={{
-            marginBottom: "0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-          }}
-        >
-          &nbsp;
-        </p>
+
         <p
           className="MsoNormal"
           style={{
@@ -1125,7 +1120,10 @@ const Entrepreneurship = () => {
         </p>
         <p
           className="MsoNormal" id="6"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
+          style={{
+            textAlign: "justify", textJustify: "inter-ideograph", marginBottom: "0in"
+
+          }}
         >
           &nbsp;
         </p>
@@ -1158,67 +1156,125 @@ const Entrepreneurship = () => {
         >
           &nbsp;
         </p>
-        <ul className="cont" style={{marginLeft:"0.5in"}}>
-        <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
-            </span>
-          </span>Hindustan Unilever Ltd
-          <li></li>
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
-            </span>
-          </span>Reckitt Benckiser
-          <li></li>
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
-            </span>
-          </span>Dell
-          <li></li>
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
-            </span>
-          </span>TCS
-          <li></li>
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
-            </span>
-          </span>CRISIL
-          <li></li>
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
-            </span>
-          </span>Infosys
-          <li></li>
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
-            </span>
-          </span>Reliance
-          <li></li>
-        </ul>
-        <p
-          className="MsoNormal"
-          style={{
-            marginBottom: "0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-          }}
-        >
-          &nbsp;
-        </p>
+
+
+        <div className="required-skills">
+
+          <p
+            className="cont"
+            style={{
+              // marginLeft: "1in",
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
+            </span>Hindustan Unilever Ltd
+          </p>
+          <p
+            className="cont"
+            style={{
+              // marginLeft: "1in",
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
+            </span>Reckitt Benckiser
+          </p>
+          <p
+            className="cont"
+            style={{
+              // marginLeft: "1in",
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
+            </span>Dell
+          </p>
+          <p
+            className="cont"
+            style={{
+              // marginLeft: "1in",
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
+            </span>TCS
+          </p>
+          <p
+            className="cont"
+            style={{
+              // marginLeft: "1in",
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
+            </span>CRISIL
+          </p>
+          <p
+            className="cont"
+            style={{
+              // marginLeft: "1in",
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
+            </span>Infosys
+          </p>
+          <p
+            className="cont"
+            style={{
+              // marginLeft: "1in",
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
+            </span>Reliance
+          </p>
+
+        </div>
+
         <p
           className="MsoNormal"
           style={{
@@ -1246,14 +1302,9 @@ const Entrepreneurship = () => {
         >
           <b>FAQs – MBA in Entrepreneurship</b>
         </p>
+        
         <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="MsoNormal"
+          className="cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           Q: What is an MBA in Entrepreneurship Management?
@@ -1266,14 +1317,9 @@ const Entrepreneurship = () => {
           with every aspect of entrepreneurship, family business handling and
           start ups.
         </p>
+        
         <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="MsoNormal"
+          className="cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           Q: What is the eligibility criterion for MBA in Entrepreneurship
@@ -1288,14 +1334,9 @@ const Entrepreneurship = () => {
           any discipline. Most of the institutes have minimum score criteria of
           50 per cent in graduation (45 per cent for reserved category).
         </p>
+        
         <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="MsoNormal"
+          className="cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           Q: Which entrance exam score is required for admission to MBA in
@@ -1309,14 +1350,9 @@ const Entrepreneurship = () => {
           colleges in India, candidates can appear for CAT, GMAT, XAT, CMAT and
           MAT.
         </p>
+        
         <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="MsoNormal"
+          className="cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           Q: What is the scope of MBA in Entrepreneurship Management?
@@ -1329,14 +1365,9 @@ const Entrepreneurship = () => {
           are various employment opportunities available after the completion of
           graduation.
         </p>
+        
         <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="MsoNormal"
+          className="cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           Q: Which companies hire MBA in Entrepreneurship Management graduates?
@@ -1349,14 +1380,9 @@ const Entrepreneurship = () => {
           Services, Accenture are some of the top companies hiring MBA / PGDM in
           Entrepreneurship management graduates.
         </p>
+        
         <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="MsoNormal"
+          className="cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           Q: Which are the top colleges in India for MBA in Entrepreneurship

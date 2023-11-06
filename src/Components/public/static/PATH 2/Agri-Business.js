@@ -1,9 +1,9 @@
-import { useEffect } from "react"; 
+import { useEffect } from "react";
 import CustomTable from "../../../CustomTable";
 const AgriBusiness = () => {
   useEffect(() => {
-    window.scrollTo(0,0);
-  },[])
+    window.scrollTo(0, 0);
+  }, [])
   return (
     <div>
       <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
@@ -37,13 +37,7 @@ const AgriBusiness = () => {
           companies, the farming industry, and the marketing industry.
         </p>
 
-        <p
-          className="cont"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <b>Table of content</b>
+        <b className="table-details">Table of content</b>
 
         <p
           className=" MsoListParagraphCxSpFirst"
@@ -52,11 +46,8 @@ const AgriBusiness = () => {
             textJustify: "inter-ideograph",
           }}
         >
-          1.
-          <span >
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          </span><a className="link" href="#1">
-          MBA In Agri-business Management  – Program Highlights</a>
+          <a className="link" href="#1">
+            MBA In Agri-business Management  – Program Highlights</a>
         </p>
         <p
           className=" MsoListParagraphCxSpMiddle"
@@ -65,11 +56,8 @@ const AgriBusiness = () => {
             textJustify: "inter-ideograph",
           }}
         >
-          2.
-          <span >
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          </span><a  className="link" href="#2">
-          MBA In Agri-business Management   – Syllabus</a>
+          <a className="link" href="#2">
+            MBA In Agri-business Management   – Syllabus</a>
         </p>
         <p
           className=" MsoListParagraphCxSpMiddle"
@@ -78,11 +66,8 @@ const AgriBusiness = () => {
             textJustify: "inter-ideograph",
           }}
         >
-          3.
-          <span  >
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          </span><a  className="link" href="#3">
-          MBA In Agri-business Management  : Skills Required</a>
+          <a className="link" href="#3">
+            MBA In Agri-business Management  : Skills Required</a>
         </p>
         <p
           className=" MsoListParagraphCxSpMiddle"
@@ -91,11 +76,8 @@ const AgriBusiness = () => {
             textJustify: "inter-ideograph",
           }}
         >
-          4.
-          <span >
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          </span><a  className="link" href="#4">
-          MBA In Agri-business Management : Job Profiles Offered</a>
+          <a className="link" href="#4">
+            MBA In Agri-business Management : Job Profiles Offered</a>
         </p>
         <p
           className=" MsoListParagraphCxSpMiddle"
@@ -104,11 +86,7 @@ const AgriBusiness = () => {
             textJustify: "inter-ideograph",
           }}
         >
-          5.
-          <span >
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          </span>
-          Top Colleges in India for MBA Agri-business Management 
+          Top Colleges in India for MBA Agri-business Management
         </p>
         <p
           className=" MsoListParagraphCxSpMiddle"
@@ -117,11 +95,8 @@ const AgriBusiness = () => {
             textJustify: "inter-ideograph",
           }}
         >
-          6.
-          <span >
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          </span><a  className="link" href="#6">
-          MBA In Agri-business Management  - Top Recruiters
+          <a className="link" href="#6">
+            MBA In Agri-business Management  - Top Recruiters
           </a>
         </p>
         <p
@@ -131,20 +106,12 @@ const AgriBusiness = () => {
             textJustify: "inter-ideograph",
           }}
         >
-          7.
-          <span >
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          </span><a  className="link" href="#7">
-          FAQs – MBA In Agri-business Management
+          <a className="link" href="#7">
+            FAQs – MBA In Agri-business Management
           </a>
         </p>
 
-        <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
+
         <p
           className="MsoNormal" id="1"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
@@ -168,69 +135,70 @@ const AgriBusiness = () => {
             <tr>
               <td
                 style={{
-                  width: "239.4pt",
+                  width: "99pt",
                   border: "solid black 1pt",
                   padding: "0in 5.4pt 0in 5.4pt",
                 }}
-                width={319}
+                width={132}
                 valign="top"
               >
                 <p
-                  className="MsoNormal"
+                  className="cont"
                   style={{
                     marginBottom: "0in",
                     textAlign: "center",
-                    textJustify: "inter-ideograph",
                     lineHeight: "normal",
-                    fontWeight:"bold",
                   }}
+                  align="center"
                 >
-                  Parameters
+                  <b>
+                    Parameters
+                  </b>
                 </p>
               </td>
               <td
                 style={{
-                  width: "239.4pt",
+                  width: "379.8pt",
                   border: "solid black 1pt",
                   borderLeft: "none",
-                  fontWeight:"bold",
                   padding: "0in 5.4pt 0in 5.4pt",
                 }}
-                width={319}
+                width={506}
                 valign="top"
               >
                 <p
-                  className="MsoNormal"
+                  className="cont"
                   style={{
                     marginBottom: "0in",
                     textAlign: "center",
-                    textJustify: "inter-ideograph",
                     lineHeight: "normal",
                   }}
+                  align="center"
                 >
-                  Details
+                  <b>
+                    Details
+                  </b>
                 </p>
               </td>
             </tr>
             <tr>
               <td
                 style={{
-                  width: "239.4pt",
+                  width: "99pt",
                   border: "solid black 1pt",
                   borderTop: "none",
-                  fontWeight:"bold",
                   padding: "0in 5.4pt 0in 5.4pt",
                 }}
-                width={319}
+                width={132}
                 valign="top"
               >
                 <p
-                  className="MsoNormal"
+                  className="cont"
                   style={{
                     marginBottom: "0in",
                     textAlign: "justify",
                     textJustify: "inter-ideograph",
-                    lineHeight: "normal",
+                    lineHeight: "normal", fontWeight: "bold",
                   }}
                 >
                   Program Type
@@ -238,18 +206,18 @@ const AgriBusiness = () => {
               </td>
               <td
                 style={{
-                  width: "239.4pt",
+                  width: "379.8pt",
                   borderTop: "none",
                   borderLeft: "none",
                   borderBottom: "solid black 1pt",
                   borderRight: "solid black 1pt",
                   padding: "0in 5.4pt 0in 5.4pt",
                 }}
-                width={319}
+                width={506}
                 valign="top"
               >
                 <p
-                  className="MsoNormal"
+                  className="cont"
                   style={{
                     marginBottom: "0in",
                     textAlign: "justify",
@@ -264,22 +232,21 @@ const AgriBusiness = () => {
             <tr>
               <td
                 style={{
-                  width: "239.4pt",
+                  width: "99pt",
                   border: "solid black 1pt",
                   borderTop: "none",
-                  fontWeight:"bold",
                   padding: "0in 5.4pt 0in 5.4pt",
                 }}
-                width={319}
+                width={132}
                 valign="top"
               >
                 <p
-                  className="MsoNormal"
+                  className="cont"
                   style={{
                     marginBottom: "0in",
                     textAlign: "justify",
                     textJustify: "inter-ideograph",
-                    lineHeight: "normal",
+                    lineHeight: "normal", fontWeight: "bold",
                   }}
                 >
                   Eligibility
@@ -287,18 +254,18 @@ const AgriBusiness = () => {
               </td>
               <td
                 style={{
-                  width: "239.4pt",
+                  width: "379.8pt",
                   borderTop: "none",
                   borderLeft: "none",
                   borderBottom: "solid black 1pt",
                   borderRight: "solid black 1pt",
                   padding: "0in 5.4pt 0in 5.4pt",
                 }}
-                width={319}
+                width={506}
                 valign="top"
               >
                 <p
-                  className="MsoNormal"
+                  className="cont"
                   style={{
                     marginBottom: "0in",
                     textAlign: "justify",
@@ -314,22 +281,21 @@ const AgriBusiness = () => {
             <tr>
               <td
                 style={{
-                  width: "239.4pt",
+                  width: "99pt",
                   border: "solid black 1pt",
                   borderTop: "none",
-                  fontWeight:"bold",
                   padding: "0in 5.4pt 0in 5.4pt",
                 }}
-                width={319}
+                width={132}
                 valign="top"
               >
                 <p
-                  className="MsoNormal"
+                  className="cont"
                   style={{
                     marginBottom: "0in",
                     textAlign: "justify",
                     textJustify: "inter-ideograph",
-                    lineHeight: "normal",
+                    lineHeight: "normal", fontWeight: "bold",
                   }}
                 >
                   Admission Process
@@ -337,18 +303,18 @@ const AgriBusiness = () => {
               </td>
               <td
                 style={{
-                  width: "239.4pt",
+                  width: "379.8pt",
                   borderTop: "none",
                   borderLeft: "none",
                   borderBottom: "solid black 1pt",
                   borderRight: "solid black 1pt",
                   padding: "0in 5.4pt 0in 5.4pt",
                 }}
-                width={319}
+                width={506}
                 valign="top"
               >
                 <p
-                  className="MsoNormal"
+                  className="cont"
                   style={{
                     marginBottom: "0in",
                     textAlign: "justify",
@@ -363,22 +329,21 @@ const AgriBusiness = () => {
             <tr>
               <td
                 style={{
-                  width: "239.4pt",
+                  width: "99pt",
                   border: "solid black 1pt",
                   borderTop: "none",
                   padding: "0in 5.4pt 0in 5.4pt",
                 }}
-                width={319}
+                width={132}
                 valign="top"
               >
                 <p
-                  className="MsoNormal"
+                  className="cont"
                   style={{
                     marginBottom: "0in",
                     textAlign: "justify",
-                    fontWeight:"bold",
                     textJustify: "inter-ideograph",
-                    lineHeight: "normal",
+                    lineHeight: "normal", fontWeight: "bold",
                   }}
                 >
                   Entrance Exams
@@ -386,18 +351,18 @@ const AgriBusiness = () => {
               </td>
               <td
                 style={{
-                  width: "239.4pt",
+                  width: "379.8pt",
                   borderTop: "none",
                   borderLeft: "none",
                   borderBottom: "solid black 1pt",
                   borderRight: "solid black 1pt",
                   padding: "0in 5.4pt 0in 5.4pt",
                 }}
-                width={319}
+                width={506}
                 valign="top"
               >
                 <p
-                  className="MsoNormal"
+                  className="cont"
                   style={{
                     marginBottom: "0in",
                     textAlign: "justify",
@@ -412,22 +377,21 @@ const AgriBusiness = () => {
             <tr>
               <td
                 style={{
-                  width: "239.4pt",
+                  width: "99pt",
                   border: "solid black 1pt",
                   borderTop: "none",
                   padding: "0in 5.4pt 0in 5.4pt",
                 }}
-                width={319}
+                width={132}
                 valign="top"
               >
                 <p
-                  className="MsoNormal"
+                  className="cont"
                   style={{
                     marginBottom: "0in",
                     textAlign: "justify",
-                    fontWeight:"bold",
                     textJustify: "inter-ideograph",
-                    lineHeight: "normal",
+                    lineHeight: "normal", fontWeight: "bold",
                   }}
                 >
                   Program Options
@@ -435,18 +399,18 @@ const AgriBusiness = () => {
               </td>
               <td
                 style={{
-                  width: "239.4pt",
+                  width: "379.8pt",
                   borderTop: "none",
                   borderLeft: "none",
                   borderBottom: "solid black 1pt",
                   borderRight: "solid black 1pt",
                   padding: "0in 5.4pt 0in 5.4pt",
                 }}
-                width={319}
+                width={506}
                 valign="top"
               >
                 <p
-                  className="MsoNormal"
+                  className="cont"
                   style={{
                     marginBottom: "0in",
                     textAlign: "justify",
@@ -461,22 +425,21 @@ const AgriBusiness = () => {
             <tr>
               <td
                 style={{
-                  width: "239.4pt",
+                  width: "99pt",
                   border: "solid black 1pt",
                   borderTop: "none",
                   padding: "0in 5.4pt 0in 5.4pt",
                 }}
-                width={319}
+                width={132}
                 valign="top"
               >
                 <p
-                  className="MsoNormal"
+                  className="cont"
                   style={{
                     marginBottom: "0in",
                     textAlign: "justify",
-                    fontWeight:"bold",
                     textJustify: "inter-ideograph",
-                    lineHeight: "normal",
+                    lineHeight: "normal", fontWeight: "bold",
                   }}
                 >
                   Syllabus
@@ -484,18 +447,18 @@ const AgriBusiness = () => {
               </td>
               <td
                 style={{
-                  width: "239.4pt",
+                  width: "379.8pt",
                   borderTop: "none",
                   borderLeft: "none",
                   borderBottom: "solid black 1pt",
                   borderRight: "solid black 1pt",
                   padding: "0in 5.4pt 0in 5.4pt",
                 }}
-                width={319}
+                width={506}
                 valign="top"
               >
                 <p
-                  className="MsoNormal"
+                  className="cont"
                   style={{
                     marginBottom: "0in",
                     textAlign: "justify",
@@ -506,7 +469,7 @@ const AgriBusiness = () => {
                   Agricultural &amp; Food Policy
                 </p>
                 <p
-                  className="MsoNormal"
+                  className="cont"
                   style={{
                     marginBottom: "0in",
                     textAlign: "justify",
@@ -517,7 +480,7 @@ const AgriBusiness = () => {
                   Agricultural Finance
                 </p>
                 <p
-                  className="MsoNormal"
+                  className="cont"
                   style={{
                     marginBottom: "0in",
                     textAlign: "justify",
@@ -528,7 +491,7 @@ const AgriBusiness = () => {
                   Marketing of Agricultural Inputs
                 </p>
                 <p
-                  className="MsoNormal"
+                  className="cont"
                   style={{
                     marginBottom: "0in",
                     textAlign: "justify",
@@ -543,22 +506,21 @@ const AgriBusiness = () => {
             <tr>
               <td
                 style={{
-                  width: "239.4pt",
+                  width: "99pt",
                   border: "solid black 1pt",
                   borderTop: "none",
                   padding: "0in 5.4pt 0in 5.4pt",
                 }}
-                width={319}
+                width={132}
                 valign="top"
               >
                 <p
-                  className="MsoNormal"
+                  className="cont"
                   style={{
                     marginBottom: "0in",
                     textAlign: "justify",
-                    fontWeight:"bold",
                     textJustify: "inter-ideograph",
-                    lineHeight: "normal",
+                    lineHeight: "normal", fontWeight: "bold",
                   }}
                 >
                   Fees
@@ -566,18 +528,18 @@ const AgriBusiness = () => {
               </td>
               <td
                 style={{
-                  width: "239.4pt",
+                  width: "379.8pt",
                   borderTop: "none",
                   borderLeft: "none",
                   borderBottom: "solid black 1pt",
                   borderRight: "solid black 1pt",
                   padding: "0in 5.4pt 0in 5.4pt",
                 }}
-                width={319}
+                width={506}
                 valign="top"
               >
                 <p
-                  className="MsoNormal"
+                  className="cont"
                   style={{
                     marginBottom: "0in",
                     textAlign: "justify",
@@ -592,22 +554,21 @@ const AgriBusiness = () => {
             <tr>
               <td
                 style={{
-                  width: "239.4pt",
+                  width: "99pt",
                   border: "solid black 1pt",
                   borderTop: "none",
                   padding: "0in 5.4pt 0in 5.4pt",
                 }}
-                width={319}
+                width={132}
                 valign="top"
               >
                 <p
-                  className="MsoNormal"
+                  className="cont"
                   style={{
                     marginBottom: "0in",
-                    fontWeight:"bold",
                     textAlign: "justify",
                     textJustify: "inter-ideograph",
-                    lineHeight: "normal",
+                    lineHeight: "normal", fontWeight: "bold",
                   }}
                 >
                   Average Salary
@@ -615,18 +576,18 @@ const AgriBusiness = () => {
               </td>
               <td
                 style={{
-                  width: "239.4pt",
+                  width: "379.8pt",
                   borderTop: "none",
                   borderLeft: "none",
                   borderBottom: "solid black 1pt",
                   borderRight: "solid black 1pt",
                   padding: "0in 5.4pt 0in 5.4pt",
                 }}
-                width={319}
+                width={506}
                 valign="top"
               >
                 <p
-                  className="MsoNormal"
+                  className="cont"
                   style={{
                     marginBottom: "0in",
                     textAlign: "justify",
@@ -641,22 +602,21 @@ const AgriBusiness = () => {
             <tr>
               <td
                 style={{
-                  width: "239.4pt",
+                  width: "99pt",
                   border: "solid black 1pt",
                   borderTop: "none",
                   padding: "0in 5.4pt 0in 5.4pt",
                 }}
-                width={319}
+                width={132}
                 valign="top"
               >
                 <p
-                  className="MsoNormal"
+                  className="cont"
                   style={{
                     marginBottom: "0in",
                     textAlign: "justify",
-                    fontWeight:"bold",
                     textJustify: "inter-ideograph",
-                    lineHeight: "normal",
+                    lineHeight: "normal", fontWeight: "bold",
                   }}
                 >
                   Job Profiles
@@ -664,36 +624,51 @@ const AgriBusiness = () => {
               </td>
               <td
                 style={{
-                  width: "239.4pt",
+                  width: "379.8pt",
                   borderTop: "none",
                   borderLeft: "none",
                   borderBottom: "solid black 1pt",
                   borderRight: "solid black 1pt",
                   padding: "0in 5.4pt 0in 5.4pt",
                 }}
-                width={319}
+                width={506}
                 valign="top"
               >
                 <p
-                  className="MsoNormal"
-                  style={{ marginBottom: "0in", lineHeight: "normal" }}
+                  className="cont"
+                  style={{
+                    marginBottom: "0in",
+                    textAlign: "justify",
+                    textJustify: "inter-ideograph",
+                    lineHeight: "normal",
+                  }}
                 >
                   Commodity Merchandiser
                 </p>
                 <p
-                  className="MsoNormal"
-                  style={{ marginBottom: "0in", lineHeight: "normal" }}
+                  className="cont"
+                  style={{
+                    marginBottom: "0in",
+                    textAlign: "justify",
+                    textJustify: "inter-ideograph",
+                    lineHeight: "normal",
+                  }}
                 >
                   Sourcing Specialist
                 </p>
                 <p
-                  className="MsoNormal"
-                  style={{ marginBottom: "0in", lineHeight: "normal" }}
+                  className="cont"
+                  style={{
+                    marginBottom: "0in",
+                    textAlign: "justify",
+                    textJustify: "inter-ideograph",
+                    lineHeight: "normal",
+                  }}
                 >
                   Farm Appraiser
                 </p>
                 <p
-                  className="MsoNormal"
+                  className="cont"
                   style={{
                     marginBottom: "0in",
                     textAlign: "justify",
@@ -704,7 +679,7 @@ const AgriBusiness = () => {
                   Agriculture Policy Analyst
                 </p>
                 <p
-                  className="MsoNormal"
+                  className="cont"
                   style={{
                     marginBottom: "0in",
                     textAlign: "justify",
@@ -721,26 +696,18 @@ const AgriBusiness = () => {
         <p
           className="MsoNormal"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         />
         <CustomTable />
-        <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
+
         <p
           className="MsoNormal" id="2"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           &nbsp;
         </p>
+
+
+
         <p
           className="MsoNormal"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
@@ -1057,221 +1024,269 @@ const AgriBusiness = () => {
         >
           &nbsp;
         </p>
-        <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          <b>MBA in Agri-business Management: Skills Required</b>
-        </p>
-        <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          Candidates looking to pursue a career in agriculture and food business
-          should possess the below-mentioned skills:
-        </p>
-        <p
-          className="cont"
-          style={{
-            textAlign: "justify",
-            marginLeft:"1in",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
-        >
-          1.
-          <span style={{ font: '7pt "Times New Roman"' }}>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
-          </span>
-          Management skills
-        </p>
-        <p
-          className="cont"
-          style={{
-            textAlign: "justify",
-            marginLeft:"1in",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
-        >
-          2.
-          <span style={{ font: '7pt "Times New Roman"' }}>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
-          </span>
-          Leadership skills
-        </p>
-        <p
-          className="cont"
-          style={{
-            textAlign: "justify",
-            marginLeft:"1in",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
-        >
-          3.
-          <span style={{ font: '7pt "Times New Roman"' }}>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
-          </span>
-          Business skills
-        </p>
-        <p
-          className="cont"
-          style={{
-            textAlign: "justify",
-            marginLeft:"1in",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
-        >
-          4.
-          <span style={{ font: '7pt "Times New Roman"' }}>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
-          </span>
-          People skills
-        </p>
-        <p
-          className="cont"
-          style={{
-            textAlign: "justify",
-            marginLeft:"1in",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
-        >
-          5.
-          <span style={{ font: '7pt "Times New Roman"' }}>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
-          </span>
-          Analytical skills
-        </p>
-        <p
-          className="cont"
-          style={{
-            textAlign: "justify",
-            marginLeft:"1in",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
-        >
-          6.
-          <span style={{ font: '7pt "Times New Roman"' }}>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
-          </span>
-          Critical thinking skills
-        </p>
-        <p
-          className="cont"
-          style={{
-            textAlign: "justify",
-            marginLeft:"1in",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
-        >
-          7.
-          <span style={{ font: '7pt "Times New Roman"' }}>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
-          </span>
-          Awareness about latest developments in agriculture and food business
-          industry
-        </p>
+        <div className="required-skills">
+
+          <p
+            className="MsoNormal"
+            style={{ textAlign: "justify", textJustify: "inter-ideograph", marginLeft: "0" }}
+          >
+            <b>MBA in Agri-business Management: Skills Required</b>
+          </p>
+          <p
+            className="MsoNormal"
+            style={{ textAlign: "justify", textJustify: "inter-ideograph", marginLeft: "0" }}
+          >
+            Candidates looking to pursue a career in agriculture and food business
+            should possess the below-mentioned skills:
+          </p>
+          <p
+            className="cont"
+            style={{
+              textAlign: "justify",
+              // marginLeft: "1in",
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            1.
+            <span style={{ font: '7pt "Times New Roman"' }}>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+            </span>
+            Management skills
+          </p>
+          <p
+            className="cont"
+            style={{
+              textAlign: "justify",
+              // marginLeft: "1in",
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            2.
+            <span style={{ font: '7pt "Times New Roman"' }}>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+            </span>
+            Leadership skills
+          </p>
+          <p
+            className="cont"
+            style={{
+              textAlign: "justify",
+              // marginLeft: "1in",
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            3.
+            <span style={{ font: '7pt "Times New Roman"' }}>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+            </span>
+            Business skills
+          </p>
+          <p
+            className="cont"
+            style={{
+              textAlign: "justify",
+              // marginLeft: "1in",
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            4.
+            <span style={{ font: '7pt "Times New Roman"' }}>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+            </span>
+            People skills
+          </p>
+          <p
+            className="cont"
+            style={{
+              textAlign: "justify",
+              // marginLeft: "1in",
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            5.
+            <span style={{ font: '7pt "Times New Roman"' }}>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+            </span>
+            Analytical skills
+          </p>
+          <p
+            className="cont"
+            style={{
+              textAlign: "justify",
+              // marginLeft: "1in",
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            6.
+            <span style={{ font: '7pt "Times New Roman"' }}>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+            </span>
+            Critical thinking skills
+          </p>
+          <p
+            className="cont"
+            style={{
+              textAlign: "justify",
+              // marginLeft: "1in",
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            7.
+            <span style={{ font: '7pt "Times New Roman"' }}>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+            </span>
+            Awareness about latest developments in agriculture and food business
+            industry
+          </p>
+        </div>
         <p
           className="MsoNormal" id="4"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           &nbsp;
         </p>
-        <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          <b>MBA in Agri-business Management: Job Profiles Offered</b>
-        </p>
-        <p
-          className="MsoNormal"
-          style={{
-            marginBottom: "0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-          }}
-        >
-          MBA / PGDM in Agribusiness Management scope in India is comprehensive
-          and job options in various industries like market research,
-          agriculture, teaching, and many more industries with an average salary
-          package of Rs. 3 - 7 Lac per annum are available. Jobs for MBA / PGDM
-          Agribusiness freshers in the agriculture sector are:
-        </p>
-        <p
-          className="MsoNormal"
-          style={{
-            marginBottom: "0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-          }}
-        >
-          &nbsp;
-        </p>
-        <ul className="cont" style={{marginLeft:"0.5in"}}>
-        <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
-            </span>
-          </span>Agricultural Salesperson
-          <li></li>
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
-            </span>
-          </span>Field Officer
-          <li></li>
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
-            </span>
-          </span>Agricultural Economist
-          <li></li>
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
-            </span>
-          </span>Farm Manager
-          <li></li>
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
-            </span>
-          </span>Manager Trainee
-          <li></li>
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
-            </span>
-          </span>Sales and Marketing Coordinator
-          <li></li>
-        </ul>
-        <p
-          className="MsoNormal"
-          style={{
-            marginBottom: "0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-          }}
-        >
-          &nbsp;
-        </p>
+
+        <div className="required-skills">
+
+          <p
+            className="MsoNormal"
+            style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
+          >
+            <b>MBA in Agri-business Management: Job Profiles Offered</b>
+          </p>
+          <p
+            className="MsoNormal"
+            style={{
+              marginBottom: "0in",
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+            }}
+          >
+            MBA / PGDM in Agribusiness Management scope in India is comprehensive
+            and job options in various industries like market research,
+            agriculture, teaching, and many more industries with an average salary
+            package of Rs. 3 - 7 Lac per annum are available. Jobs for MBA / PGDM
+            Agribusiness freshers in the agriculture sector are:
+          </p>
+          <p
+            className="MsoNormal"
+            style={{
+              marginBottom: "0in",
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+            }}
+          >
+            &nbsp;
+          </p>
+
+
+          <p
+            className="cont"
+            style={{
+              // marginLeft: "1in",
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
+            </span>Agricultural Salesperson
+          </p>
+          <p
+            className="cont"
+            style={{
+              // marginLeft: "1in",
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
+            </span>Field Officer
+          </p>
+          <p
+            className="cont"
+            style={{
+              // marginLeft: "1in",
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
+            </span>Agricultural Economist
+          </p>
+
+          <p
+            className="cont"
+            style={{
+              // marginLeft: "1in",
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
+            </span>Farm Manager
+          </p>
+          <p
+            className="cont"
+            style={{
+              // marginLeft: "1in",
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
+            </span>Manager Trainee
+          </p>
+          <p
+            className="cont"
+            style={{
+              // marginLeft: "1in",
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
+            </span>Sales and Marketing Coordinator
+          </p>
+
+        </div>
+
         <p
           className="MsoNormal"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
@@ -1298,151 +1313,310 @@ const AgriBusiness = () => {
           </span>
         </p>
         <p
-          className="MsoNormal" id="6"
+          className="cont"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          <b>MBA in Agri-business Management - Top Recruiters </b>
-        </p>
-        <p
-          className="MsoNormal"
-          style={{
-            marginBottom: "0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-          }}
-        >
-          The major recruiters in the agriculture and food business industry in
-          India are:
-        </p>
-        <p
-          className="MsoNormal"
-          style={{
-            marginBottom: "0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-          }}
         >
           &nbsp;
         </p>
-        <ul className="cont" style={{marginLeft
-        :"0.5in",}}>
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
-            </span>
-          </span>Godrej Agrovet
-          <li></li>
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
-            </span>
-          </span>PI Industries
-          <li></li>
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
-            </span>
-          </span>Pioneering Ventures
-          <li></li>
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
-            </span>
-          </span>Ninjacart
-          <li></li>
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
-            </span>
-          </span>Reliance Industries
-          <li></li>
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
-            </span>
-          </span>INI Farms
-          <li></li>
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
-            </span>
-          </span>Cloudtail
-          <li></li>
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
-            </span>
-          </span>Reckitt Benckiser
-          <li></li>
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
-            </span>
-          </span>Olam
-          <li></li>
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
-            </span>
-          </span>Dhaanya Seeds
-          <li></li>
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
-            </span>
-          </span>Afri Venture
-          <li></li>
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
-            </span>
-          </span>JK AgriPHI Seeds
-          <li></li>
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
-            </span>
-          </span>Britannia
-          <li></li>
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
-            </span>
-          </span>Dabur
-          <li></li>
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
-            </span>
-          </span>Bharti Walmart
-          <li></li>
-        </ul>
+
+
+        <div className="required-skills">
+
+          <p
+            className="MsoNormal" id="6"
+            style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
+          >
+            <b>MBA in Agri-business Management - Top Recruiters </b>
+          </p>
+          <p
+            className="MsoNormal"
+            style={{
+              marginBottom: "0in",
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+            }}
+          >
+            The major recruiters in the agriculture and food business industry in
+            India are:
+          </p>
+          <p
+            className="MsoNormal"
+            style={{
+              marginBottom: "0in",
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+            }}
+          >
+            &nbsp;
+          </p>
+
+          <p
+            className="cont"
+            style={{
+              // marginLeft: "1in",
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
+            </span>Godrej Agrovet
+          </p>
+
+          <p
+            className="cont"
+            style={{
+              // marginLeft: "1in",
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
+            </span>PI Industries
+          </p>
+
+          <p
+            className="cont"
+            style={{
+              // marginLeft: "1in",
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
+            </span>Pioneering Ventures
+          </p>
+
+          <p
+            className="cont"
+            style={{
+              // marginLeft: "1in",
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
+            </span>Ninjacart
+          </p>
+
+          <p
+            className="cont"
+            style={{
+              // marginLeft: "1in",
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
+            </span>Reliance Industries
+          </p>
+
+          <p
+            className="cont"
+            style={{
+              // marginLeft: "1in",
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
+            </span>INI Farms
+          </p>
+
+          <p
+            className="cont"
+            style={{
+              // marginLeft: "1in",
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
+            </span>Cloudtail
+          </p>
+
+          <p
+            className="cont"
+            style={{
+              // marginLeft: "1in",
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
+            </span>Reckitt Benckiser
+          </p>
+
+          <p
+            className="cont"
+            style={{
+              // marginLeft: "1in",
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
+            </span>Olam
+          </p>
+
+          <p
+            className="cont"
+            style={{
+              // marginLeft: "1in",
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
+            </span>Dhaanya Seeds
+          </p>
+
+          <p
+            className="cont"
+            style={{
+              // marginLeft: "1in",
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
+            </span>Afri Venture
+          </p>
+
+          <p
+            className="cont"
+            style={{
+              // marginLeft: "1in",
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
+            </span>JK AgriPHI Seeds
+          </p>
+
+          <p
+            className="cont"
+            style={{
+              // marginLeft: "1in",
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
+            </span>Britannia
+          </p>
+
+          <p
+            className="cont"
+            style={{
+              // marginLeft: "1in",
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
+            </span>Dabur
+          </p>
+
+          <p
+            className="cont"
+            style={{
+              // marginLeft: "1in",
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
+            </span>Bharti Walmart
+          </p>
+
+        </div>
         <p
           className="MsoNormal"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >  
+        >
           &nbsp;
         </p>
         <p
           className="MsoNormal"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         />
-       <CustomTable />
+        <CustomTable />
         <p
           className="MsoNormal" id="7"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
@@ -1455,14 +1629,9 @@ const AgriBusiness = () => {
         >
           <b>FAQs – MBA in Agri-business Management</b>
         </p>
+
         <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="MsoNormal"
+          className="cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           Q: What is Agriculture Business Management course?
@@ -1477,13 +1646,7 @@ const AgriBusiness = () => {
           levels.
         </p>
         <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="MsoNormal"
+          className="cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           Q: What will I learn in the agriculture and food business course?
@@ -1499,13 +1662,7 @@ const AgriBusiness = () => {
           problems .
         </p>
         <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="MsoNormal"
+          className="cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           Q: Which are the top colleges for MBA in Agri-business Management in
@@ -1524,7 +1681,7 @@ const AgriBusiness = () => {
           </span>
         </p>
         <p
-          className="MsoNormal"
+          className="cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           Q: Can I pursue MBA in Agriculture and Food Business in distance or
@@ -1538,13 +1695,7 @@ const AgriBusiness = () => {
           colleges in distance and online mode.
         </p>
         <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="MsoNormal"
+          className="cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           Q: What are the job profiles available after completing MBA in
@@ -1560,13 +1711,7 @@ const AgriBusiness = () => {
           Sourcing Specialist, etc.
         </p>
         <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="MsoNormal"
+          className="cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           Q: Who are the top recruiters for the agriculture and food business
@@ -1581,13 +1726,7 @@ const AgriBusiness = () => {
           and agriculture business.
         </p>
         <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="MsoNormal"
+          className="cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           Q: Which entrance exam score is required for admission to MBA in

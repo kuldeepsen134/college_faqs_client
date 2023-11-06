@@ -19191,3 +19191,17 @@ b.table-details {
   font-weight: 600;
   text-decoration: none;
 }
+
+.custom-sidebar {
+  width: 400px;
+  padding: 12px 17px;
+  border-radius: 12px;
+  box-shadow: 0 0 4px rgba(16, 24, 64, .12);
+}
+
+.custom-sidebar img {
+  max-width: 100%;
+  min-height: 150px;
+  object-fit: fill;
+  width: 100%;
+} 
