@@ -1,7 +1,9 @@
-import { useEffect } from "react";
-import { Link } from "react-router-dom";
 import CustomTable from "../../../CustomTable";
-const Infrastructure = () => {
+import { Link } from "react-router-dom";
+import { useEffect } from "react";
+
+const PublicPolicy = () => {
+
   useEffect(() => {
     window.scrollTo(0, 0);
   }, [])
@@ -10,26 +12,25 @@ const Infrastructure = () => {
       <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
       <meta name="Generator" content="Microsoft Word 15 (filtered)" />
       <link rel="stylesheet" href="../custom.css" />
-      <div className="WordSection1">
+      <div className="WordSection1 mba-marketing-colleges">
         <p
-          className="MsoNormal"
+          className="cont"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
-          <b>MBA in Infrastructure</b>
+          <b>MBA in Public Policy Management</b>
         </p>
         <p
-          className="MsoNormal"
+          className="cont"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
-          MBA in Infrastructure Management focuses on the development and
-          management of infrastructural assets. The course helps candidates in
-          understanding the elements in infrastructure like conceptualization,
-          planning, design and development, investment, contract management,
-          policies and regulations. Besides, the programme teaches candidates to
-          deal with various issues and challenges in the improvement and
-          development of infrastructure in the country.
+          MBA in Public Policy course trains students in skills that can be employed to influence legislators and for forming policies that can serve social purposes. This course provides efficiency and leadership skills among policy-makers and administrators while exposing them to topical issues in management.
         </p>
-
+        <p
+          className="cont"
+          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
+        >
+          MBA in Public Policy students are trained to be proficient in the legislative processes and make presentations and facilitate meetings necessary to accomplish social goals. This course aims to build skills that can be used in business, quantitative analyses, economics, finance, and management- related and social problems.
+        </p>
         <b className="table-details">Table of content</b>
 
         <p
@@ -38,9 +39,35 @@ const Infrastructure = () => {
             textAlign: "justify",
             textJustify: "inter-ideograph",
           }}
-        >
-          <a className="link" href="#1">
-            MBA In Infrastructure  – Program Highlights</a>
+        ><a className="link" href="#1">
+            MBA in Public Policy Management – Program Highlights</a>
+        </p>
+        <p
+          className=" MsoListParagraphCxSpMiddle"
+          style={{
+            textAlign: "justify",
+            textJustify: "inter-ideograph",
+          }}
+        ><a className="link" href="#2">
+            MBA in Public Policy Management – Syllabus</a>
+        </p>
+        <p
+          className=" MsoListParagraphCxSpMiddle"
+          style={{
+            textAlign: "justify",
+            textJustify: "inter-ideograph",
+          }}
+        ><a className="link" href="#3">
+            MBA in Public Policy Management: Skills Required</a>
+        </p>
+        <p
+          className=" MsoListParagraphCxSpMiddle"
+          style={{
+            textAlign: "justify",
+            textJustify: "inter-ideograph",
+          }}
+        ><a className="link" href="#4">
+            MBA in Public Policy Management: Job Profiles Offered</a>
         </p>
         <p
           className=" MsoListParagraphCxSpMiddle"
@@ -49,8 +76,7 @@ const Infrastructure = () => {
             textJustify: "inter-ideograph",
           }}
         >
-          <a className="link" href="#2">
-            MBA In Infrastructure   – Syllabus</a>
+          Top Colleges in India for MBA in Public Policy Management
         </p>
         <p
           className=" MsoListParagraphCxSpMiddle"
@@ -58,64 +84,35 @@ const Infrastructure = () => {
             textAlign: "justify",
             textJustify: "inter-ideograph",
           }}
-        >
-          <a className="link" href="#3">
-            MBA In Infrastructure  : Skills Required</a>
-        </p>
-        <p
-          className=" MsoListParagraphCxSpMiddle"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-          }}
-        >
-          <a className="link" href="#4">
-            MBA In Infrastructure : Job Profiles Offered</a>
-        </p>
-        <p
-          className=" MsoListParagraphCxSpMiddle"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-          }}
-        >
-
-          Top Colleges in India for MBA In Infrastructure
-        </p>
-        <p
-          className=" MsoListParagraphCxSpMiddle"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-          }}
-        >
-          <a className="link" href="#6">
-            MBA In Infrastructure  - Top Recruiters
+        ><a className="link" href="#6">
+            MBA in Public Policy Management - Top Recruiters
           </a>
         </p>
+
         <p
           className=" MsoListParagraphCxSpLast"
           style={{
             textAlign: "justify",
             textJustify: "inter-ideograph",
           }}
-        >
-          <a className="link" href="#7">
-            FAQs – MBA In Infrastructure
+        ><a className="link" href="#7">
+            FAQs – MBA in Public Policy Management
           </a>
         </p>
 
+
+
         <p
-          className="MsoNormal" id="1"
+          className="cont" id="1"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           &nbsp;
         </p>
         <p
-          className="MsoNormal"
+          className="cont"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
-          <b>MBA in Infrastructure – Program Highlights</b>
+          <b>MBA in Marketing – Program Highlights</b>
         </p>
         <table
           className="MsoTableGrid"
@@ -136,7 +133,7 @@ const Infrastructure = () => {
                 valign="top"
               >
                 <p
-                  className="MsoNormal"
+                  className="cont"
                   style={{
                     marginBottom: "0in",
                     textAlign: "center",
@@ -160,7 +157,7 @@ const Infrastructure = () => {
                 valign="top"
               >
                 <p
-                  className="MsoNormal"
+                  className="cont"
                   style={{
                     marginBottom: "0in",
                     textAlign: "center",
@@ -186,7 +183,7 @@ const Infrastructure = () => {
                 valign="top"
               >
                 <p
-                  className="MsoNormal"
+                  className="cont"
                   style={{
                     marginBottom: "0in",
                     textAlign: "justify",
@@ -210,7 +207,7 @@ const Infrastructure = () => {
                 valign="top"
               >
                 <p
-                  className="MsoNormal"
+                  className="cont"
                   style={{
                     marginBottom: "0in",
                     textAlign: "justify",
@@ -234,7 +231,7 @@ const Infrastructure = () => {
                 valign="top"
               >
                 <p
-                  className="MsoNormal"
+                  className="cont"
                   style={{
                     marginBottom: "0in",
                     textAlign: "justify",
@@ -258,7 +255,7 @@ const Infrastructure = () => {
                 valign="top"
               >
                 <p
-                  className="MsoNormal"
+                  className="cont"
                   style={{
                     marginBottom: "0in",
                     textAlign: "justify",
@@ -283,7 +280,7 @@ const Infrastructure = () => {
                 valign="top"
               >
                 <p
-                  className="MsoNormal"
+                  className="cont"
                   style={{
                     marginBottom: "0in",
                     textAlign: "justify",
@@ -307,7 +304,7 @@ const Infrastructure = () => {
                 valign="top"
               >
                 <p
-                  className="MsoNormal"
+                  className="cont"
                   style={{
                     marginBottom: "0in",
                     textAlign: "justify",
@@ -331,7 +328,7 @@ const Infrastructure = () => {
                 valign="top"
               >
                 <p
-                  className="MsoNormal"
+                  className="cont"
                   style={{
                     marginBottom: "0in",
                     textAlign: "justify",
@@ -355,7 +352,7 @@ const Infrastructure = () => {
                 valign="top"
               >
                 <p
-                  className="MsoNormal"
+                  className="cont"
                   style={{
                     marginBottom: "0in",
                     textAlign: "justify",
@@ -363,7 +360,7 @@ const Infrastructure = () => {
                     lineHeight: "normal",
                   }}
                 >
-                  CAT, XAT, CMAT, MAT, etc
+                  CAT, XAT, CMAT, MAT, NMAT, etc
                 </p>
               </td>
             </tr>
@@ -379,7 +376,7 @@ const Infrastructure = () => {
                 valign="top"
               >
                 <p
-                  className="MsoNormal"
+                  className="cont"
                   style={{
                     marginBottom: "0in",
                     textAlign: "justify",
@@ -403,7 +400,7 @@ const Infrastructure = () => {
                 valign="top"
               >
                 <p
-                  className="MsoNormal"
+                  className="cont"
                   style={{
                     marginBottom: "0in",
                     textAlign: "justify",
@@ -411,7 +408,7 @@ const Infrastructure = () => {
                     lineHeight: "normal",
                   }}
                 >
-                  Full Time, Distance
+                  Full Time, Part Time, Distance, Online
                 </p>
               </td>
             </tr>
@@ -427,7 +424,7 @@ const Infrastructure = () => {
                 valign="top"
               >
                 <p
-                  className="MsoNormal"
+                  className="cont"
                   style={{
                     marginBottom: "0in",
                     textAlign: "justify",
@@ -451,7 +448,7 @@ const Infrastructure = () => {
                 valign="top"
               >
                 <p
-                  className="MsoNormal"
+                  className="cont"
                   style={{
                     marginBottom: "0in",
                     textAlign: "justify",
@@ -459,10 +456,10 @@ const Infrastructure = () => {
                     lineHeight: "normal",
                   }}
                 >
-                  Economics and Management Decision
+                  Innovations and leadership in public management
                 </p>
                 <p
-                  className="MsoNormal"
+                  className="cont"
                   style={{
                     marginBottom: "0in",
                     textAlign: "justify",
@@ -470,10 +467,10 @@ const Infrastructure = () => {
                     lineHeight: "normal",
                   }}
                 >
-                  IT Application in Infrastructure
+                  Economic analysis for public policy
                 </p>
                 <p
-                  className="MsoNormal"
+                  className="cont"
                   style={{
                     marginBottom: "0in",
                     textAlign: "justify",
@@ -481,10 +478,10 @@ const Infrastructure = () => {
                     lineHeight: "normal",
                   }}
                 >
-                  Accounting in Infrastructure Sector
+                  US public policy process
                 </p>
                 <p
-                  className="MsoNormal"
+                  className="cont"
                   style={{
                     marginBottom: "0in",
                     textAlign: "justify",
@@ -492,10 +489,10 @@ const Infrastructure = () => {
                     lineHeight: "normal",
                   }}
                 >
-                  Operations and Materials Management
+                  Decision making in public policy
                 </p>
                 <p
-                  className="MsoNormal"
+                  className="cont"
                   style={{
                     marginBottom: "0in",
                     textAlign: "justify",
@@ -503,7 +500,7 @@ const Infrastructure = () => {
                     lineHeight: "normal",
                   }}
                 >
-                  Infrastructure Sector Economy and Planning
+                  Ethics in public management
                 </p>
               </td>
             </tr>
@@ -519,7 +516,7 @@ const Infrastructure = () => {
                 valign="top"
               >
                 <p
-                  className="MsoNormal"
+                  className="cont"
                   style={{
                     marginBottom: "0in",
                     textAlign: "justify",
@@ -543,7 +540,7 @@ const Infrastructure = () => {
                 valign="top"
               >
                 <p
-                  className="MsoNormal"
+                  className="cont"
                   style={{
                     marginBottom: "0in",
                     textAlign: "justify",
@@ -551,7 +548,7 @@ const Infrastructure = () => {
                     lineHeight: "normal",
                   }}
                 >
-                  Rs. 1 Lac to Rs. 12 Lac
+                  Rs. 2 Lac to Rs. 20 Lac
                 </p>
               </td>
             </tr>
@@ -567,7 +564,7 @@ const Infrastructure = () => {
                 valign="top"
               >
                 <p
-                  className="MsoNormal"
+                  className="cont"
                   style={{
                     marginBottom: "0in",
                     textAlign: "justify",
@@ -591,7 +588,7 @@ const Infrastructure = () => {
                 valign="top"
               >
                 <p
-                  className="MsoNormal"
+                  className="cont"
                   style={{
                     marginBottom: "0in",
                     textAlign: "justify",
@@ -599,7 +596,7 @@ const Infrastructure = () => {
                     lineHeight: "normal",
                   }}
                 >
-                  Rs. 3 Lac to 10 Lac
+                  Rs. 5 Lac to 10 Lac
                 </p>
               </td>
             </tr>
@@ -615,7 +612,7 @@ const Infrastructure = () => {
                 valign="top"
               >
                 <p
-                  className="MsoNormal"
+                  className="cont"
                   style={{
                     marginBottom: "0in",
                     textAlign: "justify",
@@ -639,7 +636,7 @@ const Infrastructure = () => {
                 valign="top"
               >
                 <p
-                  className="MsoNormal"
+                  className="cont"
                   style={{
                     marginBottom: "0in",
                     textAlign: "justify",
@@ -647,10 +644,10 @@ const Infrastructure = () => {
                     lineHeight: "normal",
                   }}
                 >
-                  Infrastructure Management Analyst
+                  Researcher
                 </p>
                 <p
-                  className="MsoNormal"
+                  className="cont"
                   style={{
                     marginBottom: "0in",
                     textAlign: "justify",
@@ -658,10 +655,10 @@ const Infrastructure = () => {
                     lineHeight: "normal",
                   }}
                 >
-                  Infrastructure Specialist
+                  Public Policy Manager
                 </p>
                 <p
-                  className="MsoNormal"
+                  className="cont"
                   style={{
                     marginBottom: "0in",
                     textAlign: "justify",
@@ -669,10 +666,10 @@ const Infrastructure = () => {
                     lineHeight: "normal",
                   }}
                 >
-                  Infrastructure Management Leader
+                  Policy Advisor
                 </p>
                 <p
-                  className="MsoNormal"
+                  className="cont"
                   style={{
                     marginBottom: "0in",
                     textAlign: "justify",
@@ -680,41 +677,45 @@ const Infrastructure = () => {
                     lineHeight: "normal",
                   }}
                 >
-                  Application Infrastructure Architect
+                  Public Affairs Specialist
+                </p>
+                <p
+                  className="cont"
+                  style={{
+                    marginBottom: "0in",
+                    textAlign: "justify",
+                    textJustify: "inter-ideograph",
+                    lineHeight: "normal",
+                  }}
+                >
+                  Environment Consultant
                 </p>
               </td>
             </tr>
           </tbody>
         </table>
         <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="MsoNormal"
+          className="cont"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         />
         <CustomTable />
-        <p id="2"
-          className="MsoNormal"
+        <p
+          className="cont" id="2"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           &nbsp;
         </p>
         <p
-          className="MsoNormal"
+          className="cont"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
-          <b>MBA in Infrastructure – Syllabus</b>
+          <b>MBA in Public Policy Management – Syllabus</b>
         </p>
         <p
-          className="MsoNormal"
+          className="cont"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
-          Apart from the core subjects, candidates are taught the following
-          subjects in MBA / PGDM in Infrastructure specialisation programme:
+          Apart from the core subjects, candidates are taught the following subjects in MBA in Public Policy Management specialisation programme:
         </p>
         <table
           className="MsoTableGrid"
@@ -735,10 +736,15 @@ const Infrastructure = () => {
                 valign="top"
               >
                 <p
-                  className="MsoNormal"
-                  style={{ marginBottom: "0in", lineHeight: "normal" }}
+                  className="cont"
+                  style={{
+                    marginBottom: "0in",
+                    textAlign: "justify",
+                    textJustify: "inter-ideograph",
+                    lineHeight: "normal",
+                  }}
                 >
-                  Economics and Management Decision
+                  Innovations and Leadership in Public Management
                 </p>
               </td>
               <td
@@ -752,31 +758,185 @@ const Infrastructure = () => {
                 valign="top"
               >
                 <p
-                  className="MsoNormal"
-                  style={{ marginBottom: "0in", lineHeight: "normal" }}
+                  className="cont"
+                  style={{
+                    marginBottom: "0in",
+                    textAlign: "justify",
+                    textJustify: "inter-ideograph",
+                    lineHeight: "normal",
+                  }}
+                >
+                  Economic Analysis for Public Policy
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td
+                style={{
+                  width: "239.4pt",
+                  border: "solid black 1pt",
+                  borderTop: "none",
+                  padding: "0in 5.4pt 0in 5.4pt",
+                }}
+                width={319}
+                valign="top"
+              >
+                <p
+                  className="cont"
+                  style={{
+                    marginBottom: "0in",
+                    textAlign: "justify",
+                    textJustify: "inter-ideograph",
+                    lineHeight: "normal",
+                  }}
+                >
+                  Us Public Policy Process
+                </p>
+              </td>
+              <td
+                style={{
+                  width: "239.4pt",
+                  borderTop: "none",
+                  borderLeft: "none",
+                  borderBottom: "solid black 1pt",
+                  borderRight: "solid black 1pt",
+                  padding: "0in 5.4pt 0in 5.4pt",
+                }}
+                width={319}
+                valign="top"
+              >
+                <p
+                  className="cont"
+                  style={{
+                    marginBottom: "0in",
+                    textAlign: "justify",
+                    textJustify: "inter-ideograph",
+                    lineHeight: "normal",
+                  }}
+                >
+                  Development Economics
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td
+                style={{
+                  width: "239.4pt",
+                  border: "solid black 1pt",
+                  borderTop: "none",
+                  padding: "0in 5.4pt 0in 5.4pt",
+                }}
+                width={319}
+                valign="top"
+              >
+                <p
+                  className="cont"
+                  style={{
+                    marginBottom: "0in",
+                    textAlign: "justify",
+                    textJustify: "inter-ideograph",
+                    lineHeight: "normal",
+                  }}
+                >
+                  Decision Making in Public Policy
+                </p>
+              </td>
+              <td
+                style={{
+                  width: "239.4pt",
+                  borderTop: "none",
+                  borderLeft: "none",
+                  borderBottom: "solid black 1pt",
+                  borderRight: "solid black 1pt",
+                  padding: "0in 5.4pt 0in 5.4pt",
+                }}
+                width={319}
+                valign="top"
+              >
+                <p
+                  className="cont"
+                  style={{
+                    marginBottom: "0in",
+                    textAlign: "justify",
+                    textJustify: "inter-ideograph",
+                    lineHeight: "normal",
+                  }}
+                >
+                  Ethics in Public Management
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td
+                style={{
+                  width: "239.4pt",
+                  border: "solid black 1pt",
+                  borderTop: "none",
+                  padding: "0in 5.4pt 0in 5.4pt",
+                }}
+                width={319}
+                valign="top"
+              >
+                <p
+                  className="cont"
+                  style={{
+                    marginBottom: "0in",
+                    textAlign: "justify",
+                    textJustify: "inter-ideograph",
+                    lineHeight: "normal",
+                  }}
+                >
+                  Research Methodology
+                </p>
+              </td>
+              <td
+                style={{
+                  width: "239.4pt",
+                  borderTop: "none",
+                  borderLeft: "none",
+                  borderBottom: "solid black 1pt",
+                  borderRight: "solid black 1pt",
+                  padding: "0in 5.4pt 0in 5.4pt",
+                }}
+                width={319}
+                valign="top"
+              >
+                <p
+                  className="cont"
+                  style={{
+                    marginBottom: "0in",
+                    textAlign: "justify",
+                    textJustify: "inter-ideograph",
+                    lineHeight: "normal",
+                  }}
+                >
+                  Management of Program Evaluation
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td
+                style={{
+                  width: "239.4pt",
+                  border: "solid black 1pt",
+                  borderTop: "none",
+                  padding: "0in 5.4pt 0in 5.4pt",
+                }}
+                width={319}
+                valign="top"
+              >
+                <p
+                  className="cont"
+                  style={{
+                    marginBottom: "0in",
+                    textAlign: "justify",
+                    textJustify: "inter-ideograph",
+                    lineHeight: "normal",
+                  }}
                 >
                   Organizational Behaviour
                 </p>
               </td>
-            </tr>
-            <tr>
-              <td
-                style={{
-                  width: "239.4pt",
-                  border: "solid black 1pt",
-                  borderTop: "none",
-                  padding: "0in 5.4pt 0in 5.4pt",
-                }}
-                width={319}
-                valign="top"
-              >
-                <p
-                  className="MsoNormal"
-                  style={{ marginBottom: "0in", lineHeight: "normal" }}
-                >
-                  Infrastructure Development
-                </p>
-              </td>
               <td
                 style={{
                   width: "239.4pt",
@@ -790,294 +950,161 @@ const Infrastructure = () => {
                 valign="top"
               >
                 <p
-                  className="MsoNormal"
-                  style={{ marginBottom: "0in", lineHeight: "normal" }}
+                  className="cont"
+                  style={{
+                    marginBottom: "0in",
+                    textAlign: "justify",
+                    textJustify: "inter-ideograph",
+                    lineHeight: "normal",
+                  }}
                 >
-                  Infrastructure Sector Economy and Planning
-                </p>
-              </td>
-            </tr>
-            <tr>
-              <td
-                style={{
-                  width: "239.4pt",
-                  border: "solid black 1pt",
-                  borderTop: "none",
-                  padding: "0in 5.4pt 0in 5.4pt",
-                }}
-                width={319}
-                valign="top"
-              >
-                <p
-                  className="MsoNormal"
-                  style={{ marginBottom: "0in", lineHeight: "normal" }}
-                >
-                  IT Application in Infrastructure
-                </p>
-              </td>
-              <td
-                style={{
-                  width: "239.4pt",
-                  borderTop: "none",
-                  borderLeft: "none",
-                  borderBottom: "solid black 1pt",
-                  borderRight: "solid black 1pt",
-                  padding: "0in 5.4pt 0in 5.4pt",
-                }}
-                width={319}
-                valign="top"
-              >
-                <p
-                  className="MsoNormal"
-                  style={{ marginBottom: "0in", lineHeight: "normal" }}
-                >
-                  Accounting in Infrastructure Sector
-                </p>
-              </td>
-            </tr>
-            <tr>
-              <td
-                style={{
-                  width: "239.4pt",
-                  border: "solid black 1pt",
-                  borderTop: "none",
-                  padding: "0in 5.4pt 0in 5.4pt",
-                }}
-                width={319}
-                valign="top"
-              >
-                <p
-                  className="MsoNormal"
-                  style={{ marginBottom: "0in", lineHeight: "normal" }}
-                >
-                  Operations and Materials Management
-                </p>
-              </td>
-              <td
-                style={{
-                  width: "239.4pt",
-                  borderTop: "none",
-                  borderLeft: "none",
-                  borderBottom: "solid black 1pt",
-                  borderRight: "solid black 1pt",
-                  padding: "0in 5.4pt 0in 5.4pt",
-                }}
-                width={319}
-                valign="top"
-              >
-                <p
-                  className="MsoNormal"
-                  style={{ marginBottom: "0in", lineHeight: "normal" }}
-                >
-                  Research Methodology and Applied Statistics
-                </p>
-              </td>
-            </tr>
-            <tr>
-              <td
-                style={{
-                  width: "239.4pt",
-                  border: "solid black 1pt",
-                  borderTop: "none",
-                  padding: "0in 5.4pt 0in 5.4pt",
-                }}
-                width={319}
-                valign="top"
-              >
-                <p
-                  className="MsoNormal"
-                  style={{ marginBottom: "0in", lineHeight: "normal" }}
-                >
-                  Strategic Issues in Infrastructure Creation
-                </p>
-              </td>
-              <td
-                style={{
-                  width: "239.4pt",
-                  borderTop: "none",
-                  borderLeft: "none",
-                  borderBottom: "solid black 1pt",
-                  borderRight: "solid black 1pt",
-                  padding: "0in 5.4pt 0in 5.4pt",
-                }}
-                width={319}
-                valign="top"
-              >
-                <p
-                  className="MsoNormal"
-                  style={{ marginBottom: "0in", lineHeight: "normal" }}
-                >
-                  Infrastructure Management
-                </p>
-              </td>
-            </tr>
-            <tr>
-              <td
-                style={{
-                  width: "239.4pt",
-                  border: "solid black 1pt",
-                  borderTop: "none",
-                  padding: "0in 5.4pt 0in 5.4pt",
-                }}
-                width={319}
-                valign="top"
-              >
-                <p
-                  className="MsoNormal"
-                  style={{ marginBottom: "0in", lineHeight: "normal" }}
-                >
-                  Infrastructure Law and Policy
-                </p>
-              </td>
-              <td
-                style={{
-                  width: "239.4pt",
-                  borderTop: "none",
-                  borderLeft: "none",
-                  borderBottom: "solid black 1pt",
-                  borderRight: "solid black 1pt",
-                  padding: "0in 5.4pt 0in 5.4pt",
-                }}
-                width={319}
-                valign="top"
-              >
-                <p
-                  className="MsoNormal"
-                  style={{ marginBottom: "0in", lineHeight: "normal" }}
-                >
-                  FDI in Infrastructure Sector
+                  Advanced Policy Management Project
                 </p>
               </td>
             </tr>
           </tbody>
         </table>
         <p
-          className="MsoNormal" id="3"
+          className="cont" id="3"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           &nbsp;
         </p>
 
         <div className="required-skills">
-
           <p
-            className="MsoNormal"
-            style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
+            className="cont"
+            style={{ textAlign: "justify", textJustify: "inter-ideograph", marginLeft: "0" }}
           >
-            <b>MBA in Infrastructure: Skills Required</b>
+            <b>MBA in Public Policy Management: Skills Required</b>
           </p>
           <p
-            className="MsoNormal"
-            style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
+            className="cont"
+            style={{ textAlign: "justify", textJustify: "inter-ideograph", marginLeft: "0" }}
           >
-            General skill sets needed for MBA / PGDM in Infrastructure students
-            are:
+            MBA in Public Policy is a vast and very interesting choice of course for a student who wishes to get into a reputable career that allows him to use his education and knowledge for public betterment. To pursue this course, candidates must have the following skill sets:
           </p>
           <p
             className="cont"
             style={{
+              // marginLeft: "1in",
               textAlign: "justify",
               textJustify: "inter-ideograph",
               textIndent: "-0.25in",
             }}
           >
-            1.
-            <span style={{ font: '7pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
-            </span>
-            Analytical Skills
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
+            </span>Leadership qualities
           </p>
           <p
             className="cont"
             style={{
+              // marginLeft: "1in",
               textAlign: "justify",
               textJustify: "inter-ideograph",
               textIndent: "-0.25in",
             }}
           >
-            2.
-            <span style={{ font: '7pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
-            </span>
-            Knowledge of the subject
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
+            </span>Communication skills
           </p>
           <p
             className="cont"
             style={{
+              // marginLeft: "1in",
               textAlign: "justify",
               textJustify: "inter-ideograph",
               textIndent: "-0.25in",
             }}
           >
-            3.
-            <span style={{ font: '7pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
-            </span>
-            Communication Skills
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
+            </span>Analytical skills
           </p>
           <p
             className="cont"
             style={{
+              // marginLeft: "1in",
               textAlign: "justify",
               textJustify: "inter-ideograph",
               textIndent: "-0.25in",
             }}
           >
-            4.
-            <span style={{ font: '7pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
-            </span>
-            Leadership Skills
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
+            </span>Research-oriented
           </p>
           <p
             className="cont"
             style={{
+              // marginLeft: "1in",
               textAlign: "justify",
               textJustify: "inter-ideograph",
               textIndent: "-0.25in",
             }}
           >
-            5.
-            <span style={{ font: '7pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
-            </span>
-            Technical Skills
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
+            </span>Logical Thinking
+          </p>
+          <p
+            className="cont"
+            style={{
+              // marginLeft: "1in",
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
+            </span>Goal-oriented
           </p>
         </div>
-
-        <p id="4"
-          className="MsoNormal"
+        <p
+          className="cont" id="4"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           &nbsp;
         </p>
-
         <div className="required-skills">
 
           <p
-            className="MsoNormal"
-            style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
+            className="cont"
+            style={{ textAlign: "justify", textJustify: "inter-ideograph", marginLeft: "0" }}
           >
-            <b>MBA in Infrastructure: Job Profiles Offered</b>
+            <b>MBA in Public Policy Management: Job Profiles Offered</b>
           </p>
           <p
-            className="MsoNormal"
-            style={{
-              textAlign: "justify",
-              textJustify: "inter-ideograph",
-            }}
+            className="cont"
+            style={{ textAlign: "justify", textJustify: "inter-ideograph", marginLeft: "0" }}
           >
-            There are many job opportunities for candidates graduating in MBA /
-            PGDM in Infrastructure management. Candidates have a chance to make
-            their careers in this sector in functions like project management,
-            consulting, business development, investment, etc. Some of the job
-            opening are:
+            Career opportunities after MBA in Public Policy are challenging. Professionals of this field must be good at decision making and are required to think out of the box and work for the public betterment. A career in the field of Public Policymaking can be very enriching and provide a unique perspective and exciting experiences to a candidate. Some job profiles offered in this field are:
           </p>
-
-
           <p
             className="cont"
             style={{
+              // marginLeft: "1in",
               textAlign: "justify",
               textJustify: "inter-ideograph",
               textIndent: "-0.25in",
@@ -1088,10 +1115,13 @@ const Infrastructure = () => {
               <span style={{ font: '7pt "Times New Roman"' }}>
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
               </span>
-            </span>Infrastructure Project Manager</p>
+            </span>
+            Researcher
+          </p>
           <p
             className="cont"
             style={{
+              // marginLeft: "1in",
               textAlign: "justify",
               textJustify: "inter-ideograph",
               textIndent: "-0.25in",
@@ -1102,10 +1132,13 @@ const Infrastructure = () => {
               <span style={{ font: '7pt "Times New Roman"' }}>
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
               </span>
-            </span>Planning Manager</p>
+            </span>
+            Public Policy Manager
+          </p>
           <p
             className="cont"
             style={{
+              // marginLeft: "1in",
               textAlign: "justify",
               textJustify: "inter-ideograph",
               textIndent: "-0.25in",
@@ -1116,10 +1149,13 @@ const Infrastructure = () => {
               <span style={{ font: '7pt "Times New Roman"' }}>
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
               </span>
-            </span>Construction Manager</p>
+            </span>
+            Policy Advisor
+          </p>
           <p
             className="cont"
             style={{
+              // marginLeft: "1in",
               textAlign: "justify",
               textJustify: "inter-ideograph",
               textIndent: "-0.25in",
@@ -1130,10 +1166,13 @@ const Infrastructure = () => {
               <span style={{ font: '7pt "Times New Roman"' }}>
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
               </span>
-            </span>Real Estate Manager</p>
+            </span>
+            Public Affairs Specialist
+          </p>
           <p
             className="cont"
             style={{
+              // marginLeft: "1in",
               textAlign: "justify",
               textJustify: "inter-ideograph",
               textIndent: "-0.25in",
@@ -1144,196 +1183,178 @@ const Infrastructure = () => {
               <span style={{ font: '7pt "Times New Roman"' }}>
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
               </span>
-            </span>Project Consultant</p>
+            </span>
+            Environment Consultant
+          </p>
         </div>
-        <p
-          className="MsoNormal"
-          style={{
-            marginBottom: "0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-          }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          <b>Top Colleges in India for MBA in Infrastructure</b>
-        </p>
-        <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          MBA / PGDM in Entrepreneurshipis a very niche specialisation and is
-          offered by less than 100 colleges across India. Some of the top
-          colleges offering the program are Indian Institute of Management,
-          Ahmedabad, International School of Management, Bangalore, L. M Thapar
-          School of Management, Chandigarh, Loyola Institute of Business
-          Administration, Chennai, Pacific Institute of Management, Udaipur,
-          Adani Institute of Infrastructure Management, Ahmedabad{" "}
 
-          . To find out about the top colleges of India offering MBA / PGDM in
-          Infrastructure, <span style={{ color: "red" }}>            <Link to="/college-list?m=Top Private MBA Colleges">
-            click here
-          </Link></span>.
-        </p>
         <p
-          className="MsoNormal" id="6"
+          className="cont" id="5"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           &nbsp;
         </p>
         <p
-          className="MsoNormal"
+          className="cont"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
-          <b>MBA in Infrastructure - Top Recruiters </b>
+          <b>Top Colleges in India for MBA in Public Policy Management</b>
         </p>
         <p
-          className="MsoNormal"
-          style={{
-            marginBottom: "0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-          }}
+          className="cont"
+          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
-          Infrastructure companies are the biggest recruiters of MBA / PGDM in
-          Infrastructure graduates. Some of the them are Larsen &amp; Toubro
-          Infrastructure Development Projects, Reliance Infrastructure Limited,
-          GMR Infrastructure Limited, GVK Power and Infrastructure Limited, Punj
-          Lloyd Infrastructure Limited, etc.
+          MBA / PGDM in Public Policy Management a very niche specialisation and is offered by limited colleges across India. Some of the top colleges offering the program are Indian Institute of Management - Ahmedabad, Indian Institute of Management - Bangalore, Management Development Institute - Gurgaon, School of Business Studies, Sharda University - Greater Noida, TERI School of Advanced Studies, New Delhi. To find out about the top colleges of India offering MBA / PGDM in Public Policy Management,{" "}
+          <span style={{ color: "red" }}>
+            <Link to="/college-list?m=Top Private MBA Colleges">
+              click here
+            </Link>
+          </span>.
         </p>
         <p
-          className="MsoNormal"
-          style={{
-            marginBottom: "0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-          }}
+          className="cont" id="6"
+          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           &nbsp;
         </p>
+
         <p
-          className="MsoNormal"
+          className="cont"
+          style={{ textAlign: "justify", textJustify: "inter-ideograph", marginLeft: "0" }}
+        >
+          <b>MBA in Public Policy Management - Top Recruiters  </b>
+        </p>
+        <p
+          className="cont"
+          style={{ textAlign: "justify", textJustify: "inter-ideograph", marginLeft: "0" }}
+        >
+          Corporates are the biggest recruiters of MBA / PGDM in Public Policy Management graduates. Some of them Tata Group, L & T, Reliance, Aditya Birla, etc. MBA in Public Policy graduates can appear for NTA-UGC NET-JRF that will grant them eligibility for employment as Assistant Professor in Indian colleges and universities, and also open up research avenues in top universities
+        </p>
+
+        <p
+          className="cont"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         />
         <CustomTable />
         <p
-          className="MsoNormal" id="7"
+          className="cont"
+          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
+        />
+
+        <p
+          className="cont" id="7"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           &nbsp;
         </p>
         <p
-          className="MsoNormal"
+          className="cont"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
-          <b>FAQs – MBA in Infrastructure</b>
-        </p>
-        <p
-          className="cont headings"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          Q. What is the Infrastructure course?
-        </p>
-        <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          Ans. MBA / PGDM in Infrastructure Management focuses on developing
-          managerial skills related to various elements of infrastructure such
-          as conceptualization, planning, design and development, investment,
-          contract management, policies and regulations. Besides, the programme
-          teaches candidates to deal with various issues and challenges in the
-          improvement and development of infrastructure in the country.
+          <b>FAQs – MBA in Public Policy Management</b>
         </p>
 
         <p
-          className="cont headings"
+          className="headings cont"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
-          Q. What is the eligibility criterion for the Infrastructure course?
+          Q. What is the scope of MBA in Public Policy Management?
         </p>
         <p
-          className="MsoNormal"
+          className="cont"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
-          Ans. The eligibility criterion for MBA / PGDM in Infrastructure
-          Management is graduation or equivalent from a recognised university in
-          any discipline. Most of the institutes have minimum score criteria of
-          50 per cent in graduation (45 per cent for reserved category).
+          Ans: MBA in Public Policy graduates can appear for NTA-UGC NET-JRF that will grant them eligibility for employment as Assistant Professor in Indian colleges and universities, and also open up research avenues in top universities. They can also appear in different competitive examinations for government jobs, including UPSC CSE, IFS, and PSC. They can also pursue M. Phil in Public Policy and provide them with opportunities for academic research.
         </p>
 
         <p
-          className="cont headings"
+          className="headings cont"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
-          Q: Which entrance exam score is required for admission to MBA in
-          Infrastructure Management?
+          Q. Which Colleges in India offer MBA in Public Policy Management?
         </p>
         <p
-          className="MsoNormal"
+          className="cont"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
-          Ans: For admission to MBA / PGDM in Infrastructure Management course
-          offered by colleges in India, candidates can appear for CAT, GMAT,
-          XAT, CMAT and MAT.
+          Ans: Top colleges offering the program are Indian Institute of Management - Ahmedabad, Indian Institute of Management - Bangalore, Management Development Institute - Gurgaon, School of Business Studies, Sharda University - Greater Noida, TERI School of Advanced Studies, New Delhi. To find out about the top colleges of India offering MBA / PGDM in Public Policy Management.
         </p>
 
         <p
-          className="cont headings"
+          className="headings cont"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
-          Q. What is the course fee for MBA in Infrastructure program?
+          Q. What is the fee for studying MBA in Public Policy Management?
         </p>
         <p
-          className="MsoNormal"
+          className="cont"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
-          Ans. The course fees ranges from Rs. 1 Lac to Rs. 15 Lac for MBA /
-          PGDM in Infrastructure program.
+          Ans: Fee of MBA / PGDM in Public Policy Management ranges from Rs. 2 Lac to Rs. 20 Lac for entire course.
+        </p>
+        <p
+          className="headings cont"
+          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
+        >
+          Q. What kind of salary an MBA in Public Policy Management candidate can earn?
+        </p>
+        <p
+          className="cont"
+          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
+        >
+          Ans: Average salary from a top B-school can be up to Rs. 10 – 12 Lac per annum. If pursuing from a good quality B-school, then also an MBA in Public Policy Management candidate can earn an average salary of Rs. 5 – 7 Lacs.
+        </p>
+        <p
+          className="headings cont"
+          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
+        >
+          Q. What are the best jobs after MBA in Public Policy Management?
+        </p>
+        <p
+          className="cont"
+          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
+        >
+          Ans: Professionals of this field must be good at decision making and are required to think out of the box and work for the public betterment. A career in the field of Public Policymaking can be very enriching with job profiles offered like Researcher, Public Policy Manager, Policy Advisor, Public Affairs Specialist, and Environment Consultant etc.
+        </p>
+        <p
+          className="headings cont"
+          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
+        >
+          Q: Is it compulsory to appear for the entrance test for MBA in Public Policy Management?
+        </p>
+        <p
+          className="cont"
+          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
+        >
+          Ans: Yes, entrance exams such as CAT, XAT, MAT, CMAT, etc. are compulsory for admission in top B-school for MBA / PGDM in Public Policy program.
+        </p>
+        <p
+          className="headings cont"
+          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
+        >
+          Q: What is the eligibility criterion for MBA in Public Policy Management?
+        </p>
+        <p
+          className="cont"
+          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
+        >
+          Ans: The minimum eligibility criterion for MBA / PGDM in Public Policy is graduation in any stream or equivalent from a recognised university with minimum 50 per cent aggregate marks (45 per cent for reserved categories).
         </p>
 
         <p
-          className="cont headings"
+          className="headings cont"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
-          Q. Who are the top recruiters for Infrastructure?
+          Q: What is the admission process of MBA in Public Policy Management?
         </p>
         <p
-          className="MsoNormal"
+          className="cont"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
-          Ans. Some of the top recruiters for Infrastructure graduates are
-          Larsen &amp; Toubro Infrastructure, Hindustan Construction Company,
-          &nbsp;Reliance Infrastructure Limited, etc.
-        </p>
-
-        <p
-          className="cont headings"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          Q: Which are the top colleges in India for MBA in Infrastructure
-          Management?
-        </p>
-        <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          Ans: Some of the top colleges offering MBA / PGDM in Infrastructure
-          Management are Indian Institute of Management, Ahmedabad,
-          International School of Management, Bangalore, L. M Thapar School of
-          Management, Chandigarh, Loyola Institute of Business Administration,
-          Chennai, Pacific Institute of Management, Udaipur, Adani Institute of
-          Infrastructure Management, Ahmedabad{" "}
-          <span style={{ color: "red" }}>
-            , (add more colleges of our choice).
-          </span>
+          Ans: The admission process of MBA in Public Policy Management is same as other MBA specialisations, i.e. a candidate has to clear the cut-off on the basis of entrance exam followed by selection rounds of personal interview and group discussion.
         </p>
       </div>
     </div>
   );
 };
-export default Infrastructure;
+export default PublicPolicy;

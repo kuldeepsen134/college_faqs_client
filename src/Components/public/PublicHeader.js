@@ -219,7 +219,7 @@ const PublicHeader = () => {
                         )}
                       </div>
                     ))}
-                    <div className="dropdown1">
+                    <div className="dropdown1 login-profile">
                       {auth?.token ? (
                         <Link to="/profile">
                           <img

@@ -19156,6 +19156,7 @@ html.user-modal-open body {
   padding: 20px 25px;
   box-shadow: 0 0 4px rgba(16, 24, 64, .12);
   border-radius: 12px;
+  margin-left: 0;
 }
 
 .MsoListParagraphCxSpLast,
@@ -19193,10 +19194,12 @@ b.table-details {
 }
 
 .custom-sidebar {
-  width: 400px;
+  max-width: 500px;
   padding: 12px 17px;
   border-radius: 12px;
   box-shadow: 0 0 4px rgba(16, 24, 64, .12);
+  right: 50px;
+  width: 100%;
 }
 
 .custom-sidebar img {
@@ -19204,4 +19207,56 @@ b.table-details {
   min-height: 150px;
   object-fit: fill;
   width: 100%;
-} 
+}
+
+
+@media (max-width: 1500px) {
+  .custom-sidebar {
+    max-width: 460px;
+  }
+}
+
+@media (max-width: 1400px) {
+  .custom-sidebar {
+    max-width: 400px;
+  }
+}
+
+
+@media (max-width: 1280px) {
+  .custom-sidebar {
+    max-width: 360px;
+  }
+}
+
+@media (max-width: 1180px) {
+  .custom-sidebar {
+    max-width: 320px;
+  }
+}
+
+@media (max-width: 1075px) {
+  .custom-page {
+    width: 68% !important;
+  }
+}
+
+
+@media (max-width: 992px) {
+  .custom-page {
+    width: 100% !important;
+  }
+  .custom-sidebar {
+    max-width: 65%;
+    right: 0;
+    left: 0;
+    margin: 30px auto;
+    /* bottom: 0; */
+    top: auto;
+    position: relative;
+  }
+}
+
+.login-profile a:hover{
+  background-color: transparent !important;
+}
