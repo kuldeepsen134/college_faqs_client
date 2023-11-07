@@ -4,9 +4,9 @@ import CustomTable from "../../../CustomTable";
 
 const FamilyBusiness = () => {
   useEffect(() => {
-    window.scrollTo(0,0);
-  },[])
-  
+    window.scrollTo(0, 0);
+  }, [])
+
   return (
     <div>
       <div className="WordSection1">
@@ -35,13 +35,8 @@ const FamilyBusiness = () => {
           with complex structures and hierarchy, and business governance and
           introduce changes as per the latest market trends.
         </p>
-        <p
-          className="cont"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <b>Table of content</b>
+
+        <b className="table-details">Table of content</b>
 
         <p
           className=" MsoListParagraphCxSpFirst"
@@ -50,11 +45,8 @@ const FamilyBusiness = () => {
             textJustify: "inter-ideograph",
           }}
         >
-          1.
-          <span >
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          </span><a className="link" href="#1">
-          MBA In Family Business  – Program Highlights</a>
+          <a className="link" href="#1">
+            MBA In Family Business  – Program Highlights</a>
         </p>
         <p
           className=" MsoListParagraphCxSpMiddle"
@@ -63,11 +55,8 @@ const FamilyBusiness = () => {
             textJustify: "inter-ideograph",
           }}
         >
-          2.
-          <span >
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          </span><a  className="link" href="#2">
-          MBA In Family Business   – Syllabus</a>
+          <a className="link" href="#2">
+            MBA In Family Business   – Syllabus</a>
         </p>
         <p
           className=" MsoListParagraphCxSpMiddle"
@@ -76,11 +65,8 @@ const FamilyBusiness = () => {
             textJustify: "inter-ideograph",
           }}
         >
-          3.
-          <span  >
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          </span><a  className="link" href="#3">
-          MBA In Marketing  : Skills Required</a>
+          <a className="link" href="#3">
+            MBA In Marketing  : Skills Required</a>
         </p>
         <p
           className=" MsoListParagraphCxSpMiddle"
@@ -89,11 +75,8 @@ const FamilyBusiness = () => {
             textJustify: "inter-ideograph",
           }}
         >
-          4.
-          <span >
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          </span><a  className="link" href="#4">
-          MBA In Family Business : Job Profiles Offered</a>
+          <a className="link" href="#4">
+            MBA In Family Business : Job Profiles Offered</a>
         </p>
         <p
           className=" MsoListParagraphCxSpMiddle"
@@ -102,11 +85,8 @@ const FamilyBusiness = () => {
             textJustify: "inter-ideograph",
           }}
         >
-          5.
-          <span >
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          </span>
-          Top Colleges in India for MBA In Family Business 
+
+          Top Colleges in India for MBA In Family Business
         </p>
         <p
           className=" MsoListParagraphCxSpMiddle"
@@ -115,11 +95,8 @@ const FamilyBusiness = () => {
             textJustify: "inter-ideograph",
           }}
         >
-          6.
-          <span >
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          </span><a  className="link" href="#6">
-          MBA In Family Business  - Top Recruiters
+          <a className="link" href="#6">
+            MBA In Family Business  - Top Recruiters
           </a>
         </p>
         <p
@@ -129,11 +106,8 @@ const FamilyBusiness = () => {
             textJustify: "inter-ideograph",
           }}
         >
-          7.
-          <span >
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          </span><a  className="link" href="#7">
-          FAQs – MBA In Family Business
+          <a className="link" href="#7">
+            FAQs – MBA In Family Business
           </a>
         </p>
 
@@ -175,12 +149,11 @@ const FamilyBusiness = () => {
                     marginBottom: "0in",
                     textAlign: "center",
                     lineHeight: "normal",
-                    fontWeight:"bold",
                   }}
                   align="center"
                 >
                   <b>
-                    <u>Parameters</u>
+                    Parameters
                   </b>
                 </p>
               </td>
@@ -200,12 +173,11 @@ const FamilyBusiness = () => {
                     marginBottom: "0in",
                     textAlign: "center",
                     lineHeight: "normal",
-                    fontWeight:"bold",
                   }}
                   align="center"
                 >
                   <b>
-                    <u>Details</u>
+                    Details
                   </b>
                 </p>
               </td>
@@ -228,7 +200,7 @@ const FamilyBusiness = () => {
                     textAlign: "justify",
                     textJustify: "inter-ideograph",
                     lineHeight: "normal",
-                    fontWeight:"bold",
+                    fontWeight: "bold",
                   }}
                 >
                   Program Type
@@ -274,7 +246,7 @@ const FamilyBusiness = () => {
                   className="MsoNormal"
                   style={{
                     marginBottom: "0in",
-                    fontWeight:"bold",
+                    fontWeight: "bold",
                     textAlign: "justify",
                     textJustify: "inter-ideograph",
                     lineHeight: "normal",
@@ -324,7 +296,7 @@ const FamilyBusiness = () => {
                   className="MsoNormal"
                   style={{
                     marginBottom: "0in",
-                    fontWeight:"bold",
+                    fontWeight: "bold",
                     textAlign: "justify",
                     textJustify: "inter-ideograph",
                     lineHeight: "normal",
@@ -373,7 +345,7 @@ const FamilyBusiness = () => {
                   className="MsoNormal"
                   style={{
                     marginBottom: "0in",
-                    fontWeight:"bold",
+                    fontWeight: "bold",
                     textAlign: "justify",
                     textJustify: "inter-ideograph",
                     lineHeight: "normal",
@@ -425,7 +397,7 @@ const FamilyBusiness = () => {
                     textAlign: "justify",
                     textJustify: "inter-ideograph",
                     lineHeight: "normal",
-                    fontWeight:"bold",
+                    fontWeight: "bold",
                   }}
                 >
                   Program Options
@@ -472,7 +444,7 @@ const FamilyBusiness = () => {
                   style={{
                     marginBottom: "0in",
                     textAlign: "justify",
-                    fontWeight:"bold",
+                    fontWeight: "bold",
                     textJustify: "inter-ideograph",
                     lineHeight: "normal",
                   }}
@@ -567,7 +539,7 @@ const FamilyBusiness = () => {
                     textAlign: "justify",
                     textJustify: "inter-ideograph",
                     lineHeight: "normal",
-                    fontWeight:"bold",
+                    fontWeight: "bold",
                   }}
                 >
                   Fees
@@ -616,7 +588,7 @@ const FamilyBusiness = () => {
                     textAlign: "justify",
                     textJustify: "inter-ideograph",
                     lineHeight: "normal",
-                    fontWeight:"bold",
+                    fontWeight: "bold",
                   }}
                 >
                   Average Salary
@@ -665,7 +637,7 @@ const FamilyBusiness = () => {
                     textAlign: "justify",
                     textJustify: "inter-ideograph",
                     lineHeight: "normal",
-                    fontWeight:"bold",
+                    fontWeight: "bold",
                   }}
                 >
                   Job Profiles
@@ -1058,190 +1030,198 @@ const FamilyBusiness = () => {
         >
           &nbsp;
         </p>
-        <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          <b>MBA in Family Business: Skills Required</b>
-        </p>
-        <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          MBA / PGDM in Family Business Management want a student to be self
-          reliant and understand how a business can create jobs. General
-          skill-sets required for such candidates are:
-        </p>
-        <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
-        >
-          1.
-          <span style={{ font: '7pt "Times New Roman"' }}>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
-          </span>
-          Understanding Strategy and embracing opportunities
-        </p>
-        <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
-        >
-          2.
-          <span style={{ font: '7pt "Times New Roman"' }}>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
-          </span>
-          Ability to take the risk
-        </p>
-        <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
-        >
-          3.
-          <span style={{ font: '7pt "Times New Roman"' }}>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
-          </span>
-          Self-discipline and Integrity
-        </p>
-        <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
-        >
-          4.
-          <span style={{ font: '7pt "Times New Roman"' }}>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
-          </span>
-          Decisive and action-oriented
-        </p>
-        <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
-        >
-          5.
-          <span style={{ font: '7pt "Times New Roman"' }}>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
-          </span>
-          Communication
-        </p>
-        <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
-        >
-          6.
-          <span style={{ font: '7pt "Times New Roman"' }}>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
-          </span>
-          Administration
-        </p>
+
+        <div className="required-skills">
+
+          <p
+            className="MsoNormal"
+            style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
+          >
+            <b>MBA in Family Business: Skills Required</b>
+          </p>
+          <p
+            className="MsoNormal"
+            style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
+          >
+            MBA / PGDM in Family Business Management want a student to be self
+            reliant and understand how a business can create jobs. General
+            skill-sets required for such candidates are:
+          </p>
+          <p
+            className="cont"
+            style={{
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            1.
+            <span style={{ font: '7pt "Times New Roman"' }}>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+            </span>
+            Understanding Strategy and embracing opportunities
+          </p>
+          <p
+            className="cont"
+            style={{
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            2.
+            <span style={{ font: '7pt "Times New Roman"' }}>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+            </span>
+            Ability to take the risk
+          </p>
+          <p
+            className="cont"
+            style={{
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            3.
+            <span style={{ font: '7pt "Times New Roman"' }}>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+            </span>
+            Self-discipline and Integrity
+          </p>
+          <p
+            className="cont"
+            style={{
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            4.
+            <span style={{ font: '7pt "Times New Roman"' }}>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+            </span>
+            Decisive and action-oriented
+          </p>
+          <p
+            className="cont"
+            style={{
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            5.
+            <span style={{ font: '7pt "Times New Roman"' }}>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+            </span>
+            Communication
+          </p>
+          <p
+            className="cont"
+            style={{
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            6.
+            <span style={{ font: '7pt "Times New Roman"' }}>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+            </span>
+            Administration
+          </p>
+        </div>
         <p
           className="MsoNormal" id="4"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           &nbsp;
         </p>
-        <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          <b>MBA in Family Business: Job Profiles Offered</b>
-        </p>
-        <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          After completing MBA / PGDM in Family Business Management, one can
-          easily manage and take their family enterprise to a different level by
-          implying new skills. Apart from it, they can also work as a business
-          administrator and accounts manager in any MNC or organization. Some of
-          the job profiles offered are:
-        </p>
-        <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
-        >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+
+        <div className="required-skills">
+
+          <p
+            className="MsoNormal"
+            style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
+          >
+            <b>MBA in Family Business: Job Profiles Offered</b>
+          </p>
+          <p
+            className="MsoNormal"
+            style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
+          >
+            After completing MBA / PGDM in Family Business Management, one can
+            easily manage and take their family enterprise to a different level by
+            implying new skills. Apart from it, they can also work as a business
+            administrator and accounts manager in any MNC or organization. Some of
+            the job profiles offered are:
+          </p>
+          <p
+            className="cont"
+            style={{
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
             </span>
-          </span>
-          Business Administrator
-        </p>
-        <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
-        >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+            Business Administrator
+          </p>
+          <p
+            className="cont"
+            style={{
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
             </span>
-          </span>
-          Accounts Manager
-        </p>
-        <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
-        >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+            Accounts Manager
+          </p>
+          <p
+            className="cont"
+            style={{
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
             </span>
-          </span>
-          Relationship Manager
-        </p>
-        <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
-        >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+            Relationship Manager
+          </p>
+          <p
+            className="cont"
+            style={{
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
             </span>
-          </span>
-          Management Consultant
-        </p>
+            Management Consultant
+          </p>
+        </div>
         <p
           className="MsoNormal"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
@@ -1291,14 +1271,9 @@ const FamilyBusiness = () => {
         >
           <b>FAQs – MBA in Family Business</b>
         </p>
+       
         <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="MsoNormal"
+          className="cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           Q. MBA in Family Business is best suited for whom?
@@ -1312,14 +1287,9 @@ const FamilyBusiness = () => {
           how to deal with complex structures and hierarchy, and business
           governance and introduce changes as per the latest market trends.
         </p>
+       
         <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="MsoNormal"
+          className="cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           Q. Which colleges in India offer MBA in Family Business Management?
@@ -1337,14 +1307,9 @@ const FamilyBusiness = () => {
           PGDM in Family Business Management,
           <span style={{ color: "red" }}><Link to="/college-list?m=Top Private MBA Colleges">click here</Link></span>.
         </p>
+       
         <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="MsoNormal"
+          className="cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           Q. What is the eligibility to pursue MBA in Family Business?
@@ -1358,14 +1323,9 @@ const FamilyBusiness = () => {
           Business. For reserved category students, the minimum mark is 45 per
           cent.
         </p>
+       
         <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="MsoNormal"
+          className="cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           Q. What is the salary of a business administrator after MBA in Family
@@ -1378,14 +1338,9 @@ const FamilyBusiness = () => {
           Ans. The average salary of a business administrator after MBA in
           Family Business is Rs. 6 – 8 Lacs per annum.
         </p>
+       
         <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="MsoNormal"
+          className="cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           Q. What is the syllabus of MBA in Family Business Management?
@@ -1402,17 +1357,12 @@ const FamilyBusiness = () => {
           Regulations, Corporate Governance and Social Responsibility, Finance
           and tax strategies for family business, New Product Development etc.
         </p>
+       
         <p
-          className="MsoNormal"
+          className="cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
-          &nbsp;
-        </p>
-        <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          Q: Which are the top entrance exams for MBA / PGDM in Family Business?
+          Q. Which are the top entrance exams for MBA / PGDM in Family Business?
         </p>
         <p
           className="MsoNormal"
@@ -1421,14 +1371,9 @@ const FamilyBusiness = () => {
           Ans: Top entrance exams for MBA / PGDM in Family Business Management
           are CAT, XAT, SNAP, NMAT, MAT, CMAT, and GMAT.
         </p>
+       
         <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="MsoNormal"
+          className="cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           Q. What is the fee in MBA in Family Business Management?
@@ -1440,14 +1385,9 @@ const FamilyBusiness = () => {
           Ans. The fees range of MBA / PGDM in Family Business Management is Rs.
           1 lac to Rs. 50 Lac.
         </p>
+       
         <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="MsoNormal"
+          className="cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           Q. Can I pursue an MBA in Family Business online?

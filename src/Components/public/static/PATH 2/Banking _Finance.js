@@ -1151,7 +1151,7 @@ const BankingFinance = () => {
           </p>
           <p
             className="MsoNormal"
-            style={{ textAlign: "justify", textJustify: "inter-ideograph" , marginLeft: "0"}}
+            style={{ textAlign: "justify", textJustify: "inter-ideograph", marginLeft: "0" }}
           >
             MBA / PGDM in Banking &amp; Finance provides comprehensive career
             scope to a candidate with job options in various industries like
@@ -1276,118 +1276,173 @@ const BankingFinance = () => {
         >
           &nbsp;
         </p>
-        <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          <b>MBA in Banking &amp; Finance - Top Recruiters </b>
-        </p>
-        <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          After completing MBA / PGDM in Banking &amp; Finance career
-          opportunities are abundant in sectors like banking, finance,
-          accounting, taxation, asset management etc. Here is the list of some
-          of the top recruiting companies in B-schools hiring MBA / PGDM in
-          Banking &amp; Finance graduates:
-        </p>
-        <p
-          className="MsoNormal"
-          style={{
-            marginBottom: "0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-          }}
-        >
-          ICICI Bank
-        </p>
-        <p
-          className="MsoNormal"
-          style={{
-            marginBottom: "0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-          }}
-        >
-          HDFC Bank
-        </p>
-        <p
-          className="MsoNormal"
-          style={{
-            marginBottom: "0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-          }}
-        >
-          Amazon
-        </p>
-        <p
-          className="MsoNormal"
-          style={{
-            marginBottom: "0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-          }}
-        >
-          Airtel Payments Bank
-        </p>
-        <p
-          className="MsoNormal"
-          style={{
-            marginBottom: "0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-          }}
-        >
-          Goldman Sachs
-        </p>
-        <p
-          className="MsoNormal"
-          style={{
-            marginBottom: "0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-          }}
-        >
-          Morgan Stanley
-        </p>
-        <p
-          className="MsoNormal"
-          style={{
-            marginBottom: "0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-          }}
-        >
-          Boston Consulting Group
-        </p>
-        <p
-          className="MsoNormal"
-          style={{
-            marginBottom: "0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-          }}
-        >
-          McKinsey &amp; Co
-        </p>
-        <p
-          className="MsoNormal"
-          style={{
-            marginBottom: "0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-          }}
-        >
-          Barclays
-        </p>
-        <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
+
+        <div className="required-skills">
+
+          <p
+            className="MsoNormal"
+            style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
+          >
+            <b>MBA in Banking &amp; Finance - Top Recruiters </b>
+          </p>
+          <p
+            className="MsoNormal"
+            style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
+          >
+            After completing MBA / PGDM in Banking &amp; Finance career
+            opportunities are abundant in sectors like banking, finance,
+            accounting, taxation, asset management etc. Here is the list of some
+            of the top recruiting companies in B-schools hiring MBA / PGDM in
+            Banking &amp; Finance graduates:
+          </p>
+          <p
+            className="cont"
+            style={{
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
+            </span>
+            ICICI Bank
+          </p>
+          <p
+            className="cont"
+            style={{
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
+            </span>
+            HDFC Bank
+          </p>
+          <p
+            className="cont"
+            style={{
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
+            </span>
+            Amazon
+          </p>
+          <p
+            className="cont"
+            style={{
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
+            </span>
+            Airtel Payments Bank
+          </p>
+          <p
+            className="cont"
+            style={{
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
+            </span>
+            Goldman Sachs
+          </p>
+          <p
+            className="cont"
+            style={{
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
+            </span>
+            Morgan Stanley
+          </p>
+          <p
+            className="cont"
+            style={{
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
+            </span>
+            Boston Consulting Group
+          </p>
+          <p
+            className="cont"
+            style={{
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
+            </span>
+            McKinsey &amp; Co
+          </p>
+          <p
+            className="cont"
+            style={{
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
+            </span>
+            Barclays
+          </p>
+
+
+        </div>
+
         <CustomTable />
         <p
           className="MsoNormal"
@@ -1401,20 +1456,15 @@ const BankingFinance = () => {
         >
           <b>FAQs – MBA in Banking &amp; Finance</b>
         </p>
+        
         <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="MsoNormal"
+          className="headings cont"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           Q. What is the eligibility to pursue MBA in Banking &amp; Finance?
         </p>
         <p
-          className="MsoNormal"
+          className="cont"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           Ans: Anyone with a valid graduation degree in any discipline with
@@ -1422,62 +1472,47 @@ const BankingFinance = () => {
           &amp; Finance. For reserved category students, the minimum mark is 45
           per cent.
         </p>
+        
         <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="MsoNormal"
+          className="headings cont"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           Q. Can I pursue an MBA in Banking &amp; Finance course online?
         </p>
         <p
-          className="MsoNormal"
+          className="cont"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           Ans. Yes, MBA in Banking &amp; Finance course can be pursued in online
           mode. There are universities offering it in Part-time and distance
           mode also.
         </p>
+        
         <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="MsoNormal"
+          className="headings cont"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           Q. What is the average cost of admission to MBA in Banking &amp;
           Finance?
         </p>
         <p
-          className="MsoNormal"
+          className="cont"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           Ans. The average cost of pursuing MBA in Banking &amp; Finance from a
           government college is Rs. 1 Lac, whereas the fee of a private college
           is in the range of Rs. 8 to Rs. 15 Lac.
         </p>
+        
         <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="MsoNormal"
+          className="headings cont"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           Q. What is the difference between MBA in Finance and MBA in Banking
           &amp; Finance?
         </p>
         <p
-          className="MsoNormal"
+          className="cont"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           Ans. MBA in Finance focuses on the core finance and allied services
@@ -1489,14 +1524,14 @@ const BankingFinance = () => {
           technical and managerial competency.
         </p>
         <p
-          className="MsoNormal"
+          className="headings cont"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           Q. What are some of the top jobs for MBA in Banking &amp; Finance
           graduates?
         </p>
         <p
-          className="MsoNormal"
+          className="cont"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           Ans. MBA / PGDM in Banking &amp; Finance provides comprehensive career
@@ -1506,62 +1541,47 @@ const BankingFinance = () => {
           for such candidates are Bank and Finance Managers, Accountants,
           Auditors, Financial Advisor, Banking Loan Officers etc.
         </p>
+        
         <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="MsoNormal"
+          className="headings cont"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           Q. What is the average salary of a fresher after completing MBA / PGDM
           in Banking &amp; Finance?
         </p>
         <p
-          className="MsoNormal"
+          className="cont"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           Ans: The average salary of MBA / PGDM in Banking &amp; Finance fresher
           ranges between Rs. 5 Lac to Rs. 8 Lac per annum.
         </p>
+        
         <p
-          className="MsoNormal"
+          className="headings cont"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
-          &nbsp;
-        </p>
-        <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          Q: What is the admission process for MBA / PGDM in Banking &amp;
+          Q. What is the admission process for MBA / PGDM in Banking &amp;
           Finance course?
         </p>
         <p
-          className="MsoNormal"
+          className="cont"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           Ans: Admission process is mostly dependent on the B-school a student
           is targeting. In general the admission processed comprises of entrance
           test followed up by group discussion and personal interview.
         </p>
-        <p
-          className="MsoNormal"
+        
+         <p
+          className="headings cont"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
-          &nbsp;
-        </p>
-        <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          Q: Which are the top colleges for MBA in Banking &amp; Finance in
+          Q. Which are the top colleges for MBA in Banking &amp; Finance in
           India?
         </p>
         <p
-          className="MsoNormal"
+          className="cont"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           Ans: Top colleges offering this program are IIM’s, International
@@ -1574,20 +1594,15 @@ const BankingFinance = () => {
             click here
           </Link></span>.
         </p>
-        <p
-          className="MsoNormal"
+        
+         <p
+          className="headings cont"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
-          &nbsp;
+          Q. What do you study in MBA / PGDM in Banking &amp; Finance?
         </p>
         <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          Q: What do you study in MBA / PGDM in Banking &amp; Finance?
-        </p>
-        <p
-          className="MsoNormal"
+          className="cont"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           Ans: Apart from the core subjects students in Banking &amp; Finance, a
@@ -1599,23 +1614,17 @@ const BankingFinance = () => {
           Futures &amp; Derivatives, Investment Analysis and Portfolio
           Management, and Corporate Restructuring.
         </p>
-        <p
-          className="MsoNormal"
+        
+         <p
+          className="headings cont"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
-          &nbsp;
-        </p>
-        <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          Q: Which are the top companies hiring MBA / PGDM in Banking &amp;
+          Q. Which are the top companies hiring MBA / PGDM in Banking &amp;
           Finance graduates?
         </p>
         <p
           className="MsoNormal"
           style={{
-            marginBottom: "0in",
             textAlign: "justify",
             textJustify: "inter-ideograph",
           }}
@@ -1625,21 +1634,16 @@ const BankingFinance = () => {
           HDFC Bank, Amazon, Airtel Payments Bank, Goldman Sachs, Morgan
           Stanley, Boston Consulting Group, McKinsey &amp; Co, Barclays etc.
         </p>
-        <p
-          className="MsoNormal"
+        
+         <p
+          className="headings cont"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
-          &nbsp;
-        </p>
-        <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          Q: Which are the top entrance exams for MBA / PGDM in Banking &amp;
+          Q. Which are the top entrance exams for MBA / PGDM in Banking &amp;
           Finance?
         </p>
         <p
-          className="MsoNormal"
+          className="cont"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           Ans: The top entrance exams for MBA in Banking &amp; Finance are CAT,
