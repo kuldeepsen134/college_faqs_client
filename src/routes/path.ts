@@ -58,7 +58,11 @@ import TourismHospitality from "../Components/public/static/PATH 2/Tourism Hospi
 import PublicPolicy from "../Components/public/static/PATH 2/Public Policy";
 import BankingInsurance from "../Components/public/static/PATH 2/Banking_Insurance";
 import ServiceManagement from "../Components/public/static/PATH 2/Service Management";
+import BBA from "../Components/public/static/PATH 2/BBA";
+import BCA from "../Components/public/static/PATH 2/BCA";
+import MCA from "../Components/public/static/PATH 2/MCA";
 import AskQuestion from "../Pages/AskQuestion";
+import AboutUs from "../Pages/about-us";
 import CompairCollage from "../Pages/compairCollage";
 
 export const MainRoutes = [
@@ -122,6 +126,14 @@ export const MainRoutes = [
     children: null,
     guard: null,
   },
+  {
+    path: "/about-us",
+    component: AboutUs,
+    children: null,
+    guard: null,
+  },
+
+  
 ]
 export const DefaultRoutes = [
 
@@ -487,7 +499,24 @@ export const DefaultRoutes = [
     guard: null,
   },
 
-
+  {
+    path: "/BBA",
+    component: BBA,
+    children: null,
+    guard: null,
+  },
+  {
+    path: "/BCA",
+    component: BCA,
+    children: null,
+    guard: null,
+  },
+  {
+    path: "/MCA",
+    component: MCA,
+    children: null,
+    guard: null,
+  },
 
 
 

@@ -2,10 +2,10 @@ import { useEffect } from "react";
 import { Link } from "react-router-dom";
 import CustomTable from "../../../CustomTable";
 const Retail = () => {
-  
+
   useEffect(() => {
-    window.scrollTo(0,0);
-  },[])
+    window.scrollTo(0, 0);
+  }, [])
   return (
     <div>
       <div className="WordSection1">
@@ -36,17 +36,8 @@ const Retail = () => {
           are taught to find challenges, think creatively, and develop new ways
           to develop and improve the retail process.
         </p>
-        <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        />
-         <p
-          className="cont"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <b>Table of content</b>
+
+        <b className="table-details">Table of content</b>
 
         <p
           className=" MsoListParagraphCxSpFirst"
@@ -55,11 +46,8 @@ const Retail = () => {
             textJustify: "inter-ideograph",
           }}
         >
-          1.
-          <span >
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          </span><a className="link" href="#1">
-          MBA In Retail Management  – Program Highlights</a>
+          <a className="link" href="#1">
+            MBA In Retail Management  – Program Highlights</a>
         </p>
         <p
           className=" MsoListParagraphCxSpMiddle"
@@ -68,11 +56,8 @@ const Retail = () => {
             textJustify: "inter-ideograph",
           }}
         >
-          2.
-          <span >
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          </span><a  className="link" href="#2">
-          MBA In Retail Management   – Syllabus</a>
+          <a className="link" href="#2">
+            MBA In Retail Management   – Syllabus</a>
         </p>
         <p
           className=" MsoListParagraphCxSpMiddle"
@@ -81,11 +66,8 @@ const Retail = () => {
             textJustify: "inter-ideograph",
           }}
         >
-          3.
-          <span  >
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          </span><a  className="link" href="#3">
-          MBA In Retail Management  : Skills Required</a>
+          <a className="link" href="#3">
+            MBA In Retail Management  : Skills Required</a>
         </p>
         <p
           className=" MsoListParagraphCxSpMiddle"
@@ -94,11 +76,8 @@ const Retail = () => {
             textJustify: "inter-ideograph",
           }}
         >
-          4.
-          <span >
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          </span><a  className="link" href="#4">
-          MBA In Retail Management : Job Profiles Offered</a>
+          <a className="link" href="#4">
+            MBA In Retail Management : Job Profiles Offered</a>
         </p>
         <p
           className=" MsoListParagraphCxSpMiddle"
@@ -107,11 +86,8 @@ const Retail = () => {
             textJustify: "inter-ideograph",
           }}
         >
-          5.
-          <span >
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          </span>
-          Top Colleges in India for MBA In Retail Management 
+
+          Top Colleges in India for MBA In Retail Management
         </p>
         <p
           className=" MsoListParagraphCxSpMiddle"
@@ -120,11 +96,8 @@ const Retail = () => {
             textJustify: "inter-ideograph",
           }}
         >
-          6.
-          <span >
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          </span><a  className="link" href="#6">
-          MBA In Retail Management  - Top Recruiters
+          <a className="link" href="#6">
+            MBA In Retail Management  - Top Recruiters
           </a>
         </p>
         <p
@@ -134,11 +107,8 @@ const Retail = () => {
             textJustify: "inter-ideograph",
           }}
         >
-          7.
-          <span >
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          </span><a  className="link" href="#7">
-          FAQs – MBA In Retail Management
+          <a className="link" href="#7">
+            FAQs – MBA In Retail Management
           </a>
         </p>
 
@@ -182,7 +152,7 @@ const Retail = () => {
                   align="center"
                 >
                   <b>
-                    <u>Parameters</u>
+                    Parameters
                   </b>
                 </p>
               </td>
@@ -206,7 +176,7 @@ const Retail = () => {
                   align="center"
                 >
                   <b>
-                    <u>Details</u>
+                    Details
                   </b>
                 </p>
               </td>
@@ -744,13 +714,7 @@ const Retail = () => {
           className="MsoNormal"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         />
-<CustomTable />
-        <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
+        <CustomTable />
         <p
           className="MsoNormal"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
@@ -1071,301 +1035,302 @@ const Retail = () => {
         >
           &nbsp;
         </p>
+
+        <div className="required-skills">
+
+          <p
+            className="MsoNormal" id="3"
+            style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
+          >
+            <b>MBA in Retail Management: Skills Required</b>
+          </p>
+          <p
+            className="MsoNormal"
+            style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
+          >
+            To excel as an MBA / PGDM in Retail Management graduate, candidates
+            must have the following skill sets:
+          </p>
+          <p
+            className="cont"
+            style={{
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            1.
+            <span style={{ font: '7pt "Times New Roman"' }}>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+            </span>
+            Interest in the retail sector
+          </p>
+          <p
+            className="cont"
+            style={{
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            2.
+            <span style={{ font: '7pt "Times New Roman"' }}>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+            </span>
+            Critical Thinking
+          </p>
+          <p
+            className="cont"
+            style={{
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            3.
+            <span style={{ font: '7pt "Times New Roman"' }}>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+            </span>
+            Communication skills
+          </p>
+          <p
+            className="cont"
+            style={{
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            4.
+            <span style={{ font: '7pt "Times New Roman"' }}>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+            </span>
+            Leadership Qualities
+          </p>
+          <p
+            className="cont"
+            style={{
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            5.
+            <span style={{ font: '7pt "Times New Roman"' }}>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+            </span>
+            Quick decision-making skills
+          </p>
+          <p
+            className="cont"
+            style={{
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            6.
+            <span style={{ font: '7pt "Times New Roman"' }}>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+            </span>
+            Problem-solving skills
+          </p>
+          <p
+            className="cont"
+            style={{
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            7.
+            <span style={{ font: '7pt "Times New Roman"' }}>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+            </span>
+            Resourceful
+          </p>
+          <p
+            className="cont"
+            style={{
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            8.
+            <span style={{ font: '7pt "Times New Roman"' }}>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+            </span>
+            Strategic Thinking
+          </p>
+        </div>
         <p
           className="MsoNormal"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           &nbsp;
         </p>
-        <p
-          className="MsoNormal" id="3"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          <b>MBA in Retail Management: Skills Required</b>
-        </p>
-        <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          To excel as an MBA / PGDM in Retail Management graduate, candidates
-          must have the following skill sets:
-        </p>
-        <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
-        >
-          1.
-          <span style={{ font: '7pt "Times New Roman"' }}>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
-          </span>
-          Interest in the retail sector
-        </p>
-        <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
-        >
-          2.
-          <span style={{ font: '7pt "Times New Roman"' }}>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
-          </span>
-          Critical Thinking
-        </p>
-        <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
-        >
-          3.
-          <span style={{ font: '7pt "Times New Roman"' }}>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
-          </span>
-          Communication skills
-        </p>
-        <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
-        >
-          4.
-          <span style={{ font: '7pt "Times New Roman"' }}>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
-          </span>
-          Leadership Qualities
-        </p>
-        <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
-        >
-          5.
-          <span style={{ font: '7pt "Times New Roman"' }}>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
-          </span>
-          Quick decision-making skills
-        </p>
-        <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
-        >
-          6.
-          <span style={{ font: '7pt "Times New Roman"' }}>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
-          </span>
-          Problem-solving skills
-        </p>
-        <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
-        >
-          7.
-          <span style={{ font: '7pt "Times New Roman"' }}>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
-          </span>
-          Resourceful
-        </p>
-        <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
-        >
-          8.
-          <span style={{ font: '7pt "Times New Roman"' }}>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
-          </span>
-          Strategic Thinking
-        </p>
-        <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="MsoNormal" id="4"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          <b>MBA in Retail Management: Job Profiles Offered</b>
-        </p>
-        <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          The retail sector offers massive scope to candidates looking for
-          lucrative employment opportunities. Given below are some of the job
-          profiles students can opt from after studying the retail course:
-        </p>
-        <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
-        >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+        <div className="required-skills">
+
+          <p
+            className="MsoNormal" id="4"
+            style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
+          >
+            <b>MBA in Retail Management: Job Profiles Offered</b>
+          </p>
+          <p
+            className="MsoNormal"
+            style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
+          >
+            The retail sector offers massive scope to candidates looking for
+            lucrative employment opportunities. Given below are some of the job
+            profiles students can opt from after studying the retail course:
+          </p>
+          <p
+            className="cont"
+            style={{
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
             </span>
-          </span>
-          Retail Manager
-        </p>
-        <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
-        >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+            Retail Manager
+          </p>
+          <p
+            className="cont"
+            style={{
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
             </span>
-          </span>
-          Store Manager
-        </p>
-        <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
-        >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+            Store Manager
+          </p>
+          <p
+            className="cont"
+            style={{
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
             </span>
-          </span>
-          Merchandiser
-        </p>
-        <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
-        >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+            Merchandiser
+          </p>
+          <p
+            className="cont"
+            style={{
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
             </span>
-          </span>
-          Retail Analyst
-        </p>
-        <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
-        >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+            Retail Analyst
+          </p>
+          <p
+            className="cont"
+            style={{
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
             </span>
-          </span>
-          Supply Chain Manager
-        </p>
-        <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
-        >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+            Supply Chain Manager
+          </p>
+          <p
+            className="cont"
+            style={{
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
             </span>
-          </span>
-          Marketing Executive
-        </p>
-        <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
-        >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+            Marketing Executive
+          </p>
+          <p
+            className="cont"
+            style={{
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
             </span>
-          </span>
-          Warehouse Manager
-        </p>
-        <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
-        >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+            Warehouse Manager
+          </p>
+          <p
+            className="cont"
+            style={{
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
             </span>
-          </span>
-          Department Manager
-        </p>
-        <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
-        >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+            Department Manager
+          </p>
+          <p
+            className="cont"
+            style={{
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
             </span>
-          </span>
-          Merchandise Manager
-        </p>
+            Merchandise Manager
+          </p>
+        </div>
         <p
           className="MsoNormal"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
@@ -1392,8 +1357,8 @@ const Retail = () => {
           Management Studies, Pune, ITM Business School, Navi Mumbai. &nbsp;To
           find out about the top colleges of India offering MBA / PGDM in Retail
           Management, <span style={{ color: "red" }}>            <Link to="/college-list?m=Top Private MBA Colleges">
-              click here
-            </Link></span>.
+            click here
+          </Link></span>.
         </p>
         <p
           className="MsoNormal"
@@ -1401,70 +1366,158 @@ const Retail = () => {
         >
           &nbsp;
         </p>
+
+        <div className="required-skills">
+          <p
+            className="MsoNormal" id="6"
+            style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
+          >
+            <b>MBA in Retail Management - Top Recruiters </b>
+          </p>
+          <p
+            className="MsoNormal"
+            style={{
+              marginBottom: "0in",
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+            }}
+          >
+            MBA / PGDM in Retail Management offers scope starting career as a
+            sales executives and achieve a higher position as a mall manager or
+            store manager after the experience is gained. Some of the top
+            companies who hire MBA in Retail Management students are:
+          </p>
+
+          <p
+            className="cont"
+            style={{ textIndent: "-0.25in" }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
+            </span>DMart</p>
+          <p
+            className="cont"
+            style={{ textIndent: "-0.25in" }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
+            </span>Adidas Group</p>
+          <p
+            className="cont"
+            style={{ textIndent: "-0.25in" }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
+            </span>V-mart retail limited</p>
+          <p
+            className="cont"
+            style={{ textIndent: "-0.25in" }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
+            </span>Shoppers stop</p>
+          <p
+            className="cont"
+            style={{ textIndent: "-0.25in" }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
+            </span>Aditya Birla Fashion &amp; Retail Ltd</p>
+          <p
+            className="cont"
+            style={{ textIndent: "-0.25in" }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
+            </span>Reliance retail limited</p>
+          <p
+            className="cont"
+            style={{ textIndent: "-0.25in" }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
+            </span>Walmart</p>
+          <p
+            className="cont"
+            style={{ textIndent: "-0.25in" }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
+            </span>Carrefour</p>
+          <p
+            className="cont"
+            style={{ textIndent: "-0.25in" }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
+            </span>IKEA</p>
+          <p
+            className="cont"
+            style={{ textIndent: "-0.25in" }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
+            </span>Spar International</p>
+          <p
+            className="cont"
+            style={{ textIndent: "-0.25in" }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
+            </span>ITC</p>
+          <p
+            className="cont"
+            style={{ textIndent: "-0.25in" }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
+            </span>TESCO</p>
+        </div>
+        
         <p
-          className="MsoNormal" id="6"
+          className="MsoNormal"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          <b>MBA in Retail Management - Top Recruiters </b>
-        </p>
-        <p
-          className="MsoNormal"
-          style={{
-            marginBottom: "0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-          }}
-        >
-          MBA / PGDM in Retail Management offers scope starting career as a
-          sales executives and achieve a higher position as a mall manager or
-          store manager after the experience is gained. Some of the top
-          companies who hire MBA in Retail Management students are:
-        </p>
-        <p
-          className="MsoNormal"
-          style={{
-            marginBottom: "0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-          }}
         >
           &nbsp;
         </p>
-        <ul className="cont" style={{marginLeft:"0.5in"}}>
-          <li>DMart</li>
-          <li>Adidas Group</li>
-          <li>V-mart retail limited</li>
-          <li>Shoppers stop</li>
-          <li>Aditya Birla Fashion &amp; Retail Ltd</li>
-          <li>Reliance retail limited</li>
-          <li>Walmart</li>
-          <li>Carrefour</li>
-          <li>IKEA</li>
-          <li>Spar International</li>
-          <li>ITC</li>
-          <li>TESCO</li>
-        </ul>
-        <p
-          className="MsoNormal"
-          style={{
-            marginBottom: "0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-          }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        />
-<CustomTable />
+        
+        <CustomTable />
         <p
           className="MsoNormal" id="7"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
@@ -1477,14 +1530,9 @@ const Retail = () => {
         >
           <b>FAQs – MBA in Retail Management</b>
         </p>
+        
         <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="MsoNormal"
+          className="cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           Q: What is Retail Management?
@@ -1497,14 +1545,9 @@ const Retail = () => {
           store and its day to day activities surrounding selling the goods and
           services to consumers.
         </p>
+        
         <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="MsoNormal"
+          className="cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           Q: What is the scope of Retail Management?
@@ -1520,7 +1563,7 @@ const Retail = () => {
           Ration Stores, Shipping companies, Banks etc.
         </p>
         <p
-          className="MsoNormal"
+          className="cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           Q: What is the eligibility criterion for MBA in Retail Management?
@@ -1534,14 +1577,9 @@ const Retail = () => {
           minimum of 50% aggregate marks For reserved category students the
           minimum marks required is 45%.
         </p>
+        
         <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="MsoNormal"
+          className="cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           Q. What is the average fee to pursue MBA in Retail Management?
@@ -1554,14 +1592,9 @@ const Retail = () => {
           college being a government college or a private college. Fees range
           for MBA in Retail Management program is Rs. 50,000 to Rs. 15 Lac.
         </p>
+        
         <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="MsoNormal"
+          className="cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           Q: What is the average salary offered after a Retail programme?
@@ -1574,14 +1607,9 @@ const Retail = () => {
           between the range of Rs. 4 Lac to Rs. 5 Lac. As they climb up the
           professional ladder in their career, their compensation may increase.
         </p>
+        
         <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="MsoNormal"
+          className="cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           Q: Which are the top entrance exams in India to pursue MBA in Retail
@@ -1594,14 +1622,9 @@ const Retail = () => {
           Ans: Entrance exams such as CAT, XAT, MAT, CMAT, etc. are accepted by
           some of the top Retail B-schools in India.
         </p>
+        
         <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="MsoNormal"
+          className="cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           Q: What are the career options after pursuing MBA in Retail
@@ -1615,14 +1638,9 @@ const Retail = () => {
           Merchandising Manager, Retail Manager, Store Manager, Analyst, Supply
           Chain Manager, etc.
         </p>
+        
         <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="MsoNormal"
+          className="cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           Q: Which are the top recruiters which hire Retail graduates?
@@ -1630,7 +1648,6 @@ const Retail = () => {
         <p
           className="MsoNormal"
           style={{
-            marginBottom: "0in",
             textAlign: "justify",
             textJustify: "inter-ideograph",
           }}
@@ -1640,14 +1657,9 @@ const Retail = () => {
           &amp; Retail Ltd, Reliance Retail Ltd., Walmart, Carrefour, IKEA, Spar
           International, ITC, TESCO, etc.
         </p>
+        
         <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="MsoNormal"
+          className="cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           Q: What is the average salary of a Retail Manager in India?
@@ -1659,14 +1671,9 @@ const Retail = () => {
           A: The average salary of a Retail Manager in India is approximately
           Rs. 6 Lacs.
         </p>
+        
         <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="MsoNormal"
+          className="cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           Q. Is it necessary to have an UG degree in the retail management
@@ -1680,12 +1687,7 @@ const Retail = () => {
           Management. A graduate from any discipline with required marks can
           pursue it.
         </p>
-        <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
+        
       </div>
     </div>
   );

@@ -271,7 +271,7 @@ export const menuJs = [
         path: "/mba-in-banking-finance",
       },
 
-    
+
 
       {
         name: "More Specialization",
@@ -706,11 +706,15 @@ export const menuJs = [
         children: [
           {
             name: "BBA",
-            path: "/cms?page=all-mba-exams",
+            path: "/bba",
           },
           {
-            name: "MBA",
-            path: "/cms",
+            name: "BCA",
+            path: "/bca",
+          },
+          {
+            name: "MCA",
+            path: "/mca",
           },
         ],
       },

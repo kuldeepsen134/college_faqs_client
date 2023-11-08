@@ -19182,6 +19182,7 @@ b.table-details {
 .MsoTableGrid,
 #display-data {
   box-shadow: none;
+  width: 90%;
 }
 
 .required-skills .cont {

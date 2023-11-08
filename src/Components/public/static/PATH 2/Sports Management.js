@@ -4,8 +4,8 @@ import CustomTable from "../../../CustomTable";
 
 const SportsManagement = () => {
   useEffect(() => {
-    window.scrollTo(0,0);
-  },[])
+    window.scrollTo(0, 0);
+  }, [])
   return (
     <div>
       <div className="WordSection1">
@@ -36,19 +36,8 @@ const SportsManagement = () => {
           Sports Management is immense. One can make a career as a sports
           consultant, teacher, venue operator, etc.
         </p>
-        <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="cont"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <b>Table of content</b>
+
+        <b className="table-details">Table of content</b>
 
         <p
           className=" MsoListParagraphCxSpFirst"
@@ -57,11 +46,8 @@ const SportsManagement = () => {
             textJustify: "inter-ideograph",
           }}
         >
-          1.
-          <span >
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          </span><a className="link" href="#1">
-          MBA In Sports Management  – Program Highlights</a>
+          <a className="link" href="#1">
+            MBA In Sports Management  – Program Highlights</a>
         </p>
         <p
           className=" MsoListParagraphCxSpMiddle"
@@ -70,11 +56,8 @@ const SportsManagement = () => {
             textJustify: "inter-ideograph",
           }}
         >
-          2.
-          <span >
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          </span><a  className="link" href="#2">
-          MBA In Sports Management   – Syllabus</a>
+          <a className="link" href="#2">
+            MBA In Sports Management   – Syllabus</a>
         </p>
         <p
           className=" MsoListParagraphCxSpMiddle"
@@ -83,11 +66,8 @@ const SportsManagement = () => {
             textJustify: "inter-ideograph",
           }}
         >
-          3.
-          <span  >
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          </span><a  className="link" href="#3">
-          MBA In Sports Management  : Skills Required</a>
+          <a className="link" href="#3">
+            MBA In Sports Management  : Skills Required</a>
         </p>
         <p
           className=" MsoListParagraphCxSpMiddle"
@@ -96,11 +76,8 @@ const SportsManagement = () => {
             textJustify: "inter-ideograph",
           }}
         >
-          4.
-          <span >
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          </span><a  className="link" href="#4">
-          MBA In Sports Management : Job Profiles Offered</a>
+          <a className="link" href="#4">
+            MBA In Sports Management : Job Profiles Offered</a>
         </p>
         <p
           className=" MsoListParagraphCxSpMiddle"
@@ -109,11 +86,8 @@ const SportsManagement = () => {
             textJustify: "inter-ideograph",
           }}
         >
-          5.
-          <span >
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          </span>
-          Top Colleges in India for MBA In Sports Management 
+
+          Top Colleges in India for MBA In Sports Management
         </p>
         <p
           className=" MsoListParagraphCxSpMiddle"
@@ -122,11 +96,8 @@ const SportsManagement = () => {
             textJustify: "inter-ideograph",
           }}
         >
-          6.
-          <span >
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          </span><a  className="link" href="#6">
-          MBA In Sports Management  - Top Recruiters
+          <a className="link" href="#6">
+            MBA In Sports Management  - Top Recruiters
           </a>
         </p>
         <p
@@ -136,11 +107,8 @@ const SportsManagement = () => {
             textJustify: "inter-ideograph",
           }}
         >
-          7.
-          <span >
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          </span><a  className="link" href="#7">
-          FAQs – MBA In Sports Management
+          <a className="link" href="#7">
+            FAQs – MBA In Sports Management
           </a>
         </p>
 
@@ -184,7 +152,7 @@ const SportsManagement = () => {
                   }}
                 >
                   <b>
-                    <u>Parameters</u>
+                    Parameters
                   </b>
                 </p>
               </td>
@@ -208,7 +176,7 @@ const SportsManagement = () => {
                   }}
                 >
                   <b>
-                    <u>Details</u>
+                    Details
                   </b>
                 </p>
               </td>
@@ -746,17 +714,9 @@ const SportsManagement = () => {
         >
           &nbsp;
         </p>
-        <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        ></p>
-<CustomTable />
-        <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
+
+        <CustomTable />
+
         <p
           className="MsoNormal" id="2"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
@@ -1072,369 +1032,334 @@ const SportsManagement = () => {
             </tr>
           </tbody>
         </table>
+
         <p
           className="MsoNormal"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           &nbsp;
         </p>
-        <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p id="3"
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          <b>MBA in Sports Management: Skills Required</b>
-        </p>
-        <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          Candidates looking to build a career in Sports Management should
-          possess the following skill:{" "}
-        </p>
-        <p
-          className="MsoListParagraphCxSpFirst"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-.25in",
-          }}
-        >
-          1.
-          <span style={{ font: '7.0pt "Times New Roman"' }}>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          </span>
-          Physical fitness &amp; High Energy
-        </p>
-        <p
-          className="MsoListParagraphCxSpMiddle"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-.25in",
-          }}
-        >
-          2.
-          <span style={{ font: '7.0pt "Times New Roman"' }}>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          </span>
-          Passion for sports
-        </p>
-        <p
-          className="MsoListParagraphCxSpMiddle"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-.25in",
-          }}
-        >
-          3.
-          <span style={{ font: '7.0pt "Times New Roman"' }}>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          </span>
-          Resilient and Optimistic
-        </p>
-        <p
-          className="MsoListParagraphCxSpMiddle"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-.25in",
-          }}
-        >
-          4.
-          <span style={{ font: '7.0pt "Times New Roman"' }}>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          </span>
-          Keen Observation Skills
-        </p>
-        <p
-          className="MsoListParagraphCxSpMiddle"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-.25in",
-          }}
-        >
-          5.
-          <span style={{ font: '7.0pt "Times New Roman"' }}>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          </span>
-          Patience &amp; Determination
-        </p>
-        <p
-          className="MsoListParagraphCxSpMiddle"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-.25in",
-          }}
-        >
-          6.
-          <span style={{ font: '7.0pt "Times New Roman"' }}>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          </span>
-          Enthusiasm
-        </p>
-        <p
-          className="MsoListParagraphCxSpMiddle"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-.25in",
-          }}
-        >
-          7.
-          <span style={{ font: '7.0pt "Times New Roman"' }}>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          </span>
-          Management skills
-        </p>
-        <p
-          className="MsoListParagraphCxSpMiddle"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-.25in",
-          }}
-        >
-          8.
-          <span style={{ font: '7.0pt "Times New Roman"' }}>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          </span>
-          Presentation skills
-        </p>
-        <p
-          className="MsoListParagraphCxSpMiddle"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-.25in",
-          }}
-        >
-          9.
-          <span style={{ font: '7.0pt "Times New Roman"' }}>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          </span>
-          Collaborative attitude
-        </p>
-        <p
-          className="MsoListParagraphCxSpLast"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-.25in",
-          }}
-        >
-          10.
-          <span style={{ font: '7.0pt "Times New Roman"' }}>&nbsp;&nbsp; </span>
-          Time Management Skills
-        </p>
+
+        <div className="required-skills">
+
+          <p id="3"
+            className="MsoNormal"
+            style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
+          >
+            <b>MBA in Sports Management: Skills Required</b>
+          </p>
+          <p
+            className="MsoNormal"
+            style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
+          >
+            Candidates looking to build a career in Sports Management should
+            possess the following skill:{" "}
+          </p>
+          <p
+            className="cont"
+            style={{
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-.25in",
+            }}
+          >
+            1.
+            <span style={{ font: '7.0pt "Times New Roman"' }}>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            </span>
+            Physical fitness &amp; High Energy
+          </p>
+          <p
+            className="cont"
+            style={{
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-.25in",
+            }}
+          >
+            2.
+            <span style={{ font: '7.0pt "Times New Roman"' }}>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            </span>
+            Passion for sports
+          </p>
+          <p
+            className="cont"
+            style={{
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-.25in",
+            }}
+          >
+            3.
+            <span style={{ font: '7.0pt "Times New Roman"' }}>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            </span>
+            Resilient and Optimistic
+          </p>
+          <p
+            className="cont"
+            style={{
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-.25in",
+            }}
+          >
+            4.
+            <span style={{ font: '7.0pt "Times New Roman"' }}>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            </span>
+            Keen Observation Skills
+          </p>
+          <p
+            className="cont"
+            style={{
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-.25in",
+            }}
+          >
+            5.
+            <span style={{ font: '7.0pt "Times New Roman"' }}>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            </span>
+            Patience &amp; Determination
+          </p>
+          <p
+            className="cont"
+            style={{
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-.25in",
+            }}
+          >
+            6.
+            <span style={{ font: '7.0pt "Times New Roman"' }}>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            </span>
+            Enthusiasm
+          </p>
+          <p
+            className="cont"
+            style={{
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-.25in",
+            }}
+          >
+            7.
+            <span style={{ font: '7.0pt "Times New Roman"' }}>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            </span>
+            Management skills
+          </p>
+          <p
+            className="cont"
+            style={{
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-.25in",
+            }}
+          >
+            8.
+            <span style={{ font: '7.0pt "Times New Roman"' }}>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            </span>
+            Presentation skills
+          </p>
+          <p
+            className="cont"
+            style={{
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-.25in",
+            }}
+          >
+            9.
+            <span style={{ font: '7.0pt "Times New Roman"' }}>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            </span>
+            Collaborative attitude
+          </p>
+          <p
+            className="cont"
+            style={{
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-.25in",
+            }}
+          >
+            10.
+            <span style={{ font: '7.0pt "Times New Roman"' }}>&nbsp;&nbsp; </span>
+            Time Management Skills
+          </p>
+        </div>
         <p
           className="MsoNormal"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           <b>&nbsp;</b>
         </p>
-        <p
-          className="MsoNormal" id="4"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          <b>MBA in Sports Management: Job Profiles Offered</b>
-        </p>
-        <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          Career after the MBA in Sports Management course can be fulfilling and
-          rewarding. Some of the popular career options for candidates are:
-        </p>
-        <p
-          className="MsoListParagraphCxSpFirst"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-.25in",
-          }}
-        >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7.0pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <div className="required-skills">
+          <p
+            className="MsoNormal" id="4"
+            style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
+          >
+            <b>MBA in Sports Management: Job Profiles Offered</b>
+          </p>
+          <p
+            className="MsoNormal"
+            style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
+          >
+            Career after the MBA in Sports Management course can be fulfilling and
+            rewarding. Some of the popular career options for candidates are:
+          </p>
+          <p
+            className="cont"
+            style={{
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7.0pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              </span>
             </span>
-          </span>
-          Sports Manager
-        </p>
-        <p
-          className="MsoListParagraphCxSpMiddle"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-.25in",
-          }}
-        >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7.0pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            Sports Manager
+          </p>
+          <p
+            className="cont"
+            style={{
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7.0pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              </span>
             </span>
-          </span>
-          Sports Agent
-        </p>
-        <p
-          className="MsoListParagraphCxSpMiddle"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-.25in",
-          }}
-        >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7.0pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            Sports Agent
+          </p>
+          <p
+            className="cont"
+            style={{
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7.0pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              </span>
             </span>
-          </span>
-          Sports Analyst
-        </p>
-        <p
-          className="MsoListParagraphCxSpMiddle"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-.25in",
-          }}
-        >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7.0pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            Sports Analyst
+          </p>
+          <p
+            className="cont"
+            style={{
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7.0pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              </span>
             </span>
-          </span>
-          Sponsorship Manager
-        </p>
-        <p
-          className="MsoListParagraphCxSpMiddle"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-.25in",
-          }}
-        >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7.0pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            Sponsorship Manager
+          </p>
+          <p
+            className="cont"
+            style={{
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7.0pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              </span>
             </span>
-          </span>
-          Business Operations Manager
-        </p>
-        <p
-          className="MsoListParagraphCxSpMiddle"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-.25in",
-          }}
-        >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7.0pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            Business Operations Manager
+          </p>
+          <p
+            className="cont"
+            style={{
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7.0pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              </span>
             </span>
-          </span>
-          Advertising and PR Manager
-        </p>
-        <p
-          className="MsoListParagraphCxSpMiddle"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-.25in",
-          }}
-        >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7.0pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            Advertising and PR Manager
+          </p>
+          <p
+            className="cont"
+            style={{
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7.0pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              </span>
             </span>
-          </span>
-          Event Manager
-        </p>
-        <p
-          className="MsoListParagraphCxSpMiddle"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-.25in",
-          }}
-        >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7.0pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            Event Manager
+          </p>
+          <p
+            className="cont"
+            style={{
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7.0pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              </span>
             </span>
-          </span>
-          Sports Celebrity Manager
-        </p>
-        <p
-          className="MsoListParagraphCxSpLast"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-.25in",
-          }}
-        >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7.0pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            Sports Celebrity Manager
+          </p>
+          <p
+            className="cont"
+            style={{
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7.0pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              </span>
             </span>
-          </span>
-          Merchandising
-          Manager&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
-        </p>
-        <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="MsoNormal"
-          style={{
-            marginBottom: "0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-          }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="MsoNormal"
-          style={{
-            marginBottom: "0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-          }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="MsoNormal"
-          style={{
-            marginBottom: "0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-          }}
-        >
-          &nbsp;
-        </p>
+            Merchandising
+            Manager
+          </p>
+        </div>
         <p
           className="MsoNormal"
           style={{
@@ -1462,8 +1387,8 @@ const SportsManagement = () => {
           Pune, ISBR Business School, Bangalore, Jain University, Bangalore. To
           find out about the top colleges of India offering MBA / PGDM in Sports
           Management, <span style={{ color: "red" }}><Link to="/college-list?m=Top Private MBA Colleges">
-              click here
-            </Link></span>.
+            click here
+          </Link></span>.
         </p>
         <p
           className="MsoNormal"
@@ -1471,65 +1396,158 @@ const SportsManagement = () => {
         >
           &nbsp;
         </p>
-        <p
-          className="MsoNormal" id="6"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          <b>MBA in Sports Management - Top Recruiters </b>
-        </p>
-        <p
-          className="MsoNormal"
-          style={{
-            marginBottom: "0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-          }}
-        >
-          MBA in Sports Management has plenty of job opportunities. The sectors
-          include sports organizations, sports academies, sports events, sports
-          leagues, sports product industries, and much more. Some of the major
-          recruiting companies are:
-        </p>
-        <p
-          className="MsoNormal"
-          style={{
-            marginBottom: "0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-          }}
-        >
-          &nbsp;
-        </p>
-        <ul className="cont" style={{marginLeft:"0.5in"}}>
-          <li> IMG</li>
-          <li> GroupM</li>
-          <li> Rhiti Sports</li>
-          <li> Edusports</li>
-          <li> Star Sports</li>
-          <li> ESPN Cricinfo</li>
-          <li> JSW Sports</li>
-          <li> ITW Consulting Pvt Ltd</li>
-          <li> IOS Sports and Entertainment</li>
-          <li> Decathlon Sports India Pvt Ltd</li>
-          <li> Sportz Liv</li>
-        </ul>
-        <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
+
+        <div className="required-skills">
+          <p
+            className="MsoNormal" id="6"
+            style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
+          >
+            <b>MBA in Sports Management - Top Recruiters </b>
+          </p>
+          <p
+            className="MsoNormal"
+            style={{
+              marginBottom: "0in",
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+            }}
+          >
+            MBA in Sports Management has plenty of job opportunities. The sectors
+            include sports organizations, sports academies, sports events, sports
+            leagues, sports product industries, and much more. Some of the major
+            recruiting companies are:
+          </p>
+          <p
+            className="MsoNormal"
+            style={{
+              marginBottom: "0in",
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+            }}
+          >
+            &nbsp;
+          </p>
+
+          <p
+            className="cont"
+            style={{ textIndent: "-0.25in" }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
+            </span> IMG</p>
+          <p
+            className="cont"
+            style={{ textIndent: "-0.25in" }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
+            </span> GroupM</p>
+          <p
+            className="cont"
+            style={{ textIndent: "-0.25in" }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
+            </span> Rhiti Sports</p>
+          <p
+            className="cont"
+            style={{ textIndent: "-0.25in" }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
+            </span> Edusports</p>
+          <p
+            className="cont"
+            style={{ textIndent: "-0.25in" }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
+            </span> Star Sports</p>
+          <p
+            className="cont"
+            style={{ textIndent: "-0.25in" }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
+            </span> ESPN Cricinfo</p>
+          <p
+            className="cont"
+            style={{ textIndent: "-0.25in" }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
+            </span> JSW Sports</p>
+          <p
+            className="cont"
+            style={{ textIndent: "-0.25in" }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
+            </span> ITW Consulting Pvt Ltd</p>
+          <p
+            className="cont"
+            style={{ textIndent: "-0.25in" }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
+            </span> IOS Sports and Entertainment</p>
+          <p
+            className="cont"
+            style={{ textIndent: "-0.25in" }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
+            </span> Decathlon Sports India Pvt Ltd</p>
+          <p
+            className="cont"
+            style={{ textIndent: "-0.25in" }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
+            </span> Sportz Liv</p>
+
+        </div>
         <p
           className="MsoNormal"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           <b>&nbsp;</b>
         </p>
-        <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        ></p>
-<CustomTable />
+       
+        <CustomTable />
         <p
           className="MsoNormal" id="7"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
@@ -1542,14 +1560,9 @@ const SportsManagement = () => {
         >
           <b>FAQs – MBA in Oil &amp; Gas Management</b>
         </p>
+        
         <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="MsoNormal"
+          className="cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           Q. What is the scope of MBA in Sports Management?
@@ -1565,20 +1578,10 @@ const SportsManagement = () => {
           opportunities and is not restricted to a single geographical area, as
           sports are prevalent in all areas.{" "}
         </p>
+        
+        
         <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="MsoNormal"
+          className="cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           Q. What is the MBA Sports Management duration in India?
@@ -1591,14 +1594,9 @@ const SportsManagement = () => {
           graduation program. However, students can also pursue it in Online
           mode with a maximum duration of 3 years.
         </p>
+        
         <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="MsoNormal"
+          className="cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           Q. What is the eligibility criterion for MBA in Sports Management?
@@ -1611,14 +1609,9 @@ const SportsManagement = () => {
           valid degree in any discipline with minimum 50 per cent marks. For
           reserved category students the marks is 45 per cent.
         </p>
+        
         <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="MsoNormal"
+          className="cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           Q. How is admission to MBA Sports Management offered?
@@ -1632,14 +1625,9 @@ const SportsManagement = () => {
           appear for Group Discussion and Personal Interview for selection round
           by the college.
         </p>
+        
         <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="MsoNormal"
+          className="cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           Q. What is the average fee required to study MBA Sports Management ?
@@ -1652,14 +1640,9 @@ const SportsManagement = () => {
           college being a government college or a private college. Fees range
           for MBA in Sports Management program is Rs. 50,000 to Rs. 15 Lac.
         </p>
+        
         <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="MsoNormal"
+          className="cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           Q. What are the top MBA in Sports Management recruiting areas and
@@ -1680,14 +1663,9 @@ const SportsManagement = () => {
           Sports, ESPN Cricinfo, JSW Sports, ITW Consulting Pvt Ltd, IOS Sports
           and Entertainment, Decathlon Sports India Pvt Ltd, etc.
         </p>
+        
         <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="MsoNormal"
+          className="cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           Q. What is the salary of a fresher from MBA in Sports Management?
@@ -1700,14 +1678,9 @@ const SportsManagement = () => {
           on an average Rs 4 – 5 Lac per annum. This can increase multifold with
           work experience and industry knowledge.
         </p>
+        
         <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="MsoNormal"
+          className="cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           Q. Which are the best colleges to pursue MBA in Sports Management?
