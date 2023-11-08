@@ -2,7 +2,7 @@ import { useEffect } from "react";
 import { Link } from "react-router-dom";
 import CustomTable from "../../../CustomTable";
 
-const SportsManagemen = () => {
+const SportsManagement = () => {
   useEffect(() => {
     window.scrollTo(0,0);
   },[])
@@ -1725,4 +1725,4 @@ const SportsManagemen = () => {
     </div>
   );
 };
-export default SportsManagemen;
+export default SportsManagement;

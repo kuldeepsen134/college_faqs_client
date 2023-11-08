@@ -50,10 +50,14 @@ import Infrastructure from "../Components/public/static/PATH 2/infrastructure";
 import OilGas from "../Components/public/static/PATH 2/Oil _Gas";
 import PharmaceuticalManagement from "../Components/public/static/PATH 2/Pharmaceutical Management";
 import Retail from "../Components/public/static/PATH 2/Retail";
-import SportsManagemen from "../Components/public/static/PATH 2/Sports Management";
+import SportsManagement from "../Components/public/static/PATH 2/Sports Management";
 import SupplyChai_LogisticsManagement from "../Components/public/static/PATH 2/Supply Chain _ Logistics Management";
 import Telecom from "../Components/public/static/PATH 2/Telecom";
 import Textile from "../Components/public/static/PATH 2/Textile";
+import TourismHospitality from "../Components/public/static/PATH 2/Tourism Hospitality";
+import PublicPolicy from "../Components/public/static/PATH 2/Public Policy";
+import BankingInsurance from "../Components/public/static/PATH 2/Banking_Insurance";
+import ServiceManagement from "../Components/public/static/PATH 2/Service Management";
 import AskQuestion from "../Pages/AskQuestion";
 import CompairCollage from "../Pages/compairCollage";
 
@@ -187,6 +191,8 @@ export const DefaultRoutes = [
     children: null,
     guard: null,
   },
+
+
   {
     path: "/mba-in-hr",
     component: HRManagament,
@@ -363,7 +369,7 @@ export const DefaultRoutes = [
   },
   {
     path: "/sports-management",
-    component: SportsManagemen,
+    component: SportsManagement,
     children: null,
     guard: null,
   },
@@ -397,8 +403,30 @@ export const DefaultRoutes = [
     children: null,
     guard: null,
   },
-
-
+  {
+    path: "/tourism-and-hospitality",
+    component: TourismHospitality,
+    children: null,
+    guard: null,
+  },
+  {
+    path: "/public-policy",
+    component: PublicPolicy,
+    children: null,
+    guard: null,
+  },
+  {
+    path: "/banking-insurance",
+    component: BankingInsurance,
+    children: null,
+    guard: null,
+  },
+  {
+    path: "/service-management",
+    component: ServiceManagement,
+    children: null,
+    guard: null,
+  },
   {
     path: "/cat-2022",
     component: CAT2022,

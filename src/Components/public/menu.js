@@ -270,6 +270,9 @@ export const menuJs = [
         name: "MBA in Banking Finance",
         path: "/mba-in-banking-finance",
       },
+
+    
+
       {
         name: "More Specialization",
         children: [
@@ -361,6 +364,22 @@ export const menuJs = [
           {
             name: "Textile",
             path: "/textile",
+          },
+          {
+            name: "Tourism & Hospitality",
+            path: "/tourism-and-hospitality",
+          },
+          {
+            name: "Public Policy",
+            path: "/public-policy",
+          },
+          {
+            name: "Banking Insurance",
+            path: "/banking-insurance",
+          },
+          {
+            name: "Service Management",
+            path: "/service-management",
           },
         ],
       },

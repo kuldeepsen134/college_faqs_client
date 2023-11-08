@@ -1,48 +1,36 @@
-import { useEffect } from "react";
-import { Link } from "react-router-dom";
 import CustomTable from "../../../CustomTable";
-const OilGas = () => {
+import { Link } from "react-router-dom";
+import { useEffect } from "react";
+
+const TourismHospitality = () => {
+
   useEffect(() => {
     window.scrollTo(0, 0);
   }, [])
   return (
     <div>
-      <div className="WordSection1">
+      <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
+      <meta name="Generator" content="Microsoft Word 15 (filtered)" />
+      <link rel="stylesheet" href="../custom.css" />
+      <div className="WordSection1 mba-marketing-colleges">
         <p
-          className="MsoNormal"
+          className="cont"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
-          <b>MBA in Oil &amp; Gas Management</b>
+          <b>MBA in Tourism & Hospitality Management </b>
         </p>
         <p
-          className="MsoNormal"
+          className="cont"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
-          Fuel is a global product and fuel based industry is constantly on rise
-          as demands for naturally occurring fuels and their extraction is
-          global and also needed on a regular basis. &nbsp;MBA in Oil &amp; Gas
-          Management is a niche and budding field that offers vast expanse of
-          experience and work opportunities. Oil and gas management requires an
-          individual to study the basic premise of formation, extraction, usage
-          and conservation of this utmost valuable source of energy and also it
-          can be utilized to its maximum potential.
+          Hospitality and travel is a multi-billion dollar industry offering ample job opportunities to aspirants after graduation across various service sectors. MBA in Tourism and Hospitality Management deals with training students in the field of eco-tourism, accommodation management, finance and revenue management etc. This course opens up a variety of job opportunities in the tourism and hospitality sector.
         </p>
         <p
-          className="MsoNormal"
+          className="cont"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
-          MBA in Oil &amp; Gas Management is a very eccentric career discipline,
-          in a hoard of plenty of MBA specialisations being pursued; this
-          discipline is a blend of fresh curriculum and an industry which is
-          very stable and secure. Oil &amp; Gas management course help a
-          candidate with the technicalities and management skills required to
-          run the oil and gas Industries. These courses are relevant for
-          engineers, managers, supervisors, employee representatives and newly
-          appointed health and safety advisors all over the world who are in
-          charge of safeguarding general health and safety within the oil and
-          gas industry as part of their daily work.
+          MBA in Tourism & Hospitality Management is the oversight of all activities related to the tourism and hospitality industries. It includes subjects like accounting and finance management, tourism concepts and impact, transport and travel management, business English and many more. Jobs for this course are plenty in both the government and the private sector due to the importance of the tourism sector in the national economy.
         </p>
-
         <b className="table-details">Table of content</b>
 
         <p
@@ -51,9 +39,35 @@ const OilGas = () => {
             textAlign: "justify",
             textJustify: "inter-ideograph",
           }}
-        >
-          <a className="link" href="#1">
-            MBA In Oil &amp; Gas Management  – Program Highlights</a>
+        ><a className="link" href="#1">
+            MBA in Tourism & Hospitality Management – Program Highlights</a>
+        </p>
+        <p
+          className=" MsoListParagraphCxSpMiddle"
+          style={{
+            textAlign: "justify",
+            textJustify: "inter-ideograph",
+          }}
+        ><a className="link" href="#2">
+            MBA in Tourism & Hospitality Management – Syllabus</a>
+        </p>
+        <p
+          className=" MsoListParagraphCxSpMiddle"
+          style={{
+            textAlign: "justify",
+            textJustify: "inter-ideograph",
+          }}
+        ><a className="link" href="#3">
+            MBA in Tourism & Hospitality Management: Skills Required</a>
+        </p>
+        <p
+          className=" MsoListParagraphCxSpMiddle"
+          style={{
+            textAlign: "justify",
+            textJustify: "inter-ideograph",
+          }}
+        ><a className="link" href="#4">
+            MBA in Tourism & Hospitality Management: Job Profiles Offered</a>
         </p>
         <p
           className=" MsoListParagraphCxSpMiddle"
@@ -62,8 +76,7 @@ const OilGas = () => {
             textJustify: "inter-ideograph",
           }}
         >
-          <a className="link" href="#2">
-            MBA In Oil &amp; Gas Management   – Syllabus</a>
+          Top Colleges in India for MBA in Tourism & Hospitality Management
         </p>
         <p
           className=" MsoListParagraphCxSpMiddle"
@@ -71,64 +84,35 @@ const OilGas = () => {
             textAlign: "justify",
             textJustify: "inter-ideograph",
           }}
-        >
-          <a className="link" href="#3">
-            MBA In Oil &amp; Gas Management  : Skills Required</a>
-        </p>
-        <p
-          className=" MsoListParagraphCxSpMiddle"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-          }}
-        >
-          <a className="link" href="#4">
-            MBA In Oil &amp; Gas Management : Job Profiles Offered</a>
-        </p>
-        <p
-          className=" MsoListParagraphCxSpMiddle"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-          }}
-        >
-
-          Top Colleges in India for MBA In Oil &amp; Gas Management
-        </p>
-        <p
-          className=" MsoListParagraphCxSpMiddle"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-          }}
-        >
-          <a className="link" href="#6">
-            MBA In Oil &amp; Gas Management  - Top Recruiters
+        ><a className="link" href="#6">
+            MBA in Tourism & Hospitality Management- Top Recruiters
           </a>
         </p>
+
         <p
           className=" MsoListParagraphCxSpLast"
           style={{
             textAlign: "justify",
             textJustify: "inter-ideograph",
           }}
-        >
-          <a className="link" href="#7">
-            FAQs – MBA In Oil &amp; Gas Management
+        ><a className="link" href="#7">
+            FAQs – MBA in Tourism & Hospitality Management
           </a>
         </p>
 
-        <p id="1"
-          className="MsoNormal"
+
+
+        <p
+          className="cont" id="1"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           &nbsp;
         </p>
         <p
-          className="MsoNormal"
+          className="cont"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
-          <b>MBA in Oil &amp; Gas Management – Program Highlights</b>
+          <b>MBA in Tourism & Hospitality Management – Program Highlights</b>
         </p>
         <table
           className="MsoTableGrid"
@@ -149,7 +133,7 @@ const OilGas = () => {
                 valign="top"
               >
                 <p
-                  className="MsoNormal"
+                  className="cont"
                   style={{
                     marginBottom: "0in",
                     textAlign: "center",
@@ -173,7 +157,7 @@ const OilGas = () => {
                 valign="top"
               >
                 <p
-                  className="MsoNormal"
+                  className="cont"
                   style={{
                     marginBottom: "0in",
                     textAlign: "center",
@@ -199,12 +183,12 @@ const OilGas = () => {
                 valign="top"
               >
                 <p
-                  className="MsoNormal"
+                  className="cont"
                   style={{
                     marginBottom: "0in",
                     textAlign: "justify",
                     textJustify: "inter-ideograph",
-                    lineHeight: "normal",
+                    lineHeight: "normal", fontWeight: "bold",
                   }}
                 >
                   Program Type
@@ -223,7 +207,7 @@ const OilGas = () => {
                 valign="top"
               >
                 <p
-                  className="MsoNormal"
+                  className="cont"
                   style={{
                     marginBottom: "0in",
                     textAlign: "justify",
@@ -247,12 +231,12 @@ const OilGas = () => {
                 valign="top"
               >
                 <p
-                  className="MsoNormal"
+                  className="cont"
                   style={{
                     marginBottom: "0in",
                     textAlign: "justify",
                     textJustify: "inter-ideograph",
-                    lineHeight: "normal",
+                    lineHeight: "normal", fontWeight: "bold",
                   }}
                 >
                   Eligibility
@@ -271,7 +255,7 @@ const OilGas = () => {
                 valign="top"
               >
                 <p
-                  className="MsoNormal"
+                  className="cont"
                   style={{
                     marginBottom: "0in",
                     textAlign: "justify",
@@ -279,8 +263,8 @@ const OilGas = () => {
                     lineHeight: "normal",
                   }}
                 >
-                  Graduation Degree with minimum 50 per cent (45 per cent for
-                  reserved category) in B Tech, BE, B Sc (PCM)
+                  Graduation Degree with minimum 50 per cent in any discipline
+                  (45 per cent for reserved category)
                 </p>
               </td>
             </tr>
@@ -296,12 +280,12 @@ const OilGas = () => {
                 valign="top"
               >
                 <p
-                  className="MsoNormal"
+                  className="cont"
                   style={{
                     marginBottom: "0in",
                     textAlign: "justify",
                     textJustify: "inter-ideograph",
-                    lineHeight: "normal",
+                    lineHeight: "normal", fontWeight: "bold",
                   }}
                 >
                   Admission Process
@@ -320,7 +304,7 @@ const OilGas = () => {
                 valign="top"
               >
                 <p
-                  className="MsoNormal"
+                  className="cont"
                   style={{
                     marginBottom: "0in",
                     textAlign: "justify",
@@ -344,12 +328,12 @@ const OilGas = () => {
                 valign="top"
               >
                 <p
-                  className="MsoNormal"
+                  className="cont"
                   style={{
                     marginBottom: "0in",
                     textAlign: "justify",
                     textJustify: "inter-ideograph",
-                    lineHeight: "normal",
+                    lineHeight: "normal", fontWeight: "bold",
                   }}
                 >
                   Entrance Exams
@@ -368,7 +352,7 @@ const OilGas = () => {
                 valign="top"
               >
                 <p
-                  className="MsoNormal"
+                  className="cont"
                   style={{
                     marginBottom: "0in",
                     textAlign: "justify",
@@ -376,7 +360,7 @@ const OilGas = () => {
                     lineHeight: "normal",
                   }}
                 >
-                  CAT, XAT, CMAT, MAT,&nbsp; etc
+                  CAT, XAT, CMAT, MAT, NMAT, etc
                 </p>
               </td>
             </tr>
@@ -392,15 +376,15 @@ const OilGas = () => {
                 valign="top"
               >
                 <p
-                  className="MsoNormal"
+                  className="cont"
                   style={{
                     marginBottom: "0in",
                     textAlign: "justify",
                     textJustify: "inter-ideograph",
-                    lineHeight: "normal",
+                    lineHeight: "normal", fontWeight: "bold",
                   }}
                 >
-                  Program Option
+                  Program Options
                 </p>
               </td>
               <td
@@ -416,7 +400,7 @@ const OilGas = () => {
                 valign="top"
               >
                 <p
-                  className="MsoNormal"
+                  className="cont"
                   style={{
                     marginBottom: "0in",
                     textAlign: "justify",
@@ -424,7 +408,7 @@ const OilGas = () => {
                     lineHeight: "normal",
                   }}
                 >
-                  Full Time
+                  Full Time, Part Time, Distance, Online
                 </p>
               </td>
             </tr>
@@ -440,12 +424,12 @@ const OilGas = () => {
                 valign="top"
               >
                 <p
-                  className="MsoNormal"
+                  className="cont"
                   style={{
                     marginBottom: "0in",
                     textAlign: "justify",
                     textJustify: "inter-ideograph",
-                    lineHeight: "normal",
+                    lineHeight: "normal", fontWeight: "bold",
                   }}
                 >
                   Syllabus
@@ -464,34 +448,70 @@ const OilGas = () => {
                 valign="top"
               >
                 <p
-                  className="MsoNormal"
-                  style={{ marginBottom: "0in", lineHeight: "normal" }}
+                  className="cont"
+                  style={{
+                    marginBottom: "0in",
+                    textAlign: "justify",
+                    textJustify: "inter-ideograph",
+                    lineHeight: "normal",
+                  }}
                 >
-                  Fundamentals Of Oil &amp; Gas Business
+                  Travel Patterns and Tourist Behaviour
                 </p>
                 <p
-                  className="MsoNormal"
-                  style={{ marginBottom: "0in", lineHeight: "normal" }}
+                  className="cont"
+                  style={{
+                    marginBottom: "0in",
+                    textAlign: "justify",
+                    textJustify: "inter-ideograph",
+                    lineHeight: "normal",
+                  }}
                 >
-                  Fundamentals Of Petroleum Exploration
+                  Eco-Tourism
                 </p>
                 <p
-                  className="MsoNormal"
-                  style={{ marginBottom: "0in", lineHeight: "normal" }}
+                  className="cont"
+                  style={{
+                    marginBottom: "0in",
+                    textAlign: "justify",
+                    textJustify: "inter-ideograph",
+                    lineHeight: "normal",
+                  }}
                 >
-                  Petroleum Industry Accounting
+                  Hotel & Catering Management
                 </p>
                 <p
-                  className="MsoNormal"
-                  style={{ marginBottom: "0in", lineHeight: "normal" }}
+                  className="cont"
+                  style={{
+                    marginBottom: "0in",
+                    textAlign: "justify",
+                    textJustify: "inter-ideograph",
+                    lineHeight: "normal",
+                  }}
                 >
-                  Fundamental of Refining
+                  Marketing of Hospitality Service
                 </p>
                 <p
-                  className="MsoNormal"
-                  style={{ marginBottom: "0in", lineHeight: "normal" }}
+                  className="cont"
+                  style={{
+                    marginBottom: "0in",
+                    textAlign: "justify",
+                    textJustify: "inter-ideograph",
+                    lineHeight: "normal",
+                  }}
                 >
-                  Petroleum Financial Management
+                  Medical Tourism
+                </p>
+                <p
+                  className="cont"
+                  style={{
+                    marginBottom: "0in",
+                    textAlign: "justify",
+                    textJustify: "inter-ideograph",
+                    lineHeight: "normal",
+                  }}
+                >
+                  Leisure Management
                 </p>
               </td>
             </tr>
@@ -507,12 +527,12 @@ const OilGas = () => {
                 valign="top"
               >
                 <p
-                  className="MsoNormal"
+                  className="cont"
                   style={{
                     marginBottom: "0in",
                     textAlign: "justify",
                     textJustify: "inter-ideograph",
-                    lineHeight: "normal",
+                    lineHeight: "normal", fontWeight: "bold",
                   }}
                 >
                   Fees
@@ -531,7 +551,7 @@ const OilGas = () => {
                 valign="top"
               >
                 <p
-                  className="MsoNormal"
+                  className="cont"
                   style={{
                     marginBottom: "0in",
                     textAlign: "justify",
@@ -539,7 +559,7 @@ const OilGas = () => {
                     lineHeight: "normal",
                   }}
                 >
-                  Rs. 1 Lac to Rs. 15 Lac
+                  Rs. 1 Lac to Rs. 8 Lac
                 </p>
               </td>
             </tr>
@@ -555,12 +575,12 @@ const OilGas = () => {
                 valign="top"
               >
                 <p
-                  className="MsoNormal"
+                  className="cont"
                   style={{
                     marginBottom: "0in",
                     textAlign: "justify",
                     textJustify: "inter-ideograph",
-                    lineHeight: "normal",
+                    lineHeight: "normal", fontWeight: "bold",
                   }}
                 >
                   Average Salary
@@ -579,7 +599,7 @@ const OilGas = () => {
                 valign="top"
               >
                 <p
-                  className="MsoNormal"
+                  className="cont"
                   style={{
                     marginBottom: "0in",
                     textAlign: "justify",
@@ -587,7 +607,7 @@ const OilGas = () => {
                     lineHeight: "normal",
                   }}
                 >
-                  Rs. 5 Lac to 7 Lac per annum
+                  Rs. 3 Lac to 6 Lac
                 </p>
               </td>
             </tr>
@@ -603,12 +623,12 @@ const OilGas = () => {
                 valign="top"
               >
                 <p
-                  className="MsoNormal"
+                  className="cont"
                   style={{
                     marginBottom: "0in",
                     textAlign: "justify",
                     textJustify: "inter-ideograph",
-                    lineHeight: "normal",
+                    lineHeight: "normal", fontWeight: "bold",
                   }}
                 >
                   Job Profiles
@@ -627,7 +647,7 @@ const OilGas = () => {
                 valign="top"
               >
                 <p
-                  className="MsoNormal"
+                  className="cont"
                   style={{
                     marginBottom: "0in",
                     textAlign: "justify",
@@ -635,10 +655,10 @@ const OilGas = () => {
                     lineHeight: "normal",
                   }}
                 >
-                  Oil and Gas Analyst
+                  Travel Agent
                 </p>
                 <p
-                  className="MsoNormal"
+                  className="cont"
                   style={{
                     marginBottom: "0in",
                     textAlign: "justify",
@@ -646,10 +666,10 @@ const OilGas = () => {
                     lineHeight: "normal",
                   }}
                 >
-                  Energy Analyst
+                  Cruise staff
                 </p>
                 <p
-                  className="MsoNormal"
+                  className="cont"
                   style={{
                     marginBottom: "0in",
                     textAlign: "justify",
@@ -657,10 +677,10 @@ const OilGas = () => {
                     lineHeight: "normal",
                   }}
                 >
-                  Managers (Maintenance and control)
+                  Lodging Managers
                 </p>
                 <p
-                  className="MsoNormal"
+                  className="cont"
                   style={{
                     marginBottom: "0in",
                     textAlign: "justify",
@@ -668,44 +688,56 @@ const OilGas = () => {
                     lineHeight: "normal",
                   }}
                 >
-                  Oilfield Sales Management Executives
+                  Event Planners
+                </p>
+                <p
+                  className="cont"
+                  style={{
+                    marginBottom: "0in",
+                    textAlign: "justify",
+                    textJustify: "inter-ideograph",
+                    lineHeight: "normal",
+                  }}
+                >
+                  Hospitality Executive
+                </p>
+                <p
+                  className="cont"
+                  style={{
+                    marginBottom: "0in",
+                    textAlign: "justify",
+                    textJustify: "inter-ideograph",
+                    lineHeight: "normal",
+                  }}
+                >
+                  Front Desk Personnel
                 </p>
               </td>
             </tr>
           </tbody>
         </table>
         <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="MsoNormal"
+          className="cont"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         />
         <CustomTable />
-
         <p
-          className="MsoNormal" id="2"
+          className="cont" id="2"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           &nbsp;
         </p>
-
-
         <p
-          className="MsoNormal"
+          className="cont"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
-          <b>MBA in Oil &amp; Gas Management – Syllabus</b>
+          <b>MBA in Tourism & Hospitality Management – Syllabus</b>
         </p>
         <p
-          className="MsoNormal"
+          className="cont"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
-          Apart from the core subjects, candidates are taught the following
-          subjects in MBA in Oil &amp; Gas Management specialisation programme:
+          The below-mentioned subjects are the main subjects followed in the study of MBA / PGDM Tourism & Hospitality Management studies:
         </p>
         <table
           className="MsoTableGrid"
@@ -726,10 +758,15 @@ const OilGas = () => {
                 valign="top"
               >
                 <p
-                  className="MsoNormal"
-                  style={{ marginBottom: "0in", lineHeight: "normal" }}
+                  className="cont"
+                  style={{
+                    marginBottom: "0in",
+                    textAlign: "justify",
+                    textJustify: "inter-ideograph",
+                    lineHeight: "normal",
+                  }}
                 >
-                  Fundamentals Of Oil &amp; Gas Business
+                  Management Process & Organizational Behaviour
                 </p>
               </td>
               <td
@@ -743,10 +780,15 @@ const OilGas = () => {
                 valign="top"
               >
                 <p
-                  className="MsoNormal"
-                  style={{ marginBottom: "0in", lineHeight: "normal" }}
+                  className="cont"
+                  style={{
+                    marginBottom: "0in",
+                    textAlign: "justify",
+                    textJustify: "inter-ideograph",
+                    lineHeight: "normal",
+                  }}
                 >
-                  Fundamentals Of Petroleum Exploration
+                  Tourism Products of India
                 </p>
               </td>
             </tr>
@@ -762,10 +804,15 @@ const OilGas = () => {
                 valign="top"
               >
                 <p
-                  className="MsoNormal"
-                  style={{ marginBottom: "0in", lineHeight: "normal" }}
+                  className="cont"
+                  style={{
+                    marginBottom: "0in",
+                    textAlign: "justify",
+                    textJustify: "inter-ideograph",
+                    lineHeight: "normal",
+                  }}
                 >
-                  Petroleum Industry Accounting
+                  Transport in Travel & Tourism
                 </p>
               </td>
               <td
@@ -781,10 +828,15 @@ const OilGas = () => {
                 valign="top"
               >
                 <p
-                  className="MsoNormal"
-                  style={{ marginBottom: "0in", lineHeight: "normal" }}
+                  className="cont"
+                  style={{
+                    marginBottom: "0in",
+                    textAlign: "justify",
+                    textJustify: "inter-ideograph",
+                    lineHeight: "normal",
+                  }}
                 >
-                  Understanding Of Natural Gas Business
+                  Tourism Marketing
                 </p>
               </td>
             </tr>
@@ -800,10 +852,15 @@ const OilGas = () => {
                 valign="top"
               >
                 <p
-                  className="MsoNormal"
-                  style={{ marginBottom: "0in", lineHeight: "normal" }}
+                  className="cont"
+                  style={{
+                    marginBottom: "0in",
+                    textAlign: "justify",
+                    textJustify: "inter-ideograph",
+                    lineHeight: "normal",
+                  }}
                 >
-                  Fundamental of Refining
+                  Tourism Economics
                 </p>
               </td>
               <td
@@ -819,10 +876,15 @@ const OilGas = () => {
                 valign="top"
               >
                 <p
-                  className="MsoNormal"
-                  style={{ marginBottom: "0in", lineHeight: "normal" }}
+                  className="cont"
+                  style={{
+                    marginBottom: "0in",
+                    textAlign: "justify",
+                    textJustify: "inter-ideograph",
+                    lineHeight: "normal",
+                  }}
                 >
-                  Petroleum Financial Management
+                  Information Technology & Tourism
                 </p>
               </td>
             </tr>
@@ -838,10 +900,15 @@ const OilGas = () => {
                 valign="top"
               >
                 <p
-                  className="MsoNormal"
-                  style={{ marginBottom: "0in", lineHeight: "normal" }}
+                  className="cont"
+                  style={{
+                    marginBottom: "0in",
+                    textAlign: "justify",
+                    textJustify: "inter-ideograph",
+                    lineHeight: "normal",
+                  }}
                 >
-                  Data Analytics &amp; Applications in Oil &amp; Gas
+                  Communication Skill Development
                 </p>
               </td>
               <td
@@ -857,10 +924,15 @@ const OilGas = () => {
                 valign="top"
               >
                 <p
-                  className="MsoNormal"
-                  style={{ marginBottom: "0in", lineHeight: "normal" }}
+                  className="cont"
+                  style={{
+                    marginBottom: "0in",
+                    textAlign: "justify",
+                    textJustify: "inter-ideograph",
+                    lineHeight: "normal",
+                  }}
                 >
-                  Petro Economics
+                  Indian History Art, Culture & Architecture
                 </p>
               </td>
             </tr>
@@ -876,10 +948,15 @@ const OilGas = () => {
                 valign="top"
               >
                 <p
-                  className="MsoNormal"
-                  style={{ marginBottom: "0in", lineHeight: "normal" }}
+                  className="cont"
+                  style={{
+                    marginBottom: "0in",
+                    textAlign: "justify",
+                    textJustify: "inter-ideograph",
+                    lineHeight: "normal",
+                  }}
                 >
-                  Financing Petroleum Sector Projects
+                  Sustainable & Eco-Tourism
                 </p>
               </td>
               <td
@@ -895,10 +972,15 @@ const OilGas = () => {
                 valign="top"
               >
                 <p
-                  className="MsoNormal"
-                  style={{ marginBottom: "0in", lineHeight: "normal" }}
+                  className="cont"
+                  style={{
+                    marginBottom: "0in",
+                    textAlign: "justify",
+                    textJustify: "inter-ideograph",
+                    lineHeight: "normal",
+                  }}
                 >
-                  Supply Chain &amp; Logistics For Petroleum Industry
+                  Tourism Policy, Planning & Development
                 </p>
               </td>
             </tr>
@@ -914,10 +996,15 @@ const OilGas = () => {
                 valign="top"
               >
                 <p
-                  className="MsoNormal"
-                  style={{ marginBottom: "0in", lineHeight: "normal" }}
+                  className="cont"
+                  style={{
+                    marginBottom: "0in",
+                    textAlign: "justify",
+                    textJustify: "inter-ideograph",
+                    lineHeight: "normal",
+                  }}
                 >
-                  E- Enterprise Management
+                  Event Management
                 </p>
               </td>
               <td
@@ -933,38 +1020,122 @@ const OilGas = () => {
                 valign="top"
               >
                 <p
-                  className="MsoNormal"
-                  style={{ marginBottom: "0in", lineHeight: "normal" }}
+                  className="cont"
+                  style={{
+                    marginBottom: "0in",
+                    textAlign: "justify",
+                    textJustify: "inter-ideograph",
+                    lineHeight: "normal",
+                  }}
                 >
-                  Health, Safety &amp; Environment for Petroleum Sector
+                  Hotel Operations
                 </p>
               </td>
             </tr>
           </tbody>
         </table>
-
         <p
-          className="MsoNormal" id="3"
+          className="cont" id="3"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           &nbsp;
         </p>
 
         <div className="required-skills">
+          <p
+            className="cont"
+            style={{ textAlign: "justify", textJustify: "inter-ideograph", marginLeft: "0" }}
+          >
+            <b>MBA in Tourism & Hospitality Management: Skills Required</b>
+          </p>
+          <p
+            className="cont"
+            style={{ textAlign: "justify", textJustify: "inter-ideograph", marginLeft: "0" }}
+          >
+            Candidates who want to join Tourism & Hospitality industry need to have an impressive personality and should be able to handle people effectively. Thus, some key skills that an individual should possess in this industry are:
+          </p>
+          <p
+            className="cont"
+            style={{
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
+            </span>
+            Pleasant personality
+          </p>
+          <p
+            className="cont"
+            style={{
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
+            </span>
+            Customer-oriented approach
+          </p>
+          <p
+            className="cont"
+            style={{
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
+            </span>
+            Good communication skills
+          </p>
+          <p
+            className="cont"
+            style={{
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
+            </span>
+            Polite demeanour
+          </p>
 
           <p
-            className="MsoNormal"
-            style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
+            className="cont"
+            style={{
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
           >
-            <b>MBA in Oil &amp; Gas Management: Skills Required</b>
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
+            </span>
+            Ability to adjust in a crowd/ different circumstances
           </p>
-          <p
-            className="MsoNormal"
-            style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-          >
-            Functional-specific skills that one need to have to succeed in MBA in
-            Oil &amp; Gas Management are:
-          </p>
+
           <p
             className="cont"
             style={{
@@ -973,12 +1144,15 @@ const OilGas = () => {
               textIndent: "-0.25in",
             }}
           >
-            1.
-            <span style={{ font: '7pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
             </span>
-            Management skills
+            Team spirit
           </p>
+
           <p
             className="cont"
             style={{
@@ -987,12 +1161,15 @@ const OilGas = () => {
               textIndent: "-0.25in",
             }}
           >
-            2.
-            <span style={{ font: '7pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
             </span>
-            Technical skills
+            Creativity
           </p>
+
           <p
             className="cont"
             style={{
@@ -1001,12 +1178,15 @@ const OilGas = () => {
               textIndent: "-0.25in",
             }}
           >
-            3.
-            <span style={{ font: '7pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
             </span>
-            Research skills
+            Willingness to work long and odd hours
           </p>
+
           <p
             className="cont"
             style={{
@@ -1015,91 +1195,39 @@ const OilGas = () => {
               textIndent: "-0.25in",
             }}
           >
-            4.
-            <span style={{ font: '7pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
             </span>
-            Problem-solving skills
-          </p>
-          <p
-            className="cont"
-            style={{
-              textAlign: "justify",
-              textJustify: "inter-ideograph",
-              textIndent: "-0.25in",
-            }}
-          >
-            5.
-            <span style={{ font: '7pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
-            </span>
-            Commitment
-          </p>
-          <p
-            className="cont"
-            style={{
-              textAlign: "justify",
-              textJustify: "inter-ideograph",
-              textIndent: "-0.25in",
-            }}
-          >
-            6.
-            <span style={{ font: '7pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
-            </span>
-            Leadership skills
+            Ability to multi-task
           </p>
         </div>
         <p
-          className="MsoNormal" id="4"
+          className="cont" id="4"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
-          <b>&nbsp;</b>
+          &nbsp;
         </p>
-
         <div className="required-skills">
+
           <p
-            className="MsoNormal"
-            style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
+            className="cont"
+            style={{ textAlign: "justify", textJustify: "inter-ideograph", marginLeft: "0" }}
           >
-            <b>MBA in Oil &amp; Gas Management: Job Profiles Offered</b>
-          </p>
-          <p
-            className="MsoNormal"
-            style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-          >
-            MBA in Oil &amp; Gas Management opens up opportunities in petroleum
-            industry along with associated industries such as petro-chemical,
-            shipping, engineering industry as well as various consultancy
-            organizations. &nbsp;Job profiles offered to candidates are:
+            <b>MBA in Tourism & Hospitality Management: Job Profiles Offered</b>
           </p>
           <p
             className="cont"
-            style={{ textIndent: "-0.25in" }}
+            style={{ textAlign: "justify", textJustify: "inter-ideograph", marginLeft: "0" }}
           >
-            <span style={{ fontFamily: "Symbol" }}>
-              ·
-              <span style={{ font: '7pt "Times New Roman"' }}>
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
-              </span>
-            </span>
-            Field Material Coordinator
-          </p>
-          <p
-            className="cont"
-            style={{ textIndent: "-0.25in" }}
-          >
-            <span style={{ fontFamily: "Symbol" }}>
-              ·
-              <span style={{ font: '7pt "Times New Roman"' }}>
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
-              </span>
-            </span>
-            Oil Field Sales Manager
+            In the Tourism & Hospitality industry there are abundance of opportunities. Candidates can join hotels, travel agencies, airlines and similar fields after successfully completing MBA / PGDM in Tourism & Hospitality Management. Some job profiles that candidates can opt to pursue in this field are:
           </p>
           <p
             className="cont"
             style={{
+              // marginLeft: "1in",
               textAlign: "justify",
               textJustify: "inter-ideograph",
               textIndent: "-0.25in",
@@ -1111,11 +1239,12 @@ const OilGas = () => {
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
               </span>
             </span>
-            Oil and Gas Analyst
+            Hotel Manager
           </p>
           <p
             className="cont"
             style={{
+              // marginLeft: "1in",
               textAlign: "justify",
               textJustify: "inter-ideograph",
               textIndent: "-0.25in",
@@ -1127,11 +1256,12 @@ const OilGas = () => {
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
               </span>
             </span>
-            Energy Analyst
+            Food and Beverage Manager
           </p>
           <p
             className="cont"
             style={{
+              // marginLeft: "1in",
               textAlign: "justify",
               textJustify: "inter-ideograph",
               textIndent: "-0.25in",
@@ -1143,11 +1273,16 @@ const OilGas = () => {
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
               </span>
             </span>
-            Managers (Maintenance and control)
+            Front Office Manager
           </p>
           <p
             className="cont"
-            style={{ textIndent: "-0.25in" }}
+            style={{
+              // marginLeft: "1in",
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
           >
             <span style={{ fontFamily: "Symbol" }}>
               ·
@@ -1155,37 +1290,120 @@ const OilGas = () => {
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
               </span>
             </span>
-            Oilfield Sales Management Executives
+            Restaurant and Food Service Manager
+          </p>
+          <p
+            className="cont"
+            style={{
+              // marginLeft: "1in",
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
+            </span>
+            Housekeeping Manager
+          </p>
+          <p
+            className="cont"
+            style={{
+              // marginLeft: "1in",
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
+            </span>
+            Floor Supervisors
+          </p>
+          <p
+            className="cont"
+            style={{
+              // marginLeft: "1in",
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
+            </span>
+            Cabin Crew
+          </p>
+          <p
+            className="cont"
+            style={{
+              // marginLeft: "1in",
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
+            </span>
+            Travel Agent / Consultant
+          </p>
+          <p
+            className="cont"
+            style={{
+              // marginLeft: "1in",
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
+            </span>
+            Travel Coordinator
           </p>
         </div>
+
         <p
-          className="MsoNormal"
+          className="cont" id="5"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           &nbsp;
         </p>
         <p
-          className="MsoNormal"
+          className="cont"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
-          <b>Top Colleges in India for MBA in Oil &amp; Gas Management</b>
+          <b>Top Colleges in India for MBA in Tourism & Hospitality Management</b>
         </p>
         <p
-          className="MsoNormal"
+          className="cont"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
-          Only few colleges in India offer Oil &amp; Gas program. Some of the
-          top colleges are UPES, Dehradun, Pandit Deendayal Petroleum University
-          (PDPU), Gandhinagar-Gujarat, Rajiv Gandhi Institute of Petroleum
-          Technology, Amethi, Great Lakes Institute of Management, Chennai,
-          Management Development Institute, Gurgaon. To find out about the top
-          colleges of India offering MBA / PGDM in Oil &amp; Gas Management,
-          <span style={{ color: "red" }}>            <Link to="/college-list?m=Top Private MBA Colleges">
-            click here
-          </Link></span>.
+          Top colleges offering MBA / PGDM in Tourism & Hospitality Management are Banaras Hindu University (BHU) - Varanasi, New Delhi YMCA Institute of Management - New Delhi, Institute of Hotel Management Catering Technology & Applied Nutrition - Hajipur, The University of Mysore - Mysore. To find out about the top colleges of India offering MBA / PGDM in Service Management,{" "}
+          <span style={{ color: "red" }}>
+            <Link to="/college-list?m=Top Private MBA Colleges">
+              click here
+            </Link>
+          </span>.
         </p>
         <p
-          className="MsoNormal" id="6"
+          className="cont" id="6"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           &nbsp;
@@ -1193,38 +1411,64 @@ const OilGas = () => {
 
         <div className="required-skills">
           <p
-            className="MsoNormal"
-            style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
+            className="cont"
+            style={{ textAlign: "justify", textJustify: "inter-ideograph", marginLeft: "0" }}
           >
-            <b>MBA in Oil &amp; Gas Management - Top Recruiters </b>
+            <b>MBA in Tourism & Hospitality Management - Top Recruiters  </b>
           </p>
           <p
-            className="MsoNormal"
+            className="cont"
+            style={{ textAlign: "justify", textJustify: "inter-ideograph", marginLeft: "0" }}
+          >
+            MBA / PGDM in Tourism and Hospitality Management candidates have diverse job opportunities and hired by Hotel Industry, Food and Beverage industry, Travel and Tourism industry, Event Management Industry, Restaurant Industry, Cruise Industry. Some of the major recruiters are:
+          </p>
+          
+          <p
+            className="cont"
             style={{
               marginBottom: "0in",
               textAlign: "justify",
               textJustify: "inter-ideograph",
             }}
+          />
+          <p
+            className="cont"
+            style={{
+              // marginLeft: "1in",
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
           >
-            Hiring is done by petroleum industry along with associated industries
-            such as petro-chemical, shipping, engineering industry as well as
-            various consultancy organizations.&nbsp; Some of the top recruiters
-            are:
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
+            </span>
+            Taj Group of Hotels
           </p>
           <p
-            className="MsoNormal"
+            className="cont"
             style={{
-              marginBottom: "0in",
+              // marginLeft: "1in",
               textAlign: "justify",
               textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
             }}
           >
-            &nbsp;
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
+            </span>
+            Cox & Kings
           </p>
-
           <p
             className="cont"
             style={{
+              // marginLeft: "1in",
               textAlign: "justify",
               textJustify: "inter-ideograph",
               textIndent: "-0.25in",
@@ -1235,10 +1479,13 @@ const OilGas = () => {
               <span style={{ font: '7pt "Times New Roman"' }}>
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
               </span>
-            </span>ONGC</p>
+            </span>
+            Thomas Cooke
+          </p>
           <p
             className="cont"
             style={{
+              // marginLeft: "1in",
               textAlign: "justify",
               textJustify: "inter-ideograph",
               textIndent: "-0.25in",
@@ -1249,10 +1496,13 @@ const OilGas = () => {
               <span style={{ font: '7pt "Times New Roman"' }}>
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
               </span>
-            </span>HPCL</p>
+            </span>
+            Hilton Worldwide
+          </p>
           <p
             className="cont"
             style={{
+              // marginLeft: "1in",
               textAlign: "justify",
               textJustify: "inter-ideograph",
               textIndent: "-0.25in",
@@ -1263,10 +1513,13 @@ const OilGas = () => {
               <span style={{ font: '7pt "Times New Roman"' }}>
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
               </span>
-            </span>Reliance Petroleum</p>
+            </span>
+            Marriott International
+          </p>
           <p
             className="cont"
             style={{
+              // marginLeft: "1in",
               textAlign: "justify",
               textJustify: "inter-ideograph",
               textIndent: "-0.25in",
@@ -1277,10 +1530,13 @@ const OilGas = () => {
               <span style={{ font: '7pt "Times New Roman"' }}>
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
               </span>
-            </span>GAIL</p>
+            </span>
+            Radisson Hotel
+          </p>
           <p
             className="cont"
             style={{
+              // marginLeft: "1in",
               textAlign: "justify",
               textJustify: "inter-ideograph",
               textIndent: "-0.25in",
@@ -1291,10 +1547,13 @@ const OilGas = () => {
               <span style={{ font: '7pt "Times New Roman"' }}>
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
               </span>
-            </span>Shell</p>
+            </span>
+            Royal Caribbean Cruise
+          </p>
           <p
             className="cont"
             style={{
+              // marginLeft: "1in",
               textAlign: "justify",
               textJustify: "inter-ideograph",
               textIndent: "-0.25in",
@@ -1305,171 +1564,273 @@ const OilGas = () => {
               <span style={{ font: '7pt "Times New Roman"' }}>
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
               </span>
-            </span>Essar Oil</p>
-
+            </span>
+            Carnival Cruise Line International
+          </p>
         </div>
+
         <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="MsoNormal"
+          className="cont"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         />
         <CustomTable />
         <p
-          className="MsoNormal" id="7"
+          className="cont"
+          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
+        />
+
+        <p
+          className="cont" id="7"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           &nbsp;
         </p>
         <p
-          className="MsoNormal"
+          className="cont"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
-          <b>FAQs – MBA in Oil &amp; Gas Management</b>
+          <b>FAQs – MBA in Tourism & Hospitality Management</b>
         </p>
 
         <p
-          className="cont headings"
+          className="headings cont"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
-          Q. What is the scope of MBA in Oil &amp; Gas Management?
+          Q. What is the scope of MBA in Tourism & Hospitality Management?
         </p>
         <p
-          className="MsoNormal"
+          className="cont"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
-          Ans: MBA in Oil &amp; Gas Management is a very eccentric career
-          discipline, in a hoard of plenty of MBA specialisations being pursued;
-          this discipline is a blend of fresh curriculum and an industry which
-          is very stable and secure. Candidates get an opportunity to work with
-          some of the biggest MNC’s of the world with a very settled and
-          lucrative career.
+          Ans: MBA in Tourism & Hospitality Management opens up opportunities in hotel, hospitality and tourism industry. Profiles such as, hotel manager, housekeeping manager, chef, etc offered. The average salary earned by individuals in this industry is around Rs 4 Lac per annum.
         </p>
+
         <p
-          className="cont headings"
+          className="headings cont"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
-          Q. What is the eligibility for MBA in Oil &amp; Gas?
+          Q. What is the difference between Hospitality and Hotel management?
         </p>
         <p
-          className="MsoNormal"
+          className="cont"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
-          Ans. For MBA / PGDM in Oil &amp; Gas Management, a student needs to a
-          have valid degree with minimum 50 per cent marks in B. Tech, B. E. or
-          B. Sc (Physics, Chemistry &amp; Maths) . For reserved category
-          students the marks is 45 per cent.
+          Ans: Hospitality and Hotel management are related to same industry. Hotel Management encompasses the working of different departments of a hotel (or chain of hotels), whereas Hospitality Management is a broader term and it includes the working of hotel industry, airline industry as well as managing conferences, sales, events, business development and the likes.
         </p>
+
         <p
-          className="cont headings"
+          className="headings cont"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
-          Q: Which are the top entrance exams for MBA in Oil &amp; Gas
-          Management?
+          Q. What are the few top colleges providing this course?
         </p>
         <p
-          className="MsoNormal"
+          className="cont"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
-          Ans: The top entrance exams for MBA in Oil &amp; Gas Management are
-          CAT, XAT, MAT, CMAT, and GMAT.
+          Ans: Top colleges offering MBA / PGDM in Tourism & Hospitality Management are Banaras Hindu University (BHU) - Varanasi, New Delhi YMCA Institute of Management - New Delhi, Institute of Hotel Management Catering Technology & Applied Nutrition - Hajipur, The University of Mysore - Mysore. 
         </p>
         <p
-          className="cont headings"
+          className="headings cont"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
-          Q. Which are the best colleges to pursue MBA in Oil &amp; Gas
-          Management?
+          Q. What are the elective subjects included in this course?
         </p>
         <p
-          className="MsoNormal"
+          className="cont"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
-          Ans: Top colleges in India offering MBA in Oil &amp; Gas Management
-          are UPES, Dehradun, Pandit Deendayal Petroleum University (PDPU),
-          Gandhinagar-Gujarat, Rajiv Gandhi Institute of Petroleum Technology,
-          Amethi, Great Lakes Institute of Management, Chennai, Management
-          Development Institute, Gurgaon. To find out about the top colleges of
-          India offering MBA / PGDM in Oil &amp; Gas Management,{" "}
-          <span style={{ color: "red" }}>            <Link to="/college-list?m=Top Private MBA Colleges">
-            click here
-          </Link></span>.
+          Ans: The first-year subjects are similar to every other MBA course like finance, operation, human resources, etc. In the second year, subjects become more specialized in the chosen field with electives subjects being: 
         </p>
+        <div className="required-skills">
         <p
-          className="cont headings"
+            className="cont"
+            style={{
+              // marginLeft: "1in",
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
+            </span>
+            Food and Beverage Service
+          </p>
+          <p
+            className="cont"
+            style={{
+              // marginLeft: "1in",
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
+            </span>
+            Leisure Management
+          </p>
+          <p
+            className="cont"
+            style={{
+              // marginLeft: "1in",
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
+            </span>
+            Hotel & Catering Management
+          </p>
+          <p
+            className="cont"
+            style={{
+              // marginLeft: "1in",
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
+            </span>
+            Eco-Tourism
+          </p>
+          <p
+            className="cont"
+            style={{
+              // marginLeft: "1in",
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
+            </span>
+            Managerial Economics
+          </p>
+          <p
+            className="cont"
+            style={{
+              // marginLeft: "1in",
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
+            </span>
+            Entrepreneurship
+          </p>
+          <p
+            className="cont"
+            style={{
+              // marginLeft: "1in",
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
+            </span>
+            Hospitality, HR, and Training
+          </p>
+          <p
+            className="cont"
+            style={{
+              // marginLeft: "1in",
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
+            </span>
+            Tourism and Travel Management
+          </p>
+          </div>
+        <p
+          className="headings cont"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
-          Q. What is the fee structure of an MBA in Oil &amp; Gas Management
-          program?
+          Q. Which are the top companies that hire MBA in Tourism & Hospitality Management graduates?
         </p>
         <p
-          className="MsoNormal"
+          className="cont"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
-          Ans: Fees is totally dependent upon the college and also upon the
-          college being a government college or a private college. Fees range
-          for MBA in Oil &amp; Gas Management program is Rs. 1 Lac to Rs. 15
-          Lac.
+          Ans: MBA / PGDM in Tourism and Hospitality Management candidates have diverse job opportunities and hired by Hotel Industry, Food and Beverage industry, Travel and Tourism industry, Event Management Industry, Restaurant Industry, Cruise Industry. Some of the major recruiters are Taj Group of Hotels, Cox & Kings, Thomas Cooke, Hilton Worldwide, Marriott International, Radisson Hotel, Royal Caribbean Cruise, Carnival Cruise Line International, etc.
         </p>
         <p
-          className="cont headings"
+          className="headings cont"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
-          Q. What are the job profiles offered to candidates holding degrees in
-          Oil &amp; Gas?
+          Q: What is the eligibility criterion for MBA in Tourism & Hospitality Management?
         </p>
         <p
-          className="MsoNormal"
+          className="cont"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
-          Ans. There is no dearth of job roles for qualified candidates. Some of
-          the popular job roles offered to candidates holding degrees in Oil
-          &amp; Gas are Field Material Coordinator, Oil Field Sales Manager, Oil
-          and Gas Analyst, Energy Analyst, Managers (Maintenance and control),
-          Oilfield Sales Management Executives etc.
+          Ans: The basic eligibility criteria for MBA / PGDM in Tourism & Hospitality Management is graduation or equivalent with minimum aggregate of 50 per cent from a recognised university (45 per cent marks in case of reserved category student).
         </p>
         <p
-          className="cont headings"
+          className="headings cont"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
-          Q. What are some top recruiters after oil and gas courses?
+          Q: What is the fee range of MBA in Tourism & Hospitality Management in India?
         </p>
         <p
-          className="MsoNormal"
-          style={{
-            marginBottom: "0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-          }}
-        >
-          Ans. Hiring is done by petroleum industry along with associated
-          industries such as petro-chemical, shipping, engineering industry as
-          well as various consultancy organizations.&nbsp; Some of the top
-          recruiters are ONGC, HPCL, Reliance Petroleum, GAIL, Shell, Essar Oil
-          etc.
-        </p>
-        <p
-          className="cont headings"
+          className="cont"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
-          Q. What is the average salary offered after completing MBA in Oil
-          &amp; Gas Management?
+          Ans: The fee of private colleges is on the higher side in comparison to the fee of government colleges. The fee range of MBA / PGDM in Tourism & Hospitality Management in India is between Rs 1 lac to 6 Lac. 
         </p>
+
         <p
-          className="MsoNormal"
+          className="headings cont"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
-          Ans. A fresher after completing MBA in Oil and Gas Management earns on
-          an average Rs 5.5 Lac per annum. This can increase multifold with work
-          experience and industry knowledge.
+          Q: Which are the top entrance exams for MBA in Tourism & Hospitality Management?
+        </p>
+        <p
+          className="cont"
+          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
+        >
+          Ans: Top entrance exams for MBA / PGDM in Tourism & Hospitality Management are CAT, XAT, MAT, CMAT, GMAT, ATMA, etc.
         </p>
       </div>
     </div>
   );
 };
-
-export default OilGas;
+export default TourismHospitality;

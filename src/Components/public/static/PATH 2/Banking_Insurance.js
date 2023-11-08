@@ -1,35 +1,32 @@
-import { useEffect } from "react";
-import { Link } from "react-router-dom";
 import CustomTable from "../../../CustomTable";
-const Infrastructure = () => {
+import { Link } from "react-router-dom";
+import { useEffect } from "react";
+const BankingInsurance = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, [])
+
   return (
     <div>
-      <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
-      <meta name="Generator" content="Microsoft Word 15 (filtered)" />
-      <link rel="stylesheet" href="../custom.css" />
       <div className="WordSection1">
         <p
           className="MsoNormal"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
-          <b>MBA in Infrastructure</b>
+          <b>MBA in Banking &amp; Insurance Management</b>
         </p>
         <p
           className="MsoNormal"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
-          MBA in Infrastructure Management focuses on the development and
-          management of infrastructural assets. The course helps candidates in
-          understanding the elements in infrastructure like conceptualization,
-          planning, design and development, investment, contract management,
-          policies and regulations. Besides, the programme teaches candidates to
-          deal with various issues and challenges in the improvement and
-          development of infrastructure in the country.
+          MBA in Banking & insurance Management is banking based course which covers the concepts banking and insurance involving learning of liability and corporate risk. MBA in Banking & Insurance covers the study of the fundamental concepts of management with specialised training in subjects for example International Banking and Insurance, Risk Management, Treasury Operations, Project & Infrastructure, Investment Banking, etc.
         </p>
-
+        <p
+          className="MsoNormal"
+          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
+        >
+          MBA in Banking and Insurance Management is a method for assurance of financial loss, provides applicants with a basic knowledge of the Banking and insurance markets,  with knowledge-based learning to the financial world at large, for example, wealth management, portfolio management, investment banking, financial and business consulting, risk management, financial and investment research, and general and life insurance services.
+        </p>
         <b className="table-details">Table of content</b>
 
         <p
@@ -38,75 +35,58 @@ const Infrastructure = () => {
             textAlign: "justify",
             textJustify: "inter-ideograph",
           }}
-        >
-          <a className="link" href="#1">
-            MBA In Infrastructure  – Program Highlights</a>
+        ><a className="link" href="#1">	MBA in Banking & Insurance  – Program Highlights</a>
         </p>
         <p
-          className=" MsoListParagraphCxSpMiddle"
+          className=" MsoListParagraphCxSpFirst"
           style={{
             textAlign: "justify",
             textJustify: "inter-ideograph",
           }}
-        >
-          <a className="link" href="#2">
-            MBA In Infrastructure   – Syllabus</a>
+        ><a className="link" href="#2">	MBA in Banking & Insurance  – Syllabus</a>
         </p>
         <p
-          className=" MsoListParagraphCxSpMiddle"
+          className=" MsoListParagraphCxSpFirst"
           style={{
             textAlign: "justify",
             textJustify: "inter-ideograph",
           }}
-        >
-          <a className="link" href="#3">
-            MBA In Infrastructure  : Skills Required</a>
+        ><a className="link" href="#3">	MBA in Banking & Insurance : Skills Required</a>
         </p>
         <p
-          className=" MsoListParagraphCxSpMiddle"
+          className=" MsoListParagraphCxSpFirst"
           style={{
             textAlign: "justify",
             textJustify: "inter-ideograph",
           }}
-        >
-          <a className="link" href="#4">
-            MBA In Infrastructure : Job Profiles Offered</a>
+        ><a className="link" href="#4">	MBA in Banking & Insurance : Job Profiles Offered</a>
         </p>
         <p
-          className=" MsoListParagraphCxSpMiddle"
+          className=" MsoListParagraphCxSpFirst"
           style={{
             textAlign: "justify",
             textJustify: "inter-ideograph",
           }}
-        >
-
-          Top Colleges in India for MBA In Infrastructure
+        ><a className="link" href="#5">Top Colleges in India for 	MBA in Banking & Insurance </a>
         </p>
         <p
-          className=" MsoListParagraphCxSpMiddle"
+          className=" MsoListParagraphCxSpFirst"
           style={{
             textAlign: "justify",
             textJustify: "inter-ideograph",
           }}
-        >
-          <a className="link" href="#6">
-            MBA In Infrastructure  - Top Recruiters
-          </a>
+        ><a className="link" href="#6">	MBA in Banking & Insurance  - Top Recruiters</a>
         </p>
         <p
-          className=" MsoListParagraphCxSpLast"
+          className=" MsoListParagraphCxSpFirst"
           style={{
             textAlign: "justify",
             textJustify: "inter-ideograph",
           }}
-        >
-          <a className="link" href="#7">
-            FAQs – MBA In Infrastructure
-          </a>
+        ><a className="link" href="#7">FAQs – 	MBA in Banking & Insurance </a>
         </p>
-
         <p
-          className="MsoNormal" id="1"
+          className="MsoNormal"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           &nbsp;
@@ -115,7 +95,7 @@ const Infrastructure = () => {
           className="MsoNormal"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
-          <b>MBA in Infrastructure – Program Highlights</b>
+          <b>MBA in Banking & Insurance  – Program Highlights</b>
         </p>
         <table
           className="MsoTableGrid"
@@ -363,7 +343,7 @@ const Infrastructure = () => {
                     lineHeight: "normal",
                   }}
                 >
-                  CAT, XAT, CMAT, MAT, etc
+                  CAT, XAT, CMAT, MAT, NMAT, etc
                 </p>
               </td>
             </tr>
@@ -411,7 +391,7 @@ const Infrastructure = () => {
                     lineHeight: "normal",
                   }}
                 >
-                  Full Time, Distance
+                  Full Time, Part Time, Distance, Online
                 </p>
               </td>
             </tr>
@@ -459,7 +439,7 @@ const Infrastructure = () => {
                     lineHeight: "normal",
                   }}
                 >
-                  Economics and Management Decision
+                  Insurance Management
                 </p>
                 <p
                   className="MsoNormal"
@@ -470,7 +450,7 @@ const Infrastructure = () => {
                     lineHeight: "normal",
                   }}
                 >
-                  IT Application in Infrastructure
+                  Accounting for Managers
                 </p>
                 <p
                   className="MsoNormal"
@@ -481,7 +461,7 @@ const Infrastructure = () => {
                     lineHeight: "normal",
                   }}
                 >
-                  Accounting in Infrastructure Sector
+                  Principles & Practices of Banking
                 </p>
                 <p
                   className="MsoNormal"
@@ -492,7 +472,7 @@ const Infrastructure = () => {
                     lineHeight: "normal",
                   }}
                 >
-                  Operations and Materials Management
+                  Merchant Banking & Financial Services
                 </p>
                 <p
                   className="MsoNormal"
@@ -503,7 +483,7 @@ const Infrastructure = () => {
                     lineHeight: "normal",
                   }}
                 >
-                  Infrastructure Sector Economy and Planning
+                  Strategic Credit management
                 </p>
               </td>
             </tr>
@@ -551,7 +531,7 @@ const Infrastructure = () => {
                     lineHeight: "normal",
                   }}
                 >
-                  Rs. 1 Lac to Rs. 12 Lac
+                  Rs. 50,000 to Rs. 20 Lac
                 </p>
               </td>
             </tr>
@@ -599,7 +579,7 @@ const Infrastructure = () => {
                     lineHeight: "normal",
                   }}
                 >
-                  Rs. 3 Lac to 10 Lac
+                  Rs. 4 Lac to 12 Lac
                 </p>
               </td>
             </tr>
@@ -647,7 +627,7 @@ const Infrastructure = () => {
                     lineHeight: "normal",
                   }}
                 >
-                  Infrastructure Management Analyst
+                  Financial Analyst
                 </p>
                 <p
                   className="MsoNormal"
@@ -658,7 +638,7 @@ const Infrastructure = () => {
                     lineHeight: "normal",
                   }}
                 >
-                  Infrastructure Specialist
+                  Credit & Risk Manager
                 </p>
                 <p
                   className="MsoNormal"
@@ -669,7 +649,7 @@ const Infrastructure = () => {
                     lineHeight: "normal",
                   }}
                 >
-                  Infrastructure Management Leader
+                  Loan Counsellor and Sales Officer
                 </p>
                 <p
                   className="MsoNormal"
@@ -680,24 +660,34 @@ const Infrastructure = () => {
                     lineHeight: "normal",
                   }}
                 >
-                  Application Infrastructure Architect
+                  Credit Analyst
+                </p>
+                <p
+                  className="MsoNormal"
+                  style={{
+                    marginBottom: "0in",
+                    textAlign: "justify",
+                    textJustify: "inter-ideograph",
+                    lineHeight: "normal",
+                  }}
+                >
+                  Investment Banker
                 </p>
               </td>
             </tr>
           </tbody>
         </table>
+
         <p
           className="MsoNormal"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           &nbsp;
         </p>
-        <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        />
+
         <CustomTable />
-        <p id="2"
+
+        <p
           className="MsoNormal"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
@@ -707,14 +697,13 @@ const Infrastructure = () => {
           className="MsoNormal"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
-          <b>MBA in Infrastructure – Syllabus</b>
+          <b>MBA in Banking & Insurance – Syllabus</b>
         </p>
         <p
           className="MsoNormal"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
-          Apart from the core subjects, candidates are taught the following
-          subjects in MBA / PGDM in Infrastructure specialisation programme:
+          Apart from the core subjects, candidates are taught the following subjects in MBA / PGDM in Banking & Insurance specialisation programme:
         </p>
         <table
           className="MsoTableGrid"
@@ -736,9 +725,14 @@ const Infrastructure = () => {
               >
                 <p
                   className="MsoNormal"
-                  style={{ marginBottom: "0in", lineHeight: "normal" }}
+                  style={{
+                    marginBottom: "0in",
+                    textAlign: "justify",
+                    textJustify: "inter-ideograph",
+                    lineHeight: "normal",
+                  }}
                 >
-                  Economics and Management Decision
+                  Insurance Management
                 </p>
               </td>
               <td
@@ -753,9 +747,14 @@ const Infrastructure = () => {
               >
                 <p
                   className="MsoNormal"
-                  style={{ marginBottom: "0in", lineHeight: "normal" }}
+                  style={{
+                    marginBottom: "0in",
+                    textAlign: "justify",
+                    textJustify: "inter-ideograph",
+                    lineHeight: "normal",
+                  }}
                 >
-                  Organizational Behaviour
+                  Insurance Products
                 </p>
               </td>
             </tr>
@@ -772,9 +771,14 @@ const Infrastructure = () => {
               >
                 <p
                   className="MsoNormal"
-                  style={{ marginBottom: "0in", lineHeight: "normal" }}
+                  style={{
+                    marginBottom: "0in",
+                    textAlign: "justify",
+                    textJustify: "inter-ideograph",
+                    lineHeight: "normal",
+                  }}
                 >
-                  Infrastructure Development
+                  Accounting for Managers
                 </p>
               </td>
               <td
@@ -791,9 +795,14 @@ const Infrastructure = () => {
               >
                 <p
                   className="MsoNormal"
-                  style={{ marginBottom: "0in", lineHeight: "normal" }}
+                  style={{
+                    marginBottom: "0in",
+                    textAlign: "justify",
+                    textJustify: "inter-ideograph",
+                    lineHeight: "normal",
+                  }}
                 >
-                  Infrastructure Sector Economy and Planning
+                  Principles & Practices of Banking
                 </p>
               </td>
             </tr>
@@ -810,9 +819,14 @@ const Infrastructure = () => {
               >
                 <p
                   className="MsoNormal"
-                  style={{ marginBottom: "0in", lineHeight: "normal" }}
+                  style={{
+                    marginBottom: "0in",
+                    textAlign: "justify",
+                    textJustify: "inter-ideograph",
+                    lineHeight: "normal",
+                  }}
                 >
-                  IT Application in Infrastructure
+                  Banking & Insurance Management
                 </p>
               </td>
               <td
@@ -829,9 +843,14 @@ const Infrastructure = () => {
               >
                 <p
                   className="MsoNormal"
-                  style={{ marginBottom: "0in", lineHeight: "normal" }}
+                  style={{
+                    marginBottom: "0in",
+                    textAlign: "justify",
+                    textJustify: "inter-ideograph",
+                    lineHeight: "normal",
+                  }}
                 >
-                  Accounting in Infrastructure Sector
+                  Merchant Banking & Financial Services
                 </p>
               </td>
             </tr>
@@ -848,9 +867,14 @@ const Infrastructure = () => {
               >
                 <p
                   className="MsoNormal"
-                  style={{ marginBottom: "0in", lineHeight: "normal" }}
+                  style={{
+                    marginBottom: "0in",
+                    textAlign: "justify",
+                    textJustify: "inter-ideograph",
+                    lineHeight: "normal",
+                  }}
                 >
-                  Operations and Materials Management
+                  Marketing of Banking Services
                 </p>
               </td>
               <td
@@ -867,9 +891,14 @@ const Infrastructure = () => {
               >
                 <p
                   className="MsoNormal"
-                  style={{ marginBottom: "0in", lineHeight: "normal" }}
+                  style={{
+                    marginBottom: "0in",
+                    textAlign: "justify",
+                    textJustify: "inter-ideograph",
+                    lineHeight: "normal",
+                  }}
                 >
-                  Research Methodology and Applied Statistics
+                  Counter Operations, Savings Bank, Current Account and Remittances
                 </p>
               </td>
             </tr>
@@ -886,9 +915,14 @@ const Infrastructure = () => {
               >
                 <p
                   className="MsoNormal"
-                  style={{ marginBottom: "0in", lineHeight: "normal" }}
+                  style={{
+                    marginBottom: "0in",
+                    textAlign: "justify",
+                    textJustify: "inter-ideograph",
+                    lineHeight: "normal",
+                  }}
                 >
-                  Strategic Issues in Infrastructure Creation
+                  Retail Insurance Management
                 </p>
               </td>
               <td
@@ -905,9 +939,14 @@ const Infrastructure = () => {
               >
                 <p
                   className="MsoNormal"
-                  style={{ marginBottom: "0in", lineHeight: "normal" }}
+                  style={{
+                    marginBottom: "0in",
+                    textAlign: "justify",
+                    textJustify: "inter-ideograph",
+                    lineHeight: "normal",
+                  }}
                 >
-                  Infrastructure Management
+                  Strategic Credit management
                 </p>
               </td>
             </tr>
@@ -924,9 +963,14 @@ const Infrastructure = () => {
               >
                 <p
                   className="MsoNormal"
-                  style={{ marginBottom: "0in", lineHeight: "normal" }}
+                  style={{
+                    marginBottom: "0in",
+                    textAlign: "justify",
+                    textJustify: "inter-ideograph",
+                    lineHeight: "normal",
+                  }}
                 >
-                  Infrastructure Law and Policy
+                  Legal Aspect of Banking
                 </p>
               </td>
               <td
@@ -943,35 +987,87 @@ const Infrastructure = () => {
               >
                 <p
                   className="MsoNormal"
-                  style={{ marginBottom: "0in", lineHeight: "normal" }}
+                  style={{
+                    marginBottom: "0in",
+                    textAlign: "justify",
+                    textJustify: "inter-ideograph",
+                    lineHeight: "normal",
+                  }}
                 >
-                  FDI in Infrastructure Sector
+                  Corporate Insurance management
+                </p>
+              </td>
+            </tr>
+
+            <tr>
+              <td
+                style={{
+                  width: "239.4pt",
+                  border: "solid black 1pt",
+                  borderTop: "none",
+                  padding: "0in 5.4pt 0in 5.4pt",
+                }}
+                width={319}
+                valign="top"
+              >
+                <p
+                  className="MsoNormal"
+                  style={{
+                    marginBottom: "0in",
+                    textAlign: "justify",
+                    textJustify: "inter-ideograph",
+                    lineHeight: "normal",
+                  }}
+                >
+                  Treasury & Risk Management
+                </p>
+              </td>
+              <td
+                style={{
+                  width: "239.4pt",
+                  borderTop: "none",
+                  borderLeft: "none",
+                  borderBottom: "solid black 1pt",
+                  borderRight: "solid black 1pt",
+                  padding: "0in 5.4pt 0in 5.4pt",
+                }}
+                width={319}
+                valign="top"
+              >
+                <p
+                  className="MsoNormal"
+                  style={{
+                    marginBottom: "0in",
+                    textAlign: "justify",
+                    textJustify: "inter-ideograph",
+                    lineHeight: "normal",
+                  }}
+                >
+                  Mutual Funds and Portfolio Management
                 </p>
               </td>
             </tr>
           </tbody>
         </table>
         <p
-          className="MsoNormal" id="3"
+          className="MsoNormal"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           &nbsp;
         </p>
-
         <div className="required-skills">
 
           <p
             className="MsoNormal"
-            style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
+            style={{ textAlign: "justify", textJustify: "inter-ideograph", marginLeft: "0" }}
           >
-            <b>MBA in Infrastructure: Skills Required</b>
+            <b>MBA in Banking & Insurance: Skills Required</b>
           </p>
           <p
             className="MsoNormal"
-            style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
+            style={{ textAlign: "justify", textJustify: "inter-ideograph", marginLeft: "0" }}
           >
-            General skill sets needed for MBA / PGDM in Infrastructure students
-            are:
+            Banking & Insurance is a dynamic sector and one needs to be versatile for job opportunities in this sector. Some of the essential skills are needed to excel in this sector are:
           </p>
           <p
             className="cont"
@@ -985,7 +1081,7 @@ const Infrastructure = () => {
             <span style={{ font: '7pt "Times New Roman"' }}>
               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
             </span>
-            Analytical Skills
+            Accounting
           </p>
           <p
             className="cont"
@@ -999,7 +1095,7 @@ const Infrastructure = () => {
             <span style={{ font: '7pt "Times New Roman"' }}>
               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
             </span>
-            Knowledge of the subject
+            Financial reporting
           </p>
           <p
             className="cont"
@@ -1013,7 +1109,7 @@ const Infrastructure = () => {
             <span style={{ font: '7pt "Times New Roman"' }}>
               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
             </span>
-            Communication Skills
+            Problem-solving
           </p>
           <p
             className="cont"
@@ -1027,7 +1123,7 @@ const Infrastructure = () => {
             <span style={{ font: '7pt "Times New Roman"' }}>
               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
             </span>
-            Leadership Skills
+            Reasoning skills
           </p>
           <p
             className="cont"
@@ -1041,11 +1137,279 @@ const Infrastructure = () => {
             <span style={{ font: '7pt "Times New Roman"' }}>
               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
             </span>
-            Technical Skills
+            Critical thinking
+          </p>
+          <p
+            className="cont"
+            style={{
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            6.
+            <span style={{ font: '7pt "Times New Roman"' }}>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+            </span>
+            Analytical ability
+          </p>
+          <p
+            className="cont"
+            style={{
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            7.
+            <span style={{ font: '7pt "Times New Roman"' }}>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+            </span>
+            Innovative
+          </p>
+          <p
+            className="cont"
+            style={{
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            8.
+            <span style={{ font: '7pt "Times New Roman"' }}>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+            </span>
+            Leadership qualities
           </p>
         </div>
+        <p
+          className="MsoNormal"
+          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
+        >
+          <b>&nbsp;</b>
+        </p>
 
-        <p id="4"
+        <div className="required-skills">
+
+          <p
+            className="MsoNormal"
+            style={{ textAlign: "justify", textJustify: "inter-ideograph", marginLeft: "0" }}
+          >
+            <b>MBA in Banking & Insurance: Job Profiles Offered</b>
+          </p>
+          <p
+            className="MsoNormal"
+            style={{ textAlign: "justify", textJustify: "inter-ideograph", marginLeft: "0" }}
+          >
+            This field is full of career opportunities with secure future. Various banks and multinational organizations offer multitude of banking job opportunities throughout the year. Some of the job roles offered are:
+          </p>
+          <p
+            className="cont"
+            style={{
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
+            </span>
+            Financial Analyst
+          </p>
+          <p
+            className="cont"
+            style={{
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
+            </span>
+            Credit & Risk Manager
+          </p>
+          <p
+            className="cont"
+            style={{
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
+            </span>
+            Loan Counsellor and Sales Officer
+          </p>
+          <p
+            className="cont"
+            style={{
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
+            </span>
+            Credit Analyst
+          </p>
+          <p
+            className="cont"
+            style={{
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
+            </span>
+            Investment Banker
+          </p>
+
+
+          <p
+            className="cont"
+            style={{
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
+            </span>
+            Stock Analyst
+          </p>
+          <p
+            className="cont"
+            style={{
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
+            </span>
+            Asset Manager
+          </p>
+
+          <p
+            className="cont"
+            style={{
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
+            </span>
+            Insurance Manager
+          </p>
+
+          <p
+            className="cont"
+            style={{
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
+            </span>
+            Risk Manager
+          </p>
+
+          <p
+            className="cont"
+            style={{
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
+            </span>
+            Accountants and Auditor
+          </p>
+
+          <p
+            className="cont"
+            style={{
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
+            </span>
+            Personal Financial Advisor
+          </p>
+        </div>
+        <p
+          className="MsoNormal"
+          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
+        >
+          &nbsp;
+        </p>
+        <p
+          className="MsoNormal"
+          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
+        >
+          <b>Top Colleges in India for MBA in Banking & Insurance</b>
+        </p>
+        <p
+          className="MsoNormal"
+          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
+        >
+          With the growth in Indian economy, MBA in Banking & Insurance has become one of the most preferred specialization choice among MBA candidates. Some of the top colleges offering this program are International Management Institute- New Delhi, Institute of Financial Management and Research - Chittoor, ICFAI Business School- Hyderabad, International School of Business and Research - Bangalore, Institute of Public Enterprise – Hyderabad. To find out about the top colleges of India offering MBA / PGDM in Banking & Insurance,{" "}
+          <span style={{ color: "red" }}>
+            <Link to="/college-list?m=Top Private MBA Colleges">
+              click here
+            </Link>
+          </span>.
+        </p>
+        <p
           className="MsoNormal"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
@@ -1058,170 +1422,181 @@ const Infrastructure = () => {
             className="MsoNormal"
             style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
           >
-            <b>MBA in Infrastructure: Job Profiles Offered</b>
+            <b>MBA in Banking & Insurance - Top Recruiters  </b>
           </p>
           <p
             className="MsoNormal"
+            style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
+          >
+            After completing MBA / PGDM in Banking & Insurance career opportunities are abundant in sectors like banking, finance, accounting, insurance, asset management etc. Here is the list of some of the top recruiting companies in this category:
+          </p>
+          <p
+            className="cont"
             style={{
               textAlign: "justify",
               textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
             }}
           >
-            There are many job opportunities for candidates graduating in MBA /
-            PGDM in Infrastructure management. Candidates have a chance to make
-            their careers in this sector in functions like project management,
-            consulting, business development, investment, etc. Some of the job
-            opening are:
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
+            </span>
+            ICICI Bank
+          </p>
+          <p
+            className="cont"
+            style={{
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
+            </span>
+            HDFC Bank
+          </p>
+          <p
+            className="cont"
+            style={{
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
+            </span>
+            General Insurance Corporation
+          </p>
+          <p
+            className="cont"
+            style={{
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
+            </span>
+            ICICI Prudential, Life Insurance
+          </p>
+          <p
+            className="cont"
+            style={{
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
+            </span>
+            Tata AIG Life
+          </p>
+          <p
+            className="cont"
+            style={{
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
+            </span>
+            ICICI Lombard
+          </p>
+          <p
+            className="cont"
+            style={{
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
+            </span>
+            Bharti AXA
+          </p>
+          <p
+            className="cont"
+            style={{
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
+            </span>
+            HDFC Standard Life- Insurance Co.
+          </p>
+          <p
+            className="cont"
+            style={{
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
+            </span>
+            SBI Life Insurance
           </p>
 
+          <p
+            className="cont"
+            style={{
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
+            </span>
+            Life Insurance Corporation of India
+          </p>
 
-          <p
-            className="cont"
-            style={{
-              textAlign: "justify",
-              textJustify: "inter-ideograph",
-              textIndent: "-0.25in",
-            }}
-          >
-            <span style={{ fontFamily: "Symbol" }}>
-              ·
-              <span style={{ font: '7pt "Times New Roman"' }}>
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
-              </span>
-            </span>Infrastructure Project Manager</p>
-          <p
-            className="cont"
-            style={{
-              textAlign: "justify",
-              textJustify: "inter-ideograph",
-              textIndent: "-0.25in",
-            }}
-          >
-            <span style={{ fontFamily: "Symbol" }}>
-              ·
-              <span style={{ font: '7pt "Times New Roman"' }}>
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
-              </span>
-            </span>Planning Manager</p>
-          <p
-            className="cont"
-            style={{
-              textAlign: "justify",
-              textJustify: "inter-ideograph",
-              textIndent: "-0.25in",
-            }}
-          >
-            <span style={{ fontFamily: "Symbol" }}>
-              ·
-              <span style={{ font: '7pt "Times New Roman"' }}>
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
-              </span>
-            </span>Construction Manager</p>
-          <p
-            className="cont"
-            style={{
-              textAlign: "justify",
-              textJustify: "inter-ideograph",
-              textIndent: "-0.25in",
-            }}
-          >
-            <span style={{ fontFamily: "Symbol" }}>
-              ·
-              <span style={{ font: '7pt "Times New Roman"' }}>
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
-              </span>
-            </span>Real Estate Manager</p>
-          <p
-            className="cont"
-            style={{
-              textAlign: "justify",
-              textJustify: "inter-ideograph",
-              textIndent: "-0.25in",
-            }}
-          >
-            <span style={{ fontFamily: "Symbol" }}>
-              ·
-              <span style={{ font: '7pt "Times New Roman"' }}>
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
-              </span>
-            </span>Project Consultant</p>
         </div>
-        <p
-          className="MsoNormal"
-          style={{
-            marginBottom: "0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-          }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          <b>Top Colleges in India for MBA in Infrastructure</b>
-        </p>
-        <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          MBA / PGDM in Entrepreneurshipis a very niche specialisation and is
-          offered by less than 100 colleges across India. Some of the top
-          colleges offering the program are Indian Institute of Management,
-          Ahmedabad, International School of Management, Bangalore, L. M Thapar
-          School of Management, Chandigarh, Loyola Institute of Business
-          Administration, Chennai, Pacific Institute of Management, Udaipur,
-          Adani Institute of Infrastructure Management, Ahmedabad{" "}
 
-          . To find out about the top colleges of India offering MBA / PGDM in
-          Infrastructure, <span style={{ color: "red" }}>            <Link to="/college-list?m=Top Private MBA Colleges">
-            click here
-          </Link></span>.
-        </p>
-        <p
-          className="MsoNormal" id="6"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          <b>MBA in Infrastructure - Top Recruiters </b>
-        </p>
-        <p
-          className="MsoNormal"
-          style={{
-            marginBottom: "0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-          }}
-        >
-          Infrastructure companies are the biggest recruiters of MBA / PGDM in
-          Infrastructure graduates. Some of the them are Larsen &amp; Toubro
-          Infrastructure Development Projects, Reliance Infrastructure Limited,
-          GMR Infrastructure Limited, GVK Power and Infrastructure Limited, Punj
-          Lloyd Infrastructure Limited, etc.
-        </p>
-        <p
-          className="MsoNormal"
-          style={{
-            marginBottom: "0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-          }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        />
         <CustomTable />
         <p
-          className="MsoNormal" id="7"
+          className="MsoNormal"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           &nbsp;
@@ -1230,110 +1605,155 @@ const Infrastructure = () => {
           className="MsoNormal"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
-          <b>FAQs – MBA in Infrastructure</b>
-        </p>
-        <p
-          className="cont headings"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          Q. What is the Infrastructure course?
-        </p>
-        <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          Ans. MBA / PGDM in Infrastructure Management focuses on developing
-          managerial skills related to various elements of infrastructure such
-          as conceptualization, planning, design and development, investment,
-          contract management, policies and regulations. Besides, the programme
-          teaches candidates to deal with various issues and challenges in the
-          improvement and development of infrastructure in the country.
+          <b>FAQs – MBA in Banking & Insurance</b>
         </p>
 
         <p
-          className="cont headings"
+          className="headings cont"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
-          Q. What is the eligibility criterion for the Infrastructure course?
+          Q. What is the eligibility to pursue MBA in Banking & Finance?
         </p>
         <p
-          className="MsoNormal"
+          className="cont"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
-          Ans. The eligibility criterion for MBA / PGDM in Infrastructure
-          Management is graduation or equivalent from a recognised university in
-          any discipline. Most of the institutes have minimum score criteria of
-          50 per cent in graduation (45 per cent for reserved category).
+          Ans: Anyone with a valid graduation degree in any discipline with minimum 50 per cent marks is eiligible to pursue MBA / PGDM in Banking & Insurance. For reserved category students, the minimum mark is 45 per cent.
         </p>
 
         <p
-          className="cont headings"
+          className="headings cont"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
-          Q: Which entrance exam score is required for admission to MBA in
-          Infrastructure Management?
+          Q. Can I pursue an MBA in Banking & Finance course online?
         </p>
         <p
-          className="MsoNormal"
+          className="cont"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
-          Ans: For admission to MBA / PGDM in Infrastructure Management course
-          offered by colleges in India, candidates can appear for CAT, GMAT,
-          XAT, CMAT and MAT.
+          Ans. Yes, MBA in Banking & Insurance course can be pursued in online mode. There are universities offering it in Part-time and distance mode also.
         </p>
 
         <p
-          className="cont headings"
+          className="headings cont"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
-          Q. What is the course fee for MBA in Infrastructure program?
+          Q. What is the average cost of admission to MBA in Banking & Insurance?
         </p>
         <p
-          className="MsoNormal"
+          className="cont"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
-          Ans. The course fees ranges from Rs. 1 Lac to Rs. 15 Lac for MBA /
-          PGDM in Infrastructure program.
-        </p>
-
-        <p
-          className="cont headings"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          Q. Who are the top recruiters for Infrastructure?
-        </p>
-        <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          Ans. Some of the top recruiters for Infrastructure graduates are
-          Larsen &amp; Toubro Infrastructure, Hindustan Construction Company,
-          &nbsp;Reliance Infrastructure Limited, etc.
+          Ans. The average cost of pursuing MBA in Banking & Insurance from a government college is Rs. 1 Lac, whereas the fee of a private college is in the range of Rs. 6 to Rs. 20 Lac.
         </p>
 
         <p
-          className="cont headings"
+          className="headings cont"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
-          Q: Which are the top colleges in India for MBA in Infrastructure
-          Management?
+          Q. What is the difference between MBA in Banking & Finance and MBA in Banking & Insurance?
+        </p>
+        <p
+          className="cont"
+          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
+        >
+          Ans. MBA in Banking & Insurance is a banking based course which covers the concepts and rules of banking and insurance. The course involves advance learning of liability and corporate risk. On the other hand, MBA in Banking and Finance is a program which provides technical, expert as well as practical knowledge of banking and finance along with the combinational management subjects for business as well.
+        </p>
+        <p
+          className="headings cont"
+          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
+        >
+          Q. What are some of the top jobs for MBA in Banking & Insurance graduates?
+        </p>
+        <p
+          className="cont"
+          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
+        >
+          Ans. MBA / PGDM in Banking & Insurance provides comprehensive career scope to a candidate with job options in various industries like Colleges & Universities, Banks, IT Companies, Multinational Organizations, Insurance Departments, Media Houses etc.. Some of the top jobs on offer are Financial Analyst, Credit & Risk Manager, Credit Analyst, Investment Banker, Stock Analyst, Asset Manager, Insurance Manager, Risk Manager, etc.
+        </p>
+
+        <p
+          className="headings cont"
+          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
+        >
+          Q. What is the average salary of a fresher after completing MBA / PGDM in Banking & Insurance?
+        </p>
+        <p
+          className="cont"
+          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
+        >
+          Ans: The average salary of MBA / PGDM in Banking & Insurance fresher ranges between Rs. 4 Lac to Rs. 12 Lac per annum.
+        </p>
+
+        <p
+          className="headings cont"
+          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
+        >
+          Q. What is the admission process for MBA / PGDM in Banking & Insurance course?
+        </p>
+        <p
+          className="cont"
+          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
+        >
+          Ans: Admission process is mostly dependent on the B-school a student is targeting. In general the admission processed comprises of entrance test followed up by group discussion and personal interview.
+        </p>
+
+        <p
+          className="headings cont"
+          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
+        >
+          Q. Which are the top colleges for MBA in Banking & Finance in India?
+        </p>
+        <p
+          className="cont"
+          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
+        >
+          Ans: Top colleges offering this program are International Management Institute- New Delhi, Institute of Financial Management and Research - Chittoor, ICFAI Business School- Hyderabad, International School of Business and Research - Bangalore, Institute of Public Enterprise – Hyderabad.
+        </p>
+
+        <p
+          className="headings cont"
+          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
+        >
+          Q. What do you study in MBA / PGDM in Banking & Insurance?
+        </p>
+        <p
+          className="cont"
+          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
+        >
+          Ans: Apart from the core subjects, students of Banking & Insurance has to study Insurance Management, Insurance Products, Accounting for Managers, Principles & Practices of Banking, Banking & Insurance Management, Merchant Banking & Financial Services, Marketing of banking services, Retail Insurance management, Strategic Credit management, Legal Aspect of Banking, Corporate Insurance management, Treasury & Risk Management, Mutual funds and portfolio management.
+        </p>
+
+        <p
+          className="headings cont"
+          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
+        >
+          Q. Which are the top companies hiring MBA / PGDM in Banking & Insurance graduates?
         </p>
         <p
           className="MsoNormal"
+          style={{
+            textAlign: "justify",
+            textJustify: "inter-ideograph",
+          }}
+        >
+          Ans: MBA / PGDM in Banking & Insurance graduates are hired in multiple sector like banking, finance, accounting, insurance, asset management etc. Top recruiting companies in this category are ICICI Bank, HDFC Bank, General Insurance Corporation, ICICI Prudential, Life Insurance, Tata AIG Life, ICICI Lombard, Bharti AXA, HDFC Standard Life- Insurance Co., SBI Life Insurance, Life Insurance Corporation of India etc.
+        </p>
+
+        <p
+          className="headings cont"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
-          Ans: Some of the top colleges offering MBA / PGDM in Infrastructure
-          Management are Indian Institute of Management, Ahmedabad,
-          International School of Management, Bangalore, L. M Thapar School of
-          Management, Chandigarh, Loyola Institute of Business Administration,
-          Chennai, Pacific Institute of Management, Udaipur, Adani Institute of
-          Infrastructure Management, Ahmedabad{" "}
-          <span style={{ color: "red" }}>
-            , (add more colleges of our choice).
-          </span>
+          Q. Which are the top entrance exams for MBA / PGDM in Banking & Insurance?
+        </p>
+        <p
+          className="cont"
+          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
+        >
+          Ans: The top entrance exams for MBA in Banking & Insurance are CAT, XAT, SNAP, NMAT, MAT, CMAT, and GMAT.
         </p>
       </div>
     </div>
   );
 };
-export default Infrastructure;
+export default BankingInsurance;
