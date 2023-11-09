@@ -25,7 +25,7 @@ const PublicHeader = () => {
     let timeoutId;
 
     const fetchData = async () => {
-      dispatch(headerSearch({ q: query }))
+      // dispatch(headerSearch({ q: query }))
     };
 
     if (timeoutId) {

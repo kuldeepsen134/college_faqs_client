@@ -164,6 +164,7 @@ const Signup = () => {
         setotpError(true);
       });
   };
+  
   const googleSignIn = async () => {
     const provider = new GoogleAuthProvider();
     let response;

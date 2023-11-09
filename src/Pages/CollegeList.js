@@ -153,7 +153,7 @@ const CollegeList = ({ itemsPerPage = 6 }) => {
         console.log('menu_page', menu_page);
 
         const response = await axios.post(url, {
-          q: page?.toLowerCase(),
+          // q: page?.toLowerCase(),
           m: menu_page,
           filter: { location: locationFilter, fees: feesFilter },
         }, {
@@ -169,7 +169,7 @@ const CollegeList = ({ itemsPerPage = 6 }) => {
 
     }
     fun()
-  }, [menu_page])
+  }, [menu_page, m])
 
 
 
