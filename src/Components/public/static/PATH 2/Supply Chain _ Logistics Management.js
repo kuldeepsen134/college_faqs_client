@@ -3,8 +3,8 @@ import { Link } from "react-router-dom";
 import CustomTable from "../../../CustomTable";
 const SupplyChai_LogisticsManagement = () => {
   useEffect(() => {
-    window.scrollTo(0,0);
-  },[])
+    window.scrollTo(0, 0);
+  }, [])
   return (
     <div>
       <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
@@ -38,26 +38,8 @@ const SupplyChai_LogisticsManagement = () => {
           how resources are acquired, stored and transported to their final
           destination.
         </p>
-        <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          <b>&nbsp;</b>
-        </p>
-        <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
 
-        <p
-          className="cont"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <b>Table of content</b>
+        <b className="table-details">Table of content</b>
 
         <p
           className=" MsoListParagraphCxSpFirst"
@@ -66,11 +48,8 @@ const SupplyChai_LogisticsManagement = () => {
             textJustify: "inter-ideograph",
           }}
         >
-          1.
-          <span >
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          </span><a className="link" href="#1">
-          MBA In Supply Chain &amp; Logistics Management  – Program Highlights</a>
+          <a className="link" href="#1">
+            MBA In Supply Chain &amp; Logistics Management  – Program Highlights</a>
         </p>
         <p
           className=" MsoListParagraphCxSpMiddle"
@@ -79,11 +58,8 @@ const SupplyChai_LogisticsManagement = () => {
             textJustify: "inter-ideograph",
           }}
         >
-          2.
-          <span >
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          </span><a  className="link" href="#2">
-          MBA In Supply Chain &amp; Logistics Management   – Syllabus</a>
+          <a className="link" href="#2">
+            MBA In Supply Chain &amp; Logistics Management   – Syllabus</a>
         </p>
         <p
           className=" MsoListParagraphCxSpMiddle"
@@ -92,11 +68,8 @@ const SupplyChai_LogisticsManagement = () => {
             textJustify: "inter-ideograph",
           }}
         >
-          3.
-          <span  >
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          </span><a  className="link" href="#3">
-          MBA In Supply Chain &amp; Logistics Management  : Skills Required</a>
+          <a className="link" href="#3">
+            MBA In Supply Chain &amp; Logistics Management  : Skills Required</a>
         </p>
         <p
           className=" MsoListParagraphCxSpMiddle"
@@ -105,11 +78,8 @@ const SupplyChai_LogisticsManagement = () => {
             textJustify: "inter-ideograph",
           }}
         >
-          4.
-          <span >
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          </span><a  className="link" href="#4">
-          MBA In Supply Chain &amp; Logistics Management : Job Profiles Offered</a>
+          <a className="link" href="#4">
+            MBA In Supply Chain &amp; Logistics Management : Job Profiles Offered</a>
         </p>
         <p
           className=" MsoListParagraphCxSpMiddle"
@@ -118,11 +88,8 @@ const SupplyChai_LogisticsManagement = () => {
             textJustify: "inter-ideograph",
           }}
         >
-          5.
-          <span >
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          </span>
-          Top Colleges in India for MBA In Supply Chain &amp; Logistics Management 
+
+          Top Colleges in India for MBA In Supply Chain &amp; Logistics Management
         </p>
         <p
           className=" MsoListParagraphCxSpMiddle"
@@ -131,11 +98,8 @@ const SupplyChai_LogisticsManagement = () => {
             textJustify: "inter-ideograph",
           }}
         >
-          6.
-          <span >
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          </span><a  className="link" href="#6">
-          MBA In Supply Chain &amp; Logistics Management  - Top Recruiters
+          <a className="link" href="#6">
+            MBA In Supply Chain &amp; Logistics Management  - Top Recruiters
           </a>
         </p>
         <p
@@ -145,11 +109,8 @@ const SupplyChai_LogisticsManagement = () => {
             textJustify: "inter-ideograph",
           }}
         >
-          7.
-          <span >
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          </span><a  className="link" href="#7">
-          FAQs – MBA In Supply Chain &amp; Logistics Management
+          <a className="link" href="#7">
+            FAQs – MBA In Supply Chain &amp; Logistics Management
           </a>
         </p>
 
@@ -179,57 +140,61 @@ const SupplyChai_LogisticsManagement = () => {
             <tr>
               <td
                 style={{
-                  width: "239.4pt",
+                  width: "99pt",
                   border: "solid black 1pt",
                   padding: "0in 5.4pt 0in 5.4pt",
                 }}
-                width={319}
+                width={132}
                 valign="top"
               >
                 <p
                   className="MsoNormal"
                   style={{
                     marginBottom: "0in",
-                    textAlign: "justify",
-                    textJustify: "inter-ideograph",
+                    textAlign: "center",
                     lineHeight: "normal",
                   }}
+                  align="center"
                 >
-                  Parameters
+                  <b>
+                    Parameters
+                  </b>
                 </p>
               </td>
               <td
                 style={{
-                  width: "239.4pt",
+                  width: "379.8pt",
                   border: "solid black 1pt",
                   borderLeft: "none",
                   padding: "0in 5.4pt 0in 5.4pt",
                 }}
-                width={319}
+                width={506}
                 valign="top"
               >
                 <p
                   className="MsoNormal"
                   style={{
                     marginBottom: "0in",
-                    textAlign: "justify",
-                    textJustify: "inter-ideograph",
+                    textAlign: "center",
                     lineHeight: "normal",
                   }}
+                  align="center"
                 >
-                  Details
+                  <b>
+                    Details
+                  </b>
                 </p>
               </td>
             </tr>
             <tr>
               <td
                 style={{
-                  width: "239.4pt",
+                  width: "99pt",
                   border: "solid black 1pt",
                   borderTop: "none",
                   padding: "0in 5.4pt 0in 5.4pt",
                 }}
-                width={319}
+                width={132}
                 valign="top"
               >
                 <p
@@ -246,14 +211,14 @@ const SupplyChai_LogisticsManagement = () => {
               </td>
               <td
                 style={{
-                  width: "239.4pt",
+                  width: "379.8pt",
                   borderTop: "none",
                   borderLeft: "none",
                   borderBottom: "solid black 1pt",
                   borderRight: "solid black 1pt",
                   padding: "0in 5.4pt 0in 5.4pt",
                 }}
-                width={319}
+                width={506}
                 valign="top"
               >
                 <p
@@ -272,12 +237,12 @@ const SupplyChai_LogisticsManagement = () => {
             <tr>
               <td
                 style={{
-                  width: "239.4pt",
+                  width: "99pt",
                   border: "solid black 1pt",
                   borderTop: "none",
                   padding: "0in 5.4pt 0in 5.4pt",
                 }}
-                width={319}
+                width={132}
                 valign="top"
               >
                 <p
@@ -294,14 +259,14 @@ const SupplyChai_LogisticsManagement = () => {
               </td>
               <td
                 style={{
-                  width: "239.4pt",
+                  width: "379.8pt",
                   borderTop: "none",
                   borderLeft: "none",
                   borderBottom: "solid black 1pt",
                   borderRight: "solid black 1pt",
                   padding: "0in 5.4pt 0in 5.4pt",
                 }}
-                width={319}
+                width={506}
                 valign="top"
               >
                 <p
@@ -313,20 +278,20 @@ const SupplyChai_LogisticsManagement = () => {
                     lineHeight: "normal",
                   }}
                 >
-                  Graduation Degree with minimum 50 per cent in any discipline
-                  (45 per cent for reserved category)
+                  Graduation Degree with minimum 50 per cent (45 per cent for
+                  reserved category) in B Tech, BE, B Sc (PCM)
                 </p>
               </td>
             </tr>
             <tr>
               <td
                 style={{
-                  width: "239.4pt",
+                  width: "99pt",
                   border: "solid black 1pt",
                   borderTop: "none",
                   padding: "0in 5.4pt 0in 5.4pt",
                 }}
-                width={319}
+                width={132}
                 valign="top"
               >
                 <p
@@ -343,14 +308,14 @@ const SupplyChai_LogisticsManagement = () => {
               </td>
               <td
                 style={{
-                  width: "239.4pt",
+                  width: "379.8pt",
                   borderTop: "none",
                   borderLeft: "none",
                   borderBottom: "solid black 1pt",
                   borderRight: "solid black 1pt",
                   padding: "0in 5.4pt 0in 5.4pt",
                 }}
-                width={319}
+                width={506}
                 valign="top"
               >
                 <p
@@ -369,12 +334,12 @@ const SupplyChai_LogisticsManagement = () => {
             <tr>
               <td
                 style={{
-                  width: "239.4pt",
+                  width: "99pt",
                   border: "solid black 1pt",
                   borderTop: "none",
                   padding: "0in 5.4pt 0in 5.4pt",
                 }}
-                width={319}
+                width={132}
                 valign="top"
               >
                 <p
@@ -391,14 +356,14 @@ const SupplyChai_LogisticsManagement = () => {
               </td>
               <td
                 style={{
-                  width: "239.4pt",
+                  width: "379.8pt",
                   borderTop: "none",
                   borderLeft: "none",
                   borderBottom: "solid black 1pt",
                   borderRight: "solid black 1pt",
                   padding: "0in 5.4pt 0in 5.4pt",
                 }}
-                width={319}
+                width={506}
                 valign="top"
               >
                 <p
@@ -410,19 +375,19 @@ const SupplyChai_LogisticsManagement = () => {
                     lineHeight: "normal",
                   }}
                 >
-                  CAT, XAT, CMAT, MAT, NMAT, etc
+                  CAT, XAT, CMAT, MAT,&nbsp; etc
                 </p>
               </td>
             </tr>
             <tr>
               <td
                 style={{
-                  width: "239.4pt",
+                  width: "99pt",
                   border: "solid black 1pt",
                   borderTop: "none",
                   padding: "0in 5.4pt 0in 5.4pt",
                 }}
-                width={319}
+                width={132}
                 valign="top"
               >
                 <p
@@ -434,19 +399,19 @@ const SupplyChai_LogisticsManagement = () => {
                     lineHeight: "normal",
                   }}
                 >
-                  Program Options
+                  Program Option
                 </p>
               </td>
               <td
                 style={{
-                  width: "239.4pt",
+                  width: "379.8pt",
                   borderTop: "none",
                   borderLeft: "none",
                   borderBottom: "solid black 1pt",
                   borderRight: "solid black 1pt",
                   padding: "0in 5.4pt 0in 5.4pt",
                 }}
-                width={319}
+                width={506}
                 valign="top"
               >
                 <p
@@ -458,19 +423,19 @@ const SupplyChai_LogisticsManagement = () => {
                     lineHeight: "normal",
                   }}
                 >
-                  Full Time, Part Time, Distance, Online
+                  Full Time
                 </p>
               </td>
             </tr>
             <tr>
               <td
                 style={{
-                  width: "239.4pt",
+                  width: "99pt",
                   border: "solid black 1pt",
                   borderTop: "none",
                   padding: "0in 5.4pt 0in 5.4pt",
                 }}
-                width={319}
+                width={132}
                 valign="top"
               >
                 <p
@@ -487,14 +452,14 @@ const SupplyChai_LogisticsManagement = () => {
               </td>
               <td
                 style={{
-                  width: "239.4pt",
+                  width: "379.8pt",
                   borderTop: "none",
                   borderLeft: "none",
                   borderBottom: "solid black 1pt",
                   borderRight: "solid black 1pt",
                   padding: "0in 5.4pt 0in 5.4pt",
                 }}
-                width={319}
+                width={506}
                 valign="top"
               >
                 <p
@@ -532,12 +497,12 @@ const SupplyChai_LogisticsManagement = () => {
             <tr>
               <td
                 style={{
-                  width: "239.4pt",
+                  width: "99pt",
                   border: "solid black 1pt",
                   borderTop: "none",
                   padding: "0in 5.4pt 0in 5.4pt",
                 }}
-                width={319}
+                width={132}
                 valign="top"
               >
                 <p
@@ -554,14 +519,14 @@ const SupplyChai_LogisticsManagement = () => {
               </td>
               <td
                 style={{
-                  width: "239.4pt",
+                  width: "379.8pt",
                   borderTop: "none",
                   borderLeft: "none",
                   borderBottom: "solid black 1pt",
                   borderRight: "solid black 1pt",
                   padding: "0in 5.4pt 0in 5.4pt",
                 }}
-                width={319}
+                width={506}
                 valign="top"
               >
                 <p
@@ -580,12 +545,12 @@ const SupplyChai_LogisticsManagement = () => {
             <tr>
               <td
                 style={{
-                  width: "239.4pt",
+                  width: "99pt",
                   border: "solid black 1pt",
                   borderTop: "none",
                   padding: "0in 5.4pt 0in 5.4pt",
                 }}
-                width={319}
+                width={132}
                 valign="top"
               >
                 <p
@@ -602,14 +567,14 @@ const SupplyChai_LogisticsManagement = () => {
               </td>
               <td
                 style={{
-                  width: "239.4pt",
+                  width: "379.8pt",
                   borderTop: "none",
                   borderLeft: "none",
                   borderBottom: "solid black 1pt",
                   borderRight: "solid black 1pt",
                   padding: "0in 5.4pt 0in 5.4pt",
                 }}
-                width={319}
+                width={506}
                 valign="top"
               >
                 <p
@@ -628,12 +593,12 @@ const SupplyChai_LogisticsManagement = () => {
             <tr>
               <td
                 style={{
-                  width: "239.4pt",
+                  width: "99pt",
                   border: "solid black 1pt",
                   borderTop: "none",
                   padding: "0in 5.4pt 0in 5.4pt",
                 }}
-                width={319}
+                width={132}
                 valign="top"
               >
                 <p
@@ -650,49 +615,79 @@ const SupplyChai_LogisticsManagement = () => {
               </td>
               <td
                 style={{
-                  width: "239.4pt",
+                  width: "379.8pt",
                   borderTop: "none",
                   borderLeft: "none",
                   borderBottom: "solid black 1pt",
                   borderRight: "solid black 1pt",
                   padding: "0in 5.4pt 0in 5.4pt",
                 }}
-                width={319}
+                width={506}
                 valign="top"
               >
                 <p
                   className="MsoNormal"
-                  style={{ marginBottom: "0in", lineHeight: "normal" }}
+                  style={{
+                    marginBottom: "0in",
+                    textAlign: "justify",
+                    textJustify: "inter-ideograph",
+                    lineHeight: "normal",
+                  }}
                 >
                   Supply Chain Manager
                 </p>
                 <p
                   className="MsoNormal"
-                  style={{ marginBottom: "0in", lineHeight: "normal" }}
+                  style={{
+                    marginBottom: "0in",
+                    textAlign: "justify",
+                    textJustify: "inter-ideograph",
+                    lineHeight: "normal",
+                  }}
                 >
                   Quality Manager
                 </p>
                 <p
                   className="MsoNormal"
-                  style={{ marginBottom: "0in", lineHeight: "normal" }}
+                  style={{
+                    marginBottom: "0in",
+                    textAlign: "justify",
+                    textJustify: "inter-ideograph",
+                    lineHeight: "normal",
+                  }}
                 >
                   Operations Analyst
                 </p>
                 <p
                   className="MsoNormal"
-                  style={{ marginBottom: "0in", lineHeight: "normal" }}
+                  style={{
+                    marginBottom: "0in",
+                    textAlign: "justify",
+                    textJustify: "inter-ideograph",
+                    lineHeight: "normal",
+                  }}
                 >
                   Transport Officer
                 </p>
                 <p
                   className="MsoNormal"
-                  style={{ marginBottom: "0in", lineHeight: "normal" }}
+                  style={{
+                    marginBottom: "0in",
+                    textAlign: "justify",
+                    textJustify: "inter-ideograph",
+                    lineHeight: "normal",
+                  }}
                 >
                   Inventory Manager
                 </p>
                 <p
                   className="MsoNormal"
-                  style={{ marginBottom: "0in", lineHeight: "normal" }}
+                  style={{
+                    marginBottom: "0in",
+                    textAlign: "justify",
+                    textJustify: "inter-ideograph",
+                    lineHeight: "normal",
+                  }}
                 >
                   Warehouse Supervisor
                 </p>
@@ -706,11 +701,7 @@ const SupplyChai_LogisticsManagement = () => {
         >
           &nbsp;
         </p>
-        <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        />
-<CustomTable />
+        <CustomTable />
         <p
           className="MsoNormal" id="2"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
@@ -1025,109 +1016,225 @@ const SupplyChai_LogisticsManagement = () => {
             </tr>
           </tbody>
         </table>
+
         <p
           className="MsoNormal"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           &nbsp;
         </p>
-        <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="MsoNormal" id="3"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          <b>MBA in Supply Chain &amp; Logistics Management: Skills Required</b>
-        </p>
-        <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          Candidates who wish to pursue supply chain and logistics courses must
-          have the following skillsets.
-        </p>
-        <ul className="cont" style={{marginLeft:"0.5in"}}>
-          <li>Decision-making skills</li>
-          <li>Analytical skills</li>
-          <li>Numerical skills</li>
-          <li>Leadership skills</li>
-          <li>Geographical skills</li>
-          <li>Communication skills</li>
-        </ul>
-        <p
-          className="MsoNormal"
-          style={{
-            marginBottom: "0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-          }}
-        >
-          &nbsp;
-        </p>
+
+        <div className="required-skills">
+          <p
+            className="MsoNormal" id="3"
+            style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
+          >
+            <b>MBA in Supply Chain &amp; Logistics Management: Skills Required</b>
+          </p>
+          <p
+            className="MsoNormal"
+            style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
+          >
+            Candidates who wish to pursue supply chain and logistics courses must
+            have the following skillsets.
+          </p>
+
+          <p
+            className="cont"
+            style={{ textIndent: "-0.25in" }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
+            </span>Decision-making skills</p>
+          <p
+            className="cont"
+            style={{ textIndent: "-0.25in" }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
+            </span>Analytical skills</p>
+          <p
+            className="cont"
+            style={{ textIndent: "-0.25in" }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
+            </span>Numerical skills</p>
+          <p
+            className="cont"
+            style={{ textIndent: "-0.25in" }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
+            </span>Leadership skills</p>
+          <p
+            className="cont"
+            style={{ textIndent: "-0.25in" }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
+            </span>Geographical skills</p>
+          <p
+            className="cont"
+            style={{ textIndent: "-0.25in" }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
+            </span>Communication skills</p>
+
+        </div>
+
         <p
           className="MsoNormal" id="4"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           <b>&nbsp;</b>
         </p>
-        <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          <b>
-            MBA in Supply Chain &amp; Logistics Management: Job Profiles Offered
-          </b>
-        </p>
-        <p
-          className="MsoNormal"
-          style={{
-            marginBottom: "0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-          }}
-        >
-          MBA / PGDM in Supply Chain &amp; Logistics Management find
-          opportunities in MNCs, warehouses, logistic industry, transport
-          companies, import and export companies as operation analyst,
-          consultant, manager, production planner, quality manager, inventory
-          manager etc. Some of the job profiles on offered are:
-        </p>
-        <p
-          className="MsoNormal"
-          style={{
-            marginBottom: "0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-          }}
-        >
-          &nbsp;
-        </p>
-        <ul className="cont" style={{marginLeft:"0.5in"}}>
-          <li>Supply Chain Manager</li>
-          <li>Quality Manager</li>
-          <li>Operations Analyst</li>
-          <li>Transport Officer</li>
-          <li>Resource Manager</li>
-          <li>Operations Head</li>
-          <li>Supply Chain Assistant</li>
-          <li>Assistant Operations Manager</li>
-          <li>Inventory Manager</li>
-          <li>Warehouse Supervisor</li>
-        </ul>
-        <p
-          className="MsoNormal"
-          style={{
-            marginBottom: "0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-          }}
-        >
-          &nbsp;
-        </p>
+
+        <div className="required-skills">
+          <p
+            className="MsoNormal"
+            style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
+          >
+            <b>
+              MBA in Supply Chain &amp; Logistics Management: Job Profiles Offered
+            </b>
+          </p>
+          <p
+            className="MsoNormal"
+            style={{
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+            }}
+          >
+            MBA / PGDM in Supply Chain &amp; Logistics Management find
+            opportunities in MNCs, warehouses, logistic industry, transport
+            companies, import and export companies as operation analyst,
+            consultant, manager, production planner, quality manager, inventory
+            manager etc. Some of the job profiles on offered are:
+          </p>
+
+
+          <p
+            className="cont"
+            style={{ textIndent: "-0.25in" }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
+            </span> Supply Chain Manager</p>
+          <p
+            className="cont"
+            style={{ textIndent: "-0.25in" }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
+            </span> Quality Manager</p>
+          <p
+            className="cont"
+            style={{ textIndent: "-0.25in" }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
+            </span> Operations Analyst</p>
+          <p
+            className="cont"
+            style={{ textIndent: "-0.25in" }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
+            </span> Transport Officer</p>
+          <p
+            className="cont"
+            style={{ textIndent: "-0.25in" }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
+            </span> Resource Manager</p>
+          <p
+            className="cont"
+            style={{ textIndent: "-0.25in" }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
+            </span> Operations Head</p>
+          <p
+            className="cont"
+            style={{ textIndent: "-0.25in" }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
+            </span> Supply Chain Assistant</p>
+          <p
+            className="cont"
+            style={{ textIndent: "-0.25in" }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
+            </span> Assistant Operations Manager</p>
+          <p
+            className="cont"
+            style={{ textIndent: "-0.25in" }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
+            </span> Inventory Manager</p>
+          <p
+            className="cont"
+            style={{ textIndent: "-0.25in" }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
+            </span> Warehouse Supervisor</p>
+
+        </div>
         <p
           className="MsoNormal"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
@@ -1153,8 +1260,8 @@ const SupplyChai_LogisticsManagement = () => {
           To find out about the top colleges of India offering MBA / PGDM in
           Supply Chain &amp; Logistics Management,{" "}
           <span style={{ color: "red" }}><Link to="/college-list?m=Top Private MBA Colleges">
-              click here
-            </Link></span>.
+            click here
+          </Link></span>.
         </p>
         <p
           className="MsoNormal"
@@ -1162,83 +1269,154 @@ const SupplyChai_LogisticsManagement = () => {
         >
           &nbsp;
         </p>
+
+        <div className="required-skills">
+          <p
+            className="MsoNormal" id="6"
+            style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
+          >
+            <b>
+              MBA in Supply Chain &amp; Logistics Management - Top Recruiters{" "}
+            </b>
+          </p>
+          <p
+            className="MsoNormal"
+            style={{
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+            }}
+          >
+            Top companies that recruit MBA / PGDM in Operations graduates include
+            E-commerce, Logistics, FMCG, Transport, Manufacturing, Supply Chain
+            and Consulting companies. Some of the top recruiters are:
+          </p>
+
+
+          <p
+            className="cont"
+            style={{ textIndent: "-0.25in" }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
+            </span>Accenture</p>
+          <p
+            className="cont"
+            style={{ textIndent: "-0.25in" }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
+            </span>Flipkart</p>
+          <p
+            className="cont"
+            style={{ textIndent: "-0.25in" }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
+            </span>Amazon</p>
+          <p
+            className="cont"
+            style={{ textIndent: "-0.25in" }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
+            </span>Snapdeal</p>
+          <p
+            className="cont"
+            style={{ textIndent: "-0.25in" }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
+            </span>Future Retail</p>
+          <p
+            className="cont"
+            style={{ textIndent: "-0.25in" }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
+            </span>Bharti Airtel</p>
+          <p
+            className="cont"
+            style={{ textIndent: "-0.25in" }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
+            </span>Reliance Industries</p>
+          <p
+            className="cont"
+            style={{ textIndent: "-0.25in" }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
+            </span>ITC</p>
+          <p
+            className="cont"
+            style={{ textIndent: "-0.25in" }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
+            </span>L &amp; T</p>
+          <p
+            className="cont"
+            style={{ textIndent: "-0.25in" }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
+            </span>Proctor &amp; Gamble</p>
+
+        </div>
         <p
           className="MsoNormal"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           &nbsp;
         </p>
-        <p
-          className="MsoNormal" id="6"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          <b>
-            MBA in Supply Chain &amp; Logistics Management - Top Recruiters{" "}
-          </b>
-        </p>
-        <p
-          className="MsoNormal"
-          style={{
-            marginBottom: "0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-          }}
-        >
-          Top companies that recruit MBA / PGDM in Operations graduates include
-          E-commerce, Logistics, FMCG, Transport, Manufacturing, Supply Chain
-          and Consulting companies. Some of the top recruiters are:
-        </p>
-        <p
-          className="MsoNormal"
-          style={{
-            marginBottom: "0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-          }}
-        >
-          &nbsp;
-        </p>
-        <ul className="cont" style={{marginLeft:"0.5in"}}>
-          <li>Accenture</li>
-          <li>Flipkart</li>
-          <li>Amazon</li>
-          <li>Snapdeal</li>
-          <li>Future Retail</li>
-          <li>Bharti Airtel</li>
-          <li>Reliance Industries</li>
-          <li>ITC</li>
-          <li>L &amp; T</li>
-          <li>Proctor &amp; Gamble</li>
-        </ul>
+
+        <CustomTable />
         <p
           className="MsoNormal"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           &nbsp;
         </p>
-        <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        />
-<CustomTable />
-        <p
-          className="MsoNormal" id="7"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        />
         <p
           className="MsoNormal"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           <b>FAQs – MBA in Supply Chain &amp; Logistics Management</b>
         </p>
+
         <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="MsoNormal"
+          className="cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           Q: What is the advantage of studying MBA in Supply Chain &amp;
@@ -1257,14 +1435,9 @@ const SupplyChai_LogisticsManagement = () => {
           production and sales companies, retail chain operators, e-commerce to
           name a few.
         </p>
+
         <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="MsoNormal"
+          className="cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           Q: What is the admission criterion for MBA in Supply Chain &amp;
@@ -1278,14 +1451,9 @@ const SupplyChai_LogisticsManagement = () => {
           in MBA / PGDM, a candidate must be having minimum 50 per cent marks in
           aggregate in graduation (45 per cent for reserved category student).
         </p>
+
         <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="MsoNormal"
+          className="cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           Q: Is supply chain management difficult to study?
@@ -1301,14 +1469,9 @@ const SupplyChai_LogisticsManagement = () => {
           Management places you at the centre of the business operations,
           allowing you to handle everything from packaging to shipment.
         </p>
+
         <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="MsoNormal"
+          className="cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           Q: What are the career prospects after MBA in Supply Chain &amp;
@@ -1323,14 +1486,9 @@ const SupplyChai_LogisticsManagement = () => {
           Supply Chain Manager, Quality Manager, Operations Analyst, Transport
           Officer, Resource Manager, etc.
         </p>
+
         <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="MsoNormal"
+          className="cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           Q: Which are the top colleges for MBA in Supply Chain &amp; Logistics
@@ -1348,14 +1506,9 @@ const SupplyChai_LogisticsManagement = () => {
             (more names of our tie up colleges to be written)
           </span>
         </p>
+
         <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="MsoNormal"
+          className="cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           Q: What is the average starting salary for an MBA in Supply Chain
@@ -1369,14 +1522,9 @@ const SupplyChai_LogisticsManagement = () => {
           Logistics Management can be Rs. 5 Lac per annum. With experience in 3
           – 5 years a candidate can hike it up to Rs. 10 – 15 Lac per annum.
         </p>
+
         <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="MsoNormal"
+          className="cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           Q: What are key roles of a Supply Chain &amp; Logistics Manager?
@@ -1391,14 +1539,9 @@ const SupplyChai_LogisticsManagement = () => {
           to wholesaler to retailer to consumer starting from raw materials till
           the delivery of finish goods.
         </p>
+
         <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="MsoNormal"
+          className="cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           Q: Which are the top companies that hire Supply Chain &amp; Logistics
@@ -1414,14 +1557,9 @@ const SupplyChai_LogisticsManagement = () => {
           Flipkart, Amazon, Snapdeal, Future Retail, Bharti Airtel, Reliance
           Industries, ITC, L &amp; T, Proctor &amp; Gamble, etc.
         </p>
+
         <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="MsoNormal"
+          className="cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           Q: Which are the top entrance exams for MBA / PGDM in Supply Chain
@@ -1434,8 +1572,7 @@ const SupplyChai_LogisticsManagement = () => {
           Ans: The top entrance exams for MBA / PGDM in Supply Chain &amp;
           Logistics Management are CAT, XAT, SNAP, NMAT, MAT, CMAT, and GMAT.
         </p>
-        <p className="MsoNormal">&nbsp;</p>
-        <p className="MsoNormal">&nbsp;</p>
+            
       </div>
     </div>
   );
