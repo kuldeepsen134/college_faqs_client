@@ -64,6 +64,7 @@ import MCA from "../Components/public/static/PATH 2/MCA";
 import AskQuestion from "../Pages/AskQuestion";
 import AboutUs from "../Pages/about-us";
 import CompairCollage from "../Pages/compairCollage";
+import Event from "../Components/public/static/PATH 2/Event";
 
 export const MainRoutes = [
   {
@@ -475,7 +476,7 @@ export const DefaultRoutes = [
     guard: null,
   },
   {
-    path: "//nmat-2022",
+    path: "/nmat-2022",
     component: NMAT2022,
     children: null,
     guard: null,
@@ -493,8 +494,8 @@ export const DefaultRoutes = [
     guard: null,
   },
   {
-    path: "/ibsat",
-    component: IBSAT2023,
+    path: "/mah-cet",
+    component: MAHCET,
     children: null,
     guard: null,
   },
