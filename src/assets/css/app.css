@@ -19264,9 +19264,14 @@ b.table-details {
 }
 
 .custom-pages {
-  margin: 145px auto  ;
+  margin: 145px auto;
 }
 
 .custom-pages .row::after {
   display: none;
+}
+
+
+.custom-pages p b {
+  font-size: 14px;
 }

@@ -64,7 +64,7 @@ const PublicFooter = () => {
                 </div>
                 <div className="d-flex y-gap-10 flex-column">
                   <a href="/privacy-policy">Privacy Policy</a>
-                  <a href="/">Terms of use</a>
+                  <a href="/termCondition">Terms of use</a>
                 </div>
               </div>
 
