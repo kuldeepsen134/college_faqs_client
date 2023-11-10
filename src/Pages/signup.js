@@ -1,5 +1,7 @@
 import { useState } from "react";
 import axios from "../api/axios";
+
+
 import { authentication } from "../hooks/firebase";
 import { toast } from "react-toastify";
 import {
@@ -38,6 +40,16 @@ const Signup = () => {
   const location = useLocation();
   const from = location.state?.from?.pathname || "/";
   const navigate = useNavigate();
+
+  const [isSentOTP, setisSentOTP] = useState(false);
+  const [isVerifyOTP, setisVerifyOTP] = useState(false);
+
+
+  const [inputValue, setInputValue] = useState('');
+
+  const [inputOTP, setInputOTP] = useState('');
+
+
 
   const onFileUpload = async (event) => {
     const file = event.target.files
@@ -114,6 +126,7 @@ const Signup = () => {
       setSubmit(false);
     }
   };
+
   const generateRecaptcha = () => {
     window.recaptchaVerifier = new RecaptchaVerifier(
       "recaptcha-container",
@@ -135,6 +148,7 @@ const Signup = () => {
     let appVerifier = window.recaptchaVerifier;
     signInWithPhoneNumber(authentication, "+91" + number, appVerifier)
       .then((result) => {
+        console.log('result>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>', result);
         window.result = result;
         setisOTPSent(true);
         setOtpSentMsg(true);
@@ -164,19 +178,23 @@ const Signup = () => {
         setotpError(true);
       });
   };
-  
+
   const googleSignIn = async () => {
     const provider = new GoogleAuthProvider();
     let response;
     try {
       response = await signInWithPopup(authentication, provider);
-      console.log(response);
+      console.log('responseVVVVVVVVVVVVV', response);
     } catch (err) {
       toast.error("Something Went Wrong, please try again!");
       console.log(err);
       return;
     }
     try {
+
+      if (response.user.uid) {
+        setisSentOTP(!isSentOTP)
+      }
       response = await axios.post("/login/google", { uid: response.user.uid });
       setAuth({ token: response.data.token });
       localStorage.setItem("token", response.data.token);
@@ -185,6 +203,24 @@ const Signup = () => {
       console.log(err);
     }
   };
+
+  const handleSubmit = (event) => {
+    event.preventDefault();
+    console.log('value Mobile>>>', inputValue);
+    setNumber(inputValue)
+    setisVerifyOTP(!isVerifyOTP)
+  }
+
+  const handleOTP = (event) => {
+    event.preventDefault();
+    setisSentOTP(isSentOTP)
+    setotp(inputOTP)
+    console.log('value>OTP Verify>>', inputOTP);
+  }
+
+
+
+
   return (
     <>
       {auth?.token ? (
@@ -253,15 +289,13 @@ const Signup = () => {
                     </Link>
                   </p>
 
-                  <form
+                  {/* Register with email */}
+
+                  {!isSentOTP && <form
                     className="contact-form respondForm__form row y-gap-20 pt-30 form1"
                     action="#"
                   >
-
-
                     <div className="col-lg-12" style={{ marginTop: "-10px", display: "flex", justifyContent: 'center' }}>
-
-
 
                       {
                         image ?
@@ -484,24 +518,89 @@ const Signup = () => {
                         Verify
                       </button>
                     </div>
-                  </form>
+                  </form>}
 
                   <div className="lh-12 text-dark-1 fw-500 text-center mt-20">
                     Or sign in using
                   </div>
 
                   <div className="d-flex x-gap-20 items-center justify-between pt-20">
+
+                    {/* Register with Google */}
+                    {isSentOTP &&
+                      <form
+                        className="contact-form respondForm__form row y-gap-20 pt-30"
+                        action="#"
+                        onSubmit={handleSubmit}
+                      >
+                        <div id="recaptcha-container"></div>
+                        <div className="col-12">
+                          <label className="text-16 lh-1 fw-500 text-dark-1 mb-10">
+                            Mobile Number
+                          </label>
+                          <input
+                            type="text"
+                            name="mobile_number"
+                            value={number}
+                            onChange={(e) => setNumber(e.target.value)}
+                            required
+                          />
+                        </div>
+                        <div className="col-12">
+                          <button
+                            type="submit"
+                            className="button -md -green-1 text-dark-1 fw-500 w-1/1"
+                            onClick={(e) => {
+                              e.preventDefault();
+                              signin();
+                              setisVerifyOTP(!isVerifyOTP);
+                            }}
+                          >
+                            Send OTP
+                          </button>
+                        </div>
+
+                        {isVerifyOTP && (<>
+                          <div className="col-12">
+                            <label className="text-16 lh-1 fw-500 text-dark-1 mb-10">
+                              Verify OTP
+                            </label>
+                            <input
+                              type="text"
+                              name="verify_otp"
+                              value={otp}
+                              onChange={(e) => setotp(e.target.value)}
+                              required
+                            />
+                          </div>
+
+                          <div className="col-12">
+                            <button
+                              type="button"
+                              className="button -md -green-1 text-dark-1 fw-500 w-1/1"
+                              onClick={(e) => { handleOTP(e); ValidateOtp(e) }}
+                            >
+                              Verify OTP
+                            </button>
+                          </div>
+                        </>
+                        )}
+                      </form>
+                    }
+                    {/* End form Register with Google */}
+
+
                     <div
                       style={{
                         margin: "0 auto",
                       }}
                     >
-                      <button
+                      {!isSentOTP && <button
                         className="button -md px-24 py-20 -outline-red-3 text-red-3 text-14"
                         onClick={googleSignIn}
                       >
                         Log In via Google+
-                      </button>
+                      </button>}
                     </div>
                   </div>
                 </div>

@@ -88,7 +88,7 @@ const Login = () => {
     let response;
     try {
       response = await signInWithPopup(authentication, provider);
-      console.log(response);
+      console.log('response<<<<<>>>>>>', response);
       setGoogleToken(response)
     } catch (err) {
       toast.error("Something Went Wrong, please try again!");
@@ -96,6 +96,10 @@ const Login = () => {
       return;
     }
     try {
+
+
+      console.log('response>>>>>>DDDDDDDDDDD', response);
+
       response = await axios.post("/login/google", { uid: response.user.uid });
       setAuth({ token: response.data.token });
       localStorage.setItem("token", response.data.token);
@@ -108,6 +112,7 @@ const Login = () => {
   const formik = useFormik({
     initialValues: {},
     enableReinitialize: true,
+
     onSubmit: async (values) => {
       let fullname = googleToken?.user?.displayName
       values['name'] = fullname
@@ -254,8 +259,6 @@ const Login = () => {
                       <div className="col-12">
                         <button
                           type="submit"
-                          // name="submit"
-                          // id="submit"
                           className="button -md -green-1 text-dark-1 fw-500 w-1/1"
                         // onClick={(e) => onSubmit(e)}
                         >
