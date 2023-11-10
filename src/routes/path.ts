@@ -63,6 +63,7 @@ import BCA from "../Components/public/static/PATH 2/BCA";
 import MCA from "../Components/public/static/PATH 2/MCA";
 import AskQuestion from "../Pages/AskQuestion";
 import AboutUs from "../Pages/about-us";
+import PrivacyPolicy from "../Pages/privacy-policy";
 import CompairCollage from "../Pages/compairCollage";
 import Event from "../Components/public/static/PATH 2/Event";
 
@@ -133,7 +134,12 @@ export const MainRoutes = [
     children: null,
     guard: null,
   },
-
+  {
+    path: "/privacy-policy",
+    component: PrivacyPolicy,
+    children: null,
+    guard: null,
+  },
   
 ]
 export const DefaultRoutes = [
