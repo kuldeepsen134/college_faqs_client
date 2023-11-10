@@ -19247,6 +19247,7 @@ b.table-details {
   .custom-page {
     width: 100% !important;
   }
+
   .custom-sidebar {
     max-width: 65%;
     right: 0;
@@ -19258,6 +19259,14 @@ b.table-details {
   }
 }
 
-.login-profile a:hover{
+.login-profile a:hover {
   background-color: transparent !important;
+}
+
+.custom-pages {
+  margin: 145px auto  ;
+}
+
+.custom-pages .row::after {
+  display: none;
 }
