@@ -762,8 +762,44 @@ const PrivacyPolicy = () => {
 							</h4>
 							<p className="cont ms-0">Amount paid for application form, admission fee, tuition fee, etc towards any institution, <b> collegefaqs.com</b> will not be liable for any such payment refund or adjustment. The User should refer to the refund and cancellation policy of the institution to understand the same.
 							</p>
-							<p>
-							Our team would be available to address any concerns related to the product and services rendered by us. For further information, please write to us at <b> info@collegefaqs.com</b>
+							<p className="cont">
+								Our team would be available to address any concerns related to the product and services rendered by us. For further information, please write to us at <b> info@collegefaqs.com</b>
+							</p>
+
+							<h4 className="mb-3">
+								<u>
+									Authorization
+								</u>
+							</h4>
+							<p className="cont ms-0">As per the Telecom Regulatory Authority of India (TRAI) guidelines, when you register on our Platforms, you authorize us and our affiliates / partners or otherwise to communicate with you through telephone / mobile, E-mail, SMS, WhatsApp or other modes of communication even if Your number / numbers(s) is / are registered in the National Do Not Call Registry (NDNC) or www.nccptrai.gov.in
+							</p>
+
+
+							<h4 className="mb-3">
+								<u>
+									Disclaimer
+								</u>
+							</h4>
+							<p className="cont ms-0"><b>Collegefaqs.com</b> shall not be liable for any loss or damage sustained by reason of any disclosure (inadvertent or otherwise) of any information concerning the user's account and / or information relating to or regarding online transactions using credit cards / debit cards and / or their verification process and particulars nor for any error, omission or inaccuracy with respect to any information so disclosed and used whether or not in pursuance of a legal process or otherwise. <b>Collegefaqs.com</b>  does not store any Credit / Debit card details.
+							</p>
+							<p className="cont ms-0">Any other personal information shared by you which is not asked by us during registration, either mandatorily or optionally; accounts to willful and intentional furnishing; and we will not be liable for breach of such information.</p>
+							<p className="cont ms-0">
+								We reserve the right to update, change or modify our Privacy Policy at any time. Changes to our policy will be updated on our platforms only. You are advised to review this Policy regularly for any changes, as continued use is deemed approval of all changes.
+							</p>
+
+							<h4 className="mb-3">
+								<u>
+									How to Contact Us
+								</u>
+							</h4>
+							<p className="cont ms-0">You may also write to us with any questions or concerns about this Privacy Policy at:
+							</p>
+							<p className="cont ms-0">Octans Edu Services Private Limited</p>
+							<p className="cont ms-0">
+								Dharhara Kothi, Bari Path, Bihar - 800004
+							</p>
+							<p className="cont ms-0">Email:
+								<a href="mailto:info@collegefaqs.com" className="text-twitter"> <u>info@collegefaqs.com</u></a>
 							</p>
 						</div>
 					</div>

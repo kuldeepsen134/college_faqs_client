@@ -64,6 +64,7 @@ import MCA from "../Components/public/static/PATH 2/MCA";
 import AskQuestion from "../Pages/AskQuestion";
 import AboutUs from "../Pages/about-us";
 import PrivacyPolicy from "../Pages/privacy-policy";
+import TermCondition from "../Pages/term-condition";
 import CompairCollage from "../Pages/compairCollage";
 import Event from "../Components/public/static/PATH 2/Event";
 
@@ -141,6 +142,12 @@ export const MainRoutes = [
     guard: null,
   },
   
+  {
+    path: "/termCondition",
+    component: TermCondition,
+    children: null,
+    guard: null,
+  },
 ]
 export const DefaultRoutes = [
 
