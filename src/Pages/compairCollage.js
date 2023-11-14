@@ -4,7 +4,6 @@ import { instance } from "../api/axios";
 import { STATIC_URL } from "../config/config";
 import useAuth from "../hooks/useAuth";
 
-
 const CompairCollage = () => {
 
   const [isOpen, setIsOpen] = useState(false);
@@ -85,75 +84,194 @@ const CompairCollage = () => {
 
   return (
     <>
-      <section id="latest-updates" className="media-5">
-        <div className="row">
-          <div className="col-4  mb-3 py-md-2   flakh rounded" style={{ marginLeft: '180px', marginTop: '100px' }}>
-            {getCollage?.baseCollage?.map((item, i) => {
-              return (
-                <>
-                  <div style={{ display: 'flex', justifyContent: 'center' }}>
-                    <img src={STATIC_URL + "/images/" + item.college_image} alt="image" />
-                  </div>
-                  <hr />
-                  <h5 style={{ color: 'blue' }}>{item?.college_name}</h5>
-                  <p>{item?.location}</p>
-                  <p>{item?.program}</p>
+      <section id="latest-updates" className="media-5 compare-design custom-inner-pages">
+        <div className="container">
+          <div className="row">
 
-                  {/* <button style={{ color: 'blue', border: 'solid' }}>Modify Selection</button> */}
-                  <hr />
-                  <p>Institute Information</p>
-                  <hr />
-                  <div style={{ display: 'flex', justifyContent: 'space-between' }}>
-                    <p>Established Year <span>{item?.established_year}</span></p>
-                    <p>Ranking<span>{item?.ranking}</span> </p>
-                  </div>
-                  <hr />
-                  <p>Course Details</p>
-                  <hr />
-                  <div style={{ display: 'flex', justifyContent: 'space-between' }}>
-                    <p>Total Courses (11)</p>
-                  </div>
+            <div className="card-group">
+              <div className="card">
+                {getCollage?.baseCollage?.map((item, i) => {
+                  return (
+                    <>
+                      <img src={STATIC_URL + "/images/" + item.college_image} alt="image" />
+                      <div className="card-body">
+                        <h5 style={{ color: '#1048c3' }} className="institute-name px-3">{item?.college_name}</h5>
+                        <p className="location px-3">
+                          {item?.location}</p>
+                        <p className="course-name px-3">{item?.program}</p>
 
-                  <div style={{ display: 'flex', justifyContent: 'space-between' }}>
-                    <p>B.Tech</p>
-                    <p>Public/Government, Autonomous</p>
-                  </div>
-                </>
-              )
-            })}
-          </div>
-
-
-          <div className="col-3  mb-3 py-md-2  flakh rounded" style={{ marginLeft: '', marginTop: '100px' }}>
-            {!showList ?
-              <div className="add-collage mt-6 text-center" style={{ border: "dotted", height: "200px" }}>
-                <button type="button" className="add-collage-button mt-4" onClick={handleClick2}>+</button>
-                <p className="">Add to callage</p>
-                <span className="">Or</span>
-                <p className="" style={{ color: '#152edd' }}>Add to callage</p>
-              </div>
-              :
-              <div className="custom-dropdown">
-                <div className="dropdown-trigger border" onClick={toggleDropdown}>
-                  {selectedOption}
-                </div>
-
-                {isOpen && (
-                  <div className="dropdown-content">
-                    {getCollages?.map((collage, i) => {
-                      return (
-                        <div className="dropdown-option" onClick={() => selectOption(collage.id)}>
-                          {collage.college_name}
+                        {/* <button style={{ color: 'blue', border: 'solid' }}>Modify Selection</button> */}
+                        <hr />
+                        <h6 className="text-center">Institute Information</h6>
+                        <hr />
+                        <div className="px-3">
+                          <p style={{ display: 'flex', justifyContent: 'space-between' }}>Established Year <span>{item?.established_year}</span></p>
+                          <p style={{ display: 'flex', justifyContent: 'space-between' }}>Ranking<span>{item?.ranking}</span> </p>
+                          <p style={{ display: 'flex', justifyContent: 'space-between' }}>Ownership<span>Public/Government, Autonomous</span> </p>
                         </div>
-                      )
-                    })}
-                  </div>
-                )}
-              </div>
-            }
+                        <hr />
+                        <h6 className="text-center">Course Details</h6>
+                        <hr />
+                        <div style={{ display: 'flex', justifyContent: 'space-between' }} className="px-3">
+                          <p style={{ color: '#000' }}><strong>Total Courses <span> (11)</span></strong></p>
+                        </div>
 
-            {showCollageData &&
-              (<> {getCollage?.comapareCollage?.map((item, i) => {
+                        <div className="px-3">
+                          <p>B.Tech</p>
+                        </div>
+                      </div>
+                    </>
+                  )
+                })}
+              </div>
+
+              <div className="card">
+                {!showList ?
+                  <div className="add-collage mt-6 text-center">
+                    <div className=" custom-border">
+                      <button type="button" className="btn add-collage-button mt-4" onClick={handleClick2}>
+                        <span className="plus"> +</span>
+                        <span>
+                          Add College
+                        </span>
+                      </button>
+                    </div>
+                    <span className="another-addition">Or</span>
+                    <button className="btn similar-button" type="button">Add Similar College</button>
+                  </div>
+                  :
+                  <div className="custom-dropdown">
+                    <div className="dropdown-trigger border" onClick={toggleDropdown}>
+                      {selectedOption}
+                    </div>
+
+                    {isOpen && (
+                      <div className="dropdown-content">
+                        {getCollages?.map((collage, i) => {
+                          return (
+                            <div className="dropdown-option" onClick={() => selectOption(collage.id)}>
+                              {collage.college_name}
+                            </div>
+                          )
+                        })}
+                      </div>
+                    )}
+                  </div>
+                }
+
+                {showCollageData &&
+                  (<> {getCollage?.comapareCollage?.map((item, i) => {
+                    return (
+                      <>
+                        <div style={{ display: 'flex', justifyContent: 'center' }}>
+                          <img src={STATIC_URL + "/images/" + item.college_image} alt="image" />
+                        </div>
+                        <hr />
+                        <h5 style={{ color: 'blue' }}>{item?.college_name}</h5>
+                        <p>{item?.location}</p>
+                        <p>{item?.program}</p>
+
+                        {/* <button style={{ color: 'blue', border: 'solid' }}>Modify Selection</button> */}
+                        <hr />
+                        <p>Institute Information</p>
+                        <hr />
+                        <div style={{ display: 'flex', justifyContent: 'space-between' }}>
+                          <p>Established Year <span>{item?.established_year}</span></p>
+                          <p>Ranking<span>{item?.ranking}</span> </p>
+                        </div>
+                        <hr />
+                        <p>Course Details</p>
+                        <hr />
+                        <div style={{ display: 'flex', justifyContent: 'space-between' }}>
+                          <p>Total Courses (11)</p>
+                        </div>
+
+                        <div style={{ display: 'flex', justifyContent: 'space-between' }}>
+                          <p>B.Tech</p>
+                          <p>Public/Government, Autonomous</p>
+                        </div>
+                      </>
+                    )
+                  })}
+                  </>
+                  )}
+              </div>
+
+              <div className="card">
+                {!showList ?
+                  <div className="add-collage mt-6 text-center">
+                    <div className=" custom-border">
+                      <button type="button" className="btn add-collage-button mt-4" onClick={handleClick1}>
+                        <span className="plus"> +</span>
+                        <span>
+                          Add College
+                        </span>
+                      </button>
+                    </div>
+                    <span className="another-addition">Or</span>
+                    <button className="btn similar-button" type="button">Add Similar College</button>
+                  </div>
+                  :
+                  <div className="custom-dropdown">
+                    <div className="dropdown-trigger border" onClick={toggleDropdown}>
+                      {selectedOption}
+                    </div>
+
+                    {isOpen && (
+                      <div className="dropdown-content">
+                        {getCollages?.map((collage, i) => {
+                          return (
+                            <div className="dropdown-option" onClick={() => selectOption(collage.id)
+                            }>
+                              {collage.college_name}
+                            </div>
+                          )
+                        })}
+                      </div>
+                    )}
+                  </div>
+                }
+
+                {showCollageData &&
+                  (<> {getCollage?.comapareCollage?.map((item, i) => {
+                    return (
+                      <>
+                        <div style={{ display: 'flex', justifyContent: 'center' }}>
+                          <img src={STATIC_URL + "/images/" + item.college_image} alt="image" />
+                        </div>
+                        <hr />
+                        <h5 style={{ color: 'blue' }}>{item?.college_name}</h5>
+                        <p>{item?.location}</p>
+                        <p>{item?.program}</p>
+
+                        {/* <button style={{ color: 'blue', border: 'solid' }}>Modify Selection</button> */}
+                        <hr />
+                        <p>Institute Information</p>
+                        <hr />
+                        <div style={{ display: 'flex', justifyContent: 'space-between' }}>
+                          <p>Established Year <span>{item?.established_year}</span></p>
+                          <p>Ranking<span>{item?.ranking}</span> </p>
+                        </div>
+                        <hr />
+                        <p>Course Details</p>
+                        <hr />
+                        <div style={{ display: 'flex', justifyContent: 'space-between' }}>
+                          <p>Total Courses (11)</p>
+                        </div>
+
+                        <div style={{ display: 'flex', justifyContent: 'space-between' }}>
+                          <p>B.Tech</p>
+                          <p>Public/Government, Autonomous</p>
+                        </div>
+                      </>
+                    )
+                  })}
+                  </>
+                  )}
+              </div>
+            </div>
+            {/* <div className="col-4 flakh rounded">
+              {getCollage?.baseCollage?.map((item, i) => {
                 return (
                   <>
                     <div style={{ display: 'flex', justifyContent: 'center' }}>
@@ -163,8 +281,6 @@ const CompairCollage = () => {
                     <h5 style={{ color: 'blue' }}>{item?.college_name}</h5>
                     <p>{item?.location}</p>
                     <p>{item?.program}</p>
-
-                    {/* <button style={{ color: 'blue', border: 'solid' }}>Modify Selection</button> */}
                     <hr />
                     <p>Institute Information</p>
                     <hr />
@@ -186,82 +302,139 @@ const CompairCollage = () => {
                   </>
                 )
               })}
-              </>
-              )}
-          </div>
+            </div>
 
-          <div className="col-3  mb-3 py-md-2  flakh rounded" style={{ marginLeft: '', marginTop: '100px' }}>
-            {!showList ?
-              <div className="add-collage mt-6 text-center" style={{ border: "dotted", height: "200px" }}>
-                <button type="button" className="add-collage-button mt-4" onClick={handleClick1}>+</button>
-                <p className="">Add to callage</p>
-                <span className="">Or</span>
-                <p className="" style={{ color: '#152edd' }}>Add to callage</p>
-              </div>
-              :
-              <div className="custom-dropdown">
-                <div className="dropdown-trigger border" onClick={toggleDropdown}>
-                  {selectedOption}
+            <div className="col-4 flakh rounded">
+              {!showList ?
+                <div className="add-collage mt-6 text-center" style={{ border: "dotted" }}>
+                  <button type="button" className="add-collage-button mt-4" onClick={handleClick2}>+</button>
+                  <p className="">Add to callage</p>
+                  <span className="">Or</span>
+                  <p className="" style={{ color: '#152edd' }}>Add to callage</p>
                 </div>
+                :
+                <div className="custom-dropdown">
+                  <div className="dropdown-trigger border" onClick={toggleDropdown}>
+                    {selectedOption}
+                  </div>
 
-                {isOpen && (
-                  <div className="dropdown-content">
-                    {getCollages?.map((collage, i) => {
-                      return (
-                        <div className="dropdown-option" onClick={() => selectOption( collage.id)
-                    }>
-                    { collage.college_name }
-                        </div>
-                )
+                  {isOpen && (
+                    <div className="dropdown-content">
+                      {getCollages?.map((collage, i) => {
+                        return (
+                          <div className="dropdown-option" onClick={() => selectOption(collage.id)}>
+                            {collage.college_name}
+                          </div>
+                        )
+                      })}
+                    </div>
+                  )}
+                </div>
+              }
+
+              {showCollageData &&
+                (<> {getCollage?.comapareCollage?.map((item, i) => {
+                  return (
+                    <>
+                      <div style={{ display: 'flex', justifyContent: 'center' }}>
+                        <img src={STATIC_URL + "/images/" + item.college_image} alt="image" />
+                      </div>
+                      <hr />
+                      <h5 style={{ color: 'blue' }}>{item?.college_name}</h5>
+                      <p>{item?.location}</p>
+                      <p>{item?.program}</p>
+                      <hr />
+                      <p>Institute Information</p>
+                      <hr />
+                      <div style={{ display: 'flex', justifyContent: 'space-between' }}>
+                        <p>Established Year <span>{item?.established_year}</span></p>
+                        <p>Ranking<span>{item?.ranking}</span> </p>
+                      </div>
+                      <hr />
+                      <p>Course Details</p>
+                      <hr />
+                      <div style={{ display: 'flex', justifyContent: 'space-between' }}>
+                        <p>Total Courses (11)</p>
+                      </div>
+
+                      <div style={{ display: 'flex', justifyContent: 'space-between' }}>
+                        <p>B.Tech</p>
+                        <p>Public/Government, Autonomous</p>
+                      </div>
+                    </>
+                  )
                 })}
-              </div>
-                )}
-          </div>
-            }
-
-          {showCollageData &&
-            (<> {getCollage?.comapareCollage?.map((item, i) => {
-              return (
-                <>
-                  <div style={{ display: 'flex', justifyContent: 'center' }}>
-                    <img src={STATIC_URL + "/images/" + item.college_image} alt="image" />
-                  </div>
-                  <hr />
-                  <h5 style={{ color: 'blue' }}>{item?.college_name}</h5>
-                  <p>{item?.location}</p>
-                  <p>{item?.program}</p>
-
-                  {/* <button style={{ color: 'blue', border: 'solid' }}>Modify Selection</button> */}
-                  <hr />
-                  <p>Institute Information</p>
-                  <hr />
-                  <div style={{ display: 'flex', justifyContent: 'space-between' }}>
-                    <p>Established Year <span>{item?.established_year}</span></p>
-                    <p>Ranking<span>{item?.ranking}</span> </p>
-                  </div>
-                  <hr />
-                  <p>Course Details</p>
-                  <hr />
-                  <div style={{ display: 'flex', justifyContent: 'space-between' }}>
-                    <p>Total Courses (11)</p>
-                  </div>
-
-                  <div style={{ display: 'flex', justifyContent: 'space-between' }}>
-                    <p>B.Tech</p>
-                    <p>Public/Government, Autonomous</p>
-                  </div>
                 </>
-              )
-            })}
-            </>
-            )}
+                )}
+            </div>
 
+            <div className="col-4 flakh rounded">
+              {!showList ?
+                <div className="add-collage mt-6 text-center" style={{ border: "dotted" }}>
+                  <button type="button" className="add-collage-button mt-4" onClick={handleClick1}>+</button>
+                  <p className="">Add to callage</p>
+                  <span className="">Or</span>
+                  <p className="" style={{ color: '#152edd' }}>Add to callage</p>
+                </div>
+                :
+                <div className="custom-dropdown">
+                  <div className="dropdown-trigger border" onClick={toggleDropdown}>
+                    {selectedOption}
+                  </div>
 
+                  {isOpen && (
+                    <div className="dropdown-content">
+                      {getCollages?.map((collage, i) => {
+                        return (
+                          <div className="dropdown-option" onClick={() => selectOption(collage.id)
+                          }>
+                            {collage.college_name}
+                          </div>
+                        )
+                      })}
+                    </div>
+                  )}
+                </div>
+              }
 
+              {showCollageData &&
+                (<> {getCollage?.comapareCollage?.map((item, i) => {
+                  return (
+                    <>
+                      <div style={{ display: 'flex', justifyContent: 'center' }}>
+                        <img src={STATIC_URL + "/images/" + item.college_image} alt="image" />
+                      </div>
+                      <hr />
+                      <h5 style={{ color: 'blue' }}>{item?.college_name}</h5>
+                      <p>{item?.location}</p>
+                      <p>{item?.program}</p>
+                      <hr />
+                      <p>Institute Information</p>
+                      <hr />
+                      <div style={{ display: 'flex', justifyContent: 'space-between' }}>
+                        <p>Established Year <span>{item?.established_year}</span></p>
+                        <p>Ranking<span>{item?.ranking}</span> </p>
+                      </div>
+                      <hr />
+                      <p>Course Details</p>
+                      <hr />
+                      <div style={{ display: 'flex', justifyContent: 'space-between' }}>
+                        <p>Total Courses (11)</p>
+                      </div>
 
+                      <div style={{ display: 'flex', justifyContent: 'space-between' }}>
+                        <p>B.Tech</p>
+                        <p>Public/Government, Autonomous</p>
+                      </div>
+                    </>
+                  )
+                })}
+                </>
+                )}
+            </div> */}
+          </div>
         </div>
-      </div>
-    </section >
+      </section>
     </>
   )
 }
