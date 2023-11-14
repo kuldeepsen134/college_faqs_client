@@ -16,7 +16,7 @@ const CompairCollage = () => {
     (async () => {
       try {
 
-        let responce = await instance.post(`/colleges/compare/${82}`, { ids: [81] })
+        let responce = await instance.post(`/colleges/compare/${id}`, { ids: [85] })
         setCollage(responce && responce?.data?.data)
 
       } catch (error) {
@@ -27,76 +27,59 @@ const CompairCollage = () => {
 
   return (
     <>
-      <div>
-        <main id="content" role="main">
-          <div className="col-lg-9 p-0 profile-content media-4" style={{
-            width: '50%'
-          }}>
-            <section id="latest-updates" className="media-5">
-              <div
-                className=" mb-3 py-md-2 px-3 px-md-5 flakh rounded"
-                style={{
-                  marginLeft: '200px',
-                  marginTop: '100px'
+      <section id="latest-updates" className="media-5">
+        <div className="row">
+          <div class="col-4  mb-3 py-md-2   flakh rounded" style={{ marginLeft: '180px', marginTop: '100px' }}>
+            {getCollage?.baseCollage?.map((item, i) => {
+              return (
+                <>
+                  <div style={{ display: 'flex', justifyContent: 'center' }}>
+                    <img src={STATIC_URL + "/images/" + item.college_image} alt="image" />
+                  </div>
+                  <hr />
+                  <h5 style={{ color: 'blue' }}>{item?.college_name}</h5>
+                  <p>{item?.location}</p>
+                  <p>{item?.program}</p>
 
-                }}
-              >
-                {getCollage?.baseCollage?.map((item, i) => {
-                  return (<>
-                    <div style={{
-                      display: 'flex',
-                      justifyContent: 'center'
-                    }}>
-                      <img src={STATIC_URL + "/images/" + item.college_image} alt="image" />
+                  <button style={{ color: 'blue', border: 'solid' }}>Modify Selection</button>
+                  <hr />
+                  <p>Institute Information</p>
+                  <hr />
+                  <div style={{ display: 'flex', justifyContent: 'space-between' }}>
+                    <p>Established Year <span>{item?.established_year}</span></p>
+                    <p>Ranking<span>{item?.ranking}</span> </p>
+                  </div>
+                  <hr />
+                  <p>Course Details</p>
+                  <hr />
+                  <div style={{ display: 'flex', justifyContent: 'space-between' }}>
+                    <p>Total Courses (11)</p>
+                  </div>
 
-                    </div>
-                    <hr />
-                    <h5 style={{ color: 'blue' }}>{item?.college_name}</h5>
-                    <p>{item?.location}</p>
-                    <p>{item?.program}</p>
-
-                    <button style={{ color: 'blue', border: 'solid' }}>Modify Selection</button>
-                    <hr />
-                    <p>Institute Information</p>
-                    <hr />
-                    <div style={{
-                      display: 'flex',
-                      justifyContent: 'space-between'
-                    }}>
-                      <p>Established Year <span>{item?.established_year}</span></p>
-                      <p>Ranking<span>{item?.ranking}</span> </p>
-                    </div>
-                    <hr />
-                    <p>Course Details</p>
-                    <hr />
-                    <div style={{
-                      display: 'flex',
-                      justifyContent: 'space-between'
-                    }}>
-                      <p>Total Courses (11)</p>
-                    </div>
-
-                    <div style={{
-                      display: 'flex',
-                      justifyContent: 'space-between'
-                    }}>
-                      <p>B.Tech</p>
-                      <p>Public/Government, Autonomous</p>
-
-                    </div>
-                  </>
-                  )
-                })}
-              </div>
-            </section>
-
+                  <div style={{ display: 'flex', justifyContent: 'space-between' }}>
+                    <p>B.Tech</p>
+                    <p>Public/Government, Autonomous</p>
+                  </div>
+                </>
+              )
+            })}
           </div>
-        </main>
-      </div>
 
+          <div class="col-3  mb-3 py-md-2 flakh rounded" style={{ marginLeft: '', marginTop: '100px' }}>
+            <div className="add-collage mt-6 text-center" style={{ border: "dotted", height: "100px" }}>
+              <span className="">+</span>
+              <p className="">Add to callage</p>
+            </div>
+          </div>
 
-
-
+          <div class="col-3  mb-3 py-md-2  flakh rounded" style={{ marginLeft: '', marginTop: '100px' }}>
+            <div className="add-collage mt-6 text-center" style={{ border: "dotted", height: "100px" }}>
+              <span className="">+</span>
+              <p className="">Add to callage</p>
+            </div>
+          </div>
+        </div>
+      </section>
     </>
   )
 }
