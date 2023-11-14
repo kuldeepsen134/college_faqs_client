@@ -76,7 +76,7 @@ $aspect-ratios: (
 // Generate a series of ratio classes to be used like so:
 //
 // @example
-//   <div class="ratio ratio-16:9">
+//   <div className="ratio ratio-16:9">
 //
 //
 @each $ratio in $aspect-ratios {
