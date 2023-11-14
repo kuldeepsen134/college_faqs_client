@@ -39,7 +39,7 @@ const CollegeListItem = ({ item }) => {
           </div>{" "}
           <div className="school-actions ml-2 school-list-item__actions media-btn">
             <div className="position-relative button-group">
-              {token ?
+         
                 <Link
                   to={`/college-compair/${item.id}`}
                   style={{ marginTop: "50px" }}
@@ -48,12 +48,7 @@ const CollegeListItem = ({ item }) => {
                 >
                   <span className="btn-text ">Compare</span>{" "}
                 </Link>
-                :
-                <a href='/login'
-                  className="btn mx-2 btn-sm btn-rmi d-flex align-items-center justify-content-center px-1 px-md-2 rmi_10000139"
-                >
-                  Compare
-                </a>}
+                
               <br />
               {/* <a
                 href={

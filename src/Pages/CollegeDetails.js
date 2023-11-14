@@ -611,7 +611,7 @@ const CollegeDetails = () => {
                       Programs
                     </h2>
                     {/* Premium Profile Overview */}
-                    <table class="table w-1/1">
+                    <table className="table w-1/1">
                       <thead>
                         <tr>
                           <th>Programs</th>

@@ -113,3 +113,39 @@ code {
 background-color: #fff;
 
 } */
+
+
+
+/* CustomDropdown.css */
+.custom-dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-trigger {
+  padding: 10px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.custom-dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown-option {
+  padding: 12px;
+  cursor: pointer;
+}
+
+.dropdown-option:hover {
+  background-color: #ddd;
+}
