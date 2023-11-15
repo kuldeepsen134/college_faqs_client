@@ -592,33 +592,34 @@ const DashboardLayout = ({ children }: DashboardLayoutPropsType) => {
     <>
       <PublicHeader />
       {
-        pathname !== '/' ? <main className="main-content  " style={{ marginTop: "45px" }}>
-          <div className="content-wrapper  js-content-wrapper">
-            <div
+        pathname !== '/' ?
+          <main className="main-content">
+            {/* <div className="content-wrapper js-content-wrapper"> */}
+            {/* <div
               style={{
                 marginTop: isCmsPage ? "90px" : 0,
                 backgroundColor: isCmsPage ? "#9d9d9d8c" : "#fff",
               }}
-            >
-              {children}
-            </div>
+            > */}
+            {children}
+            {/* </div> */}
 
-          </div>
-        </main> :
+            {/* </div> */}
+          </main> :
           search.data ?
             <CollegeList />
-            : <main className="main-content  " style={{ marginTop: "45px" }}>
-              <div className="content-wrapper  js-content-wrapper">
-                <div
-                  style={{
-                    marginTop: isCmsPage ? "90px" : 0,
-                    backgroundColor: isCmsPage ? "#9d9d9d8c" : "#fff",
-                  }}
-                >
-                  {children}
-                </div>
+            : <main className="main-content">
+              {/* <div className="content-wrapper js-content-wrapper"> */}
+              {/* <div
+                style={{
+                  marginTop: isCmsPage ? "90px" : 0,
+                  backgroundColor: isCmsPage ? "#9d9d9d8c" : "#fff",
+                }}
+              > */}
+              {children}
+              {/* </div> */}
 
-              </div>
+              {/* </div> */}
             </main>
       }
       <PublicFooter />

@@ -9,10 +9,24 @@ const CustomPage = (props) => {
   
   return (
     <>
-    
+      <section className="hero-banner">
+        <div className="container-fluid">
+          <div className="row">
+            <div className="col-12 p-0">
+              <img
+                src="./img/college-banner.jpg"
+                alt="Hero banner"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
 
-      <div style={{ backgroundColor: "rgb(239, 232, 232)" }}>
-        <div
+      <section className="custom-inner-pages">
+        <div className="container">
+          <div className="row">
+
+            {/* <div
           style={{
             width: "80%",
             display: "block",
@@ -24,25 +38,28 @@ const CustomPage = (props) => {
             // margin: "0 auto",
             marginLeft: "270px",
           }}
-        >
-          <div
-            className="custom-page"
-            style={{
-              display: "block",
-              paddingLeft: "20px",
-              paddingTop: "10px",
-              width: "70%",
-              paddingRight: "20px",
-            }}
-          >
-            {props.children}
+        > */}
+            <div
+              className="col-8 custom-page"
+            // style={{
+            //   display: "block",
+            //   paddingLeft: "20px",
+            //   paddingTop: "10px",
+            //   width: "70%",
+            //   paddingRight: "20px",
+            // }}
+            >
+              {props.children}
+            </div>
+            <div className="col-4">
+              <BannersList custom={true} />
+            </div>
           </div>
         </div>
-        
-      </div>
-      <div>
-        <BannersList custom={true} />
-      </div>
+      </section>
+
+      {/* </div> */}
+
     </>
   );
 };

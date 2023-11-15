@@ -11,7 +11,6 @@ const Home = () => {
     <>
       <section
         className="masthead -type-1 js-mouse-move-container"
-        style={{ marginLeft: "150px" }}
       >
         <div className="masthead__bg">
           <img src="img/home-1/hero/bg.png" alt="image" />
@@ -190,7 +189,7 @@ const Home = () => {
           xlinkHref="http://www.w3.org/1999/xlink"
           viewBox="0 24 150 28"
           preserveAspectRatio="none"
-          shapeRendering="auto"
+          shape-rendering="auto"
         >
           <defs>
             <path
