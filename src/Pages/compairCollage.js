@@ -28,6 +28,8 @@ const CompairCollage = () => {
     (async () => {
       try {
         let responce = await instance.post(`/colleges/compare/${id}`, { ids: collageIDs })
+
+        console.log('new responce<<<>>',responce);
         setCollage(responce && responce?.data?.data)
 
       } catch (error) {
@@ -42,7 +44,9 @@ const CompairCollage = () => {
       navigate('/login')
     }
     try {
-      const response = await instance.get("/get-all-collages", { headers: { authorization: "Bearer " + auth.token } });
+      // const response = await instance.get("/get-all-collages", { headers: { authorization: "Bearer " + auth.token } });
+      let response = await instance.post(`/colleges/compare/${id}`, { ids: collageIDs })
+      console.log('sdsdsd', response?.data);
       setCollages(response?.data?.data)
 
     } catch (error) {
@@ -58,7 +62,9 @@ const CompairCollage = () => {
       navigate('/login')
     }
     try {
-      const response = await instance.get("/get-all-collages", { headers: { authorization: "Bearer " + auth.token } });
+      // const response = await instance.get("/get-all-collages", { headers: { authorization: "Bearer " + auth.token } });
+      let response = await instance.post(`/colleges/compare/${id}`, { ids: collageIDs })
+
       setCollages(response?.data?.data)
 
     } catch (error) {
@@ -92,7 +98,7 @@ const CompairCollage = () => {
               <div className="card">
                 {getCollage?.baseCollage?.map((item, i) => {
                   return (
-                    <>
+                    <div key={i}>
                       <img src={STATIC_URL + "/images/" + item.college_image} alt="image" />
                       <div className="card-body">
                         <h5 style={{ color: '#1048c3' }} className="institute-name px-3">{item?.college_name}</h5>
@@ -120,7 +126,7 @@ const CompairCollage = () => {
                           <p>B.Tech</p>
                         </div>
                       </div>
-                    </>
+                    </div>
                   )
                 })}
               </div>
@@ -147,10 +153,10 @@ const CompairCollage = () => {
 
                     {isOpen && (
                       <div className="dropdown-content">
-                        {getCollages?.map((collage, i) => {
+                        {getCollages?.comapareCollage?.map((collage, i) => {
                           return (
-                            <div className="dropdown-option" onClick={() => selectOption(collage.id)}>
-                              {collage.college_name}
+                            <div className="dropdown-option" onClick={() => selectOption(collage?.id)} key={i}>
+                              {collage?.college_name}
                             </div>
                           )
                         })}
@@ -219,11 +225,14 @@ const CompairCollage = () => {
 
                     {isOpen && (
                       <div className="dropdown-content">
-                        {getCollages?.map((collage, i) => {
+                        {getCollages?.comapareCollage?.map((collage, i) => {
                           return (
-                            <div className="dropdown-option" onClick={() => selectOption(collage.id)
-                            }>
-                              {collage.college_name}
+                            <div>
+                              {console.log('collagecollagecollagecollagecollage', collage)}
+                              <div className="dropdown-option" onClick={() => selectOption(collage.id)
+                              }>
+                                {collage.college_name}
+                              </div>
                             </div>
                           )
                         })}
