@@ -3,8 +3,8 @@ import { Link } from "react-router-dom";
 import { useEffect } from "react";
 const MATIncomplete = () => {
   useEffect(() => {
-    window.scrollTo(0,0);
-  },[])
+    window.scrollTo(0, 0);
+  }, [])
   return (
     <div>
       <div className="WordSection1">
@@ -29,407 +29,339 @@ const MATIncomplete = () => {
           attempt and INR 3,050 for double attempt. The fee is to be paid at the
           time of MAT registration.
         </p>
-        <h4>Latest Update</h4>
-        <p
-          className="MsoListParagraphCxSpFirst"
-          style={{
-            marginBottom: "0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
-        >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+
+        <b className="table-details">Latest Update</b>
+
+        <div className="required-skills">
+          <p
+            className="cont"
+            style={{
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
             </span>
-          </span>
-          <a href="#1">About MAT Examination</a>
-        </p>
-        <p
-          className="MsoListParagraphCxSpMiddle"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
-        >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+            <a href="#1">About MAT Examination</a>
+          </p>
+          <p
+            className="cont"
+            style={{
+              textIndent: "-0.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
             </span>
-          </span>
-          <a href="#2">MAT Examination 2023 – Highlights</a>
-        </p>
-        <p
-          className="MsoListParagraphCxSpMiddle"
-          style={{
-            marginBottom: "0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
-        >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+            <a href="#2">MAT Examination 2023 – Highlights</a>
+          </p>
+          <p
+            className="cont"
+            style={{
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
             </span>
-          </span>
-          <a href="#3">MAT 2023 Important Dates</a>
-        </p>
-        <p
-          className="MsoListParagraphCxSpMiddle"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
-        >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+            <a href="#3">MAT 2023 Important Dates</a>
+          </p>
+          <p
+            className="cont"
+            style={{
+              textIndent: "-0.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
             </span>
-          </span>
-          <a href="#4">MAT 2023 Eligibility Criteria</a>
-        </p>
-        <p
-          className="MsoListParagraphCxSpMiddle"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
-        >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+            <a href="#4">MAT 2023 Eligibility Criteria</a>
+          </p>
+          <p
+            className="cont"
+            style={{
+              textIndent: "-0.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
             </span>
-          </span>
-          <a href="#5">MAT Registration Process 2023</a>
-        </p>
-        <p
-          className="MsoListParagraphCxSpMiddle"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
-        >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+            <a href="#5">MAT Registration Process 2023</a>
+          </p>
+          <p
+            className="cont"
+            style={{
+              textIndent: "-0.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
             </span>
-          </span>
-          <a href="#6">MAT 2023 Exam Centers</a>
-        </p>
-        <p
-          className="MsoListParagraphCxSpMiddle"
-          style={{
-            marginBottom: "0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
-        >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+            <a href="#6">MAT 2023 Exam Centers</a>
+          </p>
+          <p
+            className="cont"
+            style={{
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
             </span>
-          </span>
-          <a href="#7">MAT Exam Pattern</a>
-        </p>
-        <p
-          className="MsoListParagraphCxSpMiddle"
-          style={{
-            marginBottom: "0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
-        >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+            <a href="#7">MAT Exam Pattern</a>
+          </p>
+          <p
+            className="cont"
+            style={{
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
             </span>
-          </span>
-          <a href="#8">MAT Exam Syllabus </a>
-        </p>
-        <p
-          className="MsoListParagraphCxSpMiddle"
-          style={{
-            marginBottom: "0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
-        >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+            <a href="#8">MAT Exam Syllabus </a>
+          </p>
+          <p
+            className="cont"
+            style={{
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
             </span>
-          </span>
-          <a href="#9">MAT 2023 Exam Preparation Tips</a>
-        </p>
-        <p
-          className="MsoListParagraphCxSpMiddle"
-          style={{
-            marginBottom: "0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
-        >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+            <a href="#9">MAT 2023 Exam Preparation Tips</a>
+          </p>
+          <p
+            className="cont"
+            style={{
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
             </span>
-          </span>
-          <a href="#10">MAT&nbsp; Admit Card 2023</a>
-        </p>
-        <p
-          className="MsoListParagraphCxSpMiddle"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
-        >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+            <a href="#10">MAT&nbsp; Admit Card 2023</a>
+          </p>
+          <p
+            className="cont"
+            style={{
+              textIndent: "-0.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
             </span>
-          </span>
-          <a href="#11">MAT Exam Day Guidelines</a>
-        </p>
-        <p
-          className="MsoListParagraphCxSpMiddle"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
-        >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+            <a href="#11">MAT Exam Day Guidelines</a>
+          </p>
+          <p
+            className="cont"
+            style={{
+              textIndent: "-0.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
             </span>
-          </span>
-          <a href="#12">MAT 2023 Answer Key</a>
-        </p>
-        <p
-          className="MsoListParagraphCxSpMiddle"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
-        >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+            <a href="#12">MAT 2023 Answer Key</a>
+          </p>
+          <p
+            className="cont"
+            style={{
+              textIndent: "-0.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
             </span>
-          </span>
-          <a href="#13">MAT 2023 Result</a>
-        </p>
-        <p
-          className="MsoListParagraphCxSpMiddle"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
-        >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+            <a href="#13">MAT 2023 Result</a>
+          </p>
+          <p
+            className="cont"
+            style={{
+              textIndent: "-0.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
             </span>
-          </span>
-          <a href="#14">MAT 2023 Cut off Score Vs Rank </a>
-        </p>
-        <p
-          className="MsoListParagraphCxSpMiddle"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
-        >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+            <a href="#14">MAT 2023 Cut off Score Vs Rank </a>
+          </p>
+          <p
+            className="cont"
+            style={{
+              textIndent: "-0.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
             </span>
-          </span>
-          <a href="#15">MAT Cut Offs 2023</a>
-        </p>
-        <p
-          className="MsoListParagraphCxSpMiddle"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
-        >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+            <a href="#15">MAT Cut Offs 2023</a>
+          </p>
+          <p
+            className="cont"
+            style={{
+              textIndent: "-0.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
             </span>
-          </span>
-          <a href="#16">MBA / PGDM Colleges Accepting MAT Score: City-Wise</a>
-        </p>
-        <p
-          className="MsoListParagraphCxSpMiddle"
-          style={{
-            marginLeft: "1in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
-        >
-          <span style={{ fontFamily: '"Courier New"' }}>
-            o
-            <span style={{ font: '7pt "Times New Roman"' }}>&nbsp;&nbsp; </span>
-          </span>
-          <a href="#16a">Top MBA / PGDM Colleges in Delhi-NCR Accepting MAT</a>
-        </p>
-        <p
-          className="MsoListParagraphCxSpMiddle"
-          style={{
-            marginLeft: "1in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
-        >
-          <span style={{ fontFamily: '"Courier New"' }}>
-            o
-            <span style={{ font: '7pt "Times New Roman"' }}>&nbsp;&nbsp; </span>
-          </span>
-          <a href="#16b">Top MBA / PGDM Colleges in Mumbai Accepting MAT </a>
-        </p>
-        <p
-          className="MsoListParagraphCxSpMiddle"
-          style={{
-            marginLeft: "1in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
-        >
-          <span style={{ fontFamily: '"Courier New"' }}>
-            o
-            <span style={{ font: '7pt "Times New Roman"' }}>&nbsp;&nbsp; </span>
-          </span>
-          <a href="#16c">Top MBA Colleges in Bangalore Accepting MAT</a>
-        </p>
-        <p
-          className="MsoListParagraphCxSpMiddle"
-          style={{
-            marginLeft: "1in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
-        >
-          <span style={{ fontFamily: '"Courier New"' }}>
-            o
-            <span style={{ font: '7pt "Times New Roman"' }}>&nbsp;&nbsp; </span>
-          </span>
-          <a href="#16d">Top MBA Colleges in Pune Accepting MAT</a>
-        </p>
-        <p
-          className="MsoListParagraphCxSpMiddle"
-          style={{
-            marginLeft: "1in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
-        >
-          <span style={{ fontFamily: '"Courier New"' }}>
-            o
-            <span style={{ font: '7pt "Times New Roman"' }}>&nbsp;&nbsp; </span>
-          </span>
-          <a href="#16e">Top MBA Colleges in Hyderabad Accepting MAT</a>
-        </p>
-        <p
-          className="MsoListParagraphCxSpMiddle"
-          style={{
-            marginLeft: "1in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
-        >
-          <span style={{ fontFamily: '"Courier New"' }}>
-            o
-            <span style={{ font: '7pt "Times New Roman"' }}>&nbsp;&nbsp; </span>
-          </span>
-          <a href="#16f">Top MBA Colleges in Kolkata Accepting MAT</a>
-        </p>
-        <p
-          className="MsoListParagraphCxSpLast"
-          style={{
-            marginBottom: "0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
-        >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+            <a href="#16">MBA / PGDM Colleges Accepting MAT Score: City-Wise</a>
+          </p>
+
+          <div className="required-skills">
+            <p
+              className="cont"
+              style={{
+                textJustify: "inter-ideograph",
+              }}
+            >
+              <span style={{ fontFamily: "symbol" }}>
+                ·
+                <span style={{ font: '7pt "Times New Roman"' }}>&nbsp;&nbsp; </span>
+              </span>
+              <a href="#16a">Top MBA / PGDM Colleges in Delhi-NCR Accepting MAT</a>
+            </p>
+            <p
+              className="cont"
+              style={{
+                textJustify: "inter-ideograph",
+              }}
+            >
+              <span style={{ fontFamily: "symbol" }}>
+                ·
+                <span style={{ font: '7pt "Times New Roman"' }}>&nbsp;&nbsp; </span>
+              </span>
+              <a href="#16b">Top MBA / PGDM Colleges in Mumbai Accepting MAT </a>
+            </p>
+            <p
+              className="cont"
+              style={{
+                textJustify: "inter-ideograph",
+              }}
+            >
+              <span style={{ fontFamily: "symbol" }}>
+                ·
+                <span style={{ font: '7pt "Times New Roman"' }}>&nbsp;&nbsp; </span>
+              </span>
+              <a href="#16c">Top MBA Colleges in Bangalore Accepting MAT</a>
+            </p>
+            <p
+              className="cont"
+              style={{
+                textJustify: "inter-ideograph",
+              }}
+            >
+              <span style={{ fontFamily: "symbol" }}>
+                ·
+                <span style={{ font: '7pt "Times New Roman"' }}>&nbsp;&nbsp; </span>
+              </span>
+              <a href="#16d">Top MBA Colleges in Pune Accepting MAT</a>
+            </p>
+            <p
+              className="cont"
+              style={{
+                textJustify: "inter-ideograph",
+              }}
+            >
+              <span style={{ fontFamily: "symbol" }}>
+                ·
+                <span style={{ font: '7pt "Times New Roman"' }}>&nbsp;&nbsp; </span>
+              </span>
+              <a href="#16e">Top MBA Colleges in Hyderabad Accepting MAT</a>
+            </p>
+            <p
+              className="cont"
+              style={{
+                textJustify: "inter-ideograph",
+              }}
+            >
+              <span style={{ fontFamily: "symbol" }}>
+                ·
+                <span style={{ font: '7pt "Times New Roman"' }}>&nbsp;&nbsp; </span>
+              </span>
+              <a href="#16f">Top MBA Colleges in Kolkata Accepting MAT</a>
+            </p>
+          </div>
+          <p
+            className="cont"
+            style={{
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
             </span>
-          </span>
-          <a href="#17">FAQs MAT Exam 2023</a>
-        </p>
+            <a href="#17">FAQs MAT Exam 2023</a>
+          </p>
+        </div>
+
         <p
           className="MsoNormal"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           &nbsp;
         </p>
-        
- 
 
-
-
-        <p
-          className="MsoNormal"
-          style={{
-            marginBottom: "0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-          }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="MsoNormal" id="1"
-          style={{
-            marginBottom: "0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-          }}
-        >
-          &nbsp;
-        </p>
         <p
           className="MsoNormal"
           style={{
@@ -470,18 +402,14 @@ const MATIncomplete = () => {
           year – February, May, September and December. Qualifying candidates
           are eligible for admissions to 800+ B-schools accepting MAT scores.
         </p>
+
         <p
           className="MsoNormal"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           &nbsp;
         </p>
-        <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
+
         <CustomTable />
         <p
           className="MsoNormal" id="2"
@@ -489,6 +417,7 @@ const MATIncomplete = () => {
         >
           &nbsp;
         </p>
+
         <p
           className="MsoNormal"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
@@ -522,7 +451,7 @@ const MATIncomplete = () => {
                   }}
                 >
                   <b>
-                    <u>Particulars</u>
+                    Particulars
                   </b>
                 </p>
               </td>
@@ -545,7 +474,7 @@ const MATIncomplete = () => {
                   }}
                 >
                   <b>
-                    <u>Details</u>
+                    Details
                   </b>
                 </p>
               </td>
@@ -1443,18 +1372,14 @@ const MATIncomplete = () => {
             </tr>
           </tbody>
         </table>
+
         <p
           className="MsoNormal"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           &nbsp;
         </p>
-        <p
-          className="MsoNormal" id="3"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
+
         <p
           className="MsoNormal"
           style={{
@@ -1465,24 +1390,7 @@ const MATIncomplete = () => {
         >
           <b>MAT 2023 Important Dates</b>
         </p>
-        <p
-          className="MsoNormal"
-          style={{
-            marginBottom: "0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-          }}
-        >
-          <b>&nbsp;</b>
-        </p>
-        <p
-          className="MsoNormal"
-          style={{
-            marginBottom: "0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-          }}
-        />
+
         <p
           className="MsoNormal"
           style={{
@@ -1493,6 +1401,7 @@ const MATIncomplete = () => {
         >
           &nbsp;
         </p>
+
         <table
           className="MsoTableGrid"
           style={{ borderCollapse: "collapse", border: "none" }}
@@ -1521,7 +1430,7 @@ const MATIncomplete = () => {
                   align="center"
                 >
                   <b>
-                    <u>MAT Exam 2023 Events</u>
+                    MAT Exam 2023 Events
                   </b>
                 </p>
               </td>
@@ -1545,7 +1454,7 @@ const MATIncomplete = () => {
                   align="center"
                 >
                   <b>
-                    <u>Important Dates</u>
+                    Important Dates
                   </b>
                 </p>
               </td>
@@ -1997,292 +1906,281 @@ const MATIncomplete = () => {
             </tr>
           </tbody>
         </table>
-        <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
+
         <p
           className="MsoNormal"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           <b>&nbsp;</b>
         </p>
-        <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          <b>MAT Eligibility Criteria</b>
-        </p>
-        <p className="MsoNormal">
-          As per AIMA, minimum Eligibility Criteria for students who wish to
-          appear for MAT 2022 are as follows:
-        </p>
-        <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
-        >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+
+        <div className="required-skills">
+          <p
+            className="MsoNormal"
+            style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
+          >
+            <b>MAT Eligibility Criteria</b>
+          </p>
+          <p className="MsoNormal">
+            As per AIMA, minimum Eligibility Criteria for students who wish to
+            appear for MAT 2022 are as follows:
+          </p>
+          <p
+            className="cont"
+            style={{
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
             </span>
-          </span>
-          Candidate must be an Indian resident.
-        </p>
-        <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
-        >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+            Candidate must be an Indian resident.
+          </p>
+          <p
+            className="cont"
+            style={{
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
             </span>
-          </span>
-          No Upper Age Limit is set by AIMA to take MAT exam.
-        </p>
-        <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
-        >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+            No Upper Age Limit is set by AIMA to take MAT exam.
+          </p>
+          <p
+            className="cont"
+            style={{
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
             </span>
-          </span>
-          Candidates must have completed graduation in any discipline from a
-          recognized University.
-        </p>
-        <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
-        >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+            Candidates must have completed graduation in any discipline from a
+            recognized University.
+          </p>
+          <p
+            className="cont"
+            style={{
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
             </span>
-          </span>
-          Candidates in their final year of UG programs like B.A., B.Sc, B.Com,
-          B.Tech, etc. can also apply.
-        </p>
-        <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
-        >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+            Candidates in their final year of UG programs like B.A., B.Sc, B.Com,
+            B.Tech, etc. can also apply.
+          </p>
+          <p
+            className="cont"
+            style={{
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
             </span>
-          </span>
-          AIMA does not prescribe a minimum percentage of marks in graduation
-          for appearing in MAT exam. However, for admission into colleges,
-          candidates will be required to obtain a minimum percentage that varies
-          from college to college.
-        </p>
-        <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
-        >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+            AIMA does not prescribe a minimum percentage of marks in graduation
+            for appearing in MAT exam. However, for admission into colleges,
+            candidates will be required to obtain a minimum percentage that varies
+            from college to college.
+          </p>
+          <p
+            className="cont"
+            style={{
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
             </span>
-          </span>
-          No Minimum work experience is essential for taking MAT 2022 exam.
-        </p>
-        <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
-        >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+            No Minimum work experience is essential for taking MAT 2022 exam.
+          </p>
+          <p
+            className="cont"
+            style={{
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
             </span>
-          </span>
-          No limit on the number of attempts.
-        </p>
+            No limit on the number of attempts.
+          </p>
+        </div>
+
         <p
           className="MsoNormal"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           <b>&nbsp;</b>
         </p>
-        <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          <b>MAT Registration Process</b>
-        </p>
-        <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          MAT application form is online and is same for all the three exam
-          modes - PBT, CBT and IBT. Candidates can fill the MAT application form
-          2022 of preferred exam phase on AIMA MAT exam website by paying exam
-          fees of INR 1,850. Check below the process to apply for MAT::
-        </p>
-        <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
-        >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+
+        <div className="required-skills">
+          <p
+            className="MsoNormal"
+            style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
+          >
+            <b>MAT Registration Process</b>
+          </p>
+          <p
+            className="MsoNormal"
+            style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
+          >
+            MAT application form is online and is same for all the three exam
+            modes - PBT, CBT and IBT. Candidates can fill the MAT application form
+            2022 of preferred exam phase on AIMA MAT exam website by paying exam
+            fees of INR 1,850. Check below the process to apply for MAT::
+          </p>
+          <p
+            className="cont"
+            style={{
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
             </span>
-          </span>
-          Open AIMA-MAT website in a new browser
-        </p>
-        <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
-        >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+            Open AIMA-MAT website in a new browser
+          </p>
+          <p
+            className="cont"
+            style={{
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
             </span>
-          </span>
-          Click on “Fresh Candidate to create Log In” tab: https://mat.aima.in/
-        </p>
-        <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
-        >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+            Click on “Fresh Candidate to create Log In” tab: https://mat.aima.in/
+          </p>
+          <p
+            className="cont"
+            style={{
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
             </span>
-          </span>
-          Enter name, date of birth, email ID, mobile phone number and a
-          password
-        </p>
-        <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
-        >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+            Enter name, date of birth, email ID, mobile phone number and a
+            password
+          </p>
+          <p
+            className="cont"
+            style={{
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
             </span>
-          </span>
-          Fill the MAT exam application form with relevant information
-        </p>
-        <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
-        >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+            Fill the MAT exam application form with relevant information
+          </p>
+          <p
+            className="cont"
+            style={{
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
             </span>
-          </span>
-          Select preferred test mode (CBT, PBT, IBT), test cities and five
-          B-Schools
-        </p>
-        <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
-        >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+            Select preferred test mode (CBT, PBT, IBT), test cities and five
+            B-Schools
+          </p>
+          <p
+            className="cont"
+            style={{
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
             </span>
-          </span>
-          • Upload a recent passport size photo and scanned signature
-        </p>
-        <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
-        >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+            Upload a recent passport size photo and scanned signature
+          </p>
+          <p
+            className="cont"
+            style={{
+              textJustify: "inter-ideograph",
+              textIndent: "-0.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              </span>
             </span>
-          </span>
-          Make fee payment via debit/credit card, net banking or e-wallet to
-          complete the process
-        </p>
+            Make fee payment via debit/credit card, net banking or e-wallet to
+            complete the process
+          </p>
+        </div>
+
         <p
           className="MsoNormal" id="7"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           &nbsp;
         </p>
+
         <p
           className="MsoNormal"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
-          <b />
           <b>MAT Exam Pattern</b>
         </p>
         <p className="MsoNormal">
@@ -2291,60 +2189,445 @@ const MATIncomplete = () => {
           strategy for the exam. The exam is designed to test the aptitude of
           candidates for admission to management program of 800 + colleges.
         </p>
-        <table className="table" style={{fontSize:"14px"}}>
+
+        <table
+          className="MsoTableGrid"
+          style={{ borderCollapse: "collapse", border: "none" }}
+          cellSpacing={0}
+          cellPadding={0}
+          border={1}
+        >
           <tbody>
             <tr>
-              <th className="bold1">MAT Exam Features</th>
-              <th className="bold1">Details</th>
-            </tr>
-            <tr>
-              <td className="bold1">Exam Modes</td>
-              <td>CBT,PBI,IBT</td>
-            </tr>
-            <tr>
-              <td className="bold1">Exam Duration</td>
-              <td>150 Minutes</td>
-            </tr>
-            <tr>
-              <td className="bold1">MAT Sections</td>
-              <td>
-                <ul>
-                  <li>Language Comprehension</li>
-                  <li>Data Anlysis &amp; Sufficiency</li>
-                  <li>MAthematical Skills</li>
-                  <li>Intellignece &amp; Critical Reasoning</li>
-                  <li>Indian &amp; Global Environment</li>
-                </ul>
+              <td
+                style={{
+                  width: "142.65pt",
+                  border: "solid black 1.0pt",
+                  padding: "0in 5.4pt 0in 5.4pt",
+                }}
+                width={190}
+              >
+                <p
+                  className="cont"
+                  style={{
+                    marginBottom: "0in",
+                    textAlign: "justify",
+                    textJustify: "inter-ideograph",
+                    lineHeight: "normal",
+                  }}
+                >
+                  <b>MAT Exam Features</b>
+                </p>
+              </td>
+              <td
+                style={{
+                  width: "142.65pt",
+                  border: "solid black 1.0pt",
+                  padding: "0in 5.4pt 0in 5.4pt",
+                }}
+                width={190}
+              >
+                <p
+                  className="cont"
+                  style={{
+                    marginBottom: "0in",
+                    textAlign: "justify",
+                    textJustify: "inter-ideograph",
+                    lineHeight: "normal",
+                  }}
+                >
+                  <b>Details</b>
+                </p>
               </td>
             </tr>
+
             <tr>
-              <td className="bold1">Number Of Qiestions</td>
-              <td>200</td>
-            </tr>
-            <tr>
-              <td className="bold1">Number of Questions Sectrion-Wise</td>
-              <td>40</td>
-            </tr>
-            <tr>
-              <td className="bold1">Total Marks</td>
-              <td>200</td>
-            </tr>
-            <tr>
-              <td className="bold1">Marking Scheme</td>
-              <td>
-                +1 for each correct entry <br />
-                -0.25 for each incorrect entry <br />0 for not attempting a
-                quetion
+              <td
+                style={{
+                  width: "142.65pt",
+                  border: "solid black 1.0pt",
+                  borderTop: "none",
+                  padding: "0in 5.4pt 0in 5.4pt",
+                }}
+                width={190}
+              >
+                <p
+                  className="cont bold1"
+                  style={{
+                    marginBottom: "0in",
+                    textAlign: "justify",
+                    textJustify: "inter-ideograph",
+                    lineHeight: "normal",
+                  }}
+                >Exam modes</p>
+              </td>
+
+              <td
+                style={{
+                  width: "336.15pt",
+                  borderTop: "none",
+                  borderLeft: "none",
+                  borderBottom: "solid black 1.0pt",
+                  borderRight: "solid black 1.0pt",
+                  padding: "0in 5.4pt 0in 5.4pt",
+                }}
+                width={448}
+              >
+                <p
+                  className="cont"
+                  style={{
+                    marginBottom: "0in",
+                    textAlign: "justify",
+                    textJustify: "inter-ideograph",
+                    lineHeight: "normal",
+                  }}
+                >CBT,PBI,IBT
+                </p>
               </td>
             </tr>
+
+            <tr>
+              <td
+                style={{
+                  width: "142.65pt",
+                  border: "solid black 1.0pt",
+                  borderTop: "none",
+                  padding: "0in 5.4pt 0in 5.4pt",
+                }}
+                width={190}
+              >
+                <p
+                  className="cont bold1"
+                  style={{
+                    marginBottom: "0in",
+                    textAlign: "justify",
+                    textJustify: "inter-ideograph",
+                    lineHeight: "normal",
+                  }}
+                >Exam Duration
+                </p>
+              </td>
+
+              <td
+                style={{
+                  width: "336.15pt",
+                  borderTop: "none",
+                  borderLeft: "none",
+                  borderBottom: "solid black 1.0pt",
+                  borderRight: "solid black 1.0pt",
+                  padding: "0in 5.4pt 0in 5.4pt",
+                }}
+                width={448}
+              >
+                <p
+                  className="cont"
+                  style={{
+                    marginBottom: "0in",
+                    textAlign: "justify",
+                    textJustify: "inter-ideograph",
+                    lineHeight: "normal",
+                  }}
+                >
+                  150 Minutes
+                </p>
+              </td>
+            </tr>
+
+            <tr>
+              <td
+                style={{
+                  width: "142.65pt",
+                  border: "solid black 1.0pt",
+                  borderTop: "none",
+                  padding: "0in 5.4pt 0in 5.4pt",
+                }}
+                width={190}
+              >
+                <p
+                  className="cont bold1"
+                  style={{
+                    marginBottom: "0in",
+                    textAlign: "justify",
+                    textJustify: "inter-ideograph",
+                    lineHeight: "normal",
+                  }}
+                >MAT Sections
+                </p>
+              </td>
+              <td
+                style={{
+                  width: "336.15pt",
+                  borderTop: "none",
+                  borderLeft: "none",
+                  borderBottom: "solid black 1.0pt",
+                  borderRight: "solid black 1.0pt",
+                  padding: "0in 5.4pt 0in 5.4pt",
+                }}
+                width={448}
+              >
+                <p
+                  className="cont"
+                  style={{
+                    marginBottom: "0in",
+                    textAlign: "justify",
+                    textJustify: "inter-ideograph",
+                    lineHeight: "normal",
+                  }}
+                >
+                  Language Comprehension
+                </p>
+
+                <p
+                  className="cont"
+                  style={{
+                    marginBottom: "0in",
+                    textAlign: "justify",
+                    textJustify: "inter-ideograph",
+                    lineHeight: "normal",
+                  }}
+                >
+                  Data Anlysis &amp; Sufficiency
+                </p>
+                <p
+                  className="cont"
+                  style={{
+                    marginBottom: "0in",
+                    textAlign: "justify",
+                    textJustify: "inter-ideograph",
+                    lineHeight: "normal",
+                  }}
+                >
+                  Mathematical Skills
+                </p>
+                <p
+                  className="cont"
+                  style={{
+                    marginBottom: "0in",
+                    textAlign: "justify",
+                    textJustify: "inter-ideograph",
+                    lineHeight: "normal",
+                  }}
+                >
+                  Intellignece &amp; Critical Reasoning
+                </p>
+
+                <p
+                  className="cont"
+                  style={{
+                    marginBottom: "0in",
+                    textAlign: "justify",
+                    textJustify: "inter-ideograph",
+                    lineHeight: "normal",
+                  }}
+                >
+                  Indian &amp; Global Environment
+                </p>
+              </td>
+            </tr>
+
+            <tr>
+              <td
+                style={{
+                  width: "142.65pt",
+                  border: "solid black 1.0pt",
+                  borderTop: "none",
+                  padding: "0in 5.4pt 0in 5.4pt",
+                }}
+                width={190}
+              >
+                <p
+                  className="cont bold1"
+                  style={{
+                    marginBottom: "0in",
+                    textAlign: "justify",
+                    textJustify: "inter-ideograph",
+                    lineHeight: "normal",
+                  }}
+                >Number Of Questions
+                </p>
+              </td>
+
+              <td
+                style={{
+                  width: "142.65pt",
+                  border: "solid black 1.0pt",
+                  borderTop: "none",
+                  padding: "0in 5.4pt 0in 5.4pt",
+                }}
+                width={190}
+              >
+                <p
+                  className="cont bold1"
+                  style={{
+                    marginBottom: "0in",
+                    textAlign: "justify",
+                    textJustify: "inter-ideograph",
+                    lineHeight: "normal",
+                  }}
+                >200
+                </p>
+              </td>
+            </tr>
+
+            <tr>
+              <td
+                style={{
+                  width: "142.65pt",
+                  border: "solid black 1.0pt",
+                  borderTop: "none",
+                  padding: "0in 5.4pt 0in 5.4pt",
+                }}
+                width={190}
+              >
+                <p
+                  className="cont bold1"
+                  style={{
+                    marginBottom: "0in",
+                    textAlign: "justify",
+                    textJustify: "inter-ideograph",
+                    lineHeight: "normal",
+                  }}
+                >Number of Questions Section-Wise
+                </p>
+              </td>
+              <td
+                style={{
+                  width: "142.65pt",
+                  border: "solid black 1.0pt",
+                  borderTop: "none",
+                  padding: "0in 5.4pt 0in 5.4pt",
+                }}
+                width={190}
+              >
+                <p
+                  className="cont bold1"
+                  style={{
+                    marginBottom: "0in",
+                    textAlign: "justify",
+                    textJustify: "inter-ideograph",
+                    lineHeight: "normal",
+                  }}
+                >40
+                </p>
+              </td>
+            </tr>
+
+            <tr>
+              <td
+                style={{
+                  width: "142.65pt",
+                  border: "solid black 1.0pt",
+                  borderTop: "none",
+                  padding: "0in 5.4pt 0in 5.4pt",
+                }}
+                width={190}
+              >
+                <p
+                  className="cont bold1"
+                  style={{
+                    marginBottom: "0in",
+                    textAlign: "justify",
+                    textJustify: "inter-ideograph",
+                    lineHeight: "normal",
+                  }}
+                >Total Marks
+                </p>
+              </td>
+              <td
+                style={{
+                  width: "142.65pt",
+                  border: "solid black 1.0pt",
+                  borderTop: "none",
+                  padding: "0in 5.4pt 0in 5.4pt",
+                }}
+                width={190}
+              >
+                <p
+                  className="cont bold1"
+                  style={{
+                    marginBottom: "0in",
+                    textAlign: "justify",
+                    textJustify: "inter-ideograph",
+                    lineHeight: "normal",
+                  }}
+                >200
+                </p>
+              </td>
+            </tr>
+
+            <tr>
+              <td
+                style={{
+                  width: "142.65pt",
+                  border: "solid black 1.0pt",
+                  borderTop: "none",
+                  padding: "0in 5.4pt 0in 5.4pt",
+                }}
+                width={190}
+              >
+                <p
+                  className="cont bold1"
+                  style={{
+                    marginBottom: "0in",
+                    textAlign: "justify",
+                    textJustify: "inter-ideograph",
+                    lineHeight: "normal",
+                  }}
+                >Marking Scheme
+                </p>
+              </td>
+              <td
+                style={{
+                  width: "142.65pt",
+                  border: "solid black 1.0pt",
+                  borderTop: "none",
+                  padding: "0in 5.4pt 0in 5.4pt",
+                }}
+                width={190}
+              >
+                <p
+                  className="cont bold1"
+                  style={{
+                    marginBottom: "0in",
+                    textAlign: "justify",
+                    textJustify: "inter-ideograph",
+                    lineHeight: "normal",
+                  }}
+                >
+                  +1 for each correct entry
+                </p>
+                <p
+                  className="cont bold1"
+                  style={{
+                    marginBottom: "0in",
+                    textAlign: "justify",
+                    textJustify: "inter-ideograph",
+                    lineHeight: "normal",
+                  }}
+                > -0.25 for each incorrect entry </p>
+                <p
+                  className="cont bold1"
+                  style={{
+                    marginBottom: "0in",
+                    textAlign: "justify",
+                    textJustify: "inter-ideograph",
+                    lineHeight: "normal",
+                  }}
+                > 0 for not attempting a question
+                </p>
+              </td>
+            </tr>
+
           </tbody>
         </table>
+
         <p
           className="MsoNormal" id="8"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           &nbsp;
         </p>
+
         <p
           className="MsoNormal"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
@@ -2358,13 +2641,8 @@ const MATIncomplete = () => {
           Comprehension, Mathematical Aptitude, Data Analysis and Sufficiency,
           and the candidate's knowledge of the Indian and Global Environment.:
         </p>
-        <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <table className="table" style={{fontSize:"14px"}}>
+
+        <table className="table" style={{ fontSize: "14px" }}>
           <tbody>
             <tr>
               <th className="bold1">Section</th>
@@ -2426,269 +2704,746 @@ const MATIncomplete = () => {
             </tr>
           </tbody>
         </table>
+
+
         <p
           className="MsoNormal"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           &nbsp;
         </p>
-        <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
+
         <CustomTable />
+
         <p
           className="MsoNormal"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           &nbsp;
         </p>
-        <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          <b>MAT Exam Preparation Tips</b>
-        </p>
-        <p className="MsoNormal">
-          A candidate should devote at least six months to prepare for MAT exam.
-          For a fruitful preparation, they should focus on improving their
-          problem-solving skills with the help of previous years' MAT question
-          papers and online mock test, etc. The MAT preparation strategy should
-          be well planned and in accordance with the MAT exam pattern and MAT
-          syllabus. Some of the tips for preparation are::
-        </p>
-        <ul className="cont">
-          <li>
+
+        <div className="required-skills">
+          <p
+            className="MsoNormal"
+            style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
+          >
+            <b>MAT Exam Preparation Tips</b>
+          </p>
+          <p className="MsoNormal">
+            A candidate should devote at least six months to prepare for MAT exam.
+            For a fruitful preparation, they should focus on improving their
+            problem-solving skills with the help of previous years' MAT question
+            papers and online mock test, etc. The MAT preparation strategy should
+            be well planned and in accordance with the MAT exam pattern and MAT
+            syllabus. Some of the tips for preparation are::
+          </p>
+
+          <p
+            className="cont"
+            style={{
+              textJustify: "inter-ideograph",
+              textIndent: "-.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7.0pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              </span>
+            </span>
             Read best books for MAT exam preparation, magazines, newspapers and
             online blogs on a daily basis to improve reading skills,
             understanding skills as well as for keeping track of current affairs
             of national and international level
-          </li>
-          <li>
+          </p>
+          <p
+            className="cont"
+            style={{
+              textJustify: "inter-ideograph",
+              textIndent: "-.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7.0pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              </span>
+            </span>
             Practice MAT question papers, sample papers and online mock tests to
             improve speed and accuracy as well as to develop familiarity with
             the test pattern
-          </li>
-          <li>
+          </p>
+          <p
+            className="cont"
+            style={{
+              textJustify: "inter-ideograph",
+              textIndent: "-.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7.0pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              </span>
+            </span>
             Regularly analyse your preparation level to know your strengths and
             weakness in each section of the MAT syllabus
-          </li>
-          <li>
+          </p>
+          <p
+            className="cont"
+            style={{
+              textJustify: "inter-ideograph",
+              textIndent: "-.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7.0pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              </span>
+            </span>
             Target topics carrying more weightage in each section of MAT to
             score well in the exam
-          </li>
-          <li>
+          </p>
+          <p
+            className="cont"
+            style={{
+              textJustify: "inter-ideograph",
+              textIndent: "-.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7.0pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              </span>
+            </span>
             Time management is the key to attempt maximum questions in MAT so,
             don’t waste time on tricky or tough questions
-          </li>
-        </ul>
+          </p>
+
+        </div>
+
         <p
           className="MsoNormal"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           &nbsp;
         </p>
-        <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          <b>MAT Admit Card</b>
-        </p>
-        <p className="MsoNormal">
-          MAT admit card is released online. The MAT admit cards can be download
-          from the official website. In order to download the hall ticket,
-          candidates need to key in the registration number and date of birth on
-          the login page of AIMA-MAT website. Given below are the steps to
-          download MAT admit card::
-        </p>
-        <ul className="cont">
-          <li>Open the MAT 2022 website</li>
-          <li>Go to 'download/view'</li>
-          <li>Select ' MAT admit card' from the drop down</li>
-          <li>Enter email ID, password and date of birth</li>
-          <li>Download the MAT admit card</li>
-        </ul>
+
+        <div className="required-skills">
+          <p
+            className="MsoNormal"
+            style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
+          >
+            <b>MAT Admit Card</b>
+          </p>
+          <p className="MsoNormal">
+            MAT admit card is released online. The MAT admit cards can be download
+            from the official website. In order to download the hall ticket,
+            candidates need to key in the registration number and date of birth on
+            the login page of AIMA-MAT website. Given below are the steps to
+            download MAT admit card::
+          </p>
+
+          <p
+            className="cont"
+            style={{
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7.0pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              </span>
+            </span>Open the MAT 2022 website
+          </p>
+          <p
+            className="cont"
+            style={{
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7.0pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              </span>
+            </span>Go to 'download/view'
+          </p>
+          <p
+            className="cont"
+            style={{
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7.0pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              </span>
+            </span>Select ' MAT admit card' from the drop down
+          </p>
+          <p
+            className="cont"
+            style={{
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7.0pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              </span>
+            </span>Enter email ID, password and date of birth
+          </p>
+          <p
+            className="cont"
+            style={{
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7.0pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              </span>
+            </span>Download the MAT admit card
+          </p>
+
+        </div>
+
         <p
           className="MsoNormal" id="11"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           &nbsp;
         </p>
-        <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          <b>MAT Exam Day Guidelines </b>
-        </p>
-        <ul className="cont">
-          <li>
+
+        <div className="required-skills">
+          <p
+            className="MsoNormal"
+            style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
+          >
+            <b>MAT Exam Day Guidelines </b>
+          </p>
+
+          <p
+            className="cont"
+            style={{
+              textJustify: "inter-ideograph",
+              textIndent: "-.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7.0pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              </span>
+            </span>
             For MAT IBT mode, candidates should arrange a laptop/desktop and
             check internet connection at least one hour before the exam timing.
-          </li>
-          <li>
+          </p>
+          <p
+            className="cont"
+            style={{
+              textJustify: "inter-ideograph",
+              textIndent: "-.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7.0pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              </span>
+            </span>
             For MAT IBT mode, candidates should wear formal clothes and keep the
             admit card and other documents ready for remote verification
             process.
-          </li>
-          <li>
+          </p>
+          <p
+            className="cont"
+            style={{
+              textJustify: "inter-ideograph",
+              textIndent: "-.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7.0pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              </span>
+            </span>
             MAT PBT and CBT are conducted from 10:00 AM to 12:30 PM. Candidates
             have to report to the exam centre by 8:30 AM.
-          </li>
-          <li>
+          </p>
+          <p
+            className="cont"
+            style={{
+              textJustify: "inter-ideograph",
+              textIndent: "-.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7.0pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              </span>
+            </span>
             Candidates should carry a blue or black ball point pen if they are
             taking the exam in PBT mode.
-          </li>
-          <li>
+          </p>
+          <p
+            className="cont"
+            style={{
+              textJustify: "inter-ideograph",
+              textIndent: "-.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7.0pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              </span>
+            </span>
             Phone, calculator, electronic watch or any such item is prohibited
             at the exam centre hence, candidates must ensure they don't carry
             any such item on exam day.
-          </li>
-          <li>
+          </p>
+          <p
+            className="cont"
+            style={{
+              textJustify: "inter-ideograph",
+              textIndent: "-.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7.0pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              </span>
+            </span>
             Digital or photocopy of the MAT admit card will not be considered a
             valid ID proof so carry the original copy of your admit card.
-          </li>
-        </ul>
-        <p className="MsoNormal">
-          Also carry below-mentioned documents to the MAT exam centre for PBT
-          and CBT mode exams::
-        </p>
-        <ul className="cont">
-          <li>Admit card: Two printouts</li>
-          <li>Self-declaration for COVID-19: Attached with admit card</li>
-          <li>
+          </p>
+
+        </div>
+
+        <div className="required-skills">
+          <p className="MsoNormal">
+            Also carry below-mentioned documents to the MAT exam centre for PBT
+            and CBT mode exams::
+          </p>
+
+          <p
+            className="cont"
+            style={{
+              textJustify: "inter-ideograph",
+              textIndent: "-.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7.0pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              </span>
+            </span>Admit card: Two printouts</p>
+          <p
+            className="cont"
+            style={{
+              textJustify: "inter-ideograph",
+              textIndent: "-.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7.0pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              </span>
+            </span>Self-declaration for COVID-19: Attached with admit card</p>
+          <p
+            className="cont"
+            style={{
+              textJustify: "inter-ideograph",
+              textIndent: "-.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7.0pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              </span>
+            </span>
             Identity proof: Any of the following documents (in original) — Voter
             ID, Aadhaar Card, Election I-Card, Passport, Driving License and PAN
             Card
-          </li>
-          <li>
+          </p>
+          <p
+            className="cont"
+            style={{
+              textJustify: "inter-ideograph",
+              textIndent: "-.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7.0pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              </span>
+            </span>
             Proof of name change (if any): In case, you have changed your name,
             you will be required to carry a document supporting the change of
             name
-          </li>
-        </ul>
+          </p>
+
+        </div>
+
         <p
           className="MsoNormal"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           &nbsp;
         </p>
-        <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          <b>MAT Results</b>
-        </p>
-        <p className="MsoNormal">
-          MAT results for all the three modes is released together and for
-          December MAT it will be released most likely in the first week of
-          January 2023. The MAT scorecards are released on the AIMA website and
-          the test takers can download their respective results by using their
-          login credentials by following the given steps:
-        </p>
-        <ul className="cont">
-          <li>Visit the official website of MAT exam</li>
-          <li>Click on Download/View or https://mat.aima.in</li>
-          <li>Click on 'MAT result'</li>
-          <li>Select Exam Month</li>
-          <li>Enter Roll Number and Registration Number</li>
-          <li>Click on the 'Submit' tab</li>
-          <li>MAT 2022 scorecard will appear on the screen</li>
-        </ul>
+
+        <div className="required-skills">
+          <p
+            className="MsoNormal"
+            style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
+          >
+            <b>MAT Results</b>
+          </p>
+          <p className="MsoNormal">
+            MAT results for all the three modes is released together and for
+            December MAT it will be released most likely in the first week of
+            January 2023. The MAT scorecards are released on the AIMA website and
+            the test takers can download their respective results by using their
+            login credentials by following the given steps:
+          </p>
+
+          <p
+            className="cont"
+            style={{
+              textJustify: "inter-ideograph",
+              textIndent: "-.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7.0pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              </span>
+            </span>Visit the official website of MAT exam
+          </p>
+          <p
+            className="cont"
+            style={{
+              textJustify: "inter-ideograph",
+              textIndent: "-.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7.0pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              </span>
+            </span>Click on Download/View or https://mat.aima.in
+          </p>
+          <p
+            className="cont"
+            style={{
+              textJustify: "inter-ideograph",
+              textIndent: "-.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7.0pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              </span>
+            </span>Click on 'MAT result'
+          </p>
+          <p
+            className="cont"
+            style={{
+              textJustify: "inter-ideograph",
+              textIndent: "-.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7.0pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              </span>
+            </span>Select Exam Month
+          </p>
+          <p
+            className="cont"
+            style={{
+              textJustify: "inter-ideograph",
+              textIndent: "-.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7.0pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              </span>
+            </span>Enter Roll Number and Registration Number
+          </p>
+          <p
+            className="cont"
+            style={{
+              textJustify: "inter-ideograph",
+              textIndent: "-.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7.0pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              </span>
+            </span>Click on the 'Submit' tab
+          </p>
+          <p
+            className="cont"
+            style={{
+              textJustify: "inter-ideograph",
+              textIndent: "-.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7.0pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              </span>
+            </span>MAT 2022 scorecard will appear on the screen
+          </p>
+
+        </div>
+
         <p
           className="MsoNormal"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           &nbsp;
         </p>
+
         <CustomTable />
+
         <p
           className="MsoNormal" id="16"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           &nbsp;
         </p>
-        <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          <b>MBA / PGDM Colleges Accepting MAT Score: City-Wise</b>
-        </p>
-        <p className="MsoNormal">
-          Admission criteria for colleges accepting MAT score would vary
-          depending upon the B-School. Each institute conducts the admission
-          independently and according to their academic cycle. Candidates must
-          fill the admission forms of their preferred institutes to be eligible
-          for selection process. MBA / PGDM admission through MAT includes three
-          main processes:
-        </p>
-        <ul className="cont">
-          <li>Shortlisting of candidates based on MAT score</li>
-          <li>Group Discussion and Personal Interview rounds</li>
-          <li>Final selection for MBA / PGDM admission</li>
-        </ul>
+
+        <div className="required-skills">
+          <p
+            className="MsoNormal"
+            style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
+          >
+            <b>MBA / PGDM Colleges Accepting MAT Score: City-Wise</b>
+          </p>
+          <p className="MsoNormal">
+            Admission criteria for colleges accepting MAT score would vary
+            depending upon the B-School. Each institute conducts the admission
+            independently and according to their academic cycle. Candidates must
+            fill the admission forms of their preferred institutes to be eligible
+            for selection process. MBA / PGDM admission through MAT includes three
+            main processes:
+          </p>
+
+          <p
+            className="cont"
+            style={{
+              textJustify: "inter-ideograph",
+              textIndent: "-.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7.0pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              </span>
+            </span>Shortlisting of candidates based on MAT score
+          </p>
+          <p
+            className="cont"
+            style={{
+              textJustify: "inter-ideograph",
+              textIndent: "-.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7.0pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              </span>
+            </span>Group Discussion and Personal Interview rounds
+          </p>
+          <p
+            className="cont"
+            style={{
+              textJustify: "inter-ideograph",
+              textIndent: "-.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7.0pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              </span>
+            </span>Final selection for MBA / PGDM admission
+          </p>
+
+        </div>
+
         <p
           className="MsoNormal"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           &nbsp;
         </p>
-        <p className="MsoNormal">
-          Candidates can check top MBA / PGDM colleges across India for
-          admission through MAT by visiting the following link:
-        </p>
-        <p className="MsoNormal" id="16a">
-          <a href>Top MBA / PGDM Colleges in Delhi-NCR Accepting CMAT</a>
-        </p>
-        <p className="MsoNormal" id="16b">
-          <a href>Top MBA / PGDM Colleges in Mumbai Accepting CMAT</a>
-        </p>
-        <p className="MsoNormal" id="16c">
-          <a href>Top MBA Colleges in Bangalore Accepting CMAT</a>
-        </p>
-        <p className="MsoNormal" id="16d">
-          <a href>Top MBA Colleges in Bangalore Accepting CMAT </a>
-        </p>
-        <p  className="MsoNormal" id="16e">
-          <a href>Top MBA Colleges in Hyderabad Accepting CMAT</a>
-        </p>
-        <p className="MsoNormal" id="16f">
-          <a href>Top MBA Colleges in Kolkata Accepting CMAT </a>
-        </p>
+
+        <div className="required-skills">
+          <p className="MsoNormal">
+            Candidates can check top MBA / PGDM colleges across India for
+            admission through MAT by visiting the following link:
+          </p>
+          <p
+            className="cont"
+            style={{
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7.0pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              </span>
+            </span>
+            <a href="">Top MBA / PGDM Colleges in Delhi-NCR Accepting CMAT</a>
+          </p>
+          <p
+            className="cont"
+            style={{
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7.0pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              </span>
+            </span>
+            <a href="">Top MBA / PGDM Colleges in Mumbai Accepting CMAT</a>
+          </p>
+          <p
+            className="cont"
+            style={{
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7.0pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              </span>
+            </span>
+            <a href="">Top MBA Colleges in Bangalore Accepting CMAT</a>
+          </p>
+          <p
+            className="cont"
+            style={{
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7.0pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              </span>
+            </span>
+            <a href="">Top MBA Colleges in Bangalore Accepting CMAT </a>
+          </p>
+          <p
+            className="cont"
+            style={{
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7.0pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              </span>
+            </span>
+            <a href="">Top MBA Colleges in Hyderabad Accepting CMAT</a>
+          </p>
+          <p
+            className="cont"
+            style={{
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7.0pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              </span>
+            </span>
+            <a href="">Top MBA Colleges in Kolkata Accepting CMAT </a>
+          </p>
+        </div>
+
         <p className="MsoNormal">
           <a href>
             To check more top MBA / PGDM colleges across India, click here
           </a>
         </p>
+
         <p
           className="MsoNormal" id="17"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           &nbsp;
         </p>
+
         <p
           className="MsoNormal"
           style={{
-            marginBottom: "0in",
             textAlign: "justify",
             textJustify: "inter-ideograph",
           }}
         >
           <b>FAQs MAT Exam 2023</b>
         </p>
+
         <p
-          className="MsoNormal"
-          style={{
-            marginBottom: "0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-          }}
-        >
-          <b>&nbsp;</b>
-        </p>
-        <p
-          className="MsoNormal"
+          className="cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           Q: What is MAT?
@@ -2703,13 +3458,7 @@ const MATIncomplete = () => {
           computer based test of three hours duration.
         </p>
         <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="MsoNormal"
+          className="cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           Q. When is MAT 2023?
@@ -2724,13 +3473,7 @@ const MATIncomplete = () => {
           according to your preference.
         </p>
         <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="MsoNormal"
+          className="cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           Q: Is MAT conducted online or offline?
@@ -2745,13 +3488,7 @@ const MATIncomplete = () => {
           system provided.
         </p>
         <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="MsoNormal"
+          className="cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           Q: What are all the sections available in the MAT 2023 syllabus?
@@ -2763,84 +3500,82 @@ const MATIncomplete = () => {
           Ans: There are five sections available in the MAT exam syllabus,
           namely:
         </p>
+
+        <div className="required-skills">
+          <p
+            className="cont"
+            style={{
+              marginLeft: "0.6in",
+              textJustify: "inter-ideograph",
+              textIndent: "-.25in",
+            }}
+          >
+            1.
+            <span style={{ font: '7pt "Times New Roman"' }}>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+            </span>
+            Quantitative Techniques &amp; Data Interpretation
+          </p>
+          <p
+            className="cont"
+            style={{
+              marginLeft: "0.6in",
+              textJustify: "inter-ideograph",
+              textIndent: "-.25in",
+            }}
+          >
+            2.
+            <span style={{ font: '7pt "Times New Roman"' }}>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+            </span>
+            Logical Reasoning
+          </p>
+          <p
+            className="cont"
+            style={{
+              marginLeft: "0.6in",
+              textJustify: "inter-ideograph",
+              textIndent: "-.25in",
+            }}
+          >
+            3.
+            <span style={{ font: '7pt "Times New Roman"' }}>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+            </span>
+            Language Comprehension &amp; Verbal Ability
+          </p>
+          <p
+            className="cont"
+            style={{
+              marginLeft: "0.6in",
+              textJustify: "inter-ideograph",
+              textIndent: "-.25in",
+            }}
+          >
+            4.
+            <span style={{ font: '7pt "Times New Roman"' }}>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+            </span>
+            General Awareness
+          </p>
+
+          <p
+            className="cont"
+            style={{
+              marginLeft: "0.6in",
+              textJustify: "inter-ideograph",
+              textIndent: "-.25in",
+            }}
+          >
+            5.
+            <span style={{ font: '7pt "Times New Roman"' }}>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+            </span>
+            Innovation and Entrepreneurship
+          </p>
+        </div>
         <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
-        >
-          1.
-          <span style={{ font: '7pt "Times New Roman"' }}>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
-          </span>
-          Quantitative Techniques &amp; Data Interpretation
-        </p>
-        <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
-        >
-          2.
-          <span style={{ font: '7pt "Times New Roman"' }}>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
-          </span>
-          Logical Reasoning
-        </p>
-        <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
-        >
-          3.
-          <span style={{ font: '7pt "Times New Roman"' }}>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
-          </span>
-          Language Comprehension &amp; Verbal Ability
-        </p>
-        <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
-        >
-          4.
-          <span style={{ font: '7pt "Times New Roman"' }}>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
-          </span>
-          General Awareness
-        </p>
-        <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
-        >
-          5.
-          <span style={{ font: '7pt "Times New Roman"' }}>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
-          </span>
-          Innovation and Entrepreneurship
-        </p>
-        <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="MsoNormal"
+          className="cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           Q: Can I go back and forth between the sections during MAT exam?
@@ -2852,13 +3587,7 @@ const MATIncomplete = () => {
           Ans: Yes, you can because there will be no sectional wise time limit.
         </p>
         <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="MsoNormal"
+          className="cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           Q: When is the last date to apply for MAT 2023?
@@ -2878,7 +3607,7 @@ const MATIncomplete = () => {
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         />
         <p
-          className="MsoNormal"
+          className="cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           Q: What are the eligibility criteria to apply for MAT?
@@ -2894,13 +3623,7 @@ const MATIncomplete = () => {
           declared before admission for academic year begins.
         </p>
         <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="MsoNormal"
+          className="cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           Q: Is there any age restriction for appearing for MAT exam?
@@ -2912,13 +3635,7 @@ const MATIncomplete = () => {
           Ans: No, there are no age restrictions for the MAT exam 2023.
         </p>
         <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="MsoNormal"
+          className="cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           Q: For how long is MAT score valid for admission?
@@ -2931,13 +3648,7 @@ const MATIncomplete = () => {
           one year.
         </p>
         <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="MsoNormal"
+          className="cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           Q. How many colleges accept MAT score for admission?
@@ -2953,13 +3664,7 @@ const MATIncomplete = () => {
           Management - Chennai, PUMBA - Pune, etc.
         </p>
         <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="MsoNormal"
+          className="cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           Q: What are the reservation criteria for MAT?
@@ -2974,22 +3679,10 @@ const MATIncomplete = () => {
           admission process.
         </p>
         <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="MsoNormal"
+          className="cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           Q: What is the MAT application fee?
-        </p>
-        <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
         </p>
         <p
           className="MsoNormal"
@@ -3000,13 +3693,7 @@ const MATIncomplete = () => {
           application fee is Rs. 1,000.
         </p>
         <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="MsoNormal"
+          className="cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           Q: Is there a provision of rechecking or revaluating MAT answer
@@ -3023,13 +3710,7 @@ const MATIncomplete = () => {
           correct than it is considered.
         </p>
         <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="MsoNormal"
+          className="cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           Q: Till when will MAT scorecard is available for download on the NTA
@@ -3044,13 +3725,7 @@ const MATIncomplete = () => {
           requisition with the exam authorities for MAT scorecard.
         </p>
         <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="MsoNormal"
+          className="cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           Q: Will the NTA release MAT 2023 merit list after result declaration?
@@ -3065,19 +3740,7 @@ const MATIncomplete = () => {
           overall percentile.
         </p>
         <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="MsoNormal"
+          className="cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           Q: Is there any difference between MAT score and percentile?
@@ -3090,13 +3753,7 @@ const MATIncomplete = () => {
           Students are only issued with score and rank.
         </p>
         <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="MsoNormal"
+          className="cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           Q: How many times can I attempt MAT?
@@ -3110,13 +3767,7 @@ const MATIncomplete = () => {
           attempt for MAT.
         </p>
         <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="MsoNormal"
+          className="cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           Q: How many candidates appear for MAT?
@@ -3128,13 +3779,7 @@ const MATIncomplete = () => {
           Ans: Around 50,000 to 60,000 student appear for MAT every year.
         </p>
         <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="MsoNormal"
+          className="cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           Q: Is there will be negative marking in the MAT 2023 exam?
@@ -3148,13 +3793,7 @@ const MATIncomplete = () => {
           is of 400 marks with 100 questions equally divided into five sections.
         </p>
         <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="MsoNormal"
+          className="cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           Q: How can I request to change the exam centre?
@@ -3167,13 +3806,7 @@ const MATIncomplete = () => {
           centre will be entertained.
         </p>
         <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="MsoNormal"
+          className="cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           Q: Can I carry a watch to the MAT exam centre?
@@ -3186,13 +3819,7 @@ const MATIncomplete = () => {
           wristwatch, mobile, calculator, etc to the MAT test centre.
         </p>
         <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="MsoNormal"
+          className="cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           Q. Can I change preferred test centre after submitting a form?
@@ -3208,13 +3835,7 @@ const MATIncomplete = () => {
           centre.
         </p>
         <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="MsoNormal"
+          className="cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           Q. Do government MBA colleges in India accept MAT score?

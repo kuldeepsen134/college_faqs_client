@@ -19392,7 +19392,27 @@ section:nth-child(1) {
   width: 100%;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 900px) {
+  .WordSection1 {
+    position: initial;
+    width: 100%;
+    text-align: start;
+    margin-bottom: 0;
+  }
+
+  .custom-sidebar {
+    margin-top: 0;
+  }
+}
+
+
+
+
+@media (max-width: 767.5px) {
+  .custom-sidebar {
+    margin-top: 20px;
+  }
+
   .compare-design .card-group {
     flex-flow: column;
     gap: 30px;
@@ -19413,5 +19433,14 @@ section:nth-child(1) {
 
   .compare-design .card-group .card .card-body {
     margin-left: 0;
+  }
+
+  .hero-banner .row img {
+    height: 100%;
+  }
+
+  .MsoTableGrid,
+  #display-data {
+    width: 100% !important;
   }
 }

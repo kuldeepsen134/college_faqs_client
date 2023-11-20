@@ -87,8 +87,8 @@ const CompairCollage = () => {
       <section id="latest-updates" className="media-5 compare-design custom-inner-pages">
         <div className="container">
           <div className="row">
-
             <div className="card-group">
+
               <div className="card">
                 {getCollage?.baseCollage?.map((item, i) => {
                   return (
@@ -269,7 +269,9 @@ const CompairCollage = () => {
                   </>
                   )}
               </div>
+
             </div>
+
             {/* <div className="col-4 flakh rounded">
               {getCollage?.baseCollage?.map((item, i) => {
                 return (

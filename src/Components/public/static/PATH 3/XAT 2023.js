@@ -3,8 +3,8 @@ import { Link } from "react-router-dom";
 import { useEffect } from "react";
 const XAT2023 = () => {
   useEffect(() => {
-    window.scrollTo(0,0);
-  },[])
+    window.scrollTo(0, 0);
+  }, [])
 
   return (
     <div>
@@ -46,355 +46,310 @@ const XAT2023 = () => {
         >
           &nbsp;
         </p>
-        <h4>Latest Update</h4>
+        <b className="table-details">Latest Update</b>
         <p
-          className="MsoListParagraphCxSpFirst"
-          style={{
-            marginBottom: "0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-.25in",
-          }}
+          className="MsoNormal"
+          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7.0pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            </span>
-          </span>
-          <a href="#1">About XAT Examination</a>
+          &nbsp;
         </p>
-        <p
-          className="MsoListParagraphCxSpMiddle"
-          style={{
-            marginBottom: "0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-.25in",
-          }}
-        >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7.0pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <div className="required-skills">
+          <p
+            className="cont"
+            style={{
+              textJustify: "inter-ideograph",
+              textIndent: "-.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7.0pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              </span>
             </span>
-          </span>
-          <a href="#2">XAT Examination 2022 – Highlights</a>
-        </p>
-        <p
-          className="MsoListParagraphCxSpMiddle"
-          style={{
-            marginBottom: "0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-.25in",
-          }}
-        >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7.0pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="#1">About XAT Examination</a>
+          </p>
+          <p
+            className="cont"
+            style={{
+              textJustify: "inter-ideograph",
+              textIndent: "-.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7.0pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              </span>
             </span>
-          </span>
-          <a href="#3">XAT 2023 Important Dates</a>
-        </p>
-        <p
-          className="MsoListParagraphCxSpMiddle"
-          style={{
-            marginBottom: "0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-.25in",
-          }}
-        >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7.0pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="#2">XAT Examination 2022 – Highlights</a>
+          </p>
+          <p
+            className="cont"
+            style={{
+              textJustify: "inter-ideograph",
+              textIndent: "-.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7.0pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              </span>
             </span>
-          </span>
-          <a href="#4">XAT 2023 Eligibility Criteria</a>
-        </p>
-        <p
-          className="MsoListParagraphCxSpMiddle"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-.25in",
-          }}
-        >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7.0pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="#3">XAT 2023 Important Dates</a>
+          </p>
+          <p
+            className="cont"
+            style={{
+              textJustify: "inter-ideograph",
+              textIndent: "-.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7.0pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              </span>
             </span>
-          </span>
-          <a href="#5">XAT 2023 Registrations Process</a>
-        </p>
-        <p
-          className="MsoListParagraphCxSpMiddle"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-.25in",
-          }}
-        >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7.0pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="#4">XAT 2023 Eligibility Criteria</a>
+          </p>
+          <p
+            className="cont"
+            style={{
+              textIndent: "-.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7.0pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              </span>
             </span>
-          </span>
-          <a href="#6">XAT 2023 Exam Centers</a>
-        </p>
-        <p
-          className="MsoListParagraphCxSpMiddle"
-          style={{
-            marginBottom: "0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-.25in",
-          }}
-        >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7.0pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="#5">XAT 2023 Registrations Process</a>
+          </p>
+          <p
+            className="cont"
+            style={{
+              textIndent: "-.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7.0pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              </span>
             </span>
-          </span>
-          <a href="#7">XAT Exam Pattern</a>
-        </p>
-        <p
-          className="MsoListParagraphCxSpMiddle"
-          style={{
-            marginBottom: "0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-.25in",
-          }}
-        >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7.0pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="#6">XAT 2023 Exam Centers</a>
+          </p>
+          <p
+            className="cont"
+            style={{
+              textJustify: "inter-ideograph",
+              textIndent: "-.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7.0pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              </span>
             </span>
-          </span>
-          <a href="#8">XAT Exam Syllabus </a>
-        </p>
-        <p
-          className="MsoListParagraphCxSpMiddle"
-          style={{
-            marginBottom: "0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-.25in",
-          }}
-        >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7.0pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="#7">XAT Exam Pattern</a>
+          </p>
+          <p
+            className="cont"
+            style={{
+              textJustify: "inter-ideograph",
+              textIndent: "-.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7.0pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              </span>
             </span>
-          </span>
-          <a href="#9">XAT 2023 Exam Preparation Tips</a>
-        </p>
-        <p
-          className="MsoListParagraphCxSpMiddle"
-          style={{
-            marginTop: "0in",
-            marginRight: "0in",
-            marginBottom: "0in",
-            marginLeft: "1.0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-.25in",
-          }}
-        >
-          <span style={{ fontFamily: '"Courier New"' }}>
-            o
-            <span style={{ font: '7.0pt "Times New Roman"' }}>
-              &nbsp;&nbsp;{" "}
+            <a href="#8">XAT Exam Syllabus </a>
+          </p>
+          <p
+            className="cont"
+            style={{
+              textJustify: "inter-ideograph",
+              textIndent: "-.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7.0pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              </span>
             </span>
-          </span>
-          <a href="#9a">
-            XAT 2023 Quantitative Aptitude &amp; Data Interpretation Preparation
-          </a>
-        </p>
-        <p
-          className="MsoListParagraphCxSpMiddle"
-          style={{
-            marginTop: "0in",
-            marginRight: "0in",
-            marginBottom: "0in",
-            marginLeft: "1.0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-.25in",
-          }}
-        >
-          <span style={{ fontFamily: '"Courier New"' }}>
-            o
-            <span style={{ font: '7.0pt "Times New Roman"' }}>
-              &nbsp;&nbsp;{" "}
+            <a href="#9">XAT 2023 Exam Preparation Tips</a>
+          </p>
+          <div className="required-skills">
+
+            <p
+              className="cont"
+              style={{
+                textJustify: "inter-ideograph",
+              }}
+            >
+              <span style={{ fontFamily: "symbol" }}>
+                ·
+                <span style={{ font: '7.0pt "Times New Roman"' }}>
+                  &nbsp;&nbsp;{" "}
+                </span>
+              </span>
+              <a href="#9a">
+                XAT 2023 Quantitative Aptitude &amp; Data Interpretation Preparation
+              </a>
+            </p>
+            <p
+              className="cont"
+              style={{
+                textJustify: "inter-ideograph",
+              }}
+            >
+              <span style={{ fontFamily: "symbol" }}>
+                ·
+                <span style={{ font: '7.0pt "Times New Roman"' }}>
+                  &nbsp;&nbsp;{" "}
+                </span>
+              </span>
+              <a href="#9b">XAT 2023 Verbal &amp; Logical Ability Preparation</a>
+            </p>
+            <p
+              className="cont"
+              style={{
+                textJustify: "inter-ideograph",
+              }}
+            >
+              <span style={{ fontFamily: "symbol" }}>
+                ·
+                <span style={{ font: '7.0pt "Times New Roman"' }}>
+                  &nbsp;&nbsp;{" "}
+                </span>
+              </span>
+              <a href="#9c">XAT 2023 Decision Making (DM) Preparation</a>
+            </p>
+            <p
+              className="cont"
+              style={{
+                textJustify: "inter-ideograph",
+              }}
+            >
+              <span style={{ fontFamily: "symbol" }}>
+                ·
+                <span style={{ font: '7.0pt "Times New Roman"' }}>
+                  &nbsp;&nbsp;{" "}
+                </span>
+              </span>
+              <a href="#9d">XAT 2023 GK Preparation</a>
+            </p>
+          </div>
+          <p
+            className="cont"
+            style={{
+              textIndent: "-.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7.0pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              </span>
             </span>
-          </span>
-          <a href="#9b">XAT 2023 Verbal &amp; Logical Ability Preparation</a>
-        </p>
-        <p
-          className="MsoListParagraphCxSpMiddle"
-          style={{
-            marginTop: "0in",
-            marginRight: "0in",
-            marginBottom: "0in",
-            marginLeft: "1.0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-.25in",
-          }}
-        >
-          <span style={{ fontFamily: '"Courier New"' }}>
-            o
-            <span style={{ font: '7.0pt "Times New Roman"' }}>
-              &nbsp;&nbsp;{" "}
+            <a href="#9e">XAT Admit Card 2023</a>
+          </p>
+          <p
+            className="cont"
+            style={{
+              textIndent: "-.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7.0pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              </span>
             </span>
-          </span>
-          <a href="#9c">XAT 2023 Decision Making (DM) Preparation</a>
-        </p>
-        <p
-          className="MsoListParagraphCxSpMiddle"
-          style={{
-            marginTop: "0in",
-            marginRight: "0in",
-            marginBottom: "0in",
-            marginLeft: "1.0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-.25in",
-          }}
-        >
-          <span style={{ fontFamily: '"Courier New"' }}>
-            o
-            <span style={{ font: '7.0pt "Times New Roman"' }}>
-              &nbsp;&nbsp;{" "}
+            <a href="#10">XAT Exam Day Guidelines</a>
+          </p>
+          <p
+            className="cont"
+            style={{
+              textIndent: "-.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7.0pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              </span>
             </span>
-          </span>
-          <a href="#9d">XAT 2023 GK Preparation</a>
-        </p>
-        <p
-          className="MsoListParagraphCxSpMiddle"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-.25in",
-          }}
-        >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7.0pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="#11">XAT 2023 Answer Key</a>
+          </p>
+          <p
+            className="cont"
+            style={{
+              textIndent: "-.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7.0pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              </span>
             </span>
-          </span>
-          <a href="#9e">XAT Admit Card 2023</a>
-        </p>
-        <p
-          className="MsoListParagraphCxSpMiddle"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-.25in",
-          }}
-        >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7.0pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="#12">XAT 2023 Result</a>
+          </p>
+          <p
+            className="cont"
+            style={{
+              textJustify: "inter-ideograph",
+              textIndent: "-.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7.0pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              </span>
             </span>
-          </span>
-          <a href="#10">XAT Exam Day Guidelines</a>
-        </p>
-        <p
-          className="MsoListParagraphCxSpMiddle"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-.25in",
-          }}
-        >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7.0pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="#13">XAT 2023 Selection Process</a>
+          </p>
+          <p
+            className="cont"
+            style={{
+              textJustify: "inter-ideograph",
+              textIndent: "-.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7.0pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              </span>
             </span>
-          </span>
-          <a href="#11">XAT 2023 Answer Key</a>
-        </p>
-        <p
-          className="MsoListParagraphCxSpMiddle"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-.25in",
-          }}
-        >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7.0pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="#14">XAT Cut Offs 2023</a>
+          </p>
+          <p
+            className="cont"
+            style={{
+              textJustify: "inter-ideograph",
+              textIndent: "-.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7.0pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              </span>
             </span>
-          </span>
-          <a href="#12">XAT 2023 Result</a>
-        </p>
-        <p
-          className="MsoListParagraphCxSpMiddle"
-          style={{
-            marginBottom: "0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-.25in",
-          }}
-        >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7.0pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            </span>
-          </span>
-          <a href="#13">XAT 2023 Selection Process</a>
-        </p>
-        <p
-          className="MsoListParagraphCxSpMiddle"
-          style={{
-            marginBottom: "0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-.25in",
-          }}
-        >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7.0pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            </span>
-          </span>
-          <a href="#14">XAT Cut Offs 2023</a>
-        </p>
-        <p
-          className="MsoListParagraphCxSpLast"
-          style={{
-            marginBottom: "0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-.25in",
-          }}
-        >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7.0pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            </span>
-          </span>
-          <a href="#15">FAQs XAT Exam 2023</a>
-        </p>
+            <a href="#15">FAQs XAT Exam 2023</a>
+          </p>
+        </div>
         <p
           className="MsoNormal"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
@@ -405,67 +360,6 @@ const XAT2023 = () => {
         <p
           className="MsoNormal"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-         
-        </p>
-      
-
-
-
-      
-        <p
-          className="MsoNormal"
-          style={{
-            marginBottom: "0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-          }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="MsoNormal"
-          style={{
-            marginBottom: "0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-          }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="MsoNormal"
-          style={{
-            marginBottom: "0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-          }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="MsoNormal"
-          style={{
-            marginBottom: "0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-          }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="MsoNormal"
-          style={{
-            marginBottom: "0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-          }}
         >
           &nbsp;
         </p>
@@ -511,7 +405,7 @@ const XAT2023 = () => {
           online and the registration fee for this year is Rs. 2,000 INR plus
           Rs. 200 for every XLRI program. There are more than 70 cities and more
           than 100 venues where XAT 2023 exam will be conducted in
-          India.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+          India.
         </p>
         <p
           className="MsoNormal" id="2"
@@ -525,11 +419,8 @@ const XAT2023 = () => {
         >
           <b>XAT Examination 2023 – Highlights</b>
         </p>
-        <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        ></p>
-        <table cellSpacing={0} cellPadding={0} align="left">
+
+        <table cellSpacing={0} cellPadding={0} align="left" className="shadow-none mb-5">
           <tbody>
             <tr>
               <td width={1} height={0} />
@@ -546,57 +437,8 @@ const XAT2023 = () => {
             </tr>
           </tbody>
         </table>
-        &nbsp;
-        <p />
-        <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <br clear="ALL" />
+
+
         <table
           className="MsoTableGrid"
           style={{ borderCollapse: "collapse", border: "none" }}
@@ -624,7 +466,7 @@ const XAT2023 = () => {
                   }}
                 >
                   <b>
-                    <u>Particulars</u>
+                    Particulars
                   </b>
                 </p>
               </td>
@@ -647,7 +489,7 @@ const XAT2023 = () => {
                   }}
                 >
                   <b>
-                    <u>Details</u>
+                    Details
                   </b>
                 </p>
               </td>
@@ -1585,18 +1427,14 @@ const XAT2023 = () => {
             </tr>
           </tbody>
         </table>
+
         <p
           className="MsoNormal"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           &nbsp;
         </p>
-        <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
+
         <p
           className="MsoNormal" id="3"
           style={{
@@ -1607,6 +1445,7 @@ const XAT2023 = () => {
         >
           <b>XAT 2023 Important Dates</b>
         </p>
+
         <p
           className="MsoNormal"
           style={{
@@ -1617,6 +1456,7 @@ const XAT2023 = () => {
         >
           &nbsp;
         </p>
+
         <table
           className="MsoTableGrid"
           style={{ borderCollapse: "collapse", border: "none" }}
@@ -1645,7 +1485,7 @@ const XAT2023 = () => {
                   }}
                 >
                   <b>
-                    <u>XAT Exam 2023 Events</u>
+                    XAT Exam 2023 Events
                   </b>
                 </p>
               </td>
@@ -1669,7 +1509,7 @@ const XAT2023 = () => {
                   }}
                 >
                   <b>
-                    <u>Important Dates</u>
+                    Important Dates
                   </b>
                 </p>
               </td>
@@ -2085,18 +1925,14 @@ const XAT2023 = () => {
             </tr>
           </tbody>
         </table>
+
         <p
           className="MsoNormal"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           &nbsp;
         </p>
-        <p
-          className="MsoNormal" id="4"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          <b>&nbsp;</b>
-        </p>
+
         <p
           className="MsoNormal"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
@@ -2110,96 +1946,95 @@ const XAT2023 = () => {
           The minimum eligibility criterion for XAT 2023 exam is graduation in
           any stream. Detailed XAT eligibility criteria are listed below:
         </p>
-        <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-.25in",
-          }}
-        >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7.0pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+        <div className="required-skills">
+
+          <p
+            className="cont"
+            style={{
+              // textAlign: "justify",
+              textJustify: "inter-ideograph",
+              marginLeft: "0",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7.0pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              </span>
             </span>
-          </span>
-          Candidates must hold a bachelor’s degree of minimum three years
-          duration or equivalent in any discipline from a recognised university
-        </p>
-        <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-.25in",
-          }}
-        >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7.0pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            Candidates must hold a bachelor’s degree of minimum three years
+            duration or equivalent in any discipline from a recognised university
+          </p>
+          <p
+            className="cont"
+            style={{
+              // textAlign: "justify",
+              textJustify: "inter-ideograph",
+              marginLeft: "0",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7.0pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              </span>
             </span>
-          </span>
-          XAT does not require any minimum percentage of marks in graduation to
-          register and apply for XAT exam
-        </p>
-        <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-.25in",
-          }}
-        >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7.0pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            XAT does not require any minimum percentage of marks in graduation to
+            register and apply for XAT exam
+          </p>
+          <p
+            className="cont"
+            style={{
+              // textAlign: "justify",
+              textJustify: "inter-ideograph",
+              marginLeft: "0",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7.0pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              </span>
             </span>
-          </span>
-          Students in their final year of graduation can also apply
-        </p>
-        <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-.25in",
-          }}
-        >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7.0pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            Students in their final year of graduation can also apply
+          </p>
+          <p
+            className="cont"
+            style={{
+              // textAlign: "justify",
+              textJustify: "inter-ideograph",
+              marginLeft: "0",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7.0pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              </span>
             </span>
-          </span>
-          Minimum 15 years of academic study till bachelor’s degree is required.
-          It means you must have pursued or pursuing minimum three years of
-          graduation degree
-        </p>
-        <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-.25in",
-          }}
-        >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7.0pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            Minimum 15 years of academic study till bachelor’s degree is required.
+            It means you must have pursued or pursuing minimum three years of
+            graduation degree
+          </p>
+          <p
+            className="cont"
+            style={{
+              // textAlign: "justify",
+              textJustify: "inter-ideograph",
+              marginLeft: "0",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7.0pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              </span>
             </span>
-          </span>
-          There is no upper age limit for the applicants.
-        </p>
-        <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          <b>&nbsp;</b>
-        </p>
+            There is no upper age limit for the applicants.
+          </p>
+        </div>
+
         <p
           className="MsoNormal"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
@@ -2228,229 +2063,234 @@ const XAT2023 = () => {
           registration dates are open from 10 August, 2022 to 30 November, 2022.
           The steps to register and apply for the XAT exam are:
         </p>
-        <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-.25in",
-          }}
-        >
-          1.
-          <span style={{ font: '7.0pt "Times New Roman"' }}>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          </span>
-          Register yourself on official XAT 2023 Exam website -{" "}
-          <a href="https://xatonline.in/">https://xatonline.in/</a>
-        </p>
-        <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-.25in",
-          }}
-        >
-          2.
-          <span style={{ font: '7.0pt "Times New Roman"' }}>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          </span>
-          Generate User ID and Password
-        </p>
-        <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-.25in",
-          }}
-        >
-          3.
-          <span style={{ font: '7.0pt "Times New Roman"' }}>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          </span>
-          Verify Email ID on receipt of message from exam centre
-        </p>
-        <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-.25in",
-          }}
-        >
-          4.
-          <span style={{ font: '7.0pt "Times New Roman"' }}>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          </span>
-          Fill all the pages of XAT Application Form online
-        </p>
-        <p
-          className="cont1"
-          style={{
-            marginLeft: "1.0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-.25in",
-          }}
-        >
-          a.
-          <span style={{ font: '7.0pt "Times New Roman"' }}>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          </span>
-          Personal Details: Date of Birth, Category, Nationality, Names of
-          Parents, Permanent/ Current Address, Contact details.
-        </p>
-        <p
-          className="cont1"
-          style={{
-            marginLeft: "1.0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-.25in",
-          }}
-        >
-          b.
-          <span style={{ font: '7.0pt "Times New Roman"' }}>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          </span>
-          Academic Details: Class 10th marks, class 12th marks, graduation and
-          postgraduation scores, professional degree/ course details.
-        </p>
-        <p
-          className="cont1"
-          style={{
-            marginLeft: "1.0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-.25in",
-          }}
-        >
-          c.
-          <span style={{ font: '7.0pt "Times New Roman"' }}>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          </span>
-          Work Experience Details: Full-time work experience details till March
-          31, 2022.
-        </p>
-        <p
-          className="cont1"
-          style={{
-            marginLeft: "1.0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-.25in",
-          }}
-        >
-          d.
-          <span style={{ font: '7.0pt "Times New Roman"' }}>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          </span>
-          XLRI Program Preference: Candidates willing to apply for XLRI programs
-          need to submit their choice of program- Business Management (BM),
-          Human Resource Management (HRM), Fellow Management Program.
-        </p>
-        <p
-          className="cont1"
-          style={{
-            marginLeft: "1.0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-.25in",
-          }}
-        >
-          e.
-          <span style={{ font: '7.0pt "Times New Roman"' }}>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          </span>
-          XAT Exam City Preference: Candidates can select 2 XAT exam cities from
-          the drop-down list based on their convenience.
-        </p>
-        <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-.25in",
-          }}
-        >
-          5.
-          <span style={{ font: '7.0pt "Times New Roman"' }}>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          </span>
-          Upload Required Documents on relevant pages of XAT Application Form
-          2023
-        </p>
-        <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-.25in",
-          }}
-        >
-          6.
-          <span style={{ font: '7.0pt "Times New Roman"' }}>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          </span>
-          Photograph: Recent photograph in JPG/ JPEG format. File size should be
-          between 20kb to 50kb. The recommended dimension is 200 x 230 pixels.
-        </p>
-        <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-.25in",
-          }}
-        >
-          7.
-          <span style={{ font: '7.0pt "Times New Roman"' }}>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          </span>
-          Signature: Signature done in black ink on white paper. File size
-          should be between 20kb to 50kb. The recommended dimension is 140 x 60.
-        </p>
-        <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-.25in",
-          }}
-        >
-          8.
-          <span style={{ font: '7.0pt "Times New Roman"' }}>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          </span>
-          Pay XAT Application Fee of Rs.2000/- Online
-        </p>
-        <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-.25in",
-          }}
-        >
-          9.
-          <span style={{ font: '7.0pt "Times New Roman"' }}>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          </span>
-          Submit XAT Application Form Online
-        </p>
+        <div className="required-skills">
+
+          <p
+            className="cont"
+            style={{
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-.25in",
+            }}
+          >
+            1.
+            <span style={{ font: '7.0pt "Times New Roman"' }}>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            </span>
+            Register yourself on official XAT 2023 Exam website -{" "}
+            <a href="https://xatonline.in/">https://xatonline.in/</a>
+          </p>
+          <p
+            className="cont"
+            style={{
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-.25in",
+            }}
+          >
+            2.
+            <span style={{ font: '7.0pt "Times New Roman"' }}>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            </span>
+            Generate User ID and Password
+          </p>
+          <p
+            className="cont"
+            style={{
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-.25in",
+            }}
+          >
+            3.
+            <span style={{ font: '7.0pt "Times New Roman"' }}>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            </span>
+            Verify Email ID on receipt of message from exam centre
+          </p>
+          <p
+            className="cont"
+            style={{
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-.25in",
+            }}
+          >
+            4.
+            <span style={{ font: '7.0pt "Times New Roman"' }}>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            </span>
+            Fill all the pages of XAT Application Form online
+          </p>
+
+          <div className="required-skills">
+            <p
+              className="cont"
+              style={{
+                marginLeft: "0.5in",
+                textJustify: "inter-ideograph",
+                textIndent: "-.25in",
+              }}
+            >
+              a.
+              <span style={{ font: '7.0pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              </span>
+              Personal Details: Date of Birth, Category, Nationality, Names of
+              Parents, Permanent/ Current Address, Contact details.
+            </p>
+            <p
+              className="cont"
+              style={{
+                marginLeft: "0.5in",
+                textJustify: "inter-ideograph",
+                textIndent: "-.25in",
+              }}
+            >
+              b.
+              <span style={{ font: '7.0pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              </span>
+              Academic Details: Class 10th marks, class 12th marks, graduation and
+              postgraduation scores, professional degree/ course details.
+            </p>
+            <p
+              className="cont"
+              style={{
+                marginLeft: "0.5in",
+                textJustify: "inter-ideograph",
+                textIndent: "-.25in",
+              }}
+            >
+              c.
+              <span style={{ font: '7.0pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              </span>
+              Work Experience Details: Full-time work experience details till March
+              31, 2022.
+            </p>
+            <p
+              className="cont"
+              style={{
+                marginLeft: "0.5in",
+                textJustify: "inter-ideograph",
+                textIndent: "-.25in",
+              }}
+            >
+              d.
+              <span style={{ font: '7.0pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              </span>
+              XLRI Program Preference: Candidates willing to apply for XLRI programs
+              need to submit their choice of program- Business Management (BM),
+              Human Resource Management (HRM), Fellow Management Program.
+            </p>
+            <p
+              className="cont"
+              style={{
+                marginLeft: "0.5in",
+                textJustify: "inter-ideograph",
+                textIndent: "-.25in",
+              }}
+            >
+              e.
+              <span style={{ font: '7.0pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              </span>
+              XAT Exam City Preference: Candidates can select 2 XAT exam cities from
+              the drop-down list based on their convenience.
+            </p>
+          </div>
+
+          <p
+            className="cont"
+            style={{
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-.25in",
+            }}
+          >
+            5.
+            <span style={{ font: '7.0pt "Times New Roman"' }}>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            </span>
+            Upload Required Documents on relevant pages of XAT Application Form
+            2023
+          </p>
+          <p
+            className="cont"
+            style={{
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-.25in",
+            }}
+          >
+            6.
+            <span style={{ font: '7.0pt "Times New Roman"' }}>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            </span>
+            Photograph: Recent photograph in JPG/ JPEG format. File size should be
+            between 20kb to 50kb. The recommended dimension is 200 x 230 pixels.
+          </p>
+          <p
+            className="cont"
+            style={{
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-.25in",
+            }}
+          >
+            7.
+            <span style={{ font: '7.0pt "Times New Roman"' }}>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            </span>
+            Signature: Signature done in black ink on white paper. File size
+            should be between 20kb to 50kb. The recommended dimension is 140 x 60.
+          </p>
+          <p
+            className="cont"
+            style={{
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-.25in",
+            }}
+          >
+            8.
+            <span style={{ font: '7.0pt "Times New Roman"' }}>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            </span>
+            Pay XAT Application Fee of Rs.2000/- Online
+          </p>
+          <p
+            className="cont"
+            style={{
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-.25in",
+            }}
+          >
+            9.
+            <span style={{ font: '7.0pt "Times New Roman"' }}>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            </span>
+            Submit XAT Application Form Online
+          </p>
+        </div>
+
         <p
           className="MsoNormal" id="6"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           &nbsp;
         </p>
+
         <p
           className="MsoNormal"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           <b>XAT 2023 Exam Centers</b>
         </p>
+
         <p
           className="MsoNormal"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
@@ -2459,6 +2299,7 @@ const XAT2023 = () => {
           will have one or more XAT exam centers. Final list of XAT 2023 exam
           centers is expected to be out soon. Tentative list of cities are:
         </p>
+
         <table
           className="MsoTableGrid"
           style={{ borderCollapse: "collapse", border: "none" }}
@@ -4336,18 +4177,14 @@ const XAT2023 = () => {
             </tr>
           </tbody>
         </table>
+
         <p
           className="MsoNormal"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           &nbsp;
         </p>
-        <p
-          className="MsoNormal" id="7"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
+
         <p
           className="MsoNormal"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
@@ -4383,6 +4220,7 @@ const XAT2023 = () => {
           XAT Exam pattern with sectional division of XAT questions and XAT exam
           time duration is as below:
         </p>
+
         <table
           className="MsoTableGrid"
           style={{ borderCollapse: "collapse", border: "none" }}
@@ -4410,7 +4248,7 @@ const XAT2023 = () => {
                   align="center"
                 >
                   <b>
-                    <u>Parts</u>
+                    Parts
                   </b>
                 </p>
               </td>
@@ -4433,7 +4271,7 @@ const XAT2023 = () => {
                   align="center"
                 >
                   <b>
-                    <u>Exam Sections</u>
+                    Exam Sections
                   </b>
                 </p>
               </td>
@@ -4456,7 +4294,7 @@ const XAT2023 = () => {
                   align="center"
                 >
                   <b>
-                    <u>Number of Questions</u>
+                    Number of Questions
                   </b>
                 </p>
               </td>
@@ -4479,7 +4317,7 @@ const XAT2023 = () => {
                   align="center"
                 >
                   <b>
-                    <u>Number of Marks</u>
+                    Number of Marks
                   </b>
                 </p>
               </td>
@@ -4502,7 +4340,7 @@ const XAT2023 = () => {
                   align="center"
                 >
                   <b>
-                    <u>Overall Time Duration</u>
+                    Overall Time Duration
                   </b>
                 </p>
               </td>
@@ -4956,12 +4794,20 @@ const XAT2023 = () => {
             </tr>
           </tbody>
         </table>
+
+        <p
+          className="MsoNormal"
+          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
+        >
+          &nbsp;
+        </p>
+
         <p
           className="MsoNormal" id="8"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           <b>
-            <span style={{ color: "white" }}>XAT Exam Syllabus</span>
+            XAT Exam Syllabus
           </b>
         </p>
         <p
@@ -4975,6 +4821,7 @@ const XAT2023 = () => {
           questions. Some of the important topics which occupy the maximum
           weightage in XAT are given below:
         </p>
+
         <table
           className="MsoTableGrid"
           style={{ borderCollapse: "collapse", border: "none" }}
@@ -5002,7 +4849,7 @@ const XAT2023 = () => {
                   align="center"
                 >
                   <b>
-                    <u>Syllabus</u>
+                    Syllabus
                   </b>
                 </p>
               </td>
@@ -5025,7 +4872,7 @@ const XAT2023 = () => {
                   align="center"
                 >
                   <b>
-                    <u>Important Topics</u>
+                    Important Topics
                   </b>
                 </p>
               </td>
@@ -5276,6 +5123,7 @@ const XAT2023 = () => {
             </tr>
           </tbody>
         </table>
+
         <p
           className="MsoNormal"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
@@ -5320,159 +5168,161 @@ const XAT2023 = () => {
           Jamshedpur. So, divide your study hours among these sections equally
           and focus on the following parameters while preparing:{" "}
         </p>
-        <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-.25in",
-          }}
-        >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7.0pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+        <div className="required-skills">
+          <p
+            className="cont"
+            style={{
+              textJustify: "inter-ideograph",
+              textIndent: "-.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7.0pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              </span>
             </span>
-          </span>
-          Follow the exam pattern to understand the structure, number and type
-          of questions.
-        </p>
-        <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-.25in",
-          }}
-        >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7.0pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            Follow the exam pattern to understand the structure, number and type
+            of questions.
+          </p>
+          <p
+            className="cont"
+            style={{
+              textJustify: "inter-ideograph",
+              textIndent: "-.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7.0pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              </span>
             </span>
-          </span>
-          Scan thoroughly the XAT exam Syllabus and sections.
-        </p>
-        <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-.25in",
-          }}
-        >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7.0pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            Scan thoroughly the XAT exam Syllabus and sections.
+          </p>
+          <p
+            className="cont"
+            style={{
+              textJustify: "inter-ideograph",
+              textIndent: "-.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7.0pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              </span>
             </span>
-          </span>
-          Identify your strengths and weaknesses and make a list of topics as
-          per it.
-        </p>
-        <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-.25in",
-          }}
-        >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7.0pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            Identify your strengths and weaknesses and make a list of topics as
+            per it.
+          </p>
+          <p
+            className="cont"
+            style={{
+              textJustify: "inter-ideograph",
+              textIndent: "-.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7.0pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              </span>
             </span>
-          </span>
-          Join online study groups on platforms such as Facebook, YouTube,
-          Telegram, etc.
-        </p>
-        <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-.25in",
-          }}
-        >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7.0pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            Join online study groups on platforms such as Facebook, YouTube,
+            Telegram, etc.
+          </p>
+          <p
+            className="cont"
+            style={{
+              textJustify: "inter-ideograph",
+              textIndent: "-.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7.0pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              </span>
             </span>
-          </span>
-          Collect relevant study material, test sets and recommended books for
-          XAT preparation.
-        </p>
-        <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-.25in",
-          }}
-        >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7.0pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            Collect relevant study material, test sets and recommended books for
+            XAT preparation.
+          </p>
+          <p
+            className="cont"
+            style={{
+              textJustify: "inter-ideograph",
+              textIndent: "-.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7.0pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              </span>
             </span>
-          </span>
-          Make day-wise plan as per topics and syllabus by allotting time to
-          each section.
-        </p>
-        <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-.25in",
-          }}
-        >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7.0pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            Make day-wise plan as per topics and syllabus by allotting time to
+            each section.
+          </p>
+          <p
+            className="cont"
+            style={{
+              textJustify: "inter-ideograph",
+              textIndent: "-.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7.0pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              </span>
             </span>
-          </span>
-          Practice two-three questions from the topic studied on the same day to
-          assess how much you have learnt.
-        </p>
-        <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-.25in",
-          }}
-        >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7.0pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            Practice two-three questions from the topic studied on the same day to
+            assess how much you have learnt.
+          </p>
+          <p
+            className="cont"
+            style={{
+              textJustify: "inter-ideograph",
+              textIndent: "-.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7.0pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              </span>
             </span>
-          </span>
-          Start from topics wise test series to be followed by subject wise and
-          then overall.
-        </p>
-        <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-.25in",
-          }}
-        >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7.0pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            Start from topics wise test series to be followed by subject wise and
+            then overall.
+          </p>
+          <p
+            className="cont"
+            style={{
+              textJustify: "inter-ideograph",
+              textIndent: "-.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7.0pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              </span>
             </span>
-          </span>
-          Increase the speed gradually to cover maximum number of topics each
-          day.
+            Increase the speed gradually to cover maximum number of topics each
+            day.
+          </p>
+        </div>
+
+        <p
+          className="MsoNormal" id="9"
+          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
+        >
+          &nbsp;
         </p>
-        <p 
+
+        <p
           className="MsoNormal" id="9a"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
@@ -5488,110 +5338,115 @@ const XAT2023 = () => {
           of the QADI syllabus. The major tips to ace XAT QADI preparation are
           as follows:
         </p>
-        <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-.25in",
-          }}
-        >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7.0pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+        <div className="required-skills">
+          <p
+            className="cont"
+            style={{
+              textJustify: "inter-ideograph",
+              textIndent: "-.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7.0pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              </span>
             </span>
-          </span>
-          Study and Revise basic concepts and formulas like important
-          ratio-percentage conversion ratios, quadratic equations, squares and
-          square roots, cubes and cube roots, etc.{" "}
-        </p>
-        <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-.25in",
-          }}
-        >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7.0pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            Study and Revise basic concepts and formulas like important
+            ratio-percentage conversion ratios, quadratic equations, squares and
+            square roots, cubes and cube roots, etc.{" "}
+          </p>
+          <p
+            className="cont"
+            style={{
+              textJustify: "inter-ideograph",
+              textIndent: "-.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7.0pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              </span>
             </span>
-          </span>
-          Practice at least 20 questions every day to ensure consistency and
-          build retention power.
-        </p>
-        <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-.25in",
-          }}
-        >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7.0pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            Practice at least 20 questions every day to ensure consistency and
+            build retention power.
+          </p>
+          <p
+            className="cont"
+            style={{
+              textJustify: "inter-ideograph",
+              textIndent: "-.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7.0pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              </span>
             </span>
-          </span>
-          Refer to online study platforms to clear doubts, and to learn short
-          tricks and formulas.
-        </p>
-        <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-.25in",
-          }}
-        >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7.0pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            Refer to online study platforms to clear doubts, and to learn short
+            tricks and formulas.
+          </p>
+          <p
+            className="cont"
+            style={{
+              textJustify: "inter-ideograph",
+              textIndent: "-.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7.0pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              </span>
             </span>
-          </span>
-          Choose any good Quant &amp; DI book for XAT preparation by writers
-          like Arun Sharma.{" "}
-        </p>
-        <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-.25in",
-          }}
-        >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7.0pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            Choose any good Quant &amp; DI book for XAT preparation by writers
+            like Arun Sharma.{" "}
+          </p>
+          <p
+            className="cont"
+            style={{
+              textJustify: "inter-ideograph",
+              textIndent: "-.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7.0pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              </span>
             </span>
-          </span>
-          Practice sectional as well as full-length XAT mock tests and sample
-          papers.
-        </p>
-        <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-.25in",
-          }}
-        >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7.0pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            Practice sectional as well as full-length XAT mock tests and sample
+            papers.
+          </p>
+          <p
+            className="cont"
+            style={{
+              textJustify: "inter-ideograph",
+              textIndent: "-.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7.0pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              </span>
             </span>
-          </span>
-          For XAT DI preparation, solve at least 2-3 DI sets every week from
-          different types of data sets including, pie charts, bar graphs, line
-          graphs, tabular data, and caselets.{" "}
+            For XAT DI preparation, solve at least 2-3 DI sets every week from
+            different types of data sets including, pie charts, bar graphs, line
+            graphs, tabular data, and caselets.{" "}
+          </p>
+        </div>
+
+        <p
+          className="MsoNormal" id="9"
+          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
+        >
+          &nbsp;
         </p>
+
         <p
           className="MsoNormal" id="9b"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
@@ -5608,100 +5463,108 @@ const XAT2023 = () => {
           based questions. The most important tips to keep in mind for XAT VALR
           preparation are given below:
         </p>
-        <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-.25in",
-          }}
-        >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7.0pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+        <div className="required-skills">
+          <p
+            className="cont"
+            style={{
+              textJustify: "inter-ideograph",
+              textIndent: "-.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7.0pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              </span>
             </span>
-          </span>
-          To increase vocabulary, refer to the book titled’ Word Power Made
-          Easy’ by Norman Lewis and also read at least 1-2 newspaper/ magazine/
-          online articles.
-        </p>
-        <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-.25in",
-          }}
-        >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7.0pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            To increase vocabulary, refer to the book titled’ Word Power Made
+            Easy’ by Norman Lewis and also read at least 1-2 newspaper/ magazine/
+            online articles.
+          </p>
+          <p
+            className="cont"
+            style={{
+              textJustify: "inter-ideograph",
+              textIndent: "-.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7.0pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              </span>
             </span>
-          </span>
-          To learn grammar concepts and practice questions on error detection,
-          para jumbles, fill in the blanks, etc.
-        </p>
-        <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-.25in",
-          }}
-        >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7.0pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            To learn grammar concepts and practice questions on error detection,
+            para jumbles, fill in the blanks, etc.
+          </p>
+          <p
+            className="cont"
+            style={{
+              textJustify: "inter-ideograph",
+              textIndent: "-.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7.0pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              </span>
             </span>
-          </span>
-          Refer to some of the most recommended VA books like VARC by Ajay
-          Singh, How to Prepare for VARC by Arun Sharma, and Objective English
-          by SP Bakshi.
-        </p>
-        <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-.25in",
-          }}
-        >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7.0pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            Refer to some of the most recommended VA books like VARC by Ajay
+            Singh, How to Prepare for VARC by Arun Sharma, and Objective English
+            by SP Bakshi.
+          </p>
+          <p
+            className="cont"
+            style={{
+              textJustify: "inter-ideograph",
+              textIndent: "-.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7.0pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              </span>
             </span>
-          </span>
-          To increase the reading speed for RC passages, firstly start reading
-          short passages (300-400 words) from reference books and gradually
-          increase the length of the passages.
-        </p>
-        <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-.25in",
-          }}
-        >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7.0pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            To increase the reading speed for RC passages, firstly start reading
+            short passages (300-400 words) from reference books and gradually
+            increase the length of the passages.
+          </p>
+          <p
+            className="cont"
+            style={{
+              textJustify: "inter-ideograph",
+              textIndent: "-.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7.0pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              </span>
             </span>
-          </span>
-          Solve as many sample papers and online quizzes as possible to be able
-          to practice maximum type of questions.
+            Solve as many sample papers and online quizzes as possible to be able
+            to practice maximum type of questions.
+          </p>
+        </div>
+
+
+        <p
+          className="MsoNormal" id="9"
+          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
+        >
+          &nbsp;
         </p>
+
         <p
           className="MsoNormal" id="9c"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           <b>XAT 2023 Decision Making (DM) Preparation</b>
         </p>
+
         <p
           className="MsoNormal"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
@@ -5710,82 +5573,90 @@ const XAT2023 = () => {
           section. However, candidates preparing for XAT 2023 must keep in mind
           the following tips to prepare for XAT Decision Making section:
         </p>
-        <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-.25in",
-          }}
-        >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7.0pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+        <div className="required-skills">
+          <p
+            className="cont"
+            style={{
+              textJustify: "inter-ideograph",
+              textIndent: "-.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7.0pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              </span>
             </span>
-          </span>
-          The best way to prepare for this section is to solve XAT previous year
-          question papers and figure out the approach for answering such
-          questions accurately.
-        </p>
-        <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-.25in",
-          }}
-        >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7.0pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            The best way to prepare for this section is to solve XAT previous year
+            question papers and figure out the approach for answering such
+            questions accurately.
+          </p>
+          <p
+            className="cont"
+            style={{
+              textJustify: "inter-ideograph",
+              textIndent: "-.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7.0pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              </span>
             </span>
-          </span>
-          Based on the analysis of previous year papers, it is seen that more
-          than 50% of the questions were related to business decision making and
-          the rest were based on ethical dilemmas.{" "}
-        </p>
-        <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-.25in",
-          }}
-        >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7.0pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            Based on the analysis of previous year papers, it is seen that more
+            than 50% of the questions were related to business decision making and
+            the rest were based on ethical dilemmas.{" "}
+          </p>
+          <p
+            className="cont"
+            style={{
+              textJustify: "inter-ideograph",
+              textIndent: "-.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7.0pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              </span>
             </span>
-          </span>
-          Do not let your bias affect your answers as you are required to choose
-          the best alternative from the given options.
-        </p>
-        <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-.25in",
-          }}
-        >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7.0pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            Do not let your bias affect your answers as you are required to choose
+            the best alternative from the given options.
+          </p>
+          <p
+            className="cont"
+            style={{
+              textJustify: "inter-ideograph",
+              textIndent: "-.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7.0pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              </span>
             </span>
-          </span>
-          To answer questions on ethical dilemmas, first, try to understand the
-          ethics of the given situation and avoid choosing passive options.
+            To answer questions on ethical dilemmas, first, try to understand the
+            ethics of the given situation and avoid choosing passive options.
+          </p>
+        </div>
+
+        <p
+          className="MsoNormal" id="9"
+          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
+        >
+          &nbsp;
         </p>
+
         <p
           className="MsoNormal" id="9d"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           <b>XAT 2023 GK Preparation</b>
         </p>
+
         <p
           className="MsoNormal"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
@@ -5795,78 +5666,77 @@ const XAT2023 = () => {
           points to keep in mind while preparing for XAT 2023 are mentioned
           below for your reference.
         </p>
-        <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-.25in",
-          }}
-        >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7.0pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+        <div className="required-skills">
+
+          <p
+            className="cont"
+            style={{
+              textJustify: "inter-ideograph",
+              textIndent: "-.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7.0pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              </span>
             </span>
-          </span>
-          For Static GK, refer to any good book like Lucent’s GK, Manorama Year
-          Book, Arihant’s GK, etc.
-        </p>
-        <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-.25in",
-          }}
-        >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7.0pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            For Static GK, refer to any good book like Lucent’s GK, Manorama Year
+            Book, Arihant’s GK, etc.
+          </p>
+          <p
+            className="cont"
+            style={{
+              textJustify: "inter-ideograph",
+              textIndent: "-.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7.0pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              </span>
             </span>
-          </span>
-          Read newspapers (The Hindu, Indian Express, Economic Times), Magazines
-          (Frontline, Business Line, Yojana), and online news articles to stay
-          updated with the current events of national and international
-          importance.
-        </p>
-        <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-.25in",
-          }}
-        >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7.0pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            Read newspapers (The Hindu, Indian Express, Economic Times), Magazines
+            (Frontline, Business Line, Yojana), and online news articles to stay
+            updated with the current events of national and international
+            importance.
+          </p>
+          <p
+            className="cont"
+            style={{
+              textJustify: "inter-ideograph",
+              textIndent: "-.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7.0pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              </span>
             </span>
-          </span>
-          The most important step is to take notes of daily current affairs to
-          ease last-minute revision.
-        </p>
+            The most important step is to take notes of daily current affairs to
+            ease last-minute revision.
+          </p>
+        </div>
+
         <p
           className="MsoNormal"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           &nbsp;
         </p>
-        <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
+
         <CustomTable />
+
         <p
           className="MsoNormal" id="9e"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           &nbsp;
         </p>
+
         <p
           className="MsoNormal"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
@@ -5882,77 +5752,78 @@ const XAT2023 = () => {
           Check below the steps to download XAT 2023 admit card which is a
           mandatory document to be carried to the exam hall:{" "}
         </p>
-        <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-.25in",
-          }}
-        >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7.0pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+        <div className="required-skills">
+          <p
+            className="cont"
+            style={{
+              textJustify: "inter-ideograph",
+              textIndent: "-.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7.0pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              </span>
             </span>
-          </span>
-          Visit the official website of XAT 2023 -{" "}
-          <a href="https://xatonline.in/">https://xatonline.in/</a>
-        </p>
-        <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-.25in",
-          }}
-        >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7.0pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            Visit the official website of XAT 2023 -{" "}
+            <a href="https://xatonline.in/">https://xatonline.in/</a>.
+          </p>
+          <p
+            className="cont"
+            style={{
+              textJustify: "inter-ideograph",
+              textIndent: "-.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7.0pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              </span>
             </span>
-          </span>
-          Click on 'Download admit card' tab{" "}
-        </p>
-        <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-.25in",
-          }}
-        >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7.0pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            Click on 'Download admit card' tab.
+          </p>
+          <p
+            className="cont"
+            style={{
+              textJustify: "inter-ideograph",
+              textIndent: "-.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7.0pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              </span>
             </span>
-          </span>
-          Enter details like XAT User ID and date of birth and click on 'login'
-        </p>
-        <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-.25in",
-          }}
-        >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7.0pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            Enter details like XAT User ID and date of birth and click on 'login'.
+          </p>
+          <p
+            className="cont"
+            style={{
+              textJustify: "inter-ideograph",
+              textIndent: "-.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7.0pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              </span>
             </span>
-          </span>
-          Click on admit card tab, download the pdf and take a printout&nbsp;{" "}
-        </p>
+            Click on admit card tab, download the pdf and take a printout.
+          </p>
+        </div>
+
         <p
           className="MsoNormal" id="10"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           &nbsp;
         </p>
+
         <p
           className="MsoNormal"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
@@ -5967,54 +5838,60 @@ const XAT2023 = () => {
           authority. Given below are some key XAT exam day guidelines,
           candidates must follow:
         </p>
-        <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-.25in",
-          }}
-        >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7.0pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+        <div className="required-skills">
+          <p
+            className="cont"
+            style={{
+              textJustify: "inter-ideograph",
+              textIndent: "-.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7.0pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              </span>
             </span>
-          </span>
-          Reach the exam centre before the reporting time
-        </p>
-        <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-.25in",
-          }}
-        >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7.0pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            Reach the exam centre before the reporting time
+          </p>
+          <p
+            className="cont"
+            style={{
+              textJustify: "inter-ideograph",
+              textIndent: "-.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7.0pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              </span>
             </span>
-          </span>
-          Do not carry any electronic item like mobile phone, watch, calculator,
-          etc. to the exam centre
-        </p>
-        <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-.25in",
-          }}
-        >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7.0pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            Do not carry any electronic item like mobile phone, watch, calculator,
+            etc. to the exam centre
+          </p>
+          <p
+            className="cont"
+            style={{
+              textJustify: "inter-ideograph",
+              textIndent: "-.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7.0pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              </span>
             </span>
-          </span>
-          Do not carry any stationary item or eatables to the exam centre
+            Do not carry any stationary item or eatables to the exam centre
+          </p>
+        </div>
+        <p
+          className="MsoNormal" id="11"
+          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
+        >
+          &nbsp;
         </p>
         <p
           className="MsoNormal"
@@ -6029,40 +5906,41 @@ const XAT2023 = () => {
           You need to carry the following documents for identification and
           verification purpose to the exam centre:
         </p>
-        <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-.25in",
-          }}
-        >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7.0pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+        <div className="required-skills">
+          <p
+            className="cont"
+            style={{
+              textJustify: "inter-ideograph",
+              textIndent: "-.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7.0pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              </span>
             </span>
-          </span>
-          XAT admit card
-        </p>
-        <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-.25in",
-          }}
-        >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7.0pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            XAT admit card
+          </p>
+          <p
+            className="cont"
+            style={{
+              textJustify: "inter-ideograph",
+              textIndent: "-.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7.0pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              </span>
             </span>
-          </span>
-          Aadhar card / Voter ID / Passport, College/University ID / Driver’s
-          license
-        </p>
-        <p 
+            Aadhar card / Voter ID / Passport, College/University ID / Driver’s
+            license
+          </p>
+        </div>
+        <p
           className="MsoNormal" id="11"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
@@ -6116,108 +5994,106 @@ const XAT2023 = () => {
           paying Rs 300 in the form of Demand Draft (DD) in favor of XLRI
           Jamshedpur, payable at Jamshedpur.{" "}
         </p>
+
         <p
           className="MsoNormal"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           <b>How to check XAT Result 2023?</b>
         </p>
-        <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-.25in",
-          }}
-        >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7.0pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+        <div className="required-skills">
+          <p
+            className="cont"
+            style={{
+              textJustify: "inter-ideograph",
+              textIndent: "-.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7.0pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              </span>
             </span>
-          </span>
-          Go to the XAT official website - xatonline.in
-        </p>
-        <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-.25in",
-          }}
-        >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7.0pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            Go to the XAT official website - xatonline.in
+          </p>
+          <p
+            className="cont"
+            style={{
+              textJustify: "inter-ideograph",
+              textIndent: "-.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7.0pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              </span>
             </span>
-          </span>
-          Click on the login tab on the page.
-        </p>
-        <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-.25in",
-          }}
-        >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7.0pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            Click on the login tab on the page.
+          </p>
+          <p
+            className="cont"
+            style={{
+              textJustify: "inter-ideograph",
+              textIndent: "-.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7.0pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              </span>
             </span>
-          </span>
-          Type the registered email and Password.
-        </p>
-        <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-.25in",
-          }}
-        >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7.0pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            Type the registered email and Password.
+          </p>
+          <p
+            className="cont"
+            style={{
+              textJustify: "inter-ideograph",
+              textIndent: "-.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7.0pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              </span>
             </span>
-          </span>
-          Click on the "Score Card" button.
-        </p>
-        <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-.25in",
-          }}
-        >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7.0pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            Click on the "Score Card" button.
+          </p>
+          <p
+            className="cont"
+            style={{
+              textJustify: "inter-ideograph",
+              textIndent: "-.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7.0pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              </span>
             </span>
-          </span>
-          The result will appear on the display.
-        </p>
-        <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-.25in",
-          }}
-        >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7.0pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            The result will appear on the display.
+          </p>
+          <p
+            className="cont"
+            style={{
+              textJustify: "inter-ideograph",
+              textIndent: "-.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7.0pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              </span>
             </span>
-          </span>
-          Download and save it in PDF form.
-        </p>
+            Download and save it in PDF form.
+          </p>
+        </div>
         <p
           className="MsoNormal" id="13"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
@@ -6239,60 +6115,60 @@ const XAT2023 = () => {
           score accepting institute follows its own selection process and
           criteria.
         </p>
-        <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-.25in",
-          }}
-        >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7.0pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+        <div className="required-skills">
+          <p
+            className="cont"
+            style={{
+              textJustify: "inter-ideograph",
+              textIndent: "-.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7.0pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              </span>
             </span>
-          </span>
-          XLRI XAT selection process will include GD-PI rounds. Only candidates
-          shortlisted on the basis of XAT cut offs will be called for GD-PI
-          rounds.
-        </p>
-        <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-.25in",
-          }}
-        >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7.0pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            XLRI XAT selection process will include GD-PI rounds. Only candidates
+            shortlisted on the basis of XAT cut offs will be called for GD-PI
+            rounds.
+          </p>
+          <p
+            className="cont"
+            style={{
+              textJustify: "inter-ideograph",
+              textIndent: "-.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7.0pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              </span>
             </span>
-          </span>
-          Post GD-PI rounds, XLRI will prepare the final merit list based on
-          various parameters: XAT 2023 score, XAT GD-PI scores, work experience,
-          past academic scores, and GK &amp; Essay section scores.{" "}
-        </p>
-        <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-.25in",
-          }}
-        >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7.0pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            Post GD-PI rounds, XLRI will prepare the final merit list based on
+            various parameters: XAT 2023 score, XAT GD-PI scores, work experience,
+            past academic scores, and GK &amp; Essay section scores.{" "}
+          </p>
+          <p
+            className="cont"
+            style={{
+              textJustify: "inter-ideograph",
+              textIndent: "-.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7.0pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              </span>
             </span>
-          </span>
-          The weightage assigned to XAT score &amp; GD/PI scores in the
-          preparation of the final merit list will be 60% &amp; 25%
-          respectively.
-        </p>
+            The weightage assigned to XAT score &amp; GD/PI scores in the
+            preparation of the final merit list will be 60% &amp; 25%
+            respectively.
+          </p>
+        </div>
         <p
           className="MsoNormal"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
@@ -6322,6 +6198,7 @@ const XAT2023 = () => {
           estimated cut off scores and percentiles of some of the top XAT
           institutes basis previous year trends are as follows:
         </p>
+
         <table
           className="MsoTableGrid"
           style={{ borderCollapse: "collapse", border: "none" }}
@@ -6350,7 +6227,7 @@ const XAT2023 = () => {
                   align="center"
                 >
                   <b>
-                    <u>College</u>
+                    College
                   </b>
                 </p>
               </td>
@@ -6374,7 +6251,7 @@ const XAT2023 = () => {
                   align="center"
                 >
                   <b>
-                    <u>XAT cut off percentile</u>
+                    XAT cut off percentile
                   </b>
                 </p>
               </td>
@@ -6854,12 +6731,14 @@ const XAT2023 = () => {
             </tr>
           </tbody>
         </table>
+
         <p
           className="MsoNormal"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           &nbsp;
         </p>
+
         <p
           className="MsoNormal"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
@@ -6875,53 +6754,30 @@ const XAT2023 = () => {
             textJustify: "inter-ideograph",
           }}
         >
-          <b>&nbsp;</b>
-        </p>
-        <p
-          className="MsoNormal"
-          style={{
-            marginBottom: "0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-          }}
-        >
-          <b>&nbsp;</b>
-        </p>
-        <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
           &nbsp;
         </p>
+
         <CustomTable />
+
         <p
           className="MsoNormal" id="15"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           &nbsp;
         </p>
+
         <p
           className="MsoNormal"
           style={{
-            marginBottom: "0in",
             textAlign: "justify",
             textJustify: "inter-ideograph",
           }}
         >
           <b>FAQs XAT Exam 2023</b>
         </p>
+
         <p
-          className="MsoNormal"
-          style={{
-            marginBottom: "0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-          }}
-        >
-          <b>&nbsp;</b>
-        </p>
-        <p
-          className="MsoNormal"
+          className="cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           Q: What is XAT and when is XAT 2023?
@@ -6936,14 +6792,9 @@ const XAT2023 = () => {
           XAT 2023 will be held on Sunday January 8, 2023 in morning time slot
           from 10:00 AM to 01:10 PM.
         </p>
+
         <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="MsoNormal"
+          className="cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           Q: When will XAT registrations 2023 begin?
@@ -6956,14 +6807,9 @@ const XAT2023 = () => {
           November 30, 2022. The XAT exam fees is Rs. 2,000 which has to be paid
           online via debit/credit card, net banking or e-wallets.
         </p>
+
         <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="MsoNormal"
+          className="cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           Q: What are all the sections available in the XAT 2023 syllabus?
@@ -6975,84 +6821,81 @@ const XAT2023 = () => {
           Ans: There are five sections available in the XAT exam syllabus,
           namely:
         </p>
+
+        <div className="required-skills">
+          <p
+            className="cont"
+            style={{
+              marginLeft: "0.6in",
+              textJustify: "inter-ideograph",
+              textIndent: "-.25in",
+            }}
+          >
+            1.
+            <span style={{ font: '7.0pt "Times New Roman"' }}>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            </span>
+            Decision Making
+          </p>
+          <p
+            className="cont"
+            style={{
+              marginLeft: "0.6in",
+              textJustify: "inter-ideograph",
+              textIndent: "-.25in",
+            }}
+          >
+            2.
+            <span style={{ font: '7.0pt "Times New Roman"' }}>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            </span>
+            Verbal &amp; Logical Ability
+          </p>
+          <p
+            className="cont"
+            style={{
+              marginLeft: "0.6in",
+              textJustify: "inter-ideograph",
+              textIndent: "-.25in",
+            }}
+          >
+            3.
+            <span style={{ font: '7.0pt "Times New Roman"' }}>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            </span>
+            Quantitative Ability &amp; Data Interpretation
+          </p>
+          <p
+            className="cont"
+            style={{
+              marginLeft: "0.6in",
+              textJustify: "inter-ideograph",
+              textIndent: "-.25in",
+            }}
+          >
+            4.
+            <span style={{ font: '7.0pt "Times New Roman"' }}>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            </span>
+            General Knowledge
+          </p>
+          <p
+            className="cont"
+            style={{
+              marginLeft: "0.6in",
+              textJustify: "inter-ideograph",
+              textIndent: "-.25in",
+            }}
+          >
+            5.
+            <span style={{ font: '7.0pt "Times New Roman"' }}>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            </span>
+            Essay Writing
+          </p>
+        </div>
         <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-.25in",
-          }}
-        >
-          1.
-          <span style={{ font: '7.0pt "Times New Roman"' }}>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          </span>
-          Decision Making
-        </p>
-        <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-.25in",
-          }}
-        >
-          2.
-          <span style={{ font: '7.0pt "Times New Roman"' }}>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          </span>
-          Verbal &amp; Logical Ability
-        </p>
-        <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-.25in",
-          }}
-        >
-          3.
-          <span style={{ font: '7.0pt "Times New Roman"' }}>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          </span>
-          Quantitative Ability &amp; Data Interpretation
-        </p>
-        <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-.25in",
-          }}
-        >
-          4.
-          <span style={{ font: '7.0pt "Times New Roman"' }}>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          </span>
-          General Knowledge
-        </p>
-        <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-.25in",
-          }}
-        >
-          5.
-          <span style={{ font: '7.0pt "Times New Roman"' }}>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          </span>
-          Essay Writing
-        </p>
-        <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="MsoNormal"
+          className="cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           Q: What is the marking scheme for XAT exam? Is there negative marking?
@@ -7068,14 +6911,9 @@ const XAT2023 = () => {
           is shortlisted for selection process and is used during the Personal
           Interview Round.{" "}
         </p>
+
         <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="MsoNormal"
+          className="cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           Q: How many times can I attempt XAT exam?
@@ -7089,14 +6927,9 @@ const XAT2023 = () => {
           opportunity to appear for it in a particular academic year is only
           once.{" "}
         </p>
+
         <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="MsoNormal"
+          className="cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           Q: Where can I check XAT 2023 answer key?
@@ -7111,14 +6944,9 @@ const XAT2023 = () => {
           their answer keys and response sheets by logging into their XAT
           account.
         </p>
+
         <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="MsoNormal"
+          className="cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           Q: When will XAT 2023 result be released?
@@ -7131,14 +6959,9 @@ const XAT2023 = () => {
           however, it can be released before January 31 too. The result
           declaration date will be announced after the exam has been conducted.
         </p>
+
         <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="MsoNormal"
+          className="cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           Q: How many candidates appear for XAT?
@@ -7150,14 +6973,9 @@ const XAT2023 = () => {
           Ans: XAT is the second most preferred MBA entrance exam after CAT.
           Around 80,000 to 1,00,000 student appear for it every year.{" "}
         </p>
+
         <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="MsoNormal"
+          className="cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           Q: Is XAT tougher than CAT?
@@ -7171,14 +6989,9 @@ const XAT2023 = () => {
           CAT. The QA section of XAT is considered more difficult as per experts
           as well as students who appear for the exam.{" "}
         </p>
+
         <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="MsoNormal"
+          className="cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           Q: Do XAT cut offs differ for different courses of XLRI?
@@ -7193,14 +7006,9 @@ const XAT2023 = () => {
           male category was 93 percentile while for female category, it was 90
           percentile.
         </p>
+
         <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="MsoNormal"
+          className="cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           Q: In how many months can I prepare for XAT 2023?
@@ -7214,14 +7022,9 @@ const XAT2023 = () => {
           approach as per their strengths and weaknesses over different subjects
           and topics.
         </p>
+
         <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="MsoNormal"
+          className="cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           Q: Will there be any sectional time-limit in XAT 2023 exam?
@@ -7235,14 +7038,9 @@ const XAT2023 = () => {
           minutes. However, in Part 1 there are three subjects and in Part 2
           there are two subjects and there is no limit within these sections.
         </p>
+
         <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="MsoNormal"
+          className="cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           Q: Can a second year graduation student apply for XAT 2023?
@@ -7255,14 +7053,9 @@ const XAT2023 = () => {
           graduation or are in the final year of graduation can apply for XAT
           2023.
         </p>
+
         <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="MsoNormal"
+          className="cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           Q: What are the scholarship schemes in XLRI, Jamshedpur?
@@ -7275,254 +7068,251 @@ const XAT2023 = () => {
           economically backward students. The list of scholarships offered last
           year is given below:
         </p>
-        <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-.25in",
-          }}
-        >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7.0pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+        <div className="required-skills">
+          <p
+            className="cont"
+            style={{
+              marginLeft: "0.6in",
+              textJustify: "inter-ideograph",
+              textIndent: "-.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7.0pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              </span>
             </span>
-          </span>
-          Aditya Birla Scholarship
-        </p>
-        <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-.25in",
-          }}
-        >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7.0pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            Aditya Birla Scholarship
+          </p>
+          <p
+            className="cont"
+            style={{
+              marginLeft: "0.6in",
+              textJustify: "inter-ideograph",
+              textIndent: "-.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7.0pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              </span>
             </span>
-          </span>
-          Kalyan Ganguly XEF Scholarship
-        </p>
-        <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-.25in",
-          }}
-        >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7.0pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            Kalyan Ganguly XEF Scholarship
+          </p>
+          <p
+            className="cont"
+            style={{
+              marginLeft: "0.6in",
+              textJustify: "inter-ideograph",
+              textIndent: "-.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7.0pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              </span>
             </span>
-          </span>
-          Capital First Scholarship
-        </p>
-        <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-.25in",
-          }}
-        >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7.0pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            Capital First Scholarship
+          </p>
+          <p
+            className="cont"
+            style={{
+              marginLeft: "0.6in",
+              textJustify: "inter-ideograph",
+              textIndent: "-.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7.0pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              </span>
             </span>
-          </span>
-          Naveen Jain &amp; Distinguished Alumni Award
-        </p>
-        <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-.25in",
-          }}
-        >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7.0pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            Naveen Jain &amp; Distinguished Alumni Award
+          </p>
+          <p
+            className="cont"
+            style={{
+              marginLeft: "0.6in",
+              textJustify: "inter-ideograph",
+              textIndent: "-.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7.0pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              </span>
             </span>
-          </span>
-          Government of India for (ST) Students
-        </p>
-        <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-.25in",
-          }}
-        >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7.0pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            Government of India for (ST) Students
+          </p>
+          <p
+            className="cont"
+            style={{
+              marginLeft: "0.6in",
+              textJustify: "inter-ideograph",
+              textIndent: "-.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7.0pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              </span>
             </span>
-          </span>
-          Vasantha Sankaran Scholarship
-        </p>
-        <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-.25in",
-          }}
-        >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7.0pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            Vasantha Sankaran Scholarship
+          </p>
+          <p
+            className="cont"
+            style={{
+              marginLeft: "0.6in",
+              textJustify: "inter-ideograph",
+              textIndent: "-.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7.0pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              </span>
             </span>
-          </span>
-          OP Jindal Engineering &amp; Management
-        </p>
-        <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-.25in",
-          }}
-        >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7.0pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            OP Jindal Engineering &amp; Management
+          </p>
+          <p
+            className="cont"
+            style={{
+              marginLeft: "0.6in",
+              textJustify: "inter-ideograph",
+              textIndent: "-.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7.0pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              </span>
             </span>
-          </span>
-          XLRI Diamond Jubilee (Seniors)
-        </p>
-        <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-.25in",
-          }}
-        >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7.0pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            XLRI Diamond Jubilee (Seniors)
+          </p>
+          <p
+            className="cont"
+            style={{
+              marginLeft: "0.6in",
+              textJustify: "inter-ideograph",
+              textIndent: "-.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7.0pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              </span>
             </span>
-          </span>
-          XLRI Diamond Jubilee (Juniors)
-        </p>
-        <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-.25in",
-          }}
-        >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7.0pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            XLRI Diamond Jubilee (Juniors)
+          </p>
+          <p
+            className="cont"
+            style={{
+              marginLeft: "0.6in",
+              textJustify: "inter-ideograph",
+              textIndent: "-.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7.0pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              </span>
             </span>
-          </span>
-          T Thomas
-        </p>
-        <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-.25in",
-          }}
-        >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7.0pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            T Thomas
+          </p>
+          <p
+            className="cont"
+            style={{
+              marginLeft: "0.6in",
+              textJustify: "inter-ideograph",
+              textIndent: "-.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7.0pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              </span>
             </span>
-          </span>
-          Alumni Scholarship
-        </p>
-        <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-.25in",
-          }}
-        >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7.0pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            Alumni Scholarship
+          </p>
+          <p
+            className="cont"
+            style={{
+              marginLeft: "0.6in",
+              textJustify: "inter-ideograph",
+              textIndent: "-.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7.0pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              </span>
             </span>
-          </span>
-          Pirojsha Godrej
-        </p>
-        <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-.25in",
-          }}
-        >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7.0pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            Pirojsha Godrej
+          </p>
+          <p
+            className="cont"
+            style={{
+              marginLeft: "0.6in",
+              textJustify: "inter-ideograph",
+              textIndent: "-.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7.0pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              </span>
             </span>
-          </span>
-          Alumni Scholarship
-        </p>
-        <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-.25in",
-          }}
-        >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7.0pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            Alumni Scholarship
+          </p>
+          <p
+            className="cont"
+            style={{
+              marginLeft: "0.6in",
+              textJustify: "inter-ideograph",
+              textIndent: "-.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7.0pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              </span>
             </span>
-          </span>
-          Joseph M Sciortino (for ST Students)
-        </p>
-        <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-.25in",
-          }}
-        >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7.0pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            Joseph M Sciortino (for ST Students)
+          </p>
+          <p
+            className="cont"
+            style={{
+              marginLeft: "0.6in",
+              textJustify: "inter-ideograph",
+              textIndent: "-.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7.0pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              </span>
             </span>
-          </span>
-          Geeta Saxena Memorial
-        </p>
+            Geeta Saxena Memorial
+          </p>
+        </div>
         <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="MsoNormal"
+          className="cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           Q. Does XLRI release different XAT cut offs for BM and HRM programs?
@@ -7536,14 +7326,9 @@ const XAT2023 = () => {
           females, engineers and non-engineers. The cut off for XLRI usually
           ranges between 91 - 95 percentiles.
         </p>
+
         <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="MsoNormal"
+          className="cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           Q. Are there sectional cut offs for XLRI admission through XAT?

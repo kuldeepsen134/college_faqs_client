@@ -3,8 +3,8 @@ import { Link } from "react-router-dom";
 import { useEffect } from "react";
 const CAT2022 = () => {
   useEffect(() => {
-    window.scrollTo(0,0);
-  },[])
+    window.scrollTo(0, 0);
+  }, [])
   return (
     <div>
       <div className="WordSection1">
@@ -52,450 +52,215 @@ const CAT2022 = () => {
         >
           &nbsp;
         </p>
-        <p
-          className="cont"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          <b>
-            <>Table of Content</>
-          </b>
-        </p>
-        <p
-          className="MsoListParagraphCxSpFirst"
-          style={{
-            marginBottom: "0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-.25in",
-          }}
-        >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7.0pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            </span>
-          </span>
-          <a href="#1">About CAT Examination</a>
-        </p>
-        <p
-          className="MsoListParagraphCxSpMiddle"
-          style={{
-            marginBottom: "0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-.25in",
-          }}
-        >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7.0pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            </span>
-          </span>
-          <a href="#2">CAT Examination 2022 – Highlights</a>
-        </p>
-        <p
-          className="MsoListParagraphCxSpMiddle"
-          style={{
-            marginBottom: "0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-.25in",
-          }}
-        >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7.0pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            </span>
-          </span>
-          <a href="#3">CAT 2022 Important Dates</a>
-        </p>
-        <p
-          className="MsoListParagraphCxSpMiddle"
-          style={{
-            marginBottom: "0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-.25in",
-          }}
-        >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7.0pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            </span>
-          </span>
-          <a href="#4">Which IIM Conducts CAT Exam?</a>
-        </p>
-        <p
-          className="MsoListParagraphCxSpMiddle"
-          style={{
-            marginBottom: "0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-.25in",
-          }}
-        >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7.0pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            </span>
-          </span>
-          <a href="#5">
-            CAT <a name="OLE_LINK1">Eligibility </a>Criteria 2022
-          </a>
-        </p>
-        <p
-          className="MsoListParagraphCxSpMiddle"
-          style={{
-            marginBottom: "0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-.25in",
-          }}
-        >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7.0pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            </span>
-          </span>
-          <a href="#6">CAT Registrations Process 2022</a>
-        </p>
-        <p
-          className="MsoListParagraphCxSpMiddle"
-          style={{
-            marginTop: "0in",
-            marginRight: "0in",
-            marginBottom: "0in",
-            marginLeft: "1.0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-.25in",
-          }}
-        >
-          <span style={{ fontFamily: '"Courier New"' }}>
-            o
-            <span style={{ font: '7.0pt "Times New Roman"' }}>
-              &nbsp;&nbsp;{" "}
-            </span>
-          </span>
-          <a href="#6a">CAT Registration Trend </a>
-        </p>
-        <p
-          className="MsoListParagraphCxSpMiddle"
-          style={{
-            marginBottom: "0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-.25in",
-          }}
-        >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7.0pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            </span>
-          </span>
-          <a href="#7">CAT 2022 Exam Centers</a>
-        </p>
-        <p
-          className="MsoListParagraphCxSpMiddle"
-          style={{
-            marginBottom: "0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-.25in",
-          }}
-        >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7.0pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            </span>
-          </span>
-          <a href="#8">CAT exam Syllabus and Pattern</a>
-        </p>
-        <p
-          className="MsoListParagraphCxSpMiddle"
-          style={{
-            marginBottom: "0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-.25in",
-          }}
-        >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7.0pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            </span>
-          </span>
-          <a href="#9">CAT 2022 Exam Preparation Tips</a>
-        </p>
-        <p
-          className="MsoListParagraphCxSpMiddle"
-          style={{
-            marginTop: "0in",
-            marginRight: "0in",
-            marginBottom: "0in",
-            marginLeft: "1.0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-.25in",
-          }}
-        >
-          <span style={{ fontFamily: '"Courier New"' }}>
-            o
-            <span style={{ font: '7.0pt "Times New Roman"' }}>
-              &nbsp;&nbsp;{" "}
-            </span>
-          </span>
-          <a href="#9a">
-            CAT Preparation for Data Interpretation and Logical Reasoning (DILR)
-          </a>
-        </p>
-        <p
-          className="MsoListParagraphCxSpMiddle"
-          style={{
-            marginTop: "0in",
-            marginRight: "0in",
-            marginBottom: "0in",
-            marginLeft: "1.0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-.25in",
-          }}
-        >
-          <span style={{ fontFamily: '"Courier New"' }}>
-            o
-            <span style={{ font: '7.0pt "Times New Roman"' }}>
-              &nbsp;&nbsp;{" "}
-            </span>
-          </span>
-          <a href="#9b">CAT Preparation for Quantitative Aptitude (QA)</a>
-        </p>
-        <p
-          className="MsoListParagraphCxSpMiddle"
-          style={{
-            marginTop: "0in",
-            marginRight: "0in",
-            marginBottom: "0in",
-            marginLeft: "1.0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-.25in",
-          }}
-        >
-          <span style={{ fontFamily: '"Courier New"' }}>
-            o
-            <span style={{ font: '7.0pt "Times New Roman"' }}>
-              &nbsp;&nbsp;{" "}
-            </span>
-          </span>
-          <a href="#9c">
-            CAT Preparation for Verbal Ability and Reading Comprehension (VARC)
-          </a>
-        </p>
-        <p
-          className="MsoListParagraphCxSpMiddle"
-          style={{
-            marginBottom: "0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-.25in",
-          }}
-        >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7.0pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            </span>
-          </span>
-          <a href="#10">CAT 2022 Admit Card</a>
-        </p>
-        <p
-          className="MsoListParagraphCxSpMiddle"
-          style={{
-            marginBottom: "0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-.25in",
-          }}
-        >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7.0pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            </span>
-          </span>
-          <a href="#11">CAT Exam Day Guidelines</a>
-        </p>
-        <p
-          className="MsoListParagraphCxSpMiddle"
-          style={{
-            marginBottom: "0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-.25in",
-          }}
-        >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7.0pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            </span>
-          </span>
-          <a href="#12">CAT Answer Key 2022</a>
-        </p>
-        <p
-          className="MsoListParagraphCxSpMiddle"
-          style={{
-            marginBottom: "0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-.25in",
-          }}
-        >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7.0pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            </span>
-          </span>
-          <a href="#13">CAT 2022 Result and Scorecard</a>
-        </p>
-        <p
-          className="MsoListParagraphCxSpMiddle"
-          style={{
-            marginBottom: "0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-.25in",
-          }}
-        >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7.0pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            </span>
-          </span>
-          <a href="#14">CAT Score vs Percentile</a>
-        </p>
-        <p
-          className="MsoListParagraphCxSpMiddle"
-          style={{
-            marginBottom: "0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-.25in",
-          }}
-        >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7.0pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            </span>
-          </span>
-          <a href="#15">CAT 2022 Result &amp; IIMs’ Final Selection Process</a>
-        </p>
-        <p
-          className="MsoListParagraphCxSpMiddle"
-          style={{
-            marginTop: "0in",
-            marginRight: "0in",
-            marginBottom: "0in",
-            marginLeft: "1.0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-.25in",
-          }}
-        >
-          <span style={{ fontFamily: '"Courier New"' }}>
-            o
-            <span style={{ font: '7.0pt "Times New Roman"' }}>
-              &nbsp;&nbsp;{" "}
-            </span>
-          </span>
-          <a href="#15a">Top IIMs Conduct Individual Admission Process</a>
-        </p>
-        <p
-          className="MsoListParagraphCxSpMiddle"
-          style={{
-            marginTop: "0in",
-            marginRight: "0in",
-            marginBottom: "0in",
-            marginLeft: "1.0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-.25in",
-          }}
-        >
-          <span style={{ fontFamily: '"Courier New"' }}>
-            o
-            <span style={{ font: '7.0pt "Times New Roman"' }}>
-              &nbsp;&nbsp;{" "}
-            </span>
-          </span>
-          <a href="#15b">Common Admission Process (CAP) for 9 IIMs</a>{" "}
-          <a href="#15c">
-            IIM Nagpur, IIM Rohtak, IIM Visakhapatnam to conduct individual
-            admission process
-          </a>
-        </p>
-        <p
-          className="MsoListParagraphCxSpMiddle"
-          style={{
-            marginBottom: "0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-.25in",
-          }}
-        >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7.0pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            </span>
-          </span>
-          <a href="#16">IIM CAT Cut Off Percentiles</a>
-        </p>
-        <p
-          className="MsoListParagraphCxSpMiddle"
-          style={{
-            marginBottom: "0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-.25in",
-          }}
-        >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7.0pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            </span>
-          </span>
-          <a href="#17">Admission to Top Non-IIMs through CAT scores</a>
-        </p>
-        <p
-          className="MsoListParagraphCxSpLast"
-          style={{
-            marginBottom: "0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-.25in",
-          }}
-        >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7.0pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            </span>
-          </span>
-          <a href="#18">FAQs CAT Exam 2022</a>
-        </p>
+        <b className="table-details">Table of content</b>
+
+        <div className="required-skills">
+
+          <p
+            className=" MsoListParagraphCxSpFirst"
+            style={{
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+            }}
+          >
+            <a href="#1">About CAT Examination</a>
+          </p>
+          <p
+            className=" MsoListParagraphCxSpFirst"
+            style={{
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+            }}>
+            <a href="#2">CAT Examination 2022 – Highlights</a>
+          </p>
+          <p
+            className=" MsoListParagraphCxSpFirst"
+            style={{
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+            }}>
+            <a href="#3">CAT 2022 Important Dates</a>
+          </p>
+          <p
+            className=" MsoListParagraphCxSpFirst"
+            style={{
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+            }}>
+            <a href="#4">Which IIM Conducts CAT Exam?</a>
+          </p>
+          <p
+            className=" MsoListParagraphCxSpFirst"
+            style={{
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+            }}>
+            <a href="#5">
+              CAT <a name="OLE_LINK1">Eligibility </a>Criteria 2022
+            </a>
+          </p>
+          <p
+            className=" MsoListParagraphCxSpFirst"
+            style={{
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+            }}>
+            <a href="#6">CAT Registrations Process 2022</a>
+          </p>
+          <p
+            className=" MsoListParagraphCxSpFirst"
+            style={{
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+            }}>
+            <a href="#6a">CAT Registration Trend </a>
+          </p>
+          <p
+            className=" MsoListParagraphCxSpFirst"
+            style={{
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+            }}>
+            <a href="#7">CAT 2022 Exam Centers</a>
+          </p>
+          <p
+            className=" MsoListParagraphCxSpFirst"
+            style={{
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+            }}>
+            <a href="#8">CAT exam Syllabus and Pattern</a>
+          </p>
+          <p
+            className=" MsoListParagraphCxSpFirst"
+            style={{
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+            }}>
+            <a href="#9">CAT 2022 Exam Preparation Tips</a>
+          </p>
+          <p
+            className=" MsoListParagraphCxSpFirst"
+            style={{
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+            }}>
+            <a href="#9a">
+              CAT Preparation for Data Interpretation and Logical Reasoning (DILR)
+            </a>
+          </p>
+          <p
+            className=" MsoListParagraphCxSpFirst"
+            style={{
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+            }}>
+            <a href="#9b">CAT Preparation for Quantitative Aptitude (QA)</a>
+          </p>
+          <p
+            className=" MsoListParagraphCxSpFirst"
+            style={{
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+            }}>
+            <a href="#9c">
+              CAT Preparation for Verbal Ability and Reading Comprehension (VARC)
+            </a>
+          </p>
+          <p
+            className=" MsoListParagraphCxSpFirst"
+            style={{
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+            }}>
+            <a href="#10">CAT 2022 Admit Card</a>
+          </p>
+          <p
+            className=" MsoListParagraphCxSpFirst"
+            style={{
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+            }}>
+            <a href="#11">CAT Exam Day Guidelines</a>
+          </p>
+          <p
+            className=" MsoListParagraphCxSpFirst"
+            style={{
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+            }}>
+            <a href="#12">CAT Answer Key 2022</a>
+          </p>
+          <p
+            className=" MsoListParagraphCxSpFirst"
+            style={{
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+            }}>
+            <a href="#13">CAT 2022 Result and Scorecard</a>
+          </p>
+          <p
+            className=" MsoListParagraphCxSpFirst"
+            style={{
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+            }}>
+            <a href="#14">CAT Score vs Percentile</a>
+          </p>
+          <p
+            className=" MsoListParagraphCxSpFirst"
+            style={{
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+            }}>
+            <a href="#15">CAT 2022 Result &amp; IIMs’ Final Selection Process</a>
+          </p>
+          <p
+            className=" MsoListParagraphCxSpFirst"
+            style={{
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+            }}>
+            <a href="#15a">Top IIMs Conduct Individual Admission Process</a>
+          </p>
+          <p
+            className=" MsoListParagraphCxSpFirst"
+            style={{
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+            }}>
+            <a href="#15b">Common Admission Process (CAP) for 9 IIMs</a>{" "}
+            <a href="#15c">
+              IIM Nagpur, IIM Rohtak, IIM Visakhapatnam to conduct individual
+              admission process
+            </a>
+          </p>
+          <p
+            className=" MsoListParagraphCxSpFirst"
+            style={{
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+            }}>
+            <a href="#16">IIM CAT Cut Off Percentiles</a>
+          </p>
+          <p
+            className=" MsoListParagraphCxSpFirst"
+            style={{
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+            }}>
+            <a href="#17">Admission to Top Non-IIMs through CAT scores</a>
+          </p>
+          <p
+            className=" MsoListParagraphCxSpFirst"
+            style={{
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+            }}>
+            <a href="#18">FAQs CAT Exam 2022</a>
+          </p>
+        </div>
+
         <p
           className="cont"
           style={{
@@ -506,16 +271,7 @@ const CAT2022 = () => {
         >
           &nbsp;
         </p>
-        <p
-          className="cont"
-          style={{
-            marginBottom: "0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-          }}
-        >
-          &nbsp;
-        </p>
+
         <p
           className="cont"
           style={{
@@ -556,157 +312,158 @@ const CAT2022 = () => {
           Bombay, IIT Delhi, IIT Kharagpur; NITIE Mumbai and hundreds of other
           top B-schools in India. Salient features of CAT exam are:
         </p>
-        <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-.25in",
-          }}
-        >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7.0pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+
+        <div className="required-skills">
+          <p
+            className="cont"
+            style={{
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7.0pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              </span>
             </span>
-          </span>
-          It is a computer based test{" "}
-        </p>
-        <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-.25in",
-          }}
-        >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7.0pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            It is a computer based test{" "}
+          </p>
+          <p
+            className="cont"
+            style={{
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7.0pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              </span>
             </span>
-          </span>
-          It is conducted at more than 150 cities with approximately 400+ test
-          venues
-        </p>
-        <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-.25in",
-          }}
-        >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7.0pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            It is conducted at more than 150 cities with approximately 400+ test
+            venues
+          </p>
+          <p
+            className="cont"
+            style={{
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7.0pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              </span>
             </span>
-          </span>
-          CAT exam duration is reduced to two hours from earlier three hours
-          since 2020
-        </p>
-        <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-.25in",
-          }}
-        >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7.0pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            CAT exam duration is reduced to two hours from earlier three hours
+            since 2020
+          </p>
+          <p
+            className="cont"
+            style={{
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7.0pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              </span>
             </span>
-          </span>
-          Subject wise the exam is divided into three sections:
-        </p>
-        <p
-          className="cont1"
-          style={{
-            marginLeft: "1.0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-.25in",
-          }}
-        >
-          <span style={{ fontFamily: '"Courier New"' }}>
-            o
-            <span style={{ font: '7.0pt "Times New Roman"' }}>
-              &nbsp;&nbsp;{" "}
+            Subject wise the exam is divided into three sections:
+          </p>
+          <p
+            className="cont"
+            style={{
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7.0pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              </span>
             </span>
-          </span>
-          Verbal Ability &amp; Reading Comprehension (VARC)
-        </p>
-        <p
-          className="cont1"
-          style={{
-            marginLeft: "1.0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-.25in",
-          }}
-        >
-          <span style={{ fontFamily: '"Courier New"' }}>
-            o
-            <span style={{ font: '7.0pt "Times New Roman"' }}>
-              &nbsp;&nbsp;{" "}
+            Verbal Ability &amp; Reading Comprehension (VARC)
+          </p>
+          <p
+            className="cont"
+            style={{
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7.0pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              </span>
             </span>
-          </span>
-          Data Interpretation &amp; Logical Reasoning (DILR)
-        </p>
-        <p
-          className="cont1"
-          style={{
-            marginLeft: "1.0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-.25in",
-          }}
-        >
-          <span style={{ fontFamily: '"Courier New"' }}>
-            o
-            <span style={{ font: '7.0pt "Times New Roman"' }}>
-              &nbsp;&nbsp;{" "}
+            Data Interpretation &amp; Logical Reasoning (DILR)
+          </p>
+          <p
+            className="cont"
+            style={{
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7.0pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              </span>
             </span>
-          </span>
-          Quantitative Ability (QA)
-        </p>
-        <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-.25in",
-          }}
-        >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7.0pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            Quantitative Ability (QA)
+          </p>
+          <p
+            className="cont"
+            style={{
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7.0pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              </span>
             </span>
-          </span>
-          Each section is to be attempted in a fixed individual time of 40
-          minutes
-        </p>
-        <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-.25in",
-          }}
-        >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7.0pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            Each section is to be attempted in a fixed individual time of 40
+            minutes
+          </p>
+          <p
+            className="cont"
+            style={{
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7.0pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              </span>
             </span>
-          </span>
-          Indian Institutes of Management (IIMs) will offer admission in 2023 on
-          the basis of CAT 2022 score only{" "}
-        </p>
+            Indian Institutes of Management (IIMs) will offer admission in 2023 on
+            the basis of CAT 2022 score only{" "}
+          </p>
+        </div>
         <p
           className="cont"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
@@ -723,65 +480,26 @@ const CAT2022 = () => {
         >
           &nbsp;
         </p>
-        <p
-          className="cont"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="cont"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="cont"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="cont"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="cont"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="cont"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="cont"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="cont"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
+
         <p
           className="cont"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           <b>CAT Examination 2022 – Highlights</b>
         </p>
+
         <p
           className="cont"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        ></p>
-        <table cellSpacing={0} cellPadding={0} align="left">
+          style={{
+            marginBottom: "0in",
+            textAlign: "justify",
+            textJustify: "inter-ideograph",
+          }}
+        >
+          <b>&nbsp;</b>
+        </p>
+
+        <table cellSpacing={0} cellPadding={0} align="left" className="shadow-none mb-5">
           <tbody>
             <tr>
               <td width={1} height={1} />
@@ -798,99 +516,7 @@ const CAT2022 = () => {
             </tr>
           </tbody>
         </table>
-        &nbsp;
-        <p />
-        <p
-          className="cont"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="cont"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="cont"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="cont"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="cont"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="cont"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="cont"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="cont"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="cont"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="cont"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="cont"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="cont"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="cont"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="cont"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="cont"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <br clear="ALL" />
+
         <table
           className="MsoTableGrid"
           style={{ borderCollapse: "collapse", border: "none" }}
@@ -918,7 +544,7 @@ const CAT2022 = () => {
                   }}
                 >
                   <b>
-                    <u>Particulars</u>
+                    Particulars
                   </b>
                 </p>
               </td>
@@ -941,7 +567,7 @@ const CAT2022 = () => {
                   }}
                 >
                   <b>
-                    <u>Details</u>
+                    Details
                   </b>
                 </p>
               </td>
@@ -1984,18 +1610,14 @@ const CAT2022 = () => {
             </tr>
           </tbody>
         </table>
+
         <p
           className="cont"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           &nbsp;
         </p>
-        <p
-          className="cont"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
+
         <p
           className="cont"
           style={{
@@ -2016,6 +1638,7 @@ const CAT2022 = () => {
         >
           &nbsp;
         </p>
+
         <table
           className="MsoTableGrid"
           style={{ borderCollapse: "collapse", border: "none" }}
@@ -2044,7 +1667,7 @@ const CAT2022 = () => {
                   }}
                 >
                   <b>
-                    <u>CAT Exam 2022 Events</u>
+                    CAT Exam 2022 Events
                   </b>
                 </p>
               </td>
@@ -2068,7 +1691,7 @@ const CAT2022 = () => {
                   }}
                 >
                   <b>
-                    <u>Important Dates</u>
+                    Important Dates
                   </b>
                 </p>
               </td>
@@ -2558,18 +2181,14 @@ const CAT2022 = () => {
             </tr>
           </tbody>
         </table>
+
         <p
           className="cont"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           &nbsp;
         </p>
-        <p
-          className="cont"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
+
         <p
           className="cont"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
@@ -2614,7 +2233,7 @@ const CAT2022 = () => {
                   }}
                 >
                   <b>
-                    <u>CAT Exam Year</u>
+                    CAT Exam Year
                   </b>
                 </p>
               </td>
@@ -2638,7 +2257,7 @@ const CAT2022 = () => {
                   }}
                 >
                   <b>
-                    <u>CAT Exam Convener</u>
+                    CAT Exam Convener
                   </b>
                 </p>
               </td>
@@ -2662,7 +2281,7 @@ const CAT2022 = () => {
                   }}
                 >
                   <b>
-                    <u>CAT Conducting IIM</u>
+                    CAT Conducting IIM
                   </b>
                 </p>
               </td>
@@ -3173,18 +2792,14 @@ const CAT2022 = () => {
             </tr>
           </tbody>
         </table>
+
         <p
           className="cont"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           &nbsp;
         </p>
-        <p
-          className="cont"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
+
         <p
           className="cont"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
@@ -3198,92 +2813,90 @@ const CAT2022 = () => {
           The minimum eligibility criterion for CAT 2022 exam is graduation in
           any stream. Detailed CAT eligibility criteria are listed below:
         </p>
-        <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-.25in",
-          }}
-        >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7.0pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+        <div className="required-skills">
+          <p
+            className="cont"
+            style={{
+              textJustify: "inter-ideograph",
+              textIndent: "-.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7.0pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              </span>
             </span>
-          </span>
-          Candidates must hold a bachelor's degree with minimum 50 per cent
-          aggregate or equivalent CGPA (45 per cent aggregate for SC, ST and PwD
-          category candidates) from a recognised university to appear in CAT
-          2022.
-        </p>
-        <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-.25in",
-          }}
-        >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7.0pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            Candidates must hold a bachelor's degree with minimum 50 per cent
+            aggregate or equivalent CGPA (45 per cent aggregate for SC, ST and PwD
+            category candidates) from a recognised university to appear in CAT
+            2022.
+          </p>
+          <p
+            className="cont"
+            style={{
+              textJustify: "inter-ideograph",
+              textIndent: "-.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7.0pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              </span>
             </span>
-          </span>
-          Candidates appearing for the final year of bachelor's degree /
-          equivalent qualification or awaiting the result are also eligible to
-          apply for CAT 2022 exam.
-        </p>
-        <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-.25in",
-          }}
-        >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7.0pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            Candidates appearing for the final year of bachelor's degree /
+            equivalent qualification or awaiting the result are also eligible to
+            apply for CAT 2022 exam.
+          </p>
+          <p
+            className="cont"
+            style={{
+              textJustify: "inter-ideograph",
+              textIndent: "-.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7.0pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              </span>
             </span>
-          </span>
-          Candidates who have completed a professional degree (CA / CS / ICWA /
-          FCAI) with the required percentage can also appear for CAT.
-        </p>
-        <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-.25in",
-          }}
-        >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7.0pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            Candidates who have completed a professional degree (CA / CS / ICWA /
+            FCAI) with the required percentage can also appear for CAT.
+          </p>
+          <p
+            className="cont"
+            style={{
+              textJustify: "inter-ideograph",
+              textIndent: "-.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7.0pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              </span>
             </span>
-          </span>
-          There is no age limit for appearing in CAT 2022.
-        </p>
-        <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-.25in",
-          }}
-        >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7.0pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            There is no age limit for appearing in CAT 2022.
+          </p>
+          <p
+            className="cont"
+            style={{
+              textJustify: "inter-ideograph",
+              textIndent: "-.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7.0pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              </span>
             </span>
-          </span>
-          Work experience is not mandatory for appearing in CAT 2022.
-        </p>
+            Work experience is not mandatory for appearing in CAT 2022.
+          </p>
+        </div>
         <p
           className="cont"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
@@ -3313,196 +2926,198 @@ const CAT2022 = () => {
           process of registration and filling the application form of CAT 2022
           is listed below:{" "}
         </p>
-        <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-.25in",
-          }}
-        >
-          1.
-          <span style={{ font: '7.0pt "Times New Roman"' }}>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          </span>
-          Login to CAT website iimcat.ac.in{" "}
-        </p>
-        <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-.25in",
-          }}
-        >
-          2.
-          <span style={{ font: '7.0pt "Times New Roman"' }}>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          </span>
-          Click on new registration
-        </p>
-        <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-.25in",
-          }}
-        >
-          3.
-          <span style={{ font: '7.0pt "Times New Roman"' }}>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          </span>
-          Enter name, date of birth, nationality, phone number and email ID to
-          register
-        </p>
-        <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-.25in",
-          }}
-        >
-          4.
-          <span style={{ font: '7.0pt "Times New Roman"' }}>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          </span>
-          Log in with the ID received in email to fill the application form
-        </p>
-        <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-.25in",
-          }}
-        >
-          5.
-          <span style={{ font: '7.0pt "Times New Roman"' }}>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          </span>
-          Fill in the Application Form in following steps:
-        </p>
-        <p
-          className="cont1"
-          style={{
-            marginLeft: "1.0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-.25in",
-          }}
-        >
-          a.
-          <span style={{ font: '7.0pt "Times New Roman"' }}>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          </span>
-          &nbsp;Fill in Personal Details in Application Form
-        </p>
-        <p
-          className="cont1"
-          style={{
-            marginLeft: "1.0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-.25in",
-          }}
-        >
-          b.
-          <span style={{ font: '7.0pt "Times New Roman"' }}>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          </span>
-          Submit Academic Details from Class 10 onwards
-        </p>
-        <p
-          className="cont1"
-          style={{
-            marginLeft: "1.0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-.25in",
-          }}
-        >
-          c.
-          <span style={{ font: '7.0pt "Times New Roman"' }}>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          </span>
-          Fill in your Work Experience
-        </p>
-        <p
-          className="cont1"
-          style={{
-            marginLeft: "1.0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-.25in",
-          }}
-        >
-          d.
-          <span style={{ font: '7.0pt "Times New Roman"' }}>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          </span>
-          Upload a passport sized photo and scanned signature
-        </p>
-        <p
-          className="cont1"
-          style={{
-            marginLeft: "1.0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-.25in",
-          }}
-        >
-          e.
-          <span style={{ font: '7.0pt "Times New Roman"' }}>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          </span>
-          Select IIMs &amp; Programmes that you wish to apply
-        </p>
-        <p
-          className="cont1"
-          style={{
-            marginLeft: "1.0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-.25in",
-          }}
-        >
-          f.
-          <span style={{ font: '7.0pt "Times New Roman"' }}>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          </span>
-          Select your Preferred CAT Exam Cities ( IIMs offer a choice of 4 or 6
-          test cities)
-        </p>
-        <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-.25in",
-          }}
-        >
-          6.
-          <span style={{ font: '7.0pt "Times New Roman"' }}>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          </span>
-          Make Online payment of CAT Registration Fee
-        </p>
-        <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-.25in",
-          }}
-        >
-          7.
-          <span style={{ font: '7.0pt "Times New Roman"' }}>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          </span>
-          Application Form is complete.
-        </p>
+        <div className="required-skills">
+          <p
+            className="cont"
+            style={{
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-.25in",
+            }}
+          >
+            1.
+            <span style={{ font: '7.0pt "Times New Roman"' }}>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            </span>
+            Login to CAT website iimcat.ac.in{" "}
+          </p>
+          <p
+            className="cont"
+            style={{
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-.25in",
+            }}
+          >
+            2.
+            <span style={{ font: '7.0pt "Times New Roman"' }}>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            </span>
+            Click on new registration
+          </p>
+          <p
+            className="cont"
+            style={{
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-.25in",
+            }}
+          >
+            3.
+            <span style={{ font: '7.0pt "Times New Roman"' }}>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            </span>
+            Enter name, date of birth, nationality, phone number and email ID to
+            register
+          </p>
+          <p
+            className="cont"
+            style={{
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-.25in",
+            }}
+          >
+            4.
+            <span style={{ font: '7.0pt "Times New Roman"' }}>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            </span>
+            Log in with the ID received in email to fill the application form
+          </p>
+          <p
+            className="cont"
+            style={{
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-.25in",
+            }}
+          >
+            5.
+            <span style={{ font: '7.0pt "Times New Roman"' }}>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            </span>
+            Fill in the Application Form in following steps:
+          </p>
+          <p
+            className="cont"
+            style={{
+              marginLeft: "0.5in",
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-.25in",
+            }}
+          >
+            a.
+            <span style={{ font: '7.0pt "Times New Roman"' }}>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            </span>
+            &nbsp;Fill in Personal Details in Application Form
+          </p>
+          <p
+            className="cont"
+            style={{
+              marginLeft: "0.5in",
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-.25in",
+            }}
+          >
+            b.
+            <span style={{ font: '7.0pt "Times New Roman"' }}>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            </span>
+            Submit Academic Details from Class 10 onwards
+          </p>
+          <p
+            className="cont"
+            style={{
+              marginLeft: "0.5in",
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-.25in",
+            }}
+          >
+            c.
+            <span style={{ font: '7.0pt "Times New Roman"' }}>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            </span>
+            Fill in your Work Experience
+          </p>
+          <p
+            className="cont"
+            style={{
+              marginLeft: "0.5in",
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-.25in",
+            }}
+          >
+            d.
+            <span style={{ font: '7.0pt "Times New Roman"' }}>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            </span>
+            Upload a passport sized photo and scanned signature
+          </p>
+          <p
+            className="cont"
+            style={{
+              marginLeft: "0.5in",
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-.25in",
+            }}
+          >
+            e.
+            <span style={{ font: '7.0pt "Times New Roman"' }}>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            </span>
+            Select IIMs &amp; Programmes that you wish to apply
+          </p>
+          <p
+            className="cont"
+            style={{
+              marginLeft: "0.5in",
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-.25in",
+            }}
+          >
+            f.
+            <span style={{ font: '7.0pt "Times New Roman"' }}>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            </span>
+            Select your Preferred CAT Exam Cities ( IIMs offer a choice of 4 or 6
+            test cities)
+          </p>
+          <p
+            className="cont"
+            style={{
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-.25in",
+            }}
+          >
+            6.
+            <span style={{ font: '7.0pt "Times New Roman"' }}>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            </span>
+            Make Online payment of CAT Registration Fee
+          </p>
+          <p
+            className="cont"
+            style={{
+              textAlign: "justify",
+              textJustify: "inter-ideograph",
+              textIndent: "-.25in",
+            }}
+          >
+            7.
+            <span style={{ font: '7.0pt "Times New Roman"' }}>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            </span>
+            Application Form is complete.
+          </p>
+        </div>
         <p
           className="cont"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
@@ -3526,6 +3141,7 @@ const CAT2022 = () => {
           anticipation of better career opportunities after completing MBA / PGP
           / PGDM from an IIM or other top B-school.
         </p>
+
         <table
           className="MsoTableGrid"
           style={{ borderCollapse: "collapse", border: "none" }}
@@ -3553,7 +3169,7 @@ const CAT2022 = () => {
                   align="center"
                 >
                   <b>
-                    <u>Year</u>
+                    Year
                   </b>
                 </p>
               </td>
@@ -3576,20 +3192,7 @@ const CAT2022 = () => {
                   align="center"
                 >
                   <b>
-                    <u>No. of Applications</u>
-                  </b>
-                </p>
-                <p
-                  className="cont"
-                  style={{
-                    marginBottom: "0in",
-                    textAlign: "center",
-                    lineHeight: "normal",
-                  }}
-                  align="center"
-                >
-                  <b>
-                    <u>REGISTERED</u>
+                    No. of Applications registered
                   </b>
                 </p>
               </td>
@@ -3612,20 +3215,7 @@ const CAT2022 = () => {
                   align="center"
                 >
                   <b>
-                    <u>No. Of Applicants</u>
-                  </b>
-                </p>
-                <p
-                  className="cont"
-                  style={{
-                    marginBottom: "0in",
-                    textAlign: "center",
-                    lineHeight: "normal",
-                  }}
-                  align="center"
-                >
-                  <b>
-                    <u>APPEARED</u>
+                    No. Of Applicants appeared
                   </b>
                 </p>
               </td>
@@ -4460,30 +4050,35 @@ const CAT2022 = () => {
             </tr>
           </tbody>
         </table>
+
         <p
           className="cont"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           &nbsp;
         </p>
+
         <p
-          className="cont"
+          className="cont mb-0"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           Note: CAT appeared student has been rounded off.
         </p>
+
         <p
           className="cont"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           &nbsp;
         </p>
+
         <p
           className="cont"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           <b>CAT 2022 Exam Centers</b>
         </p>
+
         <p
           className="cont"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
@@ -4495,6 +4090,7 @@ const CAT2022 = () => {
           candidate has the opportunity to choose from 6 cities. Given below is
           a list CAT 2022 exam centers:
         </p>
+
         <table
           className="MsoTableGrid"
           style={{ borderCollapse: "collapse", border: "none" }}
@@ -4523,7 +4119,7 @@ const CAT2022 = () => {
                   align="center"
                 >
                   <b>
-                    <u>State</u>
+                    State
                   </b>
                 </p>
               </td>
@@ -4547,7 +4143,7 @@ const CAT2022 = () => {
                   align="center"
                 >
                   <b>
-                    <u>Name of the City</u>
+                    Name of the City
                   </b>
                 </p>
               </td>
@@ -7554,18 +7150,14 @@ const CAT2022 = () => {
             </tr>
           </tbody>
         </table>
+
         <p
           className="cont"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           &nbsp;
         </p>
-        <p
-          className="cont"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
+
         <p
           className="cont"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
@@ -7584,6 +7176,7 @@ const CAT2022 = () => {
           section. The in-focus topics of CAT 2022 syllabus for exam preparation
           are:
         </p>
+
         <table
           className="MsoTableGrid"
           style={{ borderCollapse: "collapse", border: "none" }}
@@ -7611,7 +7204,7 @@ const CAT2022 = () => {
                   }}
                 >
                   <b>
-                    <u>Syllabus</u>
+                    Syllabus
                   </b>
                 </p>
               </td>
@@ -7634,7 +7227,7 @@ const CAT2022 = () => {
                   }}
                 >
                   <b>
-                    <u>Topics</u>
+                    Topics
                   </b>
                 </p>
               </td>
@@ -7782,12 +7375,14 @@ const CAT2022 = () => {
             </tr>
           </tbody>
         </table>
+
         <p
           className="cont"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           &nbsp;
         </p>
+
         <p
           className="cont"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
@@ -7795,135 +7390,123 @@ const CAT2022 = () => {
           The current CAT exam pattern, exam duration, no of questions is as
           follows:
         </p>
-        <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-.25in",
-          }}
-        >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7.0pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+        <div className="required-skills">
+          <p
+            className="cont"
+            style={{
+              textJustify: "inter-ideograph",
+              textIndent: "-.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7.0pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              </span>
             </span>
-          </span>
-          Exam Duration is 120 Minutes: CAT 2022 is a computer delivered test
-          with total time duration of 120 minutes.{" "}
-        </p>
-        <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-.25in",
-          }}
-        >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7.0pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            Exam Duration is 120 Minutes: CAT 2022 is a computer delivered test
+            with total time duration of 120 minutes.{" "}
+          </p>
+          <p
+            className="cont"
+            style={{
+              textJustify: "inter-ideograph",
+              textIndent: "-.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7.0pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              </span>
             </span>
-          </span>
-          Section wise Time Duration: Total time of 120 minutes is divided into
-          3 sections of 40 minutes each for VARC, DILR and QA.
-        </p>
-        <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-.25in",
-          }}
-        >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7.0pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            Section wise Time Duration: Total time of 120 minutes is divided into
+            3 sections of 40 minutes each for VARC, DILR and QA.
+          </p>
+          <p
+            className="cont"
+            style={{
+              textJustify: "inter-ideograph",
+              textIndent: "-.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7.0pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              </span>
             </span>
-          </span>
-          66 Questions: Like CAT 2021, CAT 2022 exam will have 66 questions
-          divided in 3 sections of VARC, DILR and Quantitative Ability.{" "}
-        </p>
-        <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-.25in",
-          }}
-        >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7.0pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            66 Questions: Like CAT 2021, CAT 2022 exam will have 66 questions
+            divided in 3 sections of VARC, DILR and Quantitative Ability.{" "}
+          </p>
+          <p
+            className="cont"
+            style={{
+              textJustify: "inter-ideograph",
+              textIndent: "-.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7.0pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              </span>
             </span>
-          </span>
-          MCQ and Non-MCQ type of questions – In CAT 2022, approximately 48 – 50
-          questions would be MCQ and 18 – 20 questions are expected to be
-          non-MCQ.
-        </p>
-        <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-.25in",
-          }}
-        >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7.0pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            MCQ and Non-MCQ type of questions – In CAT 2022, approximately 48 – 50
+            questions would be MCQ and 18 – 20 questions are expected to be
+            non-MCQ.
+          </p>
+          <p
+            className="cont"
+            style={{
+              textJustify: "inter-ideograph",
+              textIndent: "-.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7.0pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              </span>
             </span>
-          </span>
-          Marking Scheme – MCQ carry 3 marks for every correct response with
-          Negative marking of 1/3 (-1) for every wrong MCQ response. No negative
-          marking for wrong non-MCQ response.
-        </p>
-        <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-.25in",
-          }}
-        >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7.0pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            Marking Scheme – MCQ carry 3 marks for every correct response with
+            Negative marking of 1/3 (-1) for every wrong MCQ response. No negative
+            marking for wrong non-MCQ response.
+          </p>
+          <p
+            className="cont"
+            style={{
+              textJustify: "inter-ideograph",
+              textIndent: "-.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7.0pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              </span>
             </span>
-          </span>
-          CAT cut off Requirement by IIMs: A minimum score between 70 to 90
-          percentiles in CAT 2022 would be needed in each of the 3 sections, for
-          candidates to qualify for final admission round.
-        </p>
+            CAT cut off Requirement by IIMs: A minimum score between 70 to 90
+            percentiles in CAT 2022 would be needed in each of the 3 sections, for
+            candidates to qualify for final admission round.
+          </p>
+        </div>
+
         <p
           className="cont"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           &nbsp;
         </p>
-        <p
-          className="cont"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="cont"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
+
         <p
           className="cont"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           <b>CAT 2022 Exam Preparation Tips</b>
         </p>
+
         <p
           className="cont"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
@@ -7936,125 +7519,122 @@ const CAT2022 = () => {
           on covering at least 70% of the syllabus in 2-3 months. Some of the
           most important tip and tricks of CAT exam preparation include:
         </p>
-        <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-.25in",
-          }}
-        >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7.0pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+        <div className="required-skills">
+          <p
+            className="cont"
+            style={{
+              textJustify: "inter-ideograph",
+              textIndent: "-.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7.0pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              </span>
             </span>
-          </span>
-          Identify your strengths and weaknesses and make a list of topics as
-          per it.
-        </p>
-        <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-.25in",
-          }}
-        >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7.0pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            Identify your strengths and weaknesses and make a list of topics as
+            per it.
+          </p>
+          <p
+            className="cont"
+            style={{
+              textJustify: "inter-ideograph",
+              textIndent: "-.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7.0pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              </span>
             </span>
-          </span>
-          Join online study groups on platforms such as Facebook, YouTube,
-          Telegram, etc.
-        </p>
-        <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-.25in",
-          }}
-        >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7.0pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            Join online study groups on platforms such as Facebook, YouTube,
+            Telegram, etc.
+          </p>
+          <p
+            className="cont"
+            style={{
+              textJustify: "inter-ideograph",
+              textIndent: "-.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7.0pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              </span>
             </span>
-          </span>
-          Collect relevant study material, test sets and recommended books for
-          CAT preparation.
-        </p>
-        <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-.25in",
-          }}
-        >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7.0pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            Collect relevant study material, test sets and recommended books for
+            CAT preparation.
+          </p>
+          <p
+            className="cont"
+            style={{
+              textJustify: "inter-ideograph",
+              textIndent: "-.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7.0pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              </span>
             </span>
-          </span>
-          Make day-wise plan as per topics and syllabus by allotting time to
-          VARC, DILR and QA preparation.
-        </p>
-        <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-.25in",
-          }}
-        >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7.0pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            Make day-wise plan as per topics and syllabus by allotting time to
+            VARC, DILR and QA preparation.
+          </p>
+          <p
+            className="cont"
+            style={{
+              textJustify: "inter-ideograph",
+              textIndent: "-.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7.0pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              </span>
             </span>
-          </span>
-          Practice two-three questions from the topic studied on the same day to
-          assess how much you have learnt.
-        </p>
-        <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-.25in",
-          }}
-        >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7.0pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            Practice two-three questions from the topic studied on the same day to
+            assess how much you have learnt.
+          </p>
+          <p
+            className="cont"
+            style={{
+              textJustify: "inter-ideograph",
+              textIndent: "-.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7.0pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              </span>
             </span>
-          </span>
-          Start from topics wise test series to be followed by subject wise and
-          then overall.
-        </p>
-        <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-.25in",
-          }}
-        >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7.0pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            Start from topics wise test series to be followed by subject wise and
+            then overall.
+          </p>
+          <p
+            className="cont"
+            style={{
+              textJustify: "inter-ideograph",
+              textIndent: "-.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7.0pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              </span>
             </span>
-          </span>
-          Increase the speed gradually to cover maximum number of topics each
-          day.
-        </p>
+            Increase the speed gradually to cover maximum number of topics each
+            day.
+          </p>
+        </div>
+
         <p
           className="cont"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
@@ -8064,7 +7644,7 @@ const CAT2022 = () => {
           </b>
         </p>
         <p
-          className="cont"
+          className="cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           Questions in Data Interpretation and Logical Reasoning (DILR) section
@@ -8072,93 +7652,91 @@ const CAT2022 = () => {
           accurately can fetch you 12-15 marks. Important tips for preparation
           of DILR are:
         </p>
-        <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-.25in",
-          }}
-        >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7.0pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <div className="required-skills">
+          <p
+            className="cont"
+            style={{
+              textJustify: "inter-ideograph",
+              textIndent: "-.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7.0pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              </span>
             </span>
-          </span>
-          For DI preparation, solve at least 5-6 sets every week from different
-          types of data sets- bar graphs, line graphs, pie charts, tabular data,
-          and caselets.
-        </p>
-        <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-.25in",
-          }}
-        >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7.0pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            For DI preparation, solve at least 5-6 sets every week from different
+            types of data sets- bar graphs, line graphs, pie charts, tabular data,
+            and caselets.
+          </p>
+          <p
+            className="cont"
+            style={{
+              textJustify: "inter-ideograph",
+              textIndent: "-.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7.0pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              </span>
             </span>
-          </span>
-          To manage time while solving DI questions, be thorough with important
-          ratio-percentage conversions, profit &amp; loss, averages, and other
-          arithmetic topics.
-        </p>
-        <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-.25in",
-          }}
-        >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7.0pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            To manage time while solving DI questions, be thorough with important
+            ratio-percentage conversions, profit &amp; loss, averages, and other
+            arithmetic topics.
+          </p>
+          <p
+            className="cont"
+            style={{
+              textJustify: "inter-ideograph",
+              textIndent: "-.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7.0pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              </span>
             </span>
-          </span>
-          For LR preparation, pick one LR topic for a day and solve 20-30
-          questions of varying difficulty.
-        </p>
-        <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-.25in",
-          }}
-        >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7.0pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            For LR preparation, pick one LR topic for a day and solve 20-30
+            questions of varying difficulty.
+          </p>
+          <p
+            className="cont"
+            style={{
+              textJustify: "inter-ideograph",
+              textIndent: "-.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7.0pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              </span>
             </span>
-          </span>
-          Arun Sharma CAT Books can be referred to prepare for DILR and practice
-          500+ questions.
-        </p>
-        <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-.25in",
-          }}
-        >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7.0pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            Arun Sharma CAT Books can be referred to prepare for DILR and practice
+            500+ questions.
+          </p>
+          <p
+            className="cont"
+            style={{
+              textJustify: "inter-ideograph",
+              textIndent: "-.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7.0pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              </span>
             </span>
-          </span>
-          Join online study groups on Facebook, Telegram, etc. and join CAT mock
-          test series provided by coaching institutes.
-        </p>
+            Join online study groups on Facebook, Telegram, etc. and join CAT mock
+            test series provided by coaching institutes.
+          </p>
+        </div>
+
         <p
           className="cont"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
@@ -8174,130 +7752,126 @@ const CAT2022 = () => {
           Modern Mathematics. A student should focus more on preparing for
           Arithmetic, Algebra, and Geometry.
         </p>
-        <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-.25in",
-          }}
-        >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7.0pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+        <div className="required-skills">
+          <p
+            className="cont"
+            style={{
+              textJustify: "inter-ideograph",
+              textIndent: "-.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7.0pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              </span>
             </span>
-          </span>
-          Be updated about the basic calculation concepts- ratio-percentage
-          conversion, squares and cubes till 30, square roots &amp; cube roots,
-          averages, exponential theorems, divisibility rules, concept of
-          numbers, units digit, alligation, probability, P&amp;C, and tables
-          till 25.
-        </p>
-        <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-.25in",
-          }}
-        >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7.0pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            Be updated about the basic calculation concepts- ratio-percentage
+            conversion, squares and cubes till 30, square roots &amp; cube roots,
+            averages, exponential theorems, divisibility rules, concept of
+            numbers, units digit, alligation, probability, P&amp;C, and tables
+            till 25.
+          </p>
+          <p
+            className="cont"
+            style={{
+              textJustify: "inter-ideograph",
+              textIndent: "-.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7.0pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              </span>
             </span>
-          </span>
-          For Arithmetic preparation, focus more on topics like Profit &amp;
-          Loss, TSD, Time &amp; Work, Mixtures, Averages, and Percentages.
-        </p>
-        <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-.25in",
-          }}
-        >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7.0pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            For Arithmetic preparation, focus more on topics like Profit &amp;
+            Loss, TSD, Time &amp; Work, Mixtures, Averages, and Percentages.
+          </p>
+          <p
+            className="cont"
+            style={{
+              textJustify: "inter-ideograph",
+              textIndent: "-.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7.0pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              </span>
             </span>
-          </span>
-          In Geometry, the most important topics include Triangles, Circles, and
-          Parallelograms along with important theorems and formulas on triangles
-          and circles. Question can also be expected from Mensuration- both 2D
-          and 3D.
-        </p>
-        <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-.25in",
-          }}
-        >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7.0pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            In Geometry, the most important topics include Triangles, Circles, and
+            Parallelograms along with important theorems and formulas on triangles
+            and circles. Question can also be expected from Mensuration- both 2D
+            and 3D.
+          </p>
+          <p
+            className="cont"
+            style={{
+              textJustify: "inter-ideograph",
+              textIndent: "-.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7.0pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              </span>
             </span>
-          </span>
-          Pick 2 topics every day and solve 15 questions on each topic daily.
-        </p>
-        <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-.25in",
-          }}
-        >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7.0pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            Pick 2 topics every day and solve 15 questions on each topic daily.
+          </p>
+          <p
+            className="cont"
+            style={{
+              textJustify: "inter-ideograph",
+              textIndent: "-.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7.0pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              </span>
             </span>
-          </span>
-          Join online study groups on Facebook, Telegram, etc. and join CAT mock
-          test series provided by coaching institutes.
-        </p>
-        <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-.25in",
-          }}
-        >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7.0pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            Join online study groups on Facebook, Telegram, etc. and join CAT mock
+            test series provided by coaching institutes.
+          </p>
+          <p
+            className="cont"
+            style={{
+              textJustify: "inter-ideograph",
+              textIndent: "-.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7.0pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              </span>
             </span>
-          </span>
-          Arun Sharma CAT Books can be referred to prepare for Quant and
-          practice 500+ questions.
-        </p>
-        <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-.25in",
-          }}
-        >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7.0pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            Arun Sharma CAT Books can be referred to prepare for Quant and
+            practice 500+ questions.
+          </p>
+          <p
+            className="cont"
+            style={{
+              textJustify: "inter-ideograph",
+              textIndent: "-.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7.0pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              </span>
             </span>
-          </span>
-          Attempt sectional mock tests in every 2 – 3 days with the time limit
-          of 40 minutes. Review your performance after every mock test and work
-          on your errors.
-        </p>
+            Attempt sectional mock tests in every 2 – 3 days with the time limit
+            of 40 minutes. Review your performance after every mock test and work
+            on your errors.
+          </p>
+        </div>
         <p
           className="cont"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
@@ -8315,94 +7889,90 @@ const CAT2022 = () => {
           important topics in Verbal Ability include para jumbles, odd one out,
           para summary, and error detection.
         </p>
-        <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-.25in",
-          }}
-        >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7.0pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <div className="required-skills">
+          <p
+            className="cont"
+            style={{
+              textJustify: "inter-ideograph",
+              textIndent: "-.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7.0pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              </span>
             </span>
-          </span>
-          To increase your vocabulary, read newspapers, magazines, or online
-          articles on a daily basis. You can also refer to the book- Word Power
-          Made Easy by Norman Lewis.
-        </p>
-        <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-.25in",
-          }}
-        >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7.0pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            To increase your vocabulary, read newspapers, magazines, or online
+            articles on a daily basis. You can also refer to the book- Word Power
+            Made Easy by Norman Lewis.
+          </p>
+          <p
+            className="cont"
+            style={{
+              textJustify: "inter-ideograph",
+              textIndent: "-.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7.0pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              </span>
             </span>
-          </span>
-          Arun Sharma CAT Books can be referred to prepare for VARC and practice
-          500+ questions.
-        </p>
-        <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-.25in",
-          }}
-        >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7.0pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            Arun Sharma CAT Books can be referred to prepare for VARC and practice
+            500+ questions.
+          </p>
+          <p
+            className="cont"
+            style={{
+              textJustify: "inter-ideograph",
+              textIndent: "-.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7.0pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              </span>
             </span>
-          </span>
-          To increase reading speed for RC passages, start with short passages
-          (250-350 words) and then gradually move to 500+ word passages.
-        </p>
-        <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-.25in",
-          }}
-        >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7.0pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            To increase reading speed for RC passages, start with short passages
+            (250-350 words) and then gradually move to 500+ word passages.
+          </p>
+          <p
+            className="cont"
+            style={{
+              textJustify: "inter-ideograph",
+              textIndent: "-.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7.0pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              </span>
             </span>
-          </span>
-          Solve CAT previous year question papers, sample papers, and various
-          online mock test series to get hold on a variety of questions.
-        </p>
+            Solve CAT previous year question papers, sample papers, and various
+            online mock test series to get hold on a variety of questions.
+          </p>
+        </div>
+
         <p
           className="cont"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           &nbsp;
         </p>
-        <p
-          className="cont"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
+
         <CustomTable />
+
         <p
           className="cont"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           &nbsp;
         </p>
+
         <p
           className="cont"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
@@ -8427,102 +7997,100 @@ const CAT2022 = () => {
           reporting time, google map link to locate the test center, and exam
           day instructions. Steps to download CAT Admit Card 2022 are:
         </p>
-        <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-.25in",
-          }}
-        >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7.0pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+        <div className="required-skills">
+          <p
+            className="cont"
+            style={{
+              textJustify: "inter-ideograph",
+              textIndent: "-.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7.0pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              </span>
             </span>
-          </span>
-          Visit the official CAT website- iimcat.ac.in.
-        </p>
-        <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-.25in",
-          }}
-        >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7.0pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            Visit the official CAT website- iimcat.ac.in.
+          </p>
+          <p
+            className="cont"
+            style={{
+              textJustify: "inter-ideograph",
+              textIndent: "-.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7.0pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              </span>
             </span>
-          </span>
-          Enter your CAT ID and Password to login.
-        </p>
-        <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-.25in",
-          }}
-        >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7.0pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            Enter your CAT ID and Password to login.
+          </p>
+          <p
+            className="cont"
+            style={{
+              textJustify: "inter-ideograph",
+              textIndent: "-.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7.0pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              </span>
             </span>
-          </span>
-          Click on ‘Download CAT 2022 Admit Card’
-        </p>
-        <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-.25in",
-          }}
-        >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7.0pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            Click on ‘Download CAT 2022 Admit Card’
+          </p>
+          <p
+            className="cont"
+            style={{
+              textJustify: "inter-ideograph",
+              textIndent: "-.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7.0pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              </span>
             </span>
-          </span>
-          Your hall ticket will be displayed on the screen.{" "}
-        </p>
-        <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-.25in",
-          }}
-        >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7.0pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            Your hall ticket will be displayed on the screen.{" "}
+          </p>
+          <p
+            className="cont"
+            style={{
+              textJustify: "inter-ideograph",
+              textIndent: "-.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7.0pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              </span>
             </span>
-          </span>
-          Download and take a printout.
-        </p>
-        <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-.25in",
-          }}
-        >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7.0pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            Download and take a printout.
+          </p>
+          <p
+            className="cont"
+            style={{
+              textJustify: "inter-ideograph",
+              textIndent: "-.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7.0pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              </span>
             </span>
-          </span>
-          Save the soft copy of your admit card for future reference.
-        </p>
+            Save the soft copy of your admit card for future reference.
+          </p>
+        </div>
+
         <p
           className="cont"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
@@ -8549,164 +8117,163 @@ const CAT2022 = () => {
         >
           <b>Documents to Carry</b>
         </p>
-        <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-.25in",
-          }}
-        >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7.0pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+        <div className="required-skills">
+          <p
+            className="cont"
+            style={{
+              textJustify: "inter-ideograph",
+              textIndent: "-.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7.0pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              </span>
             </span>
-          </span>
-          Admit Card: Candidates appearing for the CAT 2022 exam must carry two
-          print outs (preferably colour print out) of their admit cards with
-          their photo affixed on it. Entry without admit card and photo ID will
-          not be permitted.{" "}
-        </p>
-        <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-.25in",
-          }}
-        >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7.0pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            Admit Card: Candidates appearing for the CAT 2022 exam must carry two
+            print outs (preferably colour print out) of their admit cards with
+            their photo affixed on it. Entry without admit card and photo ID will
+            not be permitted.{" "}
+          </p>
+          <p
+            className="cont"
+            style={{
+              textJustify: "inter-ideograph",
+              textIndent: "-.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7.0pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              </span>
             </span>
-          </span>
-          Identity Proof: Candidates are required to carry a valid photo ID
-          proof such as Aadhar Card, Voter ID Card, Passport, PAN Card, Driving
-          License, or a Photo ID issued by the current education institute or
-          employer.
-        </p>
-        <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-.25in",
-          }}
-        >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7.0pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            Identity Proof: Candidates are required to carry a valid photo ID
+            proof such as Aadhar Card, Voter ID Card, Passport, PAN Card, Driving
+            License, or a Photo ID issued by the current education institute or
+            employer.
+          </p>
+          <p
+            className="cont"
+            style={{
+              textJustify: "inter-ideograph",
+              textIndent: "-.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7.0pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              </span>
             </span>
-          </span>
-          Name Change Document: In case a candidate has changed their name, they
-          will be required to carry a name change certificate/document to
-          validate it.
-        </p>
+            Name Change Document: In case a candidate has changed their name, they
+            will be required to carry a name change certificate/document to
+            validate it.
+          </p>
+        </div>
+
         <p
           className="cont"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           <b>Items prohibited inside the CAT 2022 Exam Hall</b>
         </p>
-        <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-.25in",
-          }}
-        >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7.0pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+        <div className="required-skills">
+          <p
+            className="cont"
+            style={{
+              textJustify: "inter-ideograph",
+              textIndent: "-.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7.0pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              </span>
             </span>
-          </span>
-          Calculator, watch, mobile phone, iPad or any other electronic item
-        </p>
-        <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-.25in",
-          }}
-        >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7.0pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            Calculator, watch, mobile phone, iPad or any other electronic item
+          </p>
+          <p
+            className="cont"
+            style={{
+              textJustify: "inter-ideograph",
+              textIndent: "-.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7.0pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              </span>
             </span>
-          </span>
-          Bags and purses
-        </p>
-        <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-.25in",
-          }}
-        >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7.0pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            Bags and purses
+          </p>
+          <p
+            className="cont"
+            style={{
+              textJustify: "inter-ideograph",
+              textIndent: "-.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7.0pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              </span>
             </span>
-          </span>
-          Eatables and beverages
-        </p>
-        <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-.25in",
-          }}
-        >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7.0pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            Eatables and beverages
+          </p>
+          <p
+            className="cont"
+            style={{
+              textJustify: "inter-ideograph",
+              textIndent: "-.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7.0pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              </span>
             </span>
-          </span>
-          Jewellery and accessories that contain metal
-        </p>
-        <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-.25in",
-          }}
-        >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7.0pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            Jewellery and accessories that contain metal
+          </p>
+          <p
+            className="cont"
+            style={{
+              textJustify: "inter-ideograph",
+              textIndent: "-.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7.0pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              </span>
             </span>
-          </span>
-          Jackets and clothes with pockets
-        </p>
-        <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-.25in",
-          }}
-        >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7.0pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            Jackets and clothes with pockets
+          </p>
+          <p
+            className="cont"
+            style={{
+              textJustify: "inter-ideograph",
+              textIndent: "-.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7.0pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              </span>
             </span>
-          </span>
-          Closed footwear{" "}
-        </p>
+            Closed footwear{" "}
+          </p>
+        </div>
+
         <p
           className="cont"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
@@ -8750,76 +8317,75 @@ const CAT2022 = () => {
         >
           <b>Steps to Check CAT 2022 Answer Key</b>
         </p>
-        <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-.25in",
-          }}
-        >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7.0pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <div className="required-skills">
+          <p
+            className="cont"
+            style={{
+              textJustify: "inter-ideograph",
+              textIndent: "-.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7.0pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              </span>
             </span>
-          </span>
-          Visit the official IIM CAT official website- iimcat.ac.in.
-        </p>
-        <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-.25in",
-          }}
-        >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7.0pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            Visit the official IIM CAT official website- iimcat.ac.in.
+          </p>
+          <p
+            className="cont"
+            style={{
+              textJustify: "inter-ideograph",
+              textIndent: "-.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7.0pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              </span>
             </span>
-          </span>
-          Login using your CAT user id and password.
-        </p>
-        <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-.25in",
-          }}
-        >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7.0pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            Login using your CAT user id and password.
+          </p>
+          <p
+            className="cont"
+            style={{
+              textJustify: "inter-ideograph",
+              textIndent: "-.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7.0pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              </span>
             </span>
-          </span>
-          Click on 'CAT 2022 Answer Key' will appear on the screen.
-        </p>
-        <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-.25in",
-          }}
-        >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7.0pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            Click on 'CAT 2022 Answer Key' will appear on the screen.
+          </p>
+          <p
+            className="cont"
+            style={{
+              textJustify: "inter-ideograph",
+              textIndent: "-.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7.0pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              </span>
             </span>
-          </span>
-          Click on 'Download' icon to save it as PDF for future reference.
-        </p>
+            Click on 'Download' icon to save it as PDF for future reference.
+          </p>
+        </div>
         <p
           className="cont"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           &nbsp;
         </p>
+
         <p
           className="cont"
           style={{
@@ -8840,112 +8406,111 @@ const CAT2022 = () => {
         >
           &nbsp;
         </p>
-        <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-.25in",
-          }}
-        >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7.0pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+        <div className="required-skills">
+          <p
+            className="cont"
+            style={{
+              textJustify: "inter-ideograph",
+              textIndent: "-.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7.0pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              </span>
             </span>
-          </span>
-          CAT 2022 result will be released in the second week of January 2023 on
-          the official website of iimcat.ac.in.{" "}
-        </p>
-        <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-.25in",
-          }}
-        >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7.0pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            CAT 2022 result will be released in the second week of January 2023 on
+            the official website of iimcat.ac.in.{" "}
+          </p>
+          <p
+            className="cont"
+            style={{
+              textJustify: "inter-ideograph",
+              textIndent: "-.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7.0pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              </span>
             </span>
-          </span>
-          Candidates will have to log in using their registration id and
-          password to check the same.
-        </p>
-        <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-.25in",
-          }}
-        >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7.0pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            Candidates will have to log in using their registration id and
+            password to check the same.
+          </p>
+          <p
+            className="cont"
+            style={{
+              textJustify: "inter-ideograph",
+              textIndent: "-.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7.0pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              </span>
             </span>
-          </span>
-          The CAT 2022 result cum scorecard contains each candidate’s raw scores
-          (sectional and overall) and percentiles (section and overall).
-        </p>
-        <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-.25in",
-          }}
-        >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7.0pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            The CAT 2022 result cum scorecard contains each candidate’s raw scores
+            (sectional and overall) and percentiles (section and overall).
+          </p>
+          <p
+            className="cont"
+            style={{
+              textJustify: "inter-ideograph",
+              textIndent: "-.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7.0pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              </span>
             </span>
-          </span>
-          CAT Result 2022 will be valid for 1 year from the date of its release.
-        </p>
-        <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-.25in",
-          }}
-        >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7.0pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            CAT Result 2022 will be valid for 1 year from the date of its release.
+          </p>
+          <p
+            className="cont"
+            style={{
+              textJustify: "inter-ideograph",
+              textIndent: "-.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7.0pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              </span>
             </span>
-          </span>
-          The scorecard will be available for download till Dec 31, 2023.
-        </p>
-        <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-.25in",
-          }}
-        >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7.0pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            The scorecard will be available for download till Dec 31, 2023.
+          </p>
+          <p
+            className="cont"
+            style={{
+              textJustify: "inter-ideograph",
+              textIndent: "-.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7.0pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              </span>
             </span>
-          </span>
-          Along with the result, IIM will also display the list of CAT Toppers
-          2022.
-        </p>
+            Along with the result, IIM will also display the list of CAT Toppers
+            2022.
+          </p>
+        </div>
+
         <p
           className="cont"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           &nbsp;
         </p>
+
         <p
           className="cont"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
@@ -8998,7 +8563,7 @@ const CAT2022 = () => {
                   align="center"
                 >
                   <b>
-                    <u>CAT Percentile</u>
+                    CAT Percentile
                   </b>
                 </p>
               </td>
@@ -9022,7 +8587,7 @@ const CAT2022 = () => {
                   align="center"
                 >
                   <b>
-                    <u>CAT Score – VARC</u>
+                    CAT Score – VARC
                   </b>
                 </p>
               </td>
@@ -9046,7 +8611,7 @@ const CAT2022 = () => {
                   align="center"
                 >
                   <b>
-                    <u>CAT Score – DILR</u>
+                    CAT Score – DILR
                   </b>
                 </p>
               </td>
@@ -9070,7 +8635,7 @@ const CAT2022 = () => {
                   align="center"
                 >
                   <b>
-                    <u>CAT Score – QA</u>
+                    CAT Score – QA
                   </b>
                 </p>
               </td>
@@ -9094,7 +8659,7 @@ const CAT2022 = () => {
                   align="center"
                 >
                   <b>
-                    <u>CAT Score- Overall</u>
+                    CAT Score- Overall
                   </b>
                 </p>
               </td>
@@ -10091,18 +9656,14 @@ const CAT2022 = () => {
           Work experience and gender diversity and weightage given to each
           category.&nbsp;{" "}
         </p>
-        <p
-          className="cont"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
+
         <p
           className="cont"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           <b>IIM CAT Cut Off Percentiles</b>
         </p>
+
         <p
           className="cont"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
@@ -10140,7 +9701,7 @@ const CAT2022 = () => {
                   align="center"
                 >
                   <b>
-                    <u>IIM</u>
+                    IIM
                   </b>
                 </p>
               </td>
@@ -10164,7 +9725,7 @@ const CAT2022 = () => {
                   align="center"
                 >
                   <b>
-                    <u>CAT Cut-off (Qualifying)</u>
+                    CAT Cut-off (Qualifying)
                   </b>
                 </p>
               </td>
@@ -11038,7 +10599,7 @@ const CAT2022 = () => {
           &nbsp;
         </p>
         <p
-          className="cont"
+          className="cont mb-0"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           Note: The cut off percentiles mentioned in the above table are of
@@ -11067,74 +10628,73 @@ const CAT2022 = () => {
           CAT 2022 admission process for Non-IIMs will include the
           below-mentioned stages.{" "}
         </p>
-        <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-.25in",
-          }}
-        >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7.0pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+        <div className="required-skills">
+          <p
+            className="cont"
+            style={{
+              textJustify: "inter-ideograph",
+              textIndent: "-.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7.0pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              </span>
             </span>
-          </span>
-          Candidate need fill the application form of the target non-IIM college
-        </p>
-        <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-.25in",
-          }}
-        >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7.0pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            Candidate need fill the application form of the target non-IIM college
+          </p>
+          <p
+            className="cont"
+            style={{
+              textJustify: "inter-ideograph",
+              textIndent: "-.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7.0pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              </span>
             </span>
-          </span>
-          Candidates need to clear the qualifying CAT 2022 cut off to be
-          eligible
-        </p>
-        <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-.25in",
-          }}
-        >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7.0pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            Candidates need to clear the qualifying CAT 2022 cut off to be
+            eligible
+          </p>
+          <p
+            className="cont"
+            style={{
+              textJustify: "inter-ideograph",
+              textIndent: "-.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7.0pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              </span>
             </span>
-          </span>
-          Qualified candidates will be shortlisted for participation in WAT/ GD/
-          PI
-        </p>
-        <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-.25in",
-          }}
-        >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7.0pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            Qualified candidates will be shortlisted for participation in WAT/ GD/
+            PI
+          </p>
+          <p
+            className="cont"
+            style={{
+              textJustify: "inter-ideograph",
+              textIndent: "-.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7.0pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              </span>
             </span>
-          </span>
-          Candidates will be selected on the basis of CAT scores, GD/ PI scores,
-          and academic qualifications depending on the parameters set by the
-          respective institute
-        </p>
+            Candidates will be selected on the basis of CAT scores, GD/ PI scores,
+            and academic qualifications depending on the parameters set by the
+            respective institute
+          </p>
+        </div>
         <p
           className="cont"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
@@ -11143,828 +10703,791 @@ const CAT2022 = () => {
           provided in the table below along with the expected cut off percentile
           based on the analysis of previous years’ cut off data:
         </p>
-        <div>
-          <table
-            className="MsoTableGrid"
-            style={{
-              width: "6.65in",
-              borderCollapse: "collapse",
-              border: "none",
-            }}
-            width={638}
-            cellSpacing={0}
-            cellPadding={0}
-            border={1}
-          >
-            <tbody>
-              <tr>
-                <td
-                  style={{
-                    width: "362.05pt",
-                    border: "solid black 1.0pt",
-                    padding: "0in 5.4pt 0in 5.4pt",
-                  }}
-                  width={483}
-                >
-                  <p
-                    className="cont"
-                    style={{
-                      marginBottom: "0in",
-                      textAlign: "center",
-                      lineHeight: "normal",
-                    }}
-                    align="center"
-                  >
-                    <b>
-                      <u>Non IIM Institute</u>
-                    </b>
-                  </p>
-                </td>
-                <td
-                  style={{
-                    width: "116.75pt",
-                    border: "solid black 1.0pt",
-                    borderLeft: "none",
-                    padding: "0in 5.4pt 0in 5.4pt",
-                  }}
-                  width={156}
-                >
-                  <p
-                    className="cont"
-                    style={{
-                      marginBottom: "0in",
-                      textAlign: "center",
-                      lineHeight: "normal",
-                    }}
-                    align="center"
-                  >
-                    <b>
-                      <u>CAT Percentile Cut Off</u>
-                    </b>
-                  </p>
-                  <p
-                    className="cont"
-                    style={{
-                      marginBottom: "0in",
-                      textAlign: "center",
-                      lineHeight: "normal",
-                    }}
-                    align="center"
-                  >
-                    <b>
-                      <u>(Qualifying)</u>
-                    </b>
-                  </p>
-                </td>
-              </tr>
-              <tr>
-                <td
-                  style={{
-                    width: "362.05pt",
-                    border: "solid black 1.0pt",
-                    borderTop: "none",
-                    padding: "0in 5.4pt 0in 5.4pt",
-                  }}
-                  width={483}
-                >
-                  <p
-                    className="cont"
-                    style={{
-                      marginBottom: "0in",
-                      textAlign: "justify",
-                      textJustify: "inter-ideograph",
-                      lineHeight: "normal",
-                    }}
-                  >
-                    FMS, Delhi
-                  </p>
-                </td>
-                <td
-                  style={{
-                    width: "116.75pt",
-                    borderTop: "none",
-                    borderLeft: "none",
-                    borderBottom: "solid black 1.0pt",
-                    borderRight: "solid black 1.0pt",
-                    padding: "0in 5.4pt 0in 5.4pt",
-                  }}
-                  width={156}
-                >
-                  <p
-                    className="cont"
-                    style={{
-                      marginBottom: "0in",
-                      textAlign: "justify",
-                      textJustify: "inter-ideograph",
-                      lineHeight: "normal",
-                    }}
-                  >
-                    98 – 99
-                  </p>
-                </td>
-              </tr>
-              <tr>
-                <td
-                  style={{
-                    width: "362.05pt",
-                    border: "solid black 1.0pt",
-                    borderTop: "none",
-                    padding: "0in 5.4pt 0in 5.4pt",
-                  }}
-                  width={483}
-                >
-                  <p
-                    className="cont"
-                    style={{
-                      marginBottom: "0in",
-                      textAlign: "justify",
-                      textJustify: "inter-ideograph",
-                      lineHeight: "normal",
-                    }}
-                  >
-                    Goa Institute of Management (GIM), Goa
-                  </p>
-                </td>
-                <td
-                  style={{
-                    width: "116.75pt",
-                    borderTop: "none",
-                    borderLeft: "none",
-                    borderBottom: "solid black 1.0pt",
-                    borderRight: "solid black 1.0pt",
-                    padding: "0in 5.4pt 0in 5.4pt",
-                  }}
-                  width={156}
-                >
-                  <p
-                    className="cont"
-                    style={{
-                      marginBottom: "0in",
-                      textAlign: "justify",
-                      textJustify: "inter-ideograph",
-                      lineHeight: "normal",
-                    }}
-                  >
-                    90 – 95
-                  </p>
-                </td>
-              </tr>
-              <tr>
-                <td
-                  style={{
-                    width: "362.05pt",
-                    border: "solid black 1.0pt",
-                    borderTop: "none",
-                    padding: "0in 5.4pt 0in 5.4pt",
-                  }}
-                  width={483}
-                >
-                  <p
-                    className="cont"
-                    style={{
-                      marginBottom: "0in",
-                      textAlign: "justify",
-                      textJustify: "inter-ideograph",
-                      lineHeight: "normal",
-                    }}
-                  >
-                    IBS, Hyderabad
-                  </p>
-                </td>
-                <td
-                  style={{
-                    width: "116.75pt",
-                    borderTop: "none",
-                    borderLeft: "none",
-                    borderBottom: "solid black 1.0pt",
-                    borderRight: "solid black 1.0pt",
-                    padding: "0in 5.4pt 0in 5.4pt",
-                  }}
-                  width={156}
-                >
-                  <p
-                    className="cont"
-                    style={{
-                      marginBottom: "0in",
-                      textAlign: "justify",
-                      textJustify: "inter-ideograph",
-                      lineHeight: "normal",
-                    }}
-                  >
-                    85 – 90
-                  </p>
-                </td>
-              </tr>
-              <tr>
-                <td
-                  style={{
-                    width: "362.05pt",
-                    border: "solid black 1.0pt",
-                    borderTop: "none",
-                    padding: "0in 5.4pt 0in 5.4pt",
-                  }}
-                  width={483}
-                >
-                  <p
-                    className="cont"
-                    style={{
-                      marginBottom: "0in",
-                      textAlign: "justify",
-                      textJustify: "inter-ideograph",
-                      lineHeight: "normal",
-                    }}
-                  >
-                    Institute of Management Technology, Ghaziabad
-                  </p>
-                </td>
-                <td
-                  style={{
-                    width: "116.75pt",
-                    borderTop: "none",
-                    borderLeft: "none",
-                    borderBottom: "solid black 1.0pt",
-                    borderRight: "solid black 1.0pt",
-                    padding: "0in 5.4pt 0in 5.4pt",
-                  }}
-                  width={156}
-                >
-                  <p
-                    className="cont"
-                    style={{
-                      marginBottom: "0in",
-                      textAlign: "justify",
-                      textJustify: "inter-ideograph",
-                      lineHeight: "normal",
-                    }}
-                  >
-                    94 +
-                  </p>
-                </td>
-              </tr>
-              <tr>
-                <td
-                  style={{
-                    width: "362.05pt",
-                    border: "solid black 1.0pt",
-                    borderTop: "none",
-                    padding: "0in 5.4pt 0in 5.4pt",
-                  }}
-                  width={483}
-                >
-                  <p
-                    className="cont"
-                    style={{
-                      marginBottom: "0in",
-                      textAlign: "justify",
-                      textJustify: "inter-ideograph",
-                      lineHeight: "normal",
-                    }}
-                  >
-                    Jamnalal Bajaj Institute of Management Studies (JBIMS),
-                    Mumbai
-                  </p>
-                </td>
-                <td
-                  style={{
-                    width: "116.75pt",
-                    borderTop: "none",
-                    borderLeft: "none",
-                    borderBottom: "solid black 1.0pt",
-                    borderRight: "solid black 1.0pt",
-                    padding: "0in 5.4pt 0in 5.4pt",
-                  }}
-                  width={156}
-                >
-                  <p
-                    className="cont"
-                    style={{
-                      marginBottom: "0in",
-                      textAlign: "justify",
-                      textJustify: "inter-ideograph",
-                      lineHeight: "normal",
-                    }}
-                  >
-                    90 +
-                  </p>
-                </td>
-              </tr>
-              <tr>
-                <td
-                  style={{
-                    width: "362.05pt",
-                    border: "solid black 1.0pt",
-                    borderTop: "none",
-                    padding: "0in 5.4pt 0in 5.4pt",
-                  }}
-                  width={483}
-                >
-                  <p
-                    className="cont"
-                    style={{
-                      marginBottom: "0in",
-                      textAlign: "justify",
-                      textJustify: "inter-ideograph",
-                      lineHeight: "normal",
-                    }}
-                  >
-                    K. J. Somaiya Institute of Management Studies and Research
-                    (SIMSR), Mumbai
-                  </p>
-                </td>
-                <td
-                  style={{
-                    width: "116.75pt",
-                    borderTop: "none",
-                    borderLeft: "none",
-                    borderBottom: "solid black 1.0pt",
-                    borderRight: "solid black 1.0pt",
-                    padding: "0in 5.4pt 0in 5.4pt",
-                  }}
-                  width={156}
-                >
-                  <p
-                    className="cont"
-                    style={{
-                      marginBottom: "0in",
-                      textAlign: "justify",
-                      textJustify: "inter-ideograph",
-                      lineHeight: "normal",
-                    }}
-                  >
-                    90 +
-                  </p>
-                </td>
-              </tr>
-              <tr>
-                <td
-                  style={{
-                    width: "362.05pt",
-                    border: "solid black 1.0pt",
-                    borderTop: "none",
-                    padding: "0in 5.4pt 0in 5.4pt",
-                  }}
-                  width={483}
-                >
-                  <p
-                    className="cont"
-                    style={{
-                      marginBottom: "0in",
-                      textAlign: "justify",
-                      textJustify: "inter-ideograph",
-                      lineHeight: "normal",
-                    }}
-                  >
-                    Management Development Institute (MDI), Gurgaon
-                  </p>
-                </td>
-                <td
-                  style={{
-                    width: "116.75pt",
-                    borderTop: "none",
-                    borderLeft: "none",
-                    borderBottom: "solid black 1.0pt",
-                    borderRight: "solid black 1.0pt",
-                    padding: "0in 5.4pt 0in 5.4pt",
-                  }}
-                  width={156}
-                >
-                  <p
-                    className="cont"
-                    style={{
-                      marginBottom: "0in",
-                      textAlign: "justify",
-                      textJustify: "inter-ideograph",
-                      lineHeight: "normal",
-                    }}
-                  >
-                    97 – 98
-                  </p>
-                </td>
-              </tr>
-              <tr>
-                <td
-                  style={{
-                    width: "362.05pt",
-                    border: "solid black 1.0pt",
-                    borderTop: "none",
-                    padding: "0in 5.4pt 0in 5.4pt",
-                  }}
-                  width={483}
-                >
-                  <p
-                    className="cont"
-                    style={{
-                      marginBottom: "0in",
-                      textAlign: "justify",
-                      textJustify: "inter-ideograph",
-                      lineHeight: "normal",
-                    }}
-                  >
-                    Prin. L. N. Welingkar Institute of Management Development
-                    &amp; Research (WeSchool), Mumbai
-                  </p>
-                </td>
-                <td
-                  style={{
-                    width: "116.75pt",
-                    borderTop: "none",
-                    borderLeft: "none",
-                    borderBottom: "solid black 1.0pt",
-                    borderRight: "solid black 1.0pt",
-                    padding: "0in 5.4pt 0in 5.4pt",
-                  }}
-                  width={156}
-                >
-                  <p
-                    className="cont"
-                    style={{
-                      marginBottom: "0in",
-                      textAlign: "justify",
-                      textJustify: "inter-ideograph",
-                      lineHeight: "normal",
-                    }}
-                  >
-                    85 +
-                  </p>
-                </td>
-              </tr>
-              <tr>
-                <td
-                  style={{
-                    width: "362.05pt",
-                    border: "solid black 1.0pt",
-                    borderTop: "none",
-                    padding: "0in 5.4pt 0in 5.4pt",
-                  }}
-                  width={483}
-                >
-                  <p
-                    className="cont"
-                    style={{
-                      marginBottom: "0in",
-                      textAlign: "justify",
-                      textJustify: "inter-ideograph",
-                      lineHeight: "normal",
-                    }}
-                  >
-                    S.P. Jain Institute of Management and Research (SPJIMR),
-                    Mumbai
-                  </p>
-                </td>
-                <td
-                  style={{
-                    width: "116.75pt",
-                    borderTop: "none",
-                    borderLeft: "none",
-                    borderBottom: "solid black 1.0pt",
-                    borderRight: "solid black 1.0pt",
-                    padding: "0in 5.4pt 0in 5.4pt",
-                  }}
-                  width={156}
-                >
-                  <p
-                    className="cont"
-                    style={{
-                      marginBottom: "0in",
-                      textAlign: "justify",
-                      textJustify: "inter-ideograph",
-                      lineHeight: "normal",
-                    }}
-                  >
-                    85 +
-                  </p>
-                </td>
-              </tr>
-              <tr>
-                <td
-                  style={{
-                    width: "362.05pt",
-                    border: "solid black 1.0pt",
-                    borderTop: "none",
-                    padding: "0in 5.4pt 0in 5.4pt",
-                  }}
-                  width={483}
-                >
-                  <p
-                    className="cont"
-                    style={{
-                      marginBottom: "0in",
-                      textAlign: "justify",
-                      textJustify: "inter-ideograph",
-                      lineHeight: "normal",
-                    }}
-                  >
-                    Shailesh J. Mehta School of Management (SJMSOM), Mumbai
-                  </p>
-                </td>
-                <td
-                  style={{
-                    width: "116.75pt",
-                    borderTop: "none",
-                    borderLeft: "none",
-                    borderBottom: "solid black 1.0pt",
-                    borderRight: "solid black 1.0pt",
-                    padding: "0in 5.4pt 0in 5.4pt",
-                  }}
-                  width={156}
-                >
-                  <p
-                    className="cont"
-                    style={{
-                      marginBottom: "0in",
-                      textAlign: "justify",
-                      textJustify: "inter-ideograph",
-                      lineHeight: "normal",
-                    }}
-                  >
-                    95 +
-                  </p>
-                </td>
-              </tr>
-              <tr>
-                <td
-                  style={{
-                    width: "362.05pt",
-                    border: "solid black 1.0pt",
-                    borderTop: "none",
-                    padding: "0in 5.4pt 0in 5.4pt",
-                  }}
-                  width={483}
-                >
-                  <p
-                    className="cont"
-                    style={{
-                      marginBottom: "0in",
-                      textAlign: "justify",
-                      textJustify: "inter-ideograph",
-                      lineHeight: "normal",
-                    }}
-                  >
-                    T. A. Pai Management Institute (TAPMI), Manipal
-                  </p>
-                </td>
-                <td
-                  style={{
-                    width: "116.75pt",
-                    borderTop: "none",
-                    borderLeft: "none",
-                    borderBottom: "solid black 1.0pt",
-                    borderRight: "solid black 1.0pt",
-                    padding: "0in 5.4pt 0in 5.4pt",
-                  }}
-                  width={156}
-                >
-                  <p
-                    className="cont"
-                    style={{
-                      marginBottom: "0in",
-                      textAlign: "justify",
-                      textJustify: "inter-ideograph",
-                      lineHeight: "normal",
-                    }}
-                  >
-                    80+
-                  </p>
-                </td>
-              </tr>
-              <tr>
-                <td
-                  style={{
-                    width: "362.05pt",
-                    border: "solid black 1.0pt",
-                    borderTop: "none",
-                    padding: "0in 5.4pt 0in 5.4pt",
-                  }}
-                  width={483}
-                >
-                  <p
-                    className="cont"
-                    style={{
-                      marginBottom: "0in",
-                      textAlign: "justify",
-                      textJustify: "inter-ideograph",
-                      lineHeight: "normal",
-                    }}
-                  >
-                    IMI, Delhi
-                  </p>
-                </td>
-                <td
-                  style={{
-                    width: "116.75pt",
-                    borderTop: "none",
-                    borderLeft: "none",
-                    borderBottom: "solid black 1.0pt",
-                    borderRight: "solid black 1.0pt",
-                    padding: "0in 5.4pt 0in 5.4pt",
-                  }}
-                  width={156}
-                >
-                  <p
-                    className="cont"
-                    style={{
-                      marginBottom: "0in",
-                      textAlign: "justify",
-                      textJustify: "inter-ideograph",
-                      lineHeight: "normal",
-                    }}
-                  >
-                    90+
-                  </p>
-                </td>
-              </tr>
-              <tr>
-                <td
-                  style={{
-                    width: "362.05pt",
-                    border: "solid black 1.0pt",
-                    borderTop: "none",
-                    padding: "0in 5.4pt 0in 5.4pt",
-                  }}
-                  width={483}
-                >
-                  <p
-                    className="cont"
-                    style={{
-                      marginBottom: "0in",
-                      textAlign: "justify",
-                      textJustify: "inter-ideograph",
-                      lineHeight: "normal",
-                    }}
-                  >
-                    FORE, Delhi
-                  </p>
-                </td>
-                <td
-                  style={{
-                    width: "116.75pt",
-                    borderTop: "none",
-                    borderLeft: "none",
-                    borderBottom: "solid black 1.0pt",
-                    borderRight: "solid black 1.0pt",
-                    padding: "0in 5.4pt 0in 5.4pt",
-                  }}
-                  width={156}
-                >
-                  <p
-                    className="cont"
-                    style={{
-                      marginBottom: "0in",
-                      textAlign: "justify",
-                      textJustify: "inter-ideograph",
-                      lineHeight: "normal",
-                    }}
-                  >
-                    85 +
-                  </p>
-                </td>
-              </tr>
-              <tr>
-                <td
-                  style={{
-                    width: "362.05pt",
-                    border: "solid black 1.0pt",
-                    borderTop: "none",
-                    padding: "0in 5.4pt 0in 5.4pt",
-                  }}
-                  width={483}
-                >
-                  <p
-                    className="cont"
-                    style={{
-                      marginBottom: "0in",
-                      textAlign: "justify",
-                      textJustify: "inter-ideograph",
-                      lineHeight: "normal",
-                    }}
-                  >
-                    Great Lakes Institute of Management, Chennai
-                  </p>
-                </td>
-                <td
-                  style={{
-                    width: "116.75pt",
-                    borderTop: "none",
-                    borderLeft: "none",
-                    borderBottom: "solid black 1.0pt",
-                    borderRight: "solid black 1.0pt",
-                    padding: "0in 5.4pt 0in 5.4pt",
-                  }}
-                  width={156}
-                >
-                  <p
-                    className="cont"
-                    style={{
-                      marginBottom: "0in",
-                      textAlign: "justify",
-                      textJustify: "inter-ideograph",
-                      lineHeight: "normal",
-                    }}
-                  >
-                    85 +
-                  </p>
-                </td>
-              </tr>
-              <tr>
-                <td
-                  style={{
-                    width: "362.05pt",
-                    border: "solid black 1.0pt",
-                    borderTop: "none",
-                    padding: "0in 5.4pt 0in 5.4pt",
-                  }}
-                  width={483}
-                >
-                  <p
-                    className="cont"
-                    style={{
-                      marginBottom: "0in",
-                      textAlign: "justify",
-                      textJustify: "inter-ideograph",
-                      lineHeight: "normal",
-                    }}
-                  >
-                    BIMTECH, Greater Noida
-                  </p>
-                </td>
-                <td
-                  style={{
-                    width: "116.75pt",
-                    borderTop: "none",
-                    borderLeft: "none",
-                    borderBottom: "solid black 1.0pt",
-                    borderRight: "solid black 1.0pt",
-                    padding: "0in 5.4pt 0in 5.4pt",
-                  }}
-                  width={156}
-                >
-                  <p
-                    className="cont"
-                    style={{
-                      marginBottom: "0in",
-                      textAlign: "justify",
-                      textJustify: "inter-ideograph",
-                      lineHeight: "normal",
-                    }}
-                  >
-                    75 +
-                  </p>
-                </td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-        <p
-          className="cont"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="cont"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <CustomTable />
-        <p
-          className="cont"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="cont"
+
+        <table
+          className="MsoTableGrid"
           style={{
-            marginBottom: "0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
+            borderCollapse: "collapse",
+            border: "none",
           }}
+          width={638}
+          cellSpacing={0}
+          cellPadding={0}
+          border={1}
         >
-          <b>&nbsp;</b>
+          <tbody>
+            <tr>
+              <td
+                style={{
+                  width: "362.05pt",
+                  border: "solid black 1.0pt",
+                  padding: "0in 5.4pt 0in 5.4pt",
+                }}
+                width={483}
+              >
+                <p
+                  className="cont"
+                  style={{
+                    marginBottom: "0in",
+                    textAlign: "center",
+                    lineHeight: "normal",
+                  }}
+                  align="center"
+                >
+                  <b>
+                    Non IIM Institute
+                  </b>
+                </p>
+              </td>
+              <td
+                style={{
+                  width: "116.75pt",
+                  border: "solid black 1.0pt",
+                  borderLeft: "none",
+                  padding: "0in 5.4pt 0in 5.4pt",
+                }}
+                width={156}
+              >
+                <p
+                  className="cont"
+                  style={{
+                    marginBottom: "0in",
+                    textAlign: "center",
+                    lineHeight: "normal",
+                  }}
+                  align="center"
+                >
+                  <b>
+                    CAT Percentile Cut Off (Qualifying)
+                  </b>
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td
+                style={{
+                  width: "362.05pt",
+                  border: "solid black 1.0pt",
+                  borderTop: "none",
+                  padding: "0in 5.4pt 0in 5.4pt",
+                }}
+                width={483}
+              >
+                <p
+                  className="cont"
+                  style={{
+                    marginBottom: "0in",
+                    textAlign: "justify",
+                    textJustify: "inter-ideograph",
+                    lineHeight: "normal",
+                  }}
+                >
+                  FMS, Delhi
+                </p>
+              </td>
+              <td
+                style={{
+                  width: "116.75pt",
+                  borderTop: "none",
+                  borderLeft: "none",
+                  borderBottom: "solid black 1.0pt",
+                  borderRight: "solid black 1.0pt",
+                  padding: "0in 5.4pt 0in 5.4pt",
+                }}
+                width={156}
+              >
+                <p
+                  className="cont"
+                  style={{
+                    marginBottom: "0in",
+                    textAlign: "justify",
+                    textJustify: "inter-ideograph",
+                    lineHeight: "normal",
+                  }}
+                >
+                  98 – 99
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td
+                style={{
+                  width: "362.05pt",
+                  border: "solid black 1.0pt",
+                  borderTop: "none",
+                  padding: "0in 5.4pt 0in 5.4pt",
+                }}
+                width={483}
+              >
+                <p
+                  className="cont"
+                  style={{
+                    marginBottom: "0in",
+                    textAlign: "justify",
+                    textJustify: "inter-ideograph",
+                    lineHeight: "normal",
+                  }}
+                >
+                  Goa Institute of Management (GIM), Goa
+                </p>
+              </td>
+              <td
+                style={{
+                  width: "116.75pt",
+                  borderTop: "none",
+                  borderLeft: "none",
+                  borderBottom: "solid black 1.0pt",
+                  borderRight: "solid black 1.0pt",
+                  padding: "0in 5.4pt 0in 5.4pt",
+                }}
+                width={156}
+              >
+                <p
+                  className="cont"
+                  style={{
+                    marginBottom: "0in",
+                    textAlign: "justify",
+                    textJustify: "inter-ideograph",
+                    lineHeight: "normal",
+                  }}
+                >
+                  90 – 95
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td
+                style={{
+                  width: "362.05pt",
+                  border: "solid black 1.0pt",
+                  borderTop: "none",
+                  padding: "0in 5.4pt 0in 5.4pt",
+                }}
+                width={483}
+              >
+                <p
+                  className="cont"
+                  style={{
+                    marginBottom: "0in",
+                    textAlign: "justify",
+                    textJustify: "inter-ideograph",
+                    lineHeight: "normal",
+                  }}
+                >
+                  IBS, Hyderabad
+                </p>
+              </td>
+              <td
+                style={{
+                  width: "116.75pt",
+                  borderTop: "none",
+                  borderLeft: "none",
+                  borderBottom: "solid black 1.0pt",
+                  borderRight: "solid black 1.0pt",
+                  padding: "0in 5.4pt 0in 5.4pt",
+                }}
+                width={156}
+              >
+                <p
+                  className="cont"
+                  style={{
+                    marginBottom: "0in",
+                    textAlign: "justify",
+                    textJustify: "inter-ideograph",
+                    lineHeight: "normal",
+                  }}
+                >
+                  85 – 90
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td
+                style={{
+                  width: "362.05pt",
+                  border: "solid black 1.0pt",
+                  borderTop: "none",
+                  padding: "0in 5.4pt 0in 5.4pt",
+                }}
+                width={483}
+              >
+                <p
+                  className="cont"
+                  style={{
+                    marginBottom: "0in",
+                    textAlign: "justify",
+                    textJustify: "inter-ideograph",
+                    lineHeight: "normal",
+                  }}
+                >
+                  Institute of Management Technology, Ghaziabad
+                </p>
+              </td>
+              <td
+                style={{
+                  width: "116.75pt",
+                  borderTop: "none",
+                  borderLeft: "none",
+                  borderBottom: "solid black 1.0pt",
+                  borderRight: "solid black 1.0pt",
+                  padding: "0in 5.4pt 0in 5.4pt",
+                }}
+                width={156}
+              >
+                <p
+                  className="cont"
+                  style={{
+                    marginBottom: "0in",
+                    textAlign: "justify",
+                    textJustify: "inter-ideograph",
+                    lineHeight: "normal",
+                  }}
+                >
+                  94 +
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td
+                style={{
+                  width: "362.05pt",
+                  border: "solid black 1.0pt",
+                  borderTop: "none",
+                  padding: "0in 5.4pt 0in 5.4pt",
+                }}
+                width={483}
+              >
+                <p
+                  className="cont"
+                  style={{
+                    marginBottom: "0in",
+                    textAlign: "justify",
+                    textJustify: "inter-ideograph",
+                    lineHeight: "normal",
+                  }}
+                >
+                  Jamnalal Bajaj Institute of Management Studies (JBIMS),
+                  Mumbai
+                </p>
+              </td>
+              <td
+                style={{
+                  width: "116.75pt",
+                  borderTop: "none",
+                  borderLeft: "none",
+                  borderBottom: "solid black 1.0pt",
+                  borderRight: "solid black 1.0pt",
+                  padding: "0in 5.4pt 0in 5.4pt",
+                }}
+                width={156}
+              >
+                <p
+                  className="cont"
+                  style={{
+                    marginBottom: "0in",
+                    textAlign: "justify",
+                    textJustify: "inter-ideograph",
+                    lineHeight: "normal",
+                  }}
+                >
+                  90 +
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td
+                style={{
+                  width: "362.05pt",
+                  border: "solid black 1.0pt",
+                  borderTop: "none",
+                  padding: "0in 5.4pt 0in 5.4pt",
+                }}
+                width={483}
+              >
+                <p
+                  className="cont"
+                  style={{
+                    marginBottom: "0in",
+                    textAlign: "justify",
+                    textJustify: "inter-ideograph",
+                    lineHeight: "normal",
+                  }}
+                >
+                  K. J. Somaiya Institute of Management Studies and Research
+                  (SIMSR), Mumbai
+                </p>
+              </td>
+              <td
+                style={{
+                  width: "116.75pt",
+                  borderTop: "none",
+                  borderLeft: "none",
+                  borderBottom: "solid black 1.0pt",
+                  borderRight: "solid black 1.0pt",
+                  padding: "0in 5.4pt 0in 5.4pt",
+                }}
+                width={156}
+              >
+                <p
+                  className="cont"
+                  style={{
+                    marginBottom: "0in",
+                    textAlign: "justify",
+                    textJustify: "inter-ideograph",
+                    lineHeight: "normal",
+                  }}
+                >
+                  90 +
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td
+                style={{
+                  width: "362.05pt",
+                  border: "solid black 1.0pt",
+                  borderTop: "none",
+                  padding: "0in 5.4pt 0in 5.4pt",
+                }}
+                width={483}
+              >
+                <p
+                  className="cont"
+                  style={{
+                    marginBottom: "0in",
+                    textAlign: "justify",
+                    textJustify: "inter-ideograph",
+                    lineHeight: "normal",
+                  }}
+                >
+                  Management Development Institute (MDI), Gurgaon
+                </p>
+              </td>
+              <td
+                style={{
+                  width: "116.75pt",
+                  borderTop: "none",
+                  borderLeft: "none",
+                  borderBottom: "solid black 1.0pt",
+                  borderRight: "solid black 1.0pt",
+                  padding: "0in 5.4pt 0in 5.4pt",
+                }}
+                width={156}
+              >
+                <p
+                  className="cont"
+                  style={{
+                    marginBottom: "0in",
+                    textAlign: "justify",
+                    textJustify: "inter-ideograph",
+                    lineHeight: "normal",
+                  }}
+                >
+                  97 – 98
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td
+                style={{
+                  width: "362.05pt",
+                  border: "solid black 1.0pt",
+                  borderTop: "none",
+                  padding: "0in 5.4pt 0in 5.4pt",
+                }}
+                width={483}
+              >
+                <p
+                  className="cont"
+                  style={{
+                    marginBottom: "0in",
+                    textAlign: "justify",
+                    textJustify: "inter-ideograph",
+                    lineHeight: "normal",
+                  }}
+                >
+                  Prin. L. N. Welingkar Institute of Management Development
+                  &amp; Research (WeSchool), Mumbai
+                </p>
+              </td>
+              <td
+                style={{
+                  width: "116.75pt",
+                  borderTop: "none",
+                  borderLeft: "none",
+                  borderBottom: "solid black 1.0pt",
+                  borderRight: "solid black 1.0pt",
+                  padding: "0in 5.4pt 0in 5.4pt",
+                }}
+                width={156}
+              >
+                <p
+                  className="cont"
+                  style={{
+                    marginBottom: "0in",
+                    textAlign: "justify",
+                    textJustify: "inter-ideograph",
+                    lineHeight: "normal",
+                  }}
+                >
+                  85 +
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td
+                style={{
+                  width: "362.05pt",
+                  border: "solid black 1.0pt",
+                  borderTop: "none",
+                  padding: "0in 5.4pt 0in 5.4pt",
+                }}
+                width={483}
+              >
+                <p
+                  className="cont"
+                  style={{
+                    marginBottom: "0in",
+                    textAlign: "justify",
+                    textJustify: "inter-ideograph",
+                    lineHeight: "normal",
+                  }}
+                >
+                  S.P. Jain Institute of Management and Research (SPJIMR),
+                  Mumbai
+                </p>
+              </td>
+              <td
+                style={{
+                  width: "116.75pt",
+                  borderTop: "none",
+                  borderLeft: "none",
+                  borderBottom: "solid black 1.0pt",
+                  borderRight: "solid black 1.0pt",
+                  padding: "0in 5.4pt 0in 5.4pt",
+                }}
+                width={156}
+              >
+                <p
+                  className="cont"
+                  style={{
+                    marginBottom: "0in",
+                    textAlign: "justify",
+                    textJustify: "inter-ideograph",
+                    lineHeight: "normal",
+                  }}
+                >
+                  85 +
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td
+                style={{
+                  width: "362.05pt",
+                  border: "solid black 1.0pt",
+                  borderTop: "none",
+                  padding: "0in 5.4pt 0in 5.4pt",
+                }}
+                width={483}
+              >
+                <p
+                  className="cont"
+                  style={{
+                    marginBottom: "0in",
+                    textAlign: "justify",
+                    textJustify: "inter-ideograph",
+                    lineHeight: "normal",
+                  }}
+                >
+                  Shailesh J. Mehta School of Management (SJMSOM), Mumbai
+                </p>
+              </td>
+              <td
+                style={{
+                  width: "116.75pt",
+                  borderTop: "none",
+                  borderLeft: "none",
+                  borderBottom: "solid black 1.0pt",
+                  borderRight: "solid black 1.0pt",
+                  padding: "0in 5.4pt 0in 5.4pt",
+                }}
+                width={156}
+              >
+                <p
+                  className="cont"
+                  style={{
+                    marginBottom: "0in",
+                    textAlign: "justify",
+                    textJustify: "inter-ideograph",
+                    lineHeight: "normal",
+                  }}
+                >
+                  95 +
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td
+                style={{
+                  width: "362.05pt",
+                  border: "solid black 1.0pt",
+                  borderTop: "none",
+                  padding: "0in 5.4pt 0in 5.4pt",
+                }}
+                width={483}
+              >
+                <p
+                  className="cont"
+                  style={{
+                    marginBottom: "0in",
+                    textAlign: "justify",
+                    textJustify: "inter-ideograph",
+                    lineHeight: "normal",
+                  }}
+                >
+                  T. A. Pai Management Institute (TAPMI), Manipal
+                </p>
+              </td>
+              <td
+                style={{
+                  width: "116.75pt",
+                  borderTop: "none",
+                  borderLeft: "none",
+                  borderBottom: "solid black 1.0pt",
+                  borderRight: "solid black 1.0pt",
+                  padding: "0in 5.4pt 0in 5.4pt",
+                }}
+                width={156}
+              >
+                <p
+                  className="cont"
+                  style={{
+                    marginBottom: "0in",
+                    textAlign: "justify",
+                    textJustify: "inter-ideograph",
+                    lineHeight: "normal",
+                  }}
+                >
+                  80+
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td
+                style={{
+                  width: "362.05pt",
+                  border: "solid black 1.0pt",
+                  borderTop: "none",
+                  padding: "0in 5.4pt 0in 5.4pt",
+                }}
+                width={483}
+              >
+                <p
+                  className="cont"
+                  style={{
+                    marginBottom: "0in",
+                    textAlign: "justify",
+                    textJustify: "inter-ideograph",
+                    lineHeight: "normal",
+                  }}
+                >
+                  IMI, Delhi
+                </p>
+              </td>
+              <td
+                style={{
+                  width: "116.75pt",
+                  borderTop: "none",
+                  borderLeft: "none",
+                  borderBottom: "solid black 1.0pt",
+                  borderRight: "solid black 1.0pt",
+                  padding: "0in 5.4pt 0in 5.4pt",
+                }}
+                width={156}
+              >
+                <p
+                  className="cont"
+                  style={{
+                    marginBottom: "0in",
+                    textAlign: "justify",
+                    textJustify: "inter-ideograph",
+                    lineHeight: "normal",
+                  }}
+                >
+                  90+
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td
+                style={{
+                  width: "362.05pt",
+                  border: "solid black 1.0pt",
+                  borderTop: "none",
+                  padding: "0in 5.4pt 0in 5.4pt",
+                }}
+                width={483}
+              >
+                <p
+                  className="cont"
+                  style={{
+                    marginBottom: "0in",
+                    textAlign: "justify",
+                    textJustify: "inter-ideograph",
+                    lineHeight: "normal",
+                  }}
+                >
+                  FORE, Delhi
+                </p>
+              </td>
+              <td
+                style={{
+                  width: "116.75pt",
+                  borderTop: "none",
+                  borderLeft: "none",
+                  borderBottom: "solid black 1.0pt",
+                  borderRight: "solid black 1.0pt",
+                  padding: "0in 5.4pt 0in 5.4pt",
+                }}
+                width={156}
+              >
+                <p
+                  className="cont"
+                  style={{
+                    marginBottom: "0in",
+                    textAlign: "justify",
+                    textJustify: "inter-ideograph",
+                    lineHeight: "normal",
+                  }}
+                >
+                  85 +
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td
+                style={{
+                  width: "362.05pt",
+                  border: "solid black 1.0pt",
+                  borderTop: "none",
+                  padding: "0in 5.4pt 0in 5.4pt",
+                }}
+                width={483}
+              >
+                <p
+                  className="cont"
+                  style={{
+                    marginBottom: "0in",
+                    textAlign: "justify",
+                    textJustify: "inter-ideograph",
+                    lineHeight: "normal",
+                  }}
+                >
+                  Great Lakes Institute of Management, Chennai
+                </p>
+              </td>
+              <td
+                style={{
+                  width: "116.75pt",
+                  borderTop: "none",
+                  borderLeft: "none",
+                  borderBottom: "solid black 1.0pt",
+                  borderRight: "solid black 1.0pt",
+                  padding: "0in 5.4pt 0in 5.4pt",
+                }}
+                width={156}
+              >
+                <p
+                  className="cont"
+                  style={{
+                    marginBottom: "0in",
+                    textAlign: "justify",
+                    textJustify: "inter-ideograph",
+                    lineHeight: "normal",
+                  }}
+                >
+                  85 +
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td
+                style={{
+                  width: "362.05pt",
+                  border: "solid black 1.0pt",
+                  borderTop: "none",
+                  padding: "0in 5.4pt 0in 5.4pt",
+                }}
+                width={483}
+              >
+                <p
+                  className="cont"
+                  style={{
+                    marginBottom: "0in",
+                    textAlign: "justify",
+                    textJustify: "inter-ideograph",
+                    lineHeight: "normal",
+                  }}
+                >
+                  BIMTECH, Greater Noida
+                </p>
+              </td>
+              <td
+                style={{
+                  width: "116.75pt",
+                  borderTop: "none",
+                  borderLeft: "none",
+                  borderBottom: "solid black 1.0pt",
+                  borderRight: "solid black 1.0pt",
+                  padding: "0in 5.4pt 0in 5.4pt",
+                }}
+                width={156}
+              >
+                <p
+                  className="cont"
+                  style={{
+                    marginBottom: "0in",
+                    textAlign: "justify",
+                    textJustify: "inter-ideograph",
+                    lineHeight: "normal",
+                  }}
+                >
+                  75 +
+                </p>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+
+        <p
+          className="cont"
+          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
+        >
+          &nbsp;
         </p>
+
+        <CustomTable />
+
+        <p
+          className="cont"
+          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
+        >
+          &nbsp;
+        </p>
+
         <p
           className="cont"
           style={{
-            marginBottom: "0in",
             textAlign: "justify",
             textJustify: "inter-ideograph",
           }}
         >
           <b>FAQs CAT Exam 2022</b>
         </p>
+
         <p
-          className="cont"
-          style={{
-            marginBottom: "0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-          }}
-        >
-          <b>&nbsp;</b>
-        </p>
-        <p
-          className="cont"
+          className="cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           Q: What is the CAT 2022 exam date?
@@ -11976,62 +11499,59 @@ const CAT2022 = () => {
           Ans: CAT 2022 exam will be held on November 27, 2022.&nbsp; The exam
           will be held in three time slots:
         </p>
-        <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-.25in",
-          }}
-        >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7.0pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <div className="required-skills">
+          <p
+            className="cont"
+            style={{
+              marginLeft: "0.5in",
+              textJustify: "inter-ideograph",
+              textIndent: "-.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7.0pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              </span>
             </span>
-          </span>
-          Morning, Slot 1: 8:30 AM to 10:30 AM
-        </p>
-        <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-.25in",
-          }}
-        >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7.0pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            Morning, Slot 1: 8:30 AM to 10:30 AM
+          </p>
+          <p
+            className="cont"
+            style={{
+              marginLeft: "0.5in",
+              textJustify: "inter-ideograph",
+              textIndent: "-.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7.0pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              </span>
             </span>
-          </span>
-          Afternoon, Slot 2: 12:30 PM to 2:30 PM{" "}
-        </p>
-        <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-.25in",
-          }}
-        >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7.0pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            Afternoon, Slot 2: 12:30 PM to 2:30 PM{" "}
+          </p>
+          <p
+            className="cont"
+            style={{
+              marginLeft: "0.5in",
+              textJustify: "inter-ideograph",
+              textIndent: "-.25in",
+            }}
+          >
+            <span style={{ fontFamily: "Symbol" }}>
+              ·
+              <span style={{ font: '7.0pt "Times New Roman"' }}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              </span>
             </span>
-          </span>
-          Evening, Slot 3: 4:30 PM to 6:30 PM
-        </p>
+            Evening, Slot 3: 4:30 PM to 6:30 PM
+          </p>
+        </div>
+
         <p
-          className="cont"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="cont"
+          className="cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           Q: When will CAT 2022 registrations begin?
@@ -12047,14 +11567,9 @@ const CAT2022 = () => {
           fill the application form and pay the requisite fees to be eligible to
           appear for the exam.{" "}
         </p>
+
         <p
-          className="cont"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="cont"
+          className="cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           Q: What is the difficulty level of CAT exam?
@@ -12069,14 +11584,9 @@ const CAT2022 = () => {
           preparation strategy and a lot of practice, candidates can easily
           crack the entrance test with good percentile.
         </p>
+
         <p
-          className="cont"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="cont"
+          className="cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           Q: What are all the sections available in the CAT 2022 syllabus?
@@ -12088,56 +11598,52 @@ const CAT2022 = () => {
           Ans: There are three sections available in the CAT exam syllabus,
           namely:
         </p>
+        <div className="required-skills">
+          <p
+            className="cont"
+            style={{
+              marginLeft: "0.5in",
+              textJustify: "inter-ideograph",
+              textIndent: "-.25in",
+            }}
+          >
+            1.
+            <span style={{ font: '7.0pt "Times New Roman"' }}>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            </span>
+            Verbal Ability and Reading Comprehension (VARC)
+          </p>
+          <p
+            className="cont"
+            style={{
+              marginLeft: "0.5in",
+              textJustify: "inter-ideograph",
+              textIndent: "-.25in",
+            }}
+          >
+            2.
+            <span style={{ font: '7.0pt "Times New Roman"' }}>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            </span>
+            Data Interpretation &amp; Logical Reasoning (DILR)
+          </p>
+          <p
+            className="cont"
+            style={{
+              marginLeft: "0.5in",
+              textJustify: "inter-ideograph",
+              textIndent: "-.25in",
+            }}
+          >
+            3.
+            <span style={{ font: '7.0pt "Times New Roman"' }}>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            </span>
+            Quantitative Ability (QA)
+          </p>
+        </div>
         <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-.25in",
-          }}
-        >
-          1.
-          <span style={{ font: '7.0pt "Times New Roman"' }}>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          </span>
-          Verbal Ability and Reading Comprehension (VARC)
-        </p>
-        <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-.25in",
-          }}
-        >
-          2.
-          <span style={{ font: '7.0pt "Times New Roman"' }}>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          </span>
-          Data Interpretation &amp; Logical Reasoning (DILR)
-        </p>
-        <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-.25in",
-          }}
-        >
-          3.
-          <span style={{ font: '7.0pt "Times New Roman"' }}>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          </span>
-          Quantitative Ability (QA)
-        </p>
-        <p
-          className="cont"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="cont"
+          className="cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           Q. What are the benefits of appearing for CAT?
@@ -12152,14 +11658,9 @@ const CAT2022 = () => {
           also helps the students in improving their logical thinking, reasoning
           and time management skills.
         </p>
+
         <p
-          className="cont"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="cont"
+          className="cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           Q. How many B-schools accept CAT score?
@@ -12175,14 +11676,9 @@ const CAT2022 = () => {
           college accept CAT score or not and what is the cut-off for the
           particular college.
         </p>
+
         <p
-          className="cont"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="cont"
+          className="cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           Q: Which are the top MBA colleges I can apply to with 80 percentile
@@ -12201,14 +11697,9 @@ const CAT2022 = () => {
           TA Pai Management Institute - Bangalore are some of the top colleges
           you can apply to with a CAT score of 80 percentile. &nbsp;
         </p>
+
         <p
-          className="cont"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="cont"
+          className="cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           Q: What is the application fee for CAT exam?
@@ -12221,14 +11712,9 @@ const CAT2022 = () => {
           Rs. 1,150 for Reserved Category students. The fee is to be paid in
           online mode only via debit / credit card or net banking.
         </p>
+
         <p
-          className="cont"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="cont"
+          className="cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           Q: Is there an age limit to appear in CAT exam?
@@ -12242,14 +11728,9 @@ const CAT2022 = () => {
           eligible to apply for CAT. Working professionals are also eligible to
           appear in CAT.
         </p>
+
         <p
-          className="cont"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="cont"
+          className="cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           Q. I am in the second year of graduation; can I appear for CAT for
@@ -12263,14 +11744,9 @@ const CAT2022 = () => {
           eligibility criteria. If you haven't completed graduation and/or are
           not in the final year of bachelor's degree, you are not eligible.
         </p>
+
         <p
-          className="cont"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="cont"
+          className="cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           Q. How is the CAT exam center allotted?
@@ -12284,14 +11760,9 @@ const CAT2022 = () => {
           application form. Although not guaranteed, candidates usually get the
           first or second choice CAT exam centre of their choice.
         </p>
+
         <p
-          className="cont"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="cont"
+          className="cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           Q: Can I select my preference for shift and test date?
@@ -12305,14 +11776,9 @@ const CAT2022 = () => {
           per availability of seats at a particular exam centre. A candidate
           cannot choose exam shift / slot of their choice.
         </p>
+
         <p
-          className="cont"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="cont"
+          className="cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           Q: Can I appear for more than one slot of CAT exam?
@@ -12327,14 +11793,9 @@ const CAT2022 = () => {
           the exam in only the slot allotted - admit cards, photo IDs, candidate
           photo and biometric records are verified at the exam centre.
         </p>
+
         <p
-          className="cont"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="cont"
+          className="cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           Q: Are there any special provisions for PwD candidates?
@@ -12350,14 +11811,9 @@ const CAT2022 = () => {
           certificates along with the CAT application form and carry the same to
           the exam centre.
         </p>
+
         <p
-          className="cont"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="cont"
+          className="cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           Q: Am a EWS category student, which documents do I need to upload with
@@ -12371,14 +11827,9 @@ const CAT2022 = () => {
           available on the CAT website along with the CAT application form. The
           form should be duly filled and self-attested before submission.
         </p>
+
         <p
-          className="cont"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="cont"
+          className="cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           Q: What is the marking scheme for CAT exam? Is there negative marking?
@@ -12393,14 +11844,9 @@ const CAT2022 = () => {
           questions not attempted, so the candidates must choose their options
           wisely.
         </p>
+
         <p
-          className="cont"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="cont"
+          className="cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           Q. How do we calculate the CAT percentile?
@@ -12422,14 +11868,9 @@ const CAT2022 = () => {
           students scored less than you and are below you in rank. So the
           percentile would be calculated as: 45 / 50 x 100 = 90 Percentile.
         </p>
+
         <p
-          className="cont"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="cont"
+          className="cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           Q: What are the scholarship schemes in IIMs that candidates appearing

@@ -40,7 +40,7 @@ const CustomPage = (props) => {
           }}
         > */}
             <div
-              className="col-8 custom-page"
+              className="col-12 col-sm-12 col-md-8 custom-page"
             // style={{
             //   display: "block",
             //   paddingLeft: "20px",
@@ -51,7 +51,7 @@ const CustomPage = (props) => {
             >
               {props.children}
             </div>
-            <div className="col-4">
+            <div className="col-12 col-sm-12 col-md-4">
               <BannersList custom={true} />
             </div>
           </div>
