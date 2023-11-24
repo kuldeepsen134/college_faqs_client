@@ -956,21 +956,9 @@ const CollegeDetails = () => {
                           }
                         })
                       }
-
-
-
                     </div>
-
-
-
-
                   </div>
                 </section>
-
-
-
-
-
 
                 <section id="Galary" className="media-5">
                   <div

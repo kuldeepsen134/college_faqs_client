@@ -31,7 +31,6 @@ const CollegeList = ({ itemsPerPage = 6 }) => {
 
   const headers = {
     Authorization: `Bearer ${token}`,
-    // Add other headers as needed
   };
   // console.log('pathname', headers);
 
@@ -150,21 +149,16 @@ const CollegeList = ({ itemsPerPage = 6 }) => {
 
     const fun = async () => {
       if (menu_page) {
-        console.log('menu_page', menu_page);
 
         const response = await axios.post(url, {
-          // q: page?.toLowerCase(),
           m: menu_page,
           filter: { location: locationFilter, fees: feesFilter },
         }, {
-          headers: headers, // Use the headers object here
+          headers: headers,
         });
-        // console.log(response.data);
-        setData(
-          response.data.success
-            ? response.data.data // ? [...response.data.data, ...response.data.data]
-            : []
-        );
+
+
+        setData(response.data.success ? response.data.data : []);
       }
 
     }

@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { useNavigate, useParams, } from "react-router-dom";
-import { instance } from "../api/axios";
+import axios, { instance } from "../api/axios";
 import { STATIC_URL } from "../config/config";
 import useAuth from "../hooks/useAuth";
 
@@ -11,33 +11,22 @@ const CompairCollage = () => {
 
   const { id } = useParams()
 
-  const [getCollages, setCollages] = useState({})
+  const [getCollages, setCollages] = useState()
+
   const [collageIDs, setCollageIDs] = useState([])
+
   const [getCollage, setCollage] = useState({})
+
   const [showList, setShowList] = useState(false)
   const [showCollageData, setshowCollageData] = useState(false)
 
-  const [selectedCollage, setselectedCollage] = useState(false)
 
   const { auth } = useAuth();
 
   let token = localStorage.getItem('token')
   const navigate = useNavigate()
 
-  useEffect(() => {
-    (async () => {
-      try {
-        let responce = await instance.post(`/colleges/compare/${id}`, { ids: collageIDs })
-
-        console.log('new responce<<<>>',responce);
-        setCollage(responce && responce?.data?.data)
-
-      } catch (error) {
-        console.error('error>>>>>>', error);
-      }
-    })()
-  }, [collageIDs, id])
-
+console.log('token<<>>>',token);
 
   const handleClick1 = async () => {
     if (!token) {
@@ -46,7 +35,10 @@ const CompairCollage = () => {
     try {
       // const response = await instance.get("/get-all-collages", { headers: { authorization: "Bearer " + auth.token } });
       let response = await instance.post(`/colleges/compare/${id}`, { ids: collageIDs })
-      console.log('sdsdsd', response?.data);
+
+      console.log('sdsdsd>>>>>>>>>>>>>>1111111', response?.data?.data);
+
+
       setCollages(response?.data?.data)
 
     } catch (error) {
@@ -61,19 +53,40 @@ const CompairCollage = () => {
     if (!token) {
       navigate('/login')
     }
+
     try {
-      // const response = await instance.get("/get-all-collages", { headers: { authorization: "Bearer " + auth.token } });
-      let response = await instance.post(`/colleges/compare/${id}`, { ids: collageIDs })
+
+      const config = {
+        headers: {
+          Authorization: `Bearer ${token}`, 
+        },
+      };
+
+      const response = await axios.get('/admin/colleges/list',config);
 
       setCollages(response?.data?.data)
+      setShowList(!showList)
 
     } catch (error) {
       console.log(error);
 
     };
-
-    setShowList(!showList)
   }
+
+
+  useEffect(() => {
+    (async () => {
+      try {
+        let responce = await instance.post(`/colleges/compare/${id}`, { ids: collageIDs })
+        setCollage(responce && responce?.data?.data)
+
+      } catch (error) {
+        console.error('error>>>>>>', error);
+      }
+    })()
+  }, [])
+
+
 
 
   const toggleDropdown = () => {
@@ -135,7 +148,7 @@ const CompairCollage = () => {
                 {!showList ?
                   <div className="add-collage mt-6 text-center">
                     <div className=" custom-border">
-                      <button type="button" className="btn add-collage-button mt-4" onClick={handleClick2}>
+                      <button type="button" className="btn add-collage-button mt-4" onClick={handleClick1}>
                         <span className="plus"> +</span>
                         <span>
                           Add College
@@ -164,50 +177,51 @@ const CompairCollage = () => {
                     )}
                   </div>
                 }
-
                 {showCollageData &&
-                  (<> {getCollage?.comapareCollage?.map((item, i) => {
-                    return (
-                      <>
-                        <div style={{ display: 'flex', justifyContent: 'center' }}>
-                          <img src={STATIC_URL + "/images/" + item.college_image} alt="image" />
-                        </div>
-                        <hr />
-                        <h5 style={{ color: 'blue' }}>{item?.college_name}</h5>
-                        <p>{item?.location}</p>
-                        <p>{item?.program}</p>
+                  (
+                    <>
+                      {getCollage?.comapareCollage?.map((item, i) => {
+                        return (
+                          <>
+                            <div style={{ display: 'flex', justifyContent: 'center' }}>
+                              <img src={STATIC_URL + "/images/" + item.college_image} alt="image" />
+                            </div>
+                            <hr />
+                            <h5 style={{ color: 'blue' }}>{item?.college_name}</h5>
+                            <p>{item?.location}</p>
+                            <p>{item?.program}</p>
 
-                        {/* <button style={{ color: 'blue', border: 'solid' }}>Modify Selection</button> */}
-                        <hr />
-                        <p>Institute Information</p>
-                        <hr />
-                        <div style={{ display: 'flex', justifyContent: 'space-between' }}>
-                          <p>Established Year <span>{item?.established_year}</span></p>
-                          <p>Ranking<span>{item?.ranking}</span> </p>
-                        </div>
-                        <hr />
-                        <p>Course Details</p>
-                        <hr />
-                        <div style={{ display: 'flex', justifyContent: 'space-between' }}>
-                          <p>Total Courses (11)</p>
-                        </div>
+                            {/* <button style={{ color: 'blue', border: 'solid' }}>Modify Selection</button> */}
+                            <hr />
+                            <p>Institute Information</p>
+                            <hr />
+                            <div style={{ display: 'flex', justifyContent: 'space-between' }}>
+                              <p>Established Year <span>{item?.established_year}</span></p>
+                              <p>Ranking<span>{item?.ranking}</span> </p>
+                            </div>
+                            <hr />
+                            <p>Course Details</p>
+                            <hr />
+                            <div style={{ display: 'flex', justifyContent: 'space-between' }}>
+                              <p>Total Courses (11)</p>
+                            </div>
 
-                        <div style={{ display: 'flex', justifyContent: 'space-between' }}>
-                          <p>B.Tech</p>
-                          <p>Public/Government, Autonomous</p>
-                        </div>
-                      </>
-                    )
-                  })}
-                  </>
+                            <div style={{ display: 'flex', justifyContent: 'space-between' }}>
+                              <p>B.Tech</p>
+                              <p>Public/Government, Autonomous</p>
+                            </div>
+                          </>
+                        )
+                      })}
+                    </>
                   )}
               </div>
-
+              {console.log('isOpen>>>', isOpen)}
               <div className="card">
                 {!showList ?
                   <div className="add-collage mt-6 text-center">
                     <div className=" custom-border">
-                      <button type="button" className="btn add-collage-button mt-4" onClick={handleClick1}>
+                      <button type="button" className="btn add-collage-button mt-4" onClick={handleClick2}>
                         <span className="plus"> +</span>
                         <span>
                           Add College
@@ -225,12 +239,14 @@ const CompairCollage = () => {
 
                     {isOpen && (
                       <div className="dropdown-content">
-                        {getCollages?.comapareCollage?.map((collage, i) => {
+
+                        {console.log('isOpen>>>sdsds', getCollages?.comapareCollage)}
+
+                        {getCollages?.map((collage, i) => {
                           return (
                             <div>
                               {console.log('collagecollagecollagecollagecollage', collage)}
-                              <div className="dropdown-option" onClick={() => selectOption(collage.id)
-                              }>
+                              <div className="dropdown-option" onClick={() => selectOption(collage.id)} key={i}>
                                 {collage.college_name}
                               </div>
                             </div>
