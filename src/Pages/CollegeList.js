@@ -294,64 +294,61 @@ const CollegeList = ({ itemsPerPage = 6 }) => {
         </div>
       </section> */}
 
-      <section className="layout-pt-md layout-pb-lg row no-gutters d-flex flex-nowrap align-items-center">
-        <div
-          className="row justify-content-center"
-        >
+      <section className="layout-pt-md layout-pb-lg">
+        <div className="container-fluid">
           <div
-            className="col-lg-11 pt-4 p-md-5 bg-white  rounded shad main-card"
-            style={{ minHeight: "849px", maxWidth: "72%" }}
+            className="row justify-content-center"
           >
-            <div className="container">
-              <div className="row y-gap-50">
-                <div className="col-16 col-sm-16 p-0">
-                  <div className="accordion js-accordion">
-                    <div className="accordion__item">
-                      <div className="row y-gap-20 items-center justify-between pb-30">
-                        <div className="col-auto ">
-                          <div className="text-18 lh-12 media-2">
-                            Showing
-                            <span className="text-white-1 fw-500">
-                              {" "}
-                              {currentItems.length}
-                            </span>{" "}
-                            out of total results
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="row y-gap-60">
-                    <div className="row">
-                      {currentItems.length <= 0 ? 'No Data Found' : currentItems.map((item) => {
-                        return <CollegeListItem item={item} key={item.id} />;
-                      })}
-                    </div>
-                  </div>
+            <div
+              className="col-11 col-md-11 col-lg-9 pt-4 p-md-5 bg-white  rounded shad main-card"
+            >
 
-                  <div className="row justify-center pt-90 lg:pt-50">
-                    <div className="col-auto">
-                      {currentItems.length ? (
-                        <ReactPaginate
-                          pageCount={pageCount}
-                          pageRangeDisplayed={5}
-                          onPageChange={handlePageClick}
-                          previousLabel="<"
-                          nextLabel=">"
-                          containerClassName=""
-                          className="pagination -buttons media-8"
-                          pageClassName="pagination__count"
-                          activeLinkClassName="-count-is-active"
-                          previousLinkClassName="pagination__button -prev"
-                          nextLinkClassName="pagination__button -next"
-                        />
-                      ) : (
-                        ""
-                      )}
+              <div className="accordion js-accordion">
+                <div className="accordion__item">
+                  <div className="row y-gap-20 items-center justify-between pb-30">
+                    <div className="col-auto ">
+                      <div className="text-18 lh-12 media-2">
+                        Showing
+                        <span className="text-white-1 fw-500">
+                          {" "}
+                          {currentItems.length}
+                        </span>{" "}
+                        out of total results
+                      </div>
                     </div>
                   </div>
                 </div>
               </div>
+
+              <div className="row row-cols-1 row-cols-md-3 row-cols-lg-2  g-4">
+                {currentItems.length <= 0 ? 'No Data Found' : currentItems.map((item) => {
+                  return <CollegeListItem item={item} key={item.id} />;
+                })}
+              </div>
+
+
+              <div className="row justify-center pt-90 lg:pt-50">
+                <div className="col-auto">
+                  {currentItems.length ? (
+                    <ReactPaginate
+                      pageCount={pageCount}
+                      pageRangeDisplayed={5}
+                      onPageChange={handlePageClick}
+                      previousLabel="<"
+                      nextLabel=">"
+                      containerClassName=""
+                      className="pagination -buttons media-8"
+                      pageClassName="pagination__count"
+                      activeLinkClassName="-count-is-active"
+                      previousLinkClassName="pagination__button -prev"
+                      nextLinkClassName="pagination__button -next"
+                    />
+                  ) : (
+                    ""
+                  )}
+                </div>
+              </div>
+
             </div>
           </div>
         </div>
