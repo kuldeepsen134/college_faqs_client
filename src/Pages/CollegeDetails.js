@@ -115,70 +115,70 @@ const CollegeDetails = () => {
               />
               {/* </div> */}
             </div>
-            <div className="container position-relative header-facts my-4 my-lg-5 ">
-              <div className="row align-items-end justify-content-between no-gutters">
-                <div className="col-lg-12">
-                  <div className="row align-items-md-center media-2 change">
-                    <a
-                      href="#tuition"
-                      className="smooth col-6 col-lg-auto d-flex align-items-center mb-3 mb-md-0 mx-lg-2 text-dark"
-                    >
-                      <div>
+            <div className="position-relative">
+              <div className="container position-relative header-facts my-4 my-lg-5 ">
+                <div className="row align-items-end justify-content-between no-gutters">
+                  <div className="col-lg-12">
+                    <div className="row align-items-md-center media-2 change justify-content-between">
+                      <a
+                        href="#tuition"
+                        className="smooth col-6 col-lg-auto d-flex align-items-center mb-3 mb-md-0 mx-lg-2 text-dark"
+                      >
+                        <div>
+                          <div className="header-facts--value mb-0 h4">
+                            <span className="strikethrough d-table"></span>
+                            Total Fees
+                            <sub className="text-muted"></sub>
+                          </div>
+                          <small className="header-facts--label">
+                            <div className="USD" />
+                            {details.total_fees ? details.total_fees : "N/A"}
+                          </small>
+                        </div>
+                      </a>
+                      <a
+                        href="#Ranking-and-Accreditations"
+                        className="smooth col-6 col-lg-auto mb-3 mb-md-0 mx-lg-2 text-left text-dark"
+                      >
+                        <div className="header-facts--value mb-0 h4">Ranking</div>
+                        <small className="header-facts--label mt-md-2">
+                          {details.ranking ? details.ranking : "N/A"}
+                        </small>
+                      </a>
+                      <a
+                        href="#Programs"
+                        className="smooth col-6 col-lg-auto mb-3 mb-md-0 mx-lg-2 text-dark"
+                      >
                         <div className="header-facts--value mb-0 h4">
-                          <span className="strikethrough d-table"></span>
-                          Total Fees
-                          <sub className="text-muted"></sub>
+                          Highlight Program
                         </div>
                         <small className="header-facts--label">
-                          <div className="USD" />
-                          {details.total_fees ? details.total_fees : "N/A"}
+                          {details.program ? details.program.slice(0, 20) + "..." : "N/A"}
                         </small>
-                      </div>
-                    </a>
-                    <a
-                      href="#Ranking-and-Accreditations"
-                      className="smooth col-6 col-lg-auto mb-3 mb-md-0 mx-lg-2 text-left text-dark"
-                    >
-                      <div className="header-facts--value mb-0 h4">Ranking</div>
-                      <small className="header-facts--label mt-md-2">
-                        {details.ranking ? details.ranking : "N/A"}
-                      </small>
-                    </a>
-                    <a
-                      href="#Programs"
-                      className="smooth col-6 col-lg-auto mb-3 mb-md-0 mx-lg-2 text-dark"
-                    >
-                      <div className="header-facts--value mb-0 h4">
-                        Highlight Program
-                      </div>
-                      <small className="header-facts--label">
-                        {details.program ? details.program.slice(0, 20) + "..." : "N/A"}
-                      </small>
-                    </a>
-                    <a
-                      href="#Placements"
-                      className="smooth d-flex align-items-center col-6 col-lg-auto mb-3 mb-md-0 mx-lg-2 text-dark"
-                    >
-                      <div className="ml-md-2" style={{ lineHeight: 1 }}>
-                        <div className="header-facts--value d-block mb-0 h4">
-                          Highest Placements
+                      </a>
+                      <a
+                        href="#Placements"
+                        className="smooth d-flex align-items-center col-6 col-lg-auto mb-3 mb-md-0 mx-lg-2 text-dark"
+                      >
+                        <div style={{ lineHeight: 1 }}>
+                          <div className="header-facts--value d-block mb-0 h4">
+                            Highest Placements
+                          </div>
+                          <small className="header-facts--label">
+                            {details.placement ? details.placement : "N/A"}
+                          </small>
+                          <br></br>
                         </div>
-                        <small className="header-facts--label">
-                          {details.placement ? details.placement : "N/A"}
-                        </small>
-                        <br></br>
-                      </div>
-                    </a>
-                    <a
-                      href={
-                        details?.brochure && auth?.token
-                          ? STATIC_URL + "/files/" + details.brochure
-                          : "/login"
-                      }
-                      target={"_blank"}
-                      className="smooth col-6 col-lg-auto mb-3 mb-md-0 mx-lg-2 text-left text-dark" rel="noreferrer"
-                    >
-                      <div className="ml-md-2">
+                      </a>
+                      <a
+                        href={
+                          details?.brochure && auth?.token
+                            ? STATIC_URL + "/files/" + details.brochure
+                            : "/login"
+                        }
+                        target={"_blank"}
+                        className="smooth col-6 col-lg-auto mb-3 mb-md-0 mx-lg-2 text-left text-dark" rel="noreferrer"
+                      >
                         <div className="header-facts--value mb-0 h4">
                           Brochure
                         </div>
@@ -188,16 +188,14 @@ const CollegeDetails = () => {
                             : "Login To Download Brochure"}
                           <br />
                         </small>
-                      </div>
-                    </a>
+                      </a>
+                    </div>
                   </div>
                 </div>
               </div>
-            </div>
-            {/* second div */}
+              {/* second div */}
 
-            <div className="card-body">
-              <div className="card media-3">
+              <div className="card media-3 custom-card">
                 <b>Interested?</b>
                 <p style={{ marginTop: "10px" }}>
                   Intrested in {details.college_name}, {details.location}?
@@ -207,18 +205,9 @@ const CollegeDetails = () => {
                   <a className="price1" href="">
                     Apply Now
                   </a>
-                  <br />
-                  <a className="price2" href="">
-                    Get More Info
-                  </a>
-                  <br />
-                  <a className="price3" href="">
-                    Save this College
-                  </a>
                 </p>
               </div>
             </div>
-
             {/* Mobile save and share */}
             <div
               className="mobile-save-share container d-lg-none mb-3 school-actions position-relative"
@@ -373,7 +362,7 @@ const CollegeDetails = () => {
               </div>
             </div>
           </header>
-          <div className="container profile--main mt-3 mt-md-5 mt-lg-7 pb-lg-6" id="top-colleges">
+          <div className="container profile--main mt-3 mt-md-5 pb-lg-6" id="top-colleges">
             {/* start of our main content wrapper - closed in school.blade.php */}
 
             <div className="row no-gutters justify-content-end">
@@ -509,7 +498,7 @@ const CollegeDetails = () => {
 
               <div className="col-lg-9 p-0 profile-content media-4">
                 {/* start col-9 profile content wrapper */}{" "}
-                <section id="latest-updates" className="media-5">
+                <section id="latest-updates" className="media-5 mt-0">
                   <div
                     className="position-relative mb-3 py-md-2 px-3 px-md-5 flakh rounded"
                     style={{ overflow: "hidden" }}
@@ -575,7 +564,7 @@ const CollegeDetails = () => {
                     style={{ overflow: "hidden" }}
                   >
                     <h2 className="d-inline-block mb-3 py-3 py-md-4">
-                      Raking and Accreditations
+                      Ranking and Accreditations
                     </h2>
                     <div className="mb-5 read-more">
                       <ul>
@@ -1008,9 +997,9 @@ const CollegeDetails = () => {
                     </h2>
                     {/* Premium Profile Overview */}
                     <div className="mb-5 read-more">
-                      <div className="col-auto">
+                      <div className="col-auto p-0">
                         <div className="footer-header-socials">
-                          <div className="footer-header-socials__title text-white">
+                          <div className="footer-header-socials__title">
                             Follow us on social media
                           </div>
                           <div className="footer-header-socials__list">

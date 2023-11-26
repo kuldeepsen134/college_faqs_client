@@ -296,8 +296,7 @@ const CollegeList = ({ itemsPerPage = 6 }) => {
 
       <section className="layout-pt-md layout-pb-lg row no-gutters d-flex flex-nowrap align-items-center">
         <div
-          className="row justify-content-center "
-          style={{ marginLeft: "75px" }}
+          className="row justify-content-center"
         >
           <div
             className="col-lg-11 pt-4 p-md-5 bg-white  rounded shad main-card"
