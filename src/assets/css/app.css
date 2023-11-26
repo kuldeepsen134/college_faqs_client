@@ -19454,3 +19454,60 @@ section:nth-child(1) {
   top: -200px !important;
   right: 200px !important;
 }
+
+
+.college-list-card {
+  margin: 0 !important;
+  text-align: start !important;
+  position: initial !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  min-width: 100% !important;
+}
+
+@media (min-width: 375px) and (max-width: 600px) {
+
+
+  .our-rmi.media-7 #school_1 {
+    flex-direction: column !important;
+  }
+
+  .our-rmi.media-7 .school-list-item__main {
+    margin-top: 10px !important;
+  }
+
+  .our-rmi.media-7 .media-name2 {
+    padding-left: 0;
+  }
+
+  .our-rmi.media-7 .media-name2 {
+    margin-left: 0;
+  }
+
+  .our-rmi.media-7 .school-list-item__actions {
+    padding-right: 0;
+  }
+
+  .our-rmi.media-7 .school-list-item__actions .button-group {
+    justify-content: end;
+  }
+
+  .our-rmi.media-7 .school-list-item__logo {
+    margin-right: 0 !important;
+  }
+
+  .our-rmi.media-7 .media-name {
+    margin: 0;
+  }
+
+  .our-rmi.media-7 .media-img {
+    width: 100%;
+    position: initial;
+    margin-left: 0;
+  }
+
+  .our-rmi.media-7 .school-list-item__stats .col {
+    margin-left: 0;
+    margin-top: 10px;
+  }
+}
