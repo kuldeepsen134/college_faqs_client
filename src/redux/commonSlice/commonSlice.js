@@ -6,16 +6,14 @@ const initialState = {
   search: {}
 }
 
-export const headerSearch = createAsyncThunk(
-  "collage/college-list",
-  async (data, { rejectWithValue }) => {
-
-    try {
-      return await instance.post("/college-list", data);
-    } catch (error) {
-      return rejectWithValue(error.response);
-    }
+export const headerSearch = createAsyncThunk("collage/college-list", async (data, { rejectWithValue }) => {
+  try {
+    console.log('data<<<<<<',data);
+    return await instance.post("/college-list", data);
+  } catch (error) {
+    return rejectWithValue(error.response);
   }
+}
 );
 
 

@@ -25,7 +25,7 @@ const PublicHeader = () => {
     let timeoutId;
 
     const fetchData = async () => {
-      // dispatch(headerSearch({ q: query }))
+      dispatch(headerSearch({ q: query }))
     };
 
     if (timeoutId) {
@@ -34,13 +34,13 @@ const PublicHeader = () => {
 
     timeoutId = setTimeout(fetchData, 500);
 
-
     return () => {
       if (timeoutId) {
         clearTimeout(timeoutId);
       }
     };
   }, [dispatch, query]);
+
 
 
   // useEffect(() => {
