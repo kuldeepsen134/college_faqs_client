@@ -19511,3 +19511,12 @@ section:nth-child(1) {
     margin-top: 10px;
   }
 }
+
+.footer.-type-1 .footer-header {
+  padding: 25px 0;
+}
+
+.footer.-type-1 .footer-columns {
+  padding-top: 35px;
+  padding-bottom: 35px;
+}

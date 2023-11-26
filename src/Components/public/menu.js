@@ -444,7 +444,7 @@ export const menuJs = [
         children: [
           {
             name: "BBA",
-            path: "/cms?page=all-mba-exams",
+            path: "/bba",
             children: [
               {
                 name: "Colleges by State",
@@ -705,10 +705,6 @@ export const menuJs = [
         path: "",
         children: [
           {
-            name: "BBA",
-            path: "/bba",
-          },
-          {
             name: "BCA",
             path: "/bca",
           },
@@ -721,7 +717,7 @@ export const menuJs = [
     ],
   },
   {
-    name: "Admission 2023",
+    name: "Admission",
     path: "/cms",
     children: [
       {

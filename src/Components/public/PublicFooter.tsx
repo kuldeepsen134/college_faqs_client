@@ -81,8 +81,8 @@ const PublicFooter = () => {
             </div>
           </div>
 
-          <div className="py-30 border-top-light-15">
-            <div className="row justify-center items-center y-gap-20">
+          <div className="py-15 border-top-light-15">
+            <div className="row justify-center items-center">
               <div className="col-auto">
                 <div className="d-flex items-center  h-100 text-white">
                   © CollageFAQs. All Right Reserved.

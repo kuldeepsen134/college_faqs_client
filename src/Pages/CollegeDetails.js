@@ -446,7 +446,7 @@ const CollegeDetails = () => {
                   </div>
                   <div className="col">
                     <a className="nav-link smooth d-block on-h" href="#gallery">
-                      Galary
+                      Gallery
                     </a>
                   </div>
 
