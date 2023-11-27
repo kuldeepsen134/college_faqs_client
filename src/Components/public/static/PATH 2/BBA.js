@@ -104,7 +104,7 @@ const BBA = () => {
               textJustify: "inter-ideograph",
               marginBottom: "10px"
             }}
-          ><a className="link" href="#6">5.	BBA Integrated Courses</a>
+          >5. <a className="link" href="#6">BBA Integrated Courses</a>
           </p>
 
           <ul style={{

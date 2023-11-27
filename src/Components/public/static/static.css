@@ -38,7 +38,7 @@
     font-size: 16px;
 }
 
-.MsoListParagraphCxSpFirst:hover{
+.MsoListParagraphCxSpFirst:hover a{
     text-decoration: underline;
 }
 
