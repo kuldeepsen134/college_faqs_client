@@ -67,6 +67,7 @@ import PrivacyPolicy from "../Pages/privacy-policy";
 import TermCondition from "../Pages/term-condition";
 import CompairCollage from "../Pages/compairCollage";
 import Event from "../Components/public/static/PATH 2/Event";
+import ContactUs from "../Pages/contact-us";
 
 export const MainRoutes = [
   {
@@ -141,10 +142,16 @@ export const MainRoutes = [
     children: null,
     guard: null,
   },
-  
+
   {
     path: "/termCondition",
     component: TermCondition,
+    children: null,
+    guard: null,
+  },
+  {
+    path: "/contact-us",
+    component: ContactUs,
     children: null,
     guard: null,
   },
