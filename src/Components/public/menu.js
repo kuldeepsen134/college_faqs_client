@@ -722,29 +722,29 @@ export const menuJs = [
     children: [
       {
         name: "Counselling",
-        path: "/cms?page=more-courses",
+        path: "/contact-us",
         children: [
           {
             name: "Ask a Question",
-            path: "/ask-question",
+            path: "/contact-us",
           },
           {
             name: "Request a Call Back",
-            path: "/cms?page=more-courses",
+            path: "/contact-us",
           },
         ],
       },
       {
         name: "Compare Colleges",
-        path: "/cms?page=more-courses",
+        path: "/contact-us",
       },
       {
         name: "College Predictor",
-        path: "/cms?page=more-courses",
+        path: "/contact-us",
       },
       {
         name: "Education Loan",
-        path: "/cms?page=more-courses",
+        path: "/contact-us",
       },
     ],
   },

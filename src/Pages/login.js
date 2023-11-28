@@ -193,22 +193,6 @@ const Login = () => {
                 alt="icon"
               />
             </div>
-            <div className="-el-3">
-              <img
-                data-move="40"
-                className="js-mouse-move"
-                src="img/home-9/hero/2.png"
-                alt="icon"
-              />
-            </div>
-            <div className="-el-4">
-              <img
-                data-move="40"
-                className="js-mouse-move"
-                src="img/home-9/hero/3.png"
-                alt="icon"
-              />
-            </div>
           </div>
         </div>
 
