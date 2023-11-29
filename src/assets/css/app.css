@@ -19572,6 +19572,23 @@ section:nth-child(1) {
   height: 40px;
 }
 
-.sign-up .upload-container{
+.sign-up .upload-container {
   margin-top: 0 !important;
+}
+
+.college-list-banner img {
+  height: 400px !important;
+  width: 100% !important;
+  object-fit: cover !important;
+  max-width: 100%;
+}
+
+.overlap-card{
+  width: 400px;
+  position: absolute;
+  right: 0;
+  left: 0;
+  margin: auto;
+  z-index: 9;
+  top: 50%;
 }

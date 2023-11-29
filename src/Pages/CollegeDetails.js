@@ -820,131 +820,19 @@ const CollegeDetails = () => {
                     </h2>
                     {/* Premium Profile Overview */}
                     <div className="mb-5 read-more content">
-                      {/* <div className="row">
-                        {details?.cf_ac ? (
-                          <div className="col-4">
-                            <p>
-                              <FontAwesomeIcon icon={faWind} /> AC Classrooms
-                            </p>
-                          </div>
-                        ) : null}
-                        {details?.cf_audi ? (
-                          <div className="col-4">
-                            <p>
-                              <FontAwesomeIcon icon={faHotel} /> Auditorium
-                            </p>
-                          </div>
-                        ) : null}
-                        {details?.cf_cafe ? (
-                          <div className="col-4">
-                            <p>
-                              <FontAwesomeIcon icon={faCoffee} /> Cafeteria
-                            </p>
-                          </div>
-                        ) : null}
-                        {details?.cf_gym ? (
-                          <div className="col-4">
-                            <p>
-                              <FontAwesomeIcon icon={faDumbbell} /> Gym
-                            </p>
-                          </div>
-                        ) : null}
-                        {details?.cf_hmf ? (
-                          <div className="col-4">
-                            <p>
-                              <FontAwesomeIcon icon={faHospitalAlt} /> Hospital
-                              & Medical Facilities
-                            </p>
-                          </div>
-                        ) : null}
-                        {details?.cf_hostel ? (
-                          <div className="col-4">
-                            <p>
-                              <FontAwesomeIcon icon={faHotel} /> Hostel
-                            </p>
-                          </div>
-                        ) : null}
-                        {details?.cf_labs ? (
-                          <div className="col-4">
-                            <p>
-                              <FontAwesomeIcon icon={faFlask} /> Labs
-                            </p>
-                          </div>
-                        ) : null}
-                        {details?.cf_library ? (
-                          <div className="col-4">
-                            <p>
-                              <FontAwesomeIcon icon={faBook} /> Library
-                            </p>
-                          </div>
-                        ) : null}
-                        {details?.cf_sports ? (
-                          <div className="col-4">
-                            <p>
-                              <FontAwesomeIcon icon={faBiking} /> Sports Complex
-                            </p>
-                          </div>
-                        ) : null}
-                        {details?.cf_wifi ? (
-                          <div className="col-4">
-                            <p>
-                              <FontAwesomeIcon icon={faWifi} /> Wi-Fi Campus
-                            </p>
-                          </div>
-                        ) : null}
-                      </div> */}
-
-                      {/* {specializationData?.map((specialization, i) => {
-                        console.log('details?.de[i].name', details?.de && details?.de[i].name, specialization.name);
-
-                        if (details?.de && details?.de[i].name === specialization.name) {
-                          return (
-
-                            <div className="form-check " >
-                              <input
-                                type="checkbox"
-                                className="form-check-input"
-                                // name="marketing"
-                                disabled={true}
-                                checked={details?.de && details?.de[i]?.value === 1 ? true : false}
-                              // onChange={(e) => setmba_marketing(!mba_marketing)}
-                              />
-                              <label
-                                className="form-check-label"
-                                htmlFor="ac_classroom"
-                              >
-                                &#8226; {specialization.name}
-                              </label>
-                            </div>
-                          )
-
+                      <div className="row">
+                        {
+                          details?.de && details?.de?.map((item) => {
+                            if (item.value === 1) {
+                              return (
+                                <div className="col-4">
+                                  <p>  &#8226; {item.name}</p>
+                                </div>
+                              )
+                            }
+                          })
                         }
-                      })} */}
-
-                      {
-                        details?.de && details?.de?.map((item) => {
-                          if (item.value === 1) {
-                            return (
-                              <div className="form-check ps-0" >
-                                {/* <input
-                                  type="checkbox"
-                                  className="form-check-input"
-                                  // name="marketing"
-                                  disabled={true}
-                                  checked={details?.de && details?.de[i]?.value === 1 ? true : false}
-                                // onChange={(e) => setmba_marketing(!mba_marketing)}
-                                /> */}
-                                <label
-                                  className="form-check-label"
-                                  htmlFor="ac_classroom"
-                                >
-                                  &#8226; {item.name}
-                                </label>
-                              </div>
-                            )
-                          }
-                        })
-                      }
+                      </div>
                     </div>
                   </div>
                 </section>
