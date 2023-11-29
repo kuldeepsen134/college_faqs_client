@@ -19556,3 +19556,22 @@ section:nth-child(1) {
   width: 140px;
   font-size: 16px;
 }
+
+.add-collage .fade:not(.show) {
+  opacity: 100%;
+}
+
+.sign-up input[type="text"],
+.sign-up input[ type="email"] {
+
+  padding: 10px 22px !important;
+
+}
+
+.sign-up .button.-md {
+  height: 40px;
+}
+
+.sign-up .upload-container{
+  margin-top: 0 !important;
+}

@@ -228,7 +228,7 @@ const Signup = () => {
       ) : (
         ""
       )}
-      <section className="form-page" style={{ marginTop: "90px" }}>
+      <section className="form-page">
         <div className="form-page__img bg-dark-1">
           <div className="form-page-composition">
             <div className="-bg">
@@ -255,22 +255,6 @@ const Signup = () => {
                 alt="icon"
               />
             </div>
-            <div className="-el-3">
-              <img
-                data-move="40"
-                className="js-mouse-move"
-                src="img/home-9/hero/2.png"
-                alt="icon"
-              />
-            </div>
-            <div className="-el-4">
-              <img
-                data-move="40"
-                className="js-mouse-move"
-                src="img/home-9/hero/3.png"
-                alt="icon"
-              />
-            </div>
           </div>
         </div>
 
@@ -278,8 +262,8 @@ const Signup = () => {
           <div className="container">
             <div className="row justify-center items-center">
               <div className="col-xl-8 col-lg-9">
-                <div className="px-50 py-50 md:px-25 md:py-25 bg-white shadow-1 rounded-16 sign-up">
-                  <h3 className="text-30 lh-13" style={{ marginTop: "60px" }}>
+                <div className="px-25 py-25 md:px-25 md:py-25 bg-white shadow-1 rounded-16 sign-up">
+                  <h3 className="text-30 lh-13">
                     Sign Up
                   </h3>
                   <p className="mt-10">
@@ -365,8 +349,8 @@ const Signup = () => {
                                 style={{
                                   cursor: "pointer",
                                   marginTop: "0px",
-                                  width: '102px',
-                                  height: '113px',
+                                  width: '127px',
+                                  height: '80px',
                                   border: '2px dotted #5a5b5b',
                                   borderRadius: '18px',
                                   overflow: 'hidden',
@@ -379,8 +363,8 @@ const Signup = () => {
                                   src={'/img/upload/gallery-add.png'}
                                   alt="Preview"
                                   style={{
-                                    width: "40px",
-                                    height: "40px",
+                                    width: "30px",
+                                    height: "30px",
                                     marginTop: "15px",
                                     // width: '102px',
                                     // height: '113px',
@@ -391,8 +375,8 @@ const Signup = () => {
                                 />
                                 <br />
                                 <span style={{
-                                  fontSize: '18px'
-                                }}>Upload your photo</span>
+                                  fontSize: '1x'
+                                }}>Upload you photo</span>
                               </div>
                             </div>
                           </>
@@ -401,7 +385,7 @@ const Signup = () => {
                     </div>
 
 
-                    <div className="col-lg-6" style={{ marginTop: "-10px" }}>
+                    <div className="col-lg-6">
                       <label className="text-16 lh-1 fw-500 text-dark-1 mb-10">
                         Full Name *
                       </label>
@@ -415,7 +399,7 @@ const Signup = () => {
                       />
                     </div>
 
-                    <div className="col-lg-6" style={{ marginTop: "-10px" }}>
+                    <div className="col-lg-6">
                       <label className="text-16 lh-1 fw-500 text-dark-1 mb-10">
                         Email Address *
                       </label>
