@@ -109,8 +109,7 @@ const CollegeDetails = () => {
               {/* <div className="owl-carousel"> */}
               <img
                 src={STATIC_URL + "/images/" + details.background_image}
-                width={"2100"}
-                style={{ marginLeft: "240px" }}
+                style={{ width: '100%', maxWidth: '100%', height: '500px' }}
                 className="owl-carousel"
               />
               {/* </div> */}
