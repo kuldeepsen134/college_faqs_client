@@ -294,7 +294,19 @@ const CollegeList = ({ itemsPerPage = 6 }) => {
         </div>
       </section> */}
 
-      <section className="layout-pt-md layout-pb-lg">
+      <section className="college-list-banner">
+        <div className="container-fluid">
+          <div className="row">
+            <div className="col px-0 mx-0">
+              <img src="./img/university.jpeg" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+
+      <section className="layout-pb-lg" style={{ marginTop: '-100px' }}>
         <div className="container-fluid">
           <div
             className="row justify-content-center"
