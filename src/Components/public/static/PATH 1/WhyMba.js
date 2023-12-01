@@ -91,7 +91,9 @@ const WhyMba = () => {
         >
           5.
           <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-          Types of MBA Program
+          <a className="link" href="#5">
+            Types of MBA Program
+          </a>
         </p>
         <p
           className="MsoListParagraphCxSpMiddle"
@@ -130,7 +132,9 @@ const WhyMba = () => {
         >
           b.
           <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-          Admission Process
+          <a className="link" href="#6a">
+            Admission Process
+          </a>
         </p>
         <p
           className="MsoListParagraphCxSpMiddle"
@@ -1028,10 +1032,9 @@ const WhyMba = () => {
           style={{
             textAlign: "justify",
             textJustify: "inter-ideograph",
-            textIndent: ".5in",
           }}
         >
-          <u>Full-Time MBA:</u> One of the most common types of MBA programs is
+          <b style={{ fontSize: '11pt' }}>  <u>Full-Time MBA:</u></b> One of the most common types of MBA programs is
           a two-year commitment in which candidates attend college full-time.
           During the first year of the program, MBA candidates may learn more
           fundamental business skills such as strategy or communication and
@@ -1042,12 +1045,12 @@ const WhyMba = () => {
           style={{
             textAlign: "justify",
             textJustify: "inter-ideograph",
-            textIndent: ".5in",
           }}
         >
-          <u>
+          <b style={{ fontSize: '11pt' }}>  <u>
             <Link to="/part-time-mba">Part-Time MBA</Link>
           </u>
+          </b>
           : Students not looking to leave work and willing to attend college for
           a longer time may pursue a part-time MBA program. This type of program
           often has greater flexibility on how many courses can be taken at once
@@ -1060,12 +1063,12 @@ const WhyMba = () => {
           style={{
             textAlign: "justify",
             textJustify: "inter-ideograph",
-            textIndent: ".5in",
           }}
         >
-          <u>
+          <b style={{ fontSize: '11pt' }}>   <u>
             <Link to="/distance-mba">Distance MBA:</Link>
           </u>{" "}
+          </b>
           In Distance MBA the candidate pursues the programme via
           correspondence. The duration of an MBA in distance/correspondence
           format is 2-5 years. An MBA from IGNOU is one of the most popular
@@ -1076,12 +1079,13 @@ const WhyMba = () => {
           style={{
             textAlign: "justify",
             textJustify: "inter-ideograph",
-            textIndent: ".5in",
           }}
         >
-          <u>
-            <Link to="/online-mba">Online MBA:</Link>
-          </u>{" "}
+          <b style={{ fontSize: '11pt' }}>
+            <u>
+              <Link to="/online-mba">Online MBA:</Link>
+            </u>{" "}
+          </b>
           With changing time, online MBA has become one of the most popular mode
           of MBA programme owing to ease and flexibility. There are no physical
           classes, thus a student can pursue from anywhere. The duration of the
@@ -1092,12 +1096,13 @@ const WhyMba = () => {
           style={{
             textAlign: "justify",
             textJustify: "inter-ideograph",
-            textIndent: ".5in",
           }}
         >
-          <u>
-            <Link to="/executive-mba">Executive MBA:</Link>
-          </u>{" "}
+          <b style={{ fontSize: '11pt' }}>
+            <u>
+              <Link to="/executive-mba">Executive MBA:</Link>
+            </u>{" "}
+          </b>
           One-year MBA or commonly known as Executive &nbsp;MBA is designed for
           working professionals who don't want to leave their jobs to pursue an
           MBA and have more than five years of work experience. The syllabus is
@@ -1108,12 +1113,13 @@ const WhyMba = () => {
           style={{
             textAlign: "justify",
             textJustify: "inter-ideograph",
-            textIndent: ".5in",
           }}
         >
-          <u>
-            <Link to="/integrated-mba">5 year-Integrated MBA:</Link>
-          </u>{" "}
+          <b style={{ fontSize: '11pt' }}>
+            <u>
+              <Link to="/integrated-mba">5 year-Integrated MBA:</Link>
+            </u>{" "}
+          </b>
           It’s a combination of dual degree course which includes UG and PG
           degree and can be pursued after class 12. So, candidates who choose
           management as their choice of career early on can opt for Integrated
@@ -1141,7 +1147,6 @@ const WhyMba = () => {
         <p
           className="cont"
           style={{
-            textAlign: "justify",
             textJustify: "inter-ideograph",
           }}
         >
@@ -1154,7 +1159,6 @@ const WhyMba = () => {
         <p
           className="cont"
           style={{
-            textAlign: "justify",
             textJustify: "inter-ideograph",
           }}
         >
@@ -1167,7 +1171,6 @@ const WhyMba = () => {
         <p
           className="cont"
           style={{
-            textAlign: "justify",
             textJustify: "inter-ideograph",
           }}
         >
@@ -1181,7 +1184,6 @@ const WhyMba = () => {
         <p
           className="cont"
           style={{
-            textAlign: "justify",
             textJustify: "inter-ideograph",
           }}
         >
@@ -1200,8 +1202,6 @@ const WhyMba = () => {
         <p
           className="cont"
           style={{
-            marginLeft: ".75in",
-            textAlign: "justify",
             textJustify: "inter-ideograph",
           }}
         >
@@ -1214,8 +1214,6 @@ const WhyMba = () => {
         <p
           className="cont"
           style={{
-            marginLeft: ".75in",
-            textAlign: "justify",
             textJustify: "inter-ideograph",
           }}
         >
@@ -1227,8 +1225,6 @@ const WhyMba = () => {
         <p
           className="cont"
           style={{
-            marginLeft: ".75in",
-            textAlign: "justify",
             textJustify: "inter-ideograph",
           }}
         >
@@ -1242,8 +1238,6 @@ const WhyMba = () => {
         <p
           className="cont"
           style={{
-            marginLeft: ".75in",
-            textAlign: "justify",
             textJustify: "inter-ideograph",
           }}
         >
@@ -1252,13 +1246,22 @@ const WhyMba = () => {
           </span>
           Final selection is based on the candidate's overall achievements in
           academics, entrance test and WAT-GD-PI.{" "}
-          <b>
-            <u>
-              <span style={{ color: "red" }}>
-                <Link to="/admission-process">Read More – MBA Admission</Link>
-              </span>
-            </u>
-          </b>
+          <p>
+            <b>
+              <u>
+                <span style={{ color: "red" }}>
+                  <Link to="/admission-process">Read More – MBA Admission</Link>
+                </span>
+              </u>
+            </b>
+          </p>
+        </p>
+
+        <p
+          className="MsoNormal"
+          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
+        >
+          &nbsp;
         </p>
         <p
           className="headings"
@@ -2434,21 +2437,7 @@ const WhyMba = () => {
             </u>
           </b>
         </p>
-        <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-
         <CustomTable />
-
-        <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
 
         <p
           className="MsoNormal"
@@ -2481,12 +2470,6 @@ const WhyMba = () => {
           management, business communication, etc.
         </p>
         <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
           className=" cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
@@ -2502,12 +2485,6 @@ const WhyMba = () => {
           after completing PGDM, the student gets a diploma.
         </p>
         <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
           className=" cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
@@ -2521,12 +2498,6 @@ const WhyMba = () => {
           degree from any background be it commerce, science, arts, can choose
           for taking a postgraduate degree in MBA. For reserved category
           student, the criteria is 45 percent.
-        </p>
-        <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
         </p>
         <p
           className=" cont headings"
@@ -2545,12 +2516,6 @@ const WhyMba = () => {
           application form and follow the admission process.{" "}
         </p>
         <p
-          className="cont"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
           className=" cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
@@ -2564,12 +2529,6 @@ const WhyMba = () => {
           of the Tier-1 and Tier-2 MBA / PGDM institutes in India accept
           candidates on the basis of entrance exam score. So, if you want to
           pursue MBA from a reputed college, taking an entrance exam is a must.
-        </p>
-        <p
-          className="cont"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
         </p>
         <p
           className=" cont headings"
@@ -2589,12 +2548,6 @@ const WhyMba = () => {
           the candidates and their interest.{" "}
         </p>
         <p
-          className="cont"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
           className=" cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
@@ -2607,12 +2560,6 @@ const WhyMba = () => {
           Ans: The fee of an MBA program depends upon college, specialisation
           but there are merit based scholarships also available. The MBA program
           fees in India can vary from Rs. 50,000 to Rs. 30 Lac.
-        </p>
-        <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
         </p>
         <p
           className=" cont headings"
@@ -2629,12 +2576,6 @@ const WhyMba = () => {
           SPJIMR, IMT Ghaziabad, JBMIS, NMIMS,&nbsp; IBS Hyderabad,&nbsp; GIM
           Goa, Great Lakes and others are also top colleges. For the list of all
           top MBA colleges in India,{" "}
-        </p>
-        <p
-          className="MsoNormn>.al"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
         </p>
         <p
           className=" cont headings"
@@ -2654,12 +2595,6 @@ const WhyMba = () => {
           Financial Institutions, Government Agencies and Organizations, Media
           Sector, Information Technology , Hospitality Sector and
           Entrepreneurship.
-        </p>
-        <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
         </p>
         <p
           className=" cont headings"

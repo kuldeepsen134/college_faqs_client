@@ -1,39 +1,37 @@
-.img1{
+.img1 {
     margin-left: 150px;
 }
 
 @media screen and (min-width:280px) and (max-width:980px) {
-    .img1{
-      height: 85%;
-      width: 40%;
-      padding-top: 50px;
-      margin-right: 50px;
+    .img1 {
+        height: 85%;
+        width: 40%;
+        padding-top: 50px;
+        margin-right: 50px;
     }
-    
+
 }
 
-.form1{
+.form1 {
     margin-top: -30px;
 }
 
-.sign-up{
-    
+.sign-up {
+
     font-size: xx-small;
     margin-left: -0px;
 }
 
 @media screen and (min-width: 280px) and (max-width: 650px) {
-    .sign-up{
-      width: 50%;
-      margin-left: 180px;
+    .sign-up {
+        margin: auto;
     }
-    
+
 }
 
 @media screen and (min-width:280px) and (max-width:650px) {
-    .log-in{
+    .log-in {
         width: 70%;
-        margin-left: 130px;
-
+        margin: auto;
     }
 }

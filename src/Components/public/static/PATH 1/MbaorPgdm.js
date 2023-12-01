@@ -57,7 +57,7 @@ const MbaorPgdm = () => {
       <table
         className="MsoTableGrid"
         style={{
-          width: "463.85pt",
+          width: "100%",
           borderCollapse: "collapse",
           border: "none",
         }}
@@ -75,7 +75,6 @@ const MbaorPgdm = () => {
                 padding: "0in 5.4pt 0in 5.4pt",
               }}
               width={193}
-              valign="top"
             >
               <p
                 className=" cont"
@@ -87,7 +86,7 @@ const MbaorPgdm = () => {
                 align="center"
               >
                 <b>
-                  <u>Parameters</u>
+                  Parameters
                 </b>
               </p>
             </td>
@@ -99,7 +98,6 @@ const MbaorPgdm = () => {
                 padding: "0in 5.4pt 0in 5.4pt",
               }}
               width={213}
-              valign="top"
             >
               <p
                 className=" cont"
@@ -111,7 +109,7 @@ const MbaorPgdm = () => {
                 align="center"
               >
                 <b>
-                  <u>Master of Business Administration (MBA)</u>
+                  Master of Business Administration (MBA)
                 </b>
               </p>
             </td>
@@ -123,7 +121,6 @@ const MbaorPgdm = () => {
                 padding: "0in 5.4pt 0in 5.4pt",
               }}
               width={213}
-              valign="top"
             >
               <p
                 className=" cont"
@@ -135,7 +132,7 @@ const MbaorPgdm = () => {
                 align="center"
               >
                 <b>
-                  <u>Post Graduate Diploma in Management (PGDM)</u>
+                  Post Graduate Diploma in Management (PGDM)
                 </b>
               </p>
             </td>

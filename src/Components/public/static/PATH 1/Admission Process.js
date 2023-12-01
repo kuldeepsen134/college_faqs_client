@@ -33,7 +33,7 @@ const AdmissionProcess = () => {
           className=" cont"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
-          <u>1: Register &amp; Apply for Entrance Exam</u>
+            <b style={{ fontSize: '11pt' }}> 1: Register &amp; Apply for Entrance Exam  </b>
         </p>
         <p
           className=" cont"
@@ -57,7 +57,7 @@ const AdmissionProcess = () => {
           className=" cont"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
-          <u>2: Appear in Entrance Exam</u>
+            <b style={{ fontSize: '11pt' }}> 2: Appear in Entrance Exam  </b>
         </p>
         <p
           className=" cont"
@@ -103,7 +103,7 @@ const AdmissionProcess = () => {
                   align="center"
                 >
                   <b>
-                    <u>Entrance Exam</u>
+                    Entrance Exam
                   </b>
                 </p>
               </td>
@@ -127,7 +127,7 @@ const AdmissionProcess = () => {
                   align="center"
                 >
                   <b>
-                    <u>Registration Status</u>
+                    Registration Status
                   </b>
                 </p>
               </td>
@@ -151,7 +151,7 @@ const AdmissionProcess = () => {
                   align="center"
                 >
                   <b>
-                    <u>Examination Date</u>
+                    Examination Date
                   </b>
                 </p>
               </td>
@@ -430,7 +430,7 @@ const AdmissionProcess = () => {
           className=" cont"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
-          <u>3: Results and Cut-off</u>
+            <b style={{ fontSize: '11pt' }}> 3: Results and Cut-off  </b>
         </p>
         <p
           className=" cont"
@@ -445,7 +445,7 @@ const AdmissionProcess = () => {
           className=" cont"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
-          <u>4. Apply for College / Institution </u>
+            <b style={{ fontSize: '11pt' }}> 4. Apply for College / Institution   </b>
         </p>
         <p
           className=" cont"
@@ -463,7 +463,7 @@ const AdmissionProcess = () => {
           className=" cont"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
-          <u>5: Shortlisting Process</u>
+            <b style={{ fontSize: '11pt' }}> 5: Shortlisting Process  </b>
         </p>
         <p
           className=" cont"
@@ -481,7 +481,7 @@ const AdmissionProcess = () => {
           className=" cont"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
-          <u>6: Final Admission Process- GD-PI-WAT Round</u>
+            <b style={{ fontSize: '11pt' }}> 6: Final Admission Process- GD-PI-WAT Round  </b>
         </p>
         <p
           className=" cont"
@@ -506,12 +506,7 @@ const AdmissionProcess = () => {
         >
           <b>FAQs on MBA and PGDM Admission</b>
         </p>
-        <p
-          className=" cont"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          <b>&nbsp;</b>
-        </p>
+       
         <p
           className=" cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
@@ -535,12 +530,6 @@ const AdmissionProcess = () => {
           .
         </p>
         <p
-          className=" cont"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
           className="headings cont"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
@@ -553,12 +542,6 @@ const AdmissionProcess = () => {
           Ans: Yes, few colleges accept students with less than 50 per cent
           aggregate in graduation. For SC/ST and reserved category candidates,
           the minimum mark required is 45 per cent in all MBA colleges.
-        </p>
-        <p
-          className=" cont"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
         </p>
         <p
           className="headings cont"
@@ -576,18 +559,6 @@ const AdmissionProcess = () => {
           these rounds as it is essential to assess the candidates’
           communication abilities and leadership qualities which make a
           successful manager.
-        </p>
-        <p
-          className=" cont"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className=" cont"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
         </p>
         <p
           className="headings cont"
@@ -611,12 +582,6 @@ const AdmissionProcess = () => {
           .
         </p>
         <p
-          className=" cont"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
           className="headings cont"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
@@ -635,12 +600,6 @@ const AdmissionProcess = () => {
           .
         </p>
         <p
-          className=" cont"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
           className="headings cont"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
@@ -653,12 +612,6 @@ const AdmissionProcess = () => {
           Ans: No, it is not mandatory to appear for a Distance MBA course. Most
           of the university/institutes offering Distance MBA offer admission on
           the basis of academic record.
-        </p>
-        <p
-          className=" cont"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
         </p>
         <p
           className="headings cont"
@@ -674,12 +627,6 @@ const AdmissionProcess = () => {
           top B-school to pursue MBA and PGDM program. Selection is based on
           other important parameters including entrance exam score, GD-WAT-PI,
           academics.
-        </p>
-        <p
-          className=" cont"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
         </p>
         <p
           className="headings cont"
