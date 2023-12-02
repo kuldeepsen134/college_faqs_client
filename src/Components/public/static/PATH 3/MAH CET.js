@@ -1,8 +1,8 @@
 import { useEffect } from "react";
 const MAHCET = () => {
   useEffect(() => {
-    window.scrollTo(0,0);
-  },[])
+    window.scrollTo(0, 0);
+  }, [])
   return (
     <div>
       <div className="WordSection1">
@@ -14,18 +14,6 @@ const MAHCET = () => {
             MAH MAH MBA CET 2023: Check Dates, Registrations, Syllabus, Question
             Papers, Pattern, Preparation
           </b>
-        </p>
-        <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
-        >
-          <span style={{ fontFamily: "Wingdings" }}>
-            <span style={{ font: '7pt "Times New Roman"' }}>&nbsp; </span>
-          </span>
         </p>
         <p
           className="MsoNormal"
@@ -45,25 +33,10 @@ const MAHCET = () => {
           SIMSREE, PUMBA, K J Somaiya, N L Dalmiya, DSIMS, DY Patil and 300+
           other colleges of Maharashtra.
         </p>
-        <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          <b>
-            <u>
-              <span style={{ textDecoration: "none" }}>&nbsp;</span>
-            </u>
-          </b>
-        </p>
+
         <h4>Latest Update</h4>
         <p
           className="MsoListParagraphCxSpFirst"
-          style={{
-            marginBottom: "0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
         >
           <span style={{ fontFamily: "Symbol" }}>
             ·
@@ -71,16 +44,10 @@ const MAHCET = () => {
               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
             </span>
           </span>
-          <b>About MAH CET MBA Examination</b>
+          About MAH CET MBA Examination
         </p>
         <p
           className="MsoListParagraphCxSpMiddle"
-          style={{
-            marginBottom: "0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
         >
           <span style={{ fontFamily: "Symbol" }}>
             ·
@@ -88,16 +55,10 @@ const MAHCET = () => {
               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
             </span>
           </span>
-          <b>MAH CET 2022: Exam Highlights</b>
+          MAH CET 2022: Exam Highlights
         </p>
         <p
           className="MsoListParagraphCxSpMiddle"
-          style={{
-            marginBottom: "0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
         >
           <span style={{ fontFamily: "Symbol" }}>
             ·
@@ -105,15 +66,10 @@ const MAHCET = () => {
               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
             </span>
           </span>
-          <b>MAH MBA CET Important Dates 2022</b>
+          MAH MBA CET Important Dates 2022
         </p>
         <p
           className="MsoListParagraphCxSpMiddle"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
         >
           <span style={{ fontFamily: "Symbol" }}>
             ·
@@ -121,15 +77,10 @@ const MAHCET = () => {
               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
             </span>
           </span>
-          <b>MAH CET 2022 Eligibility Criteria</b>
+          MAH CET 2022 Eligibility Criteria
         </p>
         <p
           className="MsoListParagraphCxSpMiddle"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
         >
           <span style={{ fontFamily: "Symbol" }}>
             ·
@@ -137,15 +88,10 @@ const MAHCET = () => {
               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
             </span>
           </span>
-          <b>MAH CET 2022 Application Form</b>
+          MAH CET 2022 Application Form
         </p>
         <p
           className="MsoListParagraphCxSpMiddle"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
         >
           <span style={{ fontFamily: "Symbol" }}>
             ·
@@ -153,15 +99,10 @@ const MAHCET = () => {
               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
             </span>
           </span>
-          <b>MAH CET Exam Centres 2022</b>
+          MAH CET Exam Centres 2022
         </p>
         <p
           className="MsoListParagraphCxSpMiddle"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
         >
           <span style={{ fontFamily: "Symbol" }}>
             ·
@@ -169,15 +110,10 @@ const MAHCET = () => {
               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
             </span>
           </span>
-          <b>MAH CET MBA Exam Pattern 2022</b>
+          MAH CET MBA Exam Pattern 2022
         </p>
         <p
           className="MsoListParagraphCxSpMiddle"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
         >
           <span style={{ fontFamily: "Symbol" }}>
             ·
@@ -185,15 +121,10 @@ const MAHCET = () => {
               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
             </span>
           </span>
-          <b>MAH MBA CET 2022 Syllabus</b>
+          MAH MBA CET 2022 Syllabus
         </p>
         <p
           className="MsoListParagraphCxSpMiddle"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
         >
           <span style={{ fontFamily: "Symbol" }}>
             ·
@@ -201,15 +132,10 @@ const MAHCET = () => {
               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
             </span>
           </span>
-          <b>MAH MBA CET Admit Card 2022</b>
+          MAH MBA CET Admit Card 2022
         </p>
         <p
           className="MsoListParagraphCxSpMiddle"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
         >
           <span style={{ fontFamily: "Symbol" }}>
             ·
@@ -217,15 +143,10 @@ const MAHCET = () => {
               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
             </span>
           </span>
-          <b>MAH CET Exam Day Guidelines</b>
+          MAH CET Exam Day Guidelines
         </p>
         <p
           className="MsoListParagraphCxSpMiddle"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
         >
           <span style={{ fontFamily: "Symbol" }}>
             ·
@@ -233,15 +154,10 @@ const MAHCET = () => {
               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
             </span>
           </span>
-          <b>MAH MBA CET 2022 Result</b>
+          MAH MBA CET 2022 Result
         </p>
         <p
           className="MsoListParagraphCxSpMiddle"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
         >
           <span style={{ fontFamily: "Symbol" }}>
             ·
@@ -249,15 +165,10 @@ const MAHCET = () => {
               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
             </span>
           </span>
-          <b>MAH CET Expected Cut Off 2022</b>
+          MAH CET Expected Cut Off 2022
         </p>
         <p
           className="MsoListParagraphCxSpMiddle"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
         >
           <span style={{ fontFamily: "Symbol" }}>
             ·
@@ -265,16 +176,10 @@ const MAHCET = () => {
               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
             </span>
           </span>
-          <b>MAH MBA CET 2022 Counselling</b>
+          MAH MBA CET 2022 Counselling
         </p>
         <p
           className="MsoListParagraphCxSpLast"
-          style={{
-            marginBottom: "0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
         >
           <span style={{ fontFamily: "Symbol" }}>
             ·
@@ -282,16 +187,9 @@ const MAHCET = () => {
               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
             </span>
           </span>
-          <b>FAQs – MAH CET MBA 2022 Exam</b>
+          FAQs – MAH CET MBA 2022 Exam
         </p>
-        <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-    
-        
+
         <p
           className="MsoNormal"
           style={{
@@ -302,26 +200,7 @@ const MAHCET = () => {
         >
           &nbsp;
         </p>
-        <p
-          className="MsoNormal"
-          style={{
-            marginBottom: "0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-          }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="MsoNormal"
-          style={{
-            marginBottom: "0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-          }}
-        >
-          &nbsp;
-        </p>
+
         <p
           className="MsoNormal"
           style={{
@@ -331,16 +210,6 @@ const MAHCET = () => {
           }}
         >
           <b>About MAH CET MBA Examination</b>
-        </p>
-        <p
-          className="MsoNormal"
-          style={{
-            marginBottom: "0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-          }}
-        >
-          <b>&nbsp;</b>
         </p>
         <p
           className="MsoNormal"
@@ -361,19 +230,9 @@ const MAHCET = () => {
           attend MAH CET Exam. Aspirants are suggested to check regularly to
           receive the latest updates of MAH CET.
         </p>
-        <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <table className="table" style={{ width: "60%" }}>
+
+
+        <table className="table shadow-none" style={{ width: '90%' }}>
           <tbody>
             <tr>
               <th
@@ -387,12 +246,22 @@ const MAHCET = () => {
               </th>
             </tr>
             <tr>
-              <td>
+              <td
+                style={{
+                  border: "1px solid black",
+                  borderCollapse: "collapse",
+                }}
+              >
                 <a href>
                   Bennett University – Admissions 2023 (https://bit.ly/3BSLova )
                 </a>
               </td>
-              <td>
+              <td
+                style={{
+                  border: "1px solid black",
+                  borderCollapse: "collapse",
+                }}
+              >
                 <a href>Chitkara University – Admissions 2023</a>
               </td>
             </tr>
@@ -410,6 +279,7 @@ const MAHCET = () => {
         >
           <b>MAH CET 2022: Exam Highlights</b>
         </p>
+
         <table
           className="MsoTableGrid"
           style={{ borderCollapse: "collapse", border: "none" }}
@@ -437,7 +307,7 @@ const MAHCET = () => {
                   }}
                 >
                   <b>
-                    <u>Particulars</u>
+                    Particulars
                   </b>
                 </p>
               </td>
@@ -460,7 +330,7 @@ const MAHCET = () => {
                   }}
                 >
                   <b>
-                    <u>Details</u>
+                    Details
                   </b>
                 </p>
               </td>
@@ -1439,6 +1309,7 @@ const MAHCET = () => {
             </tr>
           </tbody>
         </table>
+
         <p
           className="MsoNormal"
           style={{
@@ -1449,40 +1320,10 @@ const MAHCET = () => {
         >
           <b>&nbsp;</b>
         </p>
+
         <p
           className="MsoNormal"
           style={{
-            marginBottom: "0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-          }}
-        >
-          <b>&nbsp;</b>
-        </p>
-        <p
-          className="MsoNormal"
-          style={{
-            marginBottom: "0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-          }}
-        >
-          <b>&nbsp;</b>
-        </p>
-        <p
-          className="MsoNormal"
-          style={{
-            marginBottom: "0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-          }}
-        >
-          <b>&nbsp;</b>
-        </p>
-        <p
-          className="MsoNormal"
-          style={{
-            marginBottom: "0in",
             textAlign: "justify",
             textJustify: "inter-ideograph",
           }}
@@ -1492,33 +1333,12 @@ const MAHCET = () => {
         <p
           className="MsoNormal"
           style={{
-            marginBottom: "0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-          }}
-        >
-          <b>&nbsp;</b>
-        </p>
-        <p
-          className="MsoNormal"
-          style={{
-            marginBottom: "0in",
             textAlign: "justify",
             textJustify: "inter-ideograph",
           }}
         >
           The MAH MBA CET below important dates includes MAH CET Exam Date and
           other MAH CET important dates:
-        </p>
-        <p
-          className="MsoNormal"
-          style={{
-            marginBottom: "0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-          }}
-        >
-          <b>&nbsp;</b>
         </p>
         <table
           className="MsoTableGrid"
@@ -1548,7 +1368,7 @@ const MAHCET = () => {
                   align="center"
                 >
                   <b>
-                    <u>MAH MBA CET Activities</u>
+                    MAH MBA CET Activities
                   </b>
                 </p>
               </td>
@@ -1572,7 +1392,7 @@ const MAHCET = () => {
                   align="center"
                 >
                   <b>
-                    <u>Important MAH MBA CET Dates</u>
+                    Important MAH MBA CET Dates
                   </b>
                 </p>
               </td>
@@ -1842,18 +1662,14 @@ const MAHCET = () => {
             </tr>
           </tbody>
         </table>
+
         <p
           className="MsoNormal"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           <b>&nbsp;</b>
         </p>
-        <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          <b>&nbsp;</b>
-        </p>
+
         <p
           className="MsoNormal"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
@@ -1870,12 +1686,14 @@ const MAHCET = () => {
           for CAT, ATMA, XAT, MAT etc are also eligible for the counselling
           process.
         </p>
+
         <p
           className="MsoNormal"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           MAH CET has a reservation policy for seats which is given below:
         </p>
+
         <table
           className="MsoTableGrid"
           style={{ borderCollapse: "collapse", border: "none" }}
@@ -2603,6 +2421,13 @@ const MAHCET = () => {
             </tr>
           </tbody>
         </table>
+
+        <p
+          className="MsoNormal"
+          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
+        >
+          &nbsp;
+        </p>
         <p
           className="MsoNormal"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
@@ -2617,12 +2442,7 @@ const MAHCET = () => {
           apply for MAH CET 2022:
         </p>
         <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
+          className="cont"
         >
           <span style={{ fontFamily: "Wingdings" }}>
             Ø<span style={{ font: '7pt "Times New Roman"' }}>&nbsp; </span>
@@ -2632,12 +2452,7 @@ const MAHCET = () => {
           a new page will be displayed on the screen.
         </p>
         <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
+          className="cont"
         >
           <span style={{ fontFamily: "Wingdings" }}>
             Ø<span style={{ font: '7pt "Times New Roman"' }}>&nbsp; </span>
@@ -2646,12 +2461,7 @@ const MAHCET = () => {
           required course (MBA, MMS, PGDBM, PGDM).
         </p>
         <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
+          className="cont"
         >
           <span style={{ fontFamily: "Wingdings" }}>
             Ø<span style={{ font: '7pt "Times New Roman"' }}>&nbsp; </span>
@@ -2661,12 +2471,7 @@ const MAHCET = () => {
           Form should be complete in all senses before submitting it.
         </p>
         <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
+          className="cont"
         >
           <span style={{ fontFamily: "Wingdings" }}>
             Ø<span style={{ font: '7pt "Times New Roman"' }}>&nbsp; </span>
@@ -2675,12 +2480,7 @@ const MAHCET = () => {
           page will be open up.
         </p>
         <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
+          className="cont"
         >
           <span style={{ fontFamily: "Wingdings" }}>
             Ø<span style={{ font: '7pt "Times New Roman"' }}>&nbsp; </span>
@@ -2739,7 +2539,7 @@ const MAHCET = () => {
                   align="center"
                 >
                   <b>
-                    <u>Exam Centres In Maharashtra</u>
+                    Exam Centres In Maharashtra
                   </b>
                 </p>
               </td>
@@ -3630,7 +3430,7 @@ const MAHCET = () => {
                   align="center"
                 >
                   <b>
-                    <u>Exam Centres Outside Maharashtra</u>
+                    Exam Centres Outside Maharashtra
                   </b>
                 </p>
               </td>
@@ -3925,18 +3725,14 @@ const MAHCET = () => {
             </tr>
           </tbody>
         </table>
-        <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
+
         <p
           className="MsoNormal"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           <b>&nbsp;</b>
         </p>
+
         <p
           className="MsoNormal"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
@@ -3981,7 +3777,7 @@ const MAHCET = () => {
                   align="center"
                 >
                   <b>
-                    <u>MAH CET Sections</u>
+                    MAH CET Sections
                   </b>
                 </p>
               </td>
@@ -4005,7 +3801,7 @@ const MAHCET = () => {
                   align="center"
                 >
                   <b>
-                    <u>Number of Questions (MCQs)</u>
+                    Number of Questions (MCQs)
                   </b>
                 </p>
               </td>
@@ -4029,7 +3825,7 @@ const MAHCET = () => {
                   align="center"
                 >
                   <b>
-                    <u>Total Marks</u>
+                    Total Marks
                   </b>
                 </p>
               </td>
@@ -4317,10 +4113,8 @@ const MAHCET = () => {
                   className="MsoNormal bold1"
                   style={{
                     marginBottom: "0in",
-                    textAlign: "center",
                     lineHeight: "normal",
                   }}
-                  align="center"
                 >
                   Total
                 </p>
@@ -4376,19 +4170,15 @@ const MAHCET = () => {
             </tr>
           </tbody>
         </table>
+
         <p
           className="MsoNormal"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           &nbsp;
         </p>
-        <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <table className="table" style={{ width: "60%" }}>
+
+        <table className="table shadow-none" style={{ width: '90%' }}>
           <tbody>
             <tr>
               <th
@@ -4402,29 +4192,35 @@ const MAHCET = () => {
               </th>
             </tr>
             <tr>
-              <td>
+              <td
+                style={{
+                  border: "1px solid black",
+                  borderCollapse: "collapse",
+                }}
+              >
                 <a href>
                   Bennett University – Admissions 2023 (https://bit.ly/3BSLova )
                 </a>
               </td>
-              <td>
+              <td
+                style={{
+                  border: "1px solid black",
+                  borderCollapse: "collapse",
+                }}
+              >
                 <a href>Chitkara University – Admissions 2023</a>
               </td>
             </tr>
           </tbody>
         </table>
+
         <p
           className="MsoNormal"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           &nbsp;
         </p>
-        <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
+
         <p
           className="MsoNormal"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
@@ -4464,7 +4260,7 @@ const MAHCET = () => {
                   align="center"
                 >
                   <b>
-                    <u>Sections</u>
+                    Sections
                   </b>
                 </p>
               </td>
@@ -4487,7 +4283,7 @@ const MAHCET = () => {
                   align="center"
                 >
                   <b>
-                    <u>Important Topics</u>
+                    Important Topics
                   </b>
                 </p>
               </td>
@@ -4611,24 +4407,21 @@ const MAHCET = () => {
             </tr>
           </tbody>
         </table>
+
         <p
           className="MsoNormal"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           &nbsp;
         </p>
-        <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
+
         <p
           className="MsoNormal"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           <b>MAH CET 2022 Preparation Tips</b>
         </p>
+
         <p
           className="MsoNormal"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
@@ -4638,12 +4431,7 @@ const MAHCET = () => {
           follow are:
         </p>
         <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
+          className="cont"
         >
           <span style={{ fontFamily: "Symbol" }}>
             ·
@@ -4657,12 +4445,7 @@ const MAHCET = () => {
           complete each question.
         </p>
         <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
+          className="cont"
         >
           <span style={{ fontFamily: "Symbol" }}>
             ·
@@ -4676,12 +4459,7 @@ const MAHCET = () => {
           and thus require more practice.
         </p>
         <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
+          className="cont"
         >
           <span style={{ fontFamily: "Symbol" }}>
             ·
@@ -4695,12 +4473,7 @@ const MAHCET = () => {
           entire paper.
         </p>
         <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
+          className="cont"
         >
           <span style={{ fontFamily: "Symbol" }}>
             ·
@@ -4732,12 +4505,7 @@ const MAHCET = () => {
           below is a brief description of MAH CET admit card download process:
         </p>
         <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
+          className="cont"
         >
           1.
           <span style={{ font: '7pt "Times New Roman"' }}>
@@ -4746,12 +4514,7 @@ const MAHCET = () => {
           Visit the of Maharashtra State Common Entrance Test website
         </p>
         <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
+          className="cont"
         >
           2.
           <span style={{ font: '7pt "Times New Roman"' }}>
@@ -4761,12 +4524,7 @@ const MAHCET = () => {
           https://mbacet2022.mahacet.org/StaticPages/HomePage
         </p>
         <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
+          className="cont"
         >
           3.
           <span style={{ font: '7pt "Times New Roman"' }}>
@@ -4775,12 +4533,7 @@ const MAHCET = () => {
           Click on ' to download admit card'
         </p>
         <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
+          className="cont"
         >
           4.
           <span style={{ font: '7pt "Times New Roman"' }}>
@@ -4789,12 +4542,7 @@ const MAHCET = () => {
           Enter your MBA CET 2022 application number and date of birth
         </p>
         <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
+          className="cont"
         >
           5.
           <span style={{ font: '7pt "Times New Roman"' }}>
@@ -4803,12 +4551,7 @@ const MAHCET = () => {
           Click on 'login'
         </p>
         <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
+          className="cont"
         >
           6.
           <span style={{ font: '7pt "Times New Roman"' }}>
@@ -4817,12 +4560,7 @@ const MAHCET = () => {
           The admit card will be displayed on the screen
         </p>
         <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
+          className="cont"
         >
           7.
           <span style={{ font: '7pt "Times New Roman"' }}>
@@ -4832,12 +4570,7 @@ const MAHCET = () => {
           ticket on desktop
         </p>
         <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
+          className="cont"
         >
           8.
           <span style={{ font: '7pt "Times New Roman"' }}>
@@ -4869,12 +4602,7 @@ const MAHCET = () => {
           should follow the given below guidelines on exam day:
         </p>
         <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
+          className="cont"
         >
           <span style={{ fontFamily: "Symbol" }}>
             ·
@@ -4885,12 +4613,7 @@ const MAHCET = () => {
           Carry two print outs of MAH MBA CET admit card and a photo ID
         </p>
         <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
+          className="cont"
         >
           <span style={{ fontFamily: "Symbol" }}>
             ·
@@ -4901,12 +4624,7 @@ const MAHCET = () => {
           Reach the exam centre two hours before the exam begins
         </p>
         <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
+          className="cont"
         >
           <span style={{ fontFamily: "Symbol" }}>
             ·
@@ -4917,12 +4635,7 @@ const MAHCET = () => {
           Read exam instructions thoroughly and abide by the rules
         </p>
         <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
+          className="cont"
         >
           <span style={{ fontFamily: "Symbol" }}>
             ·
@@ -4933,12 +4646,7 @@ const MAHCET = () => {
           Carry a blue or black ball-point pen for signing the attendance sheet
         </p>
         <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
+          className="cont"
         >
           <span style={{ fontFamily: "Symbol" }}>
             ·
@@ -4971,12 +4679,7 @@ const MAHCET = () => {
           score of the candidate. Steps to check MAH MBA CET Result 2022:
         </p>
         <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
+          className="cont"
         >
           <span style={{ fontFamily: "Symbol" }}>
             ·
@@ -4987,12 +4690,7 @@ const MAHCET = () => {
           Visit the official website of State Common Entrance Test Cell
         </p>
         <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
+          className="cont"
         >
           <span style={{ fontFamily: "Symbol" }}>
             ·
@@ -5003,12 +4701,7 @@ const MAHCET = () => {
           Now Click on 'MAH MBA CET 2022 Result'
         </p>
         <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
+          className="cont"
         >
           <span style={{ fontFamily: "Symbol" }}>
             ·
@@ -5019,12 +4712,7 @@ const MAHCET = () => {
           Enter login credentials and click on the 'Submit' button
         </p>
         <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
+          className="cont"
         >
           <span style={{ fontFamily: "Symbol" }}>
             ·
@@ -5035,12 +4723,7 @@ const MAHCET = () => {
           Maharashtra MBA CET 2022 result will appear
         </p>
         <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
+          className="cont"
         >
           <span style={{ fontFamily: "Symbol" }}>
             ·
@@ -5051,12 +4734,7 @@ const MAHCET = () => {
           Result will show overall score and percentile
         </p>
         <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
+          className="cont"
         >
           <span style={{ fontFamily: "Symbol" }}>
             ·
@@ -5087,12 +4765,7 @@ const MAHCET = () => {
           cutoff of MAH MBA CET 2022 are:
         </p>
         <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
+          className="cont"
         >
           <span style={{ fontFamily: "Symbol" }}>
             ·
@@ -5103,12 +4776,7 @@ const MAHCET = () => {
           No. of qualifying candidates
         </p>
         <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
+          className="cont"
         >
           <span style={{ fontFamily: "Symbol" }}>
             ·
@@ -5119,12 +4787,7 @@ const MAHCET = () => {
           The difficulty level of exam
         </p>
         <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
+          className="cont"
         >
           <span style={{ fontFamily: "Symbol" }}>
             ·
@@ -5135,12 +4798,7 @@ const MAHCET = () => {
           Criteria of Reservation
         </p>
         <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
+          className="cont"
         >
           <span style={{ fontFamily: "Symbol" }}>
             ·
@@ -5151,12 +4809,7 @@ const MAHCET = () => {
           Previous year cutoff trends
         </p>
         <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
+          className="cont"
         >
           <span style={{ fontFamily: "Symbol" }}>
             ·
@@ -5200,7 +4853,7 @@ const MAHCET = () => {
                   align="center"
                 >
                   <b>
-                    <u>Institute</u>
+                    Institute
                   </b>
                 </p>
               </td>
@@ -5224,7 +4877,7 @@ const MAHCET = () => {
                   align="center"
                 >
                   <b>
-                    <u>MAH CET Cut Off</u>
+                    MAH CET Cut Off
                   </b>
                 </p>
               </td>
@@ -5715,24 +5368,14 @@ const MAHCET = () => {
             </tr>
           </tbody>
         </table>
-        <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
+
         <p
           className="MsoNormal"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           <b>&nbsp;</b>
         </p>
-        <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          <b>&nbsp;</b>
-        </p>
+
         <p
           className="MsoNormal"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
@@ -5758,12 +5401,7 @@ const MAHCET = () => {
           MBA CET 2022 Counselling, follow the below steps:
         </p>
         <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
+          className="cont"
         >
           <span style={{ fontFamily: "Symbol" }}>
             ·
@@ -5774,12 +5412,7 @@ const MAHCET = () => {
           Open the official website - cetcell.mahacet.org
         </p>
         <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
+          className="cont"
         >
           <span style={{ fontFamily: "Symbol" }}>
             ·
@@ -5790,12 +5423,7 @@ const MAHCET = () => {
           Click on "New Candidate Registration" and fill necessary details.
         </p>
         <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
+          className="cont"
         >
           <span style={{ fontFamily: "Symbol" }}>
             ·
@@ -5806,12 +5434,7 @@ const MAHCET = () => {
           A User ID and password will be generated.
         </p>
         <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
+          className="cont"
         >
           <span style={{ fontFamily: "Symbol" }}>
             ·
@@ -5833,12 +5456,7 @@ const MAHCET = () => {
           they are:
         </p>
         <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
+          className="cont"
         >
           1.
           <span style={{ font: '7pt "Times New Roman"' }}>
@@ -5852,12 +5470,7 @@ const MAHCET = () => {
           Reserved category.
         </p>
         <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
+          className="cont"
         >
           2.
           <span style={{ font: '7pt "Times New Roman"' }}>
@@ -5869,12 +5482,7 @@ const MAHCET = () => {
           facilitation centre.
         </p>
         <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
+          className="cont"
         >
           3.
           <span style={{ font: '7pt "Times New Roman"' }}>
@@ -5894,12 +5502,7 @@ const MAHCET = () => {
           <u>Maharashtra MBA CET 2022 Counselling Registration - Highlights</u>
         </p>
         <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
+          className="cont"
         >
           <span style={{ fontFamily: "Symbol" }}>
             ·
@@ -5911,12 +5514,7 @@ const MAHCET = () => {
           colleges.
         </p>
         <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
+          className="cont"
         >
           <span style={{ fontFamily: "Symbol" }}>
             ·
@@ -5927,12 +5525,7 @@ const MAHCET = () => {
           Once the choice is locked, it will not be changed.
         </p>
         <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
+          className="cont"
         >
           <span style={{ fontFamily: "Symbol" }}>
             ·
@@ -5944,12 +5537,7 @@ const MAHCET = () => {
           as per their preferences.
         </p>
         <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
+          className="cont"
         >
           <span style={{ fontFamily: "Symbol" }}>
             ·
@@ -5960,12 +5548,7 @@ const MAHCET = () => {
           Candidates are not permitted to participate in subsequent CAP rounds.
         </p>
         <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
+          className="cont"
         >
           <span style={{ fontFamily: "Symbol" }}>
             ·
@@ -5975,19 +5558,15 @@ const MAHCET = () => {
           </span>
           MAH MBA CET 2022 Seat acceptance fee is not refundable.
         </p>
+
         <p
           className="MsoNormal"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           &nbsp;
         </p>
-        <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <table className="table" style={{ width: "60%" }}>
+
+        <table className="table shadow-none" style={{ width: "90%" }}>
           <tbody>
             <tr>
               <th
@@ -6001,45 +5580,47 @@ const MAHCET = () => {
               </th>
             </tr>
             <tr>
-              <td>
+              <td
+                style={{
+                  border: "1px solid black",
+                  borderCollapse: "collapse",
+                }}
+              >
                 <a href>
                   Bennett University – Admissions 2023 (https://bit.ly/3BSLova )
                 </a>
               </td>
-              <td>
+              <td
+                style={{
+                  border: "1px solid black",
+                  borderCollapse: "collapse",
+                }}
+              >
                 <a href>Chitkara University – Admissions 2023</a>
               </td>
             </tr>
           </tbody>
         </table>
+
         <p
           className="MsoNormal"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           &nbsp;
         </p>
+
         <p
           className="MsoNormal"
           style={{
-            marginBottom: "0in",
             textAlign: "justify",
             textJustify: "inter-ideograph",
           }}
         >
           <b>FAQs – MAH CET MBA 2022 Exam</b>
         </p>
+
         <p
-          className="MsoNormal"
-          style={{
-            marginBottom: "0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-          }}
-        >
-          <b>&nbsp;</b>
-        </p>
-        <p
-          className="MsoNormal"
+          className="cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           Q: When will MAH CET result 2022 be announced?
@@ -6054,13 +5635,7 @@ const MAHCET = () => {
           the official website.
         </p>
         <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="MsoNormal"
+          className="cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           Q: What is the MAH MBA CET 2022 exam date?
@@ -6075,13 +5650,7 @@ const MAHCET = () => {
           pushed to August on May 1.
         </p>
         <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="MsoNormal"
+          className="cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           Q. What is the duration of MAH MBA CET 2022?
@@ -6096,13 +5665,7 @@ const MAHCET = () => {
           Comprehension.
         </p>
         <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="MsoNormal"
+          className="cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           Q. How many attempts are allowed in MAH CET?
@@ -6114,13 +5677,7 @@ const MAHCET = () => {
           Ans: A candidate can appear for MAH CET for 3 times only.
         </p>
         <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="MsoNormal"
+          className="cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           Q: I don’t belong to Maharashtra state. Am I eligible for MAH CET MBA?
@@ -6135,13 +5692,7 @@ const MAHCET = () => {
           same as that of Maharashtra State category candidates.
         </p>
         <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="MsoNormal"
+          className="cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           Q: Can I apply to colleges outside Maharashtra with MBA score?
@@ -6154,13 +5705,7 @@ const MAHCET = () => {
           outside Maharashtra do not accept MAH CET score for admission.
         </p>
         <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="MsoNormal"
+          className="cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           Q: Who conducts MAH MBA CET?
@@ -6174,13 +5719,7 @@ const MAHCET = () => {
           Maharashtra colleges participate in MAH CET counselling.
         </p>
         <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="MsoNormal"
+          className="cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           Q: What are the application dates for MAH CET 2022?
@@ -6194,13 +5733,7 @@ const MAHCET = () => {
           extended till April 20, 2022.
         </p>
         <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="MsoNormal"
+          className="cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           Q: What is the MAH CET application fee? Is there any fee relaxation
@@ -6216,13 +5749,7 @@ const MAHCET = () => {
           relaxation for non-Maharashtra candidates.
         </p>
         <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="MsoNormal"
+          className="cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           Q: What is the admission process through MAH CET?
@@ -6237,13 +5764,7 @@ const MAHCET = () => {
           / PGDM courses.
         </p>
         <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="MsoNormal"
+          className="cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           Q: Is MAH CET counselling MBA cut off-based?
@@ -6259,13 +5780,7 @@ const MAHCET = () => {
           submission of documents and final admission by making fee payment.
         </p>
         <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="MsoNormal"
+          className="cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           Q. Will there be GD/PI after MAH CET written exam?
@@ -6279,13 +5794,7 @@ const MAHCET = () => {
           written test.
         </p>
         <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="MsoNormal"
+          className="cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           Q: What are the MAH MBA CET 2022 counselling dates?
@@ -6299,13 +5808,7 @@ const MAHCET = () => {
           counselling to take place in October, 2022.
         </p>
         <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="MsoNormal"
+          className="cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           Q: I have completed graduation from correspondence. Am I eligible to
@@ -6321,13 +5824,7 @@ const MAHCET = () => {
           awarded is by a university recognized by the UGC.
         </p>
         <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="MsoNormal"
+          className="cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           Q: What is the MAH CET MBA cut off for JBIMS admission?

@@ -19342,6 +19342,7 @@ section:nth-child(1) {
 
 .compare-design .card-group .card .card-body p span {
   color: #000;
+  text-align: end;
 }
 
 .add-collage {

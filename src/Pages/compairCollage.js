@@ -127,7 +127,7 @@ const CompairCollage = () => {
             <div className="row">
               <div className="card-group">
                 {/* Base collage part start */}
-                <div className="card" style={{ width: "33%" }}>
+                <div className="card">
                   {getCollage?.baseCollage?.map((item, i) => {
                     return (
                       <div key={i}>
@@ -145,7 +145,7 @@ const CompairCollage = () => {
                           <div className="px-3">
                             <p style={{ display: 'flex', justifyContent: 'space-between' }}>Established Year <span>{item?.established_year}</span></p>
                             <p style={{ display: 'flex', justifyContent: 'space-between' }}>Ranking<span>{item?.ranking}</span> </p>
-                            <p style={{ display: 'flex', justifyContent: 'space-between' }}>Ownership<span>Public/Government, Autonomous</span> </p>
+                            <p style={{ display: 'flex', justifyContent: 'space-between' }}>Ownership<span className="text-end">Public/Government, Autonomous</span> </p>
                           </div>
                           <hr />
                           <h6 className="text-center">Course Details</h6>
@@ -185,41 +185,40 @@ const CompairCollage = () => {
                 {/* compaire college Card 1 details start*/}
                 
                 {getCollage?.comapareCollage?.length > 0 && collageIDs !== undefined &&
-                  <div className="card" style={{ width: "33%" }}>
-                    {getCollage?.comapareCollage?.map((item, i) => {
-                      return (
-                        <div key={i}>
-                          <img src={STATIC_URL + "/images/" + item.college_image} alt="image" />
-                          <div className="card-body">
-                            <h5 style={{ color: '#1048c3' }} className="institute-name px-3">{item?.college_name}</h5>
-                            <p className="location px-3">
-                              {item?.location}</p>
-                            <p className="course-name px-3">{item?.program}</p>
+                      getCollage?.comapareCollage?.map((item, i) => {
+                        return (
+                          <div className="card" key={i}>
+                            <img src={STATIC_URL + "/images/" + item.college_image} alt="image" />
+                            <div className="card-body">
+                              <h5 style={{ color: '#1048c3' }} className="institute-name px-3">{item?.college_name}</h5>
+                              <p className="location px-3">
+                                {item?.location}</p>
+                              <p className="course-name px-3">{item?.program}</p>
 
-                            {/* <button style={{ color: 'blue', border: 'solid' }}>Modify Selection</button> */}
-                            <hr />
-                            <h6 className="text-center">Institute Information</h6>
-                            <hr />
-                            <div className="px-3">
-                              <p style={{ display: 'flex', justifyContent: 'space-between' }}>Established Year <span>{item?.established_year}</span></p>
-                              <p style={{ display: 'flex', justifyContent: 'space-between' }}>Ranking<span>{item?.ranking}</span> </p>
-                              <p style={{ display: 'flex', justifyContent: 'space-between' }}>Ownership<span>Public/Government, Autonomous</span> </p>
-                            </div>
-                            <hr />
-                            <h6 className="text-center">Course Details</h6>
-                            <hr />
-                            <div style={{ display: 'flex', justifyContent: 'space-between' }} className="px-3">
-                              <p style={{ color: '#000' }}><strong>Total Courses <span> (11)</span></strong></p>
-                            </div>
+                              {/* <button style={{ color: 'blue', border: 'solid' }}>Modify Selection</button> */}
+                              <hr />
+                              <h6 className="text-center">Institute Information</h6>
+                              <hr />
+                              <div className="px-3">
+                                <p style={{ display: 'flex', justifyContent: 'space-between' }}>Established Year <span>{item?.established_year}</span></p>
+                                <p style={{ display: 'flex', justifyContent: 'space-between' }}>Ranking<span>{item?.ranking}</span> </p>
+                                <p style={{ display: 'flex', justifyContent: 'space-between' }}>Ownership<span className="text-end">Public/Government, Autonomous</span> </p>
+                              </div>
+                              <hr />
+                              <h6 className="text-center">Course Details</h6>
+                              <hr />
+                              <div style={{ display: 'flex', justifyContent: 'space-between' }} className="px-3">
+                                <p style={{ color: '#000' }}><strong>Total Courses <span> (11)</span></strong></p>
+                              </div>
 
-                            <div className="px-3">
-                              <p>B.Tech</p>
+                              <div className="px-3">
+                                <p>B.Tech</p>
+                              </div>
                             </div>
                           </div>
-                        </div>
-                      )
-                    })}
-                  </div>}
+                        )
+                      })
+                }
 
                 {/* compaire college Card 1 details End*/}
                 {/* compaire college Card 1  end*/}

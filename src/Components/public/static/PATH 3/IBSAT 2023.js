@@ -3,8 +3,8 @@ import { Link } from "react-router-dom";
 import { useEffect } from "react";
 const IBSAT2023 = () => {
   useEffect(() => {
-    window.scrollTo(0,0);
-  },[])
+    window.scrollTo(0, 0);
+  }, [])
   return (
     <div>
       <div className="WordSection1">
@@ -57,12 +57,6 @@ const IBSAT2023 = () => {
         <h4>Latest Update</h4>
         <p
           className="MsoListParagraphCxSpFirst"
-          style={{
-            marginBottom: "0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
         >
           <span style={{ fontFamily: "Symbol" }}>
             ·
@@ -74,11 +68,6 @@ const IBSAT2023 = () => {
         </p>
         <p
           className="MsoListParagraphCxSpMiddle"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
         >
           <span style={{ fontFamily: "Symbol" }}>
             ·
@@ -90,12 +79,6 @@ const IBSAT2023 = () => {
         </p>
         <p
           className="MsoListParagraphCxSpMiddle"
-          style={{
-            marginBottom: "0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
         >
           <span style={{ fontFamily: "Symbol" }}>
             ·
@@ -107,11 +90,6 @@ const IBSAT2023 = () => {
         </p>
         <p
           className="MsoListParagraphCxSpMiddle"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
         >
           <span style={{ fontFamily: "Symbol" }}>
             ·
@@ -123,11 +101,6 @@ const IBSAT2023 = () => {
         </p>
         <p
           className="MsoListParagraphCxSpMiddle"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
         >
           <span style={{ fontFamily: "Symbol" }}>
             ·
@@ -139,41 +112,28 @@ const IBSAT2023 = () => {
         </p>
         <p
           className="MsoListParagraphCxSpMiddle"
-          style={{
-            marginLeft: "1in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
         >
-          <span style={{ fontFamily: '"Courier New"' }}>
-            o
-            <span style={{ font: '7pt "Times New Roman"' }}>&nbsp;&nbsp; </span>
+          <span style={{ fontFamily: '"Symbol"' }}>
+            ·
+            <span style={{ font: '7pt "Times New Roman"' }}>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+            </span>
           </span>
           <a href="#6">IBSAT 2022 Online Registration</a>
         </p>
         <p
           className="MsoListParagraphCxSpMiddle"
-          style={{
-            marginLeft: "1in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
         >
-          <span style={{ fontFamily: '"Courier New"' }}>
-            o
-            <span style={{ font: '7pt "Times New Roman"' }}>&nbsp;&nbsp; </span>
+          <span style={{ fontFamily: '"Symbol"' }}>
+            ·
+            <span style={{ font: '7pt "Times New Roman"' }}>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+            </span>
           </span>
           <a href="#6a">IBSAT 2022 Offline Registration</a>
         </p>
         <p
           className="MsoListParagraphCxSpMiddle"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
         >
           <span style={{ fontFamily: "Symbol" }}>
             ·
@@ -185,11 +145,6 @@ const IBSAT2023 = () => {
         </p>
         <p
           className="MsoListParagraphCxSpMiddle"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
         >
           <span style={{ fontFamily: "Symbol" }}>
             ·
@@ -201,11 +156,6 @@ const IBSAT2023 = () => {
         </p>
         <p
           className="MsoListParagraphCxSpMiddle"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
         >
           <span style={{ fontFamily: "Symbol" }}>
             ·
@@ -217,11 +167,6 @@ const IBSAT2023 = () => {
         </p>
         <p
           className="MsoListParagraphCxSpMiddle"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
         >
           <span style={{ fontFamily: "Symbol" }}>
             ·
@@ -233,11 +178,6 @@ const IBSAT2023 = () => {
         </p>
         <p
           className="MsoListParagraphCxSpMiddle"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
         >
           <span style={{ fontFamily: "Symbol" }}>
             ·
@@ -249,11 +189,6 @@ const IBSAT2023 = () => {
         </p>
         <p
           className="MsoListParagraphCxSpMiddle"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
         >
           <span style={{ fontFamily: "Symbol" }}>
             ·
@@ -265,11 +200,6 @@ const IBSAT2023 = () => {
         </p>
         <p
           className="MsoListParagraphCxSpMiddle"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
         >
           <span style={{ fontFamily: "Symbol" }}>
             ·
@@ -281,11 +211,6 @@ const IBSAT2023 = () => {
         </p>
         <p
           className="MsoListParagraphCxSpMiddle"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
         >
           <span style={{ fontFamily: "Symbol" }}>
             ·
@@ -297,12 +222,6 @@ const IBSAT2023 = () => {
         </p>
         <p
           className="MsoListParagraphCxSpLast"
-          style={{
-            marginBottom: "0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
         >
           <span style={{ fontFamily: "Symbol" }}>
             ·
@@ -315,78 +234,6 @@ const IBSAT2023 = () => {
         <p
           className="MsoNormal"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-      
-       
-        <p
-          className="MsoNormal"
-          style={{
-            marginBottom: "0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-          }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="MsoNormal"
-          style={{
-            marginBottom: "0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-          }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="MsoNormal"
-          style={{
-            marginBottom: "0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-          }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="MsoNormal"
-          style={{
-            marginBottom: "0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-          }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="MsoNormal"
-          style={{
-            marginBottom: "0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-          }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="MsoNormal"
-          style={{
-            marginBottom: "0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-          }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="MsoNormal"
-          style={{
-            marginBottom: "0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-          }}
         >
           &nbsp;
         </p>
@@ -432,31 +279,30 @@ const IBSAT2023 = () => {
           round and then appear for the final selection rounds, including Group
           Discussion (GD) and Personal Interview (PI) round.
         </p>
+
         <p
           className="MsoNormal"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           &nbsp;
         </p>
-        <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
+
         <CustomTable />
+
         <p
           className="MsoNormal"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           &nbsp;
         </p>
+
         <p
           className="MsoNormal" id="2"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           <b>IBSAT 2022 Examination– Highlights</b>
         </p>
+
         <table
           className="MsoTableGrid"
           style={{ borderCollapse: "collapse", border: "none" }}
@@ -484,7 +330,7 @@ const IBSAT2023 = () => {
                   }}
                 >
                   <b>
-                    <u>Particulars</u>
+                    Particulars
                   </b>
                 </p>
               </td>
@@ -507,7 +353,7 @@ const IBSAT2023 = () => {
                   }}
                 >
                   <b>
-                    <u>Details</u>
+                    Details
                   </b>
                 </p>
               </td>
@@ -1437,22 +1283,17 @@ const IBSAT2023 = () => {
             </tr>
           </tbody>
         </table>
+
         <p
           className="MsoNormal"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           &nbsp;
         </p>
-        <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
+
         <p
           className="MsoNormal" id="3"
           style={{
-            marginBottom: "0in",
             textAlign: "justify",
             textJustify: "inter-ideograph",
           }}
@@ -1462,34 +1303,12 @@ const IBSAT2023 = () => {
         <p
           className="MsoNormal"
           style={{
-            marginBottom: "0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-          }}
-        >
-          <b>&nbsp;</b>
-        </p>
-        <p
-          className="MsoNormal"
-          style={{
-            marginBottom: "0in",
-            textAlign: "justify",
             textJustify: "inter-ideograph",
           }}
         >
           The IBSAT 2022 important dates, exam schedule, last date to apply,
           last date to download admit card, exam date and other IBSAT exam
           details are as under:
-        </p>
-        <p
-          className="MsoNormal"
-          style={{
-            marginBottom: "0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-          }}
-        >
-          &nbsp;
         </p>
         <table
           className="MsoTableGrid"
@@ -1519,7 +1338,7 @@ const IBSAT2023 = () => {
                   align="center"
                 >
                   <b>
-                    <u>IBSAT 2022 Exam Dates</u>
+                    IBSAT 2022 Exam Dates
                   </b>
                 </p>
               </td>
@@ -1543,7 +1362,7 @@ const IBSAT2023 = () => {
                   align="center"
                 >
                   <b>
-                    <u>Important IBSAT Dates</u>
+                    Important IBSAT Dates
                   </b>
                 </p>
               </td>
@@ -2123,24 +1942,21 @@ const IBSAT2023 = () => {
             </tr>
           </tbody>
         </table>
-        <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          <b>&nbsp;</b>
-        </p>
+
         <p
           className="MsoNormal" id="4"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           <b>&nbsp;</b>
         </p>
+
         <p
           className="MsoNormal"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           <b>IBSAT 2022 Eligibility Criteria</b>
         </p>
+
         <p
           className="MsoNormal"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
@@ -2149,12 +1965,7 @@ const IBSAT2023 = () => {
           eligibility criteria for appearing in IBSA exam 2022:
         </p>
         <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
+          className="cont"
         >
           <span style={{ fontFamily: "Symbol" }}>
             ·
@@ -2166,12 +1977,7 @@ const IBSAT2023 = () => {
           instruction as English.
         </p>
         <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
+          className="cont"
         >
           <span style={{ fontFamily: "Symbol" }}>
             ·
@@ -2183,12 +1989,7 @@ const IBSAT2023 = () => {
           education (on 10+2+3 or 10+2+4 basis).
         </p>
         <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
+          className="cont"
         >
           <span style={{ fontFamily: "Symbol" }}>
             ·
@@ -2225,12 +2026,7 @@ const IBSAT2023 = () => {
           <u>IBSAT 2022 Online Registration</u>
         </p>
         <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
+          className="cont"
         >
           1.
           <span style={{ font: '7pt "Times New Roman"' }}>
@@ -2242,12 +2038,7 @@ const IBSAT2023 = () => {
           </a>
         </p>
         <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
+          className="cont"
         >
           2.
           <span style={{ font: '7pt "Times New Roman"' }}>
@@ -2257,12 +2048,7 @@ const IBSAT2023 = () => {
           details, address, etc.
         </p>
         <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
+          className="cont"
         >
           3.
           <span style={{ font: '7pt "Times New Roman"' }}>
@@ -2273,13 +2059,7 @@ const IBSAT2023 = () => {
           are:
         </p>
         <p
-          className="cont1"
-          style={{
-            marginLeft: "1in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
+          className="cont"
         >
           a.
           <span style={{ font: '7pt "Times New Roman"' }}>
@@ -2289,13 +2069,7 @@ const IBSAT2023 = () => {
           and Address
         </p>
         <p
-          className="cont1"
-          style={{
-            marginLeft: "1in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
+          className="cont"
         >
           b.
           <span style={{ font: '7pt "Times New Roman"' }}>
@@ -2306,13 +2080,7 @@ const IBSAT2023 = () => {
           numbers
         </p>
         <p
-          className="cont1"
-          style={{
-            marginLeft: "1in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
+          className="cont"
         >
           c.
           <span style={{ font: '7pt "Times New Roman"' }}>
@@ -2321,12 +2089,7 @@ const IBSAT2023 = () => {
           Documents: Photograph and signature as per specifications
         </p>
         <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
+          className="cont"
         >
           4.
           <span style={{ font: '7pt "Times New Roman"' }}>
@@ -2337,12 +2100,7 @@ const IBSAT2023 = () => {
           Card / Debit Card.
         </p>
         <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
+          className="cont"
         >
           5.
           <span style={{ font: '7pt "Times New Roman"' }}>
@@ -2358,12 +2116,7 @@ const IBSAT2023 = () => {
           <u>IBSAT 2022 Offline Registration</u>
         </p>
         <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
+          className="cont"
         >
           1.
           <span style={{ font: '7pt "Times New Roman"' }}>
@@ -2374,12 +2127,7 @@ const IBSAT2023 = () => {
           Rs. 1,800 in cash.
         </p>
         <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
+          className="cont"
         >
           2.
           <span style={{ font: '7pt "Times New Roman"' }}>
@@ -2389,12 +2137,7 @@ const IBSAT2023 = () => {
           number will be printed in it.
         </p>
         <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
+          className="cont"
         >
           3.
           <span style={{ font: '7pt "Times New Roman"' }}>
@@ -2407,12 +2150,7 @@ const IBSAT2023 = () => {
           and set a new password.
         </p>
         <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
+          className="cont"
         >
           4.
           <span style={{ font: '7pt "Times New Roman"' }}>
@@ -2476,7 +2214,7 @@ const IBSAT2023 = () => {
                   align="center"
                 >
                   <b>
-                    <u>IBSAT Section</u>
+                    IBSAT Section
                   </b>
                 </p>
               </td>
@@ -2500,7 +2238,7 @@ const IBSAT2023 = () => {
                   align="center"
                 >
                   <b>
-                    <u>Number of Questions (MCQs)</u>
+                    Number of Questions (MCQs)
                   </b>
                 </p>
               </td>
@@ -2712,10 +2450,8 @@ const IBSAT2023 = () => {
                   className="MsoNormal bold1"
                   style={{
                     marginBottom: "0in",
-                    textAlign: "center",
                     lineHeight: "normal",
                   }}
-                  align="center"
                 >
                   Total
                 </p>
@@ -2753,12 +2489,7 @@ const IBSAT2023 = () => {
         >
           &nbsp;
         </p>
-        <p
-          className="MsoNormal" id="8"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
+
         <p
           className="MsoNormal"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
@@ -2799,7 +2530,7 @@ const IBSAT2023 = () => {
                   align="center"
                 >
                   <b>
-                    <u>Syllabus</u>
+                    Syllabus
                   </b>
                 </p>
               </td>
@@ -2822,7 +2553,7 @@ const IBSAT2023 = () => {
                   align="center"
                 >
                   <b>
-                    <u>Important Topics</u>
+                    Important Topics
                   </b>
                 </p>
               </td>
@@ -3020,24 +2751,21 @@ const IBSAT2023 = () => {
             </tr>
           </tbody>
         </table>
+
         <p
           className="MsoNormal"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           &nbsp;
         </p>
-        <p
-          className="MsoNormal" id="9"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
+
         <p
           className="MsoNormal"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           <b>IBSAT 2022 Exam Preparation Tips</b>
         </p>
+
         <p
           className="MsoNormal"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
@@ -3055,12 +2783,7 @@ const IBSAT2023 = () => {
           Some of the important tips for preparing for IBSAT 2022 are:
         </p>
         <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
+          className="cont"
         >
           1.
           <span style={{ font: '7pt "Times New Roman"' }}>
@@ -3069,12 +2792,7 @@ const IBSAT2023 = () => {
           Allot three to four months to cover the IBSAT syllabus
         </p>
         <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
+          className="cont"
         >
           2.
           <span style={{ font: '7pt "Times New Roman"' }}>
@@ -3084,12 +2802,7 @@ const IBSAT2023 = () => {
           and mock tests
         </p>
         <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
+          className="cont"
         >
           3.
           <span style={{ font: '7pt "Times New Roman"' }}>
@@ -3098,12 +2811,7 @@ const IBSAT2023 = () => {
           Follow a systematic plan to complete the IBSAT syllabus
         </p>
         <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
+          className="cont"
         >
           4.
           <span style={{ font: '7pt "Times New Roman"' }}>
@@ -3133,18 +2841,14 @@ const IBSAT2023 = () => {
           paper. Candidates must adhere to the prescribed eligibility criteria
           to appear for IBSAT national mock test 2022.
         </p>
+
         <p
           className="MsoNormal"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           &nbsp;
         </p>
-        <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
+
         <CustomTable />
         <p
           className="MsoNormal" id="11"
@@ -3152,6 +2856,7 @@ const IBSAT2023 = () => {
         >
           &nbsp;
         </p>
+
         <p
           className="MsoNormal"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
@@ -3167,12 +2872,7 @@ const IBSAT2023 = () => {
           steps mentioned below:
         </p>
         <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
+          className="cont"
         >
           1.
           <span style={{ font: '7pt "Times New Roman"' }}>
@@ -3181,12 +2881,7 @@ const IBSAT2023 = () => {
           Go to IBSAT official website.
         </p>
         <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
+          className="cont"
         >
           2.
           <span style={{ font: '7pt "Times New Roman"' }}>
@@ -3195,12 +2890,7 @@ const IBSAT2023 = () => {
           Click on the 'Existing User' tab on the homepage.
         </p>
         <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
+          className="cont"
         >
           3.
           <span style={{ font: '7pt "Times New Roman"' }}>
@@ -3209,12 +2899,7 @@ const IBSAT2023 = () => {
           Enter your IBSAT login for admit card and click on 'Login'.
         </p>
         <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
+          className="cont"
         >
           4.
           <span style={{ font: '7pt "Times New Roman"' }}>
@@ -3223,12 +2908,7 @@ const IBSAT2023 = () => {
           You will be redirected to the candidate profile page.
         </p>
         <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
+          className="cont"
         >
           5.
           <span style={{ font: '7pt "Times New Roman"' }}>
@@ -3237,12 +2917,7 @@ const IBSAT2023 = () => {
           Click on the 'Download IBSAT Admit Card' option.
         </p>
         <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
+          className="cont"
         >
           6.
           <span style={{ font: '7pt "Times New Roman"' }}>
@@ -3280,12 +2955,7 @@ const IBSAT2023 = () => {
           To download the IBSAT result 2022, following the below steps:
         </p>
         <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
+          className="cont"
         >
           1.
           <span style={{ font: '7pt "Times New Roman"' }}>
@@ -3295,12 +2965,7 @@ const IBSAT2023 = () => {
           “IBSAT 2022 result” tab
         </p>
         <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
+          className="cont"
         >
           2.
           <span style={{ font: '7pt "Times New Roman"' }}>
@@ -3310,12 +2975,7 @@ const IBSAT2023 = () => {
           will have to enter their IBSAT application number and password
         </p>
         <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
+          className="cont"
         >
           3.
           <span style={{ font: '7pt "Times New Roman"' }}>
@@ -3326,12 +2986,7 @@ const IBSAT2023 = () => {
           Candidates can check their names on the available IBSAT result list.
         </p>
         <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
+          className="cont"
         >
           4.
           <span style={{ font: '7pt "Times New Roman"' }}>
@@ -3361,6 +3016,7 @@ const IBSAT2023 = () => {
           weightage allotted to different components in the selection process
           are as follows:
         </p>
+
         <table
           className="MsoTableGrid"
           style={{ borderCollapse: "collapse", border: "none" }}
@@ -3389,7 +3045,7 @@ const IBSAT2023 = () => {
                   align="center"
                 >
                   <b>
-                    <u>IBSAT Selection Criteria</u>
+                    IBSAT Selection Criteria
                   </b>
                 </p>
               </td>
@@ -3413,7 +3069,7 @@ const IBSAT2023 = () => {
                   align="center"
                 >
                   <b>
-                    <u>Weightage (in percentage)</u>
+                    Weightage (in percentage)
                   </b>
                 </p>
               </td>
@@ -3668,10 +3324,8 @@ const IBSAT2023 = () => {
                   className="MsoNormal"
                   style={{
                     marginBottom: "0in",
-                    textAlign: "center",
                     lineHeight: "normal",
                   }}
-                  align="center"
                 >
                   Total
                 </p>
@@ -3703,18 +3357,14 @@ const IBSAT2023 = () => {
             </tr>
           </tbody>
         </table>
+
         <p
           className="MsoNormal"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           &nbsp;
         </p>
-        <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          <b>&nbsp;</b>
-        </p>
+
         <p
           className="MsoNormal"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
@@ -3728,12 +3378,7 @@ const IBSAT2023 = () => {
           The Expected IBSAT 2022 exam cut offs for MBA admission 2023 in 9
           campuses of ICFAI B-schools are likely to be as given below:
         </p>
-        <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
+
         <table
           className="MsoTableGrid"
           style={{ borderCollapse: "collapse", border: "none" }}
@@ -3762,7 +3407,7 @@ const IBSAT2023 = () => {
                   align="center"
                 >
                   <b>
-                    <u>ICFAI B-Schools</u>
+                    ICFAI B-Schools
                   </b>
                 </p>
               </td>
@@ -3786,7 +3431,7 @@ const IBSAT2023 = () => {
                   align="center"
                 >
                   <b>
-                    <u>IBSAT cut off (percentile)</u>
+                    IBSAT cut off (percentile)
                   </b>
                 </p>
               </td>
@@ -4225,30 +3870,16 @@ const IBSAT2023 = () => {
             </tr>
           </tbody>
         </table>
-        <p className="MsoNormal">&nbsp;</p>
-        <p
-          className="MsoNormal"
-          style={{
-            marginBottom: "0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-          }}
-        >
-          &nbsp;
-        </p>
+
         <p
           className="MsoNormal"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           &nbsp;
         </p>
+
         <CustomTable />
-        <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
+
         <p
           className="MsoNormal"
           style={{
@@ -4259,10 +3890,10 @@ const IBSAT2023 = () => {
         >
           &nbsp;
         </p>
+
         <p
           className="MsoNormal" id="15"
           style={{
-            marginBottom: "0in",
             textAlign: "justify",
             textJustify: "inter-ideograph",
           }}
@@ -4270,17 +3901,7 @@ const IBSAT2023 = () => {
           <b>FAQs – IBSAT Exam 2022</b>
         </p>
         <p
-          className="MsoNormal"
-          style={{
-            marginBottom: "0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-          }}
-        >
-          <b>&nbsp;</b>
-        </p>
-        <p
-          className="MsoNormal"
+          className="cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           Q. When will IBSAT 2022 registration commence?
@@ -4292,14 +3913,9 @@ const IBSAT2023 = () => {
           Ans. IBSAT 2022 registration began on 1<sup>st</sup> July, 2022 and
           application form is available.
         </p>
+
         <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="MsoNormal"
+          className="cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           Q: How to apply for IBSAT 2022?
@@ -4314,14 +3930,9 @@ const IBSAT2023 = () => {
           with the prospectus from any of the IBS campus/ designated marketing
           branches by paying Rs. 1,800 in cash.
         </p>
+
         <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="MsoNormal"
+          className="cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           Q: What is the IBS Selection Briefing?
@@ -4335,14 +3946,9 @@ const IBSAT2023 = () => {
           Selection briefings are followed by Group Discussion and Personal
           Interview.
         </p>
+
         <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="MsoNormal"
+          className="cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           Q: What is the exam pattern of IBSAT?
@@ -4356,14 +3962,9 @@ const IBSAT2023 = () => {
           Data Interpretation. The total number of questions will be 140 and the
           duration of the test is two hours.
         </p>
+
         <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="MsoNormal"
+          className="cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           Q. What is the marking scheme of IBSAT?
@@ -4375,14 +3976,9 @@ const IBSAT2023 = () => {
           Ans. The total number of questions is 140 with +1 mark for each
           correct answer. There is no negative marking.
         </p>
+
         <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="MsoNormal"
+          className="cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           Q: What is the fee structure for the MBA programme at IBS campuses?
@@ -4421,7 +4017,7 @@ const IBSAT2023 = () => {
                   align="center"
                 >
                   <b>
-                    <u>ICFAI B-Schools</u>
+                    ICFAI B-Schools
                   </b>
                 </p>
               </td>
@@ -4445,7 +4041,7 @@ const IBSAT2023 = () => {
                   align="center"
                 >
                   <b>
-                    <u>Fee for 2 Years (Rs. in Lakhs)</u>
+                    Fee for 2 Years (Rs. in Lakhs)
                   </b>
                 </p>
               </td>
@@ -4891,7 +4487,7 @@ const IBSAT2023 = () => {
           &nbsp;
         </p>
         <p
-          className="MsoNormal"
+          className="cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           Q: What is the difficulty level of IBSAT exam?
@@ -4905,13 +4501,7 @@ const IBSAT2023 = () => {
           exams, IBSAT exam is considered to be of moderate difficulty level.
         </p>
         <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="MsoNormal"
+          className="cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           Q. How can I prepare for the IBSAT exams?
@@ -4930,7 +4520,7 @@ const IBSAT2023 = () => {
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         />
         <p
-          className="MsoNormal"
+          className="cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           Q: Is there any Mock Test for IBSAT?
@@ -4944,13 +4534,7 @@ const IBSAT2023 = () => {
           level IBSAT mock tests is available on the official website.
         </p>
         <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="MsoNormal"
+          className="cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           Q: How many questions are there in the IBSAT exam?
@@ -4990,7 +4574,7 @@ const IBSAT2023 = () => {
                   align="center"
                 >
                   <b>
-                    <u>IBSAT Section</u>
+                    IBSAT Section
                   </b>
                 </p>
               </td>
@@ -5014,7 +4598,7 @@ const IBSAT2023 = () => {
                   align="center"
                 >
                   <b>
-                    <u>Number of Questions (MCQs)</u>
+                    Number of Questions (MCQs)
                   </b>
                 </p>
               </td>
@@ -5226,10 +4810,8 @@ const IBSAT2023 = () => {
                   className="MsoNormal"
                   style={{
                     marginBottom: "0in",
-                    textAlign: "center",
                     lineHeight: "normal",
                   }}
-                  align="center"
                 >
                   Total
                 </p>
@@ -5261,20 +4843,16 @@ const IBSAT2023 = () => {
             </tr>
           </tbody>
         </table>
+
         <p
           className="MsoNormal"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           &nbsp;
         </p>
+
         <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="MsoNormal"
+          className="cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           Q: Can students in their graduation apply for IBSAT exam?
@@ -5288,13 +4866,7 @@ const IBSAT2023 = () => {
           apply for the IBSAT exam.
         </p>
         <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="MsoNormal"
+          className="cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           Q: Is work experience necessary criteria for the IBSAT selection
@@ -5309,13 +4881,7 @@ const IBSAT2023 = () => {
           consideration.
         </p>
         <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="MsoNormal"
+          className="cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           Q. Are candidates called for counselling only based on IBSAT score?
@@ -5328,13 +4894,7 @@ const IBSAT2023 = () => {
           GMAT, CAT, NMAT by GMAC are also called for counseling.
         </p>
         <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="MsoNormal"
+          className="cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           Q. What is the last date for IBSAT 2022 registration?
@@ -5347,13 +4907,7 @@ const IBSAT2023 = () => {
           will be tentatively in the third week of December 2022.
         </p>
         <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="MsoNormal"
+          className="cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           Q. When can I download the IBSAT 2022 admit card?
@@ -5366,13 +4920,7 @@ const IBSAT2023 = () => {
           process is over.
         </p>
         <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="MsoNormal"
+          className="cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           Q. Is there any management quota of seats for MBA admission in ICFAI
@@ -5385,13 +4933,7 @@ const IBSAT2023 = () => {
           Ans. No there is no management quota or NRI quota.
         </p>
         <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="MsoNormal"
+          className="cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           Q. How and when the selection process is conducted?
@@ -5406,13 +4948,7 @@ const IBSAT2023 = () => {
           campus, ONLINE selection process will be conducted.
         </p>
         <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="MsoNormal"
+          className="cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           Q. What are the programmes offered by IBS?

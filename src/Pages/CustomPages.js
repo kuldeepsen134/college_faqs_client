@@ -25,7 +25,7 @@ const CustomPage = (props) => {
             <div className="col-12 p-0">
 
               <img
-                src="./img/college-banner.jpg"
+                src="/img/college/college-banner.jpg"
                 alt="Hero banner"
               />
             </div>

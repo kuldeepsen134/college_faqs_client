@@ -3,8 +3,8 @@ import { Link } from "react-router-dom";
 import { useEffect } from "react";
 const CMAT2023Incomplete = () => {
   useEffect(() => {
-    window.scrollTo(0,0);
-  },[])
+    window.scrollTo(0, 0);
+  }, [])
 
 
   return (
@@ -235,61 +235,61 @@ const CMAT2023Incomplete = () => {
         </p>
         <p
           className="MsoListParagraphCxSpMiddle"
-          
+
         >
           <span style={{ fontFamily: "Symbol" }}>
-            o
-            <span style={{ font: '7pt "Times New Roman"' }}>&nbsp;&nbsp; </span>
+            ·
+            <span style={{ font: '7pt "Times New Roman"' }}>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "} </span>
           </span>
           <a href="#16a">Top MBA / PGDM Colleges in Delhi-NCR Accepting CMAT</a>
         </p>
         <p
           className="MsoListParagraphCxSpMiddle"
-          
+
         >
           <span style={{ fontFamily: "Symbol" }}>
-            o
-            <span style={{ font: '7pt "Times New Roman"' }}>&nbsp;&nbsp; </span>
+            ·
+            <span style={{ font: '7pt "Times New Roman"' }}>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "} </span>
           </span>
           <a href="#16b">Top MBA / PGDM Colleges in Mumbai Accepting CMAT </a>
         </p>
         <p
           className="MsoListParagraphCxSpMiddle"
-          
+
         >
           <span style={{ fontFamily: "Symbol" }}>
-            o
-            <span style={{ font: '7pt "Times New Roman"' }}>&nbsp;&nbsp; </span>
+            ·
+            <span style={{ font: '7pt "Times New Roman"' }}>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "} </span>
           </span>
           <a href="#16c">Top MBA Colleges in Bangalore Accepting CMAT</a>
         </p>
         <p
           className="MsoListParagraphCxSpMiddle"
-          
+
         >
           <span style={{ fontFamily: "Symbol" }}>
-            o
-            <span style={{ font: '7pt "Times New Roman"' }}>&nbsp;&nbsp; </span>
+            ·
+            <span style={{ font: '7pt "Times New Roman"' }}>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "} </span>
           </span>
           <a href="#16d">Top MBA Colleges in Pune Accepting CMAT</a>
         </p>
         <p
           className="MsoListParagraphCxSpMiddle"
-          
+
         >
           <span style={{ fontFamily: "Symbol" }}>
-            o
-            <span style={{ font: '7pt "Times New Roman"' }}>&nbsp;&nbsp; </span>
+            ·
+            <span style={{ font: '7pt "Times New Roman"' }}>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "} </span>
           </span>
           <a href="#16e">Top MBA Colleges in Hyderabad Accepting CMAT</a>
         </p>
         <p
           className="MsoListParagraphCxSpMiddle"
-          
+
         >
           <span style={{ fontFamily: "Symbol" }}>
-            o
-            <span style={{ font: '7pt "Times New Roman"' }}>&nbsp;&nbsp; </span>
+            ·
+            <span style={{ font: '7pt "Times New Roman"' }}>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "} </span>
           </span>
           <a href="#16f">Top MBA Colleges in Kolkata Accepting CMAT</a>
         </p>
@@ -303,23 +303,6 @@ const CMAT2023Incomplete = () => {
             </span>
           </span>
           <a href="#17">FAQs CMAT Exam 2023</a>
-        </p>
-        <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-    
-        <p
-          className="MsoNormal"
-          style={{
-            marginBottom: "0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-          }}
-        >
-          &nbsp;
         </p>
         <p
           className="MsoNormal"
@@ -375,18 +358,21 @@ const CMAT2023Incomplete = () => {
           is conducted in Computer Based Test (CBT) mode and the duration of the
           exam is three hours.
         </p>
+
         <p
           className="MsoNormal" id="2"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           &nbsp;
         </p>
+
         <p
           className="MsoNormal"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           <b>CMAT Examination 2023 – Highlights</b>
         </p>
+
         <table
           className="MsoTableGrid"
           style={{ borderCollapse: "collapse", border: "none" }}
@@ -414,7 +400,7 @@ const CMAT2023Incomplete = () => {
                   }}
                 >
                   <b>
-                    <u>Particulars</u>
+                    Particulars
                   </b>
                 </p>
               </td>
@@ -437,7 +423,7 @@ const CMAT2023Incomplete = () => {
                   }}
                 >
                   <b>
-                    <u>Details</u>
+                    Details
                   </b>
                 </p>
               </td>
@@ -1380,42 +1366,27 @@ const CMAT2023Incomplete = () => {
             </tr>
           </tbody>
         </table>
+
         <p
           className="MsoNormal"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           &nbsp;
         </p>
-        <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
+
         <p
           className="MsoNormal bold1" id="3"
           style={{
-            marginBottom: "0in",
             textAlign: "justify",
             textJustify: "inter-ideograph",
           }}
         >
           <b>CMAT 2023 Important Dates</b>
         </p>
+
         <p
           className="MsoNormal"
           style={{
-            marginBottom: "0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-          }}
-        >
-          <b>&nbsp;</b>
-        </p>
-        <p
-          className="MsoNormal"
-          style={{
-            marginBottom: "0in",
             textAlign: "justify",
             textJustify: "inter-ideograph",
           }}
@@ -1423,16 +1394,7 @@ const CMAT2023Incomplete = () => {
           Any official notification has not been issued by NTA related to CMAT
           2023. However, based on previous exam trend the tentative dates are:
         </p>
-        <p
-          className="MsoNormal"
-          style={{
-            marginBottom: "0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-          }}
-        >
-          &nbsp;
-        </p>
+
         <table
           className="MsoTableGrid"
           style={{ borderCollapse: "collapse", border: "none" }}
@@ -1461,7 +1423,7 @@ const CMAT2023Incomplete = () => {
                   align="center"
                 >
                   <b>
-                    <u>CMAT Exam 2023 Events</u>
+                    CMAT Exam 2023 Events
                   </b>
                 </p>
               </td>
@@ -1485,7 +1447,7 @@ const CMAT2023Incomplete = () => {
                   align="center"
                 >
                   <b>
-                    <u>Important Dates</u>
+                    Important Dates
                   </b>
                 </p>
               </td>
@@ -1899,18 +1861,14 @@ const CMAT2023Incomplete = () => {
             </tr>
           </tbody>
         </table>
+
         <p
           className="MsoNormal"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           &nbsp;
         </p>
-        <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
+
         <CustomTable />
         <p
           className="MsoNormal"
@@ -1918,12 +1876,7 @@ const CMAT2023Incomplete = () => {
         >
           &nbsp;
         </p>
-        <p
-          className="MsoNormal" id="4"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          <b>&nbsp;</b>
-        </p>
+
         <p
           className="MsoNormal"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
@@ -1935,12 +1888,7 @@ const CMAT2023Incomplete = () => {
           following eligibility criteria:
         </p>
         <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
+          className="cont"
         >
           <span style={{ fontFamily: "Symbol" }}>
             ·
@@ -1951,12 +1899,7 @@ const CMAT2023Incomplete = () => {
           Candidate must be an Indian resident.
         </p>
         <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
+          className="cont"
         >
           <span style={{ fontFamily: "Symbol" }}>
             ·
@@ -1969,12 +1912,7 @@ const CMAT2023Incomplete = () => {
           institute/university.
         </p>
         <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
+          className="cont"
         >
           <span style={{ fontFamily: "Symbol" }}>
             ·
@@ -1987,12 +1925,7 @@ const CMAT2023Incomplete = () => {
           before admission for academic year begins.
         </p>
         <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
+          className="cont"
         >
           <span style={{ fontFamily: "Symbol" }}>
             ·
@@ -2003,12 +1936,7 @@ const CMAT2023Incomplete = () => {
           There is no minimum score criteria for CMAT.
         </p>
         <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
+          className="cont"
         >
           <span style={{ fontFamily: "Symbol" }}>
             ·
@@ -2018,18 +1946,21 @@ const CMAT2023Incomplete = () => {
           </span>
           There is no upper age limit for applying and appearing in CMAT exam.
         </p>
+
         <p
           className="MsoNormal" id="5"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           <b>&nbsp;</b>
         </p>
+
         <p
           className="MsoNormal"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           <b>CMAT Registration Process 2023</b>
         </p>
+
         <p
           className="MsoNormal"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
@@ -2042,12 +1973,7 @@ const CMAT2023Incomplete = () => {
           included the following steps:
         </p>
         <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
+          className="cont"
         >
           <span style={{ fontFamily: "Symbol" }}>
             ·
@@ -2059,12 +1985,7 @@ const CMAT2023Incomplete = () => {
           phone number.
         </p>
         <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
+          className="cont"
         >
           <span style={{ fontFamily: "Symbol" }}>
             ·
@@ -2076,12 +1997,7 @@ const CMAT2023Incomplete = () => {
           OTP/e-mail.
         </p>
         <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
+          className="cont"
         >
           <span style={{ fontFamily: "Symbol" }}>
             ·
@@ -2093,12 +2009,7 @@ const CMAT2023Incomplete = () => {
           academic details.
         </p>
         <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
+          className="cont"
         >
           <span style={{ fontFamily: "Symbol" }}>
             ·
@@ -2110,12 +2021,7 @@ const CMAT2023Incomplete = () => {
           size limit.
         </p>
         <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
+          className="cont"
         >
           <span style={{ fontFamily: "Symbol" }}>
             ·
@@ -2142,6 +2048,7 @@ const CMAT2023Incomplete = () => {
           CMAT 2023 is expected to be conducted in about 124 cities. Listed
           below are the names of cities and states:
         </p>
+
         <table
           className="MsoTableGrid"
           style={{ borderCollapse: "collapse", border: "none" }}
@@ -2170,7 +2077,7 @@ const CMAT2023Incomplete = () => {
                   align="center"
                 >
                   <b>
-                    <u>State</u>
+                   State
                   </b>
                 </p>
               </td>
@@ -2194,7 +2101,7 @@ const CMAT2023Incomplete = () => {
                   align="center"
                 >
                   <b>
-                    <u>Name of the City</u>
+                   Name of the City
                   </b>
                 </p>
               </td>
@@ -4761,30 +4668,21 @@ const CMAT2023Incomplete = () => {
             </tr>
           </tbody>
         </table>
-        <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
+
         <p
           className="MsoNormal" id="7"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           &nbsp;
         </p>
+
         <p
           className="MsoNormal"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           <b>CMAT Exam Pattern</b>
         </p>
+
         <p
           className="MsoNormal"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
@@ -4792,14 +4690,7 @@ const CMAT2023Incomplete = () => {
           CMAT exam during last three years has gone with some key changes. Some
           of the key changes over the years are:
         </p>
-        <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
-        >
+        <p className="cont">
           <span style={{ fontFamily: "Symbol" }}>
             ·
             <span style={{ font: '7pt "Times New Roman"' }}>
@@ -4808,14 +4699,7 @@ const CMAT2023Incomplete = () => {
           </span>
           CMAT Exam duration is reduced to 3 Hours from 3½ Hours earlier
         </p>
-        <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
-        >
+        <p className="cont">
           <span style={{ fontFamily: "Symbol" }}>
             ·
             <span style={{ font: '7pt "Times New Roman"' }}>
@@ -4824,14 +4708,7 @@ const CMAT2023Incomplete = () => {
           </span>
           Optional Sectional in CMAT exam is Made Compulsory Section
         </p>
-        <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
-        >
+        <p className="cont">
           <span style={{ fontFamily: "Symbol" }}>
             ·
             <span style={{ font: '7pt "Times New Roman"' }}>
@@ -4846,6 +4723,7 @@ const CMAT2023Incomplete = () => {
         >
           The updated CMAT 2023 pattern with sectional composition is as below:
         </p>
+
         <table
           className="MsoTableGrid"
           style={{ borderCollapse: "collapse", border: "none" }}
@@ -4874,7 +4752,7 @@ const CMAT2023Incomplete = () => {
                   align="center"
                 >
                   <b>
-                    <u>CMAT 2023 Exam Sections</u>
+                    CMAT 2023 Exam Sections
                   </b>
                 </p>
               </td>
@@ -4898,7 +4776,7 @@ const CMAT2023Incomplete = () => {
                   align="center"
                 >
                   <b>
-                    <u>Number of Questions</u>
+                    Number of Questions
                   </b>
                 </p>
               </td>
@@ -4922,7 +4800,7 @@ const CMAT2023Incomplete = () => {
                   align="center"
                 >
                   <b>
-                    <u>Maximum Marks Section-wise</u>
+                    Maximum Marks Section-wise
                   </b>
                 </p>
               </td>
@@ -5302,10 +5180,8 @@ const CMAT2023Incomplete = () => {
                   className="MsoNormal bold1"
                   style={{
                     marginBottom: "0in",
-                    textAlign: "right",
                     lineHeight: "normal",
                   }}
-                  align="right"
                 >
                   Total
                 </p>
@@ -5361,18 +5237,14 @@ const CMAT2023Incomplete = () => {
             </tr>
           </tbody>
         </table>
-        <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
+        
         <p
           className="MsoNormal" id="8"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           &nbsp;
         </p>
+
         <p
           className="MsoNormal"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
@@ -5418,7 +5290,7 @@ const CMAT2023Incomplete = () => {
                   align="center"
                 >
                   <b>
-                    <u>Syllabus</u>
+                   Syllabus
                   </b>
                 </p>
               </td>
@@ -5441,7 +5313,7 @@ const CMAT2023Incomplete = () => {
                   align="center"
                 >
                   <b>
-                    <u>Important Topics</u>
+                   Important Topics
                   </b>
                 </p>
               </td>
@@ -5686,6 +5558,7 @@ const CMAT2023Incomplete = () => {
             </tr>
           </tbody>
         </table>
+
         <p
           className="MsoNormal" id="9"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
@@ -5706,14 +5579,7 @@ const CMAT2023Incomplete = () => {
           preparation six to nine months before the entrance exam. They must
           devise an exam preparation plan which should include:
         </p>
-        <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
-        >
+        <p className="cont">
           1.
           <span style={{ font: '7pt "Times New Roman"' }}>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
@@ -5727,20 +5593,8 @@ const CMAT2023Incomplete = () => {
           tougher topics first. Once they are thorough with the tough topics
           they should move to easier topics.
         </p>
-        <p
-          className="cont1"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
-        >
+        
+        <p className="cont">
           2.
           <span style={{ font: '7pt "Times New Roman"' }}>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
@@ -5750,15 +5604,8 @@ const CMAT2023Incomplete = () => {
           preparation level. Practice 25-30 mock tests to improve your speed and
           accuracy in solving questions.
         </p>
-        <p className="cont1">&nbsp;</p>
-        <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
-        >
+        
+        <p className="cont">
           3.
           <span style={{ font: '7pt "Times New Roman"' }}>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
@@ -5787,14 +5634,7 @@ const CMAT2023Incomplete = () => {
           the CMAT admit card. The process to download CMAT admit card 2023 from
           the NTA website is given below:
         </p>
-        <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
-        >
+        <p className="cont">
           <span style={{ fontFamily: "Symbol" }}>
             ·
             <span style={{ font: '7pt "Times New Roman"' }}>
@@ -5804,14 +5644,7 @@ const CMAT2023Incomplete = () => {
           Visit the CMAT-NTA website -
           <a href="https://cmat.nta.nic.in">https://cmat.nta.nic.in</a>
         </p>
-        <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
-        >
+        <p className="cont">
           <span style={{ fontFamily: "Symbol" }}>
             ·
             <span style={{ font: '7pt "Times New Roman"' }}>
@@ -5820,14 +5653,7 @@ const CMAT2023Incomplete = () => {
           </span>
           Click on ' Download Admit Card for CMAT 2023'
         </p>
-        <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
-        >
+        <p className="cont">
           <span style={{ fontFamily: "Symbol" }}>
             ·
             <span style={{ font: '7pt "Times New Roman"' }}>
@@ -5836,14 +5662,7 @@ const CMAT2023Incomplete = () => {
           </span>
           Enter application number and date of birth or password
         </p>
-        <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
-        >
+        <p className="cont">
           <span style={{ fontFamily: "Symbol" }}>
             ·
             <span style={{ font: '7pt "Times New Roman"' }}>
@@ -5852,14 +5671,7 @@ const CMAT2023Incomplete = () => {
           </span>
           Click on submit to log in to your account
         </p>
-        <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
-        >
+        <p className="cont">
           <span style={{ fontFamily: "Symbol" }}>
             ·
             <span style={{ font: '7pt "Times New Roman"' }}>
@@ -5868,14 +5680,7 @@ const CMAT2023Incomplete = () => {
           </span>
           Fill the self declaration form to go to the admit card
         </p>
-        <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
-        >
+        <p className="cont">
           <span style={{ fontFamily: "Symbol" }}>
             ·
             <span style={{ font: '7pt "Times New Roman"' }}>
@@ -5884,18 +5689,14 @@ const CMAT2023Incomplete = () => {
           </span>
           Download the CMAT admit card as PDF
         </p>
+
         <p
           className="MsoNormal"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           &nbsp;
         </p>
-        <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
+
         <CustomTable />
         <p
           className="MsoNormal" id="11"
@@ -5903,6 +5704,7 @@ const CMAT2023Incomplete = () => {
         >
           &nbsp;
         </p>
+
         <p
           className="MsoNormal"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
@@ -5916,14 +5718,7 @@ const CMAT2023Incomplete = () => {
           Candidates appearing for the CMAT 2023 exam must keep in mind the
           following points for the exam day:
         </p>
-        <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
-        >
+        <p className="cont">
           <span style={{ fontFamily: "Symbol" }}>
             ·
             <span style={{ font: '7pt "Times New Roman"' }}>
@@ -5932,14 +5727,7 @@ const CMAT2023Incomplete = () => {
           </span>
           Carry a print out of your CMAT admit card
         </p>
-        <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
-        >
+        <p className="cont">
           <span style={{ fontFamily: "Symbol" }}>
             ·
             <span style={{ font: '7pt "Times New Roman"' }}>
@@ -5949,14 +5737,7 @@ const CMAT2023Incomplete = () => {
           Reach your CMAT exam centre at the reporting time mentioned in your
           admit card.
         </p>
-        <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
-        >
+        <p className="cont">
           <span style={{ fontFamily: "Symbol" }}>
             ·
             <span style={{ font: '7pt "Times New Roman"' }}>
@@ -5966,14 +5747,7 @@ const CMAT2023Incomplete = () => {
           Electronic items are not allowed inside the exam venue. You are also
           advised to not carry valuable items.
         </p>
-        <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
-        >
+        <p className="cont">
           <span style={{ fontFamily: "Symbol" }}>
             ·
             <span style={{ font: '7pt "Times New Roman"' }}>
@@ -5988,14 +5762,7 @@ const CMAT2023Incomplete = () => {
         >
           A student can carry any of the following documents as an ID proof:
         </p>
-        <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
-        >
+        <p className="cont">
           <span style={{ fontFamily: "Symbol" }}>
             ·
             <span style={{ font: '7pt "Times New Roman"' }}>
@@ -6004,14 +5771,7 @@ const CMAT2023Incomplete = () => {
           </span>
           Aadhar card
         </p>
-        <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
-        >
+        <p className="cont">
           <span style={{ fontFamily: "Symbol" }}>
             ·
             <span style={{ font: '7pt "Times New Roman"' }}>
@@ -6020,14 +5780,7 @@ const CMAT2023Incomplete = () => {
           </span>
           PAN card
         </p>
-        <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
-        >
+        <p className="cont">
           <span style={{ fontFamily: "Symbol" }}>
             ·
             <span style={{ font: '7pt "Times New Roman"' }}>
@@ -6036,14 +5789,7 @@ const CMAT2023Incomplete = () => {
           </span>
           Voter ID card
         </p>
-        <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
-        >
+        <p className="cont">
           <span style={{ fontFamily: "Symbol" }}>
             ·
             <span style={{ font: '7pt "Times New Roman"' }}>
@@ -6052,14 +5798,7 @@ const CMAT2023Incomplete = () => {
           </span>
           Passport
         </p>
-        <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
-        >
+        <p className="cont">
           <span style={{ fontFamily: "Symbol" }}>
             ·
             <span style={{ font: '7pt "Times New Roman"' }}>
@@ -6068,14 +5807,7 @@ const CMAT2023Incomplete = () => {
           </span>
           Driver’s license
         </p>
-        <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
-        >
+        <p className="cont">
           <span style={{ fontFamily: "Symbol" }}>
             ·
             <span style={{ font: '7pt "Times New Roman"' }}>
@@ -6084,7 +5816,7 @@ const CMAT2023Incomplete = () => {
           </span>
           College/University ID card
         </p>
-        <p 
+        <p
           className="MsoNormal" id="12"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
@@ -6107,14 +5839,7 @@ const CMAT2023Incomplete = () => {
           website by using their login credentials. The process to download CMAT
           answer key 2023 is:
         </p>
-        <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
-        >
+        <p className="cont">
           <span style={{ fontFamily: "Symbol" }}>
             ·
             <span style={{ font: '7pt "Times New Roman"' }}>
@@ -6124,14 +5849,7 @@ const CMAT2023Incomplete = () => {
           Visit the CMAT-NTA website -
           <a href="https://cmat.nta.nic.in">https://cmat.nta.nic.in</a>
         </p>
-        <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
-        >
+        <p className="cont">
           <span style={{ fontFamily: "Symbol" }}>
             ·
             <span style={{ font: '7pt "Times New Roman"' }}>
@@ -6140,14 +5858,7 @@ const CMAT2023Incomplete = () => {
           </span>
           Click on ‘CMAT 2023 Answer Key Download’
         </p>
-        <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
-        >
+        <p className="cont">
           <span style={{ fontFamily: "Symbol" }}>
             ·
             <span style={{ font: '7pt "Times New Roman"' }}>
@@ -6156,14 +5867,7 @@ const CMAT2023Incomplete = () => {
           </span>
           Enter application number and date of birth or password
         </p>
-        <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
-        >
+        <p className="cont">
           <span style={{ fontFamily: "Symbol" }}>
             ·
             <span style={{ font: '7pt "Times New Roman"' }}>
@@ -6172,14 +5876,7 @@ const CMAT2023Incomplete = () => {
           </span>
           Click on ‘Answer Key’ link reflecting on the dashboard
         </p>
-        <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
-        >
+        <p className="cont">
           <span style={{ fontFamily: "Symbol" }}>
             ·
             <span style={{ font: '7pt "Times New Roman"' }}>
@@ -6196,14 +5893,7 @@ const CMAT2023Incomplete = () => {
           challenge to official answer key. Under this provision, any candidate
           can challenge the official answer key by:
         </p>
-        <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
-        >
+        <p className="cont">
           <span style={{ fontFamily: "Symbol" }}>
             ·
             <span style={{ font: '7pt "Times New Roman"' }}>
@@ -6212,14 +5902,7 @@ const CMAT2023Incomplete = () => {
           </span>
           Filling an online form on NTA website
         </p>
-        <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
-        >
+        <p className="cont">
           <span style={{ fontFamily: "Symbol" }}>
             ·
             <span style={{ font: '7pt "Times New Roman"' }}>
@@ -6228,14 +5911,7 @@ const CMAT2023Incomplete = () => {
           </span>
           Furnishing document to substantiate their claim
         </p>
-        <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
-        >
+        <p className="cont">
           <span style={{ fontFamily: "Symbol" }}>
             ·
             <span style={{ font: '7pt "Times New Roman"' }}>
@@ -6273,14 +5949,7 @@ const CMAT2023Incomplete = () => {
           NTA will also release the merit list and all India ranks. Given below
           are the steps to download CMAT scorecard cum result:
         </p>
-        <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
-        >
+        <p className="cont">
           <span style={{ fontFamily: "Symbol" }}>
             ·
             <span style={{ font: '7pt "Times New Roman"' }}>
@@ -6289,14 +5958,7 @@ const CMAT2023Incomplete = () => {
           </span>
           Log on to CMAT official website
         </p>
-        <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
-        >
+        <p className="cont">
           <span style={{ fontFamily: "Symbol" }}>
             ·
             <span style={{ font: '7pt "Times New Roman"' }}>
@@ -6305,14 +5967,7 @@ const CMAT2023Incomplete = () => {
           </span>
           Click on 'CMAT-2023 has been Declared' tab
         </p>
-        <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
-        >
+        <p className="cont">
           <span style={{ fontFamily: "Symbol" }}>
             ·
             <span style={{ font: '7pt "Times New Roman"' }}>
@@ -6322,14 +5977,7 @@ const CMAT2023Incomplete = () => {
           Enter your CMAT 2023 login credentials (application number and
           password or date of birth)
         </p>
-        <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
-        >
+        <p className="cont">
           <span style={{ fontFamily: "Symbol" }}>
             ·
             <span style={{ font: '7pt "Times New Roman"' }}>
@@ -6365,6 +6013,7 @@ const CMAT2023Incomplete = () => {
           been calculated basis the score range and cut-off of different
           colleges considered for CMAT 2022.
         </p>
+
         <table
           className="MsoTableGrid"
           style={{ borderCollapse: "collapse", border: "none" }}
@@ -6393,7 +6042,7 @@ const CMAT2023Incomplete = () => {
                   align="center"
                 >
                   <b>
-                    <u>CMAT 2023 Score Range</u>
+                   CMAT 2023 Score Range
                   </b>
                 </p>
               </td>
@@ -6417,7 +6066,7 @@ const CMAT2023Incomplete = () => {
                   align="center"
                 >
                   <b>
-                    <u>CMAT Rank 2023</u>
+                   CMAT Rank 2023
                   </b>
                 </p>
               </td>
@@ -6616,24 +6265,21 @@ const CMAT2023Incomplete = () => {
             </tr>
           </tbody>
         </table>
+
         <p
           className="MsoNormal"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           &nbsp;
         </p>
-        <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
+
         <p
           className="MsoNormal"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           <b>CMAT Cut Offs 2023</b>
         </p>
+
         <p
           className="MsoNormal"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
@@ -6644,6 +6290,7 @@ const CMAT2023Incomplete = () => {
           CMAT score are (cut-off score has been rounded off to nearest
           percentile:
         </p>
+
         <table
           className="MsoTableGrid"
           style={{ borderCollapse: "collapse", border: "none" }}
@@ -6672,7 +6319,7 @@ const CMAT2023Incomplete = () => {
                   align="center"
                 >
                   <b>
-                    <u>Colleges Accepting CMAT Score</u>
+                    Colleges Accepting CMAT Score
                   </b>
                 </p>
               </td>
@@ -6696,7 +6343,7 @@ const CMAT2023Incomplete = () => {
                   align="center"
                 >
                   <b>
-                    <u>CMAT Cut Offs 2023</u>
+                    CMAT Cut Offs 2023
                   </b>
                 </p>
               </td>
@@ -7563,12 +7210,7 @@ const CMAT2023Incomplete = () => {
             </tr>
           </tbody>
         </table>
-        <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
+
         <p
           className="MsoNormal"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
@@ -7589,22 +7231,11 @@ const CMAT2023Incomplete = () => {
         <p
           className="MsoNormal" id="16"
           style={{
-            marginBottom: "0in",
             textAlign: "justify",
             textJustify: "inter-ideograph",
           }}
         >
           <b>MBA / PGDM Colleges Accepting CMAT Score: City-Wise</b>
-        </p>
-        <p
-          className="MsoNormal"
-          style={{
-            marginBottom: "0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-          }}
-        >
-          <b>&nbsp;</b>
         </p>
         <p
           className="MsoNormal"
@@ -7632,13 +7263,7 @@ const CMAT2023Incomplete = () => {
           &nbsp;
         </p>
         <p
-          className="cont1"
-          style={{
-            marginBottom: "0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
+          className="cont"
         >
           <span style={{ fontFamily: "Symbol" }}>
             ·
@@ -7649,13 +7274,7 @@ const CMAT2023Incomplete = () => {
           Shortlisting of candidates based on CMAT score
         </p>
         <p
-          className="cont1"
-          style={{
-            marginBottom: "0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
+          className="cont"
         >
           <span style={{ fontFamily: "Symbol" }}>
             ·
@@ -7666,13 +7285,7 @@ const CMAT2023Incomplete = () => {
           Group Discussion and Personal Interview rounds
         </p>
         <p
-          className="cont1"
-          style={{
-            marginBottom: "0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
+          className="cont"
         >
           <span style={{ fontFamily: "Symbol" }}>
             ·
@@ -7726,71 +7339,35 @@ const CMAT2023Incomplete = () => {
             To check more top MBA / PGDM colleges across India, click here
           </a>
         </p>
-        <p
-          className="MsoNormal"
-          style={{
-            marginBottom: "0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-          }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="MsoNormal"
-          style={{
-            marginBottom: "0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-          }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="MsoNormal"
-          style={{
-            marginBottom: "0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-          }}
-        >
-          &nbsp;
-        </p>
+        
         <p
           className="MsoNormal"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           &nbsp;
         </p>
+
         <CustomTable />
+
         <p
           className="MsoNormal"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           &nbsp;
         </p>
+
         <p
           className="MsoNormal" id="17"
           style={{
-            marginBottom: "0in",
             textAlign: "justify",
             textJustify: "inter-ideograph",
           }}
         >
           <b>FAQs CMAT Exam 2023</b>
         </p>
+        
         <p
-          className="MsoNormal"
-          style={{
-            marginBottom: "0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-          }}
-        >
-          <b>&nbsp;</b>
-        </p>
-        <p
-          className="MsoNormal"
+          className="cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           Q: What is CMAT?
@@ -7805,13 +7382,7 @@ const CMAT2023Incomplete = () => {
           (NTA) as computer based test of three hours duration.
         </p>
         <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="MsoNormal"
+          className="cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           Q. When is CMAT 2023?
@@ -7826,13 +7397,7 @@ const CMAT2023Incomplete = () => {
           according to your preference.
         </p>
         <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="MsoNormal"
+          className="cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           Q: Is CMAT conducted online or offline?
@@ -7847,13 +7412,7 @@ const CMAT2023Incomplete = () => {
           system provided.
         </p>
         <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="MsoNormal"
+          className="cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           Q: What are all the sections available in the CMAT 2023 syllabus?
@@ -7866,12 +7425,8 @@ const CMAT2023Incomplete = () => {
           namely:
         </p>
         <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
+          className="cont"
+          marginleft="0.5in"
         >
           1.
           <span style={{ font: '7pt "Times New Roman"' }}>
@@ -7880,12 +7435,8 @@ const CMAT2023Incomplete = () => {
           Quantitative Techniques &amp; Data Interpretation
         </p>
         <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
+          className="cont"
+          marginleft="0.5in"
         >
           2.
           <span style={{ font: '7pt "Times New Roman"' }}>
@@ -7894,12 +7445,8 @@ const CMAT2023Incomplete = () => {
           Logical Reasoning
         </p>
         <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
+          className="cont"
+          marginleft="0.5in"
         >
           3.
           <span style={{ font: '7pt "Times New Roman"' }}>
@@ -7908,12 +7455,8 @@ const CMAT2023Incomplete = () => {
           Language Comprehension &amp; Verbal Ability
         </p>
         <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
+          className="cont"
+          marginleft="0.5in"
         >
           4.
           <span style={{ font: '7pt "Times New Roman"' }}>
@@ -7922,12 +7465,8 @@ const CMAT2023Incomplete = () => {
           General Awareness
         </p>
         <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
+          className="cont"
+          marginleft="0.5in"
         >
           5.
           <span style={{ font: '7pt "Times New Roman"' }}>
@@ -7936,13 +7475,7 @@ const CMAT2023Incomplete = () => {
           Innovation and Entrepreneurship
         </p>
         <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="MsoNormal"
+          className="cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           Q: Can I go back and forth between the sections during CMAT exam?
@@ -7954,13 +7487,7 @@ const CMAT2023Incomplete = () => {
           Ans: Yes, you can because there will be no sectional wise time limit.
         </p>
         <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="MsoNormal"
+          className="cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           Q: When is the last date to apply for CMAT 2023?
@@ -7980,7 +7507,7 @@ const CMAT2023Incomplete = () => {
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         />
         <p
-          className="MsoNormal"
+          className="cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           Q: What are the eligibility criteria to apply for CMAT?
@@ -7996,13 +7523,7 @@ const CMAT2023Incomplete = () => {
           declared before admission for academic year begins.
         </p>
         <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="MsoNormal"
+          className="cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           Q: Is there any age restriction for appearing for CMAT exam?
@@ -8014,13 +7535,7 @@ const CMAT2023Incomplete = () => {
           Ans: No, there are no age restrictions for the CMAT exam 2023.
         </p>
         <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="MsoNormal"
+          className="cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           Q: For how long is CMAT score valid for admission?
@@ -8033,13 +7548,7 @@ const CMAT2023Incomplete = () => {
           one year.
         </p>
         <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="MsoNormal"
+          className="cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           Q. How many colleges accept CMAT score for admission?
@@ -8055,13 +7564,7 @@ const CMAT2023Incomplete = () => {
           Management - Chennai, PUMBA - Pune, etc.
         </p>
         <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="MsoNormal"
+          className="cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           Q: What are the reservation criteria for CMAT?
@@ -8076,22 +7579,10 @@ const CMAT2023Incomplete = () => {
           admission process.
         </p>
         <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="MsoNormal"
+          className="cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           Q: What is the CMAT application fee?
-        </p>
-        <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
         </p>
         <p
           className="MsoNormal"
@@ -8102,13 +7593,7 @@ const CMAT2023Incomplete = () => {
           application fee is Rs. 1,000.
         </p>
         <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="MsoNormal"
+          className="cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           Q: Is there a provision of rechecking or revaluating CMAT answer
@@ -8125,13 +7610,7 @@ const CMAT2023Incomplete = () => {
           found to be correct than it is considered.
         </p>
         <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="MsoNormal"
+          className="cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           Q: Till when will CMAT scorecard is available for download on the NTA
@@ -8146,13 +7625,7 @@ const CMAT2023Incomplete = () => {
           requisition with the exam authorities for CMAT scorecard.
         </p>
         <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="MsoNormal"
+          className="cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           Q: Will the NTA release CMAT 2023 merit list after result declaration?
@@ -8167,19 +7640,7 @@ const CMAT2023Incomplete = () => {
           overall percentile.
         </p>
         <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="MsoNormal"
+          className="cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           Q: Is there any difference between CMAT score and percentile?
@@ -8192,13 +7653,7 @@ const CMAT2023Incomplete = () => {
           Students are only issued with score and rank.
         </p>
         <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="MsoNormal"
+          className="cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           Q: How many times can I attempt CMAT?
@@ -8212,13 +7667,7 @@ const CMAT2023Incomplete = () => {
           attempt for CMAT.
         </p>
         <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="MsoNormal"
+          className="cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           Q: How many candidates appear for CMAT?
@@ -8230,13 +7679,7 @@ const CMAT2023Incomplete = () => {
           Ans: Around 50,000 to 60,000 student appear for CMAT every year.
         </p>
         <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="MsoNormal"
+          className="cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           Q: Is there will be negative marking in the CMAT 2023 exam?
@@ -8251,13 +7694,7 @@ const CMAT2023Incomplete = () => {
           sections.
         </p>
         <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="MsoNormal"
+          className="cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           Q: How can I request to change the exam centre?
@@ -8270,13 +7707,7 @@ const CMAT2023Incomplete = () => {
           centre will be entertained.
         </p>
         <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="MsoNormal"
+          className="cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           Q: Can I carry a watch to the CMAT exam centre?
@@ -8289,13 +7720,7 @@ const CMAT2023Incomplete = () => {
           wristwatch, mobile, calculator, etc to the CMAT test centre.
         </p>
         <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="MsoNormal"
+          className="cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           Q. Can I change preferred test centre after submitting a form?
@@ -8311,13 +7736,7 @@ const CMAT2023Incomplete = () => {
           centre.
         </p>
         <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="MsoNormal"
+          className="cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           Q. Do government MBA colleges in India accept CMAT score?

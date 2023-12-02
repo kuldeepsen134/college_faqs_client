@@ -298,7 +298,7 @@ const CollegeList = ({ itemsPerPage = 6 }) => {
         <div className="container-fluid">
           <div className="row">
             <div className="col px-0 mx-0">
-              <img src="./img/university.jpeg" />
+              <img src="./img/college/university.jpeg" />
             </div>
           </div>
         </div>

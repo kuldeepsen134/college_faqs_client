@@ -10,6 +10,21 @@ const WhyMba = () => {
 
   return (
     <>
+
+{/* <section className="hero-banner">
+        <div className="container-fluid">
+          <div className="row">
+            <div className="col-12 p-0">
+
+              <img
+                src="/img/college/why-mba.png"
+                alt="Hero banner"
+              />
+            </div>
+          </div>
+        </div>
+      </section> */}
+
       <div className="WordSection1">
         <p
           className=" cont"
