@@ -11,10 +11,6 @@ export default axios.create(
 
 let token = localStorage.getItem('token')
 
-
-console.log('token>>>>>>>>>>',token);
-
-
 export let instance = axios.create({
   baseURL: BASE_URL,
 }, {

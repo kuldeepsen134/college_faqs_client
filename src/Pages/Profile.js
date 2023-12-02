@@ -24,7 +24,7 @@ const Profile = () => {
         response = await axios.get("/user/profile", {
           headers: { authorization: "Bearer " + auth.token },
         });
-        console.log(response.data);
+        // console.log(response.data);
         if (!response?.data?.success) throw Error;
       } catch (err) {
         console.log(err);
