@@ -17,9 +17,8 @@ import { Link, useNavigate, useLocation, Navigate } from "react-router-dom";
 import StatusToast from "../Components/StatusToast";
 
 const Signup = () => {
-  useEffect(() => {
-    window.scrollTo(0, 0);
-  }, [])
+  useEffect(() => { window.scrollTo(0, 0) }, []);
+
   const [files, setFiles] = useState([]);
   const [image, setImage] = useState(null);
 
@@ -49,6 +48,8 @@ const Signup = () => {
 
   const [inputOTP, setInputOTP] = useState('');
 
+  const [googleSignupData, setGoogleSignupData] = useState('');
+  const [isRegister, setisRegister] = useState(false);
 
 
   const onFileUpload = async (event) => {
@@ -79,11 +80,6 @@ const Signup = () => {
 
 
 
-
-
-
-
-
     if (isSubmit) return;
     setSubmit(true);
     if (!email || !name || !password || !confirmPassword) {
@@ -95,9 +91,11 @@ const Signup = () => {
       return;
     }
     try {
+
       const toastId = toast.loading("Registering...");
       const response = await axios.post("/register", formData);
-      console.log(response.data);
+      console.log('response.data>>>>>>', response.data);
+
       if (!response.data.success) {
         toast.update(toastId, {
           autoClose: true,
@@ -135,7 +133,7 @@ const Signup = () => {
         callback: (response) => {
           // reCAPTCHA solved, allow signInWithPhoneNumber.
           // onSignInSubmit();
-          console.log("captcha:", response);
+          console.log("captcha>>>>>>>>>:", response);
         },
       },
       authentication
@@ -182,43 +180,75 @@ const Signup = () => {
   const googleSignIn = async () => {
     const provider = new GoogleAuthProvider();
     let response;
+
     try {
       response = await signInWithPopup(authentication, provider);
       console.log('responseVVVVVVVVVVVVV', response);
-    } catch (err) {
+
+    }
+    catch (err) {
       toast.error("Something Went Wrong, please try again!");
+
       console.log(err);
       return;
     }
+
+
     try {
 
       if (response.user.uid) {
         setisSentOTP(!isSentOTP)
       }
-      response = await axios.post("/login/google", { uid: response.user.uid });
-      setAuth({ token: response.data.token });
-      localStorage.setItem("token", response.data.token);
-      navigate(from, { replace: true });
-    } catch (err) {
+
+      setGoogleSignupData(response.user)
+      setisRegister(!isRegister)
+      // const response = await axios.post("/register", formData);
+    }
+    catch (err) {
       console.log(err);
     }
   };
 
+
   const handleSubmit = (event) => {
     event.preventDefault();
+
     console.log('value Mobile>>>', inputValue);
+
     setNumber(inputValue)
+
+
+
     setisVerifyOTP(!isVerifyOTP)
   }
 
-  const handleOTP = (event) => {
+  const handleOTP = async (event) => {
     event.preventDefault();
     setisSentOTP(isSentOTP)
     setotp(inputOTP)
+
+    if (isRegister) {
+
+      const registerBody = {
+        name: googleSignupData.displayName,
+        email: googleSignupData.email,
+        mobile_number: number,
+        guid: googleSignupData.uid,
+        password: number,
+
+      }
+
+      const response = await axios.post("/register", registerBody);
+      const responseData = await axios.post("/login/google", { uid: googleSignupData.uid });
+
+      setAuth({ token: responseData.data.token });
+
+      localStorage.setItem("token", responseData.data.token);
+
+      navigate(from, { replace: true });
+    }
     console.log('value>OTP Verify>>', inputOTP);
   }
-
-
 
 
   return (
