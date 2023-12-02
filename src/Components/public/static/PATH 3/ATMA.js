@@ -6,8 +6,8 @@ import { useEffect } from "react";
 const ATMA = () => {
 
   useEffect(() => {
-    window.scrollTo(0,0);
-  },[])
+    window.scrollTo(0, 0);
+  }, [])
   return (
     <div>
       <div className="WordSection1">
@@ -57,276 +57,214 @@ const ATMA = () => {
         >
           &nbsp;
         </p>
+
         <h4>Latest Update</h4>
-  
-        <p
-          className="cont"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-       
+
+
         <p
           className="MsoListParagraphCxSpFirst"
           style={{
-            
-            marginBottom: "0in",
-            textAlign: "justify",
             textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
+
           }}
         >
-        
-          <><a href="#1"> About ATMA Examination</a></>
+
+          <a href="#1"> About ATMA Examination</a>
         </p>
         <p
-          className="MsoListParagraphCxSpMiddle"
-          style={{
-            textAlign: "justify",
+          className="MsoListParagraphCxSpMiddle" style={{
             textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
+
           }}
         >
-         
+
           <a href="#2">ATMA Examination – Highlights</a>
         </p>
         <p
           className="MsoListParagraphCxSpMiddle"
           style={{
-            marginBottom: "0in",
-            textAlign: "justify",
             textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
+
           }}
         >
-          
+
           <a href="#3">ATMA 2023 Important Dates</a>
         </p>
         <p
-          className="MsoListParagraphCxSpMiddle"
-          style={{
-            textAlign: "justify",
+          className="MsoListParagraphCxSpMiddle" style={{
             textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
+
           }}
         >
-         
+
           <a href="#4">ATMA 2023 Eligibility Criteria</a>
         </p>
         <p
-          className="MsoListParagraphCxSpMiddle"
-          style={{
-            textAlign: "justify",
+          className="MsoListParagraphCxSpMiddle" style={{
             textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
+
           }}
         >
-         
+
           <a href="#5">ATMA Application Process </a>
         </p>
         <p
-          className="MsoListParagraphCxSpMiddle"
-          style={{
-            textAlign: "justify",
+          className="MsoListParagraphCxSpMiddle" style={{
             textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
+
           }}
         >
-          
+
           <a href="#6">ATMA 2023 Exam Centers</a>
         </p>
         <p
-          className="MsoListParagraphCxSpMiddle"
-          style={{
-            textAlign: "justify",
+          className="MsoListParagraphCxSpMiddle" style={{
             textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
+
           }}
         >
-        
+
           <a href="#6a">ATMA Exam Pattern</a>
         </p>
         <p
-          className="MsoListParagraphCxSpMiddle"
-          style={{
-            textAlign: "justify",
+          className="MsoListParagraphCxSpMiddle" style={{
             textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
+
           }}
         >
-          
+
           <a href="#7">ATMA Exam Syllabus</a>
         </p>
         <p
-          className="MsoListParagraphCxSpMiddle"
-          style={{
-            textAlign: "justify",
+          className="MsoListParagraphCxSpMiddle" style={{
             textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
+
           }}
         >
-         
+
           <a href="#8">ATMA Preparation Tips</a>
         </p>
         <p
-          className="MsoListParagraphCxSpMiddle"
-          style={{
-            textAlign: "justify",
+          className="MsoListParagraphCxSpMiddle" style={{
             textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
+
           }}
         >
-         
+
           <a href="#9">ATMA 2023 Admit Card</a>
         </p>
         <p
-          className="MsoListParagraphCxSpMiddle"
-          style={{
-            textAlign: "justify",
+          className="MsoListParagraphCxSpMiddle" style={{
             textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
+
           }}
         >
-          
+
           <a href="#10">ATMA 2023 Exam Day Guidelines</a>
         </p>
         <p
-          className="MsoListParagraphCxSpMiddle"
-          style={{
-            textAlign: "justify",
+          className="MsoListParagraphCxSpMiddle" style={{
             textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
+
           }}
         >
-          
+
           <a href="#11">ATMA 2023 Result</a>
         </p>
         <p
-          className="MsoListParagraphCxSpMiddle"
-          style={{
-            textAlign: "justify",
+          className="MsoListParagraphCxSpMiddle" style={{
             textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
+
           }}
         >
-          
+
           <a href="#12">ATMA 2023 Counseling</a>
         </p>
         <p
-          className="MsoListParagraphCxSpMiddle"
-          style={{
-            textAlign: "justify",
+          className="MsoListParagraphCxSpMiddle" style={{
             textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
+
           }}
         >
-        
           <a href="#13">ATMA 2023 Cut Off Marks</a>
         </p>
         <p
-          className="MsoListParagraphCxSpMiddle"
-          style={{
-            textAlign: "justify",
+          className="MsoListParagraphCxSpMiddle" style={{
             textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
+
           }}
         >
-          
           <a href="#14">MBA / PGDM Colleges Accepting ATMA Score: City-Wise</a>
         </p>
         <p
           className="MsoListParagraphCxSpMiddle"
           style={{
-            marginLeft: "1in",
-            textAlign: "justify",
             textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
+
           }}
         >
-          
+
           <a href="#14a">Top MBA / PGDM Colleges in Delhi-NCR Accepting ATMA </a>
         </p>
         <p
           className="MsoListParagraphCxSpMiddle"
           style={{
-            marginLeft: "1in",
-            textAlign: "justify",
             textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
+
           }}
         >
-         
+
           <a href="#14b">Top MBA / PGDM Colleges in Mumbai Accepting ATMA </a>
         </p>
         <p
           className="MsoListParagraphCxSpMiddle"
           style={{
-            marginLeft: "1in",
-            textAlign: "justify",
             textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
+
           }}
         >
-          
+
           <a href="#14c">Top MBA Colleges in Bangalore Accepting ATMA </a>
         </p>
         <p
           className="MsoListParagraphCxSpMiddle"
           style={{
-            marginLeft: "1in",
-            textAlign: "justify",
             textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
+
           }}
         >
-        
+
           <a href="#14d">Top MBA Colleges in Pune Accepting ATMA </a>
         </p>
         <p
           className="MsoListParagraphCxSpMiddle"
           style={{
-            marginLeft: "1in",
-            textAlign: "justify",
             textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
+
           }}
         >
-          
+
           <a href="#14e">Top MBA Colleges in Hyderabad Accepting ATMA </a>
         </p>
         <p
           className="MsoListParagraphCxSpMiddle"
           style={{
-            marginLeft: "1in",
-            textAlign: "justify",
             textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
+
           }}
         >
-        
+
           <a href="#14f">Top MBA Colleges in Kolkata Accepting ATMA </a>
         </p>
         <p
           className="MsoListParagraphCxSpLast"
           style={{
-            marginBottom: "0in",
-            textAlign: "justify",
             textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
+
           }}
         >
-        
+
           <a href="#15"> FAQs – ATMA Exam 2023</a>
-        </p>
-        <p
-          className="cont"
-          style={{
-            marginBottom: "0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-          }}
-        >
-          <b>&nbsp;</b>
         </p>
         <p
           className="cont"
@@ -380,18 +318,14 @@ const ATMA = () => {
           exam leading to admission in top B-schools like Welingkar, VIT, XIMR,
           SDMIMD, JIMS, Jaipuria among others.
         </p>
+
         <p
           className="cont"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           &nbsp;
         </p>
-        <p
-          className="cont"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
+
         <CustomTable />
 
         <p
@@ -400,12 +334,14 @@ const ATMA = () => {
         >
           &nbsp;
         </p>
+
         <p
           className="cont"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           <b>ATMA Examination – Highlights</b>
         </p>
+
         <table
           className="MsoTableGrid"
           style={{
@@ -438,7 +374,7 @@ const ATMA = () => {
                   }}
                 >
                   <b>
-                    <u>Particulars</u>
+                    Particulars
                   </b>
                 </p>
               </td>
@@ -461,7 +397,7 @@ const ATMA = () => {
                   }}
                 >
                   <b>
-                    <u>Details</u>
+                    Details
                   </b>
                 </p>
               </td>
@@ -1347,24 +1283,14 @@ const ATMA = () => {
             </tr>
           </tbody>
         </table>
+
         <p
           className="cont"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           &nbsp;
         </p>
-        <p
-          className="cont"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="cont"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
+
         <p
           className="cont" id="3"
           style={{
@@ -1375,20 +1301,12 @@ const ATMA = () => {
         >
           <b>ATMA 2023 Important Dates</b>
         </p>
-        <p
-          className="cont"
-          style={{
-            marginBottom: "0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-          }}
-        >
-          <b>&nbsp;</b>
-        </p>
+
         <p className="cont">
           Check out the table below to know the tentative exam dates of February
           2023 session of ATMA:
         </p>
+
         <table
           className="MsoTableGrid"
           style={{ borderCollapse: "collapse", border: "none" }}
@@ -1417,7 +1335,7 @@ const ATMA = () => {
                   align="center"
                 >
                   <b>
-                    <u>ATMA Exam Event</u>
+                    ATMA Exam Event
                   </b>
                 </p>
               </td>
@@ -1441,7 +1359,7 @@ const ATMA = () => {
                   align="center"
                 >
                   <b>
-                    <u>Start Date</u>
+                    Start Date
                   </b>
                 </p>
               </td>
@@ -1465,7 +1383,7 @@ const ATMA = () => {
                   align="center"
                 >
                   <b>
-                    <u>End Date</u>
+                    End Date
                   </b>
                 </p>
               </td>
@@ -1976,18 +1894,14 @@ const ATMA = () => {
             </tr>
           </tbody>
         </table>
+
         <p
           className="cont"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           &nbsp;
         </p>
-        <p
-          className="cont" id="4"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          <b>&nbsp;</b>
-        </p>
+
         <p
           className="cont"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
@@ -2000,10 +1914,9 @@ const ATMA = () => {
         </p>
         <p
           className="cont"
-          style={{marginLeft:"1in",
+          style={{
             textAlign: "justify",
             textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
           }}
         >
           <span style={{ fontFamily: "Symbol" }}>
@@ -2016,7 +1929,6 @@ const ATMA = () => {
         </p>
         <p
           className="cont"
-          style={{ textIndent: "-0.25in" ,marginLeft:"1in",}}
         >
           <span style={{ fontFamily: "Symbol" }}>
             ·
@@ -2029,7 +1941,6 @@ const ATMA = () => {
         </p>
         <p
           className="cont"
-          style={{ textIndent: "-0.25in",marginLeft:"1in", }}
         >
           <span style={{ fontFamily: "Symbol" }}>
             ·
@@ -2042,10 +1953,9 @@ const ATMA = () => {
         </p>
         <p
           className="cont"
-          style={{marginLeft:"1in",
+          style={{
             textAlign: "justify",
             textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
           }}
         >
           <span style={{ fontFamily: "Symbol" }}>
@@ -2081,11 +1991,7 @@ const ATMA = () => {
         </p>
         <p
           className="cont"
-          style={{marginLeft:"1in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
+
         >
           1.
           <span style={{ font: '7pt "Times New Roman"' }}>
@@ -2097,11 +2003,7 @@ const ATMA = () => {
         </p>
         <p
           className="cont"
-          style={{marginLeft:"1in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
+
         >
           2.
           <span style={{ font: '7pt "Times New Roman"' }}>
@@ -2112,9 +2014,8 @@ const ATMA = () => {
         </p>
         <p
           className="cont"
-          style={{marginLeft:"1in",
-            marginLeft: "1in",
-            textAlign: "justify",
+          style={{
+            marginLeft: "0.5in",
             textJustify: "inter-ideograph",
             textIndent: "-0.25in",
           }}
@@ -2128,11 +2029,7 @@ const ATMA = () => {
         </p>
         <p
           className="cont"
-          style={{marginLeft:"1in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
+
         >
           3.
           <span style={{ font: '7pt "Times New Roman"' }}>
@@ -2143,9 +2040,8 @@ const ATMA = () => {
         </p>
         <p
           className="cont"
-          style={{marginLeft:"1in",
-            marginLeft: "1in",
-            textAlign: "justify",
+          style={{
+            marginLeft: "0.5in",
             textJustify: "inter-ideograph",
             textIndent: "-0.25in",
           }}
@@ -2160,9 +2056,8 @@ const ATMA = () => {
         </p>
         <p
           className="cont"
-          style={{marginLeft:"1in",
-            marginLeft: "1in",
-            textAlign: "justify",
+          style={{
+            marginLeft: "0.5in",
             textJustify: "inter-ideograph",
             textIndent: "-0.25in",
           }}
@@ -2178,11 +2073,7 @@ const ATMA = () => {
         </p>
         <p
           className="cont"
-          style={{marginLeft:"1in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
+
         >
           4.
           <span style={{ font: '7pt "Times New Roman"' }}>
@@ -2192,9 +2083,8 @@ const ATMA = () => {
         </p>
         <p
           className="cont"
-          style={{marginLeft:"1in",
-            marginLeft: "1in",
-            textAlign: "justify",
+          style={{
+            marginLeft: "0.5in",
             textJustify: "inter-ideograph",
             textIndent: "-0.25in",
           }}
@@ -2209,11 +2099,7 @@ const ATMA = () => {
         </p>
         <p
           className="cont"
-          style={{marginLeft:"1in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
+
         >
           5.
           <span style={{ font: '7pt "Times New Roman"' }}>
@@ -2222,18 +2108,21 @@ const ATMA = () => {
           Once all the above steps are done, download the confirmation page and
           keep safe its printout for reference.
         </p>
+
         <p
           className="cont" id="6"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           &nbsp;
         </p>
+
         <p
           className="cont"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           <b>ATMA 2023 Exam Centers</b>
         </p>
+
         <p
           className="cont"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
@@ -2241,6 +2130,7 @@ const ATMA = () => {
           ATMA 2023 is expected to be conducted in about 55 cities. Listed below
           are the tentative names of cities and states for ATMA exam:
         </p>
+
         <table
           className="MsoTableGrid"
           style={{ borderCollapse: "collapse", border: "none" }}
@@ -2269,7 +2159,7 @@ const ATMA = () => {
                   align="center"
                 >
                   <b>
-                    <u>State</u>
+                    State
                   </b>
                 </p>
               </td>
@@ -2293,7 +2183,7 @@ const ATMA = () => {
                   align="center"
                 >
                   <b>
-                    <u>Name of the City</u>
+                    Name of the City
                   </b>
                 </p>
               </td>
@@ -3708,18 +3598,14 @@ const ATMA = () => {
             </tr>
           </tbody>
         </table>
+
         <p
           className="cont"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           &nbsp;
         </p>
-        <p
-          className="cont" id="16a"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
+
         <p
           className="cont"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
@@ -3734,14 +3620,13 @@ const ATMA = () => {
           section will carry 30 questions with a total of 180 marks. The
           candidates will have 3 hours to solve the entire question paper.
         </p>
+
         <table
           className="MsoTableGrid"
           style={{
-            width: "428.45pt",
             borderCollapse: "collapse",
             border: "none",
           }}
-          width={571}
           cellSpacing={0}
           cellPadding={0}
           border={1}
@@ -3767,7 +3652,7 @@ const ATMA = () => {
                   align="center"
                 >
                   <b>
-                    <u>ATMA Exam Sections</u>
+                    ATMA Exam Sections
                   </b>
                 </p>
               </td>
@@ -3791,20 +3676,7 @@ const ATMA = () => {
                   align="center"
                 >
                   <b>
-                    <u>Number of </u>
-                  </b>
-                </p>
-                <p
-                  className="cont"
-                  style={{
-                    marginBottom: "0in",
-                    textAlign: "center",
-                    lineHeight: "normal",
-                  }}
-                  align="center"
-                >
-                  <b>
-                    <u>Questions</u>
+                    Number of Questions
                   </b>
                 </p>
               </td>
@@ -3828,20 +3700,7 @@ const ATMA = () => {
                   align="center"
                 >
                   <b>
-                    <u>Maximum Marks </u>
-                  </b>
-                </p>
-                <p
-                  className="cont"
-                  style={{
-                    marginBottom: "0in",
-                    textAlign: "center",
-                    lineHeight: "normal",
-                  }}
-                  align="center"
-                >
-                  <b>
-                    <u>Section-wise</u>
+                    Maximum Marks Section-wise
                   </b>
                 </p>
               </td>
@@ -3865,7 +3724,7 @@ const ATMA = () => {
                   align="center"
                 >
                   <b>
-                    <u>Time Allocated</u>
+                    Time Allocated
                   </b>
                 </p>
               </td>
@@ -4461,10 +4320,8 @@ const ATMA = () => {
                   className="cont bold1"
                   style={{
                     marginBottom: "0in",
-                    textAlign: "right",
                     lineHeight: "normal",
                   }}
-                  align="right"
                 >
                   Total
                 </p>
@@ -4544,6 +4401,7 @@ const ATMA = () => {
             </tr>
           </tbody>
         </table>
+
         <p
           className="cont"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
@@ -4557,18 +4415,14 @@ const ATMA = () => {
           <b>Note</b>: 0.25 mark will be deducted from the total score for each
           incorrect response.
         </p>
+
         <p
           className="cont"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           &nbsp;
         </p>
-        <p
-          className="cont"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
+
         <CustomTable />
         <p
           className="cont" id="7"
@@ -4576,6 +4430,7 @@ const ATMA = () => {
         >
           &nbsp;
         </p>
+
         <p
           className="cont"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
@@ -4590,12 +4445,6 @@ const ATMA = () => {
           Verbal Skills, and Analytical Reasoning Skills. Each section is
           further divided into two parts. Each of the six sections will have 30
           questions in MCQ format. Various topics covered in these sections are:
-        </p>
-        <p
-          className="cont"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
         </p>
         <table
           className="MsoTableGrid"
@@ -4624,7 +4473,7 @@ const ATMA = () => {
                   align="center"
                 >
                   <b>
-                    <u>Syllabus</u>
+                    Syllabus
                   </b>
                 </p>
               </td>
@@ -4647,7 +4496,7 @@ const ATMA = () => {
                   align="center"
                 >
                   <b>
-                    <u>Important Topics</u>
+                    Important Topics
                   </b>
                 </p>
               </td>
@@ -4808,18 +4657,14 @@ const ATMA = () => {
         >
           &nbsp;
         </p>
-        <p
-          className="cont" id="8"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          <b>&nbsp;</b>
-        </p>
+
         <p
           className="cont"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           <b>ATMA Preparation Tips</b>
         </p>
+
         <p
           className="cont"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
@@ -4837,11 +4682,7 @@ const ATMA = () => {
         </p>
         <p
           className="cont"
-          style={{marginLeft:"1in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
+
         >
           <span style={{ fontFamily: "Symbol" }}>
             ·
@@ -4854,11 +4695,7 @@ const ATMA = () => {
         </p>
         <p
           className="cont"
-          style={{marginLeft:"1in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
+
         >
           <span style={{ fontFamily: "Symbol" }}>
             ·
@@ -4871,11 +4708,7 @@ const ATMA = () => {
         </p>
         <p
           className="cont"
-          style={{marginLeft:"1in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
+
         >
           <span style={{ fontFamily: "Symbol" }}>
             ·
@@ -4888,7 +4721,7 @@ const ATMA = () => {
         </p>
         <p
           className="cont"
-          style={{ marginLeft:"1in", textAlign: "justify", textJustify: "inter-ideograph" }}
+          style={{ marginLeft: "1in", textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           &nbsp;
         </p>
@@ -4900,11 +4733,7 @@ const ATMA = () => {
         </p>
         <p
           className="cont"
-          style={{marginLeft:"1in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
+
         >
           <span style={{ fontFamily: "Symbol" }}>
             ·
@@ -4916,11 +4745,7 @@ const ATMA = () => {
         </p>
         <p
           className="cont"
-          style={{marginLeft:"1in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
+
         >
           <span style={{ fontFamily: "Symbol" }}>
             ·
@@ -4935,11 +4760,7 @@ const ATMA = () => {
         </p>
         <p
           className="cont"
-          style={{marginLeft:"1in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
+
         >
           <span style={{ fontFamily: "Symbol" }}>
             ·
@@ -4957,11 +4778,7 @@ const ATMA = () => {
         </p>
         <p
           className="cont"
-          style={{marginLeft:"1in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
+
         >
           <span style={{ fontFamily: "Symbol" }}>
             ·
@@ -4975,11 +4792,7 @@ const ATMA = () => {
         </p>
         <p
           className="cont"
-          style={{marginLeft:"1in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
+
         >
           <span style={{ fontFamily: "Symbol" }}>
             ·
@@ -4993,11 +4806,7 @@ const ATMA = () => {
         </p>
         <p
           className="cont"
-          style={{marginLeft:"1in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
+
         >
           <span style={{ fontFamily: "Symbol" }}>
             ·
@@ -5032,11 +4841,7 @@ const ATMA = () => {
         </p>
         <p
           className="cont"
-          style={{marginLeft:"1in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
+
         >
           <span style={{ fontFamily: "Symbol" }}>
             ·
@@ -5049,11 +4854,7 @@ const ATMA = () => {
         </p>
         <p
           className="cont"
-          style={{marginLeft:"1in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
+
         >
           <span style={{ fontFamily: "Symbol" }}>
             ·
@@ -5065,11 +4866,7 @@ const ATMA = () => {
         </p>
         <p
           className="cont"
-          style={{marginLeft:"1in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
+
         >
           <span style={{ fontFamily: "Symbol" }}>
             ·
@@ -5081,11 +4878,7 @@ const ATMA = () => {
         </p>
         <p
           className="cont"
-          style={{marginLeft:"1in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
+
         >
           <span style={{ fontFamily: "Symbol" }}>
             ·
@@ -5117,11 +4910,7 @@ const ATMA = () => {
         </p>
         <p
           className="cont"
-          style={{marginLeft:"1in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
+
         >
           <span style={{ fontFamily: "Symbol" }}>
             ·
@@ -5135,11 +4924,7 @@ const ATMA = () => {
         </p>
         <p
           className="cont"
-          style={{marginLeft:"1in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
+
         >
           <span style={{ fontFamily: "Symbol" }}>
             ·
@@ -5153,11 +4938,7 @@ const ATMA = () => {
         </p>
         <p
           className="cont"
-          style={{marginLeft:"1in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
+
         >
           <span style={{ fontFamily: "Symbol" }}>
             ·
@@ -5169,11 +4950,7 @@ const ATMA = () => {
         </p>
         <p
           className="cont"
-          style={{marginLeft:"1in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
+
         >
           <span style={{ fontFamily: "Symbol" }}>
             ·
@@ -5186,11 +4963,7 @@ const ATMA = () => {
         </p>
         <p
           className="cont"
-          style={{marginLeft:"1in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
+
         >
           <span style={{ fontFamily: "Symbol" }}>
             ·
@@ -5203,13 +4976,7 @@ const ATMA = () => {
         </p>
         <p
           className="cont"
-          style={{ marginLeft:"1in",textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="MsoListParagraphCxSpLast" id="11"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
+          style={{ marginLeft: "1in", textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           &nbsp;
         </p>
@@ -5232,11 +4999,7 @@ const ATMA = () => {
         </p>
         <p
           className="cont"
-          style={{marginLeft:"1in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
+
         >
           <span style={{ fontFamily: "Symbol" }}>
             ·
@@ -5248,11 +5011,7 @@ const ATMA = () => {
         </p>
         <p
           className="cont"
-          style={{marginLeft:"1in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
+
         >
           <span style={{ fontFamily: "Symbol" }}>
             ·
@@ -5264,11 +5023,7 @@ const ATMA = () => {
         </p>
         <p
           className="cont"
-          style={{marginLeft:"1in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
+
         >
           <span style={{ fontFamily: "Symbol" }}>
             ·
@@ -5280,11 +5035,7 @@ const ATMA = () => {
         </p>
         <p
           className="cont"
-          style={{marginLeft:"1in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
+
         >
           <span style={{ fontFamily: "Symbol" }}>
             ·
@@ -5296,11 +5047,7 @@ const ATMA = () => {
         </p>
         <p
           className="cont"
-          style={{marginLeft:"1in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
+
         >
           <span style={{ fontFamily: "Symbol" }}>
             ·
@@ -5324,11 +5071,7 @@ const ATMA = () => {
         </p>
         <p
           className="cont"
-          style={{marginLeft:"1in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
+
         >
           <span style={{ fontFamily: "Symbol" }}>
             ·
@@ -5343,11 +5086,7 @@ const ATMA = () => {
         </p>
         <p
           className="cont"
-          style={{marginLeft:"1in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
+
         >
           <span style={{ fontFamily: "Symbol" }}>
             ·
@@ -5362,11 +5101,7 @@ const ATMA = () => {
         </p>
         <p
           className="cont"
-          style={{marginLeft:"1in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
+
         >
           <span style={{ fontFamily: "Symbol" }}>
             ·
@@ -5380,11 +5115,7 @@ const ATMA = () => {
         </p>
         <p
           className="cont"
-          style={{marginLeft:"1in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
+
         >
           <span style={{ fontFamily: "Symbol" }}>
             ·
@@ -5420,11 +5151,9 @@ const ATMA = () => {
         <table
           className="MsoTableGrid"
           style={{
-            width: "6.65in",
             borderCollapse: "collapse",
             border: "none",
           }}
-          width={638}
           cellSpacing={0}
           cellPadding={0}
           border={1}
@@ -5438,7 +5167,6 @@ const ATMA = () => {
                   padding: "0in 5.4pt 0in 5.4pt",
                 }}
                 width={458}
-                valign="top"
               >
                 <p
                   className="cont"
@@ -5450,7 +5178,7 @@ const ATMA = () => {
                   align="center"
                 >
                   <b>
-                    <u>Colleges Accepting ATMA Score</u>
+                    Colleges Accepting ATMA Score
                   </b>
                 </p>
               </td>
@@ -5462,7 +5190,6 @@ const ATMA = () => {
                   padding: "0in 5.4pt 0in 5.4pt",
                 }}
                 width={180}
-                valign="top"
               >
                 <p
                   className="cont"
@@ -5474,7 +5201,7 @@ const ATMA = () => {
                   align="center"
                 >
                   <b>
-                    <u>ATMA Cut Off (Percentile)</u>
+                    ATMA Cut Off (Percentile)
                   </b>
                 </p>
               </td>
@@ -6220,16 +5947,7 @@ const ATMA = () => {
         >
           &nbsp;
         </p>
-        <p
-          className="cont"
-          style={{
-            marginBottom: "0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-          }}
-        >
-          <b>&nbsp;</b>
-        </p>
+
         <p
           className="cont" id="14"
           style={{
@@ -6276,12 +5994,7 @@ const ATMA = () => {
         </p>
         <p
           className="cont"
-          style={{marginLeft:"1in",
-            marginBottom: "0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
+
         >
           <span style={{ fontFamily: "Symbol" }}>
             ·
@@ -6293,12 +6006,7 @@ const ATMA = () => {
         </p>
         <p
           className="cont"
-          style={{marginLeft:"1in",
-            marginBottom: "0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
+
         >
           <span style={{ fontFamily: "Symbol" }}>
             ·
@@ -6310,12 +6018,7 @@ const ATMA = () => {
         </p>
         <p
           className="cont"
-          style={{marginLeft:"1in",
-            marginBottom: "0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
+
         >
           <span style={{ fontFamily: "Symbol" }}>
             ·
@@ -6346,16 +6049,7 @@ const ATMA = () => {
           Candidates can check top MBA / PGDM colleges in their preferred city
           for admission through ATMA from the tables below.
         </p>
-        <p
-          className="cont"
-          style={{
-            marginBottom: "0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-          }}
-        >
-          &nbsp;
-        </p>
+
         <p
           className="cont"
           style={{
@@ -6370,7 +6064,7 @@ const ATMA = () => {
           Candidates can check top MBA / PGDM colleges across India for
           admission through MAT by visiting the following link:
         </p>
-        <p  className="cont">
+        <p className="cont">
           <a href>Top MBA / PGDM Colleges in Delhi-NCR Accepting CMAT</a>
         </p>
         <p className="cont">
@@ -6390,7 +6084,7 @@ const ATMA = () => {
         </p>
         <p className="cont">
           <a href>
-            To check more top MBA / PGDM colleges across India, <Link  to="/college-list?m=Top%20Private%20MBA%20Colleges"><span  style={{color:"red"}}>click here</span></Link>
+            To check more top MBA / PGDM colleges across India, <Link to="/college-list?m=Top%20Private%20MBA%20Colleges"><span style={{ color: "red" }}>click here</span></Link>
           </a>
         </p>
         <p
@@ -6400,19 +6094,8 @@ const ATMA = () => {
           &nbsp;
         </p>
         <p
-          className="cont"
-          style={{
-            marginBottom: "0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-          }}
-        >
-          &nbsp;
-        </p>
-        <p
           className="cont" id="15"
           style={{
-            marginBottom: "0in",
             textAlign: "justify",
             textJustify: "inter-ideograph",
           }}
@@ -6420,27 +6103,7 @@ const ATMA = () => {
           <b>FAQs – ATMA Exam 2023</b>
         </p>
         <p
-          className="cont"
-          style={{
-            marginBottom: "0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-          }}
-        >
-          <b>&nbsp;</b>
-        </p>
-        <p
-          className="cont"
-          style={{
-            marginBottom: "0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-          }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="cont"
+          className="cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           Q: What is ATMA?
@@ -6454,14 +6117,9 @@ const ATMA = () => {
           School). It is a single-window test held for admission to various
           post-graduate programs like MBA, PGDM, MMS, MCA etc.
         </p>
+
         <p
-          className="cont"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="cont"
+          className="cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           Q. When is ATMA 2023 February exam?
@@ -6474,28 +6132,9 @@ const ATMA = () => {
           <sup>th</sup> week of February, 2023. Final dates would e announced
           once the notification comes out on the official website of ATMA.
         </p>
+
         <p
-          className="cont"
-          style={{
-            marginBottom: "0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-          }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="cont"
-          style={{
-            marginBottom: "0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-          }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="cont"
+          className="cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           Q: When is the last date to apply for ATMA 2023?
@@ -6509,40 +6148,20 @@ const ATMA = () => {
           <sup>nd</sup> week of December, 2022 and will end in 3<sup>rd</sup>{" "}
           Week of February, 2022.
         </p>
+
         <p
-          className="cont"
+          className="cont headings"
           style={{
-            marginBottom: "0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-          }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="cont"
-          style={{
-            marginBottom: "0in",
             textAlign: "justify",
             textJustify: "inter-ideograph",
           }}
         >
           Q: Can I appear for ATMA exam more than once?
         </p>
+
         <p
           className="cont"
           style={{
-            marginBottom: "0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-          }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="cont"
-          style={{
-            marginBottom: "0in",
             textAlign: "justify",
             textJustify: "inter-ideograph",
           }}
@@ -6551,50 +6170,20 @@ const ATMA = () => {
           appear more than once and the score of the last exam attempted would
           be considered for admissions.
         </p>
+
         <p
-          className="cont"
+          className="cont headings"
           style={{
-            marginBottom: "0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-          }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="cont"
-          style={{
-            marginBottom: "0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-          }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="cont"
-          style={{
-            marginBottom: "0in",
             textAlign: "justify",
             textJustify: "inter-ideograph",
           }}
         >
           Q. What is the application fee for ATMA?
         </p>
+
         <p
           className="cont"
           style={{
-            marginBottom: "0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-          }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="cont"
-          style={{
-            marginBottom: "0in",
             textAlign: "justify",
             textJustify: "inter-ideograph",
           }}
@@ -6603,28 +6192,9 @@ const ATMA = () => {
           a 25% fee concession for candidates belonging to NE states and women
           candidates.
         </p>
+
         <p
-          className="cont"
-          style={{
-            marginBottom: "0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-          }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="cont"
-          style={{
-            marginBottom: "0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-          }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="cont"
+          className="cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           Q: What are all the sections available in the ATMA syllabus?
@@ -6641,7 +6211,6 @@ const ATMA = () => {
           style={{
             textAlign: "justify",
             textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
           }}
         >
           1.
@@ -6655,7 +6224,6 @@ const ATMA = () => {
           style={{
             textAlign: "justify",
             textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
           }}
         >
           2.
@@ -6669,7 +6237,6 @@ const ATMA = () => {
           style={{
             textAlign: "justify",
             textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
           }}
         >
           3.
@@ -6679,15 +6246,8 @@ const ATMA = () => {
           Quantitative Skills
         </p>
         <p
-          className="MsoListParagraphCxSpLast"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="cont"
+          className="cont headings"
           style={{
-            marginBottom: "0in",
             textAlign: "justify",
             textJustify: "inter-ideograph",
           }}
@@ -6697,17 +6257,6 @@ const ATMA = () => {
         <p
           className="cont"
           style={{
-            marginBottom: "0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-          }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="cont"
-          style={{
-            marginBottom: "0in",
             textAlign: "justify",
             textJustify: "inter-ideograph",
           }}
@@ -6718,29 +6267,8 @@ const ATMA = () => {
           account.
         </p>
         <p
-          className="cont"
+          className="cont headings"
           style={{
-            marginBottom: "0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-          }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="cont"
-          style={{
-            marginBottom: "0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-          }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="cont"
-          style={{
-            marginBottom: "0in",
             textAlign: "justify",
             textJustify: "inter-ideograph",
           }}
@@ -6750,17 +6278,6 @@ const ATMA = () => {
         <p
           className="cont"
           style={{
-            marginBottom: "0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-          }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="cont"
-          style={{
-            marginBottom: "0in",
             textAlign: "justify",
             textJustify: "inter-ideograph",
           }}
@@ -6770,29 +6287,8 @@ const ATMA = () => {
           also be a citizen of India.
         </p>
         <p
-          className="cont"
+          className="cont headings"
           style={{
-            marginBottom: "0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-          }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="cont"
-          style={{
-            marginBottom: "0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-          }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="cont"
-          style={{
-            marginBottom: "0in",
             textAlign: "justify",
             textJustify: "inter-ideograph",
           }}
@@ -6803,17 +6299,6 @@ const ATMA = () => {
         <p
           className="cont"
           style={{
-            marginBottom: "0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-          }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="cont"
-          style={{
-            marginBottom: "0in",
             textAlign: "justify",
             textJustify: "inter-ideograph",
           }}
@@ -6823,29 +6308,8 @@ const ATMA = () => {
           criteria before appearing for the ATMA exam.
         </p>
         <p
-          className="cont"
+          className="cont headings"
           style={{
-            marginBottom: "0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-          }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="cont"
-          style={{
-            marginBottom: "0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-          }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="cont"
-          style={{
-            marginBottom: "0in",
             textAlign: "justify",
             textJustify: "inter-ideograph",
           }}
@@ -6855,17 +6319,6 @@ const ATMA = () => {
         <p
           className="cont"
           style={{
-            marginBottom: "0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-          }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="cont"
-          style={{
-            marginBottom: "0in",
             textAlign: "justify",
             textJustify: "inter-ideograph",
           }}
@@ -6874,29 +6327,8 @@ const ATMA = () => {
           cards. There is no provision of paying the application fee offline.
         </p>
         <p
-          className="cont"
+          className="cont headings"
           style={{
-            marginBottom: "0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-          }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="cont"
-          style={{
-            marginBottom: "0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-          }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="cont"
-          style={{
-            marginBottom: "0in",
             textAlign: "justify",
             textJustify: "inter-ideograph",
           }}
@@ -6907,17 +6339,6 @@ const ATMA = () => {
         <p
           className="cont"
           style={{
-            marginBottom: "0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-          }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="cont"
-          style={{
-            marginBottom: "0in",
             textAlign: "justify",
             textJustify: "inter-ideograph",
           }}
@@ -6928,29 +6349,8 @@ const ATMA = () => {
           140 X 60 Pixels.
         </p>
         <p
-          className="cont"
+          className="cont headings"
           style={{
-            marginBottom: "0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-          }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="cont"
-          style={{
-            marginBottom: "0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-          }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="cont"
-          style={{
-            marginBottom: "0in",
             textAlign: "justify",
             textJustify: "inter-ideograph",
           }}
@@ -6961,17 +6361,6 @@ const ATMA = () => {
         <p
           className="cont"
           style={{
-            marginBottom: "0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-          }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="cont"
-          style={{
-            marginBottom: "0in",
             textAlign: "justify",
             textJustify: "inter-ideograph",
           }}
@@ -6980,29 +6369,8 @@ const ATMA = () => {
           preferences at the time of filling the application form.
         </p>
         <p
-          className="cont"
+          className="cont headings"
           style={{
-            marginBottom: "0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-          }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="cont"
-          style={{
-            marginBottom: "0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-          }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="cont"
-          style={{
-            marginBottom: "0in",
             textAlign: "justify",
             textJustify: "inter-ideograph",
           }}
@@ -7012,17 +6380,6 @@ const ATMA = () => {
         <p
           className="cont"
           style={{
-            marginBottom: "0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-          }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="cont"
-          style={{
-            marginBottom: "0in",
             textAlign: "justify",
             textJustify: "inter-ideograph",
           }}
@@ -7033,29 +6390,8 @@ const ATMA = () => {
           college. Reservation is totally college dependent.
         </p>
         <p
-          className="cont"
+          className="cont headings"
           style={{
-            marginBottom: "0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-          }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="cont"
-          style={{
-            marginBottom: "0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-          }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="cont"
-          style={{
-            marginBottom: "0in",
             textAlign: "justify",
             textJustify: "inter-ideograph",
           }}
@@ -7066,17 +6402,6 @@ const ATMA = () => {
         <p
           className="cont"
           style={{
-            marginBottom: "0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-          }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="cont"
-          style={{
-            marginBottom: "0in",
             textAlign: "justify",
             textJustify: "inter-ideograph",
           }}
@@ -7088,29 +6413,8 @@ const ATMA = () => {
           format available on the ATMA website.
         </p>
         <p
-          className="cont"
+          className="cont headings"
           style={{
-            marginBottom: "0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-          }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="cont"
-          style={{
-            marginBottom: "0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-          }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="cont"
-          style={{
-            marginBottom: "0in",
             textAlign: "justify",
             textJustify: "inter-ideograph",
           }}
@@ -7121,17 +6425,6 @@ const ATMA = () => {
         <p
           className="cont"
           style={{
-            marginBottom: "0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-          }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="cont"
-          style={{
-            marginBottom: "0in",
             textAlign: "justify",
             textJustify: "inter-ideograph",
           }}
@@ -7141,29 +6434,8 @@ const ATMA = () => {
           check the details before submitting the form.
         </p>
         <p
-          className="cont"
+          className="cont headings"
           style={{
-            marginBottom: "0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-          }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="cont"
-          style={{
-            marginBottom: "0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-          }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="cont"
-          style={{
-            marginBottom: "0in",
             textAlign: "justify",
             textJustify: "inter-ideograph",
           }}
@@ -7173,17 +6445,6 @@ const ATMA = () => {
         <p
           className="cont"
           style={{
-            marginBottom: "0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-          }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="cont"
-          style={{
-            marginBottom: "0in",
             textAlign: "justify",
             textJustify: "inter-ideograph",
           }}
@@ -7192,29 +6453,8 @@ const ATMA = () => {
           0.25 marks are deducted for every incorrect answer.
         </p>
         <p
-          className="cont"
+          className="cont headings"
           style={{
-            marginBottom: "0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-          }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="cont"
-          style={{
-            marginBottom: "0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-          }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="cont"
-          style={{
-            marginBottom: "0in",
             textAlign: "justify",
             textJustify: "inter-ideograph",
           }}
@@ -7224,17 +6464,6 @@ const ATMA = () => {
         <p
           className="cont"
           style={{
-            marginBottom: "0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-          }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="cont"
-          style={{
-            marginBottom: "0in",
             textAlign: "justify",
             textJustify: "inter-ideograph",
           }}
@@ -7246,27 +6475,7 @@ const ATMA = () => {
           administrator.
         </p>
         <p
-          className="cont"
-          style={{
-            marginBottom: "0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-          }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="cont"
-          style={{
-            marginBottom: "0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-          }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="cont"
+          className="cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           Q. How many colleges accept ATMA score for admission?

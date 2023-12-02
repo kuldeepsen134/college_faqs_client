@@ -3,8 +3,8 @@ import { Link } from "react-router-dom";
 import { useEffect } from "react";
 const NMAT2022 = () => {
   useEffect(() => {
-    window.scrollTo(0,0);
-  },[])
+    window.scrollTo(0, 0);
+  }, [])
   return (
     <div>
       <div className="WordSection1">
@@ -40,21 +40,18 @@ const NMAT2022 = () => {
           steps, and all the other important aspects of the NMAT exam are
           discussed in this article.
         </p>
+
         <p
           className="MsoNormal"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           &nbsp;
         </p>
+
         <h4>Latest Updates</h4>
+
         <p
           className="MsoListParagraphCxSpFirst"
-          style={{
-            marginBottom: "0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
         >
           <span style={{ fontFamily: "Symbol" }}>
             ·
@@ -66,11 +63,6 @@ const NMAT2022 = () => {
         </p>
         <p
           className="MsoListParagraphCxSpMiddle"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
         >
           <span style={{ fontFamily: "Symbol" }}>
             ·
@@ -82,12 +74,6 @@ const NMAT2022 = () => {
         </p>
         <p
           className="MsoListParagraphCxSpMiddle"
-          style={{
-            marginBottom: "0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
         >
           <span style={{ fontFamily: "Symbol" }}>
             ·
@@ -99,12 +85,6 @@ const NMAT2022 = () => {
         </p>
         <p
           className="MsoListParagraphCxSpMiddle"
-          style={{
-            marginBottom: "0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
         >
           <span style={{ fontFamily: "Symbol" }}>
             ·
@@ -116,11 +96,6 @@ const NMAT2022 = () => {
         </p>
         <p
           className="MsoListParagraphCxSpMiddle"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
         >
           <span style={{ fontFamily: "Symbol" }}>
             ·
@@ -132,11 +107,6 @@ const NMAT2022 = () => {
         </p>
         <p
           className="MsoListParagraphCxSpMiddle"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
         >
           <span style={{ fontFamily: "Symbol" }}>
             ·
@@ -148,11 +118,6 @@ const NMAT2022 = () => {
         </p>
         <p
           className="MsoListParagraphCxSpMiddle"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
         >
           <span style={{ fontFamily: "Symbol" }}>
             ·
@@ -164,11 +129,6 @@ const NMAT2022 = () => {
         </p>
         <p
           className="MsoListParagraphCxSpMiddle"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
         >
           <span style={{ fontFamily: "Symbol" }}>
             ·
@@ -180,12 +140,6 @@ const NMAT2022 = () => {
         </p>
         <p
           className="MsoListParagraphCxSpMiddle"
-          style={{
-            marginBottom: "0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
         >
           <span style={{ fontFamily: "Symbol" }}>
             ·
@@ -197,12 +151,6 @@ const NMAT2022 = () => {
         </p>
         <p
           className="MsoListParagraphCxSpMiddle"
-          style={{
-            marginBottom: "0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
         >
           <span style={{ fontFamily: "Symbol" }}>
             ·
@@ -214,11 +162,6 @@ const NMAT2022 = () => {
         </p>
         <p
           className="MsoListParagraphCxSpMiddle"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
         >
           <span style={{ fontFamily: "Symbol" }}>
             ·
@@ -230,59 +173,39 @@ const NMAT2022 = () => {
         </p>
         <p
           className="MsoListParagraphCxSpMiddle"
-          style={{
-            marginLeft: "1in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
         >
-          <span style={{ fontFamily: '"Courier New"' }}>
-            o
-            <span style={{ font: '7pt "Times New Roman"' }}>&nbsp;&nbsp; </span>
+          <span style={{ fontFamily: "Symbol" }}>
+            ·
+            <span style={{ font: '7pt "Times New Roman"' }}>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+            </span>
           </span>
           <a href="#11a">NMAT 2022 Language Skills Preparation</a>
         </p>
         <p
           className="MsoListParagraphCxSpMiddle"
-          style={{
-            marginLeft: "1in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
         >
-          <span style={{ fontFamily: '"Courier New"' }}>
-            o
-            <span style={{ font: '7pt "Times New Roman"' }}>&nbsp;&nbsp; </span>
+          <span style={{ fontFamily: "Symbol" }}>
+            ·
+            <span style={{ font: '7pt "Times New Roman"' }}>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+            </span>
           </span>
           <a href="#11b">NMAT 2022 Quantitative Skills Preparation</a>
         </p>
         <p
           className="MsoListParagraphCxSpMiddle"
-          style={{
-            marginTop: "0in",
-            marginRight: "0in",
-            marginBottom: "0in",
-            marginLeft: "1in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
         >
-          <span style={{ fontFamily: '"Courier New"' }}>
-            o
-            <span style={{ font: '7pt "Times New Roman"' }}>&nbsp;&nbsp; </span>
+          <span style={{ fontFamily: "Symbol" }}>
+            ·
+            <span style={{ font: '7pt "Times New Roman"' }}>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+            </span>
           </span>
           <a href="#11c">NMAT 2022 Logical Reasoning Preparation</a>
         </p>
         <p
           className="MsoListParagraphCxSpMiddle"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
         >
           <span style={{ fontFamily: "Symbol" }}>
             ·
@@ -294,11 +217,6 @@ const NMAT2022 = () => {
         </p>
         <p
           className="MsoListParagraphCxSpMiddle"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
         >
           <span style={{ fontFamily: "Symbol" }}>
             ·
@@ -310,12 +228,6 @@ const NMAT2022 = () => {
         </p>
         <p
           className="MsoListParagraphCxSpMiddle"
-          style={{
-            marginBottom: "0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
         >
           <span style={{ fontFamily: "Symbol" }}>
             ·
@@ -327,12 +239,6 @@ const NMAT2022 = () => {
         </p>
         <p
           className="MsoListParagraphCxSpLast"
-          style={{
-            marginBottom: "0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
         >
           <span style={{ fontFamily: "Symbol" }}>
             ·
@@ -352,30 +258,6 @@ const NMAT2022 = () => {
         <p
           className="MsoNormal"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-       
-       
-
-       
-        <p
-          className="MsoNormal"
-          style={{
-            marginBottom: "0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-          }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="MsoNormal"
-          style={{
-            marginBottom: "0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-          }}
         >
           &nbsp;
         </p>
@@ -434,6 +316,7 @@ const NMAT2022 = () => {
         >
           <b>NMAT by GMAC Examination 2022 – Highlights</b>
         </p>
+
         <table
           className="MsoTableGrid"
           style={{ borderCollapse: "collapse", border: "none" }}
@@ -461,7 +344,7 @@ const NMAT2022 = () => {
                   }}
                 >
                   <b>
-                    <u>Particulars</u>
+                    Particulars
                   </b>
                 </p>
               </td>
@@ -484,7 +367,7 @@ const NMAT2022 = () => {
                   }}
                 >
                   <b>
-                    <u>Details</u>
+                    Details
                   </b>
                 </p>
               </td>
@@ -1472,66 +1355,32 @@ const NMAT2022 = () => {
             </tr>
           </tbody>
         </table>
+
+
         <p
           className="MsoNormal"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           &nbsp;
         </p>
-        <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
+
         <p id="3"
           className="MsoNormal"
-          style={{
-            marginBottom: "0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-          }}
         >
           <b>NMAT 2022 Important Dates</b>
         </p>
         <p
           className="MsoNormal"
-          style={{
-            marginBottom: "0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-          }}
-        >
-          <b>&nbsp;</b>
-        </p>
-        <p
-          className="MsoNormal"
-          style={{
-            marginBottom: "0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-          }}
         >
           Important dates for NMAT 2022 exams are as follows:
         </p>
-        <p
-          className="MsoNormal"
-          style={{
-            marginBottom: "0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-          }}
-        >
-          &nbsp;
-        </p>
+
         <table
           className="MsoTableGrid"
           style={{
-            width: "437.6pt",
             borderCollapse: "collapse",
             border: "none",
           }}
-          width={583}
           cellSpacing={0}
           cellPadding={0}
           border={1}
@@ -1556,7 +1405,7 @@ const NMAT2022 = () => {
                   align="center"
                 >
                   <b>
-                    <u>NMAT by GMAC 2023 Exam Events</u>
+                    NMAT by GMAC 2023 Exam Events
                   </b>
                 </p>
               </td>
@@ -1579,7 +1428,7 @@ const NMAT2022 = () => {
                   align="center"
                 >
                   <b>
-                    <u>Start Date</u>
+                    Start Date
                   </b>
                 </p>
               </td>
@@ -1602,7 +1451,7 @@ const NMAT2022 = () => {
                   align="center"
                 >
                   <b>
-                    <u>End date</u>
+                    End date
                   </b>
                 </p>
               </td>
@@ -2117,6 +1966,7 @@ const NMAT2022 = () => {
             </tr>
           </tbody>
         </table>
+
         <p
           className="MsoNormal" id="4"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
@@ -2130,12 +1980,7 @@ const NMAT2022 = () => {
           <b>NMAT 2022 – Salient Features and New Changes:</b>
         </p>
         <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
+          className="cont"
         >
           <span style={{ fontFamily: "Symbol" }}>
             ·
@@ -2148,12 +1993,7 @@ const NMAT2022 = () => {
           charged.
         </p>
         <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
+          className="cont"
         >
           <span style={{ fontFamily: "Symbol" }}>
             ·
@@ -2166,12 +2006,7 @@ const NMAT2022 = () => {
           Online Exam, an aspirant can choose this mode also.
         </p>
         <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
+          className="cont"
         >
           <span style={{ fontFamily: "Symbol" }}>
             ·
@@ -2183,12 +2018,7 @@ const NMAT2022 = () => {
           would be caring equal weightage.
         </p>
         <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
+          className="cont"
         >
           <span style={{ fontFamily: "Symbol" }}>
             ·
@@ -2200,12 +2030,7 @@ const NMAT2022 = () => {
           2022 question paper.
         </p>
         <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
+          className="cont"
         >
           <span style={{ fontFamily: "Symbol" }}>
             ·
@@ -2217,12 +2042,7 @@ const NMAT2022 = () => {
           appear in NMAT 2022 exam.
         </p>
         <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
+          className="cont"
         >
           <span style={{ fontFamily: "Symbol" }}>
             ·
@@ -2234,12 +2054,7 @@ const NMAT2022 = () => {
           between two attempts.
         </p>
         <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
+          className="cont"
         >
           <span style={{ fontFamily: "Symbol" }}>
             ·
@@ -2256,12 +2071,14 @@ const NMAT2022 = () => {
         >
           &nbsp;
         </p>
+
         <p
           className="MsoNormal"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           <b>NMAT 2022 Eligibility Criteria</b>
         </p>
+
         <p
           className="MsoNormal"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
@@ -2270,12 +2087,7 @@ const NMAT2022 = () => {
           any stream. Detailed NMAT eligibility criteria are listed below:
         </p>
         <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
+          className="cont"
         >
           <span style={{ fontFamily: "Symbol" }}>
             ·
@@ -2288,12 +2100,7 @@ const NMAT2022 = () => {
           university
         </p>
         <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
+          className="cont"
         >
           <span style={{ fontFamily: "Symbol" }}>
             ·
@@ -2305,12 +2112,7 @@ const NMAT2022 = () => {
           the final year of graduation
         </p>
         <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
+          className="cont"
         >
           <span style={{ fontFamily: "Symbol" }}>
             ·
@@ -2321,12 +2123,7 @@ const NMAT2022 = () => {
           Students in their final year of graduation can also apply
         </p>
         <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
+          className="cont"
         >
           <span style={{ fontFamily: "Symbol" }}>
             ·
@@ -2338,12 +2135,14 @@ const NMAT2022 = () => {
           until the graduation mark sheet and certificate of the qualifying
           examination are submitted
         </p>
+
         <p
           className="MsoNormal" id="6"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           <b>&nbsp;</b>
         </p>
+
         <p
           className="MsoNormal"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
@@ -2358,12 +2157,7 @@ const NMAT2022 = () => {
           apply for NMAT 2022 are given below:
         </p>
         <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
+          className="cont"
         >
           1.
           <span style={{ font: '7pt "Times New Roman"' }}>
@@ -2372,12 +2166,7 @@ const NMAT2022 = () => {
           Visit the official website of NMAT.
         </p>
         <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
+          className="cont"
         >
           2.
           <span style={{ font: '7pt "Times New Roman"' }}>
@@ -2386,12 +2175,7 @@ const NMAT2022 = () => {
           Go to the registration page and click on "Register".
         </p>
         <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
+          className="cont"
         >
           3.
           <span style={{ font: '7pt "Times New Roman"' }}>
@@ -2402,12 +2186,7 @@ const NMAT2022 = () => {
           email ID and choose a password and click on the submit button.
         </p>
         <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
+          className="cont"
         >
           4.
           <span style={{ font: '7pt "Times New Roman"' }}>
@@ -2418,12 +2197,7 @@ const NMAT2022 = () => {
           clicking on the link provided in the mail sent to their accounts.
         </p>
         <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
+          className="cont"
         >
           5.
           <span style={{ font: '7pt "Times New Roman"' }}>
@@ -2433,12 +2207,7 @@ const NMAT2022 = () => {
           the email ID (user ID) and password.
         </p>
         <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
+          className="cont"
         >
           6.
           <span style={{ font: '7pt "Times New Roman"' }}>
@@ -2449,12 +2218,7 @@ const NMAT2022 = () => {
           registration form, payments, and receipts sections.
         </p>
         <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
+          className="cont"
         >
           7.
           <span style={{ font: '7pt "Times New Roman"' }}>
@@ -2464,12 +2228,7 @@ const NMAT2022 = () => {
           picture as per the given size specifications.
         </p>
         <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
+          className="cont"
         >
           8.
           <span style={{ font: '7pt "Times New Roman"' }}>
@@ -2480,12 +2239,7 @@ const NMAT2022 = () => {
           experience, school preference.
         </p>
         <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
+          className="cont"
         >
           9.
           <span style={{ font: '7pt "Times New Roman"' }}>
@@ -2495,12 +2249,7 @@ const NMAT2022 = () => {
           to all terms and conditions.
         </p>
         <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
+          className="cont"
         >
           10.
           <span style={{ font: '7pt "Times New Roman"' }}>&nbsp;&nbsp; </span>
@@ -2508,12 +2257,7 @@ const NMAT2022 = () => {
           will appear on the screen. Applicants have to note down this number.
         </p>
         <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
+          className="cont"
         >
           11.
           <span style={{ font: '7pt "Times New Roman"' }}>&nbsp;&nbsp; </span>
@@ -2521,12 +2265,7 @@ const NMAT2022 = () => {
           gateways.
         </p>
         <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
+          className="cont"
         >
           12.
           <span style={{ font: '7pt "Times New Roman"' }}>&nbsp;&nbsp; </span>
@@ -2534,18 +2273,14 @@ const NMAT2022 = () => {
           to the applicant's registered email address along with their unique
           NMAT by GMAC registration number.
         </p>
+
         <p
           className="MsoNormal"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           &nbsp;
         </p>
-        <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
+
         <CustomTable />
         <p
           className="MsoNormal" id="7"
@@ -2553,6 +2288,7 @@ const NMAT2022 = () => {
         >
           &nbsp;
         </p>
+
         <p
           className="MsoNormal"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
@@ -2563,6 +2299,7 @@ const NMAT2022 = () => {
           Check the table below to know all the test cities where NMAT by GMAC
           exam will be conducted this time:
         </p>
+
         <table
           className="MsoTableGrid"
           style={{ borderCollapse: "collapse", border: "none" }}
@@ -2591,7 +2328,7 @@ const NMAT2022 = () => {
                   align="center"
                 >
                   <b>
-                    <u>State</u>
+                    State
                   </b>
                 </p>
               </td>
@@ -2615,7 +2352,7 @@ const NMAT2022 = () => {
                   align="center"
                 >
                   <b>
-                    <u>Name of the City</u>
+                    Name of the City
                   </b>
                 </p>
               </td>
@@ -3905,18 +3642,14 @@ const NMAT2022 = () => {
             </tr>
           </tbody>
         </table>
+
         <p
           className="MsoNormal"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           &nbsp;
         </p>
-        <p
-          className="MsoNormal" id="8"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
+
         <p
           className="MsoNormal"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
@@ -3934,12 +3667,7 @@ const NMAT2022 = () => {
           to schedule NMAT 2022 are:
         </p>
         <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
+          className="cont"
         >
           1.
           <span style={{ font: '7pt "Times New Roman"' }}>
@@ -3948,12 +3676,7 @@ const NMAT2022 = () => {
           Login to your NMAT account and go to the 'My Dashboard'.
         </p>
         <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
+          className="cont"
         >
           2.
           <span style={{ font: '7pt "Times New Roman"' }}>
@@ -3963,12 +3686,7 @@ const NMAT2022 = () => {
           fee has been paid successfully.
         </p>
         <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
+          className="cont"
         >
           3.
           <span style={{ font: '7pt "Times New Roman"' }}>
@@ -3977,12 +3695,7 @@ const NMAT2022 = () => {
           Schedule your NMAT Exam date and time using ‘Schedule Exam’ feature.
         </p>
         <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
+          className="cont"
         >
           4.
           <span style={{ font: '7pt "Times New Roman"' }}>
@@ -3991,12 +3704,10 @@ const NMAT2022 = () => {
           Choose your test mode from either of the two:
         </p>
         <p
-          className="cont1"
+          className="cont"
           style={{
-            marginLeft: "1in",
-            textAlign: "justify",
+            marginLeft: "0.5in",
             textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
           }}
         >
           a.
@@ -4006,12 +3717,10 @@ const NMAT2022 = () => {
           Test centre based online exam
         </p>
         <p
-          className="cont1"
+          className="cont"
           style={{
-            marginLeft: "1in",
-            textAlign: "justify",
+            marginLeft: "0.5in",
             textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
           }}
         >
           b.
@@ -4021,12 +3730,7 @@ const NMAT2022 = () => {
           Home based remote proctored exam
         </p>
         <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
+          className="cont"
         >
           5.
           <span style={{ font: '7pt "Times New Roman"' }}>
@@ -4056,6 +3760,7 @@ const NMAT2022 = () => {
           to prepare for the same. The syllabus of NMAT 2022 is elaborated for
           all the subjects below:
         </p>
+
         <table
           className="MsoTableGrid"
           style={{ borderCollapse: "collapse", border: "none" }}
@@ -4084,7 +3789,7 @@ const NMAT2022 = () => {
                   align="center"
                 >
                   <b>
-                    <u>Section</u>
+                    Section
                   </b>
                 </p>
               </td>
@@ -4108,7 +3813,7 @@ const NMAT2022 = () => {
                   align="center"
                 >
                   <b>
-                    <u>Syllabus</u>
+                    Syllabus
                   </b>
                 </p>
               </td>
@@ -4282,16 +3987,17 @@ const NMAT2022 = () => {
             </tr>
           </tbody>
         </table>
+
         <p
           className="MsoNormal" id="10"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           <b>&nbsp;</b>
         </p>
+
         <p
           className="MsoNormal"
           style={{
-            marginBottom: "0in",
             textAlign: "justify",
             textJustify: "inter-ideograph",
           }}
@@ -4301,17 +4007,6 @@ const NMAT2022 = () => {
         <p
           className="MsoNormal"
           style={{
-            marginBottom: "0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-          }}
-        >
-          <b>&nbsp;</b>
-        </p>
-        <p
-          className="MsoNormal"
-          style={{
-            marginBottom: "0in",
             textAlign: "justify",
             textJustify: "inter-ideograph",
           }}
@@ -4319,6 +4014,7 @@ const NMAT2022 = () => {
           NMAT exam section wise number of questions and time allotment details
           are below:
         </p>
+
         <table
           className="MsoTableGrid"
           style={{ borderCollapse: "collapse", border: "none" }}
@@ -4347,7 +4043,7 @@ const NMAT2022 = () => {
                   align="center"
                 >
                   <b>
-                    <u>Section</u>
+                    Section
                   </b>
                 </p>
               </td>
@@ -4371,7 +4067,7 @@ const NMAT2022 = () => {
                   align="center"
                 >
                   <b>
-                    <u>Number of Questions</u>
+                    Number of Questions
                   </b>
                 </p>
               </td>
@@ -4395,7 +4091,7 @@ const NMAT2022 = () => {
                   align="center"
                 >
                   <b>
-                    <u>Time Alloted (in minutes)</u>
+                    Time Alloted (in minutes)
                   </b>
                 </p>
               </td>
@@ -4690,22 +4386,15 @@ const NMAT2022 = () => {
             </tr>
           </tbody>
         </table>
-        <p
-          className="MsoNormal"
-          style={{
-            marginBottom: "0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-          }}
-        >
-          &nbsp;
-        </p>
+
+
         <p
           className="MsoNormal" id="11"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           &nbsp;
         </p>
+
         <p
           className="MsoNormal"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
@@ -4744,12 +4433,7 @@ const NMAT2022 = () => {
           preparation are:
         </p>
         <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
+          className="cont"
         >
           <span style={{ fontFamily: "Symbol" }}>
             ·
@@ -4762,12 +4446,7 @@ const NMAT2022 = () => {
           vocabulary, and comprehension skills.
         </p>
         <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
+          className="cont"
         >
           <span style={{ fontFamily: "Symbol" }}>
             ·
@@ -4780,12 +4459,7 @@ const NMAT2022 = () => {
           sarcastic, satirical, etc.
         </p>
         <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
+          className="cont"
         >
           <span style={{ fontFamily: "Symbol" }}>
             ·
@@ -4797,12 +4471,7 @@ const NMAT2022 = () => {
           scoring high in this section.
         </p>
         <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
+          className="cont"
         >
           <span style={{ fontFamily: "Symbol" }}>
             ·
@@ -4830,12 +4499,7 @@ const NMAT2022 = () => {
           preparation are:
         </p>
         <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
+          className="cont"
         >
           <span style={{ fontFamily: "Symbol" }}>
             ·
@@ -4850,12 +4514,7 @@ const NMAT2022 = () => {
           quadratic equations, permutations, combinations, and probability.
         </p>
         <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
+          className="cont"
         >
           <span style={{ fontFamily: "Symbol" }}>
             ·
@@ -4867,12 +4526,7 @@ const NMAT2022 = () => {
           accuracy.
         </p>
         <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
+          className="cont"
         >
           <span style={{ fontFamily: "Symbol" }}>
             ·
@@ -4884,12 +4538,7 @@ const NMAT2022 = () => {
           minutes and review it.
         </p>
         <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
+          className="cont"
         >
           <span style={{ fontFamily: "Symbol" }}>
             ·
@@ -4925,12 +4574,7 @@ const NMAT2022 = () => {
           preparation are:
         </p>
         <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
+          className="cont"
         >
           <span style={{ fontFamily: "Symbol" }}>
             ·
@@ -4942,12 +4586,7 @@ const NMAT2022 = () => {
           solving the previous year's question papers.
         </p>
         <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
+          className="cont"
         >
           <span style={{ fontFamily: "Symbol" }}>
             ·
@@ -4959,12 +4598,7 @@ const NMAT2022 = () => {
           relations, seating arrangement, and puzzles.
         </p>
         <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
+          className="cont"
         >
           <span style={{ fontFamily: "Symbol" }}>
             ·
@@ -5006,12 +4640,7 @@ const NMAT2022 = () => {
           To check NMAT result 2022:
         </p>
         <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
+          className="cont"
         >
           <span style={{ fontFamily: "Symbol" }}>
             ·
@@ -5022,12 +4651,7 @@ const NMAT2022 = () => {
           Open the official website of NMAT.
         </p>
         <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
+          className="cont"
         >
           <span style={{ fontFamily: "Symbol" }}>
             ·
@@ -5039,12 +4663,7 @@ const NMAT2022 = () => {
           2022.
         </p>
         <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
+          className="cont"
         >
           <span style={{ fontFamily: "Symbol" }}>
             ·
@@ -5055,12 +4674,7 @@ const NMAT2022 = () => {
           Log in by using Username, Date of Birth, and Password.
         </p>
         <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
+          className="cont"
         >
           <span style={{ fontFamily: "Symbol" }}>
             ·
@@ -5071,12 +4685,7 @@ const NMAT2022 = () => {
           Enter the security code on the web page.
         </p>
         <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
+          className="cont"
         >
           <span style={{ fontFamily: "Symbol" }}>
             ·
@@ -5095,12 +4704,7 @@ const NMAT2022 = () => {
           exam 2022:
         </p>
         <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
+          className="cont"
         >
           <span style={{ fontFamily: "Symbol" }}>
             ·
@@ -5111,12 +4715,7 @@ const NMAT2022 = () => {
           NMAT 2022 scores of the candidate
         </p>
         <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
+          className="cont"
         >
           <span style={{ fontFamily: "Symbol" }}>
             ·
@@ -5127,12 +4726,7 @@ const NMAT2022 = () => {
           Cutoff for different campuses
         </p>
         <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
+          className="cont"
         >
           <span style={{ fontFamily: "Symbol" }}>
             ·
@@ -5163,6 +4757,7 @@ const NMAT2022 = () => {
           Mumbai and NMIMS Indore, the cut off ranges could be between 80-90
           percentile.
         </p>
+
         <table
           className="MsoTableGrid"
           style={{ borderCollapse: "collapse", border: "none" }}
@@ -5191,7 +4786,7 @@ const NMAT2022 = () => {
                   align="center"
                 >
                   <b>
-                    <u>NMIMS College</u>
+                    NMIMS College
                   </b>
                 </p>
               </td>
@@ -5215,7 +4810,7 @@ const NMAT2022 = () => {
                   align="center"
                 >
                   <b>
-                    <u>NMAT Cut off score</u>
+                    NMAT Cut off score
                   </b>
                 </p>
               </td>
@@ -5239,7 +4834,7 @@ const NMAT2022 = () => {
                   align="center"
                 >
                   <b>
-                    <u>NMAT Cut off percentile</u>
+                    NMAT Cut off percentile
                   </b>
                 </p>
               </td>
@@ -5606,29 +5201,26 @@ const NMAT2022 = () => {
             </tr>
           </tbody>
         </table>
+
         <p
           className="MsoNormal"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           &nbsp;
         </p>
-        <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
+
         <CustomTable />
+
         <p
           className="MsoNormal"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           &nbsp;
         </p>
+
         <p
           className="MsoNormal" id="14"
           style={{
-            marginBottom: "0in",
             textAlign: "justify",
             textJustify: "inter-ideograph",
           }}
@@ -5638,41 +5230,19 @@ const NMAT2022 = () => {
         <p
           className="MsoNormal"
           style={{
-            marginBottom: "0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-          }}
-        >
-          <b>&nbsp;</b>
-        </p>
-        <p
-          className="MsoNormal"
-          style={{
-            marginBottom: "0in",
             textAlign: "justify",
             textJustify: "inter-ideograph",
           }}
         >
           The expected cut-off of other NMAT score colleges is:
         </p>
-        <p
-          className="MsoNormal"
-          style={{
-            marginBottom: "0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-          }}
-        >
-          &nbsp;
-        </p>
+
         <table
           className="MsoTableGrid"
           style={{
-            width: "407.3pt",
             borderCollapse: "collapse",
             border: "none",
           }}
-          width={543}
           cellSpacing={0}
           cellPadding={0}
           border={1}
@@ -5698,7 +5268,7 @@ const NMAT2022 = () => {
                   align="center"
                 >
                   <b>
-                    <u>NMAT Accepting Colleges</u>
+                    NMAT Accepting Colleges
                   </b>
                 </p>
               </td>
@@ -5722,7 +5292,7 @@ const NMAT2022 = () => {
                   align="center"
                 >
                   <b>
-                    <u>NMAT Cut off Score / Percentile</u>
+                    NMAT Cut off Score / Percentile
                   </b>
                 </p>
               </td>
@@ -6353,6 +5923,7 @@ const NMAT2022 = () => {
             </tr>
           </tbody>
         </table>
+
         <p
           className="MsoNormal"
           style={{
@@ -6363,30 +5934,10 @@ const NMAT2022 = () => {
         >
           &nbsp;
         </p>
+
         <p
           className="MsoNormal"
           style={{
-            marginBottom: "0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-          }}
-        >
-          <b>&nbsp;</b>
-        </p>
-        <p
-          className="MsoNormal" id="15"
-          style={{
-            marginBottom: "0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-          }}
-        >
-          <b>&nbsp;</b>
-        </p>
-        <p
-          className="MsoNormal"
-          style={{
-            marginBottom: "0in",
             textAlign: "justify",
             textJustify: "inter-ideograph",
           }}
@@ -6394,17 +5945,7 @@ const NMAT2022 = () => {
           <b>FAQs NMAT Exam 2023</b>
         </p>
         <p
-          className="MsoNormal"
-          style={{
-            marginBottom: "0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-          }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="MsoNormal"
+          className="cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           Q: How many times is NMAT conducted?
@@ -6417,13 +5958,7 @@ const NMAT2022 = () => {
           October 10 to December 19, i.e. a 70-day test window.
         </p>
         <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="MsoNormal"
+          className="cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           Q: Who is eligible to take the second phase of NMAT 2022?
@@ -6438,13 +5973,7 @@ const NMAT2022 = () => {
           for your reference.
         </p>
         <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="MsoNormal"
+          className="cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           Q: How many times can one register for NMAT?
@@ -6458,13 +5987,7 @@ const NMAT2022 = () => {
           for which they have to reschedule the test.
         </p>
         <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="MsoNormal"
+          className="cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           Q: Is there a form correction facility available for the NMAT
@@ -6481,13 +6004,7 @@ const NMAT2022 = () => {
           submission of the application fee.
         </p>
         <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="MsoNormal"
+          className="cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           Q: What are all the sections available in the NMAT 2022 syllabus?
@@ -6500,12 +6017,7 @@ const NMAT2022 = () => {
           syllabus, namely:
         </p>
         <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
+          className="cont"
         >
           1.
           <span style={{ font: '7pt "Times New Roman"' }}>
@@ -6514,12 +6026,7 @@ const NMAT2022 = () => {
           Language Skills
         </p>
         <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
+          className="cont"
         >
           2.
           <span style={{ font: '7pt "Times New Roman"' }}>
@@ -6528,12 +6035,7 @@ const NMAT2022 = () => {
           Quantitative Skills
         </p>
         <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
+          className="cont"
         >
           3.
           <span style={{ font: '7pt "Times New Roman"' }}>
@@ -6542,13 +6044,7 @@ const NMAT2022 = () => {
           Logical Reasoning
         </p>
         <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="MsoNormal"
+          className="cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           Q: Is there any sectional time limit in NMAT exam?
@@ -6561,12 +6057,7 @@ const NMAT2022 = () => {
           exam pattern out of total 120 minutes is:
         </p>
         <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
+          className="cont"
         >
           <span style={{ fontFamily: "Symbol" }}>
             ·
@@ -6577,12 +6068,7 @@ const NMAT2022 = () => {
           Language skills- 28 minutes
         </p>
         <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
+          className="cont"
         >
           <span style={{ fontFamily: "Symbol" }}>
             ·
@@ -6593,12 +6079,7 @@ const NMAT2022 = () => {
           Quantitative Skills- 52 minutes
         </p>
         <p
-          className="cont1"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
+          className="cont"
         >
           <span style={{ fontFamily: "Symbol" }}>
             ·
@@ -6609,13 +6090,7 @@ const NMAT2022 = () => {
           Logical Reasoning- 40 minutes
         </p>
         <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="MsoNormal"
+          className="cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           Q: What is the NMAT exam marking scheme?
@@ -6628,13 +6103,7 @@ const NMAT2022 = () => {
           awarded one mark and there is no negative marking.
         </p>
         <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="MsoNormal"
+          className="cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           Q: How can applicants know about the time slot and date of NMAT 2022?
@@ -6651,13 +6120,7 @@ const NMAT2022 = () => {
           However, this facility is available on a first-come-first-serve basis.
         </p>
         <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="MsoNormal"
+          className="cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           Q: What is the procedure to reschedule the NMAT exam?
@@ -6675,13 +6138,7 @@ const NMAT2022 = () => {
           ID.
         </p>
         <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="MsoNormal"
+          className="cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           Q: What is the procedure to retake NMAT?
@@ -6698,13 +6155,7 @@ const NMAT2022 = () => {
           window.
         </p>
         <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="MsoNormal"
+          className="cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           Q: Is there any option to review answers in the NMAT exam?
@@ -6720,13 +6171,7 @@ const NMAT2022 = () => {
           any changes in the previous section.
         </p>
         <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="MsoNormal"
+          className="cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           Q: What do scaled and percentile scores refer to in the NMAT exam?
@@ -6755,22 +6200,10 @@ const NMAT2022 = () => {
           test-takers.
         </p>
         <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="MsoNormal"
+          className="cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           Q: What is the meaning of retake of the NMAT exam?
-        </p>
-        <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
         </p>
         <p
           className="MsoNormal"
@@ -6782,13 +6215,7 @@ const NMAT2022 = () => {
           before 15 days from the first attempt.
         </p>
         <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="MsoNormal"
+          className="cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           Q: What is the scheduling and rescheduling of the NMAT exam?
@@ -6805,13 +6232,7 @@ const NMAT2022 = () => {
           the re-take exam schedule option.
         </p>
         <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="MsoNormal"
+          className="cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           Q: Is the NMAT exam tough?
@@ -6824,13 +6245,7 @@ const NMAT2022 = () => {
           difficulty of the NMAT exam is moderate.
         </p>
         <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="MsoNormal"
+          className="cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           Q: What is the difference between the NMAT exam and other MBA entrance
@@ -6846,13 +6261,7 @@ const NMAT2022 = () => {
           improve their score.
         </p>
         <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="MsoNormal"
+          className="cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           Q. Are there sectional cut offs for NMIMS admission through NMAT?
