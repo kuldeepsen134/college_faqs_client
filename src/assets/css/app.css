@@ -19663,3 +19663,8 @@ section:nth-child(1) {
 .overlap-card .card .card-body .selected {
   padding: 12px 16px;
 }
+
+form.contact-form input[type="text"],
+form.contact-form input[type="password"] {
+  padding: 10px 22px;
+}

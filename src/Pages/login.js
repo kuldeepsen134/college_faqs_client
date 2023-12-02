@@ -165,7 +165,6 @@ const Login = () => {
       )}
       <section
         className="masthead form-page js-mouse-move-container"
-        style={{ marginTop: "90px" }}
       >
         <div className="form-page__img bg-dark-1">
           <div className="form-page-composition">
@@ -212,7 +211,7 @@ const Login = () => {
                     </p>
 
                     <form
-                      className="contact-form respondForm__form row y-gap-20 pt-30"
+                      className="contact-form respondForm__form row y-gap-20"
                       action="#"
                       onSubmit={formik.handleSubmit}
                     >
@@ -243,7 +242,7 @@ const Login = () => {
                       <div className="col-12">
                         <button
                           type="submit"
-                          className="button -md -green-1 text-dark-1 fw-500 w-1/1"
+                          className="button -sm -green-1 text-dark-1 fw-500 w-1/1"
                         // onClick={(e) => onSubmit(e)}
                         >
                           Login
@@ -287,7 +286,7 @@ const Login = () => {
                     </p>
 
                     <form
-                      className="contact-form respondForm__form row y-gap-20 pt-30"
+                      className="contact-form respondForm__form row y-gap-20"
                       action="#"
                     >
                       <div className="col-12">
@@ -319,7 +318,7 @@ const Login = () => {
                           type="button"
                           name="submit"
                           id="submit"
-                          className="button -md -green-1 text-dark-1 fw-500 w-1/1"
+                          className="button -sm -green-1 text-dark-1 fw-500 w-1/1"
                           onClick={(e) => onSubmit(e)}
                         >
                           Login

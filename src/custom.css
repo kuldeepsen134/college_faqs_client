@@ -54,7 +54,7 @@ div.MsoListParagraphCxSpLast {
 	text-decoration: underline;
 }
 
-.MsoListParagraphCxSpMiddle:hover {
+.MsoListParagraphCxSpMiddle:hover a {
 	text-decoration: underline;
 }
 
