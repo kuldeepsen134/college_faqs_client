@@ -59,12 +59,6 @@ const CMAT2023Incomplete = () => {
         <h4>Latest Update</h4>
         <p
           className="MsoListParagraphCxSpFirst"
-          style={{
-            marginBottom: "0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
         >
           <span style={{ fontFamily: "Symbol" }}>
             ·
@@ -76,11 +70,6 @@ const CMAT2023Incomplete = () => {
         </p>
         <p
           className="MsoListParagraphCxSpMiddle"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
         >
           <span style={{ fontFamily: "Symbol" }}>
             ·
@@ -92,12 +81,6 @@ const CMAT2023Incomplete = () => {
         </p>
         <p
           className="MsoListParagraphCxSpMiddle"
-          style={{
-            marginBottom: "0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
         >
           <span style={{ fontFamily: "Symbol" }}>
             ·
@@ -109,11 +92,6 @@ const CMAT2023Incomplete = () => {
         </p>
         <p
           className="MsoListParagraphCxSpMiddle"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
         >
           <span style={{ fontFamily: "Symbol" }}>
             ·
@@ -125,11 +103,6 @@ const CMAT2023Incomplete = () => {
         </p>
         <p
           className="MsoListParagraphCxSpMiddle"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
         >
           <span style={{ fontFamily: "Symbol" }}>
             ·
@@ -141,11 +114,6 @@ const CMAT2023Incomplete = () => {
         </p>
         <p
           className="MsoListParagraphCxSpMiddle"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
         >
           <span style={{ fontFamily: "Symbol" }}>
             ·
@@ -157,12 +125,6 @@ const CMAT2023Incomplete = () => {
         </p>
         <p
           className="MsoListParagraphCxSpMiddle"
-          style={{
-            marginBottom: "0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
         >
           <span style={{ fontFamily: "Symbol" }}>
             ·
@@ -174,12 +136,6 @@ const CMAT2023Incomplete = () => {
         </p>
         <p
           className="MsoListParagraphCxSpMiddle"
-          style={{
-            marginBottom: "0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
         >
           <span style={{ fontFamily: "Symbol" }}>
             ·
@@ -191,12 +147,6 @@ const CMAT2023Incomplete = () => {
         </p>
         <p
           className="MsoListParagraphCxSpMiddle"
-          style={{
-            marginBottom: "0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
         >
           <span style={{ fontFamily: "Symbol" }}>
             ·
@@ -208,12 +158,6 @@ const CMAT2023Incomplete = () => {
         </p>
         <p
           className="MsoListParagraphCxSpMiddle"
-          style={{
-            marginBottom: "0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
         >
           <span style={{ fontFamily: "Symbol" }}>
             ·
@@ -225,11 +169,6 @@ const CMAT2023Incomplete = () => {
         </p>
         <p
           className="MsoListParagraphCxSpMiddle"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
         >
           <span style={{ fontFamily: "Symbol" }}>
             ·
@@ -241,11 +180,6 @@ const CMAT2023Incomplete = () => {
         </p>
         <p
           className="MsoListParagraphCxSpMiddle"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
         >
           <span style={{ fontFamily: "Symbol" }}>
             ·
@@ -257,11 +191,6 @@ const CMAT2023Incomplete = () => {
         </p>
         <p
           className="MsoListParagraphCxSpMiddle"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
         >
           <span style={{ fontFamily: "Symbol" }}>
             ·
@@ -273,11 +202,6 @@ const CMAT2023Incomplete = () => {
         </p>
         <p
           className="MsoListParagraphCxSpMiddle"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
         >
           <span style={{ fontFamily: "Symbol" }}>
             ·
@@ -289,11 +213,6 @@ const CMAT2023Incomplete = () => {
         </p>
         <p
           className="MsoListParagraphCxSpMiddle"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
         >
           <span style={{ fontFamily: "Symbol" }}>
             ·
@@ -305,11 +224,6 @@ const CMAT2023Incomplete = () => {
         </p>
         <p
           className="MsoListParagraphCxSpMiddle"
-          style={{
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
         >
           <span style={{ fontFamily: "Symbol" }}>
             ·
@@ -321,14 +235,9 @@ const CMAT2023Incomplete = () => {
         </p>
         <p
           className="MsoListParagraphCxSpMiddle"
-          style={{
-            marginLeft: "1in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
+          
         >
-          <span style={{ fontFamily: '"Courier New"' }}>
+          <span style={{ fontFamily: "Symbol" }}>
             o
             <span style={{ font: '7pt "Times New Roman"' }}>&nbsp;&nbsp; </span>
           </span>
@@ -336,14 +245,9 @@ const CMAT2023Incomplete = () => {
         </p>
         <p
           className="MsoListParagraphCxSpMiddle"
-          style={{
-            marginLeft: "1in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
+          
         >
-          <span style={{ fontFamily: '"Courier New"' }}>
+          <span style={{ fontFamily: "Symbol" }}>
             o
             <span style={{ font: '7pt "Times New Roman"' }}>&nbsp;&nbsp; </span>
           </span>
@@ -351,14 +255,9 @@ const CMAT2023Incomplete = () => {
         </p>
         <p
           className="MsoListParagraphCxSpMiddle"
-          style={{
-            marginLeft: "1in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
+          
         >
-          <span style={{ fontFamily: '"Courier New"' }}>
+          <span style={{ fontFamily: "Symbol" }}>
             o
             <span style={{ font: '7pt "Times New Roman"' }}>&nbsp;&nbsp; </span>
           </span>
@@ -366,14 +265,9 @@ const CMAT2023Incomplete = () => {
         </p>
         <p
           className="MsoListParagraphCxSpMiddle"
-          style={{
-            marginLeft: "1in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
+          
         >
-          <span style={{ fontFamily: '"Courier New"' }}>
+          <span style={{ fontFamily: "Symbol" }}>
             o
             <span style={{ font: '7pt "Times New Roman"' }}>&nbsp;&nbsp; </span>
           </span>
@@ -381,14 +275,9 @@ const CMAT2023Incomplete = () => {
         </p>
         <p
           className="MsoListParagraphCxSpMiddle"
-          style={{
-            marginLeft: "1in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
+          
         >
-          <span style={{ fontFamily: '"Courier New"' }}>
+          <span style={{ fontFamily: "Symbol" }}>
             o
             <span style={{ font: '7pt "Times New Roman"' }}>&nbsp;&nbsp; </span>
           </span>
@@ -396,14 +285,9 @@ const CMAT2023Incomplete = () => {
         </p>
         <p
           className="MsoListParagraphCxSpMiddle"
-          style={{
-            marginLeft: "1in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
+          
         >
-          <span style={{ fontFamily: '"Courier New"' }}>
+          <span style={{ fontFamily: "Symbol" }}>
             o
             <span style={{ font: '7pt "Times New Roman"' }}>&nbsp;&nbsp; </span>
           </span>
@@ -411,12 +295,6 @@ const CMAT2023Incomplete = () => {
         </p>
         <p
           className="MsoListParagraphCxSpLast"
-          style={{
-            marginBottom: "0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
-          }}
         >
           <span style={{ fontFamily: "Symbol" }}>
             ·

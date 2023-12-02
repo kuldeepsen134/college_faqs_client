@@ -88,12 +88,14 @@ const PartTimeMbaa = () => {
                   className="MsoNormal"
                   style={{
                     marginBottom: "0in",
-                    textAlign: "justify",
+                    textAlign: "center",
                     textJustify: "inter-ideograph",
                     lineHeight: "normal",
                   }}
                 >
-                  Parameters
+                  <b>
+                    Parameters
+                  </b>
                 </p>
               </td>
               <td
@@ -110,12 +112,14 @@ const PartTimeMbaa = () => {
                   className="MsoNormal"
                   style={{
                     marginBottom: "0in",
-                    textAlign: "justify",
+                    textAlign: "center",
                     textJustify: "inter-ideograph",
                     lineHeight: "normal",
                   }}
                 >
-                  Details
+                  <b>
+                    Details
+                  </b>
                 </p>
               </td>
             </tr>
@@ -483,7 +487,7 @@ const PartTimeMbaa = () => {
           className="MsoNormal"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
-          <u>Advantages &nbsp;- Part Time MBA</u>
+          <b style={{ fontSize: '11pt' }}> <u>Advantages &nbsp;- Part Time MBA</u></b>
         </p>
         <p
           className="MsoNormal"
@@ -494,17 +498,9 @@ const PartTimeMbaa = () => {
           the part time MBA is a good proposition for you:
         </p>
         <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
           className="MsoListParagraphCxSpFirst"
           style={{
-            textAlign: "justify",
             textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
           }}
         >
           <span style={{ fontFamily: "Symbol" }}>
@@ -520,9 +516,7 @@ const PartTimeMbaa = () => {
         <p
           className="MsoListParagraphCxSpMiddle"
           style={{
-            textAlign: "justify",
             textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
           }}
         >
           <span style={{ fontFamily: "Symbol" }}>
@@ -539,9 +533,7 @@ const PartTimeMbaa = () => {
         <p
           className="MsoListParagraphCxSpMiddle"
           style={{
-            textAlign: "justify",
             textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
           }}
         >
           <span style={{ fontFamily: "Symbol" }}>
@@ -557,9 +549,7 @@ const PartTimeMbaa = () => {
         <p
           className="MsoListParagraphCxSpMiddle"
           style={{
-            textAlign: "justify",
             textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
           }}
         >
           <span style={{ fontFamily: "Symbol" }}>
@@ -576,9 +566,7 @@ const PartTimeMbaa = () => {
         <p
           className="MsoListParagraphCxSpLast"
           style={{
-            textAlign: "justify",
             textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
           }}
         >
           <span style={{ fontFamily: "Symbol" }}>
@@ -594,7 +582,7 @@ const PartTimeMbaa = () => {
           className="MsoNormal"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
-          <u>Disadvantages&nbsp; - Part Time MBA</u>
+          <b style={{ fontSize: '11pt' }}>  <u>Disadvantages&nbsp; - Part Time MBA</u></b>
         </p>
         <p
           className="MsoNormal"
@@ -609,9 +597,7 @@ const PartTimeMbaa = () => {
         <p
           className="MsoListParagraphCxSpFirst"
           style={{
-            textAlign: "justify",
             textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
           }}
         >
           <span style={{ fontFamily: "Symbol" }}>
@@ -628,9 +614,7 @@ const PartTimeMbaa = () => {
         <p
           className="MsoListParagraphCxSpMiddle"
           style={{
-            textAlign: "justify",
             textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
           }}
         >
           <span style={{ fontFamily: "Symbol" }}>
@@ -645,9 +629,7 @@ const PartTimeMbaa = () => {
         <p
           className="MsoListParagraphCxSpMiddle"
           style={{
-            textAlign: "justify",
             textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
           }}
         >
           <span style={{ fontFamily: "Symbol" }}>
@@ -663,9 +645,7 @@ const PartTimeMbaa = () => {
         <p
           className="MsoListParagraphCxSpLast"
           style={{
-            textAlign: "justify",
             textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
           }}
         >
           <span style={{ fontFamily: "Symbol" }}>
@@ -707,18 +687,6 @@ const PartTimeMbaa = () => {
           skills and having the MBA degree.
         </p>
         <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
           className=" cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
@@ -746,12 +714,6 @@ const PartTimeMbaa = () => {
           group interaction.
         </p>
         <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
           className=" cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
@@ -766,12 +728,6 @@ const PartTimeMbaa = () => {
           within three to five years. Each institute has its specific duration
           and some of them also allow students to take an extension to complete
           the program.
-        </p>
-        <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
         </p>
         <p
           className=" cont headings"
@@ -795,12 +751,6 @@ const PartTimeMbaa = () => {
           Corporate Strategy and Policy, Economics and Social Sciences,
           Entrepreneurial Learning, Decision Sciences and Information Systems,
           Organisational Behaviour and HRM, Accounting and Finance etc.
-        </p>
-        <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
         </p>
         <p
           className=" cont headings"
@@ -975,12 +925,6 @@ const PartTimeMbaa = () => {
           have an age limit criteria, which ranges from 27 years to 50 years.
         </p>
         <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
           className=" cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
@@ -998,12 +942,6 @@ const PartTimeMbaa = () => {
           experts.
         </p>
         <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
           className=" cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
@@ -1017,12 +955,6 @@ const PartTimeMbaa = () => {
           Ans: Placement process is not conducted by the institutes after the
           program completion as students are working professionals. However,
           some institutes do provide alumni based placed assistance.
-        </p>
-        <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
         </p>
         <p
           className=" cont headings"
@@ -1039,12 +971,6 @@ const PartTimeMbaa = () => {
           change the career path or explore a more challenging leadership role
           in a different industry type or organisation in the same sector, the
           Part-time MBA would be the roadmap to the new avenues and sectors.
-        </p>
-        <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
         </p>
         <p
           className=" cont headings"

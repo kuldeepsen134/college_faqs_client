@@ -85,7 +85,7 @@ const ExecutiveMBA = () => {
                   align="center"
                 >
                   <b>
-                    <u>Parameters</u>
+                    Parameters
                   </b>
                 </p>
               </td>
@@ -109,7 +109,7 @@ const ExecutiveMBA = () => {
                   align="center"
                 >
                   <b>
-                    <u>Details</u>
+                    Details
                   </b>
                 </p>
               </td>
@@ -510,9 +510,7 @@ const ExecutiveMBA = () => {
         <p
           className="MsoListParagraphCxSpFirst"
           style={{
-            textAlign: "justify",
             textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
           }}
         >
           <span style={{ fontFamily: "Symbol" }}>
@@ -529,9 +527,7 @@ const ExecutiveMBA = () => {
         <p
           className="MsoListParagraphCxSpMiddle"
           style={{
-            textAlign: "justify",
             textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
           }}
         >
           <span style={{ fontFamily: "Symbol" }}>
@@ -547,9 +543,7 @@ const ExecutiveMBA = () => {
         <p
           className="MsoListParagraphCxSpLast"
           style={{
-            textAlign: "justify",
             textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
           }}
         >
           <span style={{ fontFamily: "Symbol" }}>
@@ -561,18 +555,6 @@ const ExecutiveMBA = () => {
           Number of years of work experience varies from two to five years for
           every institute. The candidate must check the eligibility criteria of
           the preferred B-schools before applying.
-        </p>
-        <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          <b>&nbsp;</b>
         </p>
         <p
           className="MsoNormal"
@@ -599,7 +581,7 @@ const ExecutiveMBA = () => {
           className="MsoNormal"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
-          <u>Leadership:</u> Professionals working as a manager are required to
+           <b style={{ fontSize: '11pt' }}><u>Leadership:</u></b> Professionals working as a manager are required to
           possess strong leadership skills as they need to manage a team. Being
           a good leader is as important as being good in their field.
         </p>
@@ -607,7 +589,7 @@ const ExecutiveMBA = () => {
           className="MsoNormal"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
-          <u>Patience:</u> Executive MBA / PGDM candidates need to learn to be
+           <b style={{ fontSize: '11pt' }}><u>Patience:</u></b> Executive MBA / PGDM candidates need to learn to be
           patient about their work, assignments and profession but also need to
           abide by the timelines by keeping patience.
         </p>
@@ -615,7 +597,7 @@ const ExecutiveMBA = () => {
           className="MsoNormal"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
-          <u>Dedication:</u> As a manager, responsibilities can only be
+           <b style={{ fontSize: '11pt' }}><u>Dedication:</u></b> As a manager, responsibilities can only be
           fulfilled if one is completely committed to his/her work. There are
           certain times when the problems are complicated and one has to handle
           a team also, at such moments u need to be dedicated towards your end
@@ -625,7 +607,7 @@ const ExecutiveMBA = () => {
           className="MsoNormal"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
-          <u>Teamwork:</u> Teamwork is yet another important skill that a senior
+           <b style={{ fontSize: '11pt' }}><u>Teamwork:</u></b> Teamwork is yet another important skill that a senior
           professional should possess since corporate projects are not about
           working alone but with a team.
         </p>
@@ -633,7 +615,7 @@ const ExecutiveMBA = () => {
           className="MsoNormal"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
-          <u>Communication:</u> Both verbal and written communication is an
+           <b style={{ fontSize: '11pt' }}><u>Communication:</u></b> Both verbal and written communication is an
           integral part of a manager’s activity. While leading a team of
           professionals with different mindsets and backgrounds, it is important
           for a manager to be clear and concise about his/her instructions.
@@ -1142,12 +1124,6 @@ const ExecutiveMBA = () => {
           <b>Execuitve MBA FAQs</b>
         </p>
         <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
           className=" cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
@@ -1160,12 +1136,6 @@ const ExecutiveMBA = () => {
           Ans: MBA is a master degree course offered by the University, to
           develop understanding of basics of business and management. An
           executive MBA is a post graduate program for the working people.
-        </p>
-        <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
         </p>
         <p
           className=" cont headings"
@@ -1182,12 +1152,6 @@ const ExecutiveMBA = () => {
           it is necessary to a bachelor's degree with at least 50% aggregate or
           equivalent from a recognized university are eligible for executive MBA
           / PGDM.
-        </p>
-        <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
         </p>
         <p
           className=" cont headings"
@@ -1208,12 +1172,6 @@ const ExecutiveMBA = () => {
           Operations, Banking, Insurance, Consulting, etc.
         </p>
         <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
           className=" cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
@@ -1225,12 +1183,6 @@ const ExecutiveMBA = () => {
         >
           Ans: The salary for executive MBA / PGDM candidates ranges from Rs. 12
           lakh per annum to Rs. 40 lakh per annum.
-        </p>
-        <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
         </p>
         <p
           className=" cont headings"
@@ -1245,12 +1197,6 @@ const ExecutiveMBA = () => {
           Ans: Yes, executive MBA is equivalent to a master’s degree.
         </p>
         <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
           className=" cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
@@ -1262,12 +1208,6 @@ const ExecutiveMBA = () => {
         >
           Ans: Completing an executive MBA from IIM can cost a lot but it is
           totally worthy, as the ROI is also quite impressive.
-        </p>
-        <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
         </p>
         <p
           className=" cont headings"
@@ -1285,12 +1225,6 @@ const ExecutiveMBA = () => {
           criteria of that college / university.
         </p>
         <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
           className=" cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
@@ -1303,12 +1237,6 @@ const ExecutiveMBA = () => {
           Ans: Working professionals with at least 2-5 years of experience can
           apply for executive MBA courses can do executive MBA /&nbsp; PGDM at
           anytime in there career.
-        </p>
-        <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
         </p>
         <p
           className=" cont headings"
@@ -1325,12 +1253,6 @@ const ExecutiveMBA = () => {
           Grey Orange, KPMG, Reliance Industries, Larsen &amp; Toubro (L&amp;T),
           Cadbury, UltraTech Cement, Mahindra and Mahindra, ITC, Tata Motor,
           Godrej &amp; Boyce Mfg. Co. etc.
-        </p>
-        <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
         </p>
       </div>
     </div>

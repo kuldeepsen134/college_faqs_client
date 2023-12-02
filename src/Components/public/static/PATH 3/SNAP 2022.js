@@ -3,8 +3,8 @@ import { Link } from "react-router-dom";
 import { useEffect } from "react";
 const Snap2022 = () => {
   useEffect(() => {
-    window.scrollTo(0,0);
-  },[])
+    window.scrollTo(0, 0);
+  }, [])
   return (
     <div>
       <div className="WordSection1">
@@ -58,10 +58,7 @@ const Snap2022 = () => {
         <p
           className="MsoListParagraphCxSpFirst"
           style={{
-            marginBottom: "0in",
-            textAlign: "justify",
             textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
           }}
         >
           <span style={{ fontFamily: "Symbol" }}>
@@ -75,9 +72,7 @@ const Snap2022 = () => {
         <p
           className="MsoListParagraphCxSpMiddle"
           style={{
-            textAlign: "justify",
             textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
           }}
         >
           <span style={{ fontFamily: "Symbol" }}>
@@ -91,10 +86,7 @@ const Snap2022 = () => {
         <p
           className="MsoListParagraphCxSpMiddle"
           style={{
-            marginBottom: "0in",
-            textAlign: "justify",
             textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
           }}
         >
           <span style={{ fontFamily: "Symbol" }}>
@@ -108,9 +100,7 @@ const Snap2022 = () => {
         <p
           className="MsoListParagraphCxSpMiddle"
           style={{
-            textAlign: "justify",
             textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
           }}
         >
           <span style={{ fontFamily: "Symbol" }}>
@@ -124,9 +114,7 @@ const Snap2022 = () => {
         <p
           className="MsoListParagraphCxSpMiddle"
           style={{
-            textAlign: "justify",
             textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
           }}
         >
           <span style={{ fontFamily: "Symbol" }}>
@@ -140,9 +128,7 @@ const Snap2022 = () => {
         <p
           className="MsoListParagraphCxSpMiddle"
           style={{
-            textAlign: "justify",
             textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
           }}
         >
           <span style={{ fontFamily: "Symbol" }}>
@@ -156,9 +142,7 @@ const Snap2022 = () => {
         <p
           className="MsoListParagraphCxSpMiddle"
           style={{
-            textAlign: "justify",
             textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
           }}
         >
           <span style={{ fontFamily: "Symbol" }}>
@@ -172,9 +156,7 @@ const Snap2022 = () => {
         <p
           className="MsoListParagraphCxSpMiddle"
           style={{
-            textAlign: "justify",
             textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
           }}
         >
           <span style={{ fontFamily: "Symbol" }}>
@@ -188,10 +170,7 @@ const Snap2022 = () => {
         <p
           className="MsoListParagraphCxSpMiddle"
           style={{
-            marginBottom: "0in",
-            textAlign: "justify",
             textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
           }}
         >
           <span style={{ fontFamily: "Symbol" }}>
@@ -205,9 +184,7 @@ const Snap2022 = () => {
         <p
           className="MsoListParagraphCxSpMiddle"
           style={{
-            textAlign: "justify",
             textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
           }}
         >
           <span style={{ fontFamily: "Symbol" }}>
@@ -221,9 +198,7 @@ const Snap2022 = () => {
         <p
           className="MsoListParagraphCxSpMiddle"
           style={{
-            textAlign: "justify",
             textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
           }}
         >
           <span style={{ fontFamily: "Symbol" }}>
@@ -237,9 +212,7 @@ const Snap2022 = () => {
         <p
           className="MsoListParagraphCxSpMiddle"
           style={{
-            textAlign: "justify",
             textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
           }}
         >
           <span style={{ fontFamily: "Symbol" }}>
@@ -253,9 +226,7 @@ const Snap2022 = () => {
         <p
           className="MsoListParagraphCxSpMiddle"
           style={{
-            textAlign: "justify",
             textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
           }}
         >
           <span style={{ fontFamily: "Symbol" }}>
@@ -269,9 +240,7 @@ const Snap2022 = () => {
         <p
           className="MsoListParagraphCxSpMiddle"
           style={{
-            textAlign: "justify",
             textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
           }}
         >
           <span style={{ fontFamily: "Symbol" }}>
@@ -285,10 +254,7 @@ const Snap2022 = () => {
         <p
           className="MsoListParagraphCxSpMiddle"
           style={{
-            marginBottom: "0in",
-            textAlign: "justify",
             textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
           }}
         >
           <span style={{ fontFamily: "Symbol" }}>
@@ -302,10 +268,7 @@ const Snap2022 = () => {
         <p
           className="MsoListParagraphCxSpLast"
           style={{
-            marginBottom: "0in",
-            textAlign: "justify",
             textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
           }}
         >
           <span style={{ fontFamily: "Symbol" }}>
@@ -315,54 +278,6 @@ const Snap2022 = () => {
             </span>
           </span>
           <a href="#16">FAQs – SNAP Exam 2022</a>
-        </p>
-        <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        
-  
-        <p
-          className="MsoNormal"
-          style={{
-            marginBottom: "0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-          }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="MsoNormal"
-          style={{
-            marginBottom: "0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-          }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="MsoNormal"
-          style={{
-            marginBottom: "0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-          }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="MsoNormal"
-          style={{
-            marginBottom: "0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-          }}
-        >
-          &nbsp;
         </p>
         <p
           className="MsoNormal"
@@ -450,11 +365,11 @@ const Snap2022 = () => {
           <span
             style={{
               position: "relative",
-              zIndex: 251658240,
               left: "-10px",
               top: "3px",
               width: "640px",
               height: "326px",
+              zIndex: '1'
             }}
           >
             <img
@@ -463,30 +378,6 @@ const Snap2022 = () => {
               height={323}
             />
           </span>
-          <b>&nbsp;</b>
-        </p>
-        <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          <b>&nbsp;</b>
-        </p>
-        <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          <b>&nbsp;</b>
-        </p>
-        <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          <b>&nbsp;</b>
-        </p>
-        <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
           <b>&nbsp;</b>
         </p>
         <p
@@ -523,7 +414,7 @@ const Snap2022 = () => {
                   }}
                 >
                   <b>
-                    <u>Particulars</u>
+                    Particulars
                   </b>
                 </p>
               </td>
@@ -546,7 +437,7 @@ const Snap2022 = () => {
                   }}
                 >
                   <b>
-                    <u>Details</u>
+                    Details
                   </b>
                 </p>
               </td>
@@ -1510,18 +1401,14 @@ const Snap2022 = () => {
             </tr>
           </tbody>
         </table>
-        <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
+
         <p
           className="MsoNormal" id="3"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           &nbsp;
         </p>
+
         <p
           className="MsoNormal"
           style={{
@@ -1565,6 +1452,7 @@ const Snap2022 = () => {
         >
           &nbsp;
         </p>
+
         <table
           className="MsoTableGrid"
           style={{ borderCollapse: "collapse", border: "none" }}
@@ -1593,7 +1481,7 @@ const Snap2022 = () => {
                   }}
                 >
                   <b>
-                    <u>SNAP 2022 Exam Activitiy</u>
+                    SNAP 2022 Exam Activitiy
                   </b>
                 </p>
               </td>
@@ -1617,7 +1505,7 @@ const Snap2022 = () => {
                   }}
                 >
                   <b>
-                    <u>Important SNAP Dates</u>
+                    Important SNAP Dates
                   </b>
                 </p>
               </td>
@@ -2245,6 +2133,16 @@ const Snap2022 = () => {
           </tbody>
         </table>
         <p
+          className="MsoNormal"
+          style={{
+            marginBottom: "0in",
+            textAlign: "justify",
+            textJustify: "inter-ideograph",
+          }}
+        >
+          &nbsp;
+        </p>
+        <p
           className="MsoNormal" id="4"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
@@ -2258,11 +2156,9 @@ const Snap2022 = () => {
           eligibility criteria for appearing in SNAP exam 2022:
         </p>
         <p
-          className="cont1"
+          className="cont"
           style={{
-            textAlign: "justify",
             textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
           }}
         >
           <span style={{ fontFamily: "Symbol" }}>
@@ -2277,11 +2173,9 @@ const Snap2022 = () => {
           Scheduled Castes/ Scheduled Tribes) at graduation.
         </p>
         <p
-          className="cont1"
+          className="cont"
           style={{
-            textAlign: "justify",
             textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
           }}
         >
           <span style={{ fontFamily: "Symbol" }}>
@@ -2296,11 +2190,9 @@ const Snap2022 = () => {
           Scheduled Tribes).
         </p>
         <p
-          className="cont1"
+          className="cont"
           style={{
-            textAlign: "justify",
             textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
           }}
         >
           <span style={{ fontFamily: "Symbol" }}>
@@ -2347,11 +2239,9 @@ const Snap2022 = () => {
           Given below is the process to complete the SNAP application form:
         </p>
         <p
-          className="cont1"
+          className="cont"
           style={{
-            textAlign: "justify",
             textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
           }}
         >
           1.
@@ -2361,11 +2251,9 @@ const Snap2022 = () => {
           Visit the SNAP 2022 website
         </p>
         <p
-          className="cont1"
+          className="cont"
           style={{
-            textAlign: "justify",
             textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
           }}
         >
           2.
@@ -2375,11 +2263,9 @@ const Snap2022 = () => {
           Click on New Registration
         </p>
         <p
-          className="cont1"
+          className="cont"
           style={{
-            textAlign: "justify",
             textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
           }}
         >
           3.
@@ -2389,11 +2275,9 @@ const Snap2022 = () => {
           Enter name, date of birth, phone number and email ID
         </p>
         <p
-          className="cont1"
+          className="cont"
           style={{
-            textAlign: "justify",
             textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
           }}
         >
           4.
@@ -2403,11 +2287,9 @@ const Snap2022 = () => {
           SNAP ID and login credentials will be shared on your e-mail
         </p>
         <p
-          className="cont1"
+          className="cont"
           style={{
-            textAlign: "justify",
             textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
           }}
         >
           5.
@@ -2417,11 +2299,9 @@ const Snap2022 = () => {
           Use the SNAP ID and password to log in and fill the application form
         </p>
         <p
-          className="cont1"
+          className="cont"
           style={{
-            textAlign: "justify",
             textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
           }}
         >
           6.
@@ -2432,11 +2312,9 @@ const Snap2022 = () => {
           SIU institute and program
         </p>
         <p
-          className="cont1"
+          className="cont"
           style={{
-            textAlign: "justify",
             textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
           }}
         >
           7.
@@ -2446,11 +2324,9 @@ const Snap2022 = () => {
           Upload passport size photo and scanned signature
         </p>
         <p
-          className="cont1"
+          className="cont"
           style={{
-            textAlign: "justify",
             textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
           }}
         >
           8.
@@ -2460,18 +2336,14 @@ const Snap2022 = () => {
           Make payment of SNAP application fee via credit/debit card or net
           banking
         </p>
-        <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          <b>&nbsp;</b>
-        </p>
+
         <p
           className="MsoNormal"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           &nbsp;
         </p>
+
         <CustomTable />
 
         <p
@@ -2480,6 +2352,7 @@ const Snap2022 = () => {
         >
           &nbsp;
         </p>
+
         <p
           className="MsoNormal"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
@@ -2492,6 +2365,7 @@ const Snap2022 = () => {
         >
           SNAP Test 2022 will be conducted in 86 cities all over India.
         </p>
+
         <table
           className="MsoTableGrid"
           style={{ borderCollapse: "collapse", border: "none" }}
@@ -2520,7 +2394,7 @@ const Snap2022 = () => {
                   }}
                 >
                   <b>
-                    <u>State</u>
+                    State
                   </b>
                 </p>
               </td>
@@ -2544,7 +2418,7 @@ const Snap2022 = () => {
                   }}
                 >
                   <b>
-                    <u>Name of the City</u>
+                    Name of the City
                   </b>
                 </p>
               </td>
@@ -4435,18 +4309,14 @@ const Snap2022 = () => {
             </tr>
           </tbody>
         </table>
-        <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
+
         <p
           className="MsoNormal" id="7"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           &nbsp;
         </p>
+
         <p
           className="MsoNormal"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
@@ -4469,6 +4339,7 @@ const Snap2022 = () => {
           Please refer to the below table for sections, questions and marks for
           them.
         </p>
+
         <table
           className="MsoTableGrid"
           style={{ borderCollapse: "collapse", border: "none" }}
@@ -4496,7 +4367,7 @@ const Snap2022 = () => {
                   align="center"
                 >
                   <b>
-                    <u>Section</u>
+                    Section
                   </b>
                 </p>
               </td>
@@ -4519,7 +4390,7 @@ const Snap2022 = () => {
                   align="center"
                 >
                   <b>
-                    <u>Questions</u>
+                    Questions
                   </b>
                 </p>
               </td>
@@ -4542,20 +4413,7 @@ const Snap2022 = () => {
                   align="center"
                 >
                   <b>
-                    <u>Marks Per</u>
-                  </b>
-                </p>
-                <p
-                  className="MsoNormal"
-                  style={{
-                    marginBottom: "0in",
-                    textAlign: "center",
-                    lineHeight: "normal",
-                  }}
-                  align="center"
-                >
-                  <b>
-                    <u>Correct Answer</u>
+                    Marks Per Correct Answer
                   </b>
                 </p>
               </td>
@@ -4578,20 +4436,7 @@ const Snap2022 = () => {
                   align="center"
                 >
                   <b>
-                    <u>Total</u>
-                  </b>
-                </p>
-                <p
-                  className="MsoNormal"
-                  style={{
-                    marginBottom: "0in",
-                    textAlign: "center",
-                    lineHeight: "normal",
-                  }}
-                  align="center"
-                >
-                  <b>
-                    <u>Marks</u>
+                    Total Marks
                   </b>
                 </p>
               </td>
@@ -4967,18 +4812,14 @@ const Snap2022 = () => {
             </tr>
           </tbody>
         </table>
+
         <p
           className="MsoNormal"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           &nbsp;
         </p>
-        <p 
-          className="MsoNormal" id="8"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
+
         <p
           className="MsoNormal"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
@@ -4995,6 +4836,7 @@ const Snap2022 = () => {
           to these sections is 25%, 33% and 42% respectively. Candidates should
           include the following sections and subjects in there preparation/
         </p>
+
         <table
           className="MsoTableGrid"
           style={{ borderCollapse: "collapse", border: "none" }}
@@ -5022,7 +4864,7 @@ const Snap2022 = () => {
                   }}
                 >
                   <b>
-                    <u>Syllabus</u>
+                    Syllabus
                   </b>
                 </p>
               </td>
@@ -5045,7 +4887,7 @@ const Snap2022 = () => {
                   }}
                 >
                   <b>
-                    <u>Important Topics</u>
+                    Important Topics
                   </b>
                 </p>
               </td>
@@ -5064,7 +4906,6 @@ const Snap2022 = () => {
                   className="MsoNormal bold1"
                   style={{
                     marginBottom: "0in",
-                    textAlign: "justify",
                     textJustify: "inter-ideograph",
                     lineHeight: "normal",
                   }}
@@ -5088,7 +4929,6 @@ const Snap2022 = () => {
                   className="MsoNormal"
                   style={{
                     marginBottom: "0in",
-                    textAlign: "justify",
                     textJustify: "inter-ideograph",
                     lineHeight: "normal",
                   }}
@@ -5113,7 +4953,6 @@ const Snap2022 = () => {
                   className="MsoNormal bold1"
                   style={{
                     marginBottom: "0in",
-                    textAlign: "justify",
                     textJustify: "inter-ideograph",
                     lineHeight: "normal",
                   }}
@@ -5136,7 +4975,6 @@ const Snap2022 = () => {
                   className="MsoNormal"
                   style={{
                     marginBottom: "0in",
-                    textAlign: "justify",
                     textJustify: "inter-ideograph",
                     lineHeight: "normal",
                   }}
@@ -5160,7 +4998,6 @@ const Snap2022 = () => {
                   className="MsoNormal bold1"
                   style={{
                     marginBottom: "0in",
-                    textAlign: "justify",
                     textJustify: "inter-ideograph",
                     lineHeight: "normal",
                   }}
@@ -5183,7 +5020,6 @@ const Snap2022 = () => {
                   className="MsoNormal"
                   style={{
                     marginBottom: "0in",
-                    textAlign: "justify",
                     textJustify: "inter-ideograph",
                     lineHeight: "normal",
                   }}
@@ -5195,18 +5031,14 @@ const Snap2022 = () => {
             </tr>
           </tbody>
         </table>
+
         <p
           className="MsoNormal"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           &nbsp;
         </p>
-        <p
-          className="MsoNormal" id="9"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
+
         <p
           className="MsoNormal"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
@@ -5222,11 +5054,9 @@ const Snap2022 = () => {
           preparation plan should have three components:
         </p>
         <p
-          className="cont1"
+          className="cont"
           style={{
-            textAlign: "justify",
             textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
           }}
         >
           -
@@ -5236,11 +5066,9 @@ const Snap2022 = () => {
           Syllabus practice through books
         </p>
         <p
-          className="cont1"
+          className="cont"
           style={{
-            textAlign: "justify",
             textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
           }}
         >
           -
@@ -5250,11 +5078,9 @@ const Snap2022 = () => {
           SNAP mock test practice
         </p>
         <p
-          className="cont1"
+          className="cont"
           style={{
-            textAlign: "justify",
             textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
           }}
         >
           -
@@ -5270,11 +5096,9 @@ const Snap2022 = () => {
           Some of the important tips for SNAP preparation are:
         </p>
         <p
-          className="cont1"
+          className="cont"
           style={{
-            textAlign: "justify",
             textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
           }}
         >
           -
@@ -5284,11 +5108,9 @@ const Snap2022 = () => {
           Prepare as per the SNAP syllabus for all three sections
         </p>
         <p
-          className="cont1"
+          className="cont"
           style={{
-            textAlign: "justify",
             textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
           }}
         >
           -
@@ -5298,11 +5120,9 @@ const Snap2022 = () => {
           Keep giving SNAP mock tests to keep track of your preparation
         </p>
         <p
-          className="cont1"
+          className="cont"
           style={{
-            textAlign: "justify",
             textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
           }}
         >
           -
@@ -5312,11 +5132,9 @@ const Snap2022 = () => {
           Analyze and be aware of your strong and weak subjects
         </p>
         <p
-          className="cont1"
+          className="cont"
           style={{
-            textAlign: "justify",
             textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
           }}
         >
           -
@@ -5326,11 +5144,9 @@ const Snap2022 = () => {
           Choose the right book and study material for SNAP preparation
         </p>
         <p
-          className="cont1"
+          className="cont"
           style={{
-            textAlign: "justify",
             textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
           }}
         >
           -
@@ -5340,11 +5156,9 @@ const Snap2022 = () => {
           Prepare a SNAP preparation timetable for daily use
         </p>
         <p
-          className="cont1"
+          className="cont"
           style={{
-            textAlign: "justify",
             textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
           }}
         >
           -
@@ -5355,11 +5169,9 @@ const Snap2022 = () => {
           and mock tests
         </p>
         <p
-          className="cont1"
+          className="cont"
           style={{
-            textAlign: "justify",
             textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
           }}
         >
           -
@@ -5369,11 +5181,9 @@ const Snap2022 = () => {
           Solve questions of varying difficulty levels to boost confidence
         </p>
         <p
-          className="cont1"
+          className="cont"
           style={{
-            textAlign: "justify",
             textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
           }}
         >
           -
@@ -5383,11 +5193,9 @@ const Snap2022 = () => {
           Devise or learn shortcuts to solve Quantitative questions
         </p>
         <p
-          className="cont1"
+          className="cont"
           style={{
-            textAlign: "justify",
             textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
           }}
         >
           -
@@ -5418,11 +5226,9 @@ const Snap2022 = () => {
           to download SNAP admit card 2022:
         </p>
         <p
-          className="cont1"
+          className="cont"
           style={{
-            textAlign: "justify",
             textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
           }}
         >
           <span style={{ fontFamily: "Symbol" }}>
@@ -5435,11 +5241,9 @@ const Snap2022 = () => {
           <a href="https://www.snaptest.org/">https://www.snaptest.org/</a>
         </p>
         <p
-          className="cont1"
+          className="cont"
           style={{
-            textAlign: "justify",
             textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
           }}
         >
           <span style={{ fontFamily: "Symbol" }}>
@@ -5451,11 +5255,9 @@ const Snap2022 = () => {
           Click on 'admit card' tab
         </p>
         <p
-          className="cont1"
+          className="cont"
           style={{
-            textAlign: "justify",
             textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
           }}
         >
           <span style={{ fontFamily: "Symbol" }}>
@@ -5467,11 +5269,9 @@ const Snap2022 = () => {
           Enter SNAP ID and password in the given field
         </p>
         <p
-          className="cont1"
+          className="cont"
           style={{
-            textAlign: "justify",
             textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
           }}
         >
           <span style={{ fontFamily: "Symbol" }}>
@@ -5483,11 +5283,9 @@ const Snap2022 = () => {
           SNAP admit card tab will appear on the screen
         </p>
         <p
-          className="cont1"
+          className="cont"
           style={{
-            textAlign: "justify",
             textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
           }}
         >
           <span style={{ fontFamily: "Symbol" }}>
@@ -5519,11 +5317,9 @@ const Snap2022 = () => {
           admit card. Some of the important points to remember are:
         </p>
         <p
-          className="cont1"
+          className="cont"
           style={{
-            textAlign: "justify",
             textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
           }}
         >
           <span style={{ fontFamily: "Symbol" }}>
@@ -5536,11 +5332,9 @@ const Snap2022 = () => {
           the exam
         </p>
         <p
-          className="cont1"
+          className="cont"
           style={{
-            textAlign: "justify",
             textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
           }}
         >
           <span style={{ fontFamily: "Symbol" }}>
@@ -5553,11 +5347,9 @@ const Snap2022 = () => {
           questions
         </p>
         <p
-          className="cont1"
+          className="cont"
           style={{
-            textAlign: "justify",
             textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
           }}
         >
           <span style={{ fontFamily: "Symbol" }}>
@@ -5570,11 +5362,9 @@ const Snap2022 = () => {
           documents of identification
         </p>
         <p
-          className="cont1"
+          className="cont"
           style={{
-            textAlign: "justify",
             textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
           }}
         >
           <span style={{ fontFamily: "Symbol" }}>
@@ -5611,11 +5401,9 @@ const Snap2022 = () => {
           steps below:
         </p>
         <p
-          className="cont1"
+          className="cont"
           style={{
-            textAlign: "justify",
             textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
           }}
         >
           <span style={{ fontFamily: "Symbol" }}>
@@ -5627,11 +5415,9 @@ const Snap2022 = () => {
           Log on to the SNAP 2022 website
         </p>
         <p
-          className="cont1"
+          className="cont"
           style={{
-            textAlign: "justify",
             textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
           }}
         >
           <span style={{ fontFamily: "Symbol" }}>
@@ -5643,11 +5429,9 @@ const Snap2022 = () => {
           Click on the tab 'Scorecard'
         </p>
         <p
-          className="cont1"
+          className="cont"
           style={{
-            textAlign: "justify",
             textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
           }}
         >
           <span style={{ fontFamily: "Symbol" }}>
@@ -5659,11 +5443,9 @@ const Snap2022 = () => {
           Enter your SNAP ID and password
         </p>
         <p
-          className="cont1"
+          className="cont"
           style={{
-            textAlign: "justify",
             textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
           }}
         >
           <span style={{ fontFamily: "Symbol" }}>
@@ -5675,11 +5457,9 @@ const Snap2022 = () => {
           SNAP 2022 result cum scorecard will appear on the screen
         </p>
         <p
-          className="cont1"
+          className="cont"
           style={{
-            textAlign: "justify",
             textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
           }}
         >
           <span style={{ fontFamily: "Symbol" }}>
@@ -5690,31 +5470,30 @@ const Snap2022 = () => {
           </span>
           Download it and take a print out
         </p>
+
         <p
           className="MsoNormal"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           &nbsp;
         </p>
-        <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
+
         <CustomTable />
+
         <p
           className="MsoNormal" id="13"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           &nbsp;
         </p>
+
         <p
           className="MsoNormal"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           <b>SNAP 2022 Merit List</b>
         </p>
+
         <p
           className="MsoNormal"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
@@ -5760,7 +5539,7 @@ const Snap2022 = () => {
                   align="center"
                 >
                   <b>
-                    <u>SNAP Selection Criteria</u>
+                    SNAP Selection Criteria
                   </b>
                 </p>
               </td>
@@ -5784,7 +5563,7 @@ const Snap2022 = () => {
                   align="center"
                 >
                   <b>
-                    <u>Weightage</u>
+                    Weightage
                   </b>
                 </p>
               </td>
@@ -6026,24 +5805,21 @@ const Snap2022 = () => {
             </tr>
           </tbody>
         </table>
-        <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
+
         <p
           className="MsoNormal" id="14"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           <b>&nbsp;</b>
         </p>
+
         <p
           className="MsoNormal"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           <b>SNAP Cut off 2022</b>
         </p>
+
         <p
           className="MsoNormal"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
@@ -6081,7 +5857,7 @@ const Snap2022 = () => {
                   align="center"
                 >
                   <b>
-                    <u>SIU College</u>
+                    SIU College
                   </b>
                 </p>
               </td>
@@ -6105,7 +5881,7 @@ const Snap2022 = () => {
                   align="center"
                 >
                   <b>
-                    <u>SNAP cut off (percentile)</u>
+                    SNAP cut off (percentile)
                   </b>
                 </p>
               </td>
@@ -6845,6 +6621,7 @@ const Snap2022 = () => {
           Note: The cut off percentiles mentioned in the above table are of
           General category.
         </p>
+        
         <p
           className="MsoNormal"
           style={{
@@ -6855,16 +6632,7 @@ const Snap2022 = () => {
         >
           <b>&nbsp;</b>
         </p>
-        <p
-          className="MsoNormal"
-          style={{
-            marginBottom: "0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-          }}
-        >
-          <b>&nbsp;</b>
-        </p>
+
         <p id="15"
           className="MsoNormal"
           style={{
@@ -7238,23 +7006,16 @@ const Snap2022 = () => {
             </tr>
           </tbody>
         </table>
+        
         <p className="MsoNormal">&nbsp;</p>
-        <p
-          className="MsoNormal"
-          style={{
-            marginBottom: "0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-          }}
-        >
-          &nbsp;
-        </p>
+        
         <p
           className="MsoNormal"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           &nbsp;
         </p>
+
         <CustomTable />
 
         <p
@@ -7263,38 +7024,19 @@ const Snap2022 = () => {
         >
           &nbsp;
         </p>
-        <p
-          className="MsoNormal"
-          style={{
-            marginBottom: "0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-          }}
-        >
-          &nbsp;
-        </p>
+
         <p id="16"
           className="MsoNormal"
           style={{
-            marginBottom: "0in",
             textAlign: "justify",
             textJustify: "inter-ideograph",
           }}
         >
           <b>FAQs – SNAP Exam 2022</b>
         </p>
+        
         <p
-          className="MsoNormal"
-          style={{
-            marginBottom: "0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-          }}
-        >
-          <b>&nbsp;</b>
-        </p>
-        <p
-          className="MsoNormal"
+          className="cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           Q: What is the date of SNAP 2022?
@@ -7309,13 +7051,7 @@ const Snap2022 = () => {
           examination centres
         </p>
         <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="MsoNormal"
+          className="cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           Q: What is the SNAP 2022 registration start and end date?
@@ -7334,7 +7070,7 @@ const Snap2022 = () => {
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         />
         <p
-          className="MsoNormal"
+          className="cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           Q: What is the application fee for SNAP Test?
@@ -7348,13 +7084,7 @@ const Snap2022 = () => {
           submission of the form. The application fee is non-refundable.
         </p>
         <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="MsoNormal"
+          className="cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           Q. Do I need to pay an institution registration fee for SNAP?
@@ -7368,13 +7098,7 @@ const Snap2022 = () => {
           they apply for.
         </p>
         <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="MsoNormal"
+          className="cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           Q: What is the admission process through SNAP 2022 exam?
@@ -7389,13 +7113,7 @@ const Snap2022 = () => {
           performance in GE, PI and WAT basis the weightage in each section.
         </p>
         <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="MsoNormal"
+          className="cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           Q. How many colleges accept SNAP score for admission?
@@ -7408,13 +7126,7 @@ const Snap2022 = () => {
           International University including SIBM, Pune.
         </p>
         <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="MsoNormal"
+          className="cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           Q. How many MBA seats are under SIU for MBA?
@@ -7427,13 +7139,7 @@ const Snap2022 = () => {
           combining all campuses.
         </p>
         <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="MsoNormal"
+          className="cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           Q: How many times can I appear in SNAP exam?
@@ -7448,13 +7154,7 @@ const Snap2022 = () => {
           calculation and there will be no normalization.
         </p>
         <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="MsoNormal"
+          className="cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           Q: Is there any reservation policy in SNAP?
@@ -7468,11 +7168,9 @@ const Snap2022 = () => {
           approved reservation policy -
         </p>
         <p
-          className="cont1"
+          className="cont"
           style={{
-            textAlign: "justify",
             textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
           }}
         >
           <span style={{ fontFamily: "Symbol" }}>
@@ -7484,11 +7182,9 @@ const Snap2022 = () => {
           Scheduled Caste: 15 per cent
         </p>
         <p
-          className="cont1"
+          className="cont"
           style={{
-            textAlign: "justify",
             textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
           }}
         >
           <span style={{ fontFamily: "Symbol" }}>
@@ -7500,11 +7196,9 @@ const Snap2022 = () => {
           Scheduled Tribe: 7.5 per cent
         </p>
         <p
-          className="cont1"
+          className="cont"
           style={{
-            textAlign: "justify",
             textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
           }}
         >
           <span style={{ fontFamily: "Symbol" }}>
@@ -7516,11 +7210,9 @@ const Snap2022 = () => {
           Differently Abled: 8 per cent
         </p>
         <p
-          className="cont1"
+          className="cont"
           style={{
-            textAlign: "justify",
             textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
           }}
         >
           <span style={{ fontFamily: "Symbol" }}>
@@ -7533,13 +7225,7 @@ const Snap2022 = () => {
           programmes)
         </p>
         <p
-          className="cont1"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="MsoNormal"
+          className="cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           Q: What is the syllabus of SNAP 2022?
@@ -7553,13 +7239,7 @@ const Snap2022 = () => {
           Interpretation &amp; Data Sufficiency.
         </p>
         <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="MsoNormal"
+          className="cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           Q: What is the schedule of SNAP WAT-GE-PI?
@@ -7574,13 +7254,7 @@ const Snap2022 = () => {
           2022 result declaration.
         </p>
         <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="MsoNormal"
+          className="cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           Q: Is there any change in the exam pattern of SNAP 2022?
@@ -7596,13 +7270,7 @@ const Snap2022 = () => {
           Data Interpretation and Data Sufficiency (20 questions).
         </p>
         <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="MsoNormal"
+          className="cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           Q: Is there any negative marking in SNAP?
@@ -7616,13 +7284,7 @@ const Snap2022 = () => {
           is 60.
         </p>
         <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="MsoNormal"
+          className="cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           Q: When will SNAP 2022 result be announced?
@@ -7640,7 +7302,7 @@ const Snap2022 = () => {
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         />
         <p
-          className="MsoNormal"
+          className="cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           Q: Is there any age limit to appear for SNAP?
@@ -7655,13 +7317,7 @@ const Snap2022 = () => {
           appear for the test.
         </p>
         <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="MsoNormal"
+          className="cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           Q: What is the eligibility criterion for MBA courses offered by SIU?

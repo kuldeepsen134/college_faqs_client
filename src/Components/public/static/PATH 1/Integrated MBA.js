@@ -3,15 +3,14 @@ import { Link } from "react-router-dom";
 import { useEffect } from "react";
 const IntergratedMba = () => {
   useEffect(() => {
-    window.scrollTo(0,0);
-  },[])
+    window.scrollTo(0, 0);
+  }, [])
   return (
     <div>
       <div className="WordSection1">
         <p className="MsoNormal">
           <b>Integrated MBA</b>
         </p>
-        <p className="MsoNormal">&nbsp;</p>
         <p className="MsoNormal">
           The integrated MBA program, IPM (Integrated Programme in Management)
           is the most sought after course amongst 12th class students. It is an
@@ -38,19 +37,19 @@ const IntergratedMba = () => {
           Manager, Retail Manager, etc.
         </p>
         <p
-className="MsoNormal"
-style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
->
-&nbsp;
-</p>
+          className="MsoNormal"
+          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
+        >
+          &nbsp;
+        </p>
 
-<CustomTable />
-<p
-className="MsoNormal"
-style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
->
-&nbsp;
-</p>
+        <CustomTable />
+        <p
+          className="MsoNormal"
+          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
+        >
+          &nbsp;
+        </p>
 
         <p className="MsoNormal">
           Integrated MBA or BBA MBA integrated course is a 5 year undergraduate

@@ -85,7 +85,7 @@ const DistanceMba = () => {
                   align="center"
                 >
                   <b>
-                    <u>Parameters</u>
+                    Parameters
                   </b>
                 </p>
               </td>
@@ -109,7 +109,7 @@ const DistanceMba = () => {
                   align="center"
                 >
                   <b>
-                    <u>Details</u>
+                    Details
                   </b>
                 </p>
               </td>
@@ -531,12 +531,6 @@ const DistanceMba = () => {
           className="MsoNormal"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
-          &nbsp;
-        </p>
-        <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
           <b>Distance MBA Degree Eligibility Criteria</b>
         </p>
         <p
@@ -645,12 +639,7 @@ const DistanceMba = () => {
         >
           <b>Distance MBA FAQs</b>
         </p>
-        <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
+
         <p
           className=" cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
@@ -666,12 +655,7 @@ const DistanceMba = () => {
           minimum 50 per cent in any stream (45 per cent marks for reserved
           category students)&nbsp; are eligible for distance MBA programme.
         </p>
-        <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
+
         <p
           className=" cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
@@ -685,12 +669,7 @@ const DistanceMba = () => {
           Ans: Fees is always dependent upon college / institute. The average
           fee of the distance MBA ranges from Rs. 50,000 to Rs. 200,000.
         </p>
-        <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
+
         <p
           className=" cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
@@ -706,12 +685,7 @@ const DistanceMba = () => {
           experience do get extra advantage with salary upto Rs. 10,00,000 per
           annum.
         </p>
-        <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
+
         <p
           className=" cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
@@ -795,16 +769,6 @@ const DistanceMba = () => {
           }}
         >
           Project Manager
-        </p>
-        <p
-          className="MsoNormal"
-          style={{
-            marginBottom: "0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-          }}
-        >
-          &nbsp;
         </p>
         <p
           className="MsoNormal"
@@ -919,22 +883,7 @@ const DistanceMba = () => {
         >
           &nbsp;
         </p>
-        <p
-          className="MsoNormal"
-          style={{
-            marginBottom: "0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-          }}
-        >
-          &nbsp;
-        </p>
-        <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
+
         <p
           className=" cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
@@ -948,12 +897,7 @@ const DistanceMba = () => {
           Ans: A senior executive can earn around Rs 2.5 Lac to Rs 6 Lac per
           annum.
         </p>
-        <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
+
         <p
           className=" cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
@@ -1086,16 +1030,6 @@ const DistanceMba = () => {
           }}
         >
           Required Specialisations / Electives
-        </p>
-        <p
-          className="MsoNormal"
-          style={{
-            marginBottom: "0in",
-            textAlign: "justify",
-            textJustify: "inter-ideograph",
-          }}
-        >
-          &nbsp;
         </p>
         <p
           className="MsoNormal"

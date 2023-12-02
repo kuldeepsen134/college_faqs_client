@@ -77,7 +77,7 @@ const OnlineMBA = () => {
                   align="center"
                 >
                   <b>
-                    <u>Particulars</u>
+                    Particulars
                   </b>
                 </p>
               </td>
@@ -101,7 +101,7 @@ const OnlineMBA = () => {
                   align="center"
                 >
                   <b>
-                    <u>Details</u>
+                    Details
                   </b>
                 </p>
               </td>
@@ -458,19 +458,13 @@ const OnlineMBA = () => {
           className="MsoNormal"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
-          &nbsp;
-        </p>
-        <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
           <b>Online MBA: Key Highlights</b>
         </p>
         <p
           className="MsoNormal"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
-          <u>Ideal for Working Professionals:</u> Online MBA course is ideal for
+          <b style={{ fontSize: '11pt' }}><u>Ideal for Working Professionals:</u></b> Online MBA course is ideal for
           working professionals. By pursuing the Online MBA course,
           professionals can give their career an upgrade and enhance their
           chances of swift promotion, better pay package and more favourable
@@ -480,7 +474,7 @@ const OnlineMBA = () => {
           className="MsoNormal"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
-          <u>Supplement Distance MBA:</u> Online MBA is an advanced version of
+          <b style={{ fontSize: '11pt' }}><u>Supplement Distance MBA:</u></b> Online MBA is an advanced version of
           distance learning as lectures are imparted through video conferencing
           and the notes or recordings of lectures can be carried in pen drives.
           Another advantage of Online MBA is that it is flexible.
@@ -520,7 +514,6 @@ const OnlineMBA = () => {
           style={{
             textAlign: "justify",
             textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
           }}
         >
           <span style={{ fontFamily: "Symbol" }}>
@@ -536,7 +529,6 @@ const OnlineMBA = () => {
           style={{
             textAlign: "justify",
             textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
           }}
         >
           <span style={{ fontFamily: "Symbol" }}>
@@ -552,7 +544,6 @@ const OnlineMBA = () => {
           style={{
             textAlign: "justify",
             textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
           }}
         >
           <span style={{ fontFamily: "Symbol" }}>
@@ -568,7 +559,6 @@ const OnlineMBA = () => {
           style={{
             textAlign: "justify",
             textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
           }}
         >
           <span style={{ fontFamily: "Symbol" }}>
@@ -584,7 +574,6 @@ const OnlineMBA = () => {
           style={{
             textAlign: "justify",
             textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
           }}
         >
           <span style={{ fontFamily: "Symbol" }}>
@@ -600,7 +589,6 @@ const OnlineMBA = () => {
           style={{
             textAlign: "justify",
             textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
           }}
         >
           <span style={{ fontFamily: "Symbol" }}>
@@ -616,7 +604,6 @@ const OnlineMBA = () => {
           style={{
             textAlign: "justify",
             textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
           }}
         >
           <span style={{ fontFamily: "Symbol" }}>
@@ -632,7 +619,6 @@ const OnlineMBA = () => {
           style={{
             textAlign: "justify",
             textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
           }}
         >
           <span style={{ fontFamily: "Symbol" }}>
@@ -648,7 +634,6 @@ const OnlineMBA = () => {
           style={{
             textAlign: "justify",
             textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
           }}
         >
           <span style={{ fontFamily: "Symbol" }}>
@@ -664,7 +649,6 @@ const OnlineMBA = () => {
           style={{
             textAlign: "justify",
             textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
           }}
         >
           <span style={{ fontFamily: "Symbol" }}>
@@ -680,7 +664,6 @@ const OnlineMBA = () => {
           style={{
             textAlign: "justify",
             textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
           }}
         >
           <span style={{ fontFamily: "Symbol" }}>
@@ -696,7 +679,6 @@ const OnlineMBA = () => {
           style={{
             textAlign: "justify",
             textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
           }}
         >
           <span style={{ fontFamily: "Symbol" }}>
@@ -712,7 +694,6 @@ const OnlineMBA = () => {
           style={{
             textAlign: "justify",
             textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
           }}
         >
           <span style={{ fontFamily: "Symbol" }}>
@@ -728,7 +709,6 @@ const OnlineMBA = () => {
           style={{
             textAlign: "justify",
             textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
           }}
         >
           <span style={{ fontFamily: "Symbol" }}>
@@ -744,7 +724,6 @@ const OnlineMBA = () => {
           style={{
             textAlign: "justify",
             textJustify: "inter-ideograph",
-            textIndent: "-0.25in",
           }}
         >
           <span style={{ fontFamily: "Symbol" }}>
@@ -787,7 +766,6 @@ const OnlineMBA = () => {
         <table
           className="MsoTableGrid"
           style={{
-            width: "475.85pt",
             borderCollapse: "collapse",
             border: "none",
           }}
@@ -975,162 +953,99 @@ const OnlineMBA = () => {
                   className="MsoListParagraphCxSpFirst"
                   style={{
                     marginBottom: "0in",
-                    textAlign: "justify",
                     textJustify: "inter-ideograph",
-                    textIndent: "-0.25in",
                     lineHeight: "normal",
                   }}
                 >
-                  <span style={{ fontFamily: "Symbol" }}>
-                    ·
-                    <span style={{ font: '7pt "Times New Roman"' }}>
-                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
-                    </span>
-                  </span>
+                 
                   PGDBA
                 </p>
                 <p
                   className="MsoListParagraphCxSpMiddle"
                   style={{
                     marginBottom: "0in",
-                    textAlign: "justify",
                     textJustify: "inter-ideograph",
-                    textIndent: "-0.25in",
                     lineHeight: "normal",
                   }}
                 >
-                  <span style={{ fontFamily: "Symbol" }}>
-                    ·
-                    <span style={{ font: '7pt "Times New Roman"' }}>
-                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
-                    </span>
-                  </span>
+                 
                   PGDHRM
                 </p>
                 <p
                   className="MsoListParagraphCxSpMiddle"
                   style={{
                     marginBottom: "0in",
-                    textAlign: "justify",
                     textJustify: "inter-ideograph",
-                    textIndent: "-0.25in",
                     lineHeight: "normal",
                   }}
                 >
-                  <span style={{ fontFamily: "Symbol" }}>
-                    ·
-                    <span style={{ font: '7pt "Times New Roman"' }}>
-                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
-                    </span>
-                  </span>
+                 
                   PGD in Supply Chain Management
                 </p>
                 <p
                   className="MsoListParagraphCxSpMiddle"
                   style={{
                     marginBottom: "0in",
-                    textAlign: "justify",
                     textJustify: "inter-ideograph",
-                    textIndent: "-0.25in",
                     lineHeight: "normal",
                   }}
                 >
-                  <span style={{ fontFamily: "Symbol" }}>
-                    ·
-                    <span style={{ font: '7pt "Times New Roman"' }}>
-                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
-                    </span>
-                  </span>
+                 
                   PGD in Business &amp; Corporate Law
                 </p>
                 <p
                   className="MsoListParagraphCxSpMiddle"
                   style={{
                     marginBottom: "0in",
-                    textAlign: "justify",
                     textJustify: "inter-ideograph",
-                    textIndent: "-0.25in",
                     lineHeight: "normal",
                   }}
                 >
-                  <span style={{ fontFamily: "Symbol" }}>
-                    ·
-                    <span style={{ font: '7pt "Times New Roman"' }}>
-                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
-                    </span>
-                  </span>
+                 
                   PGD in Information Technology
                 </p>
                 <p
                   className="MsoListParagraphCxSpMiddle"
                   style={{
                     marginBottom: "0in",
-                    textAlign: "justify",
                     textJustify: "inter-ideograph",
-                    textIndent: "-0.25in",
                     lineHeight: "normal",
                   }}
                 >
-                  <span style={{ fontFamily: "Symbol" }}>
-                    ·
-                    <span style={{ font: '7pt "Times New Roman"' }}>
-                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
-                    </span>
-                  </span>
+                 
                   PGD in International Business
                 </p>
                 <p
                   className="MsoListParagraphCxSpMiddle"
                   style={{
                     marginBottom: "0in",
-                    textAlign: "justify",
                     textJustify: "inter-ideograph",
-                    textIndent: "-0.25in",
                     lineHeight: "normal",
                   }}
                 >
-                  <span style={{ fontFamily: "Symbol" }}>
-                    ·
-                    <span style={{ font: '7pt "Times New Roman"' }}>
-                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
-                    </span>
-                  </span>
+                 
                   PGD in Export &amp; Import Management
                 </p>
                 <p
                   className="MsoListParagraphCxSpMiddle"
                   style={{
                     marginBottom: "0in",
-                    textAlign: "justify",
                     textJustify: "inter-ideograph",
-                    textIndent: "-0.25in",
                     lineHeight: "normal",
                   }}
                 >
-                  <span style={{ fontFamily: "Symbol" }}>
-                    ·
-                    <span style={{ font: '7pt "Times New Roman"' }}>
-                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
-                    </span>
-                  </span>
+                 
                   PGD in Customer Relationship Management
                 </p>
                 <p
                   className="MsoListParagraphCxSpLast"
                   style={{
                     marginBottom: "0in",
-                    textAlign: "justify",
                     textJustify: "inter-ideograph",
-                    textIndent: "-0.25in",
                     lineHeight: "normal",
                   }}
                 >
-                  <span style={{ fontFamily: "Symbol" }}>
-                    ·
-                    <span style={{ font: '7pt "Times New Roman"' }}>
-                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
-                    </span>
-                  </span>
+                 
                   PGD in Retail Management
                 </p>
               </td>
@@ -1198,126 +1113,77 @@ const OnlineMBA = () => {
                   className="MsoListParagraphCxSpFirst"
                   style={{
                     marginBottom: "0in",
-                    textAlign: "justify",
                     textJustify: "inter-ideograph",
-                    textIndent: "-0.25in",
                     lineHeight: "normal",
                   }}
                 >
-                  <span style={{ fontFamily: "Symbol" }}>
-                    ·
-                    <span style={{ font: '7pt "Times New Roman"' }}>
-                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
-                    </span>
-                  </span>
+                 
                   Online MBA
                 </p>
                 <p
                   className="MsoListParagraphCxSpMiddle"
                   style={{
                     marginBottom: "0in",
-                    textAlign: "justify",
                     textJustify: "inter-ideograph",
-                    textIndent: "-0.25in",
                     lineHeight: "normal",
                   }}
                 >
-                  <span style={{ fontFamily: "Symbol" }}>
-                    ·
-                    <span style={{ font: '7pt "Times New Roman"' }}>
-                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
-                    </span>
-                  </span>
+                 
                   Online PGD in Finance &amp; Accounting
                 </p>
                 <p
                   className="MsoListParagraphCxSpMiddle"
                   style={{
                     marginBottom: "0in",
-                    textAlign: "justify",
                     textJustify: "inter-ideograph",
-                    textIndent: "-0.25in",
                     lineHeight: "normal",
                   }}
                 >
-                  <span style={{ fontFamily: "Symbol" }}>
-                    ·
-                    <span style={{ font: '7pt "Times New Roman"' }}>
-                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
-                    </span>
-                  </span>
+                 
                   Online PGD in Public Accounting
                 </p>
                 <p
                   className="MsoListParagraphCxSpMiddle"
                   style={{
                     marginBottom: "0in",
-                    textAlign: "justify",
                     textJustify: "inter-ideograph",
-                    textIndent: "-0.25in",
                     lineHeight: "normal",
                   }}
                 >
-                  <span style={{ fontFamily: "Symbol" }}>
-                    ·
-                    <span style={{ font: '7pt "Times New Roman"' }}>
-                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
-                    </span>
-                  </span>
+                 
                   Online PGD in HRM
                 </p>
                 <p
                   className="MsoListParagraphCxSpMiddle"
                   style={{
                     marginBottom: "0in",
-                    textAlign: "justify",
                     textJustify: "inter-ideograph",
-                    textIndent: "-0.25in",
                     lineHeight: "normal",
                   }}
                 >
-                  <span style={{ fontFamily: "Symbol" }}>
-                    ·
-                    <span style={{ font: '7pt "Times New Roman"' }}>
-                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
-                    </span>
-                  </span>
+                 
                   Online PGD in Travel &amp; Tourism Management
                 </p>
                 <p
                   className="MsoListParagraphCxSpMiddle"
                   style={{
                     marginBottom: "0in",
-                    textAlign: "justify",
                     textJustify: "inter-ideograph",
-                    textIndent: "-0.25in",
                     lineHeight: "normal",
                   }}
                 >
-                  <span style={{ fontFamily: "Symbol" }}>
-                    ·
-                    <span style={{ font: '7pt "Times New Roman"' }}>
-                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
-                    </span>
-                  </span>
+                 
                   Online PGD in Logistics &amp; Supply Chain Management
                 </p>
                 <p
                   className="MsoListParagraphCxSpLast"
                   style={{
                     marginBottom: "0in",
-                    textAlign: "justify",
                     textJustify: "inter-ideograph",
-                    textIndent: "-0.25in",
                     lineHeight: "normal",
                   }}
                 >
-                  <span style={{ fontFamily: "Symbol" }}>
-                    ·
-                    <span style={{ font: '7pt "Times New Roman"' }}>
-                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
-                    </span>
-                  </span>
+                 
                   Online PGD in Advertising &amp; Brand Management
                 </p>
               </td>
@@ -1385,72 +1251,44 @@ const OnlineMBA = () => {
                   className="MsoListParagraphCxSpFirst"
                   style={{
                     marginBottom: "0in",
-                    textAlign: "justify",
                     textJustify: "inter-ideograph",
-                    textIndent: "-0.25in",
                     lineHeight: "normal",
                   }}
                 >
-                  <span style={{ fontFamily: "Symbol" }}>
-                    ·
-                    <span style={{ font: '7pt "Times New Roman"' }}>
-                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
-                    </span>
-                  </span>
+                 
                   Online MBA International Finance
                 </p>
                 <p
                   className="MsoListParagraphCxSpMiddle"
                   style={{
                     marginBottom: "0in",
-                    textAlign: "justify",
                     textJustify: "inter-ideograph",
-                    textIndent: "-0.25in",
                     lineHeight: "normal",
                   }}
                 >
-                  <span style={{ fontFamily: "Symbol" }}>
-                    ·
-                    <span style={{ font: '7pt "Times New Roman"' }}>
-                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
-                    </span>
-                  </span>
+                 
                   Online MBA in Investment Banking
                 </p>
                 <p
                   className="MsoListParagraphCxSpMiddle"
                   style={{
                     marginBottom: "0in",
-                    textAlign: "justify",
                     textJustify: "inter-ideograph",
-                    textIndent: "-0.25in",
                     lineHeight: "normal",
                   }}
                 >
-                  <span style={{ fontFamily: "Symbol" }}>
-                    ·
-                    <span style={{ font: '7pt "Times New Roman"' }}>
-                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
-                    </span>
-                  </span>
+                 
                   Online MBA in Strategic Finance
                 </p>
                 <p
                   className="MsoListParagraphCxSpLast"
                   style={{
                     marginBottom: "0in",
-                    textAlign: "justify",
                     textJustify: "inter-ideograph",
-                    textIndent: "-0.25in",
                     lineHeight: "normal",
                   }}
                 >
-                  <span style={{ fontFamily: "Symbol" }}>
-                    ·
-                    <span style={{ font: '7pt "Times New Roman"' }}>
-                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
-                    </span>
-                  </span>
+                 
                   Online MBA in Systems &amp; Operations
                 </p>
               </td>
@@ -1514,22 +1352,14 @@ const OnlineMBA = () => {
                 width={333}
                 valign="top"
               >
-                <p
-                  className="MsoListParagraph"
+                 <p
+                  className="MsoListParagraphCxSpMiddle"
                   style={{
                     marginBottom: "0in",
-                    textAlign: "justify",
                     textJustify: "inter-ideograph",
-                    textIndent: "-0.25in",
                     lineHeight: "normal",
                   }}
                 >
-                  <span style={{ fontFamily: "Symbol" }}>
-                    ·
-                    <span style={{ font: '7pt "Times New Roman"' }}>
-                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
-                    </span>
-                  </span>
                   Online MBA
                 </p>
               </td>
@@ -1560,12 +1390,7 @@ const OnlineMBA = () => {
             </tr>
           </tbody>
         </table>
-        <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
+        
         <p
           className="MsoNormal"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
@@ -1579,12 +1404,6 @@ const OnlineMBA = () => {
           <b>FAQs of Online MBA</b>
         </p>
         <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
           className=" cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
@@ -1596,13 +1415,7 @@ const OnlineMBA = () => {
         >
           Ans: There are good career opportunities after an online MBA, but it
           depends on the MBA College and course which you opt. An online MBA
-          degree from a reputed college can help you grow in your profession
-        </p>
-        <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          .
+          degree from a reputed college can help you grow in your profession.
         </p>
         <p
           className=" cont headings"
@@ -1622,12 +1435,6 @@ const OnlineMBA = () => {
           (LMS).
         </p>
         <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
           className=" cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
@@ -1643,12 +1450,6 @@ const OnlineMBA = () => {
           submission.
         </p>
         <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
           className=" cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
@@ -1658,20 +1459,8 @@ const OnlineMBA = () => {
           className="MsoNormal"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
-          &nbsp;
-        </p>
-        <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
           A: Fees range of Online MBA is around Rs. 1 Lac to Rs 3 Lac. So it is
           not much expensive.
-        </p>
-        <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
         </p>
         <p
           className=" cont headings"
@@ -1689,12 +1478,6 @@ const OnlineMBA = () => {
           such CAT, XAT, CMAT, MAT, NMAT etc
         </p>
         <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
           className=" cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
@@ -1707,12 +1490,6 @@ const OnlineMBA = () => {
           Ans: The job roles offered to online MBA graduates include HR
           Managers, Project Managers, IT Manager, Business Development Manager,
           ERP Consultants and Operations Research Analyst, etc.
-        </p>
-        <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
         </p>
         <p
           className=" cont headings"
@@ -1729,12 +1506,6 @@ const OnlineMBA = () => {
           Supply Chain, IT &amp; Systems, Human Resources, Finance, Retail, etc.
         </p>
         <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
-        </p>
-        <p
           className=" cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
@@ -1747,12 +1518,6 @@ const OnlineMBA = () => {
         >
           A: No, it is not mandatory to have prior work experience but it will
           be an advantage for the participant if he/she has work experience.
-        </p>
-        <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          &nbsp;
         </p>
         <p
           className=" cont headings"
