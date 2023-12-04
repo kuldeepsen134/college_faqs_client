@@ -63,7 +63,7 @@ const CustomPage = (props) => {
               {props.children}
             </div>
             <div className="col-12 col-sm-12 col-md-4">
-              {!token ? navigate('/login') : <BannersList custom={true} />}
+               <BannersList custom={true} />
             </div>
           </div>
         </div>
