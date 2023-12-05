@@ -4,15 +4,13 @@ import useAuth from "../hooks/useAuth";
 import { STATIC_URL } from "../config/config";
 
 const BannerItem = ({ banner }) => {
+
   const { auth } = useAuth();
-  console.log("Auth   :  "+auth?.token);
+
+
   const record = async () => {
     try {
-      const response = await axios.post(
-        "/analytics",
-        { bannerId: banner.id },
-        { headers: { authorization: "Bearer " + auth.token } }
-      );
+      const response = await axios.post("/analytics", { bannerId: banner.id }, { headers: { authorization: "Bearer " + auth.token } });
       console.log(response.data);
     } catch (err) {
       console.log(err);

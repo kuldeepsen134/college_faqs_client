@@ -7,15 +7,6 @@ import "../assets/css/main.css";
 
 import { useSelector } from "react-redux";
 
-import {
-  UncontrolledAccordion,
-  AccordionBody,
-  AccordionItem,
-  AccordionHeader,
-  FormGroup,
-  Input,
-  Label,
-} from "reactstrap";
 
 const CollegeList = ({ itemsPerPage = 6 }) => {
   let token = localStorage.getItem('token')

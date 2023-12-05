@@ -18,7 +18,7 @@ const RoutesComponent = () => {
       ({ component: Component, children, path, guard }: RoutesType) => {
         const Guard = guard ? guard : Fragment;
         return children ? (
-          children.map(
+          children?.map(
             ({ component: ChildComponent, path, guard }: ChildrenRouteType) => {
               const Guard = guard ? guard : Fragment;
               return;

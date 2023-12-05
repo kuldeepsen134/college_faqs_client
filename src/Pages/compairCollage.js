@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { useNavigate, useParams, } from "react-router-dom";
 import axios, { instance } from "../api/axios";
 import { STATIC_URL } from "../config/config";
-import useAuth from "../hooks/useAuth";
+
 import { useDispatch } from "react-redux";
 import { headerSearch } from "../redux/commonSlice/commonSlice";
 
@@ -18,7 +18,6 @@ const CompairCollage = () => {
 
 
   const [getCollage, setCollage] = useState({})
-  const [compareShow, setCompareShow] = useState(false)
 
   const [query, setQuery] = useState("");
   const [query2, setQuery2] = useState("");
@@ -36,6 +35,7 @@ const CompairCollage = () => {
     (async () => {
       try {
         let responce = await instance.post(`/colleges/compare/${id}`, { ids: [collageIDs, collageIDs2] })
+
         setCollage(responce && responce?.data?.data)
 
       } catch (error) {

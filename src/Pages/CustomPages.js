@@ -1,4 +1,3 @@
-import { useNavigate, } from "react-router-dom";
 import BannersList from "../Components/BannersList";
 import "../index.css";
 import { useEffect } from "react";
@@ -10,13 +9,6 @@ const CustomPage = (props) => {
   }, [])
 
 
-  let token = localStorage.getItem('token')
-
-  const navigate = useNavigate()
-
-  if (!token) {
-    navigate('/login')
-  }
   return (
     <>
       <section className="hero-banner">

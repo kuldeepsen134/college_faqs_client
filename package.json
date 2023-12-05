@@ -63,6 +63,7 @@
     ]
   },
   "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "@types/scrollmagic": "^2.0.2",
     "html-loader": "^4.2.0",
     "webpack-cli": "^5.0.1"
