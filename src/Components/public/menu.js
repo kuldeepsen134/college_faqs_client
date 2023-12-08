@@ -223,7 +223,7 @@ export const menuJs = [
       },
       {
         name: "Compare Colleges",
-        path: "/college-list?q=",
+        path: "/compare-college",
       },
       {
         name: "Featured Colleges",

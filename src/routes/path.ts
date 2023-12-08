@@ -68,6 +68,7 @@ import TermCondition from "../Pages/term-condition";
 import CompairCollage from "../Pages/compairCollage";
 import Event from "../Components/public/static/PATH 2/Event";
 import ContactUs from "../Pages/contact-us";
+import CompareCOllege from "../Components/public/static/PATH 1/Compare college";
 
 export const MainRoutes = [
   {
@@ -258,7 +259,12 @@ export const DefaultRoutes = [
     children: null,
     guard: null,
   },
-
+  {
+    path: "/compare-college",
+    component: CompareCOllege,
+    children: null,
+    guard: null,
+  },
 
 
   {
