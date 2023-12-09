@@ -69,6 +69,8 @@ import CompairCollage from "../Pages/compairCollage";
 import Event from "../Components/public/static/PATH 2/Event";
 import ContactUs from "../Pages/contact-us";
 import CompareCOllege from "../Components/public/static/PATH 1/Compare college";
+import ForgotPassword from "../Pages/forgotPassword";
+import ForgotPasswordVerify from "../Pages/forgotPasswordVerify";
 
 export const MainRoutes = [
   {
@@ -98,6 +100,18 @@ export const MainRoutes = [
   {
     path: "/login",
     component: Login,
+    children: null,
+    guard: null,
+  },
+  {
+    path: "/forgot-password",
+    component: ForgotPassword,
+    children: null,
+    guard: null,
+  },
+  {
+    path: "/update-password",
+    component: ForgotPasswordVerify,
     children: null,
     guard: null,
   },

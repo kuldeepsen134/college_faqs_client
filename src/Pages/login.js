@@ -325,7 +325,9 @@ const Login = () => {
                         </button>
                       </div>
                     </form>
-
+                    <Link to="/forgot-password" className="text-purple-1">
+                        Forgot password
+                      </Link>
                     <div className="lh-12 text-dark-1 fw-500 text-center mt-20">
                       Or sign in using
                     </div>
