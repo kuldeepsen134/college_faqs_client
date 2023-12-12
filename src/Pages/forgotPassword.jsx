@@ -1,8 +1,14 @@
 import React, { useState } from 'react'
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import axios from '../api/axios';
+import { STATIC_URL } from '../config/config';
+import { useNavigate } from 'react-router-dom';
 
 const ForgotPassword = () => {
+
+    const navigate = useNavigate()
+
     const [formData, setFormData] = useState('');
 
     const handleChange = (event) => {
@@ -10,10 +16,14 @@ const ForgotPassword = () => {
         setFormData((prevFormData) => ({ ...prevFormData, [name]: value }));
     };
 
-    const handleSubmit = (event) => {
+    const handleSubmit = async (event) => {
         event.preventDefault();
-
-        toast(formData.email);
+        await axios.post(`${STATIC_URL}/api/forgot-password`, { email: formData.email }).then(() => {
+            toast('We have send OTP in your email.');
+            navigate('/update-password')
+        }).catch((err) => {
+            toast(err.response.data.message);
+        })
     };
 
 

@@ -1,6 +1,8 @@
 import React, { useState } from 'react'
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import axios from '../api/axios';
+import { STATIC_URL } from '../config/config';
 
 const ForgotPasswordVerify = () => {
     const [formData, setFormData] = useState('');
@@ -10,10 +12,14 @@ const ForgotPasswordVerify = () => {
         setFormData((prevFormData) => ({ ...prevFormData, [name]: value }));
     };
 
-    const handleSubmit = (event) => {
+    const handleSubmit = async (event) => {
         event.preventDefault();
 
-        toast(formData.newPassword);
+        await axios.post(`${STATIC_URL}/api/update-password`, { newPassword: formData.newPassword, otp: formData.otp, confirmPassword: formData.confirmPassword }).then(() => {
+            toast(formData.email);
+        }).catch((err) => {
+            toast(err.response.data.message);
+        })
     };
 
 
@@ -37,6 +43,19 @@ const ForgotPasswordVerify = () => {
                                             <div class="form-group">
                                                 <div class="input-group">
                                                     <span class="input-group-addon"><i class="glyphicon glyphicon-envelope color-blue"></i></span>
+
+                                                    <div className='password w-100'>
+                                                        <input
+                                                            required
+                                                            class="form-control border rounded-4"
+                                                            name="otp"
+                                                            placeholder="OTP "
+                                                            type="otp"
+                                                            value={formData.otp}
+                                                            onChange={handleChange}
+                                                        />
+                                                    </div>
+
                                                     <div className='password w-100'>
                                                         <input
                                                             required
