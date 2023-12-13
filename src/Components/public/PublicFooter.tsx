@@ -53,7 +53,7 @@ const PublicFooter = () => {
                   <a href="/">Home</a>
                   <a href="/about-us">About Us</a>
 
-                  <a href="contact-1.html">Contact Us</a>
+                  <a href="/contact-us">Contact Us</a>
                 </div>
               </div>
 

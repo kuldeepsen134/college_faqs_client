@@ -18,7 +18,7 @@ const CollegeList = ({ itemsPerPage = 6 }) => {
 
 
   var url = "/college-list";
-  
+
   var menu_page = urlSearchParams.get("state") || null;
 
   const headers = {
@@ -30,13 +30,15 @@ const CollegeList = ({ itemsPerPage = 6 }) => {
     // console.log("ENTER")
     menu_page = urlSearchParams.get("city") || null;
 
-    url = m == "Top Government MBA Colleges" ? '/college-list/top-collages/government' : m == 'Top Private MBA Colleges' ? '/college-list/top-collages/private' : m == 'NIRF MBA College Ranking' && "/college-list/top-collages/NIRF"
+    url = m === "Top Government MBA Colleges" ? '/college-list/top-collages/government' : m === 'Top Private MBA Colleges' ? '/college-list/top-collages/private' : m === 'NIRF MBA College Ranking' && "/college-list/top-collages/NIRF"
     // url = '/college-list/top-collages/NIRF'
-    console.log('sdfsdfsdfsdfsdfsdfsdfsdf', m);
+    console.log('URL>>>>>>>', url);
+
   }
-  else if (m) {
-    url = m
-  }
+  else
+    if (m) {
+      url = m
+    }
 
   const [itemOffset, setItemOffset] = useState(0);
   const [locations, setLocations] = useState([
@@ -137,12 +139,11 @@ const CollegeList = ({ itemsPerPage = 6 }) => {
 
 
   useEffect(() => {
-
-
     const fun = async () => {
+      
       if (menu_page) {
         console.log('url>>>>', menu_page);
-        const newURL=url?url:'/college-list'
+        const newURL = url ? url : '/college-list'
         const response = await axios.post(newURL, { m: menu_page, filter: { location: locationFilter, fees: feesFilter }, },
           {
             headers: headers,

@@ -182,31 +182,33 @@ const PublicHeader = () => {
           </div>
 
           <div className="nav-links">
-            {menuJs.map((mainMenu) => (
-              <div className="dropdown">
+            {menuJs.map((mainMenu ,i) => (
+              <div className="dropdown" key={i}>
                 <Link className="dropBtn" to={mainMenu.path}>
                   {mainMenu.name}
                 </Link>
                 {mainMenu.children ? (
                   <>
                     <div className="drop-content">
-                      {mainMenu.children.map((item) => (
-                        <>
+                      {mainMenu.children.map((item,j) => (
+                        <div key={j}>
                           {item?.children ? (
                             <div className="dropdown2">
                               <Link className="dropBtn2" to={item.path}>
                                 {item.name}
                               </Link>
                               <div className="drop-content2">
-                                {item.children.map((item) => (
+                                {item.children.map((item, k) => (
+                                  <div key={k}>
                                   <Link to={item.path}>{item.name}</Link>
+                                  </div>
                                 ))}
                               </div>
                             </div>
                           ) : (
                             <Link to={item.path}>{item.name}</Link>
                           )}
-                        </>
+                        </div>
                       ))}
                     </div>
                   </>

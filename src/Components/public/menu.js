@@ -722,7 +722,7 @@ export const menuJs = [
     children: [
       {
         name: "Counselling",
-        path: "/contact-us",
+        // path: "#",
         children: [
           {
             name: "Ask a Question",
@@ -736,15 +736,15 @@ export const menuJs = [
       },
       {
         name: "Compare Colleges",
-        path: "/contact-us",
+        path: "/compare-college",
       },
       {
         name: "College Predictor",
-        path: "/contact-us",
+        // path: "/contact-us",
       },
       {
         name: "Education Loan",
-        path: "/contact-us",
+        // path: "/contact-us",
       },
     ],
   },
