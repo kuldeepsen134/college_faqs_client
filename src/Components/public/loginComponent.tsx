@@ -462,18 +462,18 @@ const Login = () => {
 
                               <div className="mega-banner bg-purple-1 ml-40">
                                 <div className="text-24 lh-15 text-white fw-700">
-                                  Join more than
+                                  Just Touch On.
                                   <br />
                                   <span className="text-green-1">
-                                    8 million learners
+                                    Connect With
                                   </span>
-                                  worldwide
+                                  Us
                                 </div>
                                 <a
                                   href="#"
                                   className="button -md -green-1 text-dark-1 fw-500 col-12"
                                 >
-                                  Start Learning For Free
+                                  Touch Me
                                 </a>
                               </div>
                             </div>

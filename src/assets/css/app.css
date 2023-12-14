@@ -12469,6 +12469,13 @@ button.bg-yellow:hover {
   font-style: italic !important;
 }
 
+p.sectionTitle__text.text-white {
+  font-size: 20px;
+}
+
+.container.animated {
+    max-width: fit-content;
+}
 .badge.grad-school,
 .badge.online-school,
 .badge.scholarship,
@@ -12478,6 +12485,7 @@ button.bg-yellow:hover {
 .btn-secondary,
 .text-white {
   color: #fff !important;
+  /* font-size: 20px; */
 }
 
 .text-primary {
@@ -15956,7 +15964,7 @@ p {
 .profile--main .read-more {
   margin-bottom: 0 !important;
   overflow: hidden;
-  padding-bottom: 50px;
+  padding-bottom: 10px;
 }
 
 .profile--main .read-more.table-responsive {
@@ -19278,7 +19286,7 @@ section:nth-child(1) {
 .hero-banner .row img {
   width: 100%;
   max-width: 100%;
-  height: 450px;
+  height: 300px;
   object-fit: cover;
 }
 
@@ -19447,12 +19455,12 @@ section:nth-child(1) {
 
 
 .header-facts {
-  margin-top: 8rem !important;
+  /* margin-top: 8rem !important; */
 }
 
 .custom-card {
-  top: -200px !important;
-  right: 200px !important;
+  top: -190px !important;
+  right: 10px !important;
 }
 
 

@@ -21,9 +21,9 @@ const PublicFooter = () => {
               </div>
               <div className="col-auto">
                 <div className="footer-header-socials">
-                  <div className="footer-header-socials__title text-white">
+                  {/* <div className="footer-header-socials__title text-white">
                     Follow us on social media
-                  </div>
+                  </div> */}
                   <div className="footer-header-socials__list">
                     <a href="#">
                       <i className="icon-facebook"></i>
@@ -85,7 +85,7 @@ const PublicFooter = () => {
             <div className="row justify-center items-center">
               <div className="col-auto">
                 <div className="d-flex items-center  h-100 text-white">
-                  © CollageFAQs. All Right Reserved.
+                  © CollegeFAQs@2023. All Right Reserved.
                 </div>
               </div>
             </div>

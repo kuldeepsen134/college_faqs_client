@@ -3266,7 +3266,7 @@ input[type="submit"].btn-block {
 .profile--main .read-more {
   margin-bottom: 0 !important;
   overflow: hidden;
-  padding-bottom: 50px;
+  padding-bottom: 10px;
 }
 
 .profile--main .read-more.table-responsive {

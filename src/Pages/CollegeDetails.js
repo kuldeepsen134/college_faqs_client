@@ -94,12 +94,12 @@ const CollegeDetails = () => {
                       />
                     </div>{" "}
                     <div>
-                      <span className="badge ug-school mb-2">University</span>{" "}
+                      {/* <span className="badge ug-school mb-2">University</span>{" "} */}
                       <h1 className="mb-1 pr-3 pl-0 h3 text-white inner">
                         {details.college_name}
                       </h1>
                       <p className="mb-0 h5 text-white">{details.location} </p>
-                      <p className="mb-0 p text-gray">
+                      <p className="badge ug-school mb-2text-white">
                         {details.college_type} / {details.established_year}{" "}
                       </p>
                     </div>
@@ -152,7 +152,7 @@ const CollegeDetails = () => {
                           Highlight Program
                         </div>
                         <small className="header-facts--label">
-                          {details.program ? details.program.slice(0, 20) + "..." : "N/A"}
+                          {details.program ? details.program.slice(0, 20) + "" : "N/A"}
                         </small>
                       </a>
                       <a
@@ -181,10 +181,10 @@ const CollegeDetails = () => {
                         <div className="header-facts--value mb-0 h4">
                           Brochure
                         </div>
-                        <small className="header-facts--label mt-md-2">
+                        <small className="badge ug-school mb-2">
                           {auth?.token
                             ? "Click Here"
-                            : "Login To Download Brochure"}
+                            : "Download Brochure"}
                           <br />
                         </small>
                       </a>
@@ -886,9 +886,9 @@ const CollegeDetails = () => {
                     <div className="mb-5 read-more">
                       <div className="col-auto p-0">
                         <div className="footer-header-socials">
-                          <div className="footer-header-socials__title">
+                          {/* <div className="footer-header-socials__title">
                             Follow us on social media
-                          </div>
+                          </div> */}
                           <div className="footer-header-socials__list">
                             {details?.sm_fb ? (
                               <a

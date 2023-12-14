@@ -17,22 +17,27 @@ const Home = () => {
         </div>
 
         <div className="container">
+          
           <div
             data-anim-wrap
             className="row y-gap-30 justify-between items-end"
           >
             <div className="col-xl-6 col-lg-6 col-sm-10">
               <div className="masthead__content">
-                <h1 className="masthead__title">
-                  Learn New Skills Online with Top{" "}
-                  <span className="text-green-1 underline">Educators</span>
+                <h1 className="masthead__title text-green-1">
+                CollegeFAQs {" "}<br></br>
+                  <span className="text-white">Your College Repository</span>
                 </h1>
                 <p className="masthead__text">
-                  Build skills with courses, certificates, and degrees online
-                  from
+                Start your learning with best courses, degrees and certificates from world class universities and colleges.
                   <br />
-                  world-class universities and companies.
+                  
+
                 </p>
+                
+                <div className="masthead-info__title lh-1 text-28 text-white">
+                Apply now for your favourite college / course. Claim your Application Coupon now.
+                    </div>
                 <div className="masthead__buttons row x-gap-10 y-gap-10">
                   <div className="col-12 col-sm-auto">
                     <a
@@ -40,10 +45,10 @@ const Home = () => {
                       href="/sign-up"
                       className="button -md -purple-1 text-white"
                     >
-                      Join For Free
+                      Coupon Code
                     </a>
                   </div>
-                  <div className="col-12 col-sm-auto">
+                  {/* <div className="col-12 col-sm-auto">
                     <a
                       data-barba
                       href="courses-list-1.html"
@@ -51,9 +56,9 @@ const Home = () => {
                     >
                       Find Courses
                     </a>
-                  </div>
+                  </div> */}
                 </div>
-                <div className="masthead-info row y-gap-15 sm:d-none">
+                {/* <div className="masthead-info row y-gap-15 sm:d-none">
                   <div className="masthead-info__item d-flex items-center text-white">
                     <div className="masthead-info__icon mr-10">
                       <img src="img/masthead/icons/1.svg" alt="icon" />
@@ -80,21 +85,21 @@ const Home = () => {
                       Learn anything online
                     </div>
                   </div>
-                </div>
+                </div> */}
               </div>
             </div>
 
             <div className="col-xl-6 col-lg-6">
               <div className="masthead-image ">
                 <div className=" masthead-image__el1">
-                  <img
+                  {/* <img
                     className="js-mouse-move text2-wrapper"
                     data-move="40"
                     src="img/masthead/1.png"
                     alt="image"
-                  />
+                  /> */}
 
-                  <div
+                  {/* <div
                     data-move="30"
                     className="innerWrap1 lg:d-none img-el -w-250 px-20 py-20 d-flex items-center bg-white rounded-8 js-mouse-move"
                   >
@@ -107,10 +112,10 @@ const Home = () => {
                       </div>
                       <div className="mt-3">Free Courses</div>
                     </div>
-                  </div>
+                  </div> */}
                 </div>
 
-                <div className="masthead-image__el2 text1-wrapper">
+                {/* <div className="masthead-image__el2 text1-wrapper">
                   <img
                     className="js-mouse-move text3-wrapper"
                     data-move="70"
@@ -152,9 +157,9 @@ const Home = () => {
                       </div>
                     </div>
                   </div>
-                </div>
+                </div> */}
 
-                <div className="masthead-image__el3">
+                {/* <div className="masthead-image__el3">
                   <img
                     className="js-mouse-move text3-wrapper"
                     data-move="40"
@@ -178,7 +183,7 @@ const Home = () => {
                       <div className="mt-3 t1-b">Your Admission Completed</div>
                     </div>
                   </div>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
@@ -206,7 +211,7 @@ const Home = () => {
         </svg>
       </section>
 
-      <section className="layout-pt-lg layout-pb-md section2-amz">
+      {/* <section className="layout-pt-lg layout-pb-md section2-amz">
         <div data-anim-wrap className="container animated">
           <div className="row justify-center">
             <div className="col text-center">
@@ -294,18 +299,18 @@ const Home = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       <section className="layout-pt-md layout-pb-md section2-amz">
         <div data-anim-wrap className="container">
           <div className="row justify-center text-center">
             <div className="col-auto">
               <div className="sectionTitle ">
-                <h2 className="sectionTitle__title ">Top Categories</h2>
+                <h2 className="sectionTitle__title ">Featured Colleges</h2>
 
-                <p className="sectionTitle__text ">
+                {/* <p className="sectionTitle__text ">
                   Lorem ipsum dolor sit amet, consectetur.
-                </p>
+                </p> */}
               </div>
             </div>
           </div>
@@ -322,10 +327,10 @@ const Home = () => {
                 <div className="featureCard -type-1 -featureCard-hover">
                   <div className="featureCard__content">
                     <div className="featureCard__icon">
-                      <img src="img/featureCards/1.svg" alt="icon" />
+                      <img src="img/Screenshot_1.jpg" alt="icon" />
                     </div>
-                    <div className="featureCard__title">Design Creative</div>
-                    <div className="featureCard__text">573+ Courses</div>
+                    <div className="featureCard__title">Jaipuria Institute of Management </div>
+                    <div className="featureCard__text">Lucknow/Noida/Jaipur/Indore</div>
                   </div>
                 </div>
               </div>
@@ -334,7 +339,8 @@ const Home = () => {
                 <div className="featureCard -type-1 -featureCard-hover">
                   <div className="featureCard__content">
                     <div className="featureCard__icon">
-                      <img src="img/featureCards/2.svg" alt="icon" />
+                      <img src="img/Screenshot_1.jpg" alt="icon" />
+                      
                     </div>
                     <div className="featureCard__title">Sales Marketing</div>
                     <div className="featureCard__text">565+ Courses</div>
@@ -346,7 +352,8 @@ const Home = () => {
                 <div className="featureCard -type-1 -featureCard-hover">
                   <div className="featureCard__content">
                     <div className="featureCard__icon">
-                      <img src="img/featureCards/3.svg" alt="icon" />
+                    <img src="img/Screenshot_1.jpg" alt="icon" />
+
                     </div>
                     <div className="featureCard__title">Development IT</div>
                     <div className="featureCard__text">126+ Courses</div>
@@ -414,7 +421,7 @@ const Home = () => {
         </div>
       </section>
 
-      <section className="layout-pt-md layout-pb-lg section2-amz">
+      {/* <section className="layout-pt-md layout-pb-lg section2-amz">
         <div data-anim-wrap className="container">
           <div className="row justify-center text-center">
             <div className="col-auto">
@@ -6150,7 +6157,7 @@ const Home = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       <section className="layout-pt-lg layout-pb-lg bg-purple-1">
         <div className="container">
@@ -6158,11 +6165,11 @@ const Home = () => {
             <div className="col-auto">
               <div className="sectionTitle ">
                 <h2 className="sectionTitle__title text-green-1">
-                  What People Say
+                Counselling & Support
                 </h2>
 
-                <p className="sectionTitle__text text-white">
-                  Lorem ipsum dolor sit amet, consectetur.
+                <p className="sectionTitle__text text-white ">
+                Assistance, guidance and support with solution to questions, personalized Counselling and connection with student community.
                 </p>
               </div>
             </div>
@@ -6201,7 +6208,7 @@ const Home = () => {
                         style={{ width: "60px", height: "60px" }}
                       />
                       <p style={{ color: "black" }}>Courtney Henry</p>
-                      <p className="name4">Web Designer</p>
+                      <p className="name4">Expert Counselling</p>
                     </div>
                     <div className="flip-card-back">
                       <p className="heading">
@@ -6210,14 +6217,12 @@ const Home = () => {
                       <hr />
                       <p className="heading1">
                         {" "}
-                        “I think Educrat is the best theme I ever seen this
-                        year. Amazing design, easy to customize and a design
-                        quality superlative account on its cloud platform for
-                        the optimized performance”
+                        “Personalized couselling from expert regading colleges, admissions, eligibility, education loan, etc.
+                        Video Couselling also available. ”
                       </p>
                       <hr />
                       <h5 className="name1">Courtney Henry</h5>
-                      <h6 className="name2">Web Designer</h6>
+                      <h6 className="name2">Expert Counselling</h6>
                     </div>
                   </div>
                 </div>
@@ -6238,7 +6243,7 @@ const Home = () => {
                         style={{ width: "60px", height: "60px" }}
                       />
                       <p style={{ color: "black" }}>Ronald Richards</p>
-                      <p className="name4">President of Sales</p>
+                      <p className="name4">Virtual Seminar</p>
                     </div>
                     <div className="flip-card-back">
                       <p className="heading">
@@ -6247,14 +6252,11 @@ const Home = () => {
                       <hr />
                       <p className="heading1">
                         {" "}
-                        “I think Educrat is the best theme I ever seen this
-                        year. Amazing design, easy to customize and a design
-                        quality superlative account on its cloud platform for
-                        the optimized performance”
+                        “Attend seminar of your favourite college from your home. Register for Seminar updates.”
                       </p>
                       <hr />
                       <h5 className="name1">Ronald Richards</h5>
-                      <h6 className="name2">President of Sales</h6>
+                      <h6 className="name2">Virtual Seminar</h6>
                     </div>
                   </div>
                 </div>
@@ -6275,7 +6277,7 @@ const Home = () => {
                         style={{ width: "60px", height: "60px" }}
                       />
                       <p style={{ color: "black" }}>Annette Black</p>
-                      <p className="name4">Nursing Assistant</p>
+                      <p className="name4">Q and A</p>
                     </div>
                     <div className="flip-card-back">
                       <p className="heading">
@@ -6284,14 +6286,11 @@ const Home = () => {
                       <hr />
                       <p className="heading1">
                         {" "}
-                        “I think Educrat is the best theme I ever seen this
-                        year. Amazing design, easy to customize and a design
-                        quality superlative account on its cloud platform for
-                        the optimized performance”
+                        “post your questions and get it answered by the experts and students themselves.”
                       </p>
                       <hr />
                       <h5 className="name1">Annette Black</h5>
-                      <h6 className="name2">Nursing Assistant</h6>
+                      <h6 className="name2">Q and A</h6>
                     </div>
                   </div>
                 </div>
@@ -6299,8 +6298,8 @@ const Home = () => {
               
             </div>
 
-            <div className="d-flex x-gap-20 items-center justify-end pt-60 lg:pt-40">
-              <div className="col-auto">
+            {/* <div className="d-flex x-gap-20 items-center justify-end pt-60 lg:pt-40"> */}
+              {/* <div className="col-auto">
                 <button
                   className="button -outline-white text-white size-50 rounded-full d-flex justify-center items-center
                  js-prev swiper-button-disabled"
@@ -6311,8 +6310,8 @@ const Home = () => {
                 >
                   <i className="icon icon-arrow-left text-24"></i>
                 </button>
-              </div>
-              <div className="col-auto">
+              </div> */}
+              {/* <div className="col-auto">
                 <button
                   className="button -outline-white text-white size-50 rounded-full d-flex justify-center items-center js-next"
                   tabIndex={0}
@@ -6322,46 +6321,46 @@ const Home = () => {
                 >
                   <i className="icon icon-arrow-right text-24"></i>
                 </button>
-              </div>
-            </div>
+              </div> */}
+            {/* </div> */}
           </div>
 
-          <div
+          {/* <div
             data-anim-wrap
             className="row y-gap-30 counter__row section3-amz"
-          >
-            <div className="col-lg-3 col-sm-6">
+          > */}
+            {/* <div className="col-lg-3 col-sm-6">
               <div className="counter -type-1">
                 <div className="counter__number">350,000+</div>
                 <div className="counter__title">Students worldwide</div>
               </div>
-            </div>
+            </div> */}
 
-            <div className="col-lg-3 col-sm-6">
+            {/* <div className="col-lg-3 col-sm-6">
               <div className="counter -type-1">
                 <div className="counter__number">496,00+</div>
                 <div className="counter__title">Total course views</div>
               </div>
-            </div>
+            </div> */}
 
-            <div className="col-lg-3 col-sm-6">
+            {/* <div className="col-lg-3 col-sm-6">
               <div className="counter -type-1">
                 <div className="counter__number">19,000+</div>
                 <div className="counter__title">Five-star course reviews</div>
               </div>
-            </div>
+            </div> */}
 
-            <div className="col-lg-3 col-sm-6">
+            {/* <div className="col-lg-3 col-sm-6">
               <div className="counter -type-1">
                 <div className="counter__number">987,000+</div>
                 <div className="counter__title">Students community</div>
               </div>
-            </div>
+            </div> */}
           </div>
-        </div>
+        {/* </div> */}
       </section>
 
-      <section className="layout-pt-lg layout-pb-lg bg-beige-1 section2-amz">
+      {/* <section className="layout-pt-lg layout-pb-lg bg-beige-1 section2-amz">
         <div data-anim-wrap className="container">
           <div className="row y-gap-30 justify-between items-center">
             <div className="col-xl-5 col-lg-6 col-md-10 order-2 order-lg-1">
@@ -6426,7 +6425,7 @@ const Home = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       <section className="layout-pt-lg layout-pb-lg bg-dark-2">
         <div data-anim-wrap className="container ">
@@ -6434,11 +6433,11 @@ const Home = () => {
             <div className="col-auto">
               <div className="sectionTitle section2-amz">
                 <h2 className="sectionTitle__title text-white">
-                  Why learn with our courses?
+                Popular Choices
                 </h2>
 
                 <p className="sectionTitle__text text-white">
-                  Lorem ipsum dolor sit amet, consectetur.
+                Explore top MBA colleges and find out about admission, exams, courses, specialization, and much more.
                 </p>
               </div>
             </div>
@@ -6451,11 +6450,10 @@ const Home = () => {
                   <div className="stepCard__icon">
                     <i className="icon-online-learning-4 text-64 text-green-1"></i>
                   </div>
-                  <h4 className="stepCard__title">01. Learn</h4>
+                  <h4 className="stepCard__title">01. Colleges</h4>
                   <p className="stepCard__text">
                     {" "}
-                    Lorem ipsum dolor sit amet, consectetur dolorili adipiscing
-                    elit. Felis donec massa aliqua.
+                    Find your dream college based on your location, fees, specialization and more choices.
                   </p>
                 </div>
               </div>
@@ -6467,11 +6465,11 @@ const Home = () => {
                   <div className="stepCard__icon">
                     <i className="icon-graduation-1 text-64 text-green-1"></i>
                   </div>
-                  <h4 className="stepCard__title">02. Graduate</h4>
+                  <h4 className="stepCard__title">02. MBA Specializations</h4>
                   <p className="stepCard__text">
                     {" "}
-                    Lorem ipsum dolor sit amet, consectetur dolorili adipiscing
-                    elit. Felis donec massa aliqua.
+                    Learn and choose from 30 plus specialization options.
+
                   </p>
                 </div>
               </div>
@@ -6483,11 +6481,110 @@ const Home = () => {
                   <div className="stepCard__icon">
                     <i className="icon-working-at-home-2 text-64 text-green-1"></i>
                   </div>
-                  <h4 className="stepCard__title">03. Work</h4>
+                  <h4 className="stepCard__title">03. Compare Colleges</h4>
                   <p className="stepCard__text">
                     {" "}
-                    Lorem ipsum dolor sit amet, consectetur dolorili adipiscing
-                    elit. Felis donec massa aliqua.
+                    Choose the best college. Compare them with best alternatives.
+
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="row y-gap-30 pt-50 section3-amz">
+            <div className="col-lg-4 col-md-6">
+              <div className="stepCard -type-1 -stepCard-hover">
+                <div className="stepCard__content">
+                  <div className="stepCard__icon">
+                    <i className="icon-online-learning-4 text-64 text-green-1"></i>
+                  </div>
+                  <h4 className="stepCard__title">04. Top NIRF Colleges</h4>
+                  <p className="stepCard__text">
+                    {" "}
+                    Check the top MBA Colleges of India.
+
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div className="col-lg-4 col-md-6">
+              <div className="stepCard -type-1 -stepCard-hover">
+                <div className="stepCard__content">
+                  <div className="stepCard__icon">
+                    <i className="icon-graduation-1 text-64 text-green-1"></i>
+                  </div>
+                  <h4 className="stepCard__title">05. TOP Delhi / NCR Colleges</h4>
+                  <p className="stepCard__text">
+                    {" "}
+                    Check the top MBA Colleges of Delhi / NCR.
+
+
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div className="col-lg-4 col-md-6">
+              <div className="stepCard -type-1 -stepCard-hover">
+                <div className="stepCard__content">
+                  <div className="stepCard__icon">
+                    <i className="icon-working-at-home-2 text-64 text-green-1"></i>
+                  </div>
+                  <h4 className="stepCard__title">06. Top Pune Colleges</h4>
+                  <p className="stepCard__text">
+                    {" "}
+                    Check the top MBA Colleges of Pune.
+
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="row y-gap-30 pt-50 section3-amz">
+            <div className="col-lg-4 col-md-6">
+              <div className="stepCard -type-1 -stepCard-hover">
+                <div className="stepCard__content">
+                  <div className="stepCard__icon">
+                    <i className="icon-online-learning-4 text-64 text-green-1"></i>
+                  </div>
+                  <h4 className="stepCard__title">07. Top Mumbai Colleges</h4>
+                  <p className="stepCard__text">
+                    {" "}
+                    Check the top MBA Colleges of Mumbai.
+
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div className="col-lg-4 col-md-6">
+              <div className="stepCard -type-1 -stepCard-hover">
+                <div className="stepCard__content">
+                  <div className="stepCard__icon">
+                    <i className="icon-graduation-1 text-64 text-green-1"></i>
+                  </div>
+                  <h4 className="stepCard__title">08. Top Bangalore Colleges </h4>
+                  <p className="stepCard__text">
+                    {" "}
+                    Check the top MBA Colleges of Bangalore.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div className="col-lg-4 col-md-6">
+              <div className="stepCard -type-1 -stepCard-hover">
+                <div className="stepCard__content">
+                  <div className="stepCard__icon">
+                    <i className="icon-working-at-home-2 text-64 text-green-1"></i>
+                  </div>
+                  <h4 className="stepCard__title">09. Top Kolkata Colleges</h4>
+                  <p className="stepCard__text">
+                    {" "}
+                    Check the top MBA Colleges of Kolkata.
+
+
                   </p>
                 </div>
               </div>
@@ -6496,7 +6593,7 @@ const Home = () => {
         </div>
       </section>
 
-      <section className="layout-pt-lg layout-pb-lg section2-amz">
+      {/* <section className="layout-pt-lg layout-pb-lg section2-amz">
         <div data-anim-wrap className="container">
           <div className="row y-gap-20 justify-between items-center">
             <div className="col-lg-6">
@@ -6750,9 +6847,9 @@ const Home = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
-      <section className="layout-pt-lg layout-pb-lg bg-light-3 section3-amz">
+      {/* <section className="layout-pt-lg layout-pb-lg bg-light-3 section3-amz">
         <div data-anim-wrap className="container">
           <div className="row y-gap-20 items-center">
             <div className="col-xl-7 col-lg-7">
@@ -6784,9 +6881,9 @@ const Home = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
-      <section className="layout-pt-lg layout-pb-lg section2-amz">
+      {/* <section className="layout-pt-lg layout-pb-lg section2-amz">
         <div data-anim-wrap className="container">
           <div className="row y-gap-20 justify-between items-center">
             <div className="col-lg-6">
@@ -6889,22 +6986,22 @@ const Home = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       <section className="layout-pt-md layout-pb-md bg-purple-1 section3-amz">
         <div className="container">
           <div className="row y-gap-20 justify-between items-center">
             <div className="col-xl-4 col-lg-5">
               <h2 className="text-30 lh-15 text-white">
-                Join more than{" "}
-                <span className="text-green-1">8 million learners</span>{" "}
-                worldwide
+                Just Touch On{" "}
+                <span className="text-green-1">Connect With</span>{" "}
+                Us
               </h2>
             </div>
 
             <div className="col-auto">
               <a href="#" className="button -md -green-1 text-dark-1">
-                Start Learning For Free
+                Start Learning
               </a>
             </div>
           </div>

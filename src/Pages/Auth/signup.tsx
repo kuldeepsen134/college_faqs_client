@@ -217,7 +217,7 @@ const Signup = () => {
                                 <span className="text-green-1">8 million learners</span>
                                 worldwide
                               </div>
-                              <a href="#" className="button -md -green-1 text-dark-1 fw-500 col-12">Start Learning For Free</a>
+                              <a href="#" className="button -md -green-1 text-dark-1 fw-500 col-12">Start Learning</a>
                             </div>
                           </div>
                         </div>

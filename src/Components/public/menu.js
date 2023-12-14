@@ -84,10 +84,10 @@ export const menuJs = [
             name: "MBA in HR",
             path: "/mba-in-hr",
           },
-          {
-            name: "MBA in Operations",
-            path: "/mba-in-operations",
-          },
+          // {
+          //   name: "MBA in Operations",
+          //   path: "/mba-in-operations",
+          // },
           {
             name: "MBA in International Business",
             path: "/mba-in-ib",
@@ -96,10 +96,10 @@ export const menuJs = [
             name: "MBA in Business Analytics",
             path: "/mba-in-ba",
           },
-          {
-            name: "More Specialization",
-            path: "/cms?page=mba-more-specialisations",
-          },
+          // {
+          //   name: "More Specialization",
+          //   path: "/cms?page=mba-more-specialisations",
+          // },
         ],
       },
       {
@@ -740,11 +740,11 @@ export const menuJs = [
       },
       {
         name: "College Predictor",
-        // path: "/contact-us",
+        path: "/contact-us",
       },
       {
         name: "Education Loan",
-        // path: "/contact-us",
+        path: "/contact-us",
       },
     ],
   },

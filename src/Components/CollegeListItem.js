@@ -87,7 +87,7 @@ const CollegeListItem = ({ item }) => {
               Total Fees:
             </strong>{" "}
             <div className="line-height-adj">
-              {item?.total_fees ? "$" + item.total_fees : ""}
+              {item?.total_fees ? "Rs." + item.total_fees : ""}
               {/* <del className="d-inline text-muted">$15,000</del>{" "}
             <span className="ml-1" style={{ color: "rgb(72, 155, 203)" }}>
               <span className="mr-1">$7,006</span>{" "}
@@ -99,21 +99,21 @@ const CollegeListItem = ({ item }) => {
             </div>
           </div>{" "}
           <div className="col">
-            <strong className="d-block" style={{ color: "rgb(52, 53, 64)" }}>
+            {/* <strong className="d-block" style={{ color: "rgb(52, 53, 64)" }}>
               Size:
-            </strong>{" "}
+            </strong>{" "} */}
             <span className="d-inline-block text-muted">{item.size}</span>
           </div>{" "}
           <div className="col accept">
-            <strong className="d-block" style={{ color: " rgb(52, 53, 64)" }}>
+            {/* <strong className="d-block" style={{ color: " rgb(52, 53, 64)" }}>
               Acceptance Rate:
-            </strong>{" "}
-            <span
+            </strong>{" "} */}
+            {/* <span
               className="d-inline-block text-muted"
               style={{ marginLeft: "30px" }}
             >
               {item.acceptence_rate}%
-            </span>
+            </span> */}
           </div>
         </div>
       </div>

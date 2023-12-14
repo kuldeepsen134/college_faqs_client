@@ -1341,8 +1341,8 @@ button:focus {
 .button.-md {
   padding: 12px 55px;
   font-size: 16px;
-  line-height: 18px;
-  font-weight: 500;
+  line-height: 20px;
+  font-weight: 600;
   height: 60px;
 }
 
@@ -3946,10 +3946,10 @@ h6 {
   display: flex;
   justify-content: center;
   align-items: center;
-  border-radius: 100%;
+  border-radius: 0%;
   background-color: white;
-  width: 90px;
-  height: 90px;
+  width: auto;
+  height: auto;
 }
 
 .featureCard.-type-1 .featureCard__title {
@@ -6174,7 +6174,7 @@ h6 {
 .stepCard.-type-1 .stepCard__content {
   border: 1px solid rgba(255, 255, 255, 0.25);
   border-radius: 8px;
-  padding: 60px;
+  padding: 40px;
   padding-bottom: 50px;
   display: flex;
   flex-direction: column;
