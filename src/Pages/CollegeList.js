@@ -35,12 +35,13 @@ const CollegeList = ({ itemsPerPage = 6 }) => {
     console.log('URL>>>>>>>', url);
 
   }
-  else
-    if (m) {
-      url = m
-    }
+
+  if (m) {
+    url = m
+  }
 
   const [itemOffset, setItemOffset] = useState(0);
+
   const [locations, setLocations] = useState([
     "Indore",
     "Maharashtra",
@@ -80,67 +81,104 @@ const CollegeList = ({ itemsPerPage = 6 }) => {
     }
   }, [search])
 
-  // useEffect(() => {
-  //   if (!page && !menu_page && !locationFilter && !feesFilter) {
-  //     // console.log("returning");
-  //   }
-  //   let isMounted = true;
-  //   const controller = new AbortController();
-  //   const fetchData = async () => {
-  //     try {
-  //       // console.log(url)
 
-  //       if (menu_page === null) {
-  //         if (search.data) {
-  //           console.log('dcfvgbhnj');
-  //         } else {
-  //           console.log('yadav');
-  //           const response = await axios.get(url, {
 
-  //             q: page?.toLowerCase(),
-  //             m: menu_page,
-  //             filter: { location: locationFilter, fees: feesFilter },
-  //           }, {
-  //             headers: headers,
-  //           });
-  //           setData(
-  //             response.data.success
-  //               ? response.data.data
-  //               : []
-  //           );
-  //         }
-  //       } else {
-  //         console.log('rohit', m);
-  //         const response = await axios.post(url, {
-  //           q: page?.toLowerCase(),
-  //           m: menu_page || m,
-  //           filter: { location: locationFilter, fees: feesFilter },
-  //         }, {
-  //           headers: headers, // Use the headers object here
-  //         });
-  //         // console.log(response.data);
-  //         setData(
-  //           response.data.success
-  //             ? response.data.data // ? [...response.data.data, ...response.data.data]
-  //             : []
-  //         );
-  //       }
-  //     } catch (err) {
-  //       console.log(err);
-  //     }
-  //   };
-  //   fetchData();
-  //   window.scrollTo(0, 0);
-  //   return () => {
-  //     isMounted = false;
-  //     controller.abort();
-  //   };
-  // }, [page, menu_page, locationFilter, url, m]);
+
+
+
+
+
+
+  useEffect(() => {
+    if (!page && !menu_page && !locationFilter && !feesFilter) {
+      // console.log("returning");
+    }
+    let isMounted = true;
+    const controller = new AbortController();
+    const fetchData = async () => {
+      try {
+        // console.log(url)
+
+        if (menu_page === null) {
+          if (search.data) {
+
+          }
+
+          else {
+
+
+            console.log('search.data>>>>>>>', m);
+            let newURL=''
+            // url = m == "Top Government MBA Colleges" ? '/college-list/top-collages/governmen' : m == 'Top Private MBA Colleges' ? '/college-list/top-collages/private' : m == 'NIRF MBA College Ranking' && "/college-list/top-collages/NIRF"
+
+            // url = '/college-list/top-collages/NIRF'
+            if (m === 'Top Government MBA Colleges') {
+              newURL = '/college-list/top-collages/government';
+            } else if (m === 'Top Private MBA Colleges') {
+              newURL = '/college-list/top-collages/private';
+            } else if (m === 'NIRF MBA College Ranking') {
+              newURL = '/college-list/top-collages/NIRF';
+            }
+
+            //  newURL = m === 'NIRF MBA College Ranking' ? ' /college-list/top-collages/NIRF' : m === 'Top Government MBA Colleges'
+
+
+            const response = await axios.get(newURL, {
+
+              q: page?.toLowerCase(),
+              m: menu_page,
+              filter: { location: locationFilter, fees: feesFilter },
+            }, {
+              headers: headers,
+            });
+            setData(
+              response.data.success
+                ? response.data.data
+                : []
+            );
+          }
+        } else {
+          console.log('rohit', m);
+          const response = await axios.post(url, {
+            q: page?.toLowerCase(),
+            m: menu_page || m,
+            filter: { location: locationFilter, fees: feesFilter },
+          }, {
+            headers: headers, // Use the headers object here
+          });
+          // console.log(response.data);
+          setData(
+            response.data.success
+              ? response.data.data // ? [...response.data.data, ...response.data.data]
+              : []
+          );
+        }
+      } catch (err) {
+        console.log(err);
+      }
+    };
+    fetchData();
+    window.scrollTo(0, 0);
+    return () => {
+      isMounted = false;
+      controller.abort();
+    };
+  }, [ m]);
+
+
+
+
+
+
+
+
+
+
 
 
   useEffect(() => {
     const fun = async () => {
-      
+
       if (menu_page) {
         console.log('url>>>>', menu_page);
         const newURL = url ? url : '/college-list'

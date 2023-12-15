@@ -69,7 +69,9 @@ const Signup = () => {
 
 
   const register = async () => {
+
     const formData = new FormData();
+
     if (files[0]) {
       formData.append("profile_url", files[0]);
       formData.append("name", name);
@@ -82,6 +84,7 @@ const Signup = () => {
 
     if (isSubmit) return;
     setSubmit(true);
+
     if (!email || !name || !password || !confirmPassword) {
       setSubmit(false);
       return;
@@ -91,10 +94,10 @@ const Signup = () => {
       return;
     }
     try {
-
       const toastId = toast.loading("Registering...");
       const response = await axios.post("/register", formData);
-      console.log('response.data>>>>>>', response.data);
+      
+      console.log('response.data>>>>>>3333', response.data);
 
       if (!response.data.success) {
         toast.update(toastId, {
@@ -115,7 +118,9 @@ const Signup = () => {
         isLoading: false,
         closeButton: true,
       });
+
       setAuth({ token: response.data.token });
+
       localStorage.setItem("token", response.data.token);
       navigate(from, { replace: true, to: "/profile" });
     } catch (err) {
@@ -160,14 +165,18 @@ const Signup = () => {
     setotpError(false);
     setOtpSentMsg(false);
     e.preventDefault();
+
     if (otp === null || final === null) return;
+
     let confirmationResult = window.result;
-    confirmationResult
-      .confirm(otp)
+
+    confirmationResult.confirm(otp)
       .then((result) => {
         // User signed in successfully.
         const user = result.user;
-        console.log(user);
+        console.log('user>>>>>>>', user);
+        console.log('bbbbbbbbbbbbb>>>>>>>', result);
+
         register();
         // ...
       })
