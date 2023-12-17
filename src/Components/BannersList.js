@@ -11,7 +11,7 @@ const BannerItem = ({ banner }) => {
   const record = async () => {
     try {
       const response = await axios.post("/analytics", { bannerId: banner.id }, { headers: { authorization: "Bearer " + auth.token } });
-      console.log(response.data);
+      console.log('response>>>>>>>>>>>>', response.data);
     } catch (err) {
       console.log(err);
     }
@@ -45,10 +45,18 @@ const BannersList = (props) => {
     };
     fetchData();
   }, []);
+
+  const handleCLick = (id) => {
+    console.log('clicked>>>', id);
+  }
+
+
   return (
     <div className={(props?.custom ? "custom-" : "") + "sidebar"}>
       {data.map((item) => (
-        <BannerItem banner={item} id={item.id} key={item.id} />
+        <>{console.log('dddddddddd', item.id)}
+          <BannerItem banner={item} id={item.id} key={item.id} />
+        </>
       ))}
     </div>
   );
