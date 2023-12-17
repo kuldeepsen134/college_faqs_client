@@ -9,58 +9,40 @@ import { useSelector } from "react-redux";
 
 
 const CollegeList = ({ itemsPerPage = 6 }) => {
+
   let token = localStorage.getItem('token')
   const [urlSearchParams] = useSearchParams();
+
   const page = urlSearchParams.get("q") || null;
+
   const m = urlSearchParams.get("m") || null;
 
-  const { search, loading } = useSelector((state) => state.commonHeader)
-
-
   var url = "/college-list";
+
+  const { search, loading } = useSelector((state) => state.commonHeader)
 
   var menu_page = urlSearchParams.get("state") || null;
 
   const headers = {
     Authorization: `Bearer ${token}`,
   };
-  // console.log('pathname', headers);
+
+  let city = ''
 
   if (menu_page == null) {
-    // console.log("ENTER")
-    menu_page = urlSearchParams.get("city") || null;
-
-    url = m === "Top Government MBA Colleges" ? '/college-list/top-collages/government' : m === 'Top Private MBA Colleges' ? '/college-list/top-collages/private' : m === 'NIRF MBA College Ranking' && "/college-list/top-collages/NIRF"
-    // url = '/college-list/top-collages/NIRF'
-    console.log('URL>>>>>>>', url);
-
-  }
-
-  if (m) {
-    url = m
+    city = urlSearchParams.get("city") || null;
+    console.log('city>>>>>', city);
   }
 
   const [itemOffset, setItemOffset] = useState(0);
-
-  const [locations, setLocations] = useState([
-    "Indore",
-    "Maharashtra",
-    "Gujrat",
-    "Mumbai",
-    "Noida",
-  ]);
+  const [locations, setLocations] = useState(["Indore", "Maharashtra", "Gujrat", "Mumbai", "Noida",]);
   const [locationFilter, setLocationFilter] = useState("");
-  const [fees, setFees] = useState([
-    "1 - 2 Lakh",
-    "2 - 3 Lakh",
-    "3 - 5 Lakh",
-    "> 5 Lakh",
-  ]);
+
+  const [fees, setFees] = useState(["1 - 2 Lakh", "2 - 3 Lakh", "3 - 5 Lakh", "> 5 Lakh",]);
+
   const [feesFilter, setFeesFilter] = useState("");
   const [data, setData] = useState([]);
   const [currentItems, setCurrentItem] = useState([])
-
-
 
   const endOffset = itemOffset + itemsPerPage;
   // console.log(`Loading items from ${itemOffset} to ${endOffset}`);
@@ -83,35 +65,30 @@ const CollegeList = ({ itemsPerPage = 6 }) => {
 
 
 
-
-
-
-
-
-
   useEffect(() => {
     if (!page && !menu_page && !locationFilter && !feesFilter) {
-      // console.log("returning");
+      console.log("returning");
     }
     let isMounted = true;
     const controller = new AbortController();
+
     const fetchData = async () => {
       try {
-        // console.log(url)
-
         if (menu_page === null) {
-          if (search.data) {
-
+          if (city) {
+            console.log('cityu11111111', city);
+            const response = await axios.post('/college-list/fromCity', {
+              q: page?.toLowerCase(),
+              m: city,
+              filter: { location: locationFilter, fees: feesFilter },
+            }, {
+              headers: headers,
+            });
+  
+            setData(response.data.success ? response.data.data : []);
           }
-
           else {
-
-
-            console.log('search.data>>>>>>>', m);
-            let newURL=''
-            // url = m == "Top Government MBA Colleges" ? '/college-list/top-collages/governmen' : m == 'Top Private MBA Colleges' ? '/college-list/top-collages/private' : m == 'NIRF MBA College Ranking' && "/college-list/top-collages/NIRF"
-
-            // url = '/college-list/top-collages/NIRF'
+            let newURL = '';
             if (m === 'Top Government MBA Colleges') {
               newURL = '/college-list/top-collages/government';
             } else if (m === 'Top Private MBA Colleges') {
@@ -120,38 +97,28 @@ const CollegeList = ({ itemsPerPage = 6 }) => {
               newURL = '/college-list/top-collages/NIRF';
             }
 
-            //  newURL = m === 'NIRF MBA College Ranking' ? ' /college-list/top-collages/NIRF' : m === 'Top Government MBA Colleges'
-
-
             const response = await axios.get(newURL, {
-
               q: page?.toLowerCase(),
               m: menu_page,
               filter: { location: locationFilter, fees: feesFilter },
             }, {
               headers: headers,
             });
-            setData(
-              response.data.success
-                ? response.data.data
-                : []
-            );
+
+            setData(response.data.success ? response.data.data : []);
           }
-        } else {
-          console.log('rohit', m);
+        }
+        else {
+          console.log('urlurlurlurlurl>>>>', url);
           const response = await axios.post(url, {
             q: page?.toLowerCase(),
             m: menu_page || m,
             filter: { location: locationFilter, fees: feesFilter },
           }, {
-            headers: headers, // Use the headers object here
+            headers: headers,
           });
-          // console.log(response.data);
-          setData(
-            response.data.success
-              ? response.data.data // ? [...response.data.data, ...response.data.data]
-              : []
-          );
+
+          setData(response.data.success ? response.data.data : []);
         }
       } catch (err) {
         console.log(err);
@@ -163,24 +130,20 @@ const CollegeList = ({ itemsPerPage = 6 }) => {
       isMounted = false;
       controller.abort();
     };
-  }, [ m]);
-
-
-
-
-
-
-
-
+  }, [m, city]);
 
 
 
 
   useEffect(() => {
+
+    console.log('hhhhhhhhh', url);
+    console.log('BBBBBBB>>>>', menu_page);
+
     const fun = async () => {
 
       if (menu_page) {
-        console.log('url>>>>', menu_page);
+
         const newURL = url ? url : '/college-list'
         const response = await axios.post(newURL, { m: menu_page, filter: { location: locationFilter, fees: feesFilter }, },
           {
@@ -200,9 +163,7 @@ const CollegeList = ({ itemsPerPage = 6 }) => {
 
   const handlePageClick = (event) => {
     const newOffset = (event.selected * itemsPerPage) % data.length;
-    console.log(
-      `User requested page number ${event.selected}, which is offset ${newOffset}`
-    );
+    console.log(`User requested page number ${event.selected}, which is offset ${newOffset}`);
     setItemOffset(newOffset);
   };
 

@@ -189,7 +189,7 @@ export const menuJs = [
         children: [
           {
             name: "Top Colleges in Delhi/NCR",
-            path: "/college-list?city=Delhi/NCR",
+            path: "/college-list?city=New Delhi",
           },
           {
             name: "Top Colleges in Pune",

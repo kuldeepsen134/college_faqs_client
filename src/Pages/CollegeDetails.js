@@ -29,6 +29,7 @@ const CollegeDetails = () => {
   const [question, setQuestion] = useState("");
   const [gallerypathArray, setgallerypathArray] = useState([]);
   const { auth } = useAuth();
+  
   useEffect(() => {
     const fetchCollege = async () => {
       try {

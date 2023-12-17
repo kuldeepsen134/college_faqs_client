@@ -5,7 +5,7 @@ const ContactUs = () => {
 	}, [])
 	return (
 		<>
-			<section className="contact-us">
+			{/* <section className="contact-us">
 				<div className="container">
 					<div className="row">
 						<div className="col">
@@ -200,7 +200,34 @@ const ContactUs = () => {
 						</div>
 					</div>
 				</div>
-			</section >
+			</section > */}
+
+			<div class="container bg-light">
+				<h2>Get In Touch</h2>
+				<form>
+					<div class="form-group">
+						<input type="text" class="form-control" placeholder="First Name"/>
+					</div>
+					<div class="form-group">
+						<input type="text" class="form-control" placeholder="Last Name"/>
+					</div>
+					<div class="form-group">
+						<input type="email" class="form-control" placeholder="Email"/>
+					</div>
+					<div class="form-group">
+						<input type="tel" class="form-control" placeholder="Phone"/>
+					</div>
+					<div class="form-group">
+						<input type="text" class="form-control" placeholder="Address"/>
+					</div>
+					<div class="form-group">
+						<textarea class="form-control" rows="3" placeholder="Type your message here"></textarea>
+					</div>
+					<button type="submit" class="btn btn-primary">Submit</button>
+				</form>
+				<p class="text-muted">Thanks for submitting!</p>
+			</div>
+
 		</>
 	);
 };
