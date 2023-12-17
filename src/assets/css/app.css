@@ -12474,8 +12474,9 @@ p.sectionTitle__text.text-white {
 }
 
 .container.animated {
-    max-width: fit-content;
+  max-width: fit-content;
 }
+
 .badge.grad-school,
 .badge.online-school,
 .badge.scholarship,
@@ -19673,6 +19674,23 @@ section:nth-child(1) {
 }
 
 form.contact-form input[type="text"],
+form.contact-form input[type="tel"],
+form.contact-form input[type="email"],
+form.contact-form textarea,
 form.contact-form input[type="password"] {
   padding: 10px 22px;
+}
+
+.home-page .masthead__content .masthead__title {
+  font-size: 40px;
+  line-height: normal;
+}
+
+.home-page .masthead__content .masthead-info__title {
+  margin-top: 30px;
+  font-size: 25px;
+}
+
+.home-page .masthead__content .masthead__buttons{
+  justify-content: end;
 }

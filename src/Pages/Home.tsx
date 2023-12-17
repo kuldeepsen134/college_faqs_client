@@ -5,49 +5,67 @@ import { useEffect } from "react";
 
 const Home = () => {
   useEffect(() => {
-    window.scrollTo(0,0);
-  },[])
+    window.scrollTo(0, 0);
+  }, [])
   return (
     <>
       <section
-        className="masthead -type-1 js-mouse-move-container"
+        className="masthead -type-1 js-mouse-move-container home-page"
       >
         <div className="masthead__bg">
           <img src="img/home-1/hero/bg.png" alt="image" />
         </div>
 
         <div className="container">
-          
+
           <div
             data-anim-wrap
             className="row y-gap-30 justify-between items-end"
           >
-            <div className="col-xl-6 col-lg-6 col-sm-10">
-              <div className="masthead__content">
-                <h1 className="masthead__title text-green-1">
-                CollegeFAQs {" "}<br></br>
+            <div className="col-xl-12 col-lg-12 col-sm-12">
+              <div className="masthead__content text-center">
+                <h4 className="masthead__title text-green-1">
+                  CollegeFAQs{" "}-{" "}
                   <span className="text-white">Your College Repository</span>
-                </h1>
+                </h4>
+                <input
+                  type="text"
+                  id="search"
+                  placeholder="Search Box"
+                  style={{
+                    width: "84%",
+                    padding: "20px",
+                    borderRadius: "8px",
+                    backgroundColor: "white",
+                    textAlign: "center",
+                    margin: "10px 0"
+                  }}
+                />
                 <p className="masthead__text">
-                Start your learning with best courses, degrees and certificates from world class universities and colleges.
+                  Start your learning with best courses, degrees and certificates from world class universities and colleges.
                   <br />
-                  
+
 
                 </p>
-                
+
                 <div className="masthead-info__title lh-1 text-28 text-white">
-                Apply now for your favourite college / course. Claim your Application Coupon now.
-                    </div>
-                <div className="masthead__buttons row x-gap-10 y-gap-10">
-                  <div className="col-12 col-sm-auto">
-                    <a
-                      data-barba
-                      href="/sign-up"
-                      className="button -md -purple-1 text-white"
-                    >
-                      Coupon Code
-                    </a>
-                  </div>
+                  Apply now for your favourite college / course. Claim your Application Coupon now.
+                </div>
+                <div className="masthead__buttons text-center">
+
+                  <a
+                    data-barba
+                    href="/sign-up"
+                    className="button -md -purple-1 text-white"
+                    style={{
+                      width: "260px",
+                      height: "50px",
+                      margin: "auto"
+                    }}
+                  >
+                    Coupon Code
+                  </a>
+
                   {/* <div className="col-12 col-sm-auto">
                     <a
                       data-barba
@@ -340,7 +358,7 @@ const Home = () => {
                   <div className="featureCard__content">
                     <div className="featureCard__icon">
                       <img src="img/Screenshot_1.jpg" alt="icon" />
-                      
+
                     </div>
                     <div className="featureCard__title">Sales Marketing</div>
                     <div className="featureCard__text">565+ Courses</div>
@@ -352,7 +370,7 @@ const Home = () => {
                 <div className="featureCard -type-1 -featureCard-hover">
                   <div className="featureCard__content">
                     <div className="featureCard__icon">
-                    <img src="img/Screenshot_1.jpg" alt="icon" />
+                      <img src="img/Screenshot_1.jpg" alt="icon" />
 
                     </div>
                     <div className="featureCard__title">Development IT</div>
@@ -6165,11 +6183,11 @@ const Home = () => {
             <div className="col-auto">
               <div className="sectionTitle ">
                 <h2 className="sectionTitle__title text-green-1">
-                Counselling & Support
+                  Counselling & Support
                 </h2>
 
                 <p className="sectionTitle__text text-white ">
-                Assistance, guidance and support with solution to questions, personalized Counselling and connection with student community.
+                  Assistance, guidance and support with solution to questions, personalized Counselling and connection with student community.
                 </p>
               </div>
             </div>
@@ -6295,11 +6313,11 @@ const Home = () => {
                   </div>
                 </div>
               </div>
-              
+
             </div>
 
             {/* <div className="d-flex x-gap-20 items-center justify-end pt-60 lg:pt-40"> */}
-              {/* <div className="col-auto">
+            {/* <div className="col-auto">
                 <button
                   className="button -outline-white text-white size-50 rounded-full d-flex justify-center items-center
                  js-prev swiper-button-disabled"
@@ -6311,7 +6329,7 @@ const Home = () => {
                   <i className="icon icon-arrow-left text-24"></i>
                 </button>
               </div> */}
-              {/* <div className="col-auto">
+            {/* <div className="col-auto">
                 <button
                   className="button -outline-white text-white size-50 rounded-full d-flex justify-center items-center js-next"
                   tabIndex={0}
@@ -6329,34 +6347,34 @@ const Home = () => {
             data-anim-wrap
             className="row y-gap-30 counter__row section3-amz"
           > */}
-            {/* <div className="col-lg-3 col-sm-6">
+          {/* <div className="col-lg-3 col-sm-6">
               <div className="counter -type-1">
                 <div className="counter__number">350,000+</div>
                 <div className="counter__title">Students worldwide</div>
               </div>
             </div> */}
 
-            {/* <div className="col-lg-3 col-sm-6">
+          {/* <div className="col-lg-3 col-sm-6">
               <div className="counter -type-1">
                 <div className="counter__number">496,00+</div>
                 <div className="counter__title">Total course views</div>
               </div>
             </div> */}
 
-            {/* <div className="col-lg-3 col-sm-6">
+          {/* <div className="col-lg-3 col-sm-6">
               <div className="counter -type-1">
                 <div className="counter__number">19,000+</div>
                 <div className="counter__title">Five-star course reviews</div>
               </div>
             </div> */}
 
-            {/* <div className="col-lg-3 col-sm-6">
+          {/* <div className="col-lg-3 col-sm-6">
               <div className="counter -type-1">
                 <div className="counter__number">987,000+</div>
                 <div className="counter__title">Students community</div>
               </div>
             </div> */}
-          </div>
+        </div>
         {/* </div> */}
       </section>
 
@@ -6433,11 +6451,11 @@ const Home = () => {
             <div className="col-auto">
               <div className="sectionTitle section2-amz">
                 <h2 className="sectionTitle__title text-white">
-                Popular Choices
+                  Popular Choices
                 </h2>
 
                 <p className="sectionTitle__text text-white">
-                Explore top MBA colleges and find out about admission, exams, courses, specialization, and much more.
+                  Explore top MBA colleges and find out about admission, exams, courses, specialization, and much more.
                 </p>
               </div>
             </div>

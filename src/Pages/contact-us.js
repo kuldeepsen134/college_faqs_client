@@ -201,33 +201,42 @@ const ContactUs = () => {
 					</div>
 				</div>
 			</section > */}
+			<section className="contact-us">
+				<div class="container bg-light">
+					<div className="row">
+						<div className="card">
+							<div className="card-body">
 
-			<div class="container bg-light">
-				<h2>Get In Touch</h2>
-				<form>
-					<div class="form-group">
-						<input type="text" class="form-control" placeholder="First Name"/>
+								<h2 className="mb-4">Contact Us</h2>
+								<form className="contact-form row">
+									<div class="form-group col-12 col-sm-12 col-md-6">
+										<input type="text" class="form-control" placeholder="First Name" />
+									</div>
+									<div class="form-group col-12 col-sm-12 col-md-6">
+										<input type="text" class="form-control" placeholder="Last Name" />
+									</div>
+									<div class="form-group col-12 col-sm-12 col-md-6">
+										<input type="email" class="form-control" placeholder="Email" />
+									</div>
+									<div class="form-group col-12 col-sm-12 col-md-6">
+										<input type="tel" class="form-control" placeholder="Phone" />
+									</div>
+									<div class="form-group">
+										<input type="text" class="form-control" placeholder="Address" />
+									</div>
+									<div class="form-group">
+										<textarea class="form-control" rows="3" placeholder="Type your message here"></textarea>
+									</div>
+									<div>
+										<button type="submit" class="btn btn-primary">Submit</button>
+									</div>
+								</form>
+								<p class="text-muted mt-3">Thanks for submitting!</p>
+							</div>
+						</div>
 					</div>
-					<div class="form-group">
-						<input type="text" class="form-control" placeholder="Last Name"/>
-					</div>
-					<div class="form-group">
-						<input type="email" class="form-control" placeholder="Email"/>
-					</div>
-					<div class="form-group">
-						<input type="tel" class="form-control" placeholder="Phone"/>
-					</div>
-					<div class="form-group">
-						<input type="text" class="form-control" placeholder="Address"/>
-					</div>
-					<div class="form-group">
-						<textarea class="form-control" rows="3" placeholder="Type your message here"></textarea>
-					</div>
-					<button type="submit" class="btn btn-primary">Submit</button>
-				</form>
-				<p class="text-muted">Thanks for submitting!</p>
-			</div>
-
+				</div>
+			</section>
 		</>
 	);
 };
