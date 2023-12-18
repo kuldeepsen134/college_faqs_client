@@ -19191,7 +19191,6 @@ b.table-details {
 
 .MsoTableGrid,
 #display-data {
-  box-shadow: none;
   width: 90%;
 }
 
@@ -19455,10 +19454,6 @@ section:nth-child(1) {
 }
 
 
-.header-facts {
-  /* margin-top: 8rem !important; */
-}
-
 .custom-card {
   top: -190px !important;
   right: 10px !important;
@@ -19691,6 +19686,12 @@ form.contact-form input[type="password"] {
   font-size: 25px;
 }
 
-.home-page .masthead__content .masthead__buttons{
+.home-page .masthead__content .masthead__buttons {
   justify-content: end;
+}
+
+
+.MsoTableGrid tbody tr:nth-of-type(even),
+#display-data tbody tr:nth-of-type(even) {
+  background-color: rgba(0, 0, 0, 0.05);
 }
