@@ -165,7 +165,7 @@ const CompareCOllege = () => {
 
     return (
         <>
-            <section id="latest-updates" className="media-5 compare-design custom-inner-pages">
+            <section id="latest-updates" className="media-5 compare-design custom-inner-pages mt-0 py-0">
                 <div className="container">
                     {!show &&
                         <div className="row">
@@ -176,7 +176,7 @@ const CompareCOllege = () => {
                                 {/* ********************************************************************************************************************************************************************** */}
                                 {/* compaire college Card 1  start*/}
                                 {collageIDs === undefined && < div className="card">
-                                    <div className="add-collage mt-6 text-center">
+                                    <div className="add-collage py-4 pb-5 text-center mt-0">
                                         <div className=" custom-border">
                                             <button type="button"
                                                 onClick={() => { !token ? navigate('/login') : setShow(!show); setCardIndex(1) }}
@@ -234,7 +234,7 @@ const CompareCOllege = () => {
                                 {/* compaire college Card 2  start*/}
                                 {collageIDs2 === undefined &&
                                     <div className="card">
-                                        <div className="add-collage mt-6 text-center">
+                                        <div className="add-collage py-4 pb-5 text-center mt-0">
                                             <div className=" custom-border">
                                                 <button type="button"
                                                     className="btn add-collage-button mt-4"
@@ -262,7 +262,7 @@ const CompareCOllege = () => {
                                 {/* compaire college Card 3  start*/}
                                 {collageIDs3 === undefined &&
                                     <div className="card">
-                                        <div className="add-collage mt-6 text-center">
+                                        <div className="add-collage py-4 pb-5 text-center mt-0">
                                             <div className=" custom-border">
                                                 <button type="button"
                                                     className="btn add-collage-button mt-4"
