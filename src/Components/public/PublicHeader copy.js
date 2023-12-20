@@ -36,6 +36,7 @@ const PublicHeader = () => {
     (async () => {
       try {
         let responce = await instance.post('college-list', query)
+        
         console.log('respo', responce);
 
       } catch (error) {

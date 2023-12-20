@@ -70,13 +70,13 @@ const CollegeList = ({ itemsPerPage = 6 }) => {
       console.log("returning");
     }
     let isMounted = true;
+
     const controller = new AbortController();
 
     const fetchData = async () => {
       try {
         if (menu_page === null) {
           if (city) {
-            console.log('cityu11111111', city);
             const response = await axios.post('/college-list/fromCity', {
               q: page?.toLowerCase(),
               m: city,
@@ -109,7 +109,6 @@ const CollegeList = ({ itemsPerPage = 6 }) => {
           }
         }
         else {
-          console.log('urlurlurlurlurl>>>>', url);
           const response = await axios.post(url, {
             q: page?.toLowerCase(),
             m: menu_page || m,
@@ -124,26 +123,22 @@ const CollegeList = ({ itemsPerPage = 6 }) => {
         console.log(err);
       }
     };
+    
     fetchData();
     window.scrollTo(0, 0);
+
     return () => {
       isMounted = false;
       controller.abort();
     };
   }, [m, city]);
-
-
+  
 
 
   useEffect(() => {
-
-    console.log('hhhhhhhhh', url);
-    console.log('BBBBBBB>>>>', menu_page);
-
     const fun = async () => {
 
       if (menu_page) {
-
         const newURL = url ? url : '/college-list'
         const response = await axios.post(newURL, { m: menu_page, filter: { location: locationFilter, fees: feesFilter }, },
           {
@@ -157,8 +152,6 @@ const CollegeList = ({ itemsPerPage = 6 }) => {
     }
     fun()
   }, [menu_page, m])
-
-
 
 
   const handlePageClick = (event) => {
@@ -289,7 +282,7 @@ const CollegeList = ({ itemsPerPage = 6 }) => {
         <div className="container-fluid">
           <div className="row">
             <div className="col px-0 mx-0">
-              <img src="./img/12.jpg" />
+              <img src="./img/12.jpg" alt="img" />
             </div>
           </div>
         </div>

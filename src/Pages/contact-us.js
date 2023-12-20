@@ -9,11 +9,11 @@ const ContactUs = () => {
 	const [success, setSuccess] = useState(false)
 	const formik = useFormik({
 		initialValues: {
-			firstName: '',
-			lastName: '',
+			name: '',
+			programIntrestedIN: '',
 			email: '',
 			mobile: '',
-			address: '',
+			city: '',
 			message: '',
 		},
 		onSubmit: async (values, { resetForm }) => {
@@ -39,20 +39,20 @@ const ContactUs = () => {
 										<input
 											type="text"
 											class="form-control"
-											placeholder="First Name"
-											name='firstName'
+											placeholder="Name"
+											name='name'
 											onChange={formik.handleChange}
-											value={formik.values.firstName}
+											value={formik.values.name}
 										/>
 									</div>
 									<div class="form-group col-12 col-sm-12 col-md-6">
 										<input
 											type="text"
 											class="form-control"
-											name='lastName'
-											placeholder="Last Name"
+											name='programIntrestedIN'
+											placeholder="Program Intrested IN"
 											onChange={formik.handleChange}
-											value={formik.values.lastName}
+											value={formik.values.programIntrestedIN}
 										/>
 									</div>
 									<div class="form-group col-12 col-sm-12 col-md-6">
@@ -79,10 +79,10 @@ const ContactUs = () => {
 										<input
 											type="text"
 											class="form-control"
-											name='address'
-											placeholder="Address"
+											name='city'
+											placeholder="City"
 											onChange={formik.handleChange}
-											value={formik.values.address}
+											value={formik.values.city}
 										/>
 									</div>
 									<div class="form-group">

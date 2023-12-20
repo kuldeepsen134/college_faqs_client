@@ -8,10 +8,13 @@ const initialState = {
 
 export const headerSearch = createAsyncThunk("collage/college-list", async (data, { rejectWithValue }) => {
   try {
+    const response = await instance.post("/college-list", data);
+    const serializedData = {
+      data: response.data,
+      status: response.status,
+    };
 
-    console.log('data>>>', data);
-
-    return await instance.post("/college-list", data);
+    return serializedData;
   } catch (error) {
     return rejectWithValue(error.response);
   }

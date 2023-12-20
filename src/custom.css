@@ -82,3 +82,11 @@ ol {
 ul {
 	margin-bottom: 0in;
 }
+
+
+
+img.mx-2.serachimag {
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+}

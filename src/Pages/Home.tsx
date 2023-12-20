@@ -1,12 +1,47 @@
-import { nextTick } from "process";
-import * as React from "react";
-import { Link } from "react-router-dom";
-import { useEffect } from "react";
+import React, { useEffect, useState } from "react";
+import { instance } from "../api/axios";
+import { useNavigate } from "react-router";
+import { STATIC_URL } from "../config/config";
+
+interface SearchResult {
+  id: number;
+  name: string;
+  image: string;
+  location: string
+  // Other properties if present
+}
 
 const Home = () => {
+
+  const [searchField, setSearchField] = useState('')
+  const [searchResults, setSearchResults] = useState([]);
+  const navigate = useNavigate()
+
+  const [show, setShow] = useState(false)
+
+  useEffect(() => {
+    const fetchCollege = async () => {
+      let responce = await instance.post("/college-list", { q: searchField });
+      setSearchResults(responce && responce?.data?.data)
+    }
+    fetchCollege();
+  }, [searchField])
+
+
+
+
   useEffect(() => {
     window.scrollTo(0, 0);
   }, [])
+
+
+  const handleResultClick = (id: any) => {
+    navigate(`/college-details?college=${id}`)
+    setShow(!show)
+  };
+
+
+
   return (
     <>
       <section
@@ -19,7 +54,7 @@ const Home = () => {
         <div className="container">
 
           <div
-            data-anim-wrap
+            // data-anim-wrap
             className="row y-gap-30 justify-between items-end"
           >
             <div className="col-xl-12 col-lg-12 col-sm-12">
@@ -28,10 +63,12 @@ const Home = () => {
                   CollegeFAQs{" "}-{" "}
                   <span className="text-white">Your College Repository</span>
                 </h4>
+
                 <input
-                  type="text"
-                  id="search"
+                  type="search"
+                  name="collageName"
                   placeholder="Search Box"
+                  onChange={(e) => setSearchField(e.target.value)}
                   style={{
                     width: "84%",
                     padding: "20px",
@@ -41,11 +78,21 @@ const Home = () => {
                     margin: "10px 0"
                   }}
                 />
+                {searchResults?.map((result: SearchResult, i) => (
+                  <>
+                    <div className="collageName  my-3 ml-4" key={i}>
+                      <div className="d-flex justify-content-center">
+                        <img src={`${STATIC_URL}/images/${result.image}`} alt="img" className="mx-2 serachimag" />
+                        <p className=" text-white mb-0" onClick={() => handleResultClick(result?.id)} style={{ fontWeight: 'bold' }}>{result.name}{'  '}{result.location}</p>
+                      </div>
+                    </div>
+                  </>
+                ))}
+
+
                 <p className="masthead__text">
                   Start your learning with best courses, degrees and certificates from world class universities and colleges.
                   <br />
-
-
                 </p>
 
                 <div className="masthead-info__title lh-1 text-28 text-white">

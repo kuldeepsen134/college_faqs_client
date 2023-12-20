@@ -43,12 +43,12 @@ const PublicHeader = () => {
 
 
 
-  // useEffect(() => {
-  //   console.log('search', search);
-  //   if (query && search?.data?.length > 0) {
-  //     navigate('/college-list')
-  //   }
-  // }, [navigate, search])
+  useEffect(() => {
+    console.log('search', search);
+    if (query && search?.data?.length > 0) {
+      navigate('/college-list')
+    }
+  }, [search])
 
 
 
@@ -163,7 +163,7 @@ const PublicHeader = () => {
                 <button
                   type="button"
                   name="search"
-                  // onClick={(e) => e.preventDefault()}
+                  onClick={(e) => e.preventDefault()}
                   className="s1"
                 >
                   Search
@@ -182,7 +182,7 @@ const PublicHeader = () => {
           </div>
 
           <div className="nav-links">
-            {menuJs.map((mainMenu ,i) => (
+            {menuJs.map((mainMenu, i) => (
               <div className="dropdown" key={i}>
                 <Link className="dropBtn" to={mainMenu.path}>
                   {mainMenu.name}
@@ -190,7 +190,7 @@ const PublicHeader = () => {
                 {mainMenu.children ? (
                   <>
                     <div className="drop-content">
-                      {mainMenu.children.map((item,j) => (
+                      {mainMenu.children.map((item, j) => (
                         <div key={j}>
                           {item?.children ? (
                             <div className="dropdown2">
@@ -200,7 +200,7 @@ const PublicHeader = () => {
                               <div className="drop-content2">
                                 {item.children.map((item, k) => (
                                   <div key={k}>
-                                  <Link to={item.path}>{item.name}</Link>
+                                    <Link to={item.path}>{item.name}</Link>
                                   </div>
                                 ))}
                               </div>

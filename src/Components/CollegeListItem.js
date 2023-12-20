@@ -63,7 +63,7 @@ const CollegeListItem = ({ item }) => {
                 <span className="btn-text">Brochure</span>{" "}
               </a>{" "} */}
 
-                {token ? <a href={item.brochure} download
+                {token ? <a href={STATIC_URL+'/files/'+item.brochure} download
                   className="btn btn-sm btn-rmi d-flex align-items-center justify-content-center px-1 px-md-2 rmi_10000139"
                 >
                   Brochure

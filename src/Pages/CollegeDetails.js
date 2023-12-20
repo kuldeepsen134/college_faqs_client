@@ -29,7 +29,7 @@ const CollegeDetails = () => {
   const [question, setQuestion] = useState("");
   const [gallerypathArray, setgallerypathArray] = useState([]);
   const { auth } = useAuth();
-  
+
   useEffect(() => {
     const fetchCollege = async () => {
       try {
@@ -48,15 +48,11 @@ const CollegeDetails = () => {
       }
     };
     fetchCollege();
-  }, []);
+  }, [auth.token, college]);
 
   const sendQuestion = async () => {
     try {
-      const response = await axios.post(
-        "/send-mail",
-        {
-          question,
-        },
+      await axios.post("/send-mail", { question, },
         { headers: { authorization: "Bearer " + auth.token } }
       );
       setQuestion("");
