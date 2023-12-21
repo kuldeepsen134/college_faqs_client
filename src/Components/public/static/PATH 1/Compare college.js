@@ -1,56 +1,42 @@
 
 import React, { useEffect, useState } from "react";
-import { instance } from "../../../../api/axios";
-import { useNavigate, useParams } from "react-router-dom";
-import { headerSearch } from "../../../../redux/commonSlice/commonSlice";
+import { useNavigate, } from "react-router-dom";
+
 import { useDispatch } from "react-redux";
+import { headerSearch } from "../../../../redux/commonSlice/commonSlice";
 import { STATIC_URL } from "../../../../config/config";
+import axios from "../../../../api/axios";
 
 const CompareCOllege = () => {
-    const { id } = useParams()
+    const dispatch = useDispatch()
 
-    const [collageIDs, setCollageIDs] = useState()
     const [show, setShow] = useState(false)
-
-    const [collageIDs2, setCollageIDs2] = useState()
-    const [collageIDs3, setCollageIDs3] = useState()
-
+    const [show1, setShow1] = useState(false)
+    const [show2, setShow2] = useState(false)
+    const [show3, setShow3] = useState(false)
 
     const [cardIndex, setCardIndex] = useState(0)
 
+    const [getCollage1, setCollage1] = useState()
+    const [getCollage2, setCollage2] = useState()
+    const [getCollage3, setCollage3] = useState({})
 
-    const [getCollage, setCollage] = useState({})
 
     const [query, setQuery] = useState("");
-
     const [query2, setQuery2] = useState("");
-
     const [query3, setQuery3] = useState("");
 
-
-    const dispatch = useDispatch()
 
     let token = localStorage.getItem('token')
     const navigate = useNavigate()
 
     const [searchResults, setSearchResults] = useState();
-
-    const [selectedId, setSelectedId] = useState(null)
-
-    useEffect(() => {
-        (async () => {
-            try {
-                let responce = await instance.post(`/colleges/compare/${id}`, { ids: [collageIDs, collageIDs2, collageIDs3] })
-
-                setCollage(responce && responce?.data?.data)
-
-            } catch (error) {
-                console.error('error>>>>>>', error);
-            }
-        })()
-    }, [collageIDs, collageIDs2, collageIDs3])
+    const [searchResults2, setSearchResults2] = useState();
+    const [searchResults3, setSearchResults3] = useState();
 
 
+
+    // For first compare box>>>>
     useEffect(() => {
         let timeoutId;
 
@@ -76,19 +62,16 @@ const CompareCOllege = () => {
                 clearTimeout(timeoutId);
             }
         };
-    }, [dispatch, query, query2]);
+    }, [dispatch, query]);
 
 
-
+    // For second compare box>>>>
     useEffect(() => {
         let timeoutId;
-
         const fetchData = async () => {
             try {
-
                 const response = await dispatch(headerSearch({ q: query2 }));
-
-                setSearchResults(response?.payload?.data?.data);
+                setSearchResults2(response?.payload?.data?.data);
             } catch (error) {
                 console.error('Error fetching data:', error);
             }
@@ -108,17 +91,13 @@ const CompareCOllege = () => {
     }, [dispatch, query2]);
 
 
-
-
+    // For third compare box>>>>
     useEffect(() => {
         let timeoutId;
-
         const fetchData = async () => {
             try {
-
                 const response = await dispatch(headerSearch({ q: query3 }));
-
-                setSearchResults(response?.payload?.data?.data);
+                setSearchResults3(response?.payload?.data?.data);
             } catch (error) {
                 console.error('Error fetching data:', error);
             }
@@ -135,32 +114,51 @@ const CompareCOllege = () => {
                 clearTimeout(timeoutId);
             }
         };
-
     }, [dispatch, query3]);
 
 
-
-
-
-
     const handleResultClick = (id) => {
-        setCollageIDs(id);
-        setShow(!show)
+        (async () => {
+            try {
+                const responce = await axios.post("/colleges/fetch", { college: id, }, { headers: { authorization: token } })
+                setCollage1(responce && responce?.data?.details)
+
+                setShow(!show)
+
+                setShow1(!show1)
+            } catch (error) {
+                console.error('error>>>>>>', error);
+            }
+        })()
     };
 
-
     const handleResultClick2 = (id) => {
-        setCollageIDs2(id);
-        setShow(!show)
+        (async () => {
+            try {
+                const responce = await axios.post("/colleges/fetch", { college: id, }, { headers: { authorization: token } })
+                setCollage2(responce && responce?.data?.details)
+
+                setShow(!show)
+                setShow2(!show2)
+            } catch (error) {
+                console.error('error>>>>>>', error);
+            }
+        })()
     };
 
     const handleResultClick3 = (id) => {
-        setCollageIDs3(id);
-        setShow(!show)
-    };
+        (async () => {
+            try {
+                const responce = await axios.post("/colleges/fetch", { college: id, }, { headers: { authorization: token } })
+                setCollage3(responce && responce?.data?.details)
 
-    console.log('cardIndex<<<<<', cardIndex);
-    console.log('cardIndex<<<<<', collageIDs2);
+                setShow(!show)
+                setShow3(!show3)
+            } catch (error) {
+                console.error('error>>>>>>', error);
+            }
+        })()
+    };
 
 
     return (
@@ -170,13 +168,8 @@ const CompareCOllege = () => {
                     {!show &&
                         <div className="row">
                             <div className="card-group">
-                                {/* Base collage part start */}
-                                {/* Base collage part End  */}
-
-                                {/* ********************************************************************************************************************************************************************** */}
-                                {/* compaire college Card 1  start*/}
-                                {collageIDs === undefined && < div className="card">
-                                    <div className="add-collage py-4 pb-5 text-center mt-0">
+                                {!show1 && < div className="card mx-1">
+                                    <div className="add-collage mt-6 text-center">
                                         <div className=" custom-border">
                                             <button type="button"
                                                 onClick={() => { !token ? navigate('/login') : setShow(!show); setCardIndex(1) }}
@@ -192,104 +185,188 @@ const CompareCOllege = () => {
                                     </div>
                                 </div>}
 
-                                {/* compaire college Card 1 details start*/}
-                                {getCollage?.comapareCollage?.length > 0 && collageIDs !== undefined &&
-                                    getCollage?.comapareCollage?.map((item, i) => {
-                                        return (
-                                            <div className="card" key={i}>
-                                                <img src={STATIC_URL + "/images/" + item.college_image} alt="image" />
-                                                <div className="card-body">
-                                                    <h5 style={{ color: '#1048c3' }} className="institute-name px-3">{item?.college_name}</h5>
-                                                    <p className="location px-3">
-                                                        {item?.location}</p>
-                                                    <p className="course-name px-3">{item?.program}</p>
-                                                    <hr />
-                                                    <h6 className="text-center">Institute Information</h6>
-                                                    <hr />
-                                                    <div className="px-3">
-                                                        <p style={{ display: 'flex', justifyContent: 'space-between' }}>Established Year <span>{item?.established_year}</span></p>
-                                                        <p style={{ display: 'flex', justifyContent: 'space-between' }}>Ranking<span>{item?.ranking}</span> </p>
-                                                        <p style={{ display: 'flex', justifyContent: 'space-between' }}>Ownership<span>Public/Government, Autonomous</span> </p>
-                                                    </div>
-                                                    <hr />
-                                                    <h6 className="text-center">Course Details</h6>
-                                                    <hr />
-                                                    <div style={{ display: 'flex', justifyContent: 'space-between' }} className="px-3">
-                                                        <p style={{ color: '#000' }}><strong>Total Courses <span> (11)</span></strong></p>
-                                                    </div>
+                                {show1 && <div className="card m-2">
+                                    <img src={STATIC_URL + "/images/" + getCollage1?.college_image} alt="image" />
+                                    <div className="card-body">
+                                        <div className="px-3">
 
-                                                    <div className="px-3">
-                                                        <p>B.Tech</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        )
-                                    })
-                                }
+                                            <h5 style={{ color: '#1048c3' }} className="institute-name ">Name : {getCollage1?.college_name}</h5>
+                                            <p className="location ">Location:{getCollage1?.location}</p>
+                                            <p style={{ display: 'flex', justifyContent: 'space-between' }}>College Type :<span>{getCollage1?.college_type}</span> </p>
+                                            <hr />
+                                            <h6 className="text-center">Institute Information</h6>
+                                            <hr />
 
-                                {/* compaire college Card 1 details End*/}
-                                {/* compaire college Card 1  end*/}
+                                        </div>
+                                        <div className="px-3">
+                                            <p style={{ display: 'flex', justifyContent: 'space-between' }}>Established : <span>{getCollage1?.established_year}</span></p>
+                                            <p style={{ display: 'flex', justifyContent: 'space-between' }}>Total Fee :<span>{getCollage1?.total_fees}</span> </p>
+                                            <p style={{ display: 'flex', justifyContent: 'space-between' }}>Ranking : <span>{getCollage1?.ranking}</span> </p>
+                                            <hr />
+                                            <h6 className="text-center">Placements Heighlits</h6>
+                                            <p style={{ display: 'flex', flexDirection: 'column' }}>
+                                                {getCollage1?.placement_heighlits?.map((item) => <li key={item.id} style={{ listStyle: "inside" }}>{item.placement_heighlit}</li>)}
+                                            </p>
+                                        </div>
+                                        <hr />
+                                        <h6 className="text-center">Programs</h6>
+                                        <hr />
+                                        <div style={{ display: 'flex', justifyContent: 'space-between' }} className="px-3">
 
-                                {/* ********************************************************************************************************************************************************************** */}
-                                {/* compaire college Card 2  start*/}
-                                {collageIDs2 === undefined &&
-                                    <div className="card">
-                                        <div className="add-collage py-4 pb-5 text-center mt-0">
-                                            <div className=" custom-border">
-                                                <button type="button"
-                                                    className="btn add-collage-button mt-4"
-                                                    onClick={() => { !token ? navigate('/login') : setShow(!show); setCardIndex(2) }}
-                                                >
-                                                    <span className="plus"> +</span>
-                                                    <span>
-                                                        Add College
-                                                    </span>
-                                                </button>
-                                            </div>
-                                            <span className="another-addition">Or</span>
-                                            <button className="btn similar-button"
-                                                type="button"
+                                            <p style={{ display: 'flex', flexDirection: 'column' }}>
+                                                {getCollage1?.programs?.map((item) => <li key={item.id} style={{ listStyle: "inside" }}>{item.program_name} </li>)}
+                                            </p>
+                                        </div>
+
+                                        <h6 className="text-center">Specilizations</h6>
+                                        <hr />
+                                        <div style={{ display: 'flex', justifyContent: 'space-between' }} className="px-3">
+                                            <p style={{ display: 'flex', flexDirection: 'column' }}>
+                                                <ul>
+                                                    {getCollage1?.de?.map((item) => item.value === 1 && <li key={item.name} style={{ listStyle: "inside" }}>{item.name}</li>)}
+                                                </ul>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>}
+
+                                {/* compaire college Card 22222222222222222222222222222222222222222  start*/}
+                                {!show2 && <div className="card mx-2">
+                                    <div className="add-collage mt-6 text-center">
+                                        <div className=" custom-border">
+                                            <button type="button"
+                                                className="btn add-collage-button mt-4"
                                                 onClick={() => { !token ? navigate('/login') : setShow(!show); setCardIndex(2) }}
-                                            >Add Similar College</button>
+                                            >
+                                                <span className="plus"> +</span>
+                                                <span>
+                                                    Add College
+                                                </span>
+                                            </button>
+                                        </div>
+                                        <span className="another-addition">Or</span>
+                                        <button className="btn similar-button"
+                                            type="button"
+                                            onClick={() => { !token ? navigate('/login') : setShow(!show); setCardIndex(2) }}
+                                        >Add Similar College</button>
+                                    </div>
+                                </div>}
+
+                                {show2 && <div className="card m-2">
+                                    <img src={STATIC_URL + "/images/" + getCollage2?.college_image} alt="image" />
+                                    <div className="card-body">
+                                        <div className="px-3">
+
+                                            <h5 style={{ color: '#1048c3' }} className="institute-name ">Name : {getCollage2?.college_name}</h5>
+                                            <p className="location ">Location:{getCollage2?.location}</p>
+                                            <p style={{ display: 'flex', justifyContent: 'space-between' }}>College Type :<span>{getCollage2?.college_type}</span> </p>
+                                            <hr />
+                                            <h6 className="text-center">Institute Information</h6>
+                                            <hr />
+
+                                        </div>
+                                        <div className="px-3">
+                                            <p style={{ display: 'flex', justifyContent: 'space-between' }}>Established : <span>{getCollage2?.established_year}</span></p>
+                                            <p style={{ display: 'flex', justifyContent: 'space-between' }}>Total Fee :<span>{getCollage2?.total_fees}</span> </p>
+                                            <p style={{ display: 'flex', justifyContent: 'space-between' }}>Ranking : <span>{getCollage2?.ranking}</span> </p>
+                                            <hr />
+                                            <h6 className="text-center">Placements Heighlits</h6>
+                                            <p style={{ display: 'flex', flexDirection: 'column' }}>
+                                                {getCollage2?.placement_heighlits?.map((item) => <li key={item.id} style={{ listStyle: "inside" }}>{item.placement_heighlit}</li>)}
+                                            </p>
+                                        </div>
+                                        <hr />
+                                        <h6 className="text-center">Programs</h6>
+                                        <hr />
+                                        <div style={{ display: 'flex', justifyContent: 'space-between' }} className="px-3">
+
+                                            <p style={{ display: 'flex', flexDirection: 'column' }}>
+                                                {getCollage2?.programs?.map((item) => <li key={item.id} style={{ listStyle: "inside" }}>{item.program_name} </li>)}
+                                            </p>
+                                        </div>
+
+                                        <h6 className="text-center">Specilizations</h6>
+                                        <hr />
+                                        <div style={{ display: 'flex', justifyContent: 'space-between' }} className="px-3">
+                                            <p style={{ display: 'flex', flexDirection: 'column' }}>
+                                                <ul>
+                                                    {getCollage2?.de?.map((item) => item.value === 1 && <li key={item.name} style={{ listStyle: "inside" }}>{item.name}</li>)}
+                                                </ul>
+                                            </p>
                                         </div>
                                     </div>
-                                }
-                                {/* compaire college Card 2  end*/}
+                                </div>}
 
-
-
-
-                                {/* compaire college Card 3  start*/}
-                                {collageIDs3 === undefined &&
-                                    <div className="card">
-                                        <div className="add-collage py-4 pb-5 text-center mt-0">
-                                            <div className=" custom-border">
-                                                <button type="button"
-                                                    className="btn add-collage-button mt-4"
-                                                    onClick={() => { !token ? navigate('/login') : setShow(!show); setCardIndex(3) }}
-                                                >
-                                                    <span className="plus"> +</span>
-                                                    <span>
-                                                        Add College
-                                                    </span>
-                                                </button>
-                                            </div>
-                                            <span className="another-addition">Or</span>
-                                            <button className="btn similar-button"
-                                                type="button"
+                                {!show3 && <div className="card">
+                                    <div className="add-collage mt-6 text-center">
+                                        <div className=" custom-border">
+                                            <button type="button"
+                                                className="btn add-collage-button mt-4"
                                                 onClick={() => { !token ? navigate('/login') : setShow(!show); setCardIndex(3) }}
-                                            >Add Similar College</button>
+                                            >
+                                                <span className="plus"> +</span>
+                                                <span>
+                                                    Add College
+                                                </span>
+                                            </button>
+                                        </div>
+                                        <span className="another-addition">Or</span>
+                                        <button className="btn similar-button"
+                                            type="button"
+                                            onClick={() => { !token ? navigate('/login') : setShow(!show); setCardIndex(3) }}
+                                        >Add Similar College</button>
+                                    </div>
+                                </div>}
+
+                                {show3 && <div className="card m-2">
+                                    <img src={STATIC_URL + "/images/" + getCollage3?.college_image} alt="image" />
+                                    <div className="card-body">
+                                        <div className="px-3">
+
+                                            <h5 style={{ color: '#1048c3' }} className="institute-name ">Name : {getCollage3?.college_name}</h5>
+                                            <p className="location ">Location:{getCollage3?.location}</p>
+                                            <p style={{ display: 'flex', justifyContent: 'space-between' }}>College Type :<span>{getCollage3?.college_type}</span> </p>
+                                            <hr />
+                                            <h6 className="text-center">Institute Information</h6>
+                                            <hr />
+
+                                        </div>
+                                        <div className="px-3">
+                                            <p style={{ display: 'flex', justifyContent: 'space-between' }}>Established : <span>{getCollage3?.established_year}</span></p>
+                                            <p style={{ display: 'flex', justifyContent: 'space-between' }}>Total Fee :<span>{getCollage3?.total_fees}</span> </p>
+                                            <p style={{ display: 'flex', justifyContent: 'space-between' }}>Ranking : <span>{getCollage3?.ranking}</span> </p>
+                                            <hr />
+                                            <h6 className="text-center">Placements Heighlits</h6>
+                                            <p style={{ display: 'flex', flexDirection: 'column' }}>
+                                                {getCollage3?.placement_heighlits?.map((item) => <li key={item.id} style={{ listStyle: "inside" }}>{item.placement_heighlit}</li>)}
+                                            </p>
+                                        </div>
+                                        <hr />
+                                        <h6 className="text-center">Programs</h6>
+                                        <hr />
+                                        <div style={{ display: 'flex', justifyContent: 'space-between' }} className="px-3">
+
+                                            <p style={{ display: 'flex', flexDirection: 'column' }}>
+                                                {getCollage3?.programs?.map((item) => <li key={item.id} style={{ listStyle: "inside" }}>{item.program_name} </li>)}
+                                            </p>
+                                        </div>
+
+                                        <h6 className="text-center">Specilizations</h6>
+                                        <hr />
+                                        <div style={{ display: 'flex', justifyContent: 'space-between' }} className="px-3">
+                                            <p style={{ display: 'flex', flexDirection: 'column' }}>
+                                                <ul>
+                                                    {getCollage3?.de?.map((item) => item.value === 1 && <li key={item.name} style={{ listStyle: "inside" }}>{item.name}</li>)}
+                                                </ul>
+                                            </p>
                                         </div>
                                     </div>
-                                }
-
-
+                                </div>}
                             </div>
                         </div>
                     }
 
                     {/* compaire college Search box  1 start */}
-
                     {show && cardIndex === 1 &&
                         <>
                             <div className="row overlap-card">
@@ -329,23 +406,12 @@ const CompareCOllege = () => {
                                                     </div>
                                                 ))}
                                             </form>
-
-                                            <div className="selected">
-                                                <p className="mb-0">Selected ID: {selectedId}</p>
-                                            </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                        </>
-                    }
-                    {/* compaire college Search box  1 end */}
+                        </>}
 
-
-
-
-
-                    {/* compaire college Search box  2 start */}
                     {show && cardIndex === 2 &&
                         <>
                             <div className="row overlap-card">
@@ -379,27 +445,19 @@ const CompareCOllege = () => {
                                                         onChange={(e) => setQuery2(e.target.value)}
                                                     />
                                                 </div>
-                                                {searchResults?.map((result, index) => (
+                                                {searchResults2?.map((result, index) => (
                                                     <div className="collageName ml-4" key={index}>
                                                         <p className=" text-black " onClick={() => handleResultClick2(result.id)} style={{ fontWeight: 'bold' }}>{result.name}</p>
                                                     </div>
                                                 ))}
                                             </form>
-
-                                            <div className="selected">
-                                                <p className="mb-0">Selected ID: {selectedId}</p>
-                                            </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                        </>
-                    }
-                    {/* compaire college Search box  2 end */}
+                        </>}
 
 
-                    {/* ********************************************************************************************************************************************************************** */}
-                    {/* compaire college Search box  3 start */}
                     {show && cardIndex === 3 &&
                         <>
                             <div className="row overlap-card">
@@ -407,7 +465,6 @@ const CompareCOllege = () => {
                                     <div className="card">
                                         <div className="card-header">
                                             <p className="mb-0">College Selection card3</p>
-
                                             <button type="button" onClick={() => setShow(!show)}>
                                                 X
                                             </button>
@@ -433,22 +490,17 @@ const CompareCOllege = () => {
                                                         onChange={(e) => setQuery3(e.target.value)}
                                                     />
                                                 </div>
-                                                {searchResults?.map((result, index) => (
+                                                {searchResults3?.map((result, index) => (
                                                     <div className="collageName ml-4" key={index}>
                                                         <p className=" text-black " onClick={() => handleResultClick3(result.id)} style={{ fontWeight: 'bold' }}>{result.name}</p>
                                                     </div>
                                                 ))}
                                             </form>
-
-                                            <div className="selected">
-                                                <p className="mb-0">Selected ID: {selectedId}</p>
-                                            </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                        </>
-                    }
+                        </>}
                 </div>
             </section >
         </>
