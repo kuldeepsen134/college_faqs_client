@@ -88,7 +88,6 @@ const Login = () => {
     let response;
     try {
       response = await signInWithPopup(authentication, provider);
-      console.log('response<<<<<>>>>>>', response);
       setGoogleToken(response)
     } catch (err) {
       toast.error("Something Went Wrong, please try again!");
@@ -96,16 +95,13 @@ const Login = () => {
       return;
     }
     try {
-
-
-      console.log('response>>>>>>DDDDDDDDDDD', response);
-
       response = await axios.post("/login/google", { uid: response.user.uid });
       setAuth({ token: response.data.token });
       localStorage.setItem("token", response.data.token);
       navigate(from, { replace: true });
     } catch (err) {
       console.log(err);
+      toast.error(err.response?.data?.message);
     }
   };
 
@@ -326,8 +322,8 @@ const Login = () => {
                       </div>
                     </form>
                     <Link to="/forgot-password" className="text-purple-1">
-                        Forgot password
-                      </Link>
+                      Forgot password
+                    </Link>
                     <div className="lh-12 text-dark-1 fw-500 text-center mt-20">
                       Or sign in using
                     </div>

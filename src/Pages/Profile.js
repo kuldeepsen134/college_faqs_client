@@ -24,7 +24,7 @@ const Profile = () => {
         response = await axios.get("/user/profile", {
           headers: { authorization: "Bearer " + auth.token },
         });
-        // console.log(response.data);
+        console.log('vvvkkkkkkkk', response.data);
         if (!response?.data?.success) throw Error;
       } catch (err) {
         console.log(err);
@@ -46,15 +46,15 @@ const Profile = () => {
         mobile
       }, {
         headers: { authorization: "Bearer " + auth.token },
-      }) 
-        toast(response?.data?.message, {
-          position: 'top-right', // Toast position
-          autoClose: 3000,      // Time (in milliseconds) before auto-closing
-          hideProgressBar: false, // Hide or show the progress bar
-          closeOnClick: true,    // Close on click
-          pauseOnHover: true,    // Pause on hover
-          draggable: true,       // Make toast draggable
-        }); 
+      })
+      toast(response?.data?.message, {
+        position: 'top-right', // Toast position
+        autoClose: 3000,      // Time (in milliseconds) before auto-closing
+        hideProgressBar: false, // Hide or show the progress bar
+        closeOnClick: true,    // Close on click
+        pauseOnHover: true,    // Pause on hover
+        draggable: true,       // Make toast draggable
+      });
     } catch (err) {
       console.log(err)
     }
