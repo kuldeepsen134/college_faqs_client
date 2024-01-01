@@ -316,7 +316,7 @@ const CollegeList = ({ itemsPerPage = 6 }) => {
                 </div>
               </div>
 
-              <div className="row row-cols-1 row-cols-md-3 row-cols-lg-2  g-4">
+              <div className="row row-cols-1 row-cols-md-2 row-cols-lg-2  g-4">
                 {currentItems.length <= 0 ? 'No Data Found' : currentItems.map((item) => {
                   return <CollegeListItem item={item} key={item.id} />;
                 })}

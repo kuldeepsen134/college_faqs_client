@@ -167,13 +167,13 @@ const CompareCOllege = () => {
                 <div className="container">
                     {!show &&
                         <div className="row">
-                            <div className="card-group">
-                                {!show1 && < div className="card mx-1">
-                                    <div className="add-collage mt-6 text-center">
+                            <div className="card-group px-0">
+                                {!show1 && < div className="card">
+                                    <div className="add-collage my-6 text-center">
                                         <div className=" custom-border">
                                             <button type="button"
                                                 onClick={() => { !token ? navigate('/login') : setShow(!show); setCardIndex(1) }}
-                                                className="btn add-collage-button mt-4">
+                                                className="btn add-collage-button">
                                                 <span className="plus"> +</span>
                                                 <span>
                                                     Add College
@@ -231,11 +231,11 @@ const CompareCOllege = () => {
                                 </div>}
 
                                 {/* compaire college Card 22222222222222222222222222222222222222222  start*/}
-                                {!show2 && <div className="card mx-2">
-                                    <div className="add-collage mt-6 text-center">
+                                {!show2 && <div className="card">
+                                    <div className="add-collage my-6 text-center">
                                         <div className=" custom-border">
                                             <button type="button"
-                                                className="btn add-collage-button mt-4"
+                                                className="btn add-collage-button"
                                                 onClick={() => { !token ? navigate('/login') : setShow(!show); setCardIndex(2) }}
                                             >
                                                 <span className="plus"> +</span>
@@ -298,10 +298,10 @@ const CompareCOllege = () => {
                                 </div>}
 
                                 {!show3 && <div className="card">
-                                    <div className="add-collage mt-6 text-center">
+                                    <div className="add-collage my-6 text-center">
                                         <div className=" custom-border">
                                             <button type="button"
-                                                className="btn add-collage-button mt-4"
+                                                className="btn add-collage-button"
                                                 onClick={() => { !token ? navigate('/login') : setShow(!show); setCardIndex(3) }}
                                             >
                                                 <span className="plus"> +</span>

@@ -365,10 +365,7 @@ const CollegeDetails = () => {
               <div
                 id="profileNavWrapper"
                 className="sticky-top col-lg-3 px-0 pr-lg-5 align-self-start bg-white"
-                style={{ position: "sticky", top: "0", position: "relative" }}
-
-              // className=" profile-nav col-lg-3 px-0 pr-lg-5 align-self-start bg-white"
-              // style={{ position: "sticky", top: "0" }}
+                style={{ position: "sticky", top: "0", }}
               >
                 <nav
                   id="profileNav"

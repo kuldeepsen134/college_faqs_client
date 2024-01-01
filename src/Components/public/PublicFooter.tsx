@@ -9,7 +9,7 @@ const PublicFooter = () => {
         <div className="container">
           <div className="footer-header">
             <div className="row y-gap-20 justify-between items-center">
-              <div className="col-auto">
+              <div className="col m-0">
                 <div className="footer-header__logo">
                   <img
                     src="./img/general/logo.jpeg"
@@ -45,7 +45,7 @@ const PublicFooter = () => {
 
           <div className="footer-columns">
             <div className="row y-gap-30">
-              <div className="col-md-4">
+              <div className="col-6 col-sm-6 col-md-4 col-lg-4">
                 <div className="text-17 fw-500 text-white uppercase mb-25">
                   INFORMATION
                 </div>
@@ -58,7 +58,7 @@ const PublicFooter = () => {
               </div>
 
 
-              <div className="col-md-5">
+              <div className="col-6 col-sm-6 col-md-4 col-lg-5">
                 <div className="text-17 fw-500 text-white uppercase mb-25">
                   POLICIES
                 </div>
@@ -68,7 +68,7 @@ const PublicFooter = () => {
                 </div>
               </div>
 
-              <div className="col-md-3">
+              <div className="col-12 col-sm-12 col-md-4 col-lg-3">
                 <div className="footer-columns-form">
                   <form action="post">
                     <div className="form-group">

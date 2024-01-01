@@ -139,7 +139,7 @@ const CompairCollage = () => {
             <div className="row">
               <div className="card-group">
                 {/* Base collage part start */}
-                <div className="card m-2">
+                <div className="card">
                   <img src={STATIC_URL + "/images/" + getCollage.college_image} alt="image" width={'100px'} />
 
                   <div className="px-3">

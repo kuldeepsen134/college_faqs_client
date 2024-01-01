@@ -9308,7 +9308,6 @@ button.bg-yellow:hover {
 @supports ((position: -webkit-sticky) or (position: sticky)) {
   .sticky-top {
     position: -webkit-sticky !important;
-    position: relative !important;
     position: sticky;
     top: 0;
     left: 0;
@@ -19118,6 +19117,15 @@ html.user-modal-open body {
   max-width: 100%;
   width: calc(50px + 1rem);
   margin: 0 !important;
+  font-size: 12px;
+}
+
+.our-rmi:hover {
+  color: #000 !important;
+}
+
+.our-rmi .col:hover {
+  color: #000 !important;
 }
 
 .school-list-item__actions {
@@ -19694,4 +19702,55 @@ form.contact-form input[type="password"] {
 .MsoTableGrid tbody tr:nth-of-type(even),
 #display-data tbody tr:nth-of-type(even) {
   background-color: rgba(0, 0, 0, 0.05);
+}
+
+
+@media (max-width: 1192px) {
+  .login-profile img {
+    margin-left: 0 !important;
+  }
+}
+
+@media (max-width: 1063px) {
+  .login-profile {
+    margin-left: 160px !important;
+  }
+}
+
+
+
+@media (max-width: 1024px) {
+  .home-page {
+    padding-top: 70px !important;
+    padding-bottom: 180px !important;
+  }
+
+  section:nth-child(1) {
+    margin-top: 80px;
+  }
+
+  .navbar {
+    height: 70px !important;
+  }
+
+  .navbar .nav-header .nav-logo {
+    margin-top: -28px !important;
+  }
+}
+
+@media (max-width: 1150px) {
+  .add-collage {
+    padding: 0 30px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .add-collage .similar-button {
+    max-width: 100%;
+    font-size: 10px !important;
+  }
+
+  .add-collage {
+    padding: 0 20px;
+  }
 }
