@@ -70,33 +70,43 @@ const Home = () => {
                   CollegeFAQs{" "}-{" "}
                   <span className="text-white">Your College Repository</span>
                 </h4>
-
-                <input
-                  type="search"
-                  name="collageName"
-                  placeholder="Search Box"
-                  onChange={(e) => setSearchField(e.target.value)}
-                  style={{
-                    width: "84%",
-                    padding: "20px",
-                    borderRadius: "8px",
-                    backgroundColor: "white",
-                    textAlign: "center",
-                    margin: "10px 0"
-                  }}
-                />
-                {searchResults?.map((result: SearchResult, i) => (
-                  <>
-                    <div className="collageName  my-3 ml-4" key={i}>
-                      <div className="d-flex justify-content-center">
-                        <img src={`${STATIC_URL}/images/${result.image}`} alt="img" className="mx-2 serachimag" />
-                        <p className=" text-white mb-0" onClick={() => handleResultClick(result?.id)} style={{ fontWeight: 'bold' }}>{result.name}{'  '}{result.location}</p>
-                      </div>
-                    </div>
-                  </>
-                ))}
-
-
+                <div>
+                  <input
+                    type="search"
+                    name="collageName"
+                    placeholder="Search Box"
+                    onChange={(e) => setSearchField(e.target.value)}
+                    style={{
+                      width: "84%",
+                      padding: "20px",
+                      borderRadius: "8px",
+                      backgroundColor: "white",
+                      textAlign: "center",
+                      margin: "10px 0"
+                    }}
+                  />
+                  {searchResults &&
+                    <ul className="header-search-result" style={{
+                      width: "82%", marginTop: "0"
+                    }}>
+                      {searchResults?.map((result: SearchResult, i) => (
+                        <>
+                          <li className="d-flex align-items-center" key={i} style={{
+                            textAlign: "start"
+                          }}>
+                            <img src={`${STATIC_URL}/images/${result.image}`} alt="img" className="mx-2 serachimag" />
+                            {/* <p className="mb-0" onClick={() => handleResultClick(result?.id)}>{result.name}{'  '}{result.location}</p> */}
+                            <aside onClick={() => handleResultClick(result?.id)}>
+                              <h5 className="mb-0"> {result.name}</h5>
+                              <span>{result.location}</span>
+                            </aside>
+                          </li>
+                        </>
+                      )
+                      )}
+                    </ul>
+                  }
+                </div>
                 <p className="masthead__text">
                   Start your learning with best courses, degrees and certificates from world class universities and colleges.
                   <br />
@@ -160,6 +170,7 @@ const Home = () => {
           <div className="position-relative">
             <Swiper
               loop={true}
+              speed={2000}
               autoplay={{
                 delay: 3000,
                 disableOnInteraction: false,
@@ -220,7 +231,7 @@ const Home = () => {
             <div className="swiper-button-prev"></div>
             <div className="swiper-button-next"></div>
           </div>
-          
+
         </div>
       </section >
 

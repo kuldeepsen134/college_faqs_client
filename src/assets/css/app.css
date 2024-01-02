@@ -19754,3 +19754,28 @@ form.contact-form input[type="password"] {
     padding: 0 20px;
   }
 }
+
+@media (max-width: 800px) {
+  .media .profile-title {
+    left: 0 !important;
+  }
+}
+
+.header-search-result {
+  position: absolute;
+  background: #fff;
+  width: 100%;
+  margin: auto;
+  margin-top: 10px;
+  border-radius: 5px;
+  z-index: 999;
+  padding: 10px;
+  height: 250px;
+  overflow-y: auto;
+  right: 0;
+  left: 0;
+}
+
+.header-search-result li:not(:last-child) {
+  margin-bottom: 1rem;
+}
