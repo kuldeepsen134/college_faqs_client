@@ -6,6 +6,7 @@ import "./NavBar.css";
 import { instance } from "../../api/axios";
 import { useSelector, useDispatch } from "react-redux";
 import { headerSearch } from "../../redux/commonSlice/commonSlice";
+import { STATIC_URL } from "../../config/config";
 
 const PublicHeader = () => {
 
@@ -17,36 +18,52 @@ const PublicHeader = () => {
 
   const dispatch = useDispatch()
 
-  const { search, loading } = useSelector((state) => state.commonHeader)
+  // const { search, loading } = useSelector((state) => state.commonHeader)
 
 
-  useEffect(() => {
-    let timeoutId;
+  const [searchField, setSearchField] = useState('')
+  const [searchResults, setSearchResults] = useState([]);
 
-    const fetchData = async () => {
-      dispatch(headerSearch({ q: query }))
-    };
-
-    if (timeoutId) {
-      clearTimeout(timeoutId);
-    }
-
-    timeoutId = setTimeout(fetchData, 500);
-
-    return () => {
-      if (timeoutId) {
-        clearTimeout(timeoutId);
-      }
-    };
-  }, [dispatch, query]);
-
-
+  const [show, setShow] = useState(false)
 
   useEffect(() => {
-    if (query && search?.data?.length > 0) {
-      navigate('/college-list')
+    const fetchCollege = async () => {
+      let responce = await instance.post("/college-list", { q: searchField });
+      setSearchResults(responce && responce?.data?.data)
     }
-  }, [search])
+    fetchCollege();
+  }, [searchField])
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [])
+
+
+  const handleResultClick = (id) => {
+    navigate(`/college-details?college=${id}`)
+    // setShow(!show)
+    window.location.reload();
+
+  };
+
+
+
+
+  // useEffect(() => {
+  //   const fetchData = async () => {
+  //     dispatch(headerSearch({ q: query }))
+  //   };
+  //   fetchData()
+
+  // }, [dispatch, query]);
+
+
+
+  // useEffect(() => {
+  //   if (query && search?.data?.length > 0) {
+  //     navigate(`/college-list?q=${query}`)
+  //   }
+  // }, [search])
 
   return (
     <>
@@ -71,8 +88,12 @@ const PublicHeader = () => {
                 type="text"
                 id="search"
                 placeholder="Search Colleges, Courses, Exams, QnA, & Articles"
-                value={query}
-                onChange={(e) => setQuery(e.target.value)}
+                // value={query}
+                value={searchField}
+
+                // onChange={(e) => setQuery(e.target.value)}
+                onChange={(e) => setSearchField(e.target.value)}
+
                 style={{
                   width: "84%",
                   padding: "10px",
@@ -81,13 +102,7 @@ const PublicHeader = () => {
                 }}
               />
             </div>
-            <div
-              style={{
-                width: "100px",
-                marginLeft: "550px",
-                marginTop: "-40px",
-              }}
-            >
+            <div style={{ width: "100px", marginLeft: "550px", marginTop: "-40px", }}            >
               <Link to={`/college-list?q=${query.replace(" ", "+")}`}>
                 <button
                   type="button"
@@ -100,6 +115,16 @@ const PublicHeader = () => {
               </Link>
             </div>
           </div>
+
+          <ul>
+            {searchResults?.map((result, i) => (
+              <>
+                <img src={`${STATIC_URL}/images/${result.image}`} alt="img" className="mx-2 serachimag" />
+                <li className=" text-white mb-0" onClick={() => handleResultClick(result?.id)} style={{ fontWeight: 'bold' }}>{result.name}{'  '}{result.location}</li>
+              </>
+            ))}
+          </ul>
+
 
           <input type="checkbox" id="nav-check" />
           <div className="nav-btn">
@@ -209,7 +234,7 @@ const PublicHeader = () => {
                   </div>
                 ) : (
                   <>
-                   
+
                   </>
                 )}
               </div>

@@ -51,13 +51,13 @@ const CollegeList = ({ itemsPerPage = 6 }) => {
 
 
   useEffect(() => {
-    setCurrentItem(data.slice(itemOffset, endOffset))
+    setCurrentItem(data?.slice(itemOffset, endOffset))
   }, [data, endOffset, itemOffset])
 
 
   useEffect(() => {
     if (search?.data?.length > 0) {
-      setCurrentItem(search.data)
+      setCurrentItem(search?.data)
     } else {
       setCurrentItem([])
     }
@@ -84,7 +84,7 @@ const CollegeList = ({ itemsPerPage = 6 }) => {
             }, {
               headers: headers,
             });
-  
+
             setData(response.data.success ? response.data.data : []);
           }
           else {
@@ -123,7 +123,7 @@ const CollegeList = ({ itemsPerPage = 6 }) => {
         console.log(err);
       }
     };
-    
+
     fetchData();
     window.scrollTo(0, 0);
 
@@ -132,7 +132,7 @@ const CollegeList = ({ itemsPerPage = 6 }) => {
       controller.abort();
     };
   }, [m, city]);
-  
+
 
 
   useEffect(() => {
@@ -188,96 +188,6 @@ const CollegeList = ({ itemsPerPage = 6 }) => {
         </div>
       </section>
 
-      {/* <section className="page-header -type-1">
-        <div className="container">
-          <div className="page-header__content">
-            <div className="row">
-              <div className="col-auto">
-                <div className="media">
-                  <h1 className="page-header__title">
-                    {page?.split("+") || menu_page?.split("+")}
-                  </h1>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section> */}
-      {/* <section className="layout-pt-md layout-pb-lg row no-gutters d-flex flex-nowrap align-items-center">
-        <div
-          className="row justify-content-center "
-          style={{ marginLeft: "75px" }}
-        >
-          <div
-            className="col-lg-11 pt-4 p-md-5 bg-white  rounded shad"
-            style={{ maxWidth: "72%" }}
-          >
-            <div className="container">
-              <h5>Filters</h5>
-              <div className="container" style={{ display: "flex" }}>
-                <div style={{ paddingRight: "10%" }}>
-                  <UncontrolledAccordion defaultOpen={["1"]} stayOpen>
-                    <AccordionItem>
-                      <AccordionHeader targetId="1">Location</AccordionHeader>
-                      <AccordionBody accordionId="1">
-                        {locations.map((item, index) => {
-                          return (
-                            <FormGroup check key={index}>
-                              <Input
-                                type="checkbox"
-                                id={item}
-                                value={item}
-                                name="location"
-                                onChange={(e) => {
-                                  setLocationFilter(
-                                    locationFilter == item ? "" : e.target.value
-                                  );
-                                }}
-                                checked={locationFilter == item}
-                              />
-                              <Label check>{item}</Label>
-                            </FormGroup>
-                          );
-                        })}
-                      </AccordionBody>
-                    </AccordionItem>
-                  </UncontrolledAccordion>
-                </div>
-
-                <div>
-                  <UncontrolledAccordion defaultOpen={["1"]} stayOpen>
-                    <AccordionItem>
-                      <AccordionHeader targetId="1">Fees</AccordionHeader>
-                      <AccordionBody accordionId="1">
-                        {fees.map((item, index) => {
-                          return (
-                            <FormGroup check key={index}>
-                              <Input
-                                type="checkbox"
-                                id={item}
-                                value={item}
-                                name="location"
-                                onChange={(e) => {
-                                  setFeesFilter(
-                                    feesFilter == item ? "" : e.target.value
-                                  );
-                                }}
-                                checked={feesFilter == item}
-                              />
-                              <Label check>{item}</Label>
-                            </FormGroup>
-                          );
-                        })}
-                      </AccordionBody>
-                    </AccordionItem>
-                  </UncontrolledAccordion>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section> */}
-
       <section className="college-list-banner">
         <div className="container-fluid">
           <div className="row">
@@ -292,12 +202,8 @@ const CollegeList = ({ itemsPerPage = 6 }) => {
 
       <section className="layout-pb-lg" style={{ marginTop: '-100px' }}>
         <div className="container-fluid">
-          <div
-            className="row justify-content-center"
-          >
-            <div
-              className="col-11 col-md-11 col-lg-9 pt-4 p-md-5 bg-white  rounded shad main-card"
-            >
+          <div className="row justify-content-center"          >
+            <div className="col-11 col-md-11 col-lg-9 pt-4 p-md-5 bg-white  rounded shad main-card"            >
 
               <div className="accordion js-accordion">
                 <div className="accordion__item">
@@ -317,8 +223,11 @@ const CollegeList = ({ itemsPerPage = 6 }) => {
               </div>
 
               <div className="row row-cols-1 row-cols-md-2 row-cols-lg-2  g-4">
-                {currentItems.length <= 0 ? 'No Data Found' : currentItems.map((item) => {
-                  return <CollegeListItem item={item} key={item.id} />;
+                {console.log('currentItems>>>>', currentItems && currentItems)}
+                {currentItems && currentItems?.length <= 0 ? 'No Data Found' : currentItems && currentItems?.map((item) => {
+                  return (
+                    <CollegeListItem item={item && item} key={item.id} />
+                    );
                 })}
               </div>
 
