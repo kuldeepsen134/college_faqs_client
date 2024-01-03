@@ -83,7 +83,7 @@ const PublicHeader = () => {
             </div>
           </div>
           <div className="s-bar">
-            <div>
+            <div className="position-relative">
               <input
                 type="text"
                 id="search"
@@ -101,6 +101,22 @@ const PublicHeader = () => {
                   backgroundColor: "white",
                 }}
               />
+
+
+              {searchResults && 
+              <ul className="header-search-result">
+                {searchResults?.map((result, i) => (
+                  <>
+                    <li className="d-flex align-items-center text-start" onClick={() => handleResultClick(result?.id)}>
+                      <img src={`${STATIC_URL} /images/${result.image}`} alt="img" className="mx-2 serachimag" />
+                      <aside>
+                        <h5 className="mb-0"> {result.name}</h5>
+                        <span>{result.location}</span>
+                      </aside>
+                    </li>
+                  </>
+                ))}
+              </ul>}
             </div>
             <div style={{ width: "100px", marginLeft: "550px", marginTop: "-40px", }}            >
               <Link to={`/college-list?q=${query.replace(" ", "+")}`}>
@@ -116,14 +132,6 @@ const PublicHeader = () => {
             </div>
           </div>
 
-          <ul>
-            {searchResults?.map((result, i) => (
-              <>
-                <img src={`${STATIC_URL}/images/${result.image}`} alt="img" className="mx-2 serachimag" />
-                <li className=" text-white mb-0" onClick={() => handleResultClick(result?.id)} style={{ fontWeight: 'bold' }}>{result.name}{'  '}{result.location}</li>
-              </>
-            ))}
-          </ul>
 
 
           <input type="checkbox" id="nav-check" />
