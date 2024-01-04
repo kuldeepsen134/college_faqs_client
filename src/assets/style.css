@@ -2574,7 +2574,7 @@ input[type="submit"].btn-block {
   .profile #profileNavWrapper {
     display: block !important;
     opacity: 1 !important;
-    top: 150px;
+    top: 180px;
     z-index: 0;
   }
 }
