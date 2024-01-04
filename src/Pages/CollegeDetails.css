@@ -1,47 +1,56 @@
-.col:hover{
+.col:hover {
   color: #ffffff;
 }
-.col{
+
+.col {
   margin-left: -10px;
 }
-.col1:hover{
-background-color: #140342;
-color: #ffffff;
-border-radius: 25px ;
+
+.col1:hover {
+  background-color: #140342;
+  color: #ffffff;
+  border-radius: 25px;
 }
 
-.on-h:hover{
-background-color: #140342;
-border-radius: 25px;
-color: #ffffff;
+.on-h:hover {
+  background-color: #140342;
+  border-radius: 25px;
+  color: #ffffff;
 
 }
 
-table, th, td {
+table,
+th,
+td {
   border: 1px solid black;
   border-collapse: collapse;
-  
+
 }
 
-.tb, th,td{
+.tb,
+th,
+td {
   border: none;
 }
 
-.td1{
+.td1 {
   background-color: #dddddd;
 }
 
-.back{
+.back {
   text-align: center;
   background-color: #dddddd;
 }
-.para{
+
+.para {
   margin-top: -20px;
 }
-.shift{
+
+.shift {
   display: flex;
 }
-.none{
+
+.none {
   border: none;
 }
 
@@ -55,7 +64,7 @@ table, th, td {
   float: left;
   width: 33.33%;
   padding: 5px;
-cursor: pointer;
+  cursor: pointer;
 }
 
 /* Clearfix (clear floats) */
@@ -64,17 +73,18 @@ cursor: pointer;
   clear: both;
   display: table;
 }
-.column:hover{
+
+.column:hover {
   opacity: .7;
 }
 
-.card-body{
+.card-body {
   position: relative;
   /* background-color: #ffffff; */
   margin-top: -170px;
- z-index: 1;
- margin-right: 130px;
- }
+  z-index: 1;
+  margin-right: 130px;
+}
 
 
 .card {
@@ -84,33 +94,35 @@ cursor: pointer;
   margin: auto;
   text-align: center;
   font-family: arial;
-position: absolute;
-top: -180px;
-right: 10px;  
-z-index: 1;
+  position: absolute;
+  top: -180px;
+  right: 10px;
+  z-index: 1;
 }
 
 
 
 
-.price1:hover{
+.price1:hover {
   background-color: #4f398d;
   border-radius: 30px;
- 
+
 }
-.price{
+
+.price {
   color: #ffffff;
 }
+
 .price1 {
   background-color: #53B97E;
-  border-radius:8px;
+  border-radius: 8px;
   margin-left: 60px;
   margin-right: 60px;
-   padding: 2px;
-   margin-top: 5px;
+  padding: 2px;
+  margin-top: 5px;
   color: white;
   font-size: 16px;
-display: block;
+  display: block;
 }
 
 .price2 {
@@ -118,17 +130,18 @@ display: block;
   border-radius: 8px;
   margin-left: 60px;
   margin-right: 60px;
-   padding: 2px;
+  padding: 2px;
   margin-top: -5px;
   color: white;
   font-size: 16px;
-display: block;
+  display: block;
 
 }
-.price2:hover{
+
+.price2:hover {
   background-color: #4f398d;
   border-radius: 30px;
- 
+
 }
 
 .price3 {
@@ -136,18 +149,18 @@ display: block;
   border-radius: 8px;
   margin-left: 60px;
   margin-right: 60px;
-   padding: 2px;
+  padding: 2px;
   margin-top: -5px;
   color: white;
   font-size: 16px;
-display: block;
+  display: block;
 
 }
 
-.price3:hover{
+.price3:hover {
   background-color: #4f398d;
   border-radius: 30px;
- 
+
 }
 
 
@@ -167,13 +180,13 @@ display: block;
 /* Media queries */
 
 @media screen and (min-width:200px) and (max-width:600px) {
-  .media{
-  margin-left: 130px;  
+  .media {
+    margin-left: 130px;
   }
 }
 
 @media screen and (min-width:200px) and (max-width:400px) {
-  .media .inner{
+  .media .inner {
     position: relative;
     flex: 50%;
     max-width: 60%;
@@ -181,84 +194,75 @@ display: block;
 }
 
 @media screen and (min-width:600px) and (max-width:1000px) {
-  .media{
-  margin-left: 60px;  
+  .media {
+    margin-left: 60px;
   }
 }
+
 @media screen and (min-width:1000px) and (max-width:1300px) {
-  .media{
-  margin-left: 70px;  
+  .media {
+    margin-left: 70px;
   }
 }
 
 @media screen and (min-width:600px) and (max-width:1000px) {
-  .media-2{
+  .media-2 {
     display: flexbox;
   }
 }
 
 @media screen and (min-width:710px) and (max-width:1000px) {
-  .media-3{
+  .media-3 {
     max-width: 300px;
   }
 }
 
 @media screen and (min-width:200px) and (max-width:460px) {
-  .media-3{
+  .media-3 {
     position: relative;
-    top:30px;
+    top: 30px;
     width: 100%;
     margin-left: 90px;
   }
-  .card-body{
-   margin-left: 90px;
+
+  .card-body {
+    margin-left: 90px;
   }
-  .price{
+
+  .price {
     position: relative;
-    
-    
+
+
   }
 }
 
 @media screen and (min-width:470px) and (max-width:700px) {
-  .media-3{
+  .media-3 {
     position: absolute;
-    right:15px;
+    right: 15px;
     top: -400px;
     max-width: 250px;
   }
 }
+
 @media screen and (min-width:700px) and (max-width:950px) {
-  .media-3{
+  .media-3 {
     position: absolute;
-    right:5px;
+    right: 5px;
     top: -250px;
     max-width: 250px;
   }
 }
 
-@media screen and (min-width:570px) and (max-width:750px) {
-  .media-4 {
-    
-  position: relative;
-  left: 60px;  
-  }
-}
-@media screen and (min-width:200px) and (max-width:570px) {
-  .media-4 {
-  position: relative;
-  
-  }
-  
-}
 @media screen and (min-width:200px) and (max-width:1000px) {
   .school-actionsb {
-  display: none;
-  }
-  .hide{
     display: none;
   }
-  
+
+  .hide {
+    display: none;
+  }
+
 }
 
 .row:after {
@@ -268,31 +272,39 @@ display: block;
 }
 
 @media screen and (max-width:550px) {
-  .media-5{
+  .media-5 {
     flex: 50%;
     max-width: 100%;
     /* overflow: visible; */
   }
-    
+
 }
 
 @media screen and (min-width:200px) and (max-width:400px) {
-.media-5 .inner{
-overflow-x:auto;
-border-collapse: collapse; 
+  .media-5 .inner {
+    overflow-x: auto;
+    border-collapse: collapse;
   }
 }
 
 @media screen and (min-width:200px) and (max-width:400px) {
-  .media-5 .content{
+  .media-5 .content {
     display: flex;
     overflow: scroll;
     margin-right: 0px;
 
   }
-    }
+}
 
-.change{
+.change {
   background-color: #ffffff;
   box-shadow: inset 0 0 0 0;
+}
+
+@media screen and (min-width: 200px) and (max-width: 469px){
+  .custom-card{
+    position: absolute;
+    margin-left: 0;
+    max-width: 215px;
+  }
 }
