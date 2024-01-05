@@ -65,7 +65,7 @@ const CollegeDetails = () => {
   return (
     <div>
       {/* Main content */}
-      <main id="content" role="main">
+     
         {/* <BannersList /> */}
         <article className="profile school college">
           <header className="position-relative">
@@ -365,12 +365,11 @@ const CollegeDetails = () => {
               <div
                 id="profileNavWrapper"
                 className="sticky-top col-lg-3 px-0 pr-lg-5 align-self-start bg-white"
-                style={{ position: "sticky", top: "0", }}
+                style={{ position: "sticky" }}
               >
                 <nav
                   id="profileNav"
                   className="nav flex-nowrap flex-lg-wrap flex-lg-column"
-                  style={{ position: "sticky", top: "0" }}
                 >
                   <div className="col">
                     <a
@@ -1209,7 +1208,7 @@ const CollegeDetails = () => {
             </div>
           </div>
         </article >
-      </main >
+        
       <StatusToast />
     </div >
   );

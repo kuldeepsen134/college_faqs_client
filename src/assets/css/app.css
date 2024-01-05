@@ -19779,3 +19779,7 @@ form.contact-form input[type="password"] {
 .header-search-result li:not(:last-child) {
   margin-bottom: 1rem;
 }
+
+main {
+  overflow: inherit !important;
+}
