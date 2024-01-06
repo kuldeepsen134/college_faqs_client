@@ -108,7 +108,7 @@ const PublicHeader = () => {
                 {searchResults?.map((result, i) => (
                   <>
                     <li className="d-flex align-items-center text-start" onClick={() => handleResultClick(result?.id)}>
-                      <img src={`${STATIC_URL} /images/${result.image}`} alt="img" className="mx-2 serachimag" />
+                      <img src={`${STATIC_URL}/images/${result.image}`} alt="img" className="mx-2 serachimag" />
                       <aside>
                         <h5 className="mb-0"> {result.name}</h5>
                         <span>{result.location}</span>
