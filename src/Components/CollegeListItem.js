@@ -84,10 +84,10 @@ const CollegeListItem = ({ item }) => {
         <div className="media-name2 school-list-item__stats stats row no-gutters d-flex align-items-start position-relative mt-1 mt-md-1">
           <div className="col">
             <strong className="d-block" style={{ color: "rgb(52, 53, 64)" }}>
-              Total Fees:
+              Total Fees: {item?.total_fees ? "Rs." + item.total_fees : ""}
             </strong>{" "}
             <div className="line-height-adj">
-              {item?.total_fees ? "Rs." + item.total_fees : ""}
+              {/* {item?.total_fees ? "Rs." + item.total_fees : ""} */}
               {/* <del className="d-inline text-muted">$15,000</del>{" "}
             <span className="ml-1" style={{ color: "rgb(72, 155, 203)" }}>
               <span className="mr-1">$7,006</span>{" "}

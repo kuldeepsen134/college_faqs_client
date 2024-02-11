@@ -9,7 +9,6 @@
   height: 150px;
   width: 100%;
   padding: 20px 30px;
-  background-color: #140342;
   position: relative;
 
 }
@@ -52,6 +51,7 @@
   margin-left: -20px;
   position: absolute;
   margin-top: -60px;
+  /* width: 150px; */
 }
 
 .navbar .nav-links {
@@ -210,7 +210,7 @@
 .drop-content2 {
   display: none;
   position: absolute;
-  background-color: #140342;
+  background-color: #89cff0;
   min-width: 320px;
   font-size: 14px;
   top: 30px;
@@ -249,7 +249,7 @@
 .drop-content3 {
   display: none;
   position: absolute;
-  background-color: #140342;
+  background-color: #89cff0;
   min-width: 200px;
   font-size: 14px;
   top: 34px;
@@ -274,7 +274,7 @@
 .drop-content4 {
   display: none;
   position: absolute;
-  background-color: #140342;
+  background-color: #89cff0;
   min-width: 180px;
   font-size: 14px;
   top: 34px;
@@ -299,7 +299,7 @@
 .drop-content5 {
   display: none;
   position: absolute;
-  background-color: #140342;
+  background-color: #89cff0;
   min-width: 180px;
   font-size: 14px;
   top: 34px;
@@ -324,7 +324,7 @@
 .drop-content6 {
   display: none;
   position: absolute;
-  background-color: #140342;
+  background-color: #89cff0;
   min-width: 180px;
   font-size: 14px;
   top: 34px;
@@ -349,7 +349,7 @@
 .drop-content7 {
   display: none;
   position: absolute;
-  background-color: #140342;
+  background-color: #89cff0;
   min-width: 180px;
   font-size: 14px;
   top: 34px;
@@ -374,7 +374,7 @@
 .drop-content8 {
   display: none;
   position: absolute;
-  background-color: #140342;
+  background-color: #89cff0;
   min-width: 180px;
   font-size: 14px;
   top: 34px;

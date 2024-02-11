@@ -498,32 +498,28 @@ const PartTimeMbaa = () => {
           the part time MBA is a good proposition for you:
         </p>
         <p
-          className="MsoListParagraphCxSpFirst"
+          className="MsoListParagraphCxSpFirst mb-0"
           style={{
-            textJustify: "inter-ideograph",
+            color: "#000"
           }}
         >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
-            </span>
+          1.
+          <span style={{ font: '7pt "Times New Roman"' }}>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
           </span>
           Class Timing is Flixible : Classes are held on weekends &amp; outside
           working hours on weekdays, thus part time MBA program is more flexible
           as compared to full time MBA.
         </p>
         <p
-          className="MsoListParagraphCxSpMiddle"
+          className="MsoListParagraphCxSpMiddle mb-0"
           style={{
-            textJustify: "inter-ideograph",
+            color: "#000"
           }}
         >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
-            </span>
+          2.
+          <span style={{ font: '7pt "Times New Roman"' }}>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
           </span>
           Low Fee and Earning Opportunity: Fee for Part time MBA is low as
           compared to full time MBA &amp; since you are mostly pursuing Part
@@ -531,32 +527,28 @@ const PartTimeMbaa = () => {
           pursuing part time MBA.
         </p>
         <p
-          className="MsoListParagraphCxSpMiddle"
+          className="MsoListParagraphCxSpMiddle mb-0"
           style={{
-            textJustify: "inter-ideograph",
+            color: "#000"
           }}
         >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
-            </span>
+          3.
+          <span style={{ font: '7pt "Times New Roman"' }}>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
           </span>
           Exposure: Since you are pursuing MBA along with the Job, you get to
           gain work experience, practical exposure and also polish your
           managerial skills.
         </p>
         <p
-          className="MsoListParagraphCxSpMiddle"
+          className="MsoListParagraphCxSpMiddle mb-0"
           style={{
-            textJustify: "inter-ideograph",
+            color: "#000"
           }}
         >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
-            </span>
+          4.
+          <span style={{ font: '7pt "Times New Roman"' }}>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
           </span>
           Career Growth: Part-time MBA program, lets you evaluate whether the
           career growth you are expecting is in accordance with the demand of
@@ -564,16 +556,14 @@ const PartTimeMbaa = () => {
           this while you continue your job.
         </p>
         <p
-          className="MsoListParagraphCxSpLast"
+          className="MsoListParagraphCxSpLast mb-0"
           style={{
-            textJustify: "inter-ideograph",
+            color: "#000"
           }}
         >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
-            </span>
+          5.
+          <span style={{ font: '7pt "Times New Roman"' }}>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
           </span>
           Learning: Faculty for Part Time MBA and Full Times MBA are same in an
           institute, hence learning experience is similar with full time MBA.
@@ -582,8 +572,15 @@ const PartTimeMbaa = () => {
           className="MsoNormal"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
+          &nbsp;
+        </p>
+        <p
+          className="MsoNormal"
+          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
+        >
           <b style={{ fontSize: '11pt' }}>  <u>Disadvantages&nbsp; - Part Time MBA</u></b>
         </p>
+        
         <p
           className="MsoNormal"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
@@ -595,16 +592,14 @@ const PartTimeMbaa = () => {
           corporates may not give any weightage to the part time MBA.
         </p>
         <p
-          className="MsoListParagraphCxSpFirst"
+          className="MsoListParagraphCxSpFirst mb-0"
           style={{
-            textJustify: "inter-ideograph",
+            color: "#000"
           }}
         >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
-            </span>
+          1.
+          <span style={{ font: '7pt "Times New Roman"' }}>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
           </span>
           Longer Duration: Part time MBA is spread over duration of 2 - 3 years;
           the duration of the program is longer as compared to 2 year full time
@@ -612,47 +607,41 @@ const PartTimeMbaa = () => {
           term.
         </p>
         <p
-          className="MsoListParagraphCxSpMiddle"
+          className="MsoListParagraphCxSpMiddle mb-0"
           style={{
-            textJustify: "inter-ideograph",
+            color: "#000"
           }}
         >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
-            </span>
+          2.
+          <span style={{ font: '7pt "Times New Roman"' }}>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
           </span>
           Exhaustive: Working while pursuing part time MBA can be exhaustive,
           monotonous, &amp; tedious to balance both the things at the same time.
         </p>
         <p
-          className="MsoListParagraphCxSpMiddle"
+          className="MsoListParagraphCxSpMiddle mb-0"
           style={{
-            textJustify: "inter-ideograph",
+            color: "#000"
           }}
         >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
-            </span>
+          3.
+          <span style={{ font: '7pt "Times New Roman"' }}>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
           </span>
           Lack of On-Campus Experience: Despite having the same curriculum
           students also lose out on the productive classroom sessions and
           interactive discussions with peers.
         </p>
         <p
-          className="MsoListParagraphCxSpLast"
+          className="MsoListParagraphCxSpLast mb-0"
           style={{
-            textJustify: "inter-ideograph",
+            color: "#000"
           }}
         >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
-            </span>
+          4.
+          <span style={{ font: '7pt "Times New Roman"' }}>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
           </span>
           Reputation within Corporates: Generally a full time MBA is more
           preferable as compared to part time MBA when recruiting candidates

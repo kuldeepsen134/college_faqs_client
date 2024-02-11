@@ -87,7 +87,7 @@ const PublicHeader = () => {
               <input
                 type="text"
                 id="search"
-                placeholder="Search Colleges, Courses, Exams, QnA, & Articles"
+                placeholder="Search Colleges, Courses, Exams, QnA & Articles"
                 // value={query}
                 value={searchField}
 
@@ -103,22 +103,22 @@ const PublicHeader = () => {
               />
 
 
-              {searchResults && 
-              <ul className="header-search-result">
-                {searchResults?.map((result, i) => (
-                  <>
-                    <li className="d-flex align-items-center text-start" onClick={() => handleResultClick(result?.id)}>
-                      <img src={`${STATIC_URL}/images/${result.image}`} alt="img" className="mx-2 serachimag" />
-                      <aside>
-                        <h5 className="mb-0"> {result.name}</h5>
-                        <span>{result.location}</span>
-                      </aside>
-                    </li>
-                  </>
-                ))}
-              </ul>}
+              {searchResults &&
+                <ul className="header-search-result">
+                  {searchResults?.map((result, i) => (
+                    <>
+                      <li className="d-flex align-items-center text-start" onClick={() => handleResultClick(result?.id)}>
+                        <img src={`${STATIC_URL}/images/${result.image}`} alt="img" className="mx-2 serachimag" />
+                        <aside>
+                          <h5 className="mb-0"> {result.name}</h5>
+                          <span>{result.location}</span>
+                        </aside>
+                      </li>
+                    </>
+                  ))}
+                </ul>}
             </div>
-            <div style={{ width: "100px", marginLeft: "550px", marginTop: "-40px", }}            >
+            <div style={{ width: "100px", marginLeft: "550px", marginTop: "-40px", }}>
               <Link to={`/college-list?q=${query.replace(" ", "+")}`}>
                 <button
                   type="button"
@@ -131,9 +131,7 @@ const PublicHeader = () => {
               </Link>
             </div>
           </div>
-
-
-
+          
           <input type="checkbox" id="nav-check" />
           <div className="nav-btn">
             <label htmlFor="nav-check">

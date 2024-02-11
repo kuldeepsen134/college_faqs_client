@@ -118,7 +118,7 @@ const PublicHeader = () => {
                     <input
                       type="text"
                       id="search"
-                      placeholder="Search Colleges, Courses, Exams, QnA, & Articles"
+                      placeholder="Search Colleges, Courses, Exams, QnA & Articles"
                       value={query}
                       onChange={(e) => setQuery(e.target.value)}
                       style={{
@@ -184,7 +184,6 @@ const PublicHeader = () => {
                         <div className="drop-content2">
                           <a href="#">MBA AdmissionProcess</a>
                           <a href="#">IIM Admission</a>
-                          <a href="#">IIM Admission Criteria</a>
                           <a href="#">New IIMS Process CAP</a>
                         </div>
                       </div>

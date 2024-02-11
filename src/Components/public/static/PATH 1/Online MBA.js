@@ -522,7 +522,9 @@ const OnlineMBA = () => {
               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
             </span>
           </span>
-          Finance Management
+          <a href="#">
+            Finance Management
+          </a>
         </p>
         <p
           className="MsoListParagraphCxSpMiddle"
@@ -537,7 +539,9 @@ const OnlineMBA = () => {
               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
             </span>
           </span>
-          Marketing Management
+          <a href="#">
+            Marketing Management
+          </a>
         </p>
         <p
           className="MsoListParagraphCxSpMiddle"
@@ -552,7 +556,9 @@ const OnlineMBA = () => {
               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
             </span>
           </span>
-          Healthcare Management
+          <a href="#">
+            Healthcare Management
+          </a>
         </p>
         <p
           className="MsoListParagraphCxSpMiddle"
@@ -567,7 +573,9 @@ const OnlineMBA = () => {
               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
             </span>
           </span>
-          Hospitality Management
+          <a href="#">
+            Hospitality Management
+          </a>
         </p>
         <p
           className="MsoListParagraphCxSpMiddle"
@@ -582,7 +590,9 @@ const OnlineMBA = () => {
               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
             </span>
           </span>
-          Business Analytics
+          <a href="#">
+            Business Analytics
+          </a>
         </p>
         <p
           className="MsoListParagraphCxSpMiddle"
@@ -597,7 +607,9 @@ const OnlineMBA = () => {
               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
             </span>
           </span>
-          Human Resources
+          <a href="#">
+            Human Resources
+          </a>
         </p>
         <p
           className="MsoListParagraphCxSpMiddle"
@@ -612,7 +624,9 @@ const OnlineMBA = () => {
               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
             </span>
           </span>
-          Information Technology
+          <a href="#">
+            Information Technology
+          </a>
         </p>
         <p
           className="MsoListParagraphCxSpMiddle"
@@ -627,7 +641,9 @@ const OnlineMBA = () => {
               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
             </span>
           </span>
-          International Business
+          <a href="#">
+            International Business
+          </a>
         </p>
         <p
           className="MsoListParagraphCxSpMiddle"
@@ -642,7 +658,9 @@ const OnlineMBA = () => {
               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
             </span>
           </span>
-          Cybersecurity, Information Security Analysis
+          <a href="#">
+            Cybersecurity, Information Security Analysis
+          </a>
         </p>
         <p
           className="MsoListParagraphCxSpMiddle"
@@ -657,7 +675,9 @@ const OnlineMBA = () => {
               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
             </span>
           </span>
-          Entrepreneurship
+          <a href="#">
+            Entrepreneurship
+          </a>
         </p>
         <p
           className="MsoListParagraphCxSpMiddle"
@@ -672,7 +692,9 @@ const OnlineMBA = () => {
               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
             </span>
           </span>
-          Operations Management
+          <a href="#">
+            Operations Management
+          </a>
         </p>
         <p
           className="MsoListParagraphCxSpMiddle"
@@ -687,7 +709,9 @@ const OnlineMBA = () => {
               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
             </span>
           </span>
-          Public Administration
+          <a href="#">
+            Public Administration
+          </a>
         </p>
         <p
           className="MsoListParagraphCxSpMiddle"
@@ -702,7 +726,9 @@ const OnlineMBA = () => {
               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
             </span>
           </span>
-          Risk Management
+          <a href="#">
+            Risk Management
+          </a>
         </p>
         <p
           className="MsoListParagraphCxSpMiddle"
@@ -717,7 +743,9 @@ const OnlineMBA = () => {
               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
             </span>
           </span>
-          Advertising and PR Management
+          <a href="#">
+            Advertising and PR Management
+          </a>
         </p>
         <p
           className="MsoListParagraphCxSpLast"
@@ -732,7 +760,9 @@ const OnlineMBA = () => {
               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
             </span>
           </span>
-          Logistics and Supply Chain Management
+          <a href="#">
+            Logistics and Supply Chain Management
+          </a>
         </p>
         <p
           className="MsoNormal"
@@ -957,7 +987,7 @@ const OnlineMBA = () => {
                     lineHeight: "normal",
                   }}
                 >
-                 
+
                   PGDBA
                 </p>
                 <p
@@ -968,7 +998,7 @@ const OnlineMBA = () => {
                     lineHeight: "normal",
                   }}
                 >
-                 
+
                   PGDHRM
                 </p>
                 <p
@@ -979,7 +1009,7 @@ const OnlineMBA = () => {
                     lineHeight: "normal",
                   }}
                 >
-                 
+
                   PGD in Supply Chain Management
                 </p>
                 <p
@@ -990,7 +1020,7 @@ const OnlineMBA = () => {
                     lineHeight: "normal",
                   }}
                 >
-                 
+
                   PGD in Business &amp; Corporate Law
                 </p>
                 <p
@@ -1001,7 +1031,7 @@ const OnlineMBA = () => {
                     lineHeight: "normal",
                   }}
                 >
-                 
+
                   PGD in Information Technology
                 </p>
                 <p
@@ -1012,7 +1042,7 @@ const OnlineMBA = () => {
                     lineHeight: "normal",
                   }}
                 >
-                 
+
                   PGD in International Business
                 </p>
                 <p
@@ -1023,7 +1053,7 @@ const OnlineMBA = () => {
                     lineHeight: "normal",
                   }}
                 >
-                 
+
                   PGD in Export &amp; Import Management
                 </p>
                 <p
@@ -1034,7 +1064,7 @@ const OnlineMBA = () => {
                     lineHeight: "normal",
                   }}
                 >
-                 
+
                   PGD in Customer Relationship Management
                 </p>
                 <p
@@ -1045,7 +1075,7 @@ const OnlineMBA = () => {
                     lineHeight: "normal",
                   }}
                 >
-                 
+
                   PGD in Retail Management
                 </p>
               </td>
@@ -1117,7 +1147,7 @@ const OnlineMBA = () => {
                     lineHeight: "normal",
                   }}
                 >
-                 
+
                   Online MBA
                 </p>
                 <p
@@ -1128,7 +1158,7 @@ const OnlineMBA = () => {
                     lineHeight: "normal",
                   }}
                 >
-                 
+
                   Online PGD in Finance &amp; Accounting
                 </p>
                 <p
@@ -1139,7 +1169,7 @@ const OnlineMBA = () => {
                     lineHeight: "normal",
                   }}
                 >
-                 
+
                   Online PGD in Public Accounting
                 </p>
                 <p
@@ -1150,7 +1180,7 @@ const OnlineMBA = () => {
                     lineHeight: "normal",
                   }}
                 >
-                 
+
                   Online PGD in HRM
                 </p>
                 <p
@@ -1161,7 +1191,7 @@ const OnlineMBA = () => {
                     lineHeight: "normal",
                   }}
                 >
-                 
+
                   Online PGD in Travel &amp; Tourism Management
                 </p>
                 <p
@@ -1172,7 +1202,7 @@ const OnlineMBA = () => {
                     lineHeight: "normal",
                   }}
                 >
-                 
+
                   Online PGD in Logistics &amp; Supply Chain Management
                 </p>
                 <p
@@ -1183,7 +1213,7 @@ const OnlineMBA = () => {
                     lineHeight: "normal",
                   }}
                 >
-                 
+
                   Online PGD in Advertising &amp; Brand Management
                 </p>
               </td>
@@ -1255,7 +1285,7 @@ const OnlineMBA = () => {
                     lineHeight: "normal",
                   }}
                 >
-                 
+
                   Online MBA International Finance
                 </p>
                 <p
@@ -1266,7 +1296,7 @@ const OnlineMBA = () => {
                     lineHeight: "normal",
                   }}
                 >
-                 
+
                   Online MBA in Investment Banking
                 </p>
                 <p
@@ -1277,7 +1307,7 @@ const OnlineMBA = () => {
                     lineHeight: "normal",
                   }}
                 >
-                 
+
                   Online MBA in Strategic Finance
                 </p>
                 <p
@@ -1288,7 +1318,7 @@ const OnlineMBA = () => {
                     lineHeight: "normal",
                   }}
                 >
-                 
+
                   Online MBA in Systems &amp; Operations
                 </p>
               </td>
@@ -1352,7 +1382,7 @@ const OnlineMBA = () => {
                 width={333}
                 valign="top"
               >
-                 <p
+                <p
                   className="MsoListParagraphCxSpMiddle"
                   style={{
                     marginBottom: "0in",
@@ -1390,7 +1420,7 @@ const OnlineMBA = () => {
             </tr>
           </tbody>
         </table>
-        
+
         <p
           className="MsoNormal"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}

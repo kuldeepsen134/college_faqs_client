@@ -510,14 +510,12 @@ const ExecutiveMBA = () => {
         <p
           className="MsoListParagraphCxSpFirst"
           style={{
-            textJustify: "inter-ideograph",
+            color: "#000"
           }}
         >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
-            </span>
+          1.
+          <span style={{ font: '7pt "Times New Roman"' }}>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
           </span>
           Any candidate who has completed bachelor’s degree with&nbsp; minimum
           50 per cent aggregate (45% for reserved categories) or equivalent from
@@ -527,14 +525,12 @@ const ExecutiveMBA = () => {
         <p
           className="MsoListParagraphCxSpMiddle"
           style={{
-            textJustify: "inter-ideograph",
+            color: "#000"
           }}
         >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
-            </span>
+          2.
+          <span style={{ font: '7pt "Times New Roman"' }}>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
           </span>
           The candidate must have at least two years of work experience at
           managerial or executive level. Work experience in part-time mode is
@@ -543,14 +539,12 @@ const ExecutiveMBA = () => {
         <p
           className="MsoListParagraphCxSpLast"
           style={{
-            textJustify: "inter-ideograph",
+            color: "#000"
           }}
         >
-          <span style={{ fontFamily: "Symbol" }}>
-            ·
-            <span style={{ font: '7pt "Times New Roman"' }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
-            </span>
+          3.
+          <span style={{ font: '7pt "Times New Roman"' }}>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
           </span>
           Number of years of work experience varies from two to five years for
           every institute. The candidate must check the eligibility criteria of
@@ -581,7 +575,7 @@ const ExecutiveMBA = () => {
           className="MsoNormal"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
-           <b style={{ fontSize: '11pt' }}><u>Leadership:</u></b> Professionals working as a manager are required to
+          <b style={{ fontSize: '11pt' }}><u>Leadership:</u></b> Professionals working as a manager are required to
           possess strong leadership skills as they need to manage a team. Being
           a good leader is as important as being good in their field.
         </p>
@@ -589,7 +583,7 @@ const ExecutiveMBA = () => {
           className="MsoNormal"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
-           <b style={{ fontSize: '11pt' }}><u>Patience:</u></b> Executive MBA / PGDM candidates need to learn to be
+          <b style={{ fontSize: '11pt' }}><u>Patience:</u></b> Executive MBA / PGDM candidates need to learn to be
           patient about their work, assignments and profession but also need to
           abide by the timelines by keeping patience.
         </p>
@@ -597,7 +591,7 @@ const ExecutiveMBA = () => {
           className="MsoNormal"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
-           <b style={{ fontSize: '11pt' }}><u>Dedication:</u></b> As a manager, responsibilities can only be
+          <b style={{ fontSize: '11pt' }}><u>Dedication:</u></b> As a manager, responsibilities can only be
           fulfilled if one is completely committed to his/her work. There are
           certain times when the problems are complicated and one has to handle
           a team also, at such moments u need to be dedicated towards your end
@@ -607,7 +601,7 @@ const ExecutiveMBA = () => {
           className="MsoNormal"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
-           <b style={{ fontSize: '11pt' }}><u>Teamwork:</u></b> Teamwork is yet another important skill that a senior
+          <b style={{ fontSize: '11pt' }}><u>Teamwork:</u></b> Teamwork is yet another important skill that a senior
           professional should possess since corporate projects are not about
           working alone but with a team.
         </p>
@@ -615,7 +609,7 @@ const ExecutiveMBA = () => {
           className="MsoNormal"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
-           <b style={{ fontSize: '11pt' }}><u>Communication:</u></b> Both verbal and written communication is an
+          <b style={{ fontSize: '11pt' }}><u>Communication:</u></b> Both verbal and written communication is an
           integral part of a manager’s activity. While leading a team of
           professionals with different mindsets and backgrounds, it is important
           for a manager to be clear and concise about his/her instructions.
@@ -662,7 +656,7 @@ const ExecutiveMBA = () => {
                   className="MsoNormal"
                   style={{
                     marginBottom: "0in",
-                    textAlign: "justify",
+                    textAlign: "center",
                     textJustify: "inter-ideograph",
                     lineHeight: "normal",
                   }}
@@ -684,7 +678,7 @@ const ExecutiveMBA = () => {
                   className="MsoNormal"
                   style={{
                     marginBottom: "0in",
-                    textAlign: "justify",
+                    textAlign: "center",
                     textJustify: "inter-ideograph",
                     lineHeight: "normal",
                   }}
@@ -708,7 +702,7 @@ const ExecutiveMBA = () => {
                   className="MsoNormal"
                   style={{
                     marginBottom: "0in",
-                    textAlign: "justify",
+                    textAlign: "center",
                     textJustify: "inter-ideograph",
                     lineHeight: "normal",
                   }}
@@ -732,7 +726,7 @@ const ExecutiveMBA = () => {
                   className="MsoNormal"
                   style={{
                     marginBottom: "0in",
-                    textAlign: "justify",
+                    textAlign: "center",
                     textJustify: "inter-ideograph",
                     lineHeight: "normal",
                   }}
@@ -756,7 +750,7 @@ const ExecutiveMBA = () => {
                   className="MsoNormal"
                   style={{
                     marginBottom: "0in",
-                    textAlign: "justify",
+                    textAlign: "center",
                     textJustify: "inter-ideograph",
                     lineHeight: "normal",
                   }}
@@ -780,7 +774,7 @@ const ExecutiveMBA = () => {
                   className="MsoNormal"
                   style={{
                     marginBottom: "0in",
-                    textAlign: "justify",
+                    textAlign: "center",
                     textJustify: "inter-ideograph",
                     lineHeight: "normal",
                   }}
@@ -804,7 +798,7 @@ const ExecutiveMBA = () => {
                   className="MsoNormal"
                   style={{
                     marginBottom: "0in",
-                    textAlign: "justify",
+                    textAlign: "center",
                     textJustify: "inter-ideograph",
                     lineHeight: "normal",
                   }}
@@ -828,7 +822,7 @@ const ExecutiveMBA = () => {
                   className="MsoNormal"
                   style={{
                     marginBottom: "0in",
-                    textAlign: "justify",
+                    textAlign: "center",
                     textJustify: "inter-ideograph",
                     lineHeight: "normal",
                   }}
@@ -886,7 +880,7 @@ const ExecutiveMBA = () => {
                   className="MsoNormal"
                   style={{
                     marginBottom: "0in",
-                    textAlign: "justify",
+                    textAlign: "center",
                     textJustify: "inter-ideograph",
                     lineHeight: "normal",
                   }}
@@ -908,7 +902,7 @@ const ExecutiveMBA = () => {
                   className="MsoNormal"
                   style={{
                     marginBottom: "0in",
-                    textAlign: "justify",
+                    textAlign: "center",
                     textJustify: "inter-ideograph",
                     lineHeight: "normal",
                   }}
@@ -932,7 +926,7 @@ const ExecutiveMBA = () => {
                   className="MsoNormal"
                   style={{
                     marginBottom: "0in",
-                    textAlign: "justify",
+                    textAlign: "center",
                     textJustify: "inter-ideograph",
                     lineHeight: "normal",
                   }}
@@ -956,7 +950,7 @@ const ExecutiveMBA = () => {
                   className="MsoNormal"
                   style={{
                     marginBottom: "0in",
-                    textAlign: "justify",
+                    textAlign: "center",
                     textJustify: "inter-ideograph",
                     lineHeight: "normal",
                   }}
@@ -980,7 +974,7 @@ const ExecutiveMBA = () => {
                   className="MsoNormal"
                   style={{
                     marginBottom: "0in",
-                    textAlign: "justify",
+                    textAlign: "center",
                     textJustify: "inter-ideograph",
                     lineHeight: "normal",
                   }}
@@ -1004,7 +998,7 @@ const ExecutiveMBA = () => {
                   className="MsoNormal"
                   style={{
                     marginBottom: "0in",
-                    textAlign: "justify",
+                    textAlign: "center",
                     textJustify: "inter-ideograph",
                     lineHeight: "normal",
                   }}
@@ -1028,7 +1022,7 @@ const ExecutiveMBA = () => {
                   className="MsoNormal"
                   style={{
                     marginBottom: "0in",
-                    textAlign: "justify",
+                    textAlign: "center",
                     textJustify: "inter-ideograph",
                     lineHeight: "normal",
                   }}
@@ -1052,7 +1046,7 @@ const ExecutiveMBA = () => {
                   className="MsoNormal"
                   style={{
                     marginBottom: "0in",
-                    textAlign: "justify",
+                    textAlign: "center",
                     textJustify: "inter-ideograph",
                     lineHeight: "normal",
                   }}
@@ -1076,7 +1070,7 @@ const ExecutiveMBA = () => {
                   className="MsoNormal"
                   style={{
                     marginBottom: "0in",
-                    textAlign: "justify",
+                    textAlign: "center",
                     textJustify: "inter-ideograph",
                     lineHeight: "normal",
                   }}
@@ -1100,7 +1094,7 @@ const ExecutiveMBA = () => {
                   className="MsoNormal"
                   style={{
                     marginBottom: "0in",
-                    textAlign: "justify",
+                    textAlign: "center",
                     textJustify: "inter-ideograph",
                     lineHeight: "normal",
                   }}

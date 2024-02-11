@@ -4279,7 +4279,7 @@ h6 {
   left: 0;
   width: 100%;
   background-color: var(--color-dark-1);
-  padding: 0 20px;
+  padding: 0 0px;
 }
 
 @media (max-width: 991px) {
@@ -5210,7 +5210,7 @@ h6 {
   z-index: 1;
   position: relative;
   padding: 140px 0 160px 0;
-  padding: 140px 0 320px 0;
+  padding: 140px 0 180px 0;
 }
 
 @media (max-width: 991px) {
@@ -5230,6 +5230,7 @@ h6 {
 .masthead.-type-1 .container {
   max-width: 1530px;
   padding: 0 15px;
+  margin-top: -100px;
 }
 
 .masthead.-type-1 .masthead__bg {
@@ -9178,7 +9179,8 @@ h6 {
 }
 
 .bg-dark-1 {
-  background-color: var(--color-dark-1);
+  /* background-color: var(--color-dark-1); */
+  background-color: #5d5c62;
 }
 
 .bg-dark-2 {
@@ -9258,7 +9260,8 @@ h6 {
 }
 
 .bg-purple-1 {
-  background-color: var(--color-purple-1);
+  /* background-color: var(--color-purple-1); */
+  background-color: #cac7d7;
 }
 
 .bg-purple-2 {
@@ -13925,11 +13928,11 @@ h6 {
 }
 
 .layout-pt-lg {
-  padding-top: 120px;
+  padding-top: 20px;
 }
 
 .layout-pb-lg {
-  padding-bottom: 120px;
+  padding-bottom: 20px;
 }
 
 .layout-pt-xl {

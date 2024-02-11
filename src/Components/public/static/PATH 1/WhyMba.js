@@ -13,6 +13,16 @@ const WhyMba = () => {
       <div className="WordSection1">
         <p
           className=" cont"
+          style={{
+            textAlign: "justify",
+            fontWeight: "bold",
+            textJustify: "inter-ideograph",
+          }}
+        >
+          About MBA &gt; Why MBA
+        </p>
+        <p
+          className=" cont"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
           A Master of Business Administration commonly known as MBA is a post
@@ -31,7 +41,7 @@ const WhyMba = () => {
           Table of Content:
         </p>
         <p
-          className="MsoListParagraphCxSpFirst"
+          className="MsoListParagraphCxSpFirst mb-0"
           style={{
             textAlign: "justify",
             textJustify: "inter-ideograph",
@@ -44,7 +54,7 @@ const WhyMba = () => {
           </a>
         </p>
         <p
-          className="MsoListParagraphCxSpMiddle"
+          className="MsoListParagraphCxSpMiddle mb-0"
           style={{
             textAlign: "justify",
             textJustify: "inter-ideograph",
@@ -57,7 +67,7 @@ const WhyMba = () => {
           </a>
         </p>
         <p
-          className="MsoListParagraphCxSpMiddle"
+          className="MsoListParagraphCxSpMiddle mb-0"
           style={{
             textAlign: "justify",
             textJustify: "inter-ideograph",
@@ -70,7 +80,7 @@ const WhyMba = () => {
           </a>
         </p>
         <p
-          className="MsoListParagraphCxSpMiddle"
+          className="MsoListParagraphCxSpMiddle mb-0"
           style={{
             textAlign: "justify",
             textJustify: "inter-ideograph",
@@ -83,7 +93,7 @@ const WhyMba = () => {
           </a>
         </p>
         <p
-          className="MsoListParagraphCxSpMiddle"
+          className="MsoListParagraphCxSpMiddle mb-0"
           style={{
             textAlign: "justify",
             textJustify: "inter-ideograph",
@@ -96,7 +106,7 @@ const WhyMba = () => {
           </a>
         </p>
         <p
-          className="MsoListParagraphCxSpMiddle"
+          className="MsoListParagraphCxSpMiddle mb-0"
           style={{
             textAlign: "justify",
             textJustify: "inter-ideograph",
@@ -109,7 +119,7 @@ const WhyMba = () => {
           </a>
         </p>
         <p
-          className="MsoListParagraphCxSpMiddle"
+          className="MsoListParagraphCxSpMiddle mb-0 margin-left-25"
           style={{
             marginLeft: "1.0in",
             textAlign: "justify",
@@ -123,7 +133,7 @@ const WhyMba = () => {
           </a>
         </p>
         <p
-          className="MsoListParagraphCxSpMiddle"
+          className="MsoListParagraphCxSpMiddle mb-0 margin-left-25"
           style={{
             marginLeft: "1.0in",
             textAlign: "justify",
@@ -137,7 +147,7 @@ const WhyMba = () => {
           </a>
         </p>
         <p
-          className="MsoListParagraphCxSpMiddle"
+          className="MsoListParagraphCxSpMiddle mb-0"
           style={{
             textAlign: "justify",
             textJustify: "inter-ideograph",
@@ -150,7 +160,7 @@ const WhyMba = () => {
           </a>
         </p>
         <p
-          className="MsoListParagraphCxSpLast"
+          className="MsoListParagraphCxSpLast mb-0"
           style={{
             textAlign: "justify",
             textJustify: "inter-ideograph",
@@ -158,7 +168,18 @@ const WhyMba = () => {
         >
           8.
           <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-          <a href="#8">MBA Specialisations </a>
+          <a href="#8" className="link">MBA Specialisations </a>
+        </p>
+        <p
+          className="MsoListParagraphCxSpLast mb-0"
+          style={{
+            textAlign: "justify",
+            textJustify: "inter-ideograph",
+          }}
+        >
+          9.
+          <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+          <a href="#9" className="link">Frequently Asked Question (FAQs) – MBA </a>
         </p>
         <p
           className="MsoNormal"
@@ -170,8 +191,9 @@ const WhyMba = () => {
           className="headings"
           id="1"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          What is a Master of Business Administration (MBA)?
+        > <span style={{ backgroundColor: '#970833', padding: '10px', color: "#fff" }}>
+            What is Master of Business Administration (MBA)?
+          </span>
         </p>
         <p
           className=" cont"
@@ -208,7 +230,7 @@ const WhyMba = () => {
           </p>
         </p>
         <table
-          className="MsoTableGrid"
+          className="MsoTableGrid w-100"
           style={{ borderCollapse: "collapse", border: "none" }}
           cellSpacing={0}
           cellPadding={0}
@@ -863,8 +885,8 @@ const WhyMba = () => {
             textJustify: "inter-ideograph",
           }}
         >
-          <span style={{ fontFamily: "Wingdings" }}>
-            Ø<span>&nbsp; </span>
+          <span style={{ fontFamily: "Symbol" }}>
+            ·<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
           </span>
           An MBA is a graduate business degree focused on management, business,
           and entrepreneurship.
@@ -872,12 +894,11 @@ const WhyMba = () => {
         <p
           className=" cont"
           style={{
-            textAlign: "justify",
             textJustify: "inter-ideograph",
           }}
         >
-          <span style={{ fontFamily: "Wingdings" }}>
-            Ø<span>&nbsp; </span>
+          <span style={{ fontFamily: "Symbol" }}>
+            ·<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
           </span>
           MBA students can also focus on other aspects of business, like
           finance, marketing or risk management.
@@ -885,12 +906,11 @@ const WhyMba = () => {
         <p
           className=" cont"
           style={{
-            textAlign: "justify",
             textJustify: "inter-ideograph",
           }}
         >
-          <span style={{ fontFamily: "Wingdings" }}>
-            Ø<span>&nbsp; </span>
+          <span style={{ fontFamily: "Symbol" }}>
+            ·<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
           </span>
           Many schools now offer specialty programs, like event management, the
           business analytics or healthcare management.
@@ -898,12 +918,11 @@ const WhyMba = () => {
         <p
           className=" cont"
           style={{
-            textAlign: "justify",
             textJustify: "inter-ideograph",
           }}
         >
-          <span style={{ fontFamily: "Wingdings" }}>
-            Ø<span>&nbsp; </span>
+          <span style={{ fontFamily: "Symbol" }}>
+            ·<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
           </span>
           Executive MBA programs are available for experienced professionals who
           cannot commit to a full-time schedule.
@@ -911,16 +930,21 @@ const WhyMba = () => {
         <p
           className=" cont"
           style={{
-            textAlign: "justify",
             textJustify: "inter-ideograph",
           }}
         >
-          <span style={{ fontFamily: "Wingdings" }}>
-            Ø<span>&nbsp; </span>
+          <span style={{ fontFamily: "Symbol" }}>
+            ·<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
           </span>
           MBA programs may be full-time, part-time, online, or international,
           and each program usually has a varying degree of requirements for
           acceptance.
+        </p>
+        <p
+          className="MsoNormal"
+          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
+        >
+          &nbsp;
         </p>
         <p
           className="headings"
@@ -1009,6 +1033,12 @@ const WhyMba = () => {
             ·<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
           </span>
           Greater Awareness of a Global Market
+        </p>
+        <p
+          className="MsoNormal"
+          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
+        >
+          &nbsp;
         </p>
         <p
           className="headings"
@@ -1246,15 +1276,11 @@ const WhyMba = () => {
           </span>
           Final selection is based on the candidate's overall achievements in
           academics, entrance test and WAT-GD-PI.{" "}
-          <p>
-            <b>
-              <u>
-                <span style={{ color: "red" }}>
-                  <Link to="/admission-process">Read More – MBA Admission</Link>
-                </span>
-              </u>
-            </b>
-          </p>
+
+          <span style={{ color: "red", display: "block" }}>
+            <Link to="/admission-process">Read More – MBA Admission</Link>
+          </span>
+
         </p>
 
         <p
@@ -1283,7 +1309,7 @@ const WhyMba = () => {
           SEMESTER 1
         </p>
         <table
-          className="MsoTableGrid"
+          className="MsoTableGrid w-100"
           style={{ borderCollapse: "collapse", border: "none" }}
           cellSpacing={0}
           cellPadding={0}
@@ -1304,7 +1330,7 @@ const WhyMba = () => {
                   className="MsoNormal"
                   style={{
                     marginBottom: "0in",
-                    textAlign: "justify",
+                    textAlign: "center",
                     textJustify: "inter-ideograph",
                     lineHeight: "normal",
                     color: "black",
@@ -1327,7 +1353,7 @@ const WhyMba = () => {
                   className="MsoNormal"
                   style={{
                     marginBottom: "0in",
-                    textAlign: "justify",
+                    textAlign: "center",
                     textJustify: "inter-ideograph",
                     lineHeight: "normal",
                     color: "black",
@@ -1352,7 +1378,7 @@ const WhyMba = () => {
                   className="MsoNormal"
                   style={{
                     marginBottom: "0in",
-                    textAlign: "justify",
+                    textAlign: "center",
                     textJustify: "inter-ideograph",
                     lineHeight: "normal",
                     color: "black",
@@ -1377,7 +1403,7 @@ const WhyMba = () => {
                   className="MsoNormal"
                   style={{
                     marginBottom: "0in",
-                    textAlign: "justify",
+                    textAlign: "center",
                     textJustify: "inter-ideograph",
                     lineHeight: "normal",
                     color: "black",
@@ -1402,7 +1428,7 @@ const WhyMba = () => {
                   className="MsoNormal"
                   style={{
                     marginBottom: "0in",
-                    textAlign: "justify",
+                    textAlign: "center",
                     textJustify: "inter-ideograph",
                     lineHeight: "normal",
                     color: "black",
@@ -1427,7 +1453,7 @@ const WhyMba = () => {
                   className="MsoNormal"
                   style={{
                     marginBottom: "0in",
-                    textAlign: "justify",
+                    textAlign: "center",
                     textJustify: "inter-ideograph",
                     lineHeight: "normal",
                     color: "black",
@@ -1452,7 +1478,7 @@ const WhyMba = () => {
                   className="MsoNormal"
                   style={{
                     marginBottom: "0in",
-                    textAlign: "justify",
+                    textAlign: "center",
                     textJustify: "inter-ideograph",
                     lineHeight: "normal",
                     color: "black",
@@ -1477,7 +1503,7 @@ const WhyMba = () => {
                   className="MsoNormal"
                   style={{
                     marginBottom: "0in",
-                    textAlign: "justify",
+                    textAlign: "center",
                     textJustify: "inter-ideograph",
                     lineHeight: "normal",
                     color: "black",
@@ -1499,7 +1525,7 @@ const WhyMba = () => {
           SEMESTER 2
         </p>
         <table
-          className="MsoTableGrid"
+          className="MsoTableGrid w-100"
           style={{ borderCollapse: "collapse", border: "none" }}
           cellSpacing={0}
           cellPadding={0}
@@ -1520,7 +1546,7 @@ const WhyMba = () => {
                   className="MsoNormal"
                   style={{
                     marginBottom: "0in",
-                    textAlign: "justify",
+                    textAlign: "center",
                     textJustify: "inter-ideograph",
                     lineHeight: "normal",
                     color: "black",
@@ -1543,7 +1569,7 @@ const WhyMba = () => {
                   className="MsoNormal"
                   style={{
                     marginBottom: "0in",
-                    textAlign: "justify",
+                    textAlign: "center",
                     color: "black",
                     textJustify: "inter-ideograph",
                     lineHeight: "normal",
@@ -1568,7 +1594,7 @@ const WhyMba = () => {
                   className="MsoNormal"
                   style={{
                     marginBottom: "0in",
-                    textAlign: "justify",
+                    textAlign: "center",
                     textJustify: "inter-ideograph",
                     lineHeight: "normal",
                     color: "black",
@@ -1593,7 +1619,7 @@ const WhyMba = () => {
                   className="MsoNormal"
                   style={{
                     marginBottom: "0in",
-                    textAlign: "justify",
+                    textAlign: "center",
                     textJustify: "inter-ideograph",
                     lineHeight: "normal",
                     color: "black",
@@ -1618,7 +1644,7 @@ const WhyMba = () => {
                   className="MsoNormal"
                   style={{
                     marginBottom: "0in",
-                    textAlign: "justify",
+                    textAlign: "center",
                     textJustify: "inter-ideograph",
                     lineHeight: "normal",
                     color: "black",
@@ -1643,7 +1669,7 @@ const WhyMba = () => {
                   className="MsoNormal"
                   style={{
                     marginBottom: "0in",
-                    textAlign: "justify",
+                    textAlign: "center",
                     textJustify: "inter-ideograph",
                     lineHeight: "normal",
                     color: "black",
@@ -1668,7 +1694,7 @@ const WhyMba = () => {
                   className="MsoNormal"
                   style={{
                     marginBottom: "0in",
-                    textAlign: "justify",
+                    textAlign: "center",
                     textJustify: "inter-ideograph",
                     color: "black",
                     lineHeight: "normal",
@@ -1693,7 +1719,7 @@ const WhyMba = () => {
                   className="MsoNormal"
                   style={{
                     marginBottom: "0in",
-                    textAlign: "justify",
+                    textAlign: "center",
                     textJustify: "inter-ideograph",
                     lineHeight: "normal",
                     color: "black",
@@ -1715,7 +1741,7 @@ const WhyMba = () => {
           SEMESTER 3
         </p>
         <table
-          className="MsoTableGrid"
+          className="MsoTableGrid w-100"
           style={{ borderCollapse: "collapse", border: "none" }}
           cellSpacing={0}
           cellPadding={0}
@@ -1736,7 +1762,7 @@ const WhyMba = () => {
                   className="MsoNormal"
                   style={{
                     marginBottom: "0in",
-                    textAlign: "justify",
+                    textAlign: "center",
                     textJustify: "inter-ideograph",
                     color: "black",
                     lineHeight: "normal",
@@ -1760,7 +1786,7 @@ const WhyMba = () => {
                   style={{
                     marginBottom: "0in",
                     color: "black",
-                    textAlign: "justify",
+                    textAlign: "center",
                     textJustify: "inter-ideograph",
                     lineHeight: "normal",
                   }}
@@ -1784,7 +1810,7 @@ const WhyMba = () => {
                   className="MsoNormal"
                   style={{
                     marginBottom: "0in",
-                    textAlign: "justify",
+                    textAlign: "center",
                     color: "black",
                     textJustify: "inter-ideograph",
                     lineHeight: "normal",
@@ -1809,7 +1835,7 @@ const WhyMba = () => {
                   className="MsoNormal"
                   style={{
                     marginBottom: "0in",
-                    textAlign: "justify",
+                    textAlign: "center",
                     textJustify: "inter-ideograph",
                     color: "black",
                     lineHeight: "normal",
@@ -1834,7 +1860,7 @@ const WhyMba = () => {
                   className="MsoNormal"
                   style={{
                     marginBottom: "0in",
-                    textAlign: "justify",
+                    textAlign: "center",
                     color: "black",
                     textJustify: "inter-ideograph",
                     lineHeight: "normal",
@@ -1859,7 +1885,7 @@ const WhyMba = () => {
                   className="MsoNormal"
                   style={{
                     marginBottom: "0in",
-                    textAlign: "justify",
+                    textAlign: "center",
                     textJustify: "inter-ideograph",
                     color: "black",
                     lineHeight: "normal",
@@ -1884,7 +1910,7 @@ const WhyMba = () => {
                   className="MsoNormal"
                   style={{
                     marginBottom: "0in",
-                    textAlign: "justify",
+                    textAlign: "center",
                     color: "black",
                     textJustify: "inter-ideograph",
                     lineHeight: "normal",
@@ -1909,7 +1935,7 @@ const WhyMba = () => {
                   className="MsoNormal"
                   style={{
                     marginBottom: "0in",
-                    textAlign: "justify",
+                    textAlign: "center",
                     textJustify: "inter-ideograph",
                     lineHeight: "normal",
                     color: "black",
@@ -1931,7 +1957,7 @@ const WhyMba = () => {
           SEMESTER 4
         </p>
         <table
-          className="MsoTableGrid"
+          className="MsoTableGrid w-100"
           style={{ borderCollapse: "collapse", border: "none" }}
           cellSpacing={0}
           cellPadding={0}
@@ -1952,7 +1978,7 @@ const WhyMba = () => {
                   className="MsoNormal"
                   style={{
                     marginBottom: "0in",
-                    textAlign: "justify",
+                    textAlign: "center",
                     textJustify: "inter-ideograph",
                     lineHeight: "normal",
                     color: "black",
@@ -1975,7 +2001,7 @@ const WhyMba = () => {
                   className="MsoNormal"
                   style={{
                     marginBottom: "0in",
-                    textAlign: "justify",
+                    textAlign: "center",
                     textJustify: "inter-ideograph",
                     lineHeight: "normal",
                     color: "black",
@@ -2000,7 +2026,7 @@ const WhyMba = () => {
                   className="MsoNormal"
                   style={{
                     marginBottom: "0in",
-                    textAlign: "justify",
+                    textAlign: "center",
                     textJustify: "inter-ideograph",
                     lineHeight: "normal",
                     color: "black",
@@ -2025,7 +2051,7 @@ const WhyMba = () => {
                   className="MsoNormal"
                   style={{
                     marginBottom: "0in",
-                    textAlign: "justify",
+                    textAlign: "center",
                     textJustify: "inter-ideograph",
                     lineHeight: "normal",
                     color: "black",
@@ -2050,7 +2076,7 @@ const WhyMba = () => {
                   className="MsoNormal"
                   style={{
                     marginBottom: "0in",
-                    textAlign: "justify",
+                    textAlign: "center",
                     textJustify: "inter-ideograph",
                     lineHeight: "normal",
                     color: "black",
@@ -2075,7 +2101,7 @@ const WhyMba = () => {
                   className="MsoNormal"
                   style={{
                     marginBottom: "0in",
-                    textAlign: "justify",
+                    textAlign: "center",
                     textJustify: "inter-ideograph",
                     lineHeight: "normal",
                     color: "black",
@@ -2100,7 +2126,7 @@ const WhyMba = () => {
                   className="MsoNormal"
                   style={{
                     marginBottom: "0in",
-                    textAlign: "justify",
+                    textAlign: "center",
                     textJustify: "inter-ideograph",
                     lineHeight: "normal",
                     color: "black",
@@ -2125,7 +2151,7 @@ const WhyMba = () => {
                   className="MsoNormal"
                   style={{
                     marginBottom: "0in",
-                    textAlign: "justify",
+                    textAlign: "center",
                     textJustify: "inter-ideograph",
                     lineHeight: "normal",
                     color: "black",
@@ -2166,7 +2192,7 @@ const WhyMba = () => {
           specializations are:
         </p>
         <table
-          className="MsoTableGrid"
+          className="MsoTableGrid w-100"
           style={{ borderCollapse: "collapse", border: "none" }}
           cellSpacing={0}
           cellPadding={0}
@@ -2187,7 +2213,7 @@ const WhyMba = () => {
                   className="MsoNormal"
                   style={{
                     marginBottom: "0in",
-                    textAlign: "justify",
+                    textAlign: "center",
                     textJustify: "inter-ideograph",
                     lineHeight: "normal",
                     color: "black",
@@ -2210,7 +2236,7 @@ const WhyMba = () => {
                   className="MsoNormal"
                   style={{
                     marginBottom: "0in",
-                    textAlign: "justify",
+                    textAlign: "center",
                     textJustify: "inter-ideograph",
                     lineHeight: "normal",
                     color: "black",
@@ -2235,7 +2261,7 @@ const WhyMba = () => {
                   className="MsoNormal"
                   style={{
                     marginBottom: "0in",
-                    textAlign: "justify",
+                    textAlign: "center",
                     textJustify: "inter-ideograph",
                     lineHeight: "normal",
                     color: "black",
@@ -2260,7 +2286,7 @@ const WhyMba = () => {
                   className="MsoNormal"
                   style={{
                     marginBottom: "0in",
-                    textAlign: "justify",
+                    textAlign: "center",
                     textJustify: "inter-ideograph",
                     lineHeight: "normal",
                     color: "black",
@@ -2285,7 +2311,7 @@ const WhyMba = () => {
                   className="MsoNormal"
                   style={{
                     marginBottom: "0in",
-                    textAlign: "justify",
+                    textAlign: "center",
                     textJustify: "inter-ideograph",
                     lineHeight: "normal",
                     color: "black",
@@ -2310,7 +2336,7 @@ const WhyMba = () => {
                   className="MsoNormal"
                   style={{
                     marginBottom: "0in",
-                    textAlign: "justify",
+                    textAlign: "center",
                     textJustify: "inter-ideograph",
                     lineHeight: "normal",
                     color: "black",
@@ -2335,7 +2361,7 @@ const WhyMba = () => {
                   className="MsoNormal"
                   style={{
                     marginBottom: "0in",
-                    textAlign: "justify",
+                    textAlign: "center",
                     textJustify: "inter-ideograph",
                     lineHeight: "normal",
                     color: "black",
@@ -2360,7 +2386,7 @@ const WhyMba = () => {
                   className="MsoNormal"
                   style={{
                     marginBottom: "0in",
-                    textAlign: "justify",
+                    textAlign: "center",
                     textJustify: "inter-ideograph",
                     lineHeight: "normal",
                     color: "black",
@@ -2385,7 +2411,7 @@ const WhyMba = () => {
                   className="MsoNormal"
                   style={{
                     marginBottom: "0in",
-                    textAlign: "justify",
+                    textAlign: "center",
                     textJustify: "inter-ideograph",
                     lineHeight: "normal",
                     color: "black",
@@ -2410,7 +2436,7 @@ const WhyMba = () => {
                   className="MsoNormal"
                   style={{
                     marginBottom: "0in",
-                    textAlign: "justify",
+                    textAlign: "center",
                     textJustify: "inter-ideograph",
                     lineHeight: "normal",
                     color: "black",
@@ -2423,20 +2449,12 @@ const WhyMba = () => {
           </tbody>
         </table>
 
-        <p
-          className="MsoNormal"
-          style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
-        >
-          <b>
-            <u>
-              <span style={{ color: "red" }}>
-                <Link to="/mba-more-specialisations">
-                  Read More – MBA Specialisations
-                </Link>
-              </span>
-            </u>
-          </b>
-        </p>
+
+        <span style={{ color: "red", display: 'block', margin: '20px 0' }}>
+          <Link to="/mba-more-specialisations" style={{ fontSize: '16px', textDecoration: 'underline' }}>
+            Read More – MBA Specialisations
+          </Link>
+        </span>
         <CustomTable />
 
         <p
@@ -2446,6 +2464,7 @@ const WhyMba = () => {
           &nbsp;
         </p>
         <p
+          id="9"
           className="headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
