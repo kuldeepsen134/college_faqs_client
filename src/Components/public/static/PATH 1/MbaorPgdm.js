@@ -24,7 +24,7 @@ const MbaorPgdm = () => {
       >
         Thinking to pursue a management program and confused about MBA or PGDM.
         Well there is a very subtle difference between both of them and this
-        article from experts of <b>collegefaqs</b> will help you out to
+        article from experts of <b style={{ fontSize: '14px' }}>collegefaqs</b> will help you out to
         understand it.
       </p>
       <p
@@ -1199,6 +1199,16 @@ const MbaorPgdm = () => {
         their study.
       </p>
       <p
+        className="cont"
+        style={{
+          marginLeft: "0.25in",
+          textAlign: "justify",
+          textJustify: "inter-ideograph",
+        }}
+      >
+        &nbsp;
+      </p>
+      <p
         className=" cont"
         style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
       >
@@ -1208,7 +1218,6 @@ const MbaorPgdm = () => {
         className="cont"
         style={{
           marginLeft: "0.25in",
-          textAlign: "justify",
           textJustify: "inter-ideograph",
           textIndent: "-0.25in",
         }}
@@ -1220,21 +1229,11 @@ const MbaorPgdm = () => {
         MBA a Degree Programme – At the end of an MBA programme, students are
         conferred with MBA degree instead of a Post Graduate Diploma.
       </p>
+     
       <p
         className="cont"
         style={{
           marginLeft: "0.25in",
-          textAlign: "justify",
-          textJustify: "inter-ideograph",
-        }}
-      >
-        &nbsp;
-      </p>
-      <p
-        className="cont"
-        style={{
-          marginLeft: "0.25in",
-          textAlign: "justify",
           textJustify: "inter-ideograph",
           textIndent: "-0.25in",
         }}
@@ -1248,12 +1247,11 @@ const MbaorPgdm = () => {
         and is acceptable by all the recruiters. Top B-schools in the world
         offer MBA degree.
       </p>
-      <p className="cont">&nbsp;</p>
+      
       <p
         className="cont"
         style={{
           marginLeft: "0.25in",
-          textAlign: "justify",
           textJustify: "inter-ideograph",
           textIndent: "-0.25in",
         }}
@@ -1267,12 +1265,11 @@ const MbaorPgdm = () => {
         and is acceptable. Foreign universities need your MBA degree instead of
         diploma to offer you admission in Ph.D / Doctoral programme.
       </p>
-      <p className="cont">&nbsp;</p>
+      
       <p
         className="cont"
         style={{
           marginLeft: "0.25in",
-          textAlign: "justify",
           textJustify: "inter-ideograph",
           textIndent: "-0.25in",
         }}
@@ -1285,12 +1282,11 @@ const MbaorPgdm = () => {
         affiliated by UGC. There is uniformity in education, learning among all
         the University affiliated colleges.
       </p>
-      <p className="cont">&nbsp;</p>
+      
       <p
         className="cont"
         style={{
           marginLeft: "0.25in",
-          textAlign: "justify",
           textJustify: "inter-ideograph",
           textIndent: "-0.25in",
         }}
@@ -1308,12 +1304,11 @@ const MbaorPgdm = () => {
         manage on their own expenses, they have high fee structure for MBA
         programme like NMIMS, Symbiosis, Xavier’s to name a few.
       </p>
-      <p className="cont">&nbsp;</p>
+      
       <p
         className="cont"
         style={{
           marginLeft: "0.25in",
-          textAlign: "justify",
           textJustify: "inter-ideograph",
           textIndent: "-0.25in",
         }}

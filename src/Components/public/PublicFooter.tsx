@@ -46,7 +46,9 @@ const PublicFooter = () => {
           <div className="footer-columns">
             <div className="row y-gap-30">
               <div className="col-6 col-sm-6 col-md-4 col-lg-4">
-                <div className="text-17 fw-500 text-white uppercase mb-25">
+                <div className="text-17 fw-500 uppercase mb-25"
+                style={{color:"#000"}}
+                >
                   INFORMATION
                 </div>
                 <div className="d-flex y-gap-10 flex-column">
@@ -58,8 +60,10 @@ const PublicFooter = () => {
               </div>
 
 
-              <div className="col-6 col-sm-6 col-md-4 col-lg-5">
-                <div className="text-17 fw-500 text-white uppercase mb-25">
+              <div className="col-6 col-sm-6 col-md-4 col-lg-4">
+                <div className="text-17 fw-500  uppercase mb-25"
+                style={{color:"#000"}}
+                >
                   POLICIES
                 </div>
                 <div className="d-flex y-gap-10 flex-column">
@@ -68,7 +72,7 @@ const PublicFooter = () => {
                 </div>
               </div>
 
-              <div className="col-12 col-sm-12 col-md-4 col-lg-3">
+              <div className="col-12 col-sm-12 col-md-4 col-lg-4">
                 <div className="footer-columns-form">
                   <form action="post">
                     <div className="form-group">
@@ -85,7 +89,7 @@ const PublicFooter = () => {
             <div className="row justify-center items-center">
               <div className="col-auto">
                 <div className="d-flex items-center  h-100 text-white">
-                  © CollegeFAQs@2023. All Right Reserved.
+                  © Collegefaqs@2024. All Right Reserved.
                 </div>
               </div>
             </div>

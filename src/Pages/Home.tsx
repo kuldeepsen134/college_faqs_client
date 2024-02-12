@@ -67,17 +67,17 @@ const Home = () => {
             <div className="col-xl-12 col-lg-12 col-sm-12">
               <div className="masthead__content text-center">
                 <h4 className="masthead__title text-green-1">
-                  CollegeFAQs{" "}-{" "}
+                  Collegefaqs&nbsp;
                   <span className="text-white">Your College Repository</span>
                 </h4>
                 <div>
                   <input
                     type="search"
                     name="collageName"
-                    placeholder="Search Box"
+                    placeholder="Search Colleges, Courses, Exams, QnA & Articles"
                     onChange={(e) => setSearchField(e.target.value)}
                     style={{
-                      width: "84%",
+                      width: "60%",
                       padding: "20px",
                       borderRadius: "8px",
                       backgroundColor: "white",
@@ -87,7 +87,7 @@ const Home = () => {
                   />
                   {searchResults &&
                     <ul className="header-search-result" style={{
-                      width: "82%", marginTop: "0"
+                      width: "58.9%", marginTop: "0"
                     }}>
                       {searchResults?.map((result: SearchResult, i) => (
                         <>
@@ -122,9 +122,10 @@ const Home = () => {
                     href="/sign-up"
                     className="button -md -purple-1 text-white"
                     style={{
-                      width: "260px",
+                      width: "fit-content",
                       height: "50px",
-                      margin: "auto"
+                      margin: "auto",
+                      textTransform: "uppercase"
                     }}
                   >
                     Coupon Code
@@ -162,7 +163,12 @@ const Home = () => {
           <div className="row justify-center text-center">
             <div className="col-auto">
               <div className="sectionTitle ">
-                <h2 className="sectionTitle__title ">Featured Colleges</h2>
+                <h2 className="sectionTitle__title "
+                  style={{
+                    color: "#970833",
+                    textTransform: "uppercase"
+                  }}
+                >Featured Colleges</h2>
               </div>
             </div>
           </div>
@@ -184,48 +190,57 @@ const Home = () => {
               }}
             >
               <SwiperSlide>
-                <div className="featureCard -type-1 -featureCard-hover">
-                  <div className="featureCard__content">
-                    <img src="img/Screenshot_1.jpg" alt="icon" style={{ minHeight: "514px", objectFit: "scale-down" }} />
+                <a href="">
+                  <div className="featureCard -type-1 -featureCard-hover">
+                    <div className="featureCard__content">
+                      <img src="img/Screenshot_1.jpg" alt="icon" style={{ objectFit: "scale-down" }} />
+                    </div>
                   </div>
-                </div>
-              </SwiperSlide>
-              <SwiperSlide> <div className="featureCard -type-1 -featureCard-hover">
-                <div className="featureCard__content">
-                  <img src="img/universal-university.png" alt="icon" style={{ minHeight: "514px", objectFit: "scale-down" }} />
-                </div>
-              </div></SwiperSlide>
-              <SwiperSlide>
-                <div className="featureCard -type-1 -featureCard-hover">
-                  <div className="featureCard__content">
-                    <img src="img/isbr.png" alt="icon" style={{ minHeight: "514px", objectFit: "scale-down" }} />
-                  </div>
-                </div></SwiperSlide>
-              <SwiperSlide>
-                <div className="featureCard -type-1 -featureCard-hover">
-                  <div className="featureCard__content">
-                    <img src="img/ndim.png" alt="icon" style={{ minHeight: "514px", objectFit: "scale-down" }} />
-                  </div>
-                </div></SwiperSlide>
-              <SwiperSlide>
-                <div className="featureCard -type-1 -featureCard-hover">
-                  <div className="featureCard__content">
-                    <img src="img/alliance-bangalore.png" alt="icon" style={{ minHeight: "514px", objectFit: "scale-down" }} />
-                  </div>
-                </div></SwiperSlide>
-              <SwiperSlide>
-                <div className="featureCard -type-1 -featureCard-hover">
-                  <div className="featureCard__content">
-                    <img src="img/itm-group.png" alt="icon" style={{ minHeight: "514px", objectFit: "scale-down" }} />
-                  </div>
-                </div>
+                </a>
               </SwiperSlide>
               <SwiperSlide>
-                <div className="featureCard -type-1 -featureCard-hover">
+                <a href=""> <div className="featureCard -type-1 -featureCard-hover">
                   <div className="featureCard__content">
-                    <img src="img/bennett-university.png" alt="icon" style={{ minHeight: "514px", objectFit: "scale-down" }} />
+                    <img src="img/universal-university.png" alt="icon" style={{ objectFit: "scale-down" }} />
                   </div>
                 </div>
+                </a>
+              </SwiperSlide>
+              <SwiperSlide>
+                <a href="">
+                  <div className="featureCard -type-1 -featureCard-hover">
+                    <div className="featureCard__content">
+                      <img src="img/isbr.png" alt="icon" style={{ objectFit: "scale-down" }} />
+                    </div>
+                  </div>
+                </a>
+              </SwiperSlide>
+              <SwiperSlide>
+                <a href="">
+                  <div className="featureCard -type-1 -featureCard-hover">
+                    <div className="featureCard__content">
+                      <img src="img/ndim.png" alt="icon" style={{ objectFit: "scale-down" }} />
+                    </div>
+                  </div>
+                </a>
+              </SwiperSlide>
+              <SwiperSlide>
+                <a href="">
+                  <div className="featureCard -type-1 -featureCard-hover">
+                    <div className="featureCard__content">
+                      <img src="img/itm-group.png" alt="icon" style={{ objectFit: "scale-down" }} />
+                    </div>
+                  </div>
+                </a>
+              </SwiperSlide>
+              <SwiperSlide>
+                <a href="">
+                  <div className="featureCard -type-1 -featureCard-hover">
+                    <div className="featureCard__content">
+                      <img src="img/bennett-university.png" alt="icon" style={{ objectFit: "scale-down" }} />
+                    </div>
+                  </div>
+                </a>
               </SwiperSlide>
             </Swiper>
             <div className="swiper-button-prev"></div>
@@ -240,12 +255,21 @@ const Home = () => {
           <div className="row justify-center text-center">
             <div className="col-auto">
               <div className="sectionTitle ">
-                <h2 className="sectionTitle__title text-green-1">
+                <h2 className="sectionTitle__title"
+                  style={{
+                    color: "#000",
+                    textTransform: "uppercase"
+                  }}
+                >
                   Counselling & Support
                 </h2>
 
-                <p className="sectionTitle__text text-white ">
-                  Assistance, guidance and support with solution to questions, personalized Counselling and connection with student community.
+                <p className="sectionTitle__text"
+                  style={{
+                    color: "#000",
+                    fontSize: '17px'
+                  }}>
+                  Assistance,Guidance and Support with Personalized Counselling, Customised Solution and Connection with Student Community.
                 </p>
               </div>
             </div>
@@ -260,27 +284,34 @@ const Home = () => {
               <div className="flip-card m-0 mw-100">
                 <div className="flip-card-inner">
                   <div className="flip-card-front">
+
+                    <p className="heading"
+                      style={{ marginRight: "0", textAlign: "start", marginLeft: "20px", textTransform: "uppercase", color: "#000", marginTop: "30px" }}
+                    >
+                      <b>Expert Counselling</b>
+                    </p>
+                    <hr />
                     <img
                       src="img/testimonials/1.png"
                       alt="image"
-                      style={{ width: "60px", height: "60px" }}
+                      style={{ width: "60px", height: "60px", marginTop: "0" }}
                     />
                     <p style={{ color: "black" }}>Courtney Henry</p>
-                    <p className="name4">Expert Counselling</p>
+                    {/* <p className="name4">Expert Counselling</p> */}
                   </div>
                   <div className="flip-card-back">
-                    <p className="heading">
-                      <b>Great Work</b>
+                    <p className="heading"
+                      style={{ marginRight: "0", textAlign: "start", marginLeft: "20px", textTransform: "uppercase" }}
+                    >
+                      <b>Expert Counselling</b>
                     </p>
                     <hr />
-                    <p className="heading1">
+                    <p className="heading1"
+                      style={{ fontSize: "17px", marginRight: "20px" }}
+                    >
                       {" "}
-                      “Personalized couselling from expert regading colleges, admissions, eligibility, education loan, etc.
-                      Video Couselling also available. ”
+                      “Personalized counseling from experts concerning colleges, admissions, eligibility, education loan, etc. Video Counselling also available.”
                     </p>
-                    <hr />
-                    <h5 className="name1">Courtney Henry</h5>
-                    <h6 className="name2">Expert Counselling</h6>
                   </div>
                 </div>
               </div>
@@ -292,26 +323,32 @@ const Home = () => {
               <div className="flip-card m-0 mw-100">
                 <div className="flip-card-inner">
                   <div className="flip-card-front">
+                    <p className="heading"
+                      style={{ marginRight: "0", textAlign: "start", marginLeft: "20px", textTransform: "uppercase", marginTop: "30px", color: "#000" }}
+                    >
+                      <b>Virtual Seminar</b>
+                    </p>
+                    <hr />
                     <img
                       src="img/testimonials/2.png"
                       alt="image"
-                      style={{ width: "60px", height: "60px" }}
+                      style={{ width: "60px", height: "60px", marginTop: "0" }}
                     />
                     <p style={{ color: "black" }}>Ronald Richards</p>
-                    <p className="name4">Virtual Seminar</p>
                   </div>
                   <div className="flip-card-back">
-                    <p className="heading">
-                      <b>Great Work</b>
+                    <p className="heading"
+                      style={{ marginRight: "0", textAlign: "start", marginLeft: "20px", textTransform: "uppercase" }}
+                    >
+                      <b>VIRTUAL SEMINAR</b>
                     </p>
                     <hr />
-                    <p className="heading1">
+                    <p className="heading1"
+                      style={{ fontSize: "17px", marginRight: "20px" }}
+                    >
                       {" "}
-                      “Attend seminar of your favourite college from your home. Register for Seminar updates.”
+                      “Attend seminars of your favourite college from anywhere. Register for Seminar / Webinar updates.”
                     </p>
-                    <hr />
-                    <h5 className="name1">Ronald Richards</h5>
-                    <h6 className="name2">Virtual Seminar</h6>
                   </div>
                 </div>
               </div>
@@ -323,26 +360,33 @@ const Home = () => {
               <div className="flip-card m-0 mw-100">
                 <div className="flip-card-inner">
                   <div className="flip-card-front">
+                    <p className="heading"
+                      style={{ marginRight: "0", textAlign: "start", marginLeft: "20px", textTransform: "uppercase", marginTop: "30px", color: "#000" }}
+                    >
+                      <b>Q and A</b>
+                    </p>
+                    <hr />
                     <img
                       src="img/testimonials/4.png"
                       alt="image"
-                      style={{ width: "60px", height: "60px" }}
+                      style={{ width: "60px", height: "60px", marginTop: "0" }}
                     />
                     <p style={{ color: "black" }}>Annette Black</p>
-                    <p className="name4">Q and A</p>
                   </div>
                   <div className="flip-card-back">
-                    <p className="heading">
-                      <b>Great Work</b>
+                    <p className="heading"
+                      style={{ marginRight: "0", textAlign: "start", marginLeft: "20px", textTransform: "uppercase" }}
+                    >
+                      <b>Q and A</b>
                     </p>
                     <hr />
-                    <p className="heading1">
+                    <p className="heading1"
+                      style={{ fontSize: "17px", marginRight: "20px" }}
+                    >
                       {" "}
-                      “post your questions and get it answered by the experts and students themselves.”
+                      “Post your question and get it answered by the experts and students themselves.”
                     </p>
                     <hr />
-                    <h5 className="name1">Annette Black</h5>
-                    <h6 className="name2">Q and A</h6>
                   </div>
                 </div>
               </div>
@@ -358,7 +402,7 @@ const Home = () => {
           <div className="row justify-center text-center">
             <div className="col-auto">
               <div className="sectionTitle section2-amz">
-                <h2 className="sectionTitle__title text-white">
+                <h2 className="sectionTitle__title text-white text-uppercase">
                   Popular Choices
                 </h2>
 
@@ -371,152 +415,168 @@ const Home = () => {
 
           <div className="row row-cols-1 row-cols-sm-2  row-cols-md-2 row-cols-lg-3 g-4 pt-40">
             <div className="col ms-0">
-              <div className="stepCard -type-1 -stepCard-hover h-100">
-                <div className="stepCard__content  h-100">
-                  <div className="stepCard__icon">
-                    <i className="icon-online-learning-4 text-64 text-green-1"></i>
+              <a href="">
+                <div className="stepCard -type-1 -stepCard-hover h-100">
+                  <div className="stepCard__content  h-100">
+                    <div className="stepCard__icon">
+                      <i className="icon-online-learning-4 text-64 text-green-1"></i>
+                    </div>
+                    <h4 className="stepCard__title">Colleges</h4>
+                    <p className="stepCard__text">
+                      {" "}
+                      Find your dream college based on your location, fees, specialization and more choices.
+                    </p>
                   </div>
-                  <h4 className="stepCard__title">01. Colleges</h4>
-                  <p className="stepCard__text">
-                    {" "}
-                    Find your dream college based on your location, fees, specialization and more choices.
-                  </p>
                 </div>
-              </div>
+              </a>
             </div>
 
             <div className="col ms-0">
-              <div className="stepCard -type-1 -stepCard-hover h-100">
-                <div className="stepCard__content  h-100">
-                  <div className="stepCard__icon">
-                    <i className="icon-graduation-1 text-64 text-green-1"></i>
-                  </div>
-                  <h4 className="stepCard__title">02. MBA Specializations</h4>
-                  <p className="stepCard__text">
-                    {" "}
-                    Learn and choose from 30 plus specialization options.
+              <a href="/mba-more-specialisations">
+                <div className="stepCard -type-1 -stepCard-hover h-100">
+                  <div className="stepCard__content  h-100">
+                    <div className="stepCard__icon">
+                      <i className="icon-graduation-1 text-64 text-green-1"></i>
+                    </div>
+                    <h4 className="stepCard__title">MBA Specializations</h4>
+                    <p className="stepCard__text">
+                      {" "}
+                      Learn and choose from 30 plus specialization options.
 
-                  </p>
+                    </p>
+                  </div>
                 </div>
-              </div>
+              </a>
             </div>
 
             <div className="col ms-0">
-              <div className="stepCard -type-1 -stepCard-hover h-100">
-                <div className="stepCard__content  h-100">
-                  <div className="stepCard__icon">
-                    <i className="icon-working-at-home-2 text-64 text-green-1"></i>
-                  </div>
-                  <h4 className="stepCard__title">03. Compare Colleges</h4>
-                  <p className="stepCard__text">
-                    {" "}
-                    Choose the best college. Compare them with best alternatives.
+              <a href="/compare-college">
+                <div className="stepCard -type-1 -stepCard-hover h-100">
+                  <div className="stepCard__content  h-100">
+                    <div className="stepCard__icon">
+                      <i className="icon-working-at-home-2 text-64 text-green-1"></i>
+                    </div>
+                    <h4 className="stepCard__title">Compare Colleges</h4>
+                    <p className="stepCard__text">
+                      {" "}
+                      Choose the best college. Compare them with best alternatives.
 
-                  </p>
+                    </p>
+                  </div>
                 </div>
-              </div>
+              </a>
             </div>
 
             <div className="col ms-0">
-              <div className="stepCard -type-1 -stepCard-hover h-100">
-                <div className="stepCard__content  h-100">
-                  <div className="stepCard__icon">
-                    <i className="icon-online-learning-4 text-64 text-green-1"></i>
-                  </div>
-                  <h4 className="stepCard__title">04. Top NIRF Colleges</h4>
-                  <p className="stepCard__text">
-                    {" "}
-                    Check the top MBA Colleges of India.
+              <a href="/college-list?m=NIRF%20MBA%20College%20Ranking">
+                <div className="stepCard -type-1 -stepCard-hover h-100">
+                  <div className="stepCard__content  h-100">
+                    <div className="stepCard__icon">
+                      <i className="icon-online-learning-4 text-64 text-green-1"></i>
+                    </div>
+                    <h4 className="stepCard__title">Top NIRF Colleges</h4>
+                    <p className="stepCard__text">
+                      {" "}
+                      Check the top MBA Colleges of India.
 
-                  </p>
+                    </p>
+                  </div>
                 </div>
-              </div>
+              </a>
             </div>
 
             <div className="col ms-0">
-              <div className="stepCard -type-1 -stepCard-hover h-100">
-                <div className="stepCard__content  h-100">
-                  <div className="stepCard__icon">
-                    <i className="icon-graduation-1 text-64 text-green-1"></i>
+              <a href="/college-list?city=New%20Delhi">
+                <div className="stepCard -type-1 -stepCard-hover h-100">
+                  <div className="stepCard__content  h-100">
+                    <div className="stepCard__icon">
+                      <i className="icon-graduation-1 text-64 text-green-1"></i>
+                    </div>
+                    <h4 className="stepCard__title">TOP Delhi / NCR Colleges</h4>
+                    <p className="stepCard__text">
+                      {" "}
+                      Check the top MBA Colleges of Delhi / NCR.
+                    </p>
                   </div>
-                  <h4 className="stepCard__title">05. TOP Delhi / NCR Colleges</h4>
-                  <p className="stepCard__text">
-                    {" "}
-                    Check the top MBA Colleges of Delhi / NCR.
-                  </p>
                 </div>
-              </div>
+              </a>
             </div>
 
             <div className="col ms-0">
-              <div className="stepCard -type-1 -stepCard-hover h-100">
-                <div className="stepCard__content  h-100">
-                  <div className="stepCard__icon">
-                    <i className="icon-working-at-home-2 text-64 text-green-1"></i>
-                  </div>
-                  <h4 className="stepCard__title">06. Top Pune Colleges</h4>
-                  <p className="stepCard__text">
-                    {" "}
-                    Check the top MBA Colleges of Pune.
+              <a href="/college-list?city=Pune">
+                <div className="stepCard -type-1 -stepCard-hover h-100">
+                  <div className="stepCard__content  h-100">
+                    <div className="stepCard__icon">
+                      <i className="icon-working-at-home-2 text-64 text-green-1"></i>
+                    </div>
+                    <h4 className="stepCard__title">Top Pune Colleges</h4>
+                    <p className="stepCard__text">
+                      {" "}
+                      Check the top MBA Colleges of Pune.
 
-                  </p>
+                    </p>
+                  </div>
                 </div>
-              </div>
+              </a>
             </div>
 
             <div className="col ms-0">
-              <div className="stepCard -type-1 -stepCard-hover h-100">
-                <div className="stepCard__content  h-100">
-                  <div className="stepCard__icon">
-                    <i className="icon-online-learning-4 text-64 text-green-1"></i>
-                  </div>
-                  <h4 className="stepCard__title">07. Top Mumbai Colleges</h4>
-                  <p className="stepCard__text">
-                    {" "}
-                    Check the top MBA Colleges of Mumbai.
+              <a href="/college-list?city=Mumbai">
+                <div className="stepCard -type-1 -stepCard-hover h-100">
+                  <div className="stepCard__content  h-100">
+                    <div className="stepCard__icon">
+                      <i className="icon-online-learning-4 text-64 text-green-1"></i>
+                    </div>
+                    <h4 className="stepCard__title">Top Mumbai Colleges</h4>
+                    <p className="stepCard__text">
+                      {" "}
+                      Check the top MBA Colleges of Mumbai.
 
-                  </p>
+                    </p>
+                  </div>
                 </div>
-              </div>
+              </a>
             </div>
 
             <div className="col ms-0">
-              <div className="stepCard -type-1 -stepCard-hover h-100">
-                <div className="stepCard__content  h-100">
-                  <div className="stepCard__icon">
-                    <i className="icon-graduation-1 text-64 text-green-1"></i>
+              <a href="/college-list?city=Bangalore">
+                <div className="stepCard -type-1 -stepCard-hover h-100">
+                  <div className="stepCard__content  h-100">
+                    <div className="stepCard__icon">
+                      <i className="icon-graduation-1 text-64 text-green-1"></i>
+                    </div>
+                    <h4 className="stepCard__title">Top Bangalore Colleges </h4>
+                    <p className="stepCard__text">
+                      {" "}
+                      Check the top MBA Colleges of Bangalore.
+                    </p>
                   </div>
-                  <h4 className="stepCard__title">08. Top Bangalore Colleges </h4>
-                  <p className="stepCard__text">
-                    {" "}
-                    Check the top MBA Colleges of Bangalore.
-                  </p>
                 </div>
-              </div>
+              </a>
             </div>
 
             <div className="col ms-0">
-              <div className="stepCard -type-1 -stepCard-hover h-100">
-                <div className="stepCard__content  h-100">
-                  <div className="stepCard__icon">
-                    <i className="icon-working-at-home-2 text-64 text-green-1"></i>
+              <a href="/college-list?city=Kolkata">
+                <div className="stepCard -type-1 -stepCard-hover h-100">
+                  <div className="stepCard__content  h-100">
+                    <div className="stepCard__icon">
+                      <i className="icon-working-at-home-2 text-64 text-green-1"></i>
+                    </div>
+                    <h4 className="stepCard__title">Top Kolkata Colleges</h4>
+                    <p className="stepCard__text">
+                      {" "}
+                      Check the top MBA Colleges of Kolkata.
+                    </p>
                   </div>
-                  <h4 className="stepCard__title">09. Top Kolkata Colleges</h4>
-                  <p className="stepCard__text">
-                    {" "}
-                    Check the top MBA Colleges of Kolkata.
-
-
-                  </p>
                 </div>
-              </div>
+              </a>
             </div>
           </div>
         </div>
       </section>
 
 
-      <section className="layout-pt-md layout-pb-md bg-purple-1">
+      {/* <section className="layout-pt-md layout-pb-md bg-purple-1">
         <div className="container">
           <div className="row y-gap-20 justify-between items-center">
             <div className="col-lg-5 col-xl-4">
@@ -534,7 +594,7 @@ const Home = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
 
     </>

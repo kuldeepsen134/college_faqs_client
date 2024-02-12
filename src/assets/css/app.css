@@ -13223,9 +13223,9 @@ h6 {
 }
 
 .navbar {
-  background-color: #fff;
+  /* background-color: #fff; */
   border-bottom: none;
-  box-shadow: 0 0 30px 0 rgba(15, 19, 25, 0.1);
+  /* box-shadow: 0 0 30px 0 rgba(15, 19, 25, 0.1); */
   height: 50px;
   padding: 0;
   position: fixed;
@@ -19294,7 +19294,7 @@ section:nth-child(1) {
 .hero-banner .row img {
   width: 100%;
   max-width: 100%;
-  height: 300px;
+  height: 200px;
   object-fit: cover;
 }
 
@@ -19721,7 +19721,7 @@ form.contact-form input[type="password"] {
 
 @media (max-width: 1024px) {
   .home-page {
-    padding-top: 70px !important;
+    padding-top: 170px !important;
     padding-bottom: 180px !important;
   }
 
@@ -19780,6 +19780,25 @@ form.contact-form input[type="password"] {
   margin-bottom: 1rem;
 }
 
+
 main {
   overflow: inherit !important;
+}
+
+.header.-type-1 {
+  background-color: #89cff0;
+  box-shadow: 0 0 30px 0 rgba(15, 19, 25, 0.1);
+}
+
+header.-type-1 .dropdown {
+  color: #970833;
+}
+
+.margin-left-25 {
+  margin-left: 40px !important;
+}
+
+.header #search:focus::placeholder,
+.header #search:focus::-webkit-input-placeholder, .masthead.home-page input:focus::placeholder {
+  color: #fff !important;
 }

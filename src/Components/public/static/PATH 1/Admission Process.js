@@ -33,7 +33,7 @@ const AdmissionProcess = () => {
           className=" cont"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
-            <b style={{ fontSize: '11pt' }}> 1: Register &amp; Apply for Entrance Exam  </b>
+          <b style={{ fontSize: '11pt' }}> 1: Register &amp; Apply for Entrance Exam  </b>
         </p>
         <p
           className=" cont"
@@ -57,7 +57,7 @@ const AdmissionProcess = () => {
           className=" cont"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
-            <b style={{ fontSize: '11pt' }}> 2: Appear in Entrance Exam  </b>
+          <b style={{ fontSize: '11pt' }}> 2: Appear in Entrance Exam  </b>
         </p>
         <p
           className=" cont"
@@ -166,12 +166,12 @@ const AdmissionProcess = () => {
                 }}
                 width={110}
                 valign="top"
-              >
+                >
                 <p
                   className=" cont"
                   style={{
+                    textAlign: "center",
                     marginBottom: "0in",
-                    textAlign: "justify",
                     textJustify: "inter-ideograph",
                     lineHeight: "normal",
                   }}
@@ -195,12 +195,12 @@ const AdmissionProcess = () => {
                   className=" cont"
                   style={{
                     marginBottom: "0in",
-                    textAlign: "justify",
+                    textAlign: "center",
                     textJustify: "inter-ideograph",
                     lineHeight: "normal",
                   }}
                 >
-                  Open
+                  Closed
                 </p>
               </td>
               <td
@@ -219,12 +219,12 @@ const AdmissionProcess = () => {
                   className=" cont"
                   style={{
                     marginBottom: "0in",
-                    textAlign: "justify",
+                    textAlign: "center",
                     textJustify: "inter-ideograph",
                     lineHeight: "normal",
                   }}
                 >
-                  November 27, 2022
+                  November 26, 2023
                 </p>
               </td>
             </tr>
@@ -243,7 +243,7 @@ const AdmissionProcess = () => {
                   className=" cont"
                   style={{
                     marginBottom: "0in",
-                    textAlign: "justify",
+                    textAlign: "center",
                     textJustify: "inter-ideograph",
                     lineHeight: "normal",
                   }}
@@ -267,12 +267,12 @@ const AdmissionProcess = () => {
                   className=" cont"
                   style={{
                     marginBottom: "0in",
-                    textAlign: "justify",
+                    textAlign: "center",
                     textJustify: "inter-ideograph",
                     lineHeight: "normal",
                   }}
                 >
-                  Open
+                  Closed
                 </p>
               </td>
               <td
@@ -291,34 +291,34 @@ const AdmissionProcess = () => {
                   className=" cont"
                   style={{
                     marginBottom: "0in",
-                    textAlign: "justify",
+                    textAlign: "center",
                     textJustify: "inter-ideograph",
                     lineHeight: "normal",
                   }}
                 >
-                  December 10, 2022
+                  December 10, 2023
                 </p>
                 <p
                   className=" cont"
                   style={{
                     marginBottom: "0in",
-                    textAlign: "justify",
+                    textAlign: "center",
                     textJustify: "inter-ideograph",
                     lineHeight: "normal",
                   }}
                 >
-                  December 18, 2022
+                  December 17, 2023
                 </p>
                 <p
                   className=" cont"
                   style={{
                     marginBottom: "0in",
-                    textAlign: "justify",
+                    textAlign: "center",
                     textJustify: "inter-ideograph",
                     lineHeight: "normal",
                   }}
                 >
-                  December 23, 2022
+                  December 22, 2023
                 </p>
               </td>
             </tr>
@@ -337,7 +337,7 @@ const AdmissionProcess = () => {
                   className=" cont"
                   style={{
                     marginBottom: "0in",
-                    textAlign: "justify",
+                    textAlign: "center",
                     textJustify: "inter-ideograph",
                     lineHeight: "normal",
                   }}
@@ -361,12 +361,12 @@ const AdmissionProcess = () => {
                   className=" cont"
                   style={{
                     marginBottom: "0in",
-                    textAlign: "justify",
+                    textAlign: "center",
                     textJustify: "inter-ideograph",
                     lineHeight: "normal",
                   }}
                 >
-                  Open
+                  Closed
                 </p>
               </td>
               <td
@@ -385,12 +385,12 @@ const AdmissionProcess = () => {
                   className=" cont"
                   style={{
                     marginBottom: "0in",
-                    textAlign: "justify",
+                    textAlign: "center",
                     textJustify: "inter-ideograph",
                     lineHeight: "normal",
                   }}
                 >
-                  74 days test window
+                  81 days test window
                 </p>
               </td>
             </tr>
@@ -408,7 +408,7 @@ const AdmissionProcess = () => {
         >
           For detailed information about all the exams and dates,{" "}
           <span style={{ color: "red" }}>
-            <Link to="/cms?page=all-mba-exams">click here</Link>
+            <Link to="/cat-2022">click here</Link>
           </span>
           .
         </p>
@@ -430,7 +430,7 @@ const AdmissionProcess = () => {
           className=" cont"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
-            <b style={{ fontSize: '11pt' }}> 3: Results and Cut-off  </b>
+          <b style={{ fontSize: '11pt' }}> 3: Results and Cut-off  </b>
         </p>
         <p
           className=" cont"
@@ -445,7 +445,7 @@ const AdmissionProcess = () => {
           className=" cont"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
-            <b style={{ fontSize: '11pt' }}> 4. Apply for College / Institution   </b>
+          <b style={{ fontSize: '11pt' }}> 4. Apply for College / Institution   </b>
         </p>
         <p
           className=" cont"
@@ -463,7 +463,7 @@ const AdmissionProcess = () => {
           className=" cont"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
-            <b style={{ fontSize: '11pt' }}> 5: Shortlisting Process  </b>
+          <b style={{ fontSize: '11pt' }}> 5: Shortlisting Process  </b>
         </p>
         <p
           className=" cont"
@@ -481,7 +481,7 @@ const AdmissionProcess = () => {
           className=" cont"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
         >
-            <b style={{ fontSize: '11pt' }}> 6: Final Admission Process- GD-PI-WAT Round  </b>
+          <b style={{ fontSize: '11pt' }}> 6: Final Admission Process- GD-PI-WAT Round  </b>
         </p>
         <p
           className=" cont"
@@ -506,7 +506,7 @@ const AdmissionProcess = () => {
         >
           <b>FAQs on MBA and PGDM Admission</b>
         </p>
-       
+
         <p
           className=" cont headings"
           style={{ textAlign: "justify", textJustify: "inter-ideograph" }}
@@ -523,7 +523,7 @@ const AdmissionProcess = () => {
           as well as entrance exam score basis. To check out the admission
           process of respective colleges,{" "}
           <span style={{ color: "red" }}>
-            <Link to="/college-list?m=Top%20Private%20MBA%20Colleges">
+            <Link to="/college-list?m=NIRF%20MBA%20College%20Ranking">
               click here
             </Link>
           </span>

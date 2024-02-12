@@ -1,0 +1,23 @@
+
+ 
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+/* div.WordSection1
+	{page:WordSection1;} */
+ /* List Definitions */
+ ol
+	{margin-bottom:0in;}
+ul
+	{margin-bottom:0in;}
+
+	.table, th, td {
+		border: 1px solid black;
+		border-collapse: collapse;
+	
+	  }
+
+.bold1{
+	font-weight: bold;
+}
+

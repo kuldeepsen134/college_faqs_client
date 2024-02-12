@@ -22,47 +22,6 @@ export const menuJs = [
             path: "/admission-process",
           },
           {
-            name: "IIM Admission Criteria",
-            children: [
-              {
-                name: "IIM Ahmedabad",
-                path: "/admission-process",
-              },
-              {
-                name: "IIM Bangalore",
-                path: "/cms?page=admission-process",
-              },
-              {
-                name: "IIM - CALCUTTA",
-                path: "/cms?page=admission-process",
-              },
-              {
-                name: "IIM Lucknow",
-                path: "/cms?page=admission-process",
-              },
-              {
-                name: "IIM Indore",
-                path: "/cms?page=admission-process",
-              },
-              {
-                name: "IIM Kozhikode",
-                path: "/cms?page=admission-process",
-              },
-              {
-                name: "IIM Kashipur",
-                path: "/cms?page=admission-process",
-              },
-              {
-                name: "IIM Raipur",
-                path: "/cms?page=admission-process",
-              },
-              {
-                name: "All IIMs",
-                path: "/cms?page=admission-process",
-              },
-            ],
-          },
-          {
             name: "New IIMS Process - CAP",
             path: "/admission-process",
           },

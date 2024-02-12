@@ -88,7 +88,7 @@ const ContactUs = () => {
 									<div class="form-group">
 										<textarea
 											class="form-control"
-											rows="3"
+											rows="5"
 											name='message'
 											placeholder="Type your message here"
 											onChange={formik.handleChange}
