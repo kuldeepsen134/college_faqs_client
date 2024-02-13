@@ -9,7 +9,7 @@ import Home from "../Pages/Home";
 import { MainRoutes, AuthRoutes, DefaultRoutes, ProtectedRoutes } from "./path";
 
 const RoutesComponent = () => {
-  const loadRoutes = (
+  const loadRoutes: any = (
     routes: Array<RoutesType>,
     Layout: ElementType = Fragment,
     isMain: Boolean

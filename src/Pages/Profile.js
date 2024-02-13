@@ -4,6 +4,7 @@ import useAuth from "../hooks/useAuth";
 
 import StatusToast from "../Components/StatusToast";
 import { toast } from "react-toastify";
+import { BASE_URL, STATIC_URL } from "../config/config";
 
 const Profile = () => {
   const { auth, setAuth } = useAuth();
@@ -11,6 +12,8 @@ const Profile = () => {
   const [lname, setlName] = useState("");
   const [email, setEmail] = useState("");
   const [mobile, setMobile] = useState("");
+  const [profilePic, seprofilePic] = useState("");
+
 
   const handleLogout = () => {
     setAuth({});
@@ -34,6 +37,7 @@ const Profile = () => {
       setlName(response?.data?.user?.name?.split(" ")[1]);
       setEmail(response?.data?.user?.email);
       setMobile(response?.data?.user?.mobile);
+      seprofilePic(response?.data?.user?.profile_url)
     };
     fetchProfile();
   }, []);
@@ -94,7 +98,7 @@ const Profile = () => {
                         <div className="col-auto">
                           <img
                             className="size-100"
-                            src="img/dashboard/edit/1.png"
+                            src={`${STATIC_URL}/images/${profilePic && profilePic}`}
                             alt="image"
                           />
                         </div>
