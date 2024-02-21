@@ -72,14 +72,11 @@ const Signup = () => {
 
     const formData = new FormData();
 
-    if (files[0]) {
       formData.append("profile_url", files[0]);
       formData.append("name", name);
       formData.append("email", email);
       formData.append("mobile_number", number);
       formData.append("password", password);
-    }
-
 
 
     if (isSubmit) return;
@@ -96,8 +93,6 @@ const Signup = () => {
     try {
       const toastId = toast.loading("Registering...");
       const response = await axios.post("/register", formData);
-      
-      console.log('response.data>>>>>>3333', response.data);
 
       if (!response.data.success) {
         toast.update(toastId, {
